@@ -25,6 +25,8 @@ export default async function loadAll(flush = false) {
   process.exit(); // Will async-hang if called from command line without this.
 }
 
+// TODO: Add scripts to download data assets
+
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
  * in the /assets folder. It's big. Each line is an object and looks like this:
@@ -90,9 +92,9 @@ export async function loadWiktionaryData() {
     }
   });
 
-  // Process any remaining batches.
   await new Promise((resolve) =>
     rl.on('close', async () => {
+      // Process any remaining batches.
       unloadCurrentBatch();
       while (batches.length) {
         await processBatch();
