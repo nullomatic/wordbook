@@ -10,15 +10,22 @@
     "reset": "node -e \"import('./data/loaders.mjs').then(module => module.default(true))\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "lodash": "^4.17.21",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "redis": "^4.6.14"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/redis": "^4.0.11",
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12",
     "csvtojson": "^2.0.10",
