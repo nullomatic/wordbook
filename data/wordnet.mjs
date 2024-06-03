@@ -5,15 +5,63 @@ import { getAssetURI } from './util.mjs';
 import { fileURLToPath } from 'url';
 import YAML from 'yaml';
 
-const obj = JSON.parse(await client.get('word:aardvark'));
+await fn();
 
-console.log(JSON.stringify(obj, null, 2));
+function clean(str) {
+  return str
+    .replace(/\([^)]*\)/g, '')
+    .replace(/\[[^\]]*\]/g, '')
+    .trim();
+}
 
-const synset = JSON.parse(
-  await client.get(`synset:${obj.n.sense.shift().synset}:similar`)
-);
+async function fn() {
+  const file = readFileSync('./data/assets/moot.json');
+  const obj = JSON.parse(file);
+  const words = {};
 
-console.log(JSON.stringify(synset, null, 2));
+  const sus = []; // todo
+
+  const h = function (entry, type) {
+    const str = clean(entry[type]);
+    if (!str || /^\s?-\s?$/.test(str)) {
+      return;
+    }
+    const eng = clean(entry.eng);
+    const pos = entry.pos;
+    const arr = str.split(/[,;]/g);
+    for (let word of arr) {
+      word = word.trim();
+      if (/^\w+([-\s]\w+)*$/.test(word) && /^(n|vb|adj|adv)$/.test(pos)) {
+        if (!words[word]) {
+          words[word] = [];
+        }
+        words[word].push({
+          en: eng,
+          pos: pos,
+        });
+      } else {
+        // TODO handle sus word
+        sus.push(entry);
+      }
+    }
+  };
+
+  for (const letter in obj) {
+    const entries = obj[letter];
+    for (const entry of entries) {
+      h(entry, 'att');
+      h(entry, 'una');
+    }
+  }
+  const ordered = Object.keys(words)
+    .sort()
+    .reduce((obj, key) => {
+      obj[key] = words[key];
+      return obj;
+    }, {});
+
+  console.log(words);
+}
 
 /**
  * TODO
