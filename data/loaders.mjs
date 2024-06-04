@@ -41,7 +41,10 @@ export async function loadWiktionaryData() {
   console.time('loadWiktionaryData');
   console.log('Loading Wiktionary data into Redis...');
 
-  const BATCH_SIZE = 50000; // Adjust to keep memory usage down.
+  // Adjust to keep memory under Node limit.
+  // Alternatively, adjust --max-old-space-size.
+  const BATCH_SIZE = 50000;
+
   const uri = getAssetURI('kaikki-en.json');
   const stream = createReadStream(uri);
   const rl = createInterface({ input: stream });

@@ -21,3 +21,7 @@ export function replaceKeyPattern(options) {
 export function getAssetURI(filename) {
   return join(dirname(fileURLToPath(import.meta.url)), `/assets/${filename}`);
 }
+
+export function getDirname(path) {
+  return join(dirname(fileURLToPath(import.meta.url)), path);
+}

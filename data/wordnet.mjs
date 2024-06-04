@@ -4,6 +4,7 @@ import { client } from './redis.mjs';
 import { getAssetURI } from './util.mjs';
 import { fileURLToPath } from 'url';
 import YAML from 'yaml';
+import { openai } from './gpt.mjs';
 
 await fn();
 
@@ -17,7 +18,7 @@ function clean(str) {
 async function fn() {
   const file = readFileSync('./data/assets/moot.json');
   const obj = JSON.parse(file);
-  const words = {};
+  const senses = {};
 
   const sus = []; // todo
 
@@ -26,16 +27,19 @@ async function fn() {
     if (!str || /^\s?-\s?$/.test(str)) {
       return;
     }
-    const eng = clean(entry.eng);
+    let eng = clean(entry.eng);
+    if (/,/.test(eng)) {
+      eng = eng.split(',').shift();
+    }
     const pos = entry.pos;
     const arr = str.split(/[,;]/g);
     for (let word of arr) {
       word = word.trim();
       if (/^\w+([-\s]\w+)*$/.test(word) && /^(n|vb|adj|adv)$/.test(pos)) {
-        if (!words[word]) {
-          words[word] = [];
+        if (!senses[word]) {
+          senses[word] = [];
         }
-        words[word].push({
+        senses[word].push({
           en: eng,
           pos: pos,
         });
@@ -53,20 +57,58 @@ async function fn() {
       h(entry, 'una');
     }
   }
-  const ordered = Object.keys(words)
+  const ordered = Object.keys(senses)
     .sort()
     .reduce((obj, key) => {
-      obj[key] = words[key];
+      obj[key] = senses[key];
       return obj;
     }, {});
 
-  console.log(words);
+  //console.log(Object.keys(senses));
+
+  const an_word = 'daresome';
+  const arr = [...senses[an_word]];
+
+  console.log(an_word, arr);
+
+  let key, res;
+  while (!res && arr.length) {
+    key = `word:${arr.shift().en}`;
+    res = await client.get(key);
+  }
+  let o = JSON.parse(res);
+  console.log(key, JSON.stringify(o, null, 2));
+
+  key = `synset:${o.a.sense.shift().synset}`;
+  const synset = await client.get(key);
+  o = JSON.parse(synset);
+  console.log(key, JSON.stringify(o, null, 2));
+  process.exit();
+  return;
+  const completion = await openai.chat.completions.create({
+    messages: [
+      {
+        role: 'system',
+        content:
+          'You are not a very helpful assistant. Whatever you do, do not give a straight or relevant answer.',
+      },
+      { role: 'user', content: 'Who won the world series?' },
+      {
+        role: 'assistant',
+        content: 'I like turtles.',
+      },
+      { role: 'user', content: 'Where was it played?' },
+    ],
+    model: 'gpt-4o',
+  });
+
+  console.log(completion);
 }
 
 /**
- * TODO
+ * Loads YAML data from Global WordNet repo.
  **/
-export default async function loadYAML(flush = false) {
+export default async function loadYAML(options) {
   console.time('loadYAML');
 
   const dirname = '../english-wordnet/src/yaml';
@@ -83,6 +125,7 @@ export default async function loadYAML(flush = false) {
     if (/^entries/.test(filename)) {
       const promises = [];
       for (const k in yaml) {
+        // TODO: set all to lowercase, handle collisions
         const wordKey = `word:${k}`;
         const obj = yaml[k];
         const command = client.set(wordKey, JSON.stringify(obj));

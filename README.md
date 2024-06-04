@@ -8,3 +8,10 @@
 - add translator
 - add "word of the day" widget
 - add fake ads
+
+if the word already exists in English, just add 'an' tag.
+else, create a new entry. try to collect accurate senses and link them to the right synsets.
+
+combine moot.json + wordbook.json => entries
+
+make Anglish examples out of English
