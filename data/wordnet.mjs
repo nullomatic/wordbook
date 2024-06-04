@@ -1,12 +1,12 @@
 import { createReadStream, readFileSync, readdirSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { client } from './redis.mjs';
-import { getAssetURI } from './util.mjs';
+import { redis } from './redis.mjs';
+import { getPath } from './util.mjs';
 import { fileURLToPath } from 'url';
 import YAML from 'yaml';
 import { openai } from './gpt.mjs';
 
-await fn();
+await parseMootJSON();
 
 function clean(str) {
   return str
@@ -15,8 +15,10 @@ function clean(str) {
     .trim();
 }
 
-async function fn() {
-  const file = readFileSync('./data/assets/moot.json');
+// TODO: move this to MootLoader
+async function parseMootJSON() {
+  const uri = getPath('/assets/moot.json');
+  const file = readFileSync(uri);
   const obj = JSON.parse(file);
   const senses = {};
 
@@ -74,13 +76,13 @@ async function fn() {
   let key, res;
   while (!res && arr.length) {
     key = `word:${arr.shift().en}`;
-    res = await client.get(key);
+    res = await redis.get(key);
   }
   let o = JSON.parse(res);
   console.log(key, JSON.stringify(o, null, 2));
 
   key = `synset:${o.a.sense.shift().synset}`;
-  const synset = await client.get(key);
+  const synset = await redis.get(key);
   o = JSON.parse(synset);
   console.log(key, JSON.stringify(o, null, 2));
   process.exit();
@@ -111,7 +113,7 @@ async function fn() {
 export default async function loadYAML(options) {
   console.time('loadYAML');
 
-  const dirname = '../english-wordnet/src/yaml';
+  const dirname = getPath('/assets/yaml');
   const filenames = readdirSync(dirname);
   const synsets = {};
 
@@ -128,7 +130,7 @@ export default async function loadYAML(options) {
         // TODO: set all to lowercase, handle collisions
         const wordKey = `word:${k}`;
         const obj = yaml[k];
-        const command = client.set(wordKey, JSON.stringify(obj));
+        const command = redis.set(wordKey, JSON.stringify(obj));
         promises.push(command);
       }
       await Promise.all(promises);
@@ -141,7 +143,7 @@ export default async function loadYAML(options) {
         const synonymsKey = `synset:${key}:similar`;
         const obj = yaml[key];
         synsets[key] = obj;
-        const command = client.set(synsetKey, JSON.stringify(obj));
+        const command = redis.set(synsetKey, JSON.stringify(obj));
         promises.push(command);
       }
       await Promise.all(promises);
@@ -169,7 +171,7 @@ export default async function loadYAML(options) {
     const similarWords = synset.members || [];
     addSimilar(synset.hypernym, similarWords);
     addSimilar(synset.similar, similarWords);
-    const command = client.set(similarKey, JSON.stringify(similarWords));
+    const command = redis.set(similarKey, JSON.stringify(similarWords));
     promises.push(command);
   }
   await Promise.all(promises);

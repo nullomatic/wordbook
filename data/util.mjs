@@ -1,6 +1,8 @@
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
+const DIRNAME = dirname(fileURLToPath(import.meta.url));
+
 // This pattern determines the shape of word entry keys in Redis.
 // e.g., `en:aardvark:noun:1`, where `1` represents the etymological
 // index of the word for words that have multiple meanings.
@@ -18,10 +20,6 @@ export function replaceKeyPattern(options) {
   });
 }
 
-export function getAssetURI(filename) {
-  return join(dirname(fileURLToPath(import.meta.url)), `/assets/${filename}`);
-}
-
-export function getDirname(path) {
-  return join(dirname(fileURLToPath(import.meta.url)), path);
+export function getPath(suffix) {
+  return join(DIRNAME, suffix);
 }

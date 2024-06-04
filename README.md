@@ -9,9 +9,7 @@
 - add "word of the day" widget
 - add fake ads
 
-if the word already exists in English, just add 'an' tag.
-else, create a new entry. try to collect accurate senses and link them to the right synsets.
-
-combine moot.json + wordbook.json => entries
-
-make Anglish examples out of English
+1. Make definitive compendium of Anglish words (Moot + Wordbook)
+2. Loop through words; if the word already exists in English, just add 'an' tag to WordNet data
+3. Else, create a new entry and link to the correct synsets
+4. Make Anglish example usages out of English
