@@ -162,44 +162,48 @@ export class WordbookLoader {
     console.time('loadWordbook');
     console.log('Loading Anglish Wordbook data...');
 
-    try {
+    if (!options.save) {
       // Attempt to read JSON from disk before parsing CSV.
-      const file = readFileSync(getPath('/assets/wordbook.json'));
-      this.data = JSON.parse(file);
-      console.timeEnd('loadWordbook');
-      return this;
-    } catch (e) {}
+      // If `options.save` is specified, assume we want to reload the data.
+      try {
+        const file = readFileSync(getPath('/assets/wordbook.json'));
+        this.data = JSON.parse(file);
+        console.timeEnd('loadWordbook');
+        return this;
+      } catch (e) {}
+    }
 
     this.data = [];
     const data = await csv().fromFile(this.uri);
     const promises = [];
 
-    for (const entry of data) {
-      const obj = {
-        word: entry['WORD'],
-        angSpelling: entry['ANG. SPEL.'],
-        meanings: entry['MEANING']
+    for (const item of data) {
+      const entry = {
+        word: item['WORD'],
+        angSpelling: item['ANG. SPEL.'],
+        meanings: item['MEANING']
           .split('᛫')
           .map((str) => str.trim())
           .filter((str) => !!str),
-        kind: entry['KIND'],
-        forebear: entry['FOREBEAR'],
-        from: entry['FROM'],
-        notes: entry['NOTES'],
-        tags: entry['TAGS'],
+        pos: item['KIND'],
+        forebear: item['FOREBEAR'],
+        from: item['FROM'],
+        notes: item['NOTES'],
+        tags: item['TAGS'],
       };
+      this.#reformatPoS(entry);
 
-      this.data.push(obj);
+      this.data.push(entry);
 
       if (options?.redis) {
         const key = replaceKeyPattern({
           lang: 'an',
-          word: obj.word,
-          pos: obj.kind,
+          word: entry.word,
+          pos: entry.pos,
           etym: 1, // TODO
         });
         promises.push(
-          redis.set(key, JSON.stringify(obj)),
+          redis.set(key, JSON.stringify(entry)),
           redis.zAdd('terms', { score: 0, value: key })
         );
       }
@@ -214,6 +218,16 @@ export class WordbookLoader {
 
     console.timeEnd('loadWordbook');
     return this;
+  }
+
+  #reformatPoS(entry) {
+    entry.pos = entry.pos.toLowerCase();
+    if (entry.pos === 'aj') {
+      entry.pos = 'a';
+    }
+    if (entry.pos === 'av') {
+      entry.pos = 'r';
+    }
   }
 }
 
@@ -240,6 +254,17 @@ export class MootLoader {
      * }
      */
     this.data = null;
+    /*
+     * {
+     *   godlore: [{
+     *     en: "theology",
+     *     pos: "n"
+     *   } ...],
+     *   ...
+     * }
+     */
+    this.senses = null;
+    this.dirtyEntries = null;
     this.uri = getPath('/assets/moot.json');
   }
 
@@ -247,13 +272,16 @@ export class MootLoader {
     console.time('loadMoot');
     console.log('Loading Anglish Moot data...');
 
-    try {
+    if (!options.save) {
       // Attempt to read the file from disk before fetching from web.
-      const file = readFileSync(this.uri);
-      this.data = JSON.parse(file);
-      console.timeEnd('loadMoot');
-      return this;
-    } catch (e) {}
+      // If `options.save` is specified, assume we want to reload the data.
+      try {
+        const file = readFileSync(this.uri);
+        this.data = JSON.parse(file);
+        console.timeEnd('loadMoot');
+        return this;
+      } catch (e) {}
+    }
 
     /*
      * Table Column Descriptors
@@ -284,11 +312,13 @@ export class MootLoader {
           const text = cells.each((i, cell) => {
             entry[cols[i]] = $(cell).text().trim();
           });
+
+          this.#reformatPoS(entry);
           dict[letter].push(entry);
 
           // TODO: Should be 'en', but don't overwrite Wiktionary entries
-          const key = `an:${entry.eng}:${entry.pos}`;
-          promises.push(redis.set(key, JSON.stringify(entry)));
+          // const key = `an:${entry.eng}:${entry.pos}`;
+          // promises.push(redis.set(key, JSON.stringify(entry)));
         }
       });
 
@@ -304,6 +334,102 @@ export class MootLoader {
 
     console.timeEnd('loadMoot');
     return this;
+  }
+
+  #reformatPoS(entry) {
+    if (entry.pos === 'vb') {
+      entry.pos = 'v';
+    }
+    if (entry.pos === 'adj') {
+      entry.pos = 'a';
+    }
+    if (entry.pos === 'adv') {
+      entry.pos = 'r';
+    }
+  }
+
+  orderByAnglish() {
+    this.senses = {};
+    this.dirtyEntries = [];
+
+    for (const letter in this.data) {
+      const entries = this.data[letter];
+      for (const entry of entries) {
+        this.#processEntry(entry, 'att');
+        this.#processEntry(entry, 'una');
+      }
+    }
+    const ordered = Object.keys(this.senses)
+      .sort()
+      .reduce((obj, key) => {
+        obj[key] = this.senses[key];
+        return obj;
+      }, {});
+
+    return this;
+
+    //console.log(Object.keys(senses));
+
+    // const an_word = 'daresome';
+    // const arr = [...senses[an_word]];
+
+    // console.log(an_word, arr);
+
+    // let key, res;
+    // while (!res && arr.length) {
+    //   key = `word:${arr.shift().en}`;
+    //   res = await redis.get(key);
+    // }
+    // let o = JSON.parse(res);
+    // console.log(key, JSON.stringify(o, null, 2));
+
+    // key = `synset:${o.a.sense.shift().synset}`;
+    // const synset = await redis.get(key);
+    // o = JSON.parse(synset);
+    // console.log(key, JSON.stringify(o, null, 2));
+  }
+
+  #processEntry(entry, type) {
+    // Clean `att` or `una` field.
+    const anglishWordsStr = this.#cleanStr(entry[type]);
+    if (!anglishWordsStr || /^\s?-\s?$/.test(anglishWordsStr)) {
+      return;
+    }
+    const anglishWords = anglishWordsStr
+      .split(/[,;]/g)
+      .map((word) => word.trim());
+
+    // Clean `eng` field.
+    let englishWord = this.#cleanStr(entry.eng);
+    if (/,/.test(englishWord)) {
+      englishWord = englishWord.split(',').shift();
+    }
+    const partOfSpeech = entry.pos;
+
+    for (const word of anglishWords) {
+      if (
+        /^\w+([-\s]\w+)*$/.test(word) && // word has format 'word' or 'word-word'
+        /^(n|v|a|r)$/.test(partOfSpeech) // `pos` is clean abbreviation
+      ) {
+        if (!this.senses[word]) {
+          this.senses[word] = {};
+        }
+        if (!this.senses[word][partOfSpeech]) {
+          this.senses[word][partOfSpeech] = [];
+        }
+        this.senses[word][partOfSpeech].push(englishWord);
+      } else {
+        // TODO handle sus word
+        this.dirtyEntries.push(entry);
+      }
+    }
+  }
+
+  #cleanStr(str) {
+    return str
+      .replace(/\([^)]*\)/g, '')
+      .replace(/\[[^\]]*\]/g, '')
+      .trim();
   }
 }
 
@@ -344,6 +470,10 @@ export class WordNetLoader {
     try {
       // Attempt to load JSON files before loading and parsing YAML.
       // (Parsing YAML files is much slower than loading directly from JSON.)
+      // If `options.save` is specified, assume we want to reload the data.
+      if (options?.save) {
+        throw new Error();
+      }
       [uris, filenames] = this.#getFilenames(this.dirJSON);
     } catch (e) {
       [uris, filenames] = this.#getFilenames(this.dirYAML);
@@ -409,6 +539,7 @@ export class WordNetLoader {
         // TODO: set all to lowercase, handle collisions
         const wordKey = `word:${k}`;
         const data = json[k];
+        data.languages = ['English'];
         this.data.entries[k] = data;
         // const command = redis.set(wordKey, JSON.stringify(data));
         // promises.push(command);

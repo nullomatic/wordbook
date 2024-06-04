@@ -2,7 +2,7 @@ import { createClient } from 'redis';
 
 export const redis = createClient();
 redis
-  .on('error', (err) => {
+  .on('error', (error) => {
     if (error.code === 'ECONNREFUSED') {
       console.error(
         `Redis client connection error. Start Redis on port ${error.port} before running.`
