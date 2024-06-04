@@ -112,7 +112,7 @@ export default async function loadAll(flush = false) {
     }
 
     if (inWordNet) {
-      // Word is a modern English word, in WordNet.
+      // Word is a modern English word, already in WordNet.
       wordnet.data.entries[key].languages.push('Anglish');
     } else {
       // Word is Anglish. Add WordNet entry.
@@ -135,8 +135,10 @@ export default async function loadAll(flush = false) {
           // TODO: Remove senses that are basically identical.
           // eg: craft:n:vehicle, craft:n:conveyance
           // Use ChatGPT.
+          // eg: const deduped = await removeDuplicateSenses(senses)
 
-          // Then, select the sense from wordnet[word][pos] that matches this sense.
+          // Then, loop over them and select the sense/synset from wordnet[word][pos] that matches this sense.
+          // eg: selectMatchingSense(sense, _senses);
 
           const _entry = wordnet.data.entries[sense];
           if (!_entry) {
