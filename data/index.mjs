@@ -6,6 +6,8 @@ import {
   WordbookLoader,
 } from './loaders.mjs';
 import { redis } from './redis.mjs';
+import * as gpt from './gpt.mjs';
+import _ from 'lodash';
 
 const program = new Command();
 
@@ -30,7 +32,7 @@ export default async function loadAll(flush = false) {
 
   const save = false;
 
-  const wordbook = await new WordbookLoader().load({ save });
+  const wordbook = await new WordbookLoader().load({ save: true });
   const moot = await new MootLoader().load({ save });
   const wordnet = await new WordNetLoader().load({ save });
 
@@ -38,8 +40,8 @@ export default async function loadAll(flush = false) {
   console.log('wordbook.data.length:', wordbook.data.length);
   console.log('Object.keys(moot.data).length:', Object.keys(moot.data).length);
   console.log(
-    'Object.keys(wordnet.data.entries).length:',
-    Object.keys(wordnet.data.entries).length
+    'Object.keys(wordnet.entries).length:',
+    Object.keys(wordnet.entries).length
   );
 
   moot.orderByAnglish();
@@ -50,26 +52,26 @@ export default async function loadAll(flush = false) {
   );
   console.log('moot.dirtyEntries.length', moot.dirtyEntries.length);
 
-  const entries = {};
+  const anglish = {};
 
-  // Parse Moot entries.
+  // Parse Moot anglish.
   for (const word in moot.senses) {
-    if (!entries[word]) {
-      entries[word] = {};
+    if (!anglish[word]) {
+      anglish[word] = {};
     }
-    const entry = entries[word];
+    const entry = anglish[word];
     for (const pos in moot.senses[word]) {
       if (!entry[pos]) {
         entry[pos] = {
-          senses: moot.senses[word][pos].map((meaning) => ({
-            meaning: meaning,
+          senses: moot.senses[word][pos].map((sense) => ({
+            sense: sense,
             source: 'moot',
           })),
         };
       } else {
         entry[pos].senses.push(
-          ...moot.senses[word][pos].map((meaning) => ({
-            meaning: meaning,
+          ...moot.senses[word][pos].map((sense) => ({
+            sense: sense,
             source: 'moot',
           }))
         );
@@ -77,61 +79,61 @@ export default async function loadAll(flush = false) {
     }
   }
 
-  // Parse Wordbook entries.
+  // Parse Wordbook anglish.
   for (const item of wordbook.data) {
     const { word, pos } = item;
-    if (!entries[word]) {
-      entries[word] = {};
+    if (!anglish[word]) {
+      anglish[word] = {};
     }
-    const entry = entries[word];
+    const entry = anglish[word];
     if (!entry[item.pos]) {
       entry[pos] = {
-        senses: item.meanings.map((meaning) => ({
-          meaning: meaning,
+        senses: item.senses.map((sense) => ({
+          sense: sense,
           source: 'wordbook',
         })),
       };
     } else {
       entry[pos].senses.push(
-        ...item.meanings.map((meaning) => ({
-          meaning: meaning,
+        ...item.senses.map((sense) => ({
+          sense: sense,
           source: 'wordbook',
         }))
       );
     }
   }
 
-  // Update WordNet data with Anglish entries.
-  for (const key in entries) {
-    const entry = entries[key];
-
-    const inWordNet = Object.hasOwn(wordnet.data.entries, key);
-    if (/abyss/.test(key)) {
-      console.log(key, inWordNet);
-      process.exit();
-    }
+  // Update WordNet data with Anglish anglish.
+  for (const word in anglish) {
+    const entry = anglish[word];
+    const inWordNet = Object.hasOwn(wordnet.entries, word);
 
     if (inWordNet) {
       // Word is a modern English word, already in WordNet.
-      wordnet.data.entries[key].languages.push('Anglish');
+      // Update language and remove.
+      wordnet.entries[word].languages.push('Anglish');
+      delete anglish[word];
+      continue;
     } else {
       // Word is Anglish. Add WordNet entry.
-
-      //console.log(`Processing: ${key}`);
-
-      // Create new WordNet entry.
-      wordnet.data.entries[key] = {
+      wordnet.entries[word] = {
         languages: ['Anglish'],
       };
-      const wn = wordnet.data.entries[key];
-      console.log(key, JSON.stringify(entry, null, 2));
+      const wn = wordnet.entries[word];
+
+      for (const pos in entry) {
+        // Remove duplicates by string match.
+        entry[pos].senses = _.uniqBy(entry[pos].senses, 'sense');
+      }
+
+      continue;
 
       // For each part of speech, link synsets based on senses.
       for (const pos in entry) {
         wn[pos] = {};
         const senses = entry[pos].senses;
 
-        for (const { meaning: sense } of senses) {
+        for (const { sense } of senses) {
           // TODO: Remove senses that are basically identical.
           // eg: craft:n:vehicle, craft:n:conveyance
           // Use ChatGPT.
@@ -140,34 +142,65 @@ export default async function loadAll(flush = false) {
           // Then, loop over them and select the sense/synset from wordnet[word][pos] that matches this sense.
           // eg: selectMatchingSense(sense, _senses);
 
-          const _entry = wordnet.data.entries[sense];
-          if (!_entry) {
+          // Keep a record of senses with no synset, errors. Fix manually.
+
+          const _entry = wordnet.entries[sense];
+          if (!_entry?.[pos]) {
             // Entry for this sense not found. Could be a typo or
             // a poorly formatted string.
             continue;
           }
 
-          // There is just one sense to match this meaning.
           const _senses = _entry[pos].sense;
-          for (const _sense of _senses) {
-            // Match _sense to sense
-            console.log(key, pos, sense, _sense.id.split('%')[0]);
-          }
+          //console.log(word, sense, _senses);
         }
       }
     }
   }
 
-  const word = 'ship';
-  const entry = entries[word];
-  console.log(word, JSON.stringify(entry, null, 2));
+  const words = Object.keys(anglish);
+
+  const gptWords = [];
+  for (const word of words) {
+    const entry = anglish[word];
+    // If there is only one `pos` and one `sense`, skip.
+    const keys = Object.keys(entry);
+    for (const pos of Object.keys(entry)) {
+      if (entry[pos].senses.length > 1) {
+        gptWords.push(word);
+        break;
+      }
+    }
+  }
+
+  for (const word of gptWords) {
+    const entry = anglish[word];
+    await gpt.removeDuplicateSenses(word, entry);
+  }
+
+  // const total = gptWords.length;
+  // let processed = 0;
+  // const promises = [];
+
+  // await new Promise((resolve) => {
+  //   setInterval(() => {
+  //     const word = gptWords.shift();
+  //     const entry = anglish[word];
+  //     if (!word) {
+  //       return resolve();
+  //     }
+  //     promises.push(gpt.removeDuplicateSenses(word, entry));
+  //     processed++;
+  //     console.log(`${word} ${processed}/${total}`);
+  //   }, 800);
+  // });
+
+  // await Promise.all(promises);
 
   // await buildIndex();
 
   console.timeEnd('loadAll');
-  process.exit(); // Will async-hang if called from command line without this.
-}
 
-async function main() {
-  console.log('options', options);
+  // Will async-hang if called from command line without this.
+  process.exit();
 }

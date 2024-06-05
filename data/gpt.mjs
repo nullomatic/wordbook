@@ -1,62 +1,103 @@
 import 'dotenv/config';
+import { appendFile } from 'fs/promises';
 import OpenAI from 'openai';
 
 export const openai = new OpenAI();
 
-//await main();
-
-async function main() {
+export async function removeDuplicateSenses(word, entry) {
+  const formatted = formatObj(word, entry);
   const completion = await openai.chat.completions.create({
     messages: [
       {
         role: 'system',
-        content: `Given the word preceding the array, select all array elements that could, even loosely, be a synonym of the word and return \
-          the filtered array. The word in each array element is indicated by the key 'en', and the part of speech by the key 'pos'. \
-          Return a JSON array, without Markdown, such that the entire response can be passed directly to JSON.parse().`,
-      },
-      {
-        role: 'user',
-        content: `
-          craft [ \ 
-            { en: 'ability', pos: 'n' }, \ 
-            { en: 'art', pos: 'n' }, \ 
-            { en: 'artisanal art', pos: 'adj' }, \ 
-            { en: 'art', pos: 'n' }, \ 
-            { en: 'create', pos: 'vb' }, \ 
-            { en: 'engine', pos: 'n' }, \ 
-            { en: 'force', pos: 'n' }, \ 
-            { en: 'power', pos: 'n' }, \ 
-            { en: 'technology', pos: 'n' }, \ 
-            { en: 'vehicle', pos: 'n' } \ 
-          ]
-      `,
-      },
-      {
-        role: 'assistant',
-        content: `
-        [ \ 
-          { en: 'ability', pos: 'n' }, \ 
-          { en: 'art', pos: 'n' }, \ 
-          { en: 'create', pos: 'vb' }, \ 
-          { en: 'vehicle', pos: 'n' } \ 
-        ]
+        content: `"Anglish" is a linguistically pure, Germanic version of English - how English would be without foreign influence. \
+          Given an Anglish context word and JSON object following it, remove any English array elements that do not describe the Anglish \
+          context word (according to their part of speech, denoted by the key). Remove any words that are close synonyms of another, that \
+          redundantly duplicate meaning. Remove any long array elements that are not a single word or compound word. If you don't recognize \
+          the Anglish context word, err on the side of leaving array elements in, rather than taking them out. Leave at least one array element \
+          in each array. Return the filtered JSON object, without Markdown or backticks, such that the entire response can be passed directly \
+          to JSON.parse().
+
+          For example, given the following word and object...
+          
+          light {
+            "noun": [
+              "context",
+              "lamp"
+            ],
+            "adjective": [
+              "easy",
+              "gentle",
+              "pale",
+              "scarce"
+            ],
+            "verb": [
+              "kindle",
+              "torch",
+              "come upon",
+              "discover by chance"
+            ]
+          }
+
+          ...The response should be:
+
+          {
+            "noun": [
+              "lamp"
+            ],
+            "adjective": [
+              "easy",
+              "gentle",
+              "pale",
+              "scarce"
+            ],
+            "verb": [
+              "kindle",
+              "torch"
+            ]
+          }  
         `,
       },
       {
         role: 'user',
-        content: `
-        house [
-          { en: 'ancestry', pos: 'n' },
-          { en: 'clan', pos: 'n' },
-          { en: 'dynasty', pos: 'n' },
-          { en: 'edifice', pos: 'n' },
-          { en: 'lineage', pos: 'n' }
-        ]
-        `,
+        content: formatted,
       },
     ],
     model: 'gpt-4o',
   });
 
-  console.log(completion.choices[0].message.content);
+  const res = JSON.parse(completion.choices[0].message.content);
+  const data = `${word} ${JSON.stringify(res)}\n`;
+  console.log(data);
+  await appendFile('./test.txt', data);
+  return res;
+}
+
+function formatObj(word, entry) {
+  const obj = {};
+  for (const key in entry) {
+    const arr = entry[key].senses.map(({ sense }) => sense);
+    switch (key) {
+      case 'n':
+        obj.noun = arr;
+        break;
+      case 'v':
+        obj.verb = arr;
+        break;
+      case 'a':
+        obj.adjective = arr;
+        break;
+      case 'r':
+        obj.adverb = arr;
+        break;
+      case 'p':
+        obj.preposition = arr;
+      case 'i':
+        obj.interjection = arr;
+        break;
+      default:
+        throw new Error(`Unrecognized PoS: ${key}`);
+    }
+  }
+  return `${word} ${JSON.stringify(obj)}`;
 }

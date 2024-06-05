@@ -178,34 +178,21 @@ export class WordbookLoader {
     const promises = [];
 
     for (const item of data) {
-      const entry = {
-        word: item['WORD'],
-        angSpelling: item['ANG. SPEL.'],
-        meanings: item['MEANING']
-          .split('᛫')
-          .map((str) => str.trim())
-          .filter((str) => !!str),
-        pos: item['KIND'],
-        forebear: item['FOREBEAR'],
-        from: item['FROM'],
-        notes: item['NOTES'],
-        tags: item['TAGS'],
-      };
-      this.#reformatPoS(entry);
+      const posArr = this.#formatPoS(item['KIND']);
+      const senses = this.#formatSenses(item['MEANING']);
 
-      this.data.push(entry);
-
-      if (options?.redis) {
-        const key = replaceKeyPattern({
-          lang: 'an',
-          word: entry.word,
-          pos: entry.pos,
-          etym: 1, // TODO
-        });
-        promises.push(
-          redis.set(key, JSON.stringify(entry)),
-          redis.zAdd('terms', { score: 0, value: key })
-        );
+      for (const pos of posArr) {
+        const entry = {
+          word: item['WORD'],
+          angSpelling: item['ANG. SPEL.'],
+          senses: senses,
+          pos: pos,
+          forebear: item['FOREBEAR'],
+          from: item['FROM'],
+          notes: item['NOTES'],
+          tags: item['TAGS'],
+        };
+        this.data.push(entry);
       }
     }
 
@@ -220,14 +207,41 @@ export class WordbookLoader {
     return this;
   }
 
-  #reformatPoS(entry) {
-    entry.pos = entry.pos.toLowerCase();
-    if (entry.pos === 'aj') {
-      entry.pos = 'a';
+  #formatPoS(str) {
+    const s = new Set();
+    const arr = str.toLowerCase().split(/[^\w\s]/);
+
+    for (let letter of arr) {
+      if (!letter) {
+        continue;
+      }
+      if (letter === 'aj') {
+        letter = 'a';
+      }
+      if (letter === 'av') {
+        letter = 'r';
+      }
+      if (letter === 'prep') {
+        letter = 'p';
+      }
+      s.add(letter);
     }
-    if (entry.pos === 'av') {
-      entry.pos = 'r';
-    }
+    return Array.from(s);
+  }
+
+  #formatSenses(str) {
+    return str
+      .split(/[^\w\s-']/)
+      .map((str) => {
+        str = str
+          .trim()
+          .replace(/^(a|an|to)\s/g, '') // Replace 'a <word>' and 'to <word>'
+          .replace(/\([^)]*\)/g, '') // Replace parentheses
+          .replace(/\[[^\]]*\]/g, '') // Replace square brackets
+          .trim();
+        return str;
+      })
+      .filter((str) => !!str);
   }
 }
 
@@ -452,7 +466,8 @@ export class WordNetLoader {
      *   },
      * }
      */
-    this.data = null;
+    this.entries = null;
+    this.synsets = null;
     this.dirYAML = '/assets/yaml';
     this.dirJSON = '/assets/json';
   }
@@ -461,10 +476,8 @@ export class WordNetLoader {
     console.time('loadWordNet');
     console.log('Loading WordNet data...');
 
-    this.data = {
-      entries: {},
-      synsets: {},
-    };
+    this.entries = {};
+    this.synsets = {};
 
     let uris, filenames, isYAML;
     try {
@@ -540,7 +553,7 @@ export class WordNetLoader {
         const wordKey = `word:${k}`;
         const data = json[k];
         data.languages = ['English'];
-        this.data.entries[k] = data;
+        this.entries[k] = data;
         // const command = redis.set(wordKey, JSON.stringify(data));
         // promises.push(command);
       }
@@ -553,7 +566,7 @@ export class WordNetLoader {
         const synsetKey = `synset:${key}`;
         const synonymsKey = `synset:${key}:similar`;
         const data = json[key];
-        this.data.synsets[key] = data;
+        this.synsets[key] = data;
 
         // const command = redis.set(synsetKey, JSON.stringify(data));
         // promises.push(command);
