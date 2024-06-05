@@ -16,7 +16,7 @@ program.option('--wordbook', 'load data from The Anglish Wordbook');
 program.parse(process.argv);
 const options = program.opts();
 
-await loadAll(true);
+await loadAll();
 
 /**
  * Calls all loader functions with option to flush Redis first.
@@ -28,56 +28,26 @@ export default async function loadAll(flush = false) {
     console.log('Flushing Redis keys...');
     await redis.flushAll();
   }
-  //const wikt = await new WiktionaryLoader().load();
 
-  const save = false;
+  const wordbook = await new WordbookLoader();
+  await wordbook.load({ save: true });
 
-  const wordbook = await new WordbookLoader().load({ save: true });
-  const moot = await new MootLoader().load({ save });
-  const wordnet = await new WordNetLoader().load({ save });
+  const moot = new MootLoader();
+  await moot.load({ save: false });
+  moot.addAnglishWordsFromEnglishDefs();
 
-  //console.log('wikt.data.length:', wikt.data.length);
-  console.log('wordbook.data.length:', wordbook.data.length);
-  console.log('Object.keys(moot.data).length:', Object.keys(moot.data).length);
-  console.log(
-    'Object.keys(wordnet.entries).length:',
-    Object.keys(wordnet.entries).length
-  );
+  const wordnet = await new WordNetLoader();
+  await wordnet.load({ save: false });
 
-  moot.orderByAnglish();
+  console.log();
+  console.log(`Wordbook entries: ${Object.keys(wordbook.data).length}`);
+  console.log(`Moot English entries: ${Object.keys(moot.english).length}`);
+  console.log(`Moot Anglish entries: ${Object.keys(moot.anglish).length}`);
+  console.log(`WordNet entries: ${Object.keys(wordnet.entries).length}`);
+  console.log(`WordNet synsets: ${Object.keys(wordnet.synsets).length}`);
+  console.log();
 
-  console.log(
-    'Object.keys(moot.senses).length',
-    Object.keys(moot.senses).length
-  );
-  console.log('moot.dirtyEntries.length', moot.dirtyEntries.length);
-
-  const anglish = {};
-
-  // Parse Moot anglish.
-  for (const word in moot.senses) {
-    if (!anglish[word]) {
-      anglish[word] = {};
-    }
-    const entry = anglish[word];
-    for (const pos in moot.senses[word]) {
-      if (!entry[pos]) {
-        entry[pos] = {
-          senses: moot.senses[word][pos].map((sense) => ({
-            sense: sense,
-            source: 'moot',
-          })),
-        };
-      } else {
-        entry[pos].senses.push(
-          ...moot.senses[word][pos].map((sense) => ({
-            sense: sense,
-            source: 'moot',
-          }))
-        );
-      }
-    }
-  }
+  const anglish = moot.anglish;
 
   // Parse Wordbook anglish.
   for (const item of wordbook.data) {

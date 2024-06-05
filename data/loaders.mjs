@@ -11,7 +11,13 @@ import {
   writeFileSync,
 } from 'fs';
 import { redis, buildIndex } from './redis.mjs';
-import { getPath, replaceKeyPattern } from './util.mjs';
+import {
+  cleanStr,
+  formatPoS,
+  formatSenses,
+  getPath,
+  replaceKeyPattern,
+} from './util.mjs';
 import byteSize from 'byte-size';
 import YAML from 'yaml';
 
@@ -30,7 +36,7 @@ import YAML from 'yaml';
 export class WiktionaryLoader {
   constructor() {
     this.data = null;
-    this.uri = getPath('/assets/kaikki-en.json');
+    this.uri = getPath('/assets/kaikki/kaikki-en.json');
   }
 
   /**
@@ -149,142 +155,117 @@ export class WiktionaryLoader {
 }
 
 /**
- * Loads data from The Anglish Wordbook CSV into Redis.
+ * Loads data from The Anglish Wordbook CSV.
  * https://docs.google.com/spreadsheets/d/1y8_11RDvuCRyUK_MXj5K7ZjccgCUDapsPDI5PjaEkMw
  **/
 export class WordbookLoader {
   constructor() {
     this.data = null;
-    this.uri = getPath('/assets/wordbook.csv');
+    this.uri = getPath('/assets/wordbook/wordbook.csv');
   }
 
   async load(options) {
-    console.time('loadWordbook');
-    console.log('Loading Anglish Wordbook data...');
-
     if (!options.save) {
       // Attempt to read JSON from disk before parsing CSV.
       // If `options.save` is specified, assume we want to reload the data.
       try {
-        const file = readFileSync(getPath('/assets/wordbook.json'));
+        console.log('Loading wordbook.json');
+        const file = readFileSync(getPath('/assets/wordbook/wordbook.json'));
         this.data = JSON.parse(file);
-        console.timeEnd('loadWordbook');
         return this;
       } catch (e) {}
     }
 
-    this.data = [];
+    this.data = {};
     const data = await csv().fromFile(this.uri);
-    const promises = [];
 
     for (const item of data) {
-      const posArr = this.#formatPoS(item['KIND']);
-      const senses = this.#formatSenses(item['MEANING']);
+      const posArr = this.#formatPoSArr(item['KIND']);
+      const senses = formatSenses(item['MEANING']);
 
       for (const pos of posArr) {
+        const word = cleanStr(item['WORD']);
         const entry = {
-          word: item['WORD'],
           angSpelling: item['ANG. SPEL.'],
           senses: senses,
-          pos: pos,
           forebear: item['FOREBEAR'],
           from: item['FROM'],
           notes: item['NOTES'],
           tags: item['TAGS'],
         };
-        this.data.push(entry);
+        if (!this.data[word]) {
+          this.data[word] = { [pos]: entry };
+        } else {
+          this.data[word][pos] = entry;
+        }
       }
     }
 
-    await Promise.all(promises);
-
     if (options?.save) {
-      const uri = getPath('/assets/wordbook.json');
+      console.log('Saving wordbook.json');
+      const uri = getPath('/assets/wordbook/wordbook.json');
       writeFileSync(uri, JSON.stringify(this.data, null, 2));
     }
 
-    console.timeEnd('loadWordbook');
     return this;
   }
 
-  #formatPoS(str) {
+  #formatPoSArr(str) {
     const s = new Set();
-    const arr = str.toLowerCase().split(/[^\w\s]/);
-
-    for (let letter of arr) {
-      if (!letter) {
-        continue;
-      }
-      if (letter === 'aj') {
-        letter = 'a';
-      }
-      if (letter === 'av') {
-        letter = 'r';
-      }
-      if (letter === 'prep') {
-        letter = 'p';
-      }
-      s.add(letter);
+    const arr = str
+      .toLowerCase()
+      .split(/[^\w\s]/)
+      .filter((s) => !!s);
+    for (let pos of arr) {
+      pos = formatPoS(pos);
+      s.add(pos);
     }
     return Array.from(s);
-  }
-
-  #formatSenses(str) {
-    return str
-      .split(/[^\w\s-']/)
-      .map((str) => {
-        str = str
-          .trim()
-          .replace(/^(a|an|to)\s/g, '') // Replace 'a <word>' and 'to <word>'
-          .replace(/\([^)]*\)/g, '') // Replace parentheses
-          .replace(/\[[^\]]*\]/g, '') // Replace square brackets
-          .trim();
-        return str;
-      })
-      .filter((str) => !!str);
   }
 }
 
 /**
  * Loads table data from The Anglish Moot website.
- * https://anglish.fandom.com/wiki/English_Wordbook/
- *
- * TODO: This needs work
+ * https://anglish.fandom.com/wiki/
  **/
 export class MootLoader {
   constructor() {
-    /*
-     * {
-     *   A: [{
-     *     eng: "literature",
-     *     pos: "noun",
-     *     att: "bookcraft, wordlore",
-     *     una: "<crazy Old English word>"
-     *   }, ...],
-     *   B: [...],
-     *   C: [...],
-     *   ...
-     *   Z: [...]
-     * }
-     */
-    this.data = null;
-    /*
-     * {
-     *   godlore: [{
-     *     en: "theology",
-     *     pos: "n"
-     *   } ...],
-     *   ...
-     * }
-     */
-    this.senses = null;
+    this.baseURL = 'https://anglish.fandom.com';
+    this.english = null;
+    this.anglish = null;
+
+    this.jsonPathAnglish = getPath('/assets/moot/moot-an.json');
+    this.jsonPathEnglish = getPath('/assets/moot/moot-en.json');
     this.dirtyEntries = null;
-    this.uri = getPath('/assets/moot.json');
   }
 
   async load(options) {
-    console.time('loadMoot');
-    console.log('Loading Anglish Moot data...');
+    if (!options.save) {
+      // Attempt to read the file from disk before fetching from web.
+      // If `options.save` is specified, assume we want to reload the data.
+      try {
+        console.log('Loading moot-an.json');
+        const file = readFileSync(this.jsonPathAnglish);
+        this.anglish = JSON.parse(file);
+      } catch (e) {
+        await this.scrapeAnglish({ save: true });
+      }
+      try {
+        console.log('Loading moot-en.json');
+        const file = readFileSync(this.jsonPathEnglish);
+        this.english = JSON.parse(file);
+      } catch (e) {
+        await this.scrapeEnglish({ save: true });
+      }
+    } else {
+      await this.scrapeAnglish(options);
+      await this.scrapeEnglish(options);
+    }
+  }
+
+  async scrapeAnglish(options) {
+    console.time('scrapeMootAnglish');
+    console.log('Scraping Anglish Moot data...');
 
     if (!options.save) {
       // Attempt to read the file from disk before fetching from web.
@@ -292,120 +273,212 @@ export class MootLoader {
       try {
         const file = readFileSync(this.uri);
         this.data = JSON.parse(file);
-        console.timeEnd('loadMoot');
+        console.timeEnd('scrapeMootAnglish');
         return this;
       } catch (e) {}
     }
 
-    /*
-     * Table Column Descriptors
-     * eng: English
-     * pos: Part of Speech
-     * att: Anglish (attested)
-     * una: Anglish (unattested)
-     */
-    const cols = ['eng', 'pos', 'att', 'una'];
-    const dict = {};
-    const promises = [];
+    this.anglish = {};
+    let $, data;
 
-    // Fetch tables for every letter.
-    for (let n = 0; n < 26; n++) {
-      const letter = String.fromCharCode(65 + n);
-      console.time(letter);
+    data = await this.#getURL(`${this.baseURL}/wiki/Anglish_Wordbook`);
+    $ = cheerio.load(data);
+    const hrefs = Array.from(
+      $('tbody')
+        .first()
+        .find('a')
+        .map((i, el) => $(el).attr('href'))
+    );
 
-      dict[letter] = [];
+    for (const href of hrefs) {
+      console.time(href);
 
-      const url = `https://anglish.fandom.com/wiki/English_Wordbook/${letter}`;
-      const { data } = await axios.get(url);
+      const url = this.baseURL + href;
+      let data = await this.#getURL(url);
+      if (!data) {
+        continue;
+      }
+      $ = cheerio.load(data);
 
-      const $ = cheerio.load(data);
-      $('table > tbody > tr').each((_, el) => {
-        const cells = $(el).children('td');
-        if (cells.length === 4) {
-          const entry = {};
-          const text = cells.each((i, cell) => {
-            entry[cols[i]] = $(cell).text().trim();
-          });
-
-          this.#reformatPoS(entry);
-          dict[letter].push(entry);
-
-          // TODO: Should be 'en', but don't overwrite Wiktionary entries
-          // const key = `an:${entry.eng}:${entry.pos}`;
-          // promises.push(redis.set(key, JSON.stringify(entry)));
+      main: for (const el of Array.from($('table > tbody'))) {
+        if ($(el).children.length > 1) {
+          continue;
         }
-      });
 
-      console.timeEnd(letter);
+        const cells = $(el).find('td');
+        let [word, pos, def] = Array.from(cells).map((cell) => $(cell).text());
+        if (!/anglish/i.test(word)) {
+          word = cleanStr(word);
+          if (!/^([\w'-]+\s?)+$/.test(word)) continue main;
+          if (!this.anglish[word]) {
+            this.anglish[word] = {};
+          }
+
+          pos = cleanStr(pos)
+            .split(/[^\w\s-']/)
+            .filter((s) => !!s)[0];
+          if (!pos || !/^\w+$/.test(pos)) {
+            delete this.anglish[word];
+            continue main;
+          }
+          pos = formatPoS(pos);
+          if (!this.anglish[word][pos]) {
+            this.anglish[word][pos] = {
+              def: '',
+            };
+          }
+
+          this.anglish[word][pos].def = def.trim();
+        }
+      }
+
+      console.timeEnd(href);
     }
-
-    await Promise.all(promises);
-    this.data = dict;
 
     if (options?.save) {
-      writeFileSync(this.uri, JSON.stringify(dict, null, 2));
+      console.log('Saving moot-an.json');
+      writeFileSync(
+        this.jsonPathAnglish,
+        JSON.stringify(this.anglish, null, 2)
+      );
     }
 
-    console.timeEnd('loadMoot');
+    console.timeEnd('scrapeMootAnglish');
     return this;
   }
 
-  #reformatPoS(entry) {
-    if (entry.pos === 'vb') {
-      entry.pos = 'v';
+  async scrapeEnglish(options) {
+    console.time('scrapeMootEnglish');
+    console.log('Scraping English Moot data...');
+
+    if (!options.save) {
+      // Attempt to read the file from disk before fetching from web.
+      // If `options.save` is specified, assume we want to reload the data.
+      try {
+        const file = readFileSync(this.uri);
+        this.data = JSON.parse(file);
+        console.timeEnd('scrapeMootEnglish');
+        return this;
+      } catch (e) {}
     }
-    if (entry.pos === 'adj') {
-      entry.pos = 'a';
+
+    this.english = {};
+    let $, data;
+
+    data = await this.#getURL(`${this.baseURL}/wiki/English_Wordbook`);
+    $ = cheerio.load(data);
+    const hrefs = Array.from(
+      $('big')
+        .first()
+        .find('a')
+        .map((i, el) => $(el).attr('href'))
+    );
+
+    for (const href of hrefs) {
+      console.time(href);
+
+      const url = this.baseURL + href;
+      let data = await this.#getURL(url);
+      if (!data) {
+        continue;
+      }
+      $ = cheerio.load(data);
+
+      main: for (const el of Array.from($('table > tbody > tr'))) {
+        const cells = $(el).children('td');
+        if (cells.length === 4) {
+          let [word, pos, att, una] = Array.from(cells).map((cell) =>
+            $(cell).text()
+          );
+
+          word = cleanStr(word);
+          if (!this.english[word]) {
+            this.english[word] = {};
+          }
+
+          pos = cleanStr(pos)
+            .split(/[^\w\s-']/)
+            .filter((s) => !!s)[0];
+          if (!pos || !/^\w+$/.test(pos)) {
+            delete this.english[word];
+            continue main;
+          }
+          pos = formatPoS(pos);
+          if (!this.english[word][pos]) {
+            this.english[word][pos] = {
+              senses: [],
+            };
+          }
+
+          att = cleanStr(att)
+            .split(/[^a-z\s\-']/i)
+            .map((s) => s.trim())
+            .filter((s) => !!s && s !== '-');
+          this.english[word][pos].senses.push(...att);
+
+          una = cleanStr(una)
+            .split(/[^a-z\s\-']/i)
+            .map((s) => s.trim())
+            .filter((s) => !!s && s !== '-');
+          this.english[word][pos].senses.push(...una);
+        }
+      }
+
+      console.timeEnd(href);
     }
-    if (entry.pos === 'adv') {
-      entry.pos = 'r';
+
+    if (options?.save) {
+      console.log('Saving moot-en.json');
+      writeFileSync(
+        this.jsonPathEnglish,
+        JSON.stringify(this.english, null, 2)
+      );
     }
+
+    console.timeEnd('scrapeMootEnglish');
+    return this;
   }
 
-  orderByAnglish() {
+  async #getURL(url) {
+    let data;
+    try {
+      ({ data } = await axios.get(url));
+    } catch (error) {
+      const res = error?.response || {};
+      console.error(res.status, res.statusText);
+    }
+    return data;
+  }
+
+  addAnglishWordsFromEnglishDefs() {
     this.senses = {};
     this.dirtyEntries = [];
 
-    for (const letter in this.data) {
-      const entries = this.data[letter];
-      for (const entry of entries) {
-        this.#processEntry(entry, 'att');
-        this.#processEntry(entry, 'una');
+    const added = [];
+
+    for (const englishWord in this.english) {
+      const entry = this.english[englishWord];
+      for (const pos in entry) {
+        for (const anglishWord of entry[pos].senses) {
+          if (!this.anglish[anglishWord]) {
+            this.anglish[anglishWord] = { [pos]: { senses: [] } };
+          } else if (!this.anglish[anglishWord][pos]) {
+            this.anglish[anglishWord][pos] = { senses: [] };
+          } else if (!this.anglish[anglishWord][pos].senses) {
+            added.push(anglishWord);
+            this.anglish[anglishWord][pos].senses = [];
+          }
+          this.anglish[anglishWord][pos].senses.push(englishWord);
+        }
       }
     }
-    const ordered = Object.keys(this.senses)
-      .sort()
-      .reduce((obj, key) => {
-        obj[key] = this.senses[key];
-        return obj;
-      }, {});
 
     return this;
-
-    //console.log(Object.keys(senses));
-
-    // const an_word = 'daresome';
-    // const arr = [...senses[an_word]];
-
-    // console.log(an_word, arr);
-
-    // let key, res;
-    // while (!res && arr.length) {
-    //   key = `word:${arr.shift().en}`;
-    //   res = await redis.get(key);
-    // }
-    // let o = JSON.parse(res);
-    // console.log(key, JSON.stringify(o, null, 2));
-
-    // key = `synset:${o.a.sense.shift().synset}`;
-    // const synset = await redis.get(key);
-    // o = JSON.parse(synset);
-    // console.log(key, JSON.stringify(o, null, 2));
   }
 
   #processEntry(entry, type) {
     // Clean `att` or `una` field.
-    const anglishWordsStr = this.#cleanStr(entry[type]);
+    const anglishWordsStr = cleanStr(entry[type]);
     if (!anglishWordsStr || /^\s?-\s?$/.test(anglishWordsStr)) {
       return;
     }
@@ -414,7 +487,7 @@ export class MootLoader {
       .map((word) => word.trim());
 
     // Clean `eng` field.
-    let englishWord = this.#cleanStr(entry.eng);
+    let englishWord = cleanStr(entry.eng);
     if (/,/.test(englishWord)) {
       englishWord = englishWord.split(',').shift();
     }
@@ -433,49 +506,46 @@ export class MootLoader {
         }
         this.senses[word][partOfSpeech].push(englishWord);
       } else {
-        // TODO handle sus word
+        // TODO: Handle sus word
         this.dirtyEntries.push(entry);
       }
     }
   }
-
-  #cleanStr(str) {
-    return str
-      .replace(/\([^)]*\)/g, '')
-      .replace(/\[[^\]]*\]/g, '')
-      .trim();
-  }
 }
 
+/**
+ * Loads data from the Global WordNet.
+ * https://globalwordnet.github.io/
+ **/
 export class WordNetLoader {
+  // TODO: Make types for this shit
   constructor() {
     /*
      * {
-     *   entries: {
-     *     craft: {
-     *       n: { ... },
-     *       v: { ... },
-     *       ...
-     *     }
+     *   craft: {
+     *     n: { ... },
+     *     v: { ... },
+     *     ...
      *   },
-     *   synsets: {
-     *     "123456789-n": {
-     *       definition: "some meaningful definition",
-     *       members: [ "craft", "make", "construct", ... ]
-     *     }
-     *   },
+     *   ...
      * }
      */
     this.entries = null;
+    /*
+     * {
+     *   "123456789-n": {
+     *     definition: "some meaningful definition",
+     *     members: [ "craft", "make", "construct", ... ]
+     *   },
+     *   ...
+     * }
+     */
     this.synsets = null;
-    this.dirYAML = '/assets/yaml';
-    this.dirJSON = '/assets/json';
+    this.dirYAML = '/assets/wordnet/yaml';
+    this.dirJSON = '/assets/wordnet/json';
   }
 
   async load(options) {
-    console.time('loadWordNet');
-    console.log('Loading WordNet data...');
-
     this.entries = {};
     this.synsets = {};
 
@@ -502,9 +572,12 @@ export class WordNetLoader {
       const json = isYAML ? YAML.parse(file) : JSON.parse(file);
       await this.#processFile(filename, json, isYAML, options);
     }
-    return this;
 
-    const addSimilar = function (synsetIds, arr) {
+    return this;
+  }
+
+  async addSimilar() {
+    const add = function (synsetIds, arr) {
       if (synsetIds?.length) {
         for (const id of synsetIds) {
           if (synsets[id].members?.length) {
@@ -515,18 +588,16 @@ export class WordNetLoader {
     };
 
     const promises = [];
-    for (const key in synsets) {
-      const synset = synsets[key];
+    for (const key in this.synsets) {
+      const synset = this.synsets[key];
       const similarKey = `synset:${key}:similar`;
       const similarWords = synset.members || [];
-      addSimilar(synset.hypernym, similarWords);
-      addSimilar(synset.similar, similarWords);
+      add(synset.hypernym, similarWords);
+      add(synset.similar, similarWords);
       const command = redis.set(similarKey, JSON.stringify(similarWords));
       promises.push(command);
     }
     await Promise.all(promises);
-
-    console.timeEnd('loadWordNet');
     return this;
   }
 
@@ -540,42 +611,32 @@ export class WordNetLoader {
     console.log(`Loading ${filename}`);
 
     if (isYAML && options?.save) {
+      const _filename = filename.replace('yaml', 'json');
+      console.log(`Saving ${_filename}`);
       writeFileSync(
-        getPath(`${this.dirJSON}/${filename.replace('yaml', 'json')}`),
+        getPath(`${this.dirJSON}/${_filename}`),
         JSON.stringify(json, null, 2)
       );
     }
 
     if (/^entries/.test(filename)) {
       const promises = [];
-      for (const k in json) {
-        // TODO: set all to lowercase, handle collisions
-        const wordKey = `word:${k}`;
-        const data = json[k];
+      for (const word in json) {
+        const data = json[word];
         data.languages = ['English'];
-        this.entries[k] = data;
-        // const command = redis.set(wordKey, JSON.stringify(data));
-        // promises.push(command);
+        this.entries[word] = data;
       }
-      await Promise.all(promises);
     }
 
     if (/^(adj|adv|noun|verb)/.test(filename)) {
-      const promises = [];
-      for (const key in json) {
-        const synsetKey = `synset:${key}`;
-        const synonymsKey = `synset:${key}:similar`;
-        const data = json[key];
-        this.synsets[key] = data;
-
-        // const command = redis.set(synsetKey, JSON.stringify(data));
-        // promises.push(command);
+      for (const word in json) {
+        const data = json[word];
+        this.synsets[word] = data;
       }
-      await Promise.all(promises);
     }
 
     if (/^frames/.test(filename)) {
-      // handle frames file
+      // TODO: Handle frames file
     }
   }
 }
