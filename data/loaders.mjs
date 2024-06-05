@@ -45,7 +45,60 @@ export class WiktionaryLoader {
    * @param options Options to store loaded data in memory or load into Redis.
    * @param callback An optional callback to process each line.
    **/
-  async load(options, callback) {
+  async load(options) {
+    if (!options?.save) {
+      // Attempt to read JSON from disk before parsing JSON.
+      // If `options.save` is specified, assume we want to reload the data.
+      try {
+        console.log('Loading kaikki-an.json');
+        const file = readFileSync(getPath('/assets/kaikki/kaikki-an.json'));
+        this.data = JSON.parse(file);
+        return this;
+      } catch (e) {}
+    }
+
+    this.data = {};
+    const handler = (line) => {
+      const json = JSON.parse(line);
+      let isAnglish = false;
+      if (/(old english|germanic)/i.test(json.etymology_text)) {
+        isAnglish = true;
+      }
+      if (/(french|latin|greek)/i.test(json.etymology_text)) {
+        isAnglish = false;
+      }
+
+      if (isAnglish && json.pos !== 'name') {
+        // TODO: Filter out other parts of speech
+        if (!this.data[json.word]) {
+          console.log(json.word);
+          this.data[json.word] = { [json.pos]: { senses: json.senses } };
+        } else {
+          this.data[json.word][json.pos] = { senses: json.senses };
+        }
+      }
+    };
+
+    const callback = () => {
+      console.log(Object.keys(this.data).length);
+    };
+
+    await this.#loadWithStream((line) => {
+      const handlers = [];
+      if (options?.store) {
+        this.data.push(JSON.parse(line));
+      }
+      if (options?.redis) {
+        handlers.push(this.#redisCallback(line));
+      }
+      if (handler) {
+        handlers.push(handler(line));
+      }
+      return handlers;
+    }, callback);
+  }
+
+  async _load(options, callback) {
     console.time('loadWiktionary');
     console.log('Loading Wiktionary data...');
 
@@ -77,7 +130,7 @@ export class WiktionaryLoader {
    * @param callback Callback to process each line. Return type should
    * be an array of Promises, which are then passed to Promise.all().
    **/
-  async #loadWithStream(callback) {
+  async #loadWithStream(handler, callback) {
     // Adjust BATCH_SIZE to keep memory under Node limit.
     // Alternatively, adjust --max-old-space-size.
     const BATCH_SIZE = 50000;
@@ -109,7 +162,7 @@ export class WiktionaryLoader {
 
     rl.on('line', async function (line) {
       iteration++;
-      currentBatch.push(callback(line) || []);
+      currentBatch.push(handler(line) || []);
       if (currentBatch.length === BATCH_SIZE) {
         rl.pause();
         unloadCurrentBatch();
@@ -132,6 +185,8 @@ export class WiktionaryLoader {
     if (iteration !== processed) {
       console.warn(`WARN: Missed ${iteration - processed} entries`);
     }
+
+    await callback();
   }
 
   /**

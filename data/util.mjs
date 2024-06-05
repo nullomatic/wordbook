@@ -29,6 +29,7 @@ export function cleanStr(str) {
   return str
     .replace(/\([^)]*\)/g, '')
     .replace(/\[[^\]]*\]/g, '')
+    .replace(/\n.*$/g, '')
     .trim();
 }
 

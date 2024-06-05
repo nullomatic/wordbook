@@ -29,14 +29,18 @@ export default async function loadAll(flush = false) {
     await redis.flushAll();
   }
 
-  const wordbook = await new WordbookLoader();
+  const wikt = new WiktionaryLoader();
+  await wikt.load({ save: false });
+  return;
+
+  const wordbook = new WordbookLoader();
   await wordbook.load({ save: true });
 
   const moot = new MootLoader();
-  await moot.load({ save: false });
+  await moot.load({ save: true });
   moot.addAnglishWordsFromEnglishDefs();
 
-  const wordnet = await new WordNetLoader();
+  const wordnet = new WordNetLoader();
   await wordnet.load({ save: false });
 
   console.log();
@@ -49,8 +53,16 @@ export default async function loadAll(flush = false) {
 
   const anglish = moot.anglish;
 
+  console.log(anglish);
+  return;
+
   // Parse Wordbook anglish.
-  for (const item of wordbook.data) {
+  for (const word in wordbook.data) {
+    for (const pos in wordbook.data[word]) {
+      if (!anglish[word]) {
+        anglish[word] = {};
+      }
+    }
     const { word, pos } = item;
     if (!anglish[word]) {
       anglish[word] = {};
