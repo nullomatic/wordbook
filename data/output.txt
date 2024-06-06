@@ -1,0 +1,3191 @@
+adwell {"verb":["allure","attract"]}
+aftercomer {"noun":["descendant","successor"]}
+andet {"verb":["admit","confess"]}
+anether {"verb":["abase","humiliate"]}
+barn-find {"noun":["antique","vintage"],"adjective":["antique"]}
+begetting {"noun":["generation"],"adjective":["producing"]}
+beswike {"verb":["betray","deceive"],"noun":["cheat"]}
+betighten {"verb":["constrict"]}
+cride {"noun":["taste"]}
+daven {"adjective":["necessary"]}
+deemer {"noun":["judge"]}
+dern {"adjective":["secret"],"noun":["cipher","concealment"]}
+dree {"verb":["endure","suffer"],"noun":["trouble"]}
+dretch {"verb":["afflict","annoy"],"noun":["trouble"]}
+dwale {"noun":["belladonna","deception","error","heresy"],"adjective":["anesthetic","delirious"],"verb":["perish","stray"]}
+dwild {"noun":["deception","fault","illusion","lapse"]}
+dwine {"verb":["decrease","diminish"]}
+eady {"adjective":["joyful","prosperous"]}
+edstart {"verb":["restart"]}
+eftmind {"verb":["remind","reminisce"]}
+ellen {"noun":["comfort","fortitude","valour"],"adjective":["brave"],"verb":["comfort"]}
+ethel {"noun":["estate"]}
+ettin {"noun":["giant","jötunn"]}
+ettle {"noun":["aim","suggestion"],"verb":["imply","recommend","suggest"]}
+faining {"adjective":["delightful","joyful","pleasant"],"noun":["joy"]}
+fand {"verb":["attempt","try"],"noun":["test"]}
+fayness {"noun":["difference"]}
+ferd {"noun":["army","military"]}
+folkdom {"noun":["nation"]}
+folkshire {"noun":["province"]}
+forbind {"verb":["connect"]}
+forblow {"verb":["inflate"]}
+forthink {"verb":["suspect"]}
+fordwine {"verb":["decay","decline","decrease","diminish"]}
+forlet {"verb":["exit","resign"],"adjective":["abandoned"]}
+forstand {"verb":["prevent","protect"]}
+forthput {"verb":["propose","suggest"],"noun":["proposal","suggestion"]}
+fremd {"adjective":["foreign","strange"],"noun":["alien","barbarian"]}
+frover {"verb":["comfort","console"],"noun":["comfort"]}
+gain- {"other":["counter-","re-"]}
+galder {"noun":["magic"]}
+gesith {"noun":["companion","fellow"]}
+har {"noun":["sire"]}
+heleth {"noun":["hero"]}
+hild {"noun":["combat"],"verb":["oppose"]}
+hiler {"verb":["ponder"]}
+holdand {"noun":["guardian","protector"]}
+hote {"verb":["address","command"],"adjective":["entitled"]}
+inhold {"verb":["contain"],"noun":["table of contents","volume"]}
+inroads {"noun":["advance","progress"]}
+inting {"noun":["issue","matter"]}
+inway {"noun":["entry"],"verb":["convey"]}
+inwit {"noun":["conscience"]}
+kithe {"verb":["announce","narrate"]}
+kinword {"noun":["cognate"]}
+lawmoot {"noun":["parliament"]}
+lorehouse {"noun":["school"]}
+lorestead {"noun":["museum","university"]}
+-ly {"other":["-able"],"adjective":[]}
+meanship {"noun":["community"]}
+mickleborough {"noun":["metropolis"]}
+mithe {"verb":["avert","avoid","conceal"]}
+nease {"verb":["ferret","investigate"]}
+nift {"noun":["grandchild","granddaughter","niece"]}
+nithe {"noun":["envy","jealousy","oppression"],"verb":["envy"],"adjective":["malicious","malign","vicious"]}
+norn {"verb":[],"noun":["lament"]}
+nutlog {"noun":["moment","second"]}
+oneleppy {"adjective":["unique","unmarried"]}
+ord {"noun":["origin","place","point"]}
+orlay {"noun":["war"]}
+outway {"noun":["exit","resort"]}
+overgive {"verb":["cede","surrender"],"noun":["abandon"]}
+redeship {"noun":["government"]}
+sam {"verb":["assemble","collect"]}
+shedwise {"adjective":["rational","reasonable","sagacious"]}
+soothly {"adverb":["actually","certainly","really","verily"],"interjection":["amen"],"other":["fact"],"adjective":["very"]}
+stalworth {"adjective":["brave","valiant"]}
+thede {"noun":["nation","people"]}
+tiding {"noun":["message","newspaper"]}
+thrutch {"verb":["press","push"],"noun":["pressure","stress"]}
+thware {"verb":["tolerate"]}
+umbethinking {"noun":["reminder"]}
+underhold {"verb":["maintain","sustain"]}
+ween {"verb":["expect","imagine","suppose"]}
+wis {"adjective":["certain","sure"],"verb":["direct"]}
+witherling {"noun":["adversary","antagonist","opponent"]}
+wough {"noun":["wall"],"adjective":["inaccurate"]}
+wulder {"noun":["glory","praise"]}
+yare {"adjective":["agile"],"verb":["accelerate"]}
+forsaken {"adjective":["abandoned","vacant"]}
+bouk {"noun":["abdomen","torso"]}
+mislike {"verb":["abhor","dislike"],"noun":["antipathy"]}
+-some {"other":[],"adjective":["comfortable"]}
+-ingly {"other":["-able"]}
+furbing {"noun":["laundry"]}
+fordo {"verb":["abolish","destroy"]}
+forshorten {"verb":["curtail"]}
+offwardness {"noun":["absence"]}
+offward {"adjective":["absent","distant"]}
+unanswering {"adjective":["unresponsive"]}
+forhaveness {"noun":["self-restraint"]}
+fallenly {"adjective":["accidental"]}
+smittle {"verb":["contaminate"]}
+netherly {"adjective":["low"]}
+learnedom {"noun":["academia","authority"]}
+lorekeep {"noun":["record"]}
+loreman {"noun":["educator","scholar"]}
+tungfall {"noun":["accent","dialect"]}
+thave {"verb":["accept","agree","allow","consent","permit"],"noun":["permission"]}
+thewsome {"adjective":["muscular"]}
+quemely {"adjective":["pleasing"]}
+bringing-forth {"noun":["accomplishment"]}
+thaving {"noun":["agreement"]}
+thwaring {"noun":["agreement","consent"]}
+spot-on {"adjective":["accurate","precise"],"noun":["fine"]}
+forwray {"verb":["accuse","calumniate","falsely accuse"]}
+adj {"adjective":["acid","clear","frequent","indifferent","secret","super"],"noun":[]}
+awin {"verb":["acquire","capture","obtain"],"noun":["war"]}
+avel {"verb":["gain","devise"]}
+thwarse {"adverb":["across"],"verb":["cross","cruise"]}
+behaving {"noun":["act","action"]}
+doing {"noun":["action"]}
+snell {"adjective":["active","rapid"],"noun":["dynamic"]}
+hopping {"adjective":["active"]}
+tied-up {"adjective":["occupied"]}
+doughty {"adjective":["brave","courageous","valiant"]}
+echtly {"adverb":["really"]}
+in the year of our lord {"adverb":["A.D."]}
+eke {"verb":["add","augment","increase"],"adverb":[],"adjective":[]}
+cast up {"verb":["add up","sum"]}
+togive {"noun":["gift","grant"]}
+cleave to {"verb":["adhere"]}
+thewfastness {"noun":["morality"]}
+shiredom {"noun":["administration"]}
+shirecraft {"noun":["administration","politics"]}
+richdom {"noun":["empire"]}
+bewonder {"verb":["admire","astonish"]}
+etc {"verb":["admit"],"noun":["current"],"other":["-ism"]}
+hallowing {"noun":["Sacrament"]}
+wedbreach {"adjective":["adultery"],"noun":["divorce","infidelity"]}
+put forth {"verb":["present","propose","suggest"]}
+forthgo {"verb":["advance","continue","proceed"]}
+furthering {"noun":["advancement","extension"]}
+foredeal {"noun":["advantage","benefit"]}
+frimful {"adjective":["useful"]}
+free-swinging {"adjective":["adventurous","venturesome"]}
+thwartsome {"noun":["adversarial"]}
+gainsaying {"noun":["contradiction"]}
+withersake {"noun":["adversary"]}
+forespeech {"noun":["advocacy"]}
+loftcraft {"noun":["airplane"]}
+undead {"noun":["zombie"]}
+fiends {"noun":["Æsir","Vánir"]}
+foes {"noun":["Æsir","Vánir"]}
+litey {"adjective":["attractive"]}
+lead to {"verb":["cause"]}
+forother {"verb":["affect","alter"]}
+warm-hearted {"adjective":["affectionate","genial"]}
+yep {"interjection":["aye"]}
+swench {"verb":["trouble"]}
+adread {"adjective":["afraid","scared"]}
+fightsome {"adjective":["aggressive","bellicose"]}
+scather {"noun":["aggressor","critic"]}
+likeworthy {"adjective":["agreeable"]}
+oneread {"adjective":["agreed","resolute","vehement"]}
+grasslore {"noun":["agrostology"]}
+filst {"noun":["aid","assistance"],"verb":["aid","assist"]}
+atstall {"noun":["aid"]}
+fultum {"noun":["aid","help"]}
+bestead {"verb":["aid","help","serve"]}
+loftship {"noun":["airship","zeppelin"]}
+sharp-witted {"adjective":["alert","intelligent"]}
+rathe {"adjective":["alert","vigorous"]}
+wakesome {"adjective":["alert","vigilant"]}
+workrig {"noun":["machine"]}
+fayed {"adjective":["allied","united"]}
+aleave {"verb":["allow"]}
+draw to {"verb":["entice"]}
+spane {"verb":["allure"]}
+duft {"noun":["scent","perfume"]}
+weved {"noun":["altar"]}
+wighbed {"noun":["altar","shrine"]}
+flite {"noun":["brawl"],"verb":["argue","contend"]}
+andeven {"noun":["amount","quantity"]}
+snithe {"verb":["amputate","lacerate"]}
+fun and games {"noun":["amusement","recreätion"]}
+-en {"other":[],"noun":[],"adjective":["replicate"]}
+-ish {"other":["-an"],"noun":["-ian"]}
+unriddle {"verb":["analyze","interpret"]}
+onlight {"verb":["illuminate"]}
+onseek {"verb":["analyze","require"]}
+dwolm {"noun":["chaos"]}
+fore-elder {"noun":["ancestor"]}
+alder-father {"noun":["ancestor","forefather"]}
+strind {"noun":["generation","lineage"]}
+rotherer {"noun":["aviator"]}
+grame {"noun":["anger","vexation"],"verb":["vex"]}
+wilder {"noun":["animal"],"adjective":["savage"]}
+fornaughting {"noun":["destruction"]}
+yeartide {"noun":["season"]}
+bemark {"verb":["annotate","perceive","realize"],"noun":["comment"]}
+bemarking {"noun":["annotation","commenting"]}
+foreside {"noun":["facade","face","front"]}
+un- {"other":["anti-","de-","dis-","non-"]}
+forethink {"verb":["anticipate","plan"]}
+withershins {"adjective":["anticlockwise","counterclockwise"],"adverb":["contrary"]}
+withersmite {"adjective":["antiseptic","immune"],"noun":["desinfectant"]}
+sundered {"adjective":["apart","different","distinct"]}
+shedded {"adjective":["separate"]}
+samewise {"adjective":["equivalent","homogeneous"]}
+unshild {"verb":["apologise","excuse"]}
+errander {"noun":["apostle"]}
+sendling {"noun":["apostle","missionary"]}
+libshop {"noun":["pharmacy"]}
+eyeshinely {"adjective":["apparent"],"adverb":["evidently"]}
+clepe {"verb":["nominate"],"noun":["baptize"]}
+atew {"verb":["appear","manifest"]}
+blee {"noun":["color","tint"],"adjective":["azure"],"verb":["color"]}
+blindgut {"noun":["cecum"]}
+byfall {"noun":["applause"]}
+lay on {"verb":["apply","cover","inflict"]}
+aset {"verb":["appoint"]}
+nearing {"adjective":["approaching"]}
+fish-farming {"noun":["aquafarming"]}
+highbred {"adjective":["aristocratic"],"noun":["noble"]}
+tellcraft {"noun":["arithmetic","mathematics"]}
+beweapon {"verb":["arm","equip"]}
+outrysting {"noun":["arming","equipment"]}
+beshield {"verb":["shield","defend","protect"]}
+thrim {"noun":["majesty"]}
+swetch {"noun":["aroma","odour"]}
+umb {"preposition":["around"],"interjection":["around"]}
+umbe {"preposition":["around"],"interjection":["around"]}
+stight {"verb":["arrange","organize"]}
+craftly {"adjective":["technical"]}
+samen {"verb":["assemble","compose"]}
+foreset {"verb":["ordain","propose","suggest"],"noun":["obstacle","proposal","suggestion"]}
+atstandand {"noun":["attendant"]}
+foreguess {"verb":["assume","conjecture","presume"],"noun":["conjecture"]}
+huy {"verb":["assume","meditate"]}
+smigh {"verb":["ponder"],"adjective":["sagacious"]}
+starly {"adjective":["stellar"]}
+glew {"adjective":["astute","prudent"],"verb":["delight"]}
+grith {"noun":["peace","sanctuary"]}
+ongripe {"noun":["attack","charge"],"verb":["charge"]}
+infall {"noun":["invasion"],"verb":["attack"]}
+fanding {"noun":["attempt","experiment","trial"],"adjective":["experimental"]}
+minting {"noun":["coin"]}
+cun {"verb":["attempt","tempt"]}
+thew {"noun":["muscle","habit","policy"],"adjective":["custom"],"verb":["serve"]}
+theen {"noun":["merit"],"verb":["benefit"],"adjective":[]}
+beshine {"verb":["radiate"]}
+besteady {"verb":["stabilize"]}
+instelling {"noun":["attitude","conference","configuration"]}
+ownship {"noun":["attribute","quality","specialty"]}
+stoor {"adjective":["severe"],"noun":["sturgeon"]}
+thriste {"adjective":["audacious","venturesome"]}
+hearsome {"adjective":["audible"]}
+freit {"noun":["foretelling"]}
+owndom {"noun":["property"]}
+elderdom {"noun":["authority","government"]}
+forecome {"verb":["avert","avoid"]}
+loftman {"noun":["pilot"]}
+trow {"verb":["avow","believe"],"noun":["comrade","faith","loyalty"]}
+beleaning {"noun":["restraint"]}
+belean {"verb":["restrain"]}
+swail {"noun":["firmament"]}
+deemster {"noun":["judge","magistrate"]}
+evenweight {"noun":["balance"]}
+bright-line {"adjective":["bald","clear"]}
+forset {"verb":["bar","entrap","intercept","obstruct","overpower","overtax","surfeit","surround"],"noun":["stratagem"]}
+wode {"adjective":["barbarous"],"noun":["rage"]}
+athel {"noun":["noble"]}
+forsetting {"noun":["barrier"]}
+underpinning {"noun":["base","basis"]}
+hernstone {"noun":["base","basis"]}
+bestaddle {"verb":["support"]}
+in itself {"adverb":["essentially"]}
+windle {"noun":["basket"]}
+dogling {"noun":["doglet"]}
+moon bear {"noun":["battery bear","bile bear"]}
+gouth {"noun":["battle","combat","war"]}
+bee's knees {"noun":["creme de la creme","pip"]}
+standout {"noun":["beauty","exception"]}
+Lithland {"noun":["Lithuania"]}
+threap {"verb":["berate","blame","chastize","rebuke","reprove"],"noun":["cheat"]}
+deep throat {"noun":["informant"]}
+forreder {"noun":["betrayer","traitor"]}
+twi- {"other":["bi-"]}
+blackdust {"noun":["gunpowder"]}
+wite {"verb":["blame","reprove"]}
+furb {"adjective":["blemishless"],"verb":["launder","purge","refurbish"]}
+Bottoms {"noun":["Bothnia","Gulf"]}
+Bight {"noun":["Bothnia, Gulf of","Gulf of Bothnia"]}
+trind {"noun":["bracelet","circle","disk"],"adjective":["round"]}
+thrist {"adjective":["brave","courageous"]}
+brewhouse {"noun":["brewery"]}
+stonewright {"noun":["mason"]}
+leafel {"noun":["brochure","pamphlet"]}
+seareaver {"noun":["pirate"]}
+streal {"noun":["ray"]}
+gunstone {"noun":["bullet","cannonball"]}
+ambight {"noun":["office"],"verb":["serve"]}
+reevedom {"noun":["council","politics"]}
+muckbean {"noun":["cocoa"]}
+cold-hearted {"adjective":["callous"]}
+hard-hearted {"adjective":["callous","incompassionate"]}
+lown {"adjective":["calm","hushed"]}
+roolie {"adjective":["calm","quiet"]}
+beroo {"verb":["calm","quieten"]}
+betell {"verb":["describe"]}
+drylander {"noun":["camel","dromadary"]}
+derning {"noun":["camouflage"]}
+leat {"noun":["canal","culvert","pipe","vein"]}
+sweets {"noun":["candy"]}
+maneater {"noun":["cannibal"]}
+wheels {"noun":["car"]}
+lich {"noun":["corpse"]}
+hardon {"noun":["erection"]}
+skyheading {"noun":["cardinal direction","compass point"]}
+weatherstroke {"noun":["cardinal direction","compass point"]}
+weatherstreak {"noun":["cardinal direction","compass point"]}
+eighttoken {"noun":["cardinal direction","compass point"]}
+if {"noun":["premise","qualification"]}
+slaught gearwork {"noun":["catapult","trebuchet"]}
+frain {"verb":["inquire","question"],"noun":["question"]}
+rother {"noun":["vault of heaven"]}
+orsake {"noun":["cause","reason"]}
+forewit {"noun":["caution","prudence"]}
+reck {"noun":["caution","concern"]}
+frealsing {"noun":["festival"],"adjective":["festive"]}
+frum {"noun":["reason"]}
+undercroft {"noun":["cellar","crypt"]}
+bestevened {"adjective":["certain","specific"]}
+wisly {"adverb":["certainly"]}
+sickerly {"adverb":["certainly","definitely"]}
+soothness {"noun":["certainty","reality"]}
+wrixle {"verb":["exchange"],"noun":["trade"]}
+selfhood {"noun":["identity","personality"]}
+forthlout {"verb":["charge"],"adjective":["prone","susceptible"]}
+bedehouse {"noun":["charity","temple"]}
+put to flight {"verb":["scatter"]}
+besmite {"verb":["chasten","defile"]}
+stoneberry {"noun":["drupe"]}
+chesthelm {"noun":["chestplate"]}
+breasthelm {"noun":["chestplate"]}
+hovely {"noun":[],"adjective":["courteous","majestic"]}
+choosing {"noun":["choice","election"]}
+timeflow {"noun":["passage of time"]}
+riddlewrit {"noun":["cipher","code"]}
+um- {"other":["about"]}
+umb- {"other":["en-"]}
+befalling {"noun":["incident"]}
+sourapple {"noun":["lemon"]}
+hoveliness {"noun":["grace"]}
+rithing {"noun":["fever"]}
+sheerly {"adverb":["clearly"]}
+godsmith {"noun":["clergyman","priest"]}
+soul-carer {"noun":["clergyman","priest"]}
+heaven-reacher {"noun":["clergyman","preacher","priest"]}
+sin-buster {"noun":["clergyman","priest"]}
+sin-shifter {"noun":["clergyman","priest"]}
+soul-whisperer {"noun":["clergyman"]}
+white-choker {"noun":["clergyman","priest"]}
+bitterbrew {"noun":["cocoa"]}
+hoardvat {"noun":["coffer"]}
+weenness {"noun":["coherence","consistency"]}
+bysleep {"noun":["sex"]}
+vb {"noun":["collapse","court","lodge","roll"],"verb":["double","exercise","practice","temper"]}
+samming {"noun":["group"]}
+spread through {"verb":["pervade"]}
+farb {"noun":["color","paint"]}
+forbinding {"noun":["combination"]}
+eatworthy {"adjective":["edible"]}
+strealer {"noun":["meteor"]}
+hight {"noun":["command"],"verb":["command","employ","enact"]}
+hest {"noun":["command"]}
+befeal {"verb":["command","order"],"noun":["order"]}
+chapstow {"noun":["market"]}
+betake {"verb":["resort"]}
+athee {"verb":["commit","perform"]}
+broad-brush {"adjective":["common","generic"]}
+wunly {"adjective":["common","normal"]}
+make known {"verb":["impart"]}
+oversend {"verb":["transmit"]}
+outthrutch {"verb":["express"]}
+outsend {"verb":["emit"]}
+outspeak {"verb":["pronounce"]}
+speakle {"adjective":["communicative","loquacious"]}
+ameanship {"noun":["community"]}
+allownership {"noun":["socialism"]}
+folkship {"noun":["community","nation","society"]}
+withput {"verb":["compare"]}
+withlay {"verb":["compare"]}
+akind {"adjective":["similar"],"noun":["nature"]}
+samekind {"adjective":["comparable","similar"],"noun":[]}
+milts {"noun":["compassion","favor"]}
+fordrive {"verb":["compel","expel"]}
+thring {"verb":["compel","force","press"]}
+bote {"noun":["compensation","fine","penance","remedy"]}
+froover {"noun":["consolation"]}
+match up {"verb":["compete","correspond"]}
+flat-out {"adjective":["complete","perfect"]}
+suchness {"noun":["quality"]}
+toward {"adjective":["compliant"],"preposition":["concerning"],"interjection":["concerning"]}
+bowsome {"adjective":["compliant","flexible","obedient"]}
+swinsmith {"noun":["composer","musician"]}
+swincraft {"noun":["music"]}
+all-in {"adjective":["comprehensive","universal"]}
+as for {"preposition":["concerning"],"interjection":["regarding"]}
+mindseye {"noun":["idea"]}
+bilth {"noun":["image","portrait"]}
+hoad {"noun":["rank"]}
+warding {"noun":["custody","direction"]}
+beload {"verb":["conduct","excuse"]}
+richesband {"noun":["confederacy","confederation"]}
+richship {"noun":["confederacy"]}
+loosebind {"noun":["confederacy"]}
+acknowledging {"noun":["credit"]}
+aread {"verb":["conjecture","determine"]}
+beswear {"verb":["summon"]}
+behallow {"verb":["hallow"]}
+bename {"verb":["entitle"]}
+offleading {"noun":["result"]}
+hye {"verb":["consider","serve"],"noun":["disposition"]}
+yondthink {"verb":["consider","contemplate"]}
+simble {"adjective":["constant","continuous"],"noun":["feast"]}
+bestandy {"adjective":["constant","resistant"]}
+bestanding {"adjective":["constant","existent","resistant"]}
+rine {"verb":["touch"]}
+today's {"adjective":["current","present"]}
+tidely {"adjective":["tidal"],"adverb":["recently"]}
+witherwin {"noun":["contest","rival"]}
+forthset {"verb":["present","publish"],"adjective":["continuous"],"noun":["display"]}
+handfast {"noun":["contract","marriage"]}
+withsay {"verb":["contradict","deny"]}
+undershed {"noun":[],"verb":["differ","distinguish"],"adjective":[]}
+abear {"verb":["endure"]}
+forwandle {"verb":["turn into"]}
+haftling {"noun":["prisoner"]}
+holt {"noun":["copse","forest"]}
+rib-cloth {"noun":["corduroy"]}
+likam {"noun":["corpse"]}
+righten {"verb":["correct","rectify"]}
+berighten {"verb":["correct"]}
+righting {"noun":["correction","fix"]}
+begnaw {"verb":["erode"]}
+with- {"other":["counter-","re-"]}
+openware {"noun":["counterfeit goods"]}
+witherdeal {"noun":["opposite"]}
+erd {"noun":["country","county"]}
+folksmoot {"noun":["county council","assembly"]}
+erning {"noun":["course"]}
+shrithe {"noun":["dance"],"verb":["move","proceed"]}
+sweer {"noun":["cousin"],"adjective":["difficult","oppressive"],"verb":["oppress"]}
+heling {"noun":["cover"]}
+feathers {"noun":["plumage"]}
+nithing {"noun":["coward","villain"]}
+thewless {"adjective":["cowardly","timid"]}
+forthshaft {"noun":["future"]}
+lawbreaking {"noun":["crime","infringement"]}
+shild {"noun":["fault"]}
+overgang {"noun":["crossing","transition"]}
+onrooding {"noun":["crucifixion"]}
+gallowing {"noun":["crucifixion"]}
+thesterlock {"noun":["crypt","tomb"]}
+hurst {"noun":["eminence"]}
+earthapple {"noun":["potato"]}
+folkways {"noun":["tradition"]}
+nowaday {"adjective":["current","present"]}
+now's {"adjective":["current","present"]}
+nowadays' {"adjective":["current","present"]}
+nowen {"adjective":["present"]}
+wone {"noun":["habit"],"verb":["reside"]}
+wonely {"adjective":["unusual"]}
+tetter {"noun":["cutaneous disease","disease, skin"]}
+life tale {"noun":["history"]}
+forspill {"verb":["damage","ravage"]}
+shend {"verb":["damage","defame","destroy","disgrace","offend"]}
+plightful {"adjective":["dangerous","hazardous"]}
+her {"noun":["they/them/their"]}
+leavings {"noun":["debris","remainder","remains","residue"]}
+spilth {"noun":["refuse"]}
+forlead {"verb":["entice","tempt"]}
+thewly {"adjective":["decent","servile"]}
+quethe {"verb":["declare","quote"]}
+besheer {"verb":["declare"]}
+set by {"verb":["dedicate","devote"]}
+befile {"verb":["defile"]}
+besye {"verb":["defeat","vanquish"]}
+asprungness {"noun":["defect","eclipse"]}
+helmstand {"verb":["defend","enforce"]}
+lewing {"noun":["defense","protection"]}
+misshape {"verb":["deform","disfigure","distort"]}
+thrawn {"adjective":["deformed","perverse"]}
+forbidly {"adjective":["dissuasive"]}
+unwater {"verb":["dehydrate","desiccate"]}
+beaten down {"adjective":["dejected","depressed","subdued"]}
+frist {"noun":["term"],"verb":["delay"]}
+unmark {"verb":["erase"]}
+itheness {"noun":["delight","pleasure"]}
+mear {"verb":["delimit","honor"],"noun":["frontier"]}
+misbelief {"noun":["delusion","illusion"]}
+folkswield {"noun":["democracy","populism"]}
+folksreevedom {"noun":["democracy"]}
+afaring {"noun":["departure","experience"]}
+come from {"verb":["originate"]}
+bewrite {"verb":["describe","report"]}
+bewriting {"noun":["description","report"]}
+dryland {"noun":["desert","wasteland"]}
+weening {"adjective":["desirous"],"noun":["expectation","opinion"]}
+unbeheld {"adjective":["secret"]}
+forthought {"noun":["suspicion"]}
+forhow {"verb":["neglect"]}
+toshend {"verb":["destroy","devastate"]}
+acknow {"verb":["recognize"]}
+forblowing {"noun":["development","evolution","prosperity"],"adjective":["evolutionary","progressive"]}
+wigh {"verb":["devote"],"noun":["wick/wich"]}
+down-the-line {"adjective":["faithful","loyal"]}
+landspeech {"noun":["language"]}
+dighter {"noun":["poet"]}
+farer {"noun":["visitor"]}
+onewield {"noun":["dictatorship"]}
+sundriness {"noun":["difference","variation"]}
+sunderly {"adverb":["differently","particularly"],"adjective":["special","unique"]}
+beshedding {"noun":["segregation"]}
+uneath {"adjective":["difficult","uneasy"]}
+OE {"noun":["moment"]}
+rearding {"noun":["discourse"]}
+dreadask {"noun":["dinosaur","Tyrannosaurus rex"]}
+beward {"verb":["secure"]}
+wending {"noun":["direction","modification","transition"],"adjective":["irregular"]}
+behindering {"noun":["obstacle"]}
+swind {"verb":["vanish"]}
+forfly {"verb":["disappear","evaporate"]}
+ill-hap {"noun":["disaster","tragedy"]}
+unhold {"verb":[],"adjective":[]}
+wordling {"noun":["discourse","human"]}
+unmesh {"verb":["unveil"]}
+unearthing {"noun":["excavation"]}
+cothe {"noun":["disease","malady"]}
+ewishness {"noun":["disgrace","obscenity"]}
+ewish {"noun":["disgrace","dishonor","offence"],"adjective":["disgraced"]}
+unhearsome {"adjective":["disobedient","recalcitrant"]}
+unsided {"adjective":["neutral"],"noun":["objective"]}
+forthsend {"verb":["dispatch","emit"]}
+forheed {"verb":["disregard","neglect"]}
+sundering {"noun":["division","fence"]}
+dreve {"verb":["disturb","vex"]}
+cleaving {"noun":["division","secession"]}
+lorespell {"noun":["homily"]}
+mereswine {"noun":["dolphin","porpoise"]}
+rix {"verb":["reign","rule"]}
+lib {"noun":["potion"]}
+frainworthy {"adjective":["dubious","objectionable","questionable"]}
+foranswering {"noun":["duty","responsibility"]}
+goey {"noun":["enterprise"],"adjective":["vigorous"]}
+earspeaker {"noun":["earphone","headphone"]}
+eath {"noun":["ease"],"adjective":["easy"]}
+onefold {"adjective":["simple"]}
+rosewater {"noun":["eau de cologne","eau de parfum","eau de toilette"]}
+ilmwater {"noun":["perfume"]}
+sunderling {"noun":["orphan"]}
+bework {"verb":["edit","fabricate"]}
+raking {"noun":["research"]}
+-ling {"other":["-ee","-let"]}
+swink {"noun":["labor"],"verb":["labor"]}
+forechoose {"verb":["elect","predetermine","prefer"]}
+lightbit {"noun":["electron"]}
+aheave {"verb":["elevate"],"adjective":["erect"]}
+speechcraft {"noun":["elocution","rhetoric"]}
+inbody {"verb":["embody"]}
+in- {"other":["in-"]}
+be- {"other":["en-"]}
+belaw {"verb":["enact","legalize"]}
+enring {"verb":["surround"]}
+inring {"verb":["encircle","surround"]}
+umbgo {"verb":["enclose","encompass"]}
+overset {"verb":["encode","translate"]}
+deal with {"verb":["manage","use"]}
+alne {"verb":["encourage"],"noun":["endurance","energy","juice"],"adjective":["vigorous","vital"]}
+beborough {"verb":["encourage","urbanize"]}
+put up with {"verb":["endure","tolerate"]}
+beans {"noun":["iota"]}
+brooking {"noun":["function"]}
+greaten {"verb":["enlarge","expand","increase"]}
+biggen {"verb":["enlarge","increase"]}
+fiendship {"noun":["enmity","hostility"]}
+high and mighty {"adjective":["supercilious"]}
+innard {"noun":["entrail","organ"]}
+ingang {"noun":["entrance","entry"]}
+way in {"noun":["entrance","entry"]}
+greenmonger {"noun":["grocer","vegetarian"]}
+sond {"noun":["envoy","message"]}
+ondy {"verb":["envy"],"adjective":["jealous"]}
+afterword {"noun":["epilog"]}
+aftertale {"noun":["epilog"]}
+graith {"verb":["equip","prepare"],"noun":["equipment"]}
+naughten {"verb":["eradicate","nullify"]}
+wild-witted {"adjective":["erratic","irascible"]}
+wist {"noun":["essence","nature"]}
+all but {"adverb":["essentially","virtually"]}
+beground {"verb":["establish","justify"]}
+begrounded {"adjective":["established","justified"]}
+worthen {"verb":["esteem","value"]}
+shat {"verb":["estimate"],"noun":["money","treasure"]}
+and others {"other":["et cetera"]}
+kindlewood {"noun":["match"]}
+endly {"adverb":["eventually","finally"]}
+couthly {"adjective":["intimate"]}
+eftminding {"noun":["memory","reminder"]}
+fore- {"other":["before"]}
+ere- {"noun":["origin","source"],"adjective":["original"],"adverb":["originally"],"verb":["originate"]}
+underseek {"verb":["examine","investigate"],"noun":["research"]}
+delving {"noun":["excavation","research"]}
+ackle {"adjective":["scared","terrified"]}
+forelay {"noun":["exemplar","pattern","template"],"verb":["present"]}
+ove 
+n {"verb":["exercise","practice"]}
+oving {"verb":["exercise","practice"]}
+groundly {"adjective":["terrestrial"],"adverb":["profoundly"]}
+bestand {"verb":["exist"]}
+braid out {"verb":["expand","extend"]}
+watch for {"verb":["expect","guard"]}
+unthrifty {"adjective":["extravagant"]}
+frood {"adjective":["experienced","mature"]}
+forseek {"verb":["try"]}
+fieldknower {"noun":["expert"]}
+atelling {"noun":["story"]}
+uttering {"noun":["expression"]}
+far-reaching {"adjective":["extensive","important"]}
+wonder-tale {"noun":["fable","legend"]}
+top-shelf {"adjective":["fabulous","terrific"]}
+liefful {"adjective":["faithful"]}
+lise {"noun":["fame","reputation"]}
+kneeris {"noun":["generation"]}
+fangle {"verb":["fashion","invent"],"noun":["fashion"]}
+crowd-pleasing {"adjective":["favorite"]}
+hamstrung {"adjective":["feckless","ineffective"]}
+man-hater {"noun":["misandrist"]}
+rith {"noun":["rivulet","tributary"]}
+forloved {"noun":["fiancé","fiancée"]}
+rethe {"adjective":["fierce"],"noun":["reason"]}
+back-friend {"noun":["pretend friend"]}
+dwimmer {"noun":["figment","illusion","magic","sorcery"]}
+four-star {"noun":["quality"]}
+fulcome {"verb":["finish","perfect"]}
+smatch {"noun":["trace"],"verb":["taste"]}
+witlessness {"noun":["folly"]}
+meathead {"noun":["fool","idiot"]}
+outland {"noun":["foreign country"]}
+fremdling {"noun":["foreigner","stranger"]}
+fremder {"noun":["foreigner","stranger"]}
+frith {"noun":["forest","peace","safety","secession","tranquility"],"verb":["protect"]}
+wortbreath {"noun":["fragrance"]}
+ovet {"noun":["fruit"]}
+flightling {"noun":["fugitive","refugee"]}
+swamb {"noun":["sponge"]}
+fremeless {"adjective":["futile","unprofitable"]}
+crafthall {"noun":["gallery"]}
+talksome {"adjective":["talkative"]}
+dolk {"noun":["gash"]}
+wemming {"adjective":["gay","homosexual"]}
+arkenstone {"noun":["gem"]}
+give rise to {"verb":["generate","induce"]}
+givel {"adjective":["generous","liberal"]}
+bearingly {"adjective":["gestational"]}
+athelman {"noun":["gentleman"]}
+shrithing {"noun":["gesture","motion","movement"]}
+entish {"adjective":["gigantic","large"]}
+wuldersome {"adjective":["glorious","sensational"]}
+thrymfast {"adjective":["glorious","majestic"],"noun":["illustrious"]}
+sinewsweet {"noun":["glycogeen"]}
+ledeward {"noun":["government","parliament"]}
+eldfather {"noun":["grandfather","patriarch"]}
+great-eam {"noun":["granduncle"]}
+eldeam 
+parent's fatherly {"noun":["granduncle"]}
+eldfatherbrother 
+parent's motherly {"noun":["granduncle"]}
+eldmotherbrother {"noun":["granduncle"]}
+queme {"adjective":["grateful"],"verb":["please","satisfy"]}
+bewatch {"verb":["guard"]}
+thorpe {"noun":["hamlet","settlement","village"]}
+thorp {"noun":["hamlet","settlement","village"]}
+dorp {"noun":["hamlet","village"]}
+whistle-stop {"noun":["hamlet","settlement"]}
+hemling {"noun":["hamlet","settlement","village"]}
+erf {"noun":["heritage"]}
+half- {"other":["hemi-","semi-"]}
+sam- {"other":["semi-"]}
+sand- {"other":["semi"]}
+some- {"other":["semi-"]}
+halfring {"noun":["semicircle"]}
+samring {"noun":["semicircle"]}
+halfball {"noun":["hemisphere"]}
+croud {"noun":["herb","spice"]}
+doughtiness {"noun":["heroism","nerve","virtue"]}
+andlover {"adjective":["heteroromantic","heterosexual"]}
+sameh {"noun":["homophobia","homosexuality"],"adjective":["homosexual"]}
+samelover {"adjective":["homosexual"]}
+samekindlover {"adjective":["homosexual"]}
+loveknave {"adjective":["homosexual"]}
+lutter {"adjective":["pure"]}
+afear {"verb":["terrify"]}
+foesome {"adjective":["hostile"]}
+fiendly {"adjective":["hostile"]}
+fiendishness {"noun":["hostility","sadism"]}
+stour {"adjective":["huge","large"]}
+mennishly {"adjective":["human","personal"]}
+lightmote {"noun":["photon"]}
+bewrayer {"noun":["traitor"]}
+howe {"noun":["plan","project"],"verb":["plan"]}
+dwease {"noun":["idiot"],"adjective":["stupid"]}
+-ledge {"other":["-ify","-ize"]}
+will-o-the-wisp {"noun":["ignis fatuus","Jack o'Lantern"]}
+tind {"verb":["kindle"]}
+unwit {"noun":["ignorance","nonsense"]}
+infinding {"adjective":["innovative"]}
+right now {"adverb":["immediately","instantly"]}
+incomer {"noun":["immigrant"]}
+formiddle {"verb":["mediate"]}
+hinderness {"noun":["hindrance"]}
+ill-thewed {"adjective":["impertinent","impolite"]}
+aileat {"noun":["importunity"]}
+onget {"verb":["perceive","recognize"],"noun":["perception"]}
+forbetter {"verb":["improve"]}
+unbeseeming {"adjective":["unsuitable"]}
+self-standing {"adjective":["independent","sovereign"],"noun":["secession"]}
+betokening {"noun":["indication","manifestation"]}
+inlandish {"adjective":["native"]}
+onelepy {"adjective":["individual","private"],"noun":["individual"]}
+draw on {"verb":["induce","produce"]}
+beweigh {"verb":["induce","move"]}
+unhandy {"adjective":["inept","useless"]}
+unbearing {"adjective":["infertile","unproductive"]}
+unteeming {"adjective":["unproductive"]}
+overbreak {"verb":["infringe","transgress"]}
+erde {"verb":["inhabit","reside"]}
+erding {"noun":["residence"]}
+benew {"verb":["innovate"]}
+into {"verb":["verify"]}
+delve into {"verb":["inquire","investigate"]}
+speering {"verb":["inspect"],"noun":["investigation","research"]}
+eyeblink {"noun":["moment","second"]}
+brains {"noun":["intelligence","reason"]}
+wassomshat {"noun":["usury"]}
+befrain {"verb":["question"]}
+speer {"verb":["search"]}
+holm {"noun":["isle","islet"]}
+ait {"noun":["isle","islet"]}
+eyot {"noun":["isle","islet"]}
+craftspeech {"noun":["jargon","language"]}
+gleeman {"noun":["minstrel"]}
+lith {"noun":["joint","member","segment"]}
+leedred {"noun":["nation"]}
+reckoned {"adjective":["just"]}
+the Gate {"noun":["Kattegat","Skagerrak"]}
+deerhouse {"noun":["kennel"]}
+childeryard {"noun":["nursery"]}
+workship {"noun":["labor union","trade union"]}
+waylight {"noun":["lamp","lantern"]}
+reard {"noun":["sound","voice"]}
+lightbearer {"noun":["lantern","Lucifer"]}
+handlight {"noun":["lantern","torch"]}
+herry {"verb":["praise"]}
+rown {"noun":["mystery"]}
+yedding {"noun":["verse"]}
+lorespeaker {"noun":["lecturer"]}
+leerer {"noun":["tutor"]}
+errandwrit {"noun":["letter","message"]}
+errandbook {"noun":["message"]}
+wordly {"adjective":["linguistic","verbatim"]}
+speechlore {"noun":["linguistics"]}
+lind {"noun":["nature"]}
+-lore {"other":[]}
+smacky {"adjective":["tasty"]}
+sare {"noun":["trick"]}
+spellcraft {"noun":["magic","orthography"]}
+spae {"noun":["vision"]}
+douthness {"noun":["majesty"]}
+lund {"noun":["nature","temperament"]}
+wyecraft {"noun":["craft"]}
+selcouth {"adjective":["marvelous","rare","strange"]}
+Roufrithson's Engli {"noun":["Mass"]}
+lorethew {"noun":["tutor"]}
+anwork {"noun":["material","matter"]}
+deerkeep {"noun":["zoo"]}
+wightkeep {"noun":["zoo"]}
+creepdeer {"noun":["reptile"]}
+over- {"other":["meta-","trans-"],"adjective":["super"]}
+after- {"other":["post-"]}
+atell {"noun":["number"]}
+small- {"other":["mini"]}
+specky {"adjective":["miniscule"]}
+ambighter {"noun":["minister","officer"]}
+lie to {"verb":["misguide","misinform"]}
+forebeing {"noun":["preexistence"]}
+deathbound {"adjective":["moribund","mortal"]}
+beweighing {"noun":["motion","movement"]}
+kemp {"noun":["soldier"]}
+morefold {"adjective":["multiple","plural"]}
+fele {"adjective":["multiple","very"],"adverb":["plenty"]}
+shapeshift {"verb":["transfigure","transform"]}
+yondshape {"verb":["transfigure"]}
+liefsome {"adjective":["pleasant"]}
+theed {"noun":["nation","tribe"]}
+leedship {"noun":["nation"]}
+landleed {"noun":["nation"]}
+callower {"noun":["neophyte","novice"]}
+edder {"noun":["nerve","vein"]}
+unsidedness {"noun":["neutrality"]}
+evenhandedness {"noun":["fairness"]}
+thester {"verb":["obscure"],"adjective":["obscure","tenebrous"]}
+yeme {"verb":["observe","recognize"]}
+beaughten {"verb":["observe","realize"]}
+forslow {"verb":["obstruct","postpone"]}
+sele {"noun":["season"]}
+agive {"verb":["offer","relinquish"],"noun":["task"]}
+doomy {"adjective":["ominous"]}
+ill-boding {"adjective":["ominous","portentous"]}
+onsight {"noun":["perspective"]}
+foresay {"verb":["predict"]}
+befrith {"verb":["pacify","satisfy"]}
+gums {"noun":["palate"]}
+ur- {"other":["proto-"]}
+or- {"other":["paleo-","proto-"]}
+erewritlore {"noun":["paleography"]}
+bedbroker {"noun":["panderer","pimp"]}
+yond- {"other":["trans-"]}
+otherwordly {"adjective":["paranormal","supernatural"]}
+dealnim {"verb":["partake"]}
+writing tool {"noun":["pen"]}
+leadstick {"noun":["pencil"]}
+oove {"noun":["practicing"]}
+forfare {"verb":["perish"]}
+wightly {"adjective":["personal","private"]}
+ekename {"noun":["sobriquet"]}
+farspeaker {"noun":["phone","telephone"]}
+lightdrawing {"noun":["photograph","picture"]}
+wordstring {"noun":["phrase","sentence"]}
+howing {"noun":["planning"]}
+quemeness {"noun":["pleasure","satisfaction"]}
+folksay {"noun":["proverb"]}
+folkspoll {"noun":["plebiscite","referendum"]}
+folksstevening {"noun":["referendum"]}
+folksanswer {"noun":["plebiscite","referendum"]}
+lithy {"adjective":["pliable","pliant"]}
+pough {"noun":["pouch"]}
+leethcraft {"noun":["verse"]}
+atter {"noun":["poison","pus","venom"],"verb":["poison"],"adjective":["toxic"]}
+attery {"adjective":["poisonous","venomous"]}
+attern {"adjective":["poisonous","venomous"]}
+steven {"noun":["vote"]}
+folkly {"adjective":["popular","public"]}
+folkish {"adjective":["popular"]}
+forerun {"verb":["precede"]}
+maily {"adjective":["possible","potential"],"adverb":["possibly"]}
+foreneed {"noun":["prerequisite"]}
+before-runner {"noun":["precursor"]}
+soothsay {"verb":["predict","prophesy"]}
+beforeness {"noun":["preexistence","priority"]}
+forefeeling {"noun":["premonition"]}
+forework {"verb":["prepare","process"],"noun":["rampart"]}
+sundergift {"noun":["privilege"]}
+hain {"verb":["preserve","save"]}
+cackhouse {"noun":["privy","toilet"]}
+foregang {"noun":["process"]}
+behight {"noun":["promise","vow"],"verb":["promise"]}
+onfally {"adjective":["prone","susceptible"]}
+crockwright {"noun":["psychologist"]}
+mindlorer {"noun":["psychologist"]}
+roo {"noun":["quietness","tranquility"]}
+fewsome {"adjective":["rare"]}
+geason {"adjective":["rare"]}
+shedwiseness {"noun":["reason"]}
+wareness {"noun":["vigilance"]}
+withcall {"verb":["recall","remember"]}
+edcall {"verb":["remember"]}
+eftcall {"verb":["remember"]}
+call to mind {"verb":["recall","remember"]}
+foryield {"noun":["reward"],"verb":["requite"]}
+andweaving {"noun":["reconciliation"]}
+alease {"verb":["redeem","release"]}
+ednew {"verb":["renew","update"]}
+asake {"verb":["refuse","refute","renounce"]}
+landship {"noun":["terrain"]}
+underset {"verb":["reinforce","support"]}
+loosing {"noun":["release","solution"]}
+belive {"verb":["remain","stay"]}
+ashes {"noun":["remains","residue","wreckage"]}
+nerry {"verb":["save"]}
+redd {"verb":["rescue","save"]}
+hattleness {"noun":["resentment","violence"]}
+bed of dust {"noun":["tomb"]}
+the dark inn {"noun":["resting place"]}
+grass-bed {"noun":["resting place"]}
+moldern {"noun":["tomb"]}
+moldstow {"noun":["sepulchre","tomb"]}
+the pit {"noun":["tomb"]}
+lichpit {"noun":["tomb"]}
+the delf {"noun":["resting place","tomb"]}
+the deep-six {"noun":["tomb"]}
+narrow house {"noun":["tomb"]}
+long-home {"noun":["tomb"]}
+dust-bed {"noun":["tomb"]}
+earth-home {"noun":["tomb"]}
+unhele {"verb":["reveal","unveil"]}
+wrake {"noun":["revenge","vengeance"]}
+sweven {"noun":["vision"]}
+playwork {"noun":["roleplay"]}
+wheelshaped {"adjective":["round"]}
+landly {"adjective":["rural","territorial"]}
+frithhouse {"noun":["safehouse","sanctuary"]}
+bareland {"noun":["wasteland"]}
+afterfollowing {"noun":["sequel"]}
+asunderhood {"noun":["separation"]}
+bestill {"verb":["silence"]}
+one-of-a-kind {"adjective":["singular","unique"]}
+upmake {"noun":["structure"]}
+outreaching {"adjective":["transitive"]}
+forthringe {"verb":["supersede","supplant"]}
+overnim {"verb":["supplant"]}
+mistrustfulness {"noun":["suspicion"]}
+tithing {"noun":["taxation"]}
+farseer {"noun":["telescope"]}
+eyse {"verb":["terrify"]}
+behandling {"noun":["treatment"]}
+shellpad {"noun":["turtle"]}
+yondfare {"verb":["travel","traverse"]}
+fere {"noun":["traveler"]}
+sig {"noun":["triumph"]}
+wall-to-wall {"adjective":["ubiquitous","universal"]}
+seldcouth {"adjective":["unfamiliar","unusual"]}
+toom {"adjective":["vacant"],"noun":["void"]}
+tharl {"adjective":["violent"]}
+westen {"noun":["wasteland"]}
+beerlore {"noun":["zymurgy","zythology"]}
+abidinghouse {"noun":["almshouse","poorhouse"]}
+abraid {"verb":["burst forth","start up","awake"]}
+abrirdness {"noun":["contrition","compunction"]}
+abuy {"verb":["atone","pay"]}
+ack {"preposition":["but","except"],"interjection":["but"]}
+acost {"adjective":["proven","tested"]}
+acover {"verb":["recover","revive"]}
+acrechurl {"noun":["farmer","ploughman"]}
+addeem {"verb":["declare","determine","adjudge"]}
+adderbiter {"noun":["mongoose"]}
+adle {"noun":["illness","ailment"]}
+adwash {"verb":["extinguish","blot out","delete"]}
+afired {"noun":["castrated animal"]}
+aforetime {"noun":["past"],"adjective":["past"]}
+aforetimes {"adverb":["previously"]}
+afterborn {"adjective":["posthumous"]}
+aftercoming {"noun":["succeeding"],"adjective":["succeeding"]}
+afterspeak {"verb":["claim"]}
+afterspeech {"noun":["will"]}
+agame {"adverb":["jestingly","playfully"]}
+agraith {"verb":["make ready","prepare"]}
+agraithing {"noun":["ornament"]}
+ahap {"adjective":["fitting","suitable"]}
+ahir {"verb":["imitate","emulate"]}
+ahirring {"noun":["imitation","emulation"]}
+alderdom {"noun":["eldership"]}
+aleesedness {"noun":["salvation"]}
+alighten {"verb":["illuminate"]}
+alkin {"adjective":["universal"]}
+allings {"adverb":["entirely","sufficiently"]}
+Almannish {"noun":["Alemannic"],"adjective":["Alemannic"]}
+almsman {"noun":["beggar","almoner"]}
+alow {"adverb":["low down","below"],"preposition":["low down","below"],"interjection":["low down","below"]}
+alse {"adverb":["totally","entirely"]}
+alsuch {"adverb":["exactly","just"]}
+altew {"adjective":["healthy"]}
+alther {"other":["very"]}
+alway {"adverb":["perpetually","continually"]}
+amid {"adverb":["during","middle"],"preposition":["during","middle"],"interjection":["during","middle"]}
+ang {"noun":["trouble"],"adjective":["troubled"],"other":["denotes tightness and vexation"]}
+angmood {"noun":["vexed mood"]}
+anker {"noun":["anchorite"]}
+anlet {"noun":["appearance"]}
+anlikeness {"noun":["image","resemblance"]}
+anqueath {"noun":["answer","reply"],"verb":["answer","reply"]}
+ansaker {"noun":["denier","renouncer","opposer"]}
+ansen {"noun":["face","form","figure","appearance"]}
+anward tide {"noun":["now"],"adjective":["now"]}
+anwarden {"verb":["make present","update"]}
+anwardening {"noun":["modernization"]}
+anyetful {"adjective":["sensible","intelligible"]}
+anyetfully {"adverb":["sensibly","intelligibly"]}
+anyetless {"adjective":["senseless","irrational","nonsensical","foolish"]}
+anyettle {"adjective":["sensible","discerning"]}
+anyetty {"adjective":["sensory","sensible"]}
+apefox {"noun":["possum","opossum"]}
+appleleaf {"noun":["violet"]}
+arade {"adjective":["skilled","expert"]}
+areading {"noun":["decree"]}
+arisen {"adjective":["proper","fitting","seemly"]}
+arist {"noun":["arising","sunrise"]}
+armbigh {"noun":["bracelet","armlet"]}
+armchary {"adjective":["sad","miserable"]}
+arose {"verb":["discover"]}
+arown {"noun":["mystery"]}
+arrowblaster {"noun":["arbalest","arbalist","arbelest"]}
+arsefoot {"noun":["grebe"]}
+arvethhield {"adjective":["ill-natured"]}
+arvethsithe {"noun":["calamity"]}
+arvethteachy {"adjective":["difficult to prove"]}
+as an aside {"other":["in passing"]}
+aseen {"adjective":["evident","visible"]}
+asher {"noun":["incinerator"]}
+ashhouse {"noun":["crematorium","crematory"]}
+ashing {"noun":["incineration","cremation"]}
+asit {"verb":["occupy"]}
+askeel {"noun":["halosaur"]}
+aslake {"verb":["abate","diminish","moderate","mitigate"]}
+asoothe {"verb":["prove","confirm","verify"]}
+asweeve {"verb":["calm down","lull","pacify","put to rest","soothe"]}
+at a braid {"adverb":["momentarily"]}
+at unset steven {"adverb":["unexpectedly","by chance"]}
+atburst {"verb":["escape"]}
+atease {"verb":["tease"]}
+atgo {"verb":["go away","pass away"]}
+athelly {"adverb":["nobly","elegantly"]}
+athelwhite {"noun":["Leontopodium alpinum plant"]}
+athelwield {"noun":["aristocracy"]}
+atithe {"verb":["grant","allow"]}
+atlast {"adverb":["finally","ultimately"]}
+atle {"adjective":["terrible","horrible","dire","ugly"]}
+atley {"adjective":["ugly"]}
+atsake {"verb":["deny","abjure","disown"]}
+atsit {"verb":["resist","oppose"]}
+attercraft {"noun":["poisoning","sorcery"]}
+Attle {"noun":["Lazio"],"preposition":["Lazio"],"interjection":["Lazio"]}
+Attler {"noun":["Italian"],"preposition":["Italian"],"interjection":["Italian"]}
+awortwale {"verb":["uproot","eradicate","extirpate"]}
+awrack {"adverb":["wrecked","ruins"]}
+axlespan {"noun":["crossbar","crosspiece"]}
+ayen {"other":["re-","return"],"adverb":["again","against","often","in exchange","before","shield"],"preposition":["again","against","return","in exchange","before","shield"],"interjection":["again","against","return","in exchange","before","shield"]}
+ayenst {"adverb":["against","facing","anticipating","expecting","in contrast with"],"preposition":["against","facing","anticipating","expecting","in contrast with"],"interjection":["against","facing","anticipating","expecting","in contrast with"]}
+backen {"verb":["delay","retard"]}
+badblood {"noun":["ill will","feud","grudge"]}
+baddle {"noun":["hermaphrodite"]}
+baked good {"noun":["pastry"]}
+baller {"noun":["player of a ball game","basketball player"]}
+ballocks {"noun":["testicles","nonsense"]}
+Balt {"noun":["Lithuanian","Latvian"],"preposition":["Lithuanian","Latvian"],"interjection":["Lithuanian","Latvian"]}
+Baltland {"noun":["the Baltic land region"],"preposition":["the Baltic land region"],"interjection":["the Baltic land region"]}
+banewort {"noun":["deadly nightshade"]}
+barling {"noun":["pole","beam","rafter"]}
+barnteam {"noun":["offspring"]}
+barrowlee {"noun":["cougar","puma","mountain lion","catamount","panther"]}
+beaconer {"noun":["signaller"]}
+bearsear {"noun":["auricula"]}
+bearwort {"noun":["spignel","meum","baldmoney"]}
+beath {"verb":["heat"]}
+bedeal {"verb":["deprive"]}
+bedoven {"adjective":["drenched","submerged"]}
+bedwell {"verb":["dwell","inhabit"]}
+beedland {"noun":["tableland","plateau"]}
+beek {"verb":["charter","grant"]}
+beem {"noun":["trumpet"],"verb":["trumpet"]}
+beestings {"noun":["colostrum"]}
+befasten {"verb":["fasten"]}
+befoe {"verb":["become a foe of","make a foe of"]}
+begale {"verb":["charm"]}
+bego {"verb":["cover","ornament","overtake"]}
+begreed {"verb":["blame","charge","accuse"]}
+beheart {"verb":["enamour"]}
+behirn {"verb":["store away"]}
+behooveful {"adjective":["beneficial","advantageous","profitable","suitable","proper","requisite"]}
+behoovely {"adjective":["expedient","beneficial","advantageous","profitable","suitable","proper","requisite"],"adverb":["advantageously","profitably"]}
+beknow {"verb":["know","realize","acknowledge"]}
+belap {"verb":["surround","envelop"]}
+belatch {"verb":["catch","trap"]}
+berue {"verb":["repent","regret","remorse"]}
+beruse {"verb":["repent","feel remorse"]}
+berusing {"noun":["repentance"]}
+besee {"verb":["attend","provide","furnish"]}
+beseecher {"noun":["petitioner","suitor"]}
+besight {"noun":["legal provision","legal disposition"]}
+besing {"verb":["sing","celebrate","enchant"]}
+besit {"verb":["besiege"]}
+besmitten {"adjective":["infatuated","enamoured","charmed","fascinated"]}
+beswathe {"verb":["cover"]}
+betee {"verb":["devote","spend"]}
+beteem {"verb":["allow","permit"]}
+beteld {"verb":["cover"]}
+bethew {"verb":["enthral","enslave"]}
+bethought {"adjective":["planned","premeditated"]}
+bethrall {"verb":["enthrall"]}
+betightle {"verb":["accuse"]}
+betwixtwarp {"noun":["interjection","term"],"verb":["interject"]}
+bevering {"noun":["trembling"]}
+bidden {"noun":["barrel","tub"]}
+biddingly {"adjective":["imperative"]}
+bidhouse {"noun":["chapel"]}
+billwhitely {"adverb":["simply","sincerely","honestly"]}
+bindlestiff {"noun":["tramp"]}
+bindstaff {"noun":["ligature","writing"]}
+bir {"verb":["ought to","should","must"]}
+birdling {"noun":["turtle"]}
+birdspider {"noun":["tarantula","spider"]}
+birler {"noun":["butler","cupbearer"]}
+bishopdom {"noun":["episcopacy","episcopate"]}
+bishopswort {"noun":["wood betony"]}
+bist {"verb":["are"]}
+black gold {"noun":["crude oil"]}
+Black Sheep Turkmen {"noun":["Qara Qoyunlu"],"preposition":["Qara Qoyunlu"],"interjection":["Qara Qoyunlu"]}
+blackwort {"noun":["comfrey"]}
+blake {"verb":["pale","wan"],"adjective":["pale","wan"]}
+blastle {"noun":["bomb"]}
+bleefaw {"adjective":["multicoloured"]}
+bleeth {"adjective":["timid","apprehensive"]}
+blike {"verb":["shine","gleam","twinkle","glitter","sparkle"]}
+bliket {"noun":["sparkle","twinkle"]}
+blissen {"verb":["gladden"]}
+blithering {"noun":["jabbering"],"adjective":["foolish"]}
+bloak {"adjective":["pale","wan"]}
+bloakern {"noun":["lamp","lantern"]}
+blood attering {"noun":["blood poisoning"]}
+bloodleech {"noun":["haematologist"]}
+bloodsax {"noun":["fleam"]}
+bloodtale {"noun":["tale involving bloodshed and violence","sensational story"]}
+bloop {"noun":["beep"],"verb":["make a beep"]}
+blossomdeer {"noun":["coral"]}
+blowth {"noun":["florescence"]}
+bodelock {"noun":["decree","ordinance"]}
+bolden {"verb":["embolden","encourage"]}
+bolder {"noun":["hero"]}
+bonddom {"noun":["bondage"]}
+bondfolk {"noun":["serfs"]}
+bonehouse {"noun":["body","charnel house","ossuary"]}
+boneleech {"noun":["orthopaedist","orthopedist"]}
+book of god {"noun":["holy book"]}
+bookred {"noun":["vermilion"]}
+bookwork {"noun":["study"]}
+boose {"noun":["stall"]}
+booten {"verb":["heal","cure"]}
+bootworthy {"adjective":["pardonable"]}
+boroughwit {"noun":["city counsellor","city counselor"]}
+boroughy {"adjective":["urban","municipal","civil","city-related"]}
+bothen {"noun":["rosemary"]}
+bothhanded {"adjective":["ambidextrous"],"adverb":["ambidextrously"]}
+bowerland {"noun":["farmland"]}
+bown {"verb":["get ready","get prepared"]}
+Bragman {"noun":["brahmin"]}
+brakestreeling {"noun":["bremsstrahlung"]}
+breastband {"noun":["bra"]}
+breastbour {"noun":["breastplate","breast armour"]}
+breastfire {"noun":["mastitis","garget"]}
+bred {"noun":["table","tablet","board","plank","log"]}
+breet {"verb":["break","bruise","destroy"]}
+brerd {"noun":["rim","brim","brink","edge"]}
+bridewort {"noun":["meadowsweet"]}
+brightom {"noun":["glittering","twinkling"]}
+brightomwhile {"noun":["moment","instant"]}
+brimguest {"noun":["mariner","sailor"]}
+brimhinx {"noun":["ship"]}
+Britenwielder {"noun":["ruler"],"preposition":["ruler"],"interjection":["ruler"]}
+britter {"noun":["distributor"]}
+Britwales {"noun":["Britons"],"preposition":["Britons"],"interjection":["Britons"]}
+Britwelsh {"noun":["Brythonic"],"preposition":["Brythonic"],"interjection":["Brythonic"],"adjective":["Brythonic"]}
+Bronding {"noun":["Brondings"],"preposition":["Brondings"],"interjection":["Brondings"]}
+brord {"noun":["point","prick"]}
+bure {"noun":["son","child","descendant"]}
+burstness {"noun":["rupture"]}
+burstwort {"noun":["plant","rupturewort"]}
+buryleeth {"noun":["epitaph","eulogy"]}
+butterfly cod {"noun":["cod"]}
+butterflytree {"noun":["mopane","turpentine tree"]}
+by the rood {"interjection":["by the cross","oath"]}
+byedness {"adjective":["curvature"],"noun":["case"]}
+byfare {"verb":["pass"]}
+bysmear {"noun":["defame"],"verb":["defame"]}
+cack {"noun":["dung","shit"],"verb":["dung","shit"]}
+candletree {"noun":["chandelier"]}
+cannel {"noun":["cinnamon"]}
+capittle {"noun":["chapter"]}
+caple {"noun":["horse"]}
+Cathom {"noun":["Caen"],"preposition":["Caen"],"interjection":["Caen"]}
+chafer {"noun":["Scarabaeidae insect","scarab"]}
+chapbook {"noun":["pamphlet","small book"]}
+charlady {"noun":["maid","cleaning"]}
+chavel {"noun":["jaw"]}
+cheaping {"noun":["marketing","trading","bargaining"]}
+cheast {"noun":["strife","quarreling"]}
+cheen {"noun":["torch"]}
+cheet {"noun":["cabin","cottage"]}
+chell {"noun":["gullet","front of a neck"]}
+chellender {"noun":["coriander","cilantro"]}
+chester {"noun":["city"]}
+cheves {"noun":["paramour"]}
+chevesborn {"adjective":["bastard"]}
+chirm {"noun":["din"]}
+chise {"adjective":["choosy","picky","petty","critical"]}
+chooseling {"noun":["one of the elect"]}
+chor {"noun":["choir","chorus"]}
+churchward {"noun":["sacristan"]}
+churlishness {"noun":["rudeness"]}
+Churlwain {"noun":["Big Dipper","Ursa Major","constellation"]}
+chyingly {"adjective":["vocative"]}
+Clean Lent {"noun":["Lent"],"preposition":["Lent"],"interjection":["Lent"]}
+cleancut {"adjective":["sharply defined","unambiguous","wholesome"]}
+cleanhearted {"adjective":["pure"]}
+clept {"adjective":["named"]}
+cloam {"noun":["earthenware","crockery"],"adjective":["earthenware","crockery"]}
+clote {"noun":["burdock","clotbur"]}
+clough {"noun":["ravine"]}
+coalfish {"noun":["pollock","saithe"]}
+coath {"noun":["disease","illness","sickness"]}
+cockshead {"noun":["sainfoin"]}
+codtree {"noun":["carob","locust tree"]}
+coldrife {"adjective":["cold","chilling","frigid"]}
+colk {"noun":["apple core","core"]}
+comeling {"noun":["foreigner","stranger","newcomer","new convert"]}
+conned {"adjective":["educated"]}
+cookiecutter {"adjective":["generic"]}
+corf {"noun":["basket","cart","container"]}
+couthledge {"verb":["befriend","acquaint"]}
+covegod {"noun":["household god"]}
+crafted tongue {"noun":["conlang"]}
+crat {"noun":["cart"]}
+crough {"noun":["crocus"]}
+culver {"noun":["dove","pigeon"]}
+cumble {"noun":["standard","ensign","banner"]}
+cund {"other":["nature"]}
+cutwater {"noun":["Rynchops niger","curve","wedge"]}
+dalk {"noun":["clasp","buckle","brooch"]}
+Damask {"noun":["cloth"],"preposition":["cloth"],"interjection":["cloth"]}
+daying {"noun":["settlement"]}
+daysman {"noun":["arbitrator","mediator","umpire","arbiter"]}
+dealnimmend {"noun":["participant"]}
+dealnimmenly {"adjective":["sharing","participating"]}
+deathshildy {"adjective":["mortal"]}
+deathsong {"noun":["requiem"]}
+deech {"verb":["smear","daub","plaster"]}
+deedbeet {"verb":["repent"]}
+deedbeeter {"noun":["penitent"]}
+deedfrom {"noun":["deed-doer"]}
+deedlate {"adjective":["slow","slothful"]}
+deedlater {"noun":["sluggard"]}
+deedlean {"noun":["reward","recompense"]}
+deeryard {"noun":["zoo"]}
+delver {"noun":["digger","excavator","miner"]}
+demmerlake {"noun":["magic","sorcery"]}
+Denlaw {"noun":["Danelaw"],"preposition":["Danelaw"],"interjection":["Danelaw"]}
+Dennish {"noun":["Danish"],"preposition":["Danish"],"interjection":["Danish"],"adjective":["Danish"]}
+Deprobane {"noun":["Taprobana"],"preposition":["Taprobana"],"interjection":["Taprobana"]}
+derf {"noun":["tribulation","trouble","torture","labour"]}
+derve {"verb":["work"]}
+dile {"adjective":["hidden","secret","furtive"]}
+dogdays {"noun":["stagnation","July","September"]}
+dom {"other":["state","-cracy","-archy"]}
+donothing {"noun":["slacker","idle"],"adjective":["idle"]}
+dooken {"verb":["bastardize"]}
+doomern {"noun":["tribunal"]}
+doomful {"adjective":["ominous"]}
+doomsettle {"noun":["judgment seat","tribunal"]}
+doomsman {"noun":["judge","umpire"]}
+doorthane {"noun":["door-keeper"]}
+dought {"noun":["courage","valour","bravery"]}
+dovehouse {"noun":["dovecote","pigeon house","pigeonry"]}
+down to earth {"noun":["realistic"]}
+downelf {"noun":["mountain elf"]}
+downgang {"noun":["descent","way down"]}
+downlink {"noun":["transmission","link"],"verb":["transmit"]}
+downputting {"adjective":["denigrating","derogatory"]}
+drast {"noun":["dregs","sediment"]}
+draughthouse {"noun":["privy"]}
+drawdown {"noun":["depletion","reduction","lowering"],"verb":["deplete","reduce"]}
+drawingroom {"noun":["lounge"]}
+drawlatch {"noun":["thief","burglar"]}
+dreadless {"adjective":["dauntless"]}
+dreap {"verb":["kill","strike down"]}
+dreeve {"verb":["trouble","vex"]}
+drie {"noun":["annoyance","trouble","grief"]}
+drightenly {"adjective":["noble"]}
+drightenship {"noun":["rulership","lordship"]}
+drightly {"adjective":["noble"]}
+dring {"noun":["warrior","soldier"]}
+drink hail {"noun":["drink to your health"],"interjection":["drink to your health"]}
+droof {"adjective":["turbid","sorrowful","troubled"]}
+droovy {"adjective":["stirred up","muddy"]}
+dropstone {"noun":["stalactite","stalagmite"]}
+drunklew {"noun":["drunkard","alcoholic"],"adjective":["drunkard","alcoholic"]}
+drycraft {"noun":["sorcery","magic"]}
+drycrafty {"adjective":["skilled in magic","magical"]}
+dwalegod {"noun":["idol","false god"]}
+dwalesome {"adjective":["wrong"]}
+dwarfdwostle {"noun":["pennyroyal"]}
+dwere {"noun":["doubt","uncertainty"]}
+dwildy {"adjective":["erroneous","heretical"]}
+dwolen {"adjective":["wrong","perverse"]}
+eace {"noun":["bait","lure"]}
+eard {"noun":["character","disposition","personality"]}
+earp {"adjective":["brown","dark brown"]}
+earsh {"noun":["animal preserve"]}
+earstone {"noun":["earstone"]}
+earthern {"noun":["tomb"]}
+earthivy {"noun":["ground-ivy"]}
+earthwax {"noun":["ozokerite","paraffin"]}
+Easterling {"noun":["native"]}
+eastle {"noun":["tablet"]}
+eathhield {"adjective":["satisfied","contented"]}
+eathly {"adjective":["insignificant","trivial","worthless"]}
+eathmoodly {"adjective":["humble"],"adverb":["humbly"]}
+eatinghouse {"noun":["eatery"]}
+ebber {"adjective":["laid bare","revealed","obvious","unconcealed"]}
+Ebrish {"noun":["Hebrew"],"preposition":["Hebrew"],"interjection":["Hebrew"],"adjective":["Hebrew"]}
+edstaddle {"verb":["restore","refound"]}
+edwist {"noun":["being","existence"]}
+edwistly {"adjective":["existing","real","solid"]}
+edwite {"noun":["reproach"],"verb":["reproach"]}
+edwiteful {"adjective":["shameful","disgraceful"]}
+edwitespeaker {"noun":["faultfinder"]}
+eftboot {"noun":["restoration","reparation"]}
+eftgive {"verb":["return"]}
+eftrun {"noun":["rerun"]}
+eftsithe {"noun":["return journey"]}
+eftsoons {"adverb":["once again"]}
+eftwharve {"verb":["return"]}
+eken {"verb":["increase","grow","swell"]}
+ekend {"noun":["adjective"]}
+ekenly {"adjective":["adjective"]}
+elbowbour {"noun":["couter"]}
+elfen {"noun":["fairy","nymph"]}
+ellandish {"adjective":["foreign"]}
+ellenly {"adjective":["valiant","daring"],"adverb":["daringly"]}
+ellenwood {"verb":["rage"],"adjective":["zealous"]}
+ellersithe {"noun":["departure","journey"]}
+elpsbone {"noun":["ivory"]}
+Elpsbone Shore {"noun":["Ivory Coast"],"preposition":["Ivory Coast"],"interjection":["Ivory Coast"]}
+elpsear {"noun":["begonia"]}
+elreardiness {"noun":["barbarousness"]}
+elreardy {"adjective":["foreign-speaking"]}
+elsewhence {"adverb":["from elsewhere"]}
+elsewhither {"adverb":["in another direction","another place"]}
+Elsinore {"noun":["city in Denmark"],"preposition":["city in Denmark"],"interjection":["city in Denmark"]}
+eltheedy {"adjective":["foreign"]}
+emb {"adverb":["around","near","surrounding"],"preposition":["around","near","surrounding"],"interjection":["around","near","surrounding"],"other":["circum-"]}
+emberwood {"noun":["brazilwood"]}
+emforth {"preposition":["the extent of"],"interjection":["the extent of"]}
+endbird {"noun":["order","arrangement"],"verb":["order","arrange"]}
+endbirdly {"adverb":["ordinally"]}
+endbirdness {"noun":["series"]}
+endbirdy {"adjective":["ordinal"]}
+Engledom {"noun":["Anglosphere","domain"]}
+Engles {"noun":["Englishmen"],"preposition":["Englishmen"],"interjection":["Englishmen"]}
+Englishen {"verb":["Anglicize"]}
+enly {"other":["capable","able","ably"]}
+erdfast {"adjective":["settled","abiding","earthfast"]}
+erdghost {"noun":["ethos"]}
+erdshrew {"noun":["kind of shrew"]}
+ere {"other":["pre-"],"adverb":["earlier","formerly","before"],"preposition":["before"],"interjection":["before"]}
+erelong {"adverb":["soon"]}
+erenow {"adverb":["before","prior"]}
+erewhile {"adverb":["before","ago"]}
+ereyesterday {"noun":["the day before yesterday"],"adverb":["the day before yesterday"]}
+erfland {"noun":["heritable land"]}
+erfnum {"noun":["heir","inheritor","heritor"]}
+erfward {"noun":["heir","inheritor","heritor"]}
+ermen {"adjective":["universal","immense","total"]}
+errandrake {"noun":["ambassador"]}
+et {"other":["nouns from adjectives","verbs","nouns"]}
+ettenish {"adjective":["giant","gigantic"]}
+evenedwistly {"adjective":["consubstantial","same"]}
+evengivel {"noun":["supper","dinner"]}
+evenhearted {"adjective":["harmonious"]}
+evenhood {"noun":["fairness","equality"]}
+evenmete {"adjective":["equal"]}
+evenminded {"adjective":["equanimous","equable"]}
+evenmindedness {"noun":["equanimity"]}
+everdeath {"noun":["permadeath"]}
+everfern {"noun":["royal fern"]}
+everlink {"noun":["permalink"],"verb":["permalink"]}
+evilcund {"adjective":["malignant"]}
+evilqueath {"verb":["slander","curse"]}
+evilwilling {"adjective":["malevolent"]}
+ewfast {"adjective":["pious","law-abiding"]}
+ewfastness {"noun":["piety"]}
+ewleap {"noun":["crime","transgression"]}
+eyesome {"adjective":["attractive"]}
+eyethril {"noun":["window","eye-hole"]}
+eyewater {"noun":["vitreous humour","aqueous humour"]}
+fack {"noun":["interval","time"]}
+fairheered {"adjective":["blond"]}
+fale {"noun":["companion"]}
+fane {"noun":["vane"]}
+farandman {"noun":["wayfarer","pedlar","merchant"]}
+fareld {"noun":["course","passage","expedition"]}
+farflung {"adjective":["remote","widely spread"]}
+farl {"noun":["cake","biscuit"]}
+farmth {"noun":["harbouring","entertaining"]}
+Faroish {"noun":["Faroese"],"adjective":["Faroese"]}
+farrand {"adjective":["fashioned"]}
+farth {"noun":["shore"]}
+fasthavel {"adjective":["stingy","miserly"]}
+fathernbrother {"noun":["brother"]}
+faw {"adjective":["particolored","spotted","streaked"]}
+faxcloth {"noun":["headband","hairband"]}
+faxfalling {"noun":["loss of hair"]}
+feedingroom {"noun":["cafeteria","canteen"]}
+feeland {"noun":["pasture"]}
+feelfold {"verb":["multiply"],"adjective":["manifold"]}
+Feenish {"noun":["Phoenician"],"preposition":["Phoenician"],"interjection":["Phoenician"],"adjective":["Phoenician"]}
+feered {"noun":["company","band","host","troop"]}
+feeth {"noun":["infantry","host","troop"]}
+feethheer {"noun":["troop of infantry"]}
+feeze {"verb":["drive off","disconcert"]}
+feigh {"verb":["make beautiful","adorn"]}
+fellen {"adjective":["made of skin"]}
+felling {"noun":["clearing"]}
+fellowred {"noun":["association","companionship","company","community"]}
+fellred {"noun":["purple"],"adjective":["purple"]}
+feltwort {"noun":["mullein"]}
+fenberry {"noun":["cranberry"]}
+fenowed {"adjective":["moldy","decayed"]}
+ferdfare {"noun":["military service","obligation","fee"]}
+ferdly {"adjective":["martial"]}
+feregiver {"noun":["God"]}
+ferking {"noun":["sustaining"]}
+fernman {"noun":["ancient"]}
+fernsitter {"noun":["rabbit"]}
+fether {"verb":["burden"]}
+fettler {"noun":["repairer","repairman"]}
+fewshaft {"adjective":["destitute","miserable","squalid"]}
+fick {"noun":["deceit","fraud"]}
+fieldelf {"noun":["field elf"]}
+fieldhen {"noun":["partridge"]}
+fike {"verb":["feign","dissemble"],"noun":["fig"]}
+filmcraft {"noun":["cinematography"]}
+filmgoer {"noun":["moviegoer"]}
+filmish {"adjective":["filmic","cinematic"]}
+findy {"adjective":["capable","able","suitable","proper","apt"]}
+fingerbone {"noun":["phalanx of a finger","anatomy"]}
+fingle {"noun":["prince"]}
+firefree {"adjective":["fireproof"]}
+firenful {"adjective":["sinful","wicked"]}
+firenlust {"noun":["lust","wantonness"]}
+fires {"noun":["humans"]}
+fireward {"noun":["fire chief","fire warden"]}
+firk {"verb":["hasten","jerk","fidget","fuss"]}
+firlen {"adjective":["distant","remote"]}
+firse {"verb":["keep away","take away"]}
+fishhawk {"noun":["osprey"]}
+fishhouse {"noun":["fish tank","aquarium","fish store","shack"]}
+fishly {"adjective":["piscine","ichthyic"]}
+fistfighting {"noun":["pugilism"],"adjective":[]}
+fivald {"noun":["butterfly"]}
+fiveleaf {"noun":["cinquefoil"]}
+fivepenny {"noun":["nickel"],"adjective":["nickel"]}
+flaxenheered {"adjective":["blond"]}
+flearder {"noun":["trickster"]}
+fleek {"noun":["hurdle"]}
+fleem {"noun":["outcast"],"verb":["exile"]}
+fleetings {"noun":["curds","cream"]}
+fleshhame {"verb":["incarnate"]}
+fley {"verb":["scare","become scared"]}
+flitecraft {"noun":["arguing"]}
+flitecraftly {"adjective":["disputational"]}
+flitem {"noun":["lancet","scalpel"]}
+fliting {"noun":["quarrel"]}
+flone {"noun":["arrow","bolt","dart","projectile"]}
+foken {"noun":["fraud","deceitfulness","guile","fake"],"adjective":["deceitful","false","fake"]}
+fokenful {"adjective":["deceitful","fraudulent"]}
+fokentoken {"noun":["false signal","false sign","false token","misdirection"]}
+folkbale {"noun":["public backlash"]}
+folkcouth {"adjective":["well-known","popular"]}
+folkmear {"adjective":["folk-known"]}
+folkshather {"noun":["villain"]}
+folkstow {"noun":["country place","rustic place"]}
+fon {"verb":["fool","dupe"]}
+footly {"adjective":["pedestrian"]}
+forane {"adverb":["beforehand"]}
+forbird {"noun":["forbearance","abstention"]}
+forbraid {"verb":["corrupt","pervert","make monstrous"]}
+forby {"adverb":["besides"],"preposition":["besides"],"interjection":["besides"]}
+fordit {"verb":["stop"]}
+fordraw {"verb":["stretch","take"]}
+forebisen {"noun":["model","template","archetype"],"verb":["model"]}
+foreboder {"noun":["prophet"]}
+forecoming {"noun":["advent"],"adjective":["advent","preceding"]}
+forefang {"verb":["anticipate"]}
+foreganger {"noun":["herald"]}
+foregate {"noun":["main entrance","front gate"]}
+forenamed {"adjective":["aforementioned"]}
+foreridle {"noun":["precursor","harbinger"]}
+foresetting {"noun":["proposal","proposition"]}
+foresmack {"noun":["foretaste","sample"]}
+forespeak {"verb":["foretell"]}
+foreswayed {"adjective":["biased"]}
+foretooth {"noun":["incisor","front tooth"]}
+forgivenly {"adjective":["dative"]}
+forhadness {"noun":["abstinence"]}
+forhave {"verb":["restrain","abstain"]}
+forhew {"verb":["slash","cut"]}
+forked cap {"noun":["mitre"]}
+forleese {"verb":["abandon","forfeit","lose","desert","damn"]}
+forlie {"verb":["fornicate"]}
+formfather {"noun":["progenitor"]}
+formly {"adverb":["originally","primally"]}
+formmother {"noun":["progenitrix"]}
+forn {"adjective":["previous","former"],"adverb":["formerly","previously","before"],"preposition":["before"],"interjection":["before"]}
+fornigh {"adverb":["almost"]}
+fornumb {"adjective":["sluggish"]}
+forqueath {"verb":["deny","reject"]}
+forread {"verb":["betray","mislead"]}
+forshape {"verb":["transform","distort","disfigure","degrade"]}
+forslack {"verb":["neglect","be neglectful"]}
+forspent {"adjective":["exhausted","fatigued"]}
+forstop {"verb":["stop completely","block"]}
+forswy {"verb":["keep silent","be silent"]}
+forthen {"adverb":["consequently"],"preposition":["consequently"],"interjection":["consequently"]}
+forthfill {"verb":["fulfil"]}
+forthnim {"verb":["remove","leave"]}
+forthtee {"verb":["draw forth","quote","cite"]}
+forthward {"noun":["agreement","contract","treaty","pledge"]}
+forthwiten {"adjective":["goneby"]}
+forthwiten tide {"noun":["the past tense"],"adjective":["past"]}
+forwarry {"verb":["hex","curse"]}
+forwhy {"adverb":["because"]}
+forwright {"noun":["agent"]}
+fother {"noun":["load","heavy weight","burden","large amount"]}
+fought {"adjective":["moist","damp"]}
+foughtenfield {"noun":["battleground","battlefield"]}
+fourwheeler {"noun":["ATV","quad","all-terrain vehicle"]}
+fouse {"adjective":["ready","prepared","willing","inclined","disposed"]}
+fousely {"adverb":["readily","promptly","gladly"]}
+foxly {"adjective":["vulpine","cunning"]}
+fraked {"adjective":["bad","vile","shameful"]}
+Frankdom {"noun":["the Francosphere"]}
+fratow {"noun":["treasure","adorn","decorate"],"verb":["treasure","adorn","decorate"]}
+frea {"noun":["lord","master"]}
+frech {"adjective":["greedy","bold","fierce"]}
+freck {"verb":["checker"]}
+freed {"verb":["experience","learn through experience"]}
+freek {"noun":["man"]}
+freeledge {"noun":["franchise","vote"]}
+freem {"noun":["benefit"],"verb":["benefit"]}
+fremmed {"verb":["alienate","estrange"],"adjective":["foreign"]}
+fremmedling {"noun":["foreigner"]}
+frettle {"adjective":["voracious"]}
+Frie {"noun":["Venus"],"preposition":["Venus"],"interjection":["Venus"]}
+Frily {"adjective":["Venusian"]}
+Frish {"noun":["Frisian"],"preposition":["Frisian"],"interjection":["Frisian"],"adjective":["Frisian"]}
+fristing {"noun":["delay","postponement"]}
+frithe {"adjective":["beautiful"]}
+frithful {"adjective":["peaceful","gentle","mild"]}
+frithoath {"noun":["truce"]}
+from {"noun":["source","origin","founder","inventor"],"adjective":["firm","potent"]}
+fromchar {"verb":["avert"]}
+fromward {"adverb":["away","from"],"preposition":["from"],"interjection":["away","from"]}
+fromwharve {"verb":["depart","turn"]}
+frough {"adjective":["brittle","frail"]}
+frumth {"noun":["beginning","origin"]}
+fulfledged {"adjective":["entire","authentic","fully feathers"]}
+fullblown {"adjective":["ripe","puffed up"]}
+fullbore {"adjective":["full-blown","maximum effort"],"adverb":["full-blown","maximum effort"]}
+fulmard {"noun":["polecat"]}
+fultom {"noun":["support","succour"]}
+Gaelish {"noun":["Irish","Scottish","Manx"],"preposition":["Irish","Scottish","Manx"],"interjection":["Irish","Scottish","Manx"],"adjective":["Irish","Scottish","Manx"]}
+gaffeting {"noun":["mocking"]}
+galderquid {"noun":["saying"]}
+Gallish {"noun":["Gaulish"],"preposition":["Gaulish"],"interjection":["Gaulish"],"adjective":["Gaulish"]}
+Gallwales {"noun":["Gaul"],"preposition":["Gaul"],"interjection":["Gaul"]}
+gamesare {"noun":["gaming","arcade machine"]}
+gamesome {"adjective":["playful","frolicsome"]}
+gamewood {"noun":["guitar"]}
+gammock {"noun":["jest","prank","frolic","antic","trick","romp"],"verb":["jest","prank","frolic","antic","trick","romp"]}
+garclive {"noun":["Agrimonia plant","agrimony"]}
+Gascon {"noun":["native of Gascony"],"preposition":["of Gascony"],"interjection":[],"adjective":["native of Gascony"]}
+gersome {"noun":["treasure","valuable","valuables"]}
+ghostlore {"noun":["ghostology","spectrology"]}
+ghostword {"noun":["word"]}
+ging {"noun":["troop","band","company","assemblage"]}
+ginge {"adjective":["current","prevalent"]}
+givelness {"noun":["liberality"]}
+giveth {"adjective":["ordained"]}
+glar {"noun":["amber"]}
+glassen {"verb":["vitrify"]}
+glassrown {"noun":["rune whose shape is mirrored"]}
+glasswright {"noun":["glassmaker","glazier"]}
+glazemill {"noun":["machine"]}
+gleed {"noun":["bird of prey","kite"]}
+glemb {"noun":["blemish"]}
+glenge {"noun":["ornament","medal"]}
+glewer {"noun":["jester","clown"]}
+glewly {"adverb":["prudently","wisely","clearly","well"]}
+glewness {"noun":["wisdom"]}
+glim {"noun":["candle","lantern"]}
+gnast {"noun":["spark","live coal","small flame"]}
+gneed {"adjective":["stingy","scanty","scarce"]}
+gnide {"verb":["rub","grind"]}
+gnorn {"noun":["sorrow","grief"],"verb":["grieve","lament"]}
+gnorny {"adjective":["aggrieved","lamentful","dejected"]}
+goatish {"noun":["caprine","hircine"]}
+goatling {"noun":["kid"]}
+godhead {"noun":["god"]}
+godkind {"noun":["divine nature"],"adjective":["divine"]}
+godkindness {"noun":["divinity"]}
+godsent {"adjective":["unexpectedly beneficial"]}
+godshild {"noun":["impiety"]}
+godsibred {"noun":["sponsorship"]}
+godweb {"noun":["fine clothing"]}
+goings on {"noun":["events","activities"]}
+goldhoard {"noun":["treasury"]}
+gooddoer {"noun":["do-gooder"]}
+gooderheal {"noun":["good fortune"],"interjection":["good fortune"]}
+goodman {"noun":["Mister"]}
+goodwife {"noun":["Mistress","Mrs"]}
+Gottish {"noun":["the Gothic tongue","Gothic"],"adjective":["Gothic"]}
+gouthfane {"noun":["ensign"]}
+gouthhawk {"noun":["war hawk","warmonger"]}
+graff {"noun":["stylus"]}
+graftiwork {"noun":["engraved piece of art","carved sculpture"]}
+greatgun {"noun":["cannon"]}
+green sickness {"noun":["chlorosis"]}
+greeneyed {"adjective":["jealous","envious"]}
+greenstone {"noun":["jade","nephrite"]}
+greywader {"noun":["Glariolinae bird","pratincole"]}
+grise {"verb":["fear","be terrified"]}
+groor {"noun":["terror","horror"],"adjective":["terrifying","horrifying"]}
+groundline {"noun":["baseline","foundation","basis"]}
+groundpitch {"noun":["pitch"]}
+growingly {"adverb":["increasingly","progressively"]}
+gutfire {"noun":["gastroenteritis","stomach flu"]}
+hackster {"noun":["ruffian"]}
+haked {"noun":["Esox fish","ged"]}
+halch {"verb":["fasten","loop"]}
+half moon {"noun":["crescent","moon"]}
+halfbred {"adjective":["crossbred","mongrel"]}
+halidom {"noun":["holiness","sanctity"]}
+halk {"noun":["cavity"]}
+halse {"verb":["hug","embrace","caress","fondle"],"noun":["neck","throat"]}
+halsebee {"noun":["torc"]}
+halsend {"noun":["omen"]}
+halser {"noun":["diviner","exorcist"]}
+halsewort {"noun":["throatwort plant"]}
+halsing {"noun":["divination","fortune telling","augury"]}
+Halsing {"noun":["Halsing"],"preposition":["Halsing"],"interjection":["Halsing"]}
+hammerbore {"noun":["jackhammer"]}
+hammerwort {"noun":["plant"]}
+handglass {"noun":["magnifying glass","hand mirror"]}
+handlings {"adverb":["by hand","manually"]}
+handwhile {"noun":["moment","instance"]}
+hangby {"noun":["dependent"]}
+hangup {"noun":["delay","suspend"],"verb":["delay","suspend"]}
+hansel {"noun":["token","gift"]}
+hapful {"adjective":["lucky","fortunate"]}
+harddrive {"noun":["hard disk"]}
+hardhew {"noun":["chicory"]}
+hareeyed {"adjective":["wide-eyed"]}
+harehearted {"adjective":["timorous","timid","easily frightened"]}
+haresbeard {"noun":["plant","mullein"]}
+hareseye {"noun":["lagophthalmus","lagophthalmia"]}
+harfee {"noun":["booty","war spoils"]}
+harfolk {"noun":["army folk"]}
+harhithe {"noun":["spoil","booty","plunder"]}
+harkworthy {"adjective":["noteworthy"]}
+harman {"noun":["warrior"]}
+harmquid {"noun":["blasphemy","harmful speech"]}
+harreaf {"noun":["spoil","booty","plunder"]}
+hartclover {"noun":["Melilotus plant","melilot"]}
+harthreat {"noun":["troop"]}
+hase {"adjective":["grey","ashen"]}
+hather {"verb":["restrain","confine"]}
+hatshop {"noun":["hat store"]}
+Hatwere {"noun":["one of the Chattuarii"],"preposition":["sub-group of the Franks"],"interjection":["one of the Chattuarii"]}
+haveless {"adjective":["poor","destitute"]}
+hayriff {"noun":["cleavers"]}
+haystold {"noun":["bachelor","unmarried male","virgin"]}
+hayward {"noun":["agricultural overseer","hedger","grain protector","harvest overseer"]}
+hazelwort {"noun":["Asarum europaeum plant"]}
+headleighter {"noun":["chief error"]}
+headly {"adjective":["chief"]}
+headstool {"noun":["chief seat"]}
+healall {"noun":["panacea","universal remedy"]}
+heam {"verb":["marry"]}
+heamedy {"adjective":["sexual"]}
+heapmeal {"adverb":["in heaps","heap by heap"]}
+heartlike {"adjective":["like a heart","central","core"]}
+heartquake {"noun":["heart palpitation","feeling of strong or sudden emotion"]}
+heartseath {"noun":["pansy"]}
+heartsome {"adjective":["uplifting","comforting","lively","joyful","pleasant"]}
+heathglemb {"noun":["war wound"]}
+heathweed {"noun":["military clothing"]}
+hedden {"noun":["hood","cloak"]}
+helfry {"adjective":["bloody"]}
+hellrown {"noun":["witch"]}
+hellwite {"noun":["hell"]}
+helver {"noun":["gore"]}
+hemptree {"noun":["plant","tree"]}
+hemth {"noun":["shirt"]}
+henbell {"noun":["henbane","plant"]}
+hendly {"adverb":["courteously","chivalrously"]}
+hendness {"noun":["courtesy","politeness"]}
+hent {"preposition":["until"],"interjection":["until"],"verb":["grasp","seize","capture","arrest"]}
+henth {"noun":["humiliation","disgrace"]}
+henward {"adjective":["fleeting","brief","transient"]}
+Herdsman {"noun":["Boötes"]}
+herethrough {"adverb":["by this means"]}
+heriot {"noun":["military equipment","return of military equipment"]}
+hewish {"noun":["household"]}
+hewnbill {"noun":["scaup"]}
+hewngreen {"adjective":["blue-green"]}
+hidel {"noun":["hiding place","refuge"]}
+hideyield {"noun":["property tax","tax"]}
+hidlings {"adjective":["secret","clandestine"],"adverb":["secretly"]}
+hield {"noun":["slope","incline","declivity"],"verb":["slope","incline"]}
+highblown {"adjective":["pretentious","exaggerated"]}
+highhearted {"adjective":["carefree","happy","brave"]}
+highherd {"noun":["chief pastor"]}
+highminded {"adjective":["noble","honourable","magnanimous"]}
+highmindedness {"noun":["pride","nobility","honourableness","magnamity"]}
+highmoody {"adjective":["proud","lofty","haughty"]}
+highstrung {"adjective":["tense","stressed","nervous","intense"]}
+hightide {"noun":["culminating point","climax"]}
+hightle {"verb":["adorn","embellish","ornament"]}
+hildlate {"noun":["coward"]}
+hildspel {"noun":["story about battle"]}
+hilk {"noun":["bend","turn","winding"]}
+hilling {"noun":["cover"]}
+hillwort {"noun":["pennyroyal"]}
+himmel {"noun":["hummel"]}
+hinderland {"noun":["uncharted land","land surrounding a town or port"]}
+hinderling {"noun":["wretch","beast"]}
+hindlook {"noun":["afterlook","look in review"]}
+hindneck {"noun":["nape"]}
+hipping {"noun":["diaper","nappy"]}
+hirdman {"noun":["retainer"]}
+hit up {"verb":["contact"]}
+hithe {"noun":["port"],"verb":["plunder","ravage","pillage"]}
+hoardcleeve {"noun":["treasury"]}
+hoardcove {"noun":["place for treasure","place where thoughts are stored"]}
+hoardern {"noun":["storeroom","storehouse"]}
+hoardlock {"noun":["coffer"]}
+hode {"verb":["ordain","hallow"]}
+hoder {"adjective":["clear"]}
+hoff {"noun":["house","palace"]}
+holdend {"noun":["keeper","guardian"]}
+holet {"verb":["greet","salute"]}
+holirope {"noun":["hemp-agrimony"]}
+holk {"noun":["hollow","cavity","excavate"],"verb":["hollow","excavate"]}
+holy fire {"noun":["St","Anthony's fire"]}
+homefear {"noun":["ecophobia"]}
+hoofdeer {"noun":["ungulate"]}
+hool {"noun":["vain speech","slander","calumny"],"verb":["slander","calumniate"]}
+hoose {"noun":["troop","band","party"]}
+hore {"noun":["filth","dirt","mud","slime","muck"],"verb":["defile","defoul"]}
+hornkin {"noun":["croissant"]}
+horsed {"noun":["on horseback"]}
+horsefeathers {"noun":["nonsense"]}
+horseheal {"noun":["elecampane"]}
+horsethane {"noun":["horse officer","marshal"]}
+horsh {"adjective":["quick-witted"]}
+houndberry {"noun":["berry"]}
+houndshead {"noun":["snapdragon"]}
+housechurl {"noun":["housecarl"]}
+housedeer {"noun":["pet"]}
+housel {"noun":["Eucharist"]}
+houseldish {"noun":["plate"]}
+housemonger {"noun":["estate agent"]}
+housewares {"noun":["domestic utensils"]}
+houth {"noun":["booty"]}
+hove {"noun":[],"verb":["float","hover","flutter in the air"]}
+hulstry {"adjective":["dark","secret"]}
+Hungery {"noun":["Hungary"],"preposition":["Hungary"],"interjection":["Hungary"]}
+hunth {"noun":["prey","game"]}
+hurtleberry {"noun":["berry"]}
+husbandcraft {"noun":["husbandry","management"]}
+husbanding {"noun":["cultivation","tillage","farming","care"]}
+husting {"noun":["assembly","platform"]}
+hux {"noun":["mockery"]}
+huxly {"adverb":["mockingly"]}
+hyeless {"adjective":["thoughtless","mindless","foolish"]}
+hyingly {"adverb":["quickly","soon","rapidly"]}
+ice flow {"noun":["glacier"]}
+ice fox {"noun":["fox"]}
+icebird {"noun":["icebird"]}
+idish {"noun":["household stuff","furniture","utensils"]}
+idy {"adjective":["busy","active"]}
+Ihood {"noun":["ego"]}
+IIMR {"other":["IIRC","if I remember correctly"]}
+illwill {"noun":["spite"]}
+in being {"adverb":["essentially"]}
+in tow {"adverb":["following"]}
+inbosom {"verb":["enclose","conceal","shelter","embrace"]}
+inbow {"verb":["arch","curve"]}
+inbowed {"adjective":["concave"]}
+inchmeal {"adverb":["gradually"]}
+Indish {"noun":["Indian"],"preposition":["Indian"],"interjection":["Indian"],"adjective":["Indian"]}
+ineard {"verb":["dwell","inhabit"]}
+ing {"noun":["meadow"],"other":[]}
+ingrave {"verb":["inscribe"]}
+ingraving {"noun":["inscription"]}
+inhide {"noun":["intent","purpose"]}
+inker {"noun":["you two's"]}
+inkers {"noun":["yours","dual you two's"]}
+inlying {"adjective":["interior"]}
+inname {"noun":["endonym"]}
+innoth {"noun":["womb","entrails","inner workings"]}
+insail {"noun":["seal","signet"],"verb":["seal","signet"]}
+insooth {"adverb":["really"]}
+inwid {"noun":["fraud","guile","deceit","trick"]}
+inwidful {"adjective":["evil"]}
+irl {"noun":["garment","garments"]}
+iron cloth {"noun":["mail","chainmail"]}
+irse {"verb":["anger","provoke","rage"]}
+irth {"noun":["ploughing","tilling","farming"]}
+irthland {"noun":["farmland","arable land"]}
+irthling {"noun":["farmer"]}
+isel {"noun":["spark","ember","ashes","cake"]}
+ish {"other":["-ic"]}
+Ismahelits {"noun":["Bedouins"],"preposition":["Bedouins"],"interjection":["Bedouins"]}
+Israelish {"adjective":["Israeli","Israelite"]}
+issing {"noun":["covetousness"]}
+ist {"noun":["tempest","hurricane"]}
+ithelidder {"noun":["ship"]}
+ithing {"noun":["overflowing"]}
+Joudish {"noun":["Jewish"],"preposition":["Jewish"],"interjection":["Jewish"],"adjective":["Jewish"]}
+Joudishman {"noun":["Jew"],"preposition":["Jew"],"interjection":["Jew"]}
+kedlock {"noun":["white mustard"]}
+keeling {"noun":["cooling","refreshment"]}
+kemb {"verb":["comb","neaten","tidy","card"]}
+kench {"verb":["laugh","jeer"]}
+kind wit {"noun":["natural intelligence"]}
+kindlimb {"noun":["sex organ","vulva","uterus","penis"]}
+kingsbloom {"noun":["peony"]}
+kingsspear {"noun":["asphodel"]}
+kinrun {"noun":["family","generation","posterity"]}
+kinshipwise {"adjective":["relative"],"adverb":["relatively"]}
+kinshroud {"noun":["king's raiment"]}
+kinworth {"adjective":["regal"]}
+kinyard {"noun":["sceptre"]}
+kir {"noun":["choice","option"]}
+kist {"noun":["virtue","character"]}
+kitchen sieve {"noun":["strainer"]}
+kithey {"adjective":["familiar","known"]}
+knape {"noun":["boy"]}
+knapling {"noun":["youth","boy"]}
+knar {"noun":["crag","knot in wood"]}
+kneat {"verb":["argue","dispute","contend"]}
+kneating {"noun":["argument","debate"]}
+kneeholm {"noun":["butcher's-broom"]}
+knightship {"noun":["knighthood"]}
+knitch {"noun":["bundle"]}
+knoller {"noun":["sexton","sacristan"]}
+knoosle {"noun":["genus"]}
+knop {"noun":["knob"]}
+lakering {"noun":["mockery","scorn"]}
+landshape {"verb":["landscape","modify"]}
+latemost {"adjective":["final","most recent"]}
+latred {"adjective":["tardy"]}
+latsome {"adjective":["disgusting","repulsive","loathsome"]}
+latterday {"adjective":["modern"]}
+laughsome {"adjective":["funny","humorous"]}
+laughtermaker {"noun":["joker","buffoon"]}
+lawer {"noun":["laurel","bay"]}
+lawwit {"noun":["lawyer"]}
+leadpitch {"noun":["leading tone","music"]}
+leafdom {"noun":["leafage"]}
+leanland {"noun":["leased land","feudal land"]}
+learningman {"noun":["pupil","student"]}
+leasesawl {"adjective":["falsehood saying"]}
+leasespel {"noun":["fable"]}
+leaseteeth {"noun":["false teeth","dentures"]}
+leath {"noun":["hatred","hostility"]}
+leaveful {"adjective":["allowable","permissible"]}
+Leeden {"noun":["Latin"],"preposition":["Latin"],"interjection":["Latin"],"adjective":["Latin"]}
+leedfrom {"noun":["founder"]}
+leeser {"noun":["liberator","redeemer"]}
+leethe {"verb":["free","loose"]}
+leethwork {"noun":["composition","poem"]}
+leethy {"adjective":["poetic","symbolic"]}
+leftwise {"adverb":["counterclockwise","anticlockwise"]}
+leighton {"noun":["garden"]}
+lench {"verb":["arrogance","haughtiness","insolence","pride"],"noun":["chain","mail"]}
+letty {"adjective":["obstructive"]}
+levenlore {"noun":["electronics"]}
+leveny {"adjective":["electric","electronic"]}
+liblock {"noun":["crafting of medicine","negative connotation"]}
+libster {"noun":["witch"]}
+lichame {"noun":["body","corpse"]}
+lichet {"verb":["feign","pretend"]}
+lichetter {"noun":["feigner","pretender"]}
+lichetting {"noun":["feigning","pretense","falsehood","hypocrisy"]}
+lichhouse {"noun":["mortuary"]}
+lichsong {"noun":["dirge"]}
+lichyard {"noun":["graveyard"]}
+lickspittle {"noun":["fawner"]}
+liefly {"adjective":["precious","pleasant","agreeable","delightful","loveable"],"adverb":["willingly","gladly"]}
+lifelode {"noun":["lifetime","conduct","way"]}
+lifesrun {"noun":["curriculum vitae","CV"]}
+liffet {"verb":["flatter"]}
+liffeter {"noun":["flatterer"]}
+liffeting {"noun":["flattery"]}
+liggat {"noun":["gate"]}
+lightbere {"adjective":["luminous","brilliant","splendid"]}
+lightminded {"adjective":["frivolous","not serious"]}
+lightmindedness {"noun":["frivolity"]}
+lightmood {"adjective":["light-hearted","easy-tempered"]}
+likesome {"adjective":["agreeable","pleasant","likable"]}
+limbmeal {"adverb":["in pieces"]}
+linking {"adjective":["connecting","joining"]}
+lippen {"verb":["trust","entrust"]}
+lire {"noun":["flesh","meat"]}
+liteful {"adjective":["beautiful","handsome","comely"]}
+liteless {"adjective":["hideous"]}
+litheby {"adjective":["meek","compliant","obedient"]}
+lither {"adjective":["base","depraved","wicked","lewd","sordid","worthless","wickedly","treacherously","poorly"],"adverb":["base","depraved","wickedly","treacherously","poorly"],"noun":[],"verb":[]}
+lithsew {"noun":["synovial fluid"]}
+litten {"noun":["graveyard"]}
+lix {"verb":["flash","glitter"]}
+loadboard {"noun":["pallet"]}
+loanwend {"noun":["loan translation","calque"]}
+loathspel {"noun":["tragic story","unpleasant story"]}
+loavely {"adjective":["praiseworthy","laudable","honourable"]}
+loavesome {"adjective":["excellent"]}
+loavesong {"noun":["hymn","psalm"]}
+lockered {"adjective":["curly","curled","tangled","matted"]}
+lodder {"noun":["pauper"]}
+loddering {"noun":["nonsense","rubbish","triviality"]}
+lodesman {"noun":["navigator","pilot","guide"]}
+loke {"noun":["offering","sacrifice"],"verb":["play","wave"]}
+loken {"verb":["heal","cure","tend to","take care of","dress"]}
+lokening {"other":["-therapy"],"verb":["healing","cure","remedy"]}
+Loller {"noun":["protestant"]}
+longaxe {"noun":["poleaxe","halberd"]}
+longgun {"noun":["gun with a long barrel","cannon"]}
+longplayer {"noun":["album"]}
+longshort {"noun":["trochee"],"adjective":["trochee"]}
+lonkful {"adjective":["arrogant"]}
+lookbook {"noun":["photo album"]}
+lootby {"noun":["paramour"]}
+looth {"noun":["booty","spoils"],"verb":["booty","spoils"]}
+lorel {"noun":["rascal","scoundrel","wretched person"]}
+loreless {"adjective":["ignorant"]}
+lorelest {"noun":["ignorance","educationlessness"]}
+lorelistend {"noun":["catechumen"]}
+lorequid {"noun":["precept"]}
+loresman {"noun":["instructor","expert"]}
+lorespel {"noun":["sermon","homily","treatise","essay"]}
+loreswike {"noun":["false lore","pseudo-science"]}
+lorn {"adjective":["forlorn","desolate"]}
+loseyns {"noun":["lasagna","lasagne"]}
+louk {"noun":["lock up"]}
+loveling {"noun":["darling"]}
+lovenly {"adjective":["lovable"]}
+lovered {"noun":["love"]}
+lovestitch {"noun":["lovage"]}
+loveworthy {"adjective":["lovable"]}
+lowkey {"adjective":["subtle"],"adverb":["subtly"]}
+lowling {"noun":["commoner"]}
+Ludder {"noun":["one opposed to technological change"]}
+lur {"noun":["damage","loss"]}
+lutty {"adjective":["sly","crafty","cunning"]}
+Macedony {"noun":["Macedon"],"preposition":["Macedon"],"interjection":["Macedon"]}
+mainful {"adjective":["powerful","mighty"]}
+mainless {"adjective":["feeble"]}
+mair {"verb":["lean"],"adjective":["meager","lean"]}
+maister {"noun":["master"]}
+maith {"noun":["girl","maiden"]}
+maithe {"noun":["camomile"]}
+makebelieve {"noun":["pretend","imaginary"],"verb":["pretend"],"adjective":["pretend","imaginary"]}
+malm {"noun":["rock","soil"]}
+man about town {"noun":["socialite"]}
+manbane {"noun":["tobacco"]}
+mand {"noun":["basket"]}
+mandeed {"noun":["evil deed","crime"]}
+mank {"verb":["mutilate","mangle","maim"]}
+manmade {"adjective":["artificial"]}
+Mannish {"noun":["Manx"],"preposition":["Manx"],"interjection":["Manx"],"adjective":["Manx"]}
+manship {"noun":["gallantry","chivalry"]}
+manshiply {"adverb":["honourably","courteously"]}
+manswear {"verb":["swear falsely","perjure"]}
+mantledeer {"noun":["animal"]}
+mardy {"adjective":["bratty"]}
+Markish {"noun":["Mercian"],"adjective":["Mercian"]}
+markle {"noun":["signet","seal","mark"]}
+marth {"noun":["weasel"]}
+maslin {"noun":["brass"]}
+masten {"noun":["mast-pasture"],"verb":["fatten"]}
+maywrit {"noun":["pedigree"]}
+meaningly {"adverb":["purposely"]}
+mearth {"noun":["grandeur","marvel"]}
+meatfettle {"noun":["pantry","larder","butlery"]}
+meddem {"adjective":["common","average"]}
+meddom {"verb":["measure"],"noun":["measure"]}
+meechfish {"noun":["mullet"]}
+meel {"noun":["speak"],"verb":["speak"]}
+meer {"adjective":["famous","great"]}
+meethe {"verb":["restrain","bring within bounds"]}
+meethful {"adjective":["temperate","modest","moderate"]}
+meetly {"adverb":["suitably","properly"]}
+mensk {"noun":["honour","honourable","praiseworthy"],"adjective":["honour","honourable","praiseworthy"]}
+merrail {"noun":["sail"]}
+merrow {"adjective":["soft","frail","tender"]}
+merryman {"noun":["jester"]}
+merrymeeting {"noun":["festival"]}
+merse {"verb":["exalt","glorify"]}
+meted {"noun":["the Maker","God"]}
+mewel {"noun":["maiden"]}
+mid eld {"noun":["medieval"],"adjective":["medieval"]}
+midbody {"noun":["torso"]}
+middenstead {"noun":["dunghill"]}
+midred {"noun":["diaphragm"]}
+midwist {"noun":["co-being","participation"]}
+mielder {"noun":["informer","announcer"]}
+mighten {"verb":["enable","empower"]}
+mightened {"adjective":["enabled","empowered"]}
+mighth {"noun":["urine","pee","piss"]}
+miles {"noun":["Atriplex plant","orache"]}
+militish {"adjective":["military"]}
+milklithe {"adjective":["very soft","very gentle"]}
+milksoppy {"adjective":["timid"]}
+minchen {"noun":["nun"]}
+minday {"noun":["day of remembrance"]}
+minse {"verb":["chop into bits","mince"]}
+mir {"noun":["myrrh","Commiphora myrrha plant"]}
+misbeholden {"adjective":["disobliging"]}
+misbid {"verb":["mistreat"]}
+misdoom {"noun":["misjudgment"]}
+misfall {"noun":["mishap","misfortune"],"verb":["suffer bad luck","turn out badly"]}
+misfare {"noun":["error","transgression","mishap","misfortune","ill fate"],"verb":["error","transgress","go wrong","be unfortunate"]}
+mislore {"noun":["misinformation"]}
+misnimming {"noun":["mistake","error"]}
+misqueath {"verb":["slander"]}
+missliness {"noun":["variousness","diversity"]}
+missly {"adjective":["ununiform"],"adverb":["ununiformly"]}
+mistide {"verb":["have bad luck","turn out badly"]}
+miswend {"verb":["go astray","subvert","deform"]}
+miswrought {"adjective":["misworked"]}
+mixen {"noun":["dung heap","dunghill"]}
+mone {"noun":["evil","wickedness","wicked","false","base"],"adjective":["evil","wicked","false","base"]}
+mong {"noun":["mixture","mingling","intermixture"],"verb":["traffic","barter"]}
+monkhouse {"noun":["monastery"]}
+monkstow {"noun":["monastery"]}
+monthblood {"noun":["menses"]}
+moodsick {"adjective":["distressed","troubled"]}
+moodthrake {"noun":["courage"]}
+moonling {"noun":["lunatic"]}
+moonsick {"adjective":["crazy"]}
+moorle {"noun":["rope for mooring a ship"]}
+mooting {"noun":["discussion","debate"]}
+morebeam {"noun":["mulberry tree"]}
+morecrop {"noun":["pimpernel"]}
+Morningland {"noun":["the East"]}
+morth {"noun":["murder","slaughter"]}
+mousehare {"noun":["pika"]}
+mousehart {"noun":["chevrotain"]}
+mowing {"adjective":["capable","able"]}
+muchel {"verb":["magnify"]}
+mudflow {"noun":["mudstream"]}
+munworthy {"verb":["memorable"]}
+mut {"verb":["be compelled","must","may"]}
+naft {"noun":["poverty","indigence"]}
+nafty {"adjective":["poor","unwealthy"]}
+nailkin {"noun":["carnation"]}
+narrows {"noun":["narrow part of a strait","river"]}
+naught but {"adverb":["just","merely"]}
+naughth {"adjective":["zeroth"]}
+ne {"adverb":["not","nay","nor"],"preposition":["not","nay","nor"],"interjection":["nay","nor"]}
+neatherd {"noun":["cattle"]}
+neatland {"noun":["rented land","feudally owned land"]}
+needmay {"noun":["kinsman","kinswoman","cousin"]}
+neednot {"noun":["unnecessary thing"]}
+neethe {"verb":["risk","venture"]}
+neeve {"noun":["nephew","grandson"]}
+neighwist {"noun":["neighborhood","society","fellowship"]}
+nemmenenly {"adjective":["nominative"]}
+neshen {"verb":["soften","mollify"]}
+neshness {"noun":["feebleness","weakness"]}
+Netherlandish {"noun":["Dutch"],"preposition":["Dutch"],"interjection":["Dutch"],"adjective":["Dutch"]}
+netherstock {"noun":["stocking"]}
+netherwear {"noun":["underwear","undergarments"]}
+neveling {"adverb":["face-down"]}
+neverending {"noun":["endless"]}
+newlings {"adverb":["recently","lately"]}
+nightganger {"noun":["night monster","hyena"]}
+nimmer {"noun":["thief"]}
+nimth {"preposition":["except"],"interjection":["except"]}
+ninesome {"noun":["nonet","nonad"]}
+nite {"verb":["clash"]}
+niths {"noun":["men","humans"]}
+noll {"noun":["head","nape"]}
+nooth {"noun":["boldness","daringness"]}
+Nornish {"noun":["Norwegian"],"preposition":["Norwegian"],"interjection":["Norwegian"],"adjective":["Norwegian"]}
+Northmannish {"noun":["Norse"],"preposition":["Norse"],"interjection":["Norse"],"adjective":["Norse"]}
+Northumber {"noun":["Northumbria","Northumbrians"],"preposition":["Northumbria"],"interjection":["Northumbria"]}
+Northumbrish {"noun":["Northumbrian"],"preposition":[],"interjection":[],"adjective":["Northumbrian"]}
+Norwales {"noun":["Welshmen"],"preposition":["Welshmen"],"interjection":["Welshmen"]}
+Norwelsh {"noun":["Welsh"],"preposition":["Welsh"],"interjection":["Welsh"],"adjective":["Welsh"]}
+nosefire {"noun":["rhinitis","coryza"]}
+nosegristle {"noun":["nose cartilage"]}
+nostle {"noun":["headband","fillet"]}
+notely {"adjective":["beneficial","useful"]}
+nott {"adjective":["hornless","antlerless"]}
+nottle {"noun":["beneficial"]}
+nough {"adjective":["low","lowly","humble","poor"]}
+nouth {"adverb":["now","presently","soon"]}
+nunhouse {"noun":["nunnery"]}
+nye {"verb":["curtsey"]}
+oal {"noun":["fire","flame"]}
+oathom {"noun":["son-in-law","brother-in-law"]}
+ofold {"adjective":["simple","plain","single"]}
+ofoldly {"adverb":["plainly"]}
+oftseen {"adjective":["unrare","common","usual"]}
+old world ape {"noun":["ape"]}
+onalike {"noun":["resemblance","similarity"],"adjective":["similar"],"adverb":["similarly"]}
+onalikeness {"noun":["pattern"]}
+onboard {"adjective":["in agreement","willing"]}
+onday {"noun":["appointed day"],"verb":["appoint"]}
+oneberry {"noun":["plant","paris"]}
+onefoldly {"adverb":["simply","plainly"]}
+onemoodness {"noun":["unity"]}
+onereadness {"noun":["concord","agreement"]}
+onesome {"noun":["solo","singlet"]}
+oning {"noun":["unification","joining"]}
+orcheap {"adverb":["gratis","without payment"]}
+ordeer {"noun":["protozoan"]}
+oret {"verb":["disgrace","shame"]}
+oretship {"noun":["infamy","disgrace"]}
+orf {"noun":["cattle","livestock"]}
+orfowl {"noun":["archaeopteryx","bird"]}
+orgel {"noun":["pride","haughtiness"],"adjective":["proud","prideful"]}
+orground {"noun":["primal cause"]}
+orley {"noun":["war"]}
+ormete {"adjective":["limitless","boundless"]}
+ormetly {"adverb":["excessively","immensely"]}
+ormetness {"noun":["excess","immensity"]}
+ormood {"adjective":["hopeless","despairing","uncourageous"]}
+ormoodness {"noun":["despair"]}
+orn {"noun":["excess","excessive"],"adjective":["excess","excessive"]}
+orped {"adjective":["stout-hearted","bold","valiant"]}
+orsorrow {"adjective":["carefree"]}
+orth {"noun":["breath"]}
+orthank {"noun":["skill","cunning"],"adjective":["skillful","cunning"]}
+ortroth {"noun":["distrust"]}
+orwood {"noun":["wood"]}
+oughten {"noun":["twilight"]}
+oughtsong {"noun":["matins","nocturns"]}
+outbear {"verb":["support"]}
+outbowed {"adjective":["convex","bulging"]}
+outbreathe {"verb":["exhale","expire"]}
+outcund {"adjective":["strange"]}
+outhwitly {"adjective":["academic"]}
+outname {"noun":["xenonym"]}
+outroot {"verb":["root out","eradicate"]}
+over against {"preposition":["against"],"interjection":["against"]}
+overboldness {"noun":["audacity","foolhardiness","temerity"]}
+overdoor {"noun":["lintel"]}
+overfall {"verb":["attack","assail","assault","fall upon"]}
+overfearful {"adjective":["overly fearful"]}
+overmood {"noun":["overconfidence","pride","hubris"]}
+overmoodly {"adverb":["proudly","arrogantly"]}
+overmoody {"adjective":["proud","arrogant"]}
+oversit {"verb":["neglect","omit"]}
+overspeak {"verb":["overstate","exaggerate"]}
+overspeech {"noun":["loquacity","exaggeration"]}
+oversummer {"verb":["aestivate"]}
+overtread {"verb":["trespass","interlope"]}
+overtreader {"noun":["trespasser"]}
+overway {"noun":["overpass"]}
+overween {"verb":["presume","be over confident"]}
+overword {"noun":["refrain","chorus"]}
+ovestly {"adverb":["hastily","speedily"]}
+owhither {"adverb":["anywhither"]}
+owing to {"preposition":["because of"],"interjection":["because of"]}
+ownspeech {"noun":["idiom"]}
+oxgang {"noun":["measure of land"]}
+pepon {"noun":["gourd","pumpkin"]}
+Perseland {"noun":["Persia"],"preposition":["Persia"],"interjection":["Persia"]}
+pickthank {"noun":["sycophant"],"adjective":["sycophantic"]}
+pind {"verb":["enclose","pen","impound","cage","imprison","confine","restrain","limit"]}
+plail {"adjective":["playful","sportive"]}
+plaily {"adjective":["ludic","theatrical"]}
+platch {"noun":["square","marketplace"]}
+playgame {"noun":["pastime"]}
+playman {"noun":["player","athlete","wrestler","gymnast"]}
+plee {"noun":["danger","peril","risk"]}
+pleely {"adjective":["dangerous"]}
+plitch {"verb":["pull","pluck"]}
+pond duck {"noun":["mallard"]}
+portick {"noun":["porch","portico"]}
+pote {"verb":["poke","push","thrust"]}
+potgun {"noun":["mortar","artillery"]}
+pothead whale {"noun":["pilot whale"]}
+potwhale {"noun":["sperm whale"]}
+psalter {"noun":["psalter"]}
+put by {"verb":["set aside","evade"]}
+quale {"noun":["death","quelling","plague"]}
+quarternward {"noun":["gaoler","jailor","warder"]}
+quead {"noun":["wickedness"],"adjective":["wicked"]}
+queal {"verb":["die","perish"]}
+queath {"verb":["declare","say"]}
+queller {"noun":["killer"]}
+quenchcoal {"noun":["person or thing that undermines zeal"]}
+quickfee {"noun":["cattle"]}
+quick-in-hand {"noun":["balsam"]}
+quitch {"noun":["quack grass"]}
+quoon {"verb":["lament"]}
+railthane {"noun":["robekeeper"]}
+rainpiper {"noun":["plover"]}
+rakedly {"adjective":["palatial"]}
+rakeshame {"noun":["rogue"]}
+randbigh {"noun":["boss","umbo"]}
+rasen {"noun":["beam"]}
+ratheripe {"adjective":["precocious","rareripe"]}
+rathest {"adjective":["soonest","earliest"]}
+reacon {"adjective":["apt","prompt","capable","qualified"]}
+readingbook {"noun":["lesson book","lectionary"]}
+reardbearer {"noun":["person"]}
+rearmouse {"noun":["bat"]}
+reasow {"verb":["suspect","suppose"]}
+reasower {"noun":["counsellor","chief"]}
+reaver {"noun":["robber","raider","bandit","plunderer","marauder"]}
+reckful {"adjective":["attentive"]}
+recking {"noun":["concern","caution"]}
+reckness {"noun":["narration","history","report"]}
+red fingerapple {"noun":["jujube","the fruit of this plant"]}
+red maithe {"noun":["plant"]}
+redeful {"adjective":["wise","prudent"]}
+redegift {"noun":["gift"]}
+redely {"adverb":["promptly","surely","certainly","explicitly"]}
+redesman {"noun":["counsellor"]}
+reekle {"noun":["incense"],"verb":["incense"]}
+reeklevat {"noun":["censer"]}
+reet {"verb":["cheer","gladden","comfort"]}
+reeth {"adjective":["fierce","wild"],"noun":["triumph"]}
+reethness {"adjective":["ruthlessness","mercilessness","cruelness"]}
+remming {"noun":["hindrance","obstacle"]}
+Restday {"noun":["day of rest"]}
+resthome {"noun":["old people's home","old folk's home"]}
+resthouse {"noun":["hotel","hostel"]}
+retcher {"noun":["explainer","expounder"]}
+ridgebone {"noun":["backbone","spine","vertebra"]}
+RIF {"other":["RIP","rest in peace"]}
+rightframed {"adjective":["orthodox"]}
+rightminded {"adjective":["sane","decent","upright"]}
+rimer {"noun":["counter"]}
+rimth {"noun":["extent","space"]}
+rinenly {"adjective":["physical"]}
+ringnet {"noun":["mail","chainmail","hauberk"]}
+rinnel {"noun":["runner"]}
+rissle {"noun":["soft fat","suet"]}
+rodder {"noun":["firmament","aether"],"other":["astro-","cosmo-"]}
+roddercraft {"noun":["spaceship"]}
+rodderfarer {"noun":["astronaut"]}
+rodderlore {"noun":["astronomy"]}
+roke {"noun":["spittle","matter brought up when clearing the throat"]}
+Rone {"noun":["Rouen","city"]}
+roodhang {"noun":["crucifix"]}
+roodsithe {"noun":["crusade"]}
+Roomer {"noun":["one who lives in the city of Rome"]}
+roomet {"noun":["space","clearance"]}
+roomhearted {"adjective":["generous"]}
+roor {"adjective":["potent","vigorous"]}
+rop {"noun":["intestine","entrails","guts","bowels"]}
+Rothem {"noun":["city"],"preposition":["city"],"interjection":["city"]}
+rothern {"adjective":["of oxen","of cattle"]}
+rothhound {"noun":["mastiff","large dog"]}
+rownshat {"noun":["cryptocurrency"]}
+rownstaff {"noun":["rune"]}
+rowny {"adjective":["mystical","mysterious"]}
+rud {"noun":["blush","marigold","redden"],"verb":["blush","redden"]}
+ruechary {"adjective":["troubled","anxious","sorrowful"]}
+run in {"noun":["conflict"]}
+runningfowl {"noun":["courser"]}
+runthrough {"noun":["rehearsal","summary"]}
+rus {"noun":["ground"]}
+rushleek {"noun":["chives"]}
+sackless {"adjective":["innocent","blameless","guiltless"]}
+saddletree {"noun":["saddletree"]}
+sade {"verb":["satisfy"]}
+safin {"noun":["savin"]}
+sailorly {"adjective":["nautical"]}
+sain {"noun":["sign","banner","standard"],"verb":["sign"]}
+salework {"noun":["goods"]}
+saltstone {"noun":["halite","rock salt"]}
+salvy {"noun":["sage","plant"]}
+samblind {"adjective":["half-blind","dim-sighted"]}
+samborn {"adjective":["half-born","aborted"]}
+samed {"adverb":["together"],"preposition":["together"],"interjection":["together"]}
+samey {"adjective":["generic","monotonous"],"adverb":["generic","monotonous"]}
+sameyness {"noun":["monotony"]}
+sammening {"noun":["convention","congregation"]}
+sammer {"noun":["gatherer"]}
+samwhole {"adjective":["not whole"]}
+samwise {"adjective":["foolish","simple"]}
+sarecrafty {"adjective":["wily","cunning"]}
+sarely {"adjective":["artful","mechanical"]}
+sareman {"noun":["engineer"]}
+sarenet {"noun":["snare"]}
+sarethankle {"adjective":["cunning","shrewd"]}
+Sarmondish {"noun":["Sarmatian"],"preposition":["Sarmatian"],"interjection":["Sarmatian"],"adjective":["Sarmatian"]}
+satch {"noun":["strife","conflict"]}
+saught {"noun":["reconciliation","peace"],"verb":["reconcile","peace"]}
+saughten {"verb":["make peace","reconcile"]}
+scathefulness {"noun":["injuriousness","destructiveness"]}
+scathel {"noun":["injury"],"adjective":["harmful","noxious","injurious"]}
+sclair {"noun":["veil","headgear"]}
+seabladder {"noun":["Physalia physalis animal","Portuguese man-of-war"]}
+seaduck {"noun":["bird","eider","scoter"]}
+seaear {"noun":["Haliotis mollusc","abalone","ormer"]}
+seafarth {"noun":["the sea shore"]}
+seafennel {"noun":["samphire"]}
+seaganger {"noun":["mariner"]}
+seahaven {"noun":["seaport"]}
+seahawk {"noun":["skua","jaeger"]}
+seahen {"noun":["guillemot","murre"]}
+seahound {"noun":["dogfish","shark"]}
+sealine {"noun":["horizon"]}
+sealsmolt {"noun":["seal oil"]}
+sealy {"adjective":["marine","oceanic"]}
+seamere {"noun":["lagoon"]}
+seaminnow {"noun":["anchovy"]}
+searaven {"noun":["cormorant"]}
+seaswallow {"noun":["tern"]}
+seater {"noun":["ambusher"]}
+seath {"noun":["pit","hole"]}
+seathrowend {"noun":["Eurypterida","eurypterid"]}
+seethrough {"adjective":["transparent","translucent"]}
+seld {"adjective":["rare","infrequent"],"adverb":["infrequently","rarely"],"noun":[],"other":["rare-"]}
+selfkill {"verb":["kill oneself"]}
+selfkiller {"noun":["one who has killed oneself"]}
+selfmurtherer {"noun":["one who kills oneself"]}
+selfshrithe {"verb":["motivate oneself"]}
+selfweening {"noun":["conceitedness","self-conceit","self-importance","arrogance","egotism","vanity"],"adjective":["conceited","self-important","arrogant","egotistical","vain","opinionated"]}
+selfwielding {"adjective":["self-governing"]}
+sench {"verb":["sink","drown"]}
+sendforth {"noun":["send-off"]}
+seringapple {"noun":["fruit"]}
+sester {"noun":["pitcher","liquid measure"]}
+settingtoken {"noun":["music"]}
+sevenleaf {"noun":["septfoil"]}
+sevenwield {"noun":["heptarchy"]}
+shab {"noun":["scab","mange"]}
+shaftlore {"noun":["chemistry"]}
+shaftmote {"noun":["atom"]}
+shaly anteater {"noun":["pangolin"]}
+shamefast {"adjective":["bashful","modest","shy"]}
+shandly {"adjective":["infamous","shameful"]}
+shapeshifting {"noun":["transformation","metamorphosis"],"adjective":["metamorphic","protean"]}
+sharn {"noun":["dung","manure"]}
+shawwort {"noun":["plant"]}
+Shedland {"noun":["Scandinavia"]}
+shedmaking {"noun":["differentiation"]}
+shelchen {"noun":["maidservant","handmaid"]}
+sheldgoose {"noun":["Centrornis bird","Chloephaga bird"]}
+shellhouse {"noun":["grotto"]}
+shepherd leeth {"noun":["poem"]}
+sheriffdom {"noun":["shrievalty"]}
+shide {"noun":["plank","splinter","chip"]}
+shidewall {"noun":["palisade"]}
+shieldend {"noun":["protector","defender"]}
+shieldock {"noun":["shield","buckler"]}
+shinelock {"noun":["delusion","superstition","spectre","phantom","apparition"]}
+shinelocker {"noun":["magician"]}
+shinely {"adjective":["spectral"]}
+shipman {"noun":["sailor","seaman"]}
+Shith {"noun":["Scythian"],"preposition":["Scythian"],"interjection":["Scythian"]}
+Shithish {"noun":["Scythian","Ossetian"],"preposition":["Scythian"],"interjection":["Scythian"],"adjective":["Scythian","Ossetian"]}
+shive {"noun":["slice"]}
+shoe-leather {"adjective":["old-fashioned","old-school"]}
+shoppy {"adjective":["poetic"]}
+shortlong {"noun":["iamb"],"adjective":["iamb"]}
+showglass {"noun":["showcase"]}
+shree {"verb":["shriek"]}
+shride {"verb":["clothe","dress"]}
+Shridfinn {"noun":["Laplander"],"preposition":["Laplander"],"interjection":["Laplander"]}
+shriftfather {"noun":["confessor"]}
+shrubland {"noun":["brushland"]}
+shruttening {"noun":["examination"]}
+shurt {"verb":["amuse","enjoy"]}
+sibsome {"adjective":["peaceable"]}
+sid {"noun":["morality","custom","habit"]}
+sidden {"noun":["soothsaying","sei","r","necromancy"]}
+sidelings {"adverb":["sideways","alongside"]}
+sightfield {"noun":["field of vision","field of view"]}
+sightsman {"noun":["tour guide","local guide"]}
+Siler {"noun":["Ethiopian"],"preposition":["Ethiopian"],"interjection":["Ethiopian"]}
+Silerland {"noun":["Nubia","Ethiopia","Cush"],"preposition":["Nubia","Ethiopia","Cush"],"interjection":["Nubia","Ethiopia","Cush"]}
+sillen {"noun":["gift"]}
+silverking {"noun":["tarpon"]}
+silverthaw {"noun":["glaze ice"]}
+sind {"verb":["are"]}
+Sine {"noun":["river"],"preposition":["river"],"interjection":["river"]}
+singale {"adjective":["continuous","continual"]}
+singaleness {"noun":["constancy"]}
+sinkgiver {"noun":["treasure-giver","lord"]}
+sinkroom {"noun":["scullery"]}
+sinwelt {"adjective":["circular"]}
+sitch {"noun":["ditch"]}
+sithefat {"noun":["path","road"]}
+sittingroom {"noun":["parlour","lounge"]}
+siver {"adjective":["sober","circumspect"]}
+skent {"verb":["entertain","amuse"]}
+skool {"noun":["school"]}
+slail {"noun":["pick"]}
+sleat {"verb":["chase"]}
+sleave {"verb":["separate threads","divide"]}
+sletch {"verb":["ease","relieve"]}
+slidder {"adjective":["slippery","uncertain"]}
+slike {"verb":["smoothen","polish"]}
+slithe {"adjective":["dire","dangerous"]}
+slive {"verb":["cut","slice"]}
+smack of {"verb":["taste of","come across as"]}
+smackbound {"adjective":["subjective"]}
+smallminded {"adjective":["petty","narrow-minded"]}
+smatch of {"verb":["taste of"]}
+smearle {"noun":["ointment","salve"]}
+smeddum {"noun":["powder","fine powder","fine flour"]}
+smeech {"verb":["smoke","emit smoke","emit vapor"]}
+smeeth {"verb":["make smooth","expedite"]}
+smeying {"noun":["investigation","study","inquiry"]}
+smilt {"adjective":["calm","serene","tranquil","placid"]}
+smiltness {"noun":["calmness","serenity","tranquillity"]}
+smitting {"adjective":["infectious","contagious"]}
+smow {"verb":["creep","crawl"]}
+snarch {"verb":["shrivel","dehydrate"]}
+snark {"noun":["sarcasm"]}
+sneem {"adverb":["swiftly","rapidly","quickly","immediately","at once"]}
+snike {"verb":["crawl","creep","sneak"]}
+snite {"noun":["snipe","bird","bird"],"verb":["blow one's nose","snuff out"]}
+snithy {"adjective":["cutting","sharp"]}
+snitter {"noun":["wisdom"]}
+snoter {"adjective":["prudent","sagacious"]}
+snoterly {"adjective":["wise","prudent"],"adverb":["wisely","prudently"]}
+snoterness {"noun":["wisdom","intelligence"]}
+snoud {"adjective":["swift"],"adverb":["quickly","swiftly"]}
+snowhen {"noun":["ptarmigan"]}
+softshaded {"adjective":["pastel"]}
+softship {"noun":["ease","comfort","convenience"]}
+soken {"noun":["search","district"]}
+solken {"adjective":["lazy"]}
+somedeal {"adjective":["partial","partly"],"adverb":["partial","partly"]}
+son-of-the-sun {"noun":["frigatebird"]}
+soothbound {"adjective":["bound to fact","objective"]}
+soothquid {"noun":["fact"]}
+soothsaw {"noun":["proverb","maxim"]}
+soothsawl {"adjective":["truth saying"]}
+soothspel {"noun":["true story","history"]}
+soothy {"adjective":["sincere","authentic","actual"]}
+soullattew {"noun":["spirit","deity"]}
+sourdock {"noun":["sorrel"]}
+Southumber {"noun":["Southumbria","Southumbrians"],"preposition":["Southumbria"],"interjection":["Southumbria"]}
+Southumberrich {"noun":["Mercia"],"preposition":["Mercia"],"interjection":["Mercia"]}
+sowel {"noun":["post"]}
+sowl {"noun":["meat","pottage","sauce","topping"]}
+sparhawk {"noun":["bird","sparrowhawk"]}
+sparlire {"noun":["calf"]}
+sparstone {"noun":["gypsum"]}
+speal {"verb":["save","spare"]}
+speedful {"adjective":["successful","prosperous"]}
+speld {"noun":["splinter","torch"]}
+spird {"noun":["racetrack","racecourse"]}
+spitbox {"noun":["spittoon"]}
+spitbreed {"noun":["kebab"]}
+spittlewort {"noun":["pellitory"]}
+spokebone {"noun":["bone"]}
+spoonwort {"noun":["Cochleara plant","scurvygrass"]}
+sprank {"noun":["shoot","twig","sprig"]}
+sprind {"adjective":["vigorous","active"]}
+spring green {"noun":["mint green"],"adjective":["mint green"]}
+springe {"verb":["scatter"]}
+spurrier {"noun":["spy"]}
+squeezebox {"noun":["accordion"]}
+staddlely {"adjective":["fundamental","basic"]}
+staffleighter {"noun":["typo"]}
+staffly {"adjective":["literal"],"adverb":["literal"]}
+standalone {"noun":["independent thing"],"adjective":["independent"]}
+standcock {"noun":["hydrant","fire hydrant"]}
+startail {"noun":["tropicbird"]}
+stath {"noun":["bank","shore","wharf"]}
+steadname {"noun":["place name"]}
+steap {"noun":["cup"]}
+steel bow {"noun":["crossbow","arbalest"]}
+steet {"verb":["strike","thrust","fall","push"]}
+ster {"other":["agent suffix"]}
+stevenmeal {"adverb":["alternatively"]}
+stickman {"noun":["stick figure"]}
+stightler {"noun":["manager"]}
+stold {"noun":["station","abode"]}
+stonebaby {"noun":["lithopedion"]}
+stonecarving {"noun":["petroglyph","statue","carving"]}
+stonecoal {"noun":["anthracite","hard coal"]}
+stonefaw {"adjective":["paved"]}
+stonehawk {"noun":["merlin"]}
+stonelime {"noun":["mortar"]}
+stonemint {"noun":["plant","dittany"]}
+stonen {"adjective":["stone"],"verb":["stone","petrify","lithify"]}
+stoneworker {"noun":["mason","stonemason"]}
+stoundmeal {"adverb":["alternatingly"]}
+strackledwales {"noun":["Strathclyde"],"preposition":["Strathclyde"],"interjection":["Strathclyde"]}
+straid {"verb":["strew","scatter","disperse"]}
+streel {"noun":["arrow"],"verb":["shoot"]}
+streelbearer {"noun":["arrow-bearer"]}
+streenenly {"adjective":["genitive"]}
+streener {"noun":["procreator","generator"]}
+streeny {"adjective":["genetic"]}
+strewn {"adjective":["scattered"]}
+strout {"noun":["argument"]}
+sturry {"noun":["sturgeon"]}
+sull {"verb":["dirty","soil","pollute","defile"]}
+sullow {"noun":["plough","plow"]}
+summer teal {"noun":["garganey"]}
+summersleep {"noun":["aestivation"]}
+sundercraft {"noun":["special art"]}
+sunderright {"noun":["privilege","right"]}
+sundryman {"noun":["dealer"]}
+sunfast {"adjective":["sun resistant"]}
+sunspider {"noun":["solifuge","camel spider","wind scorpion"]}
+susselstead {"noun":["hell"]}
+swamblore {"noun":["mycology"]}
+swanker {"adjective":["pliable","flaccid"]}
+swarken {"verb":["darken"]}
+sweal {"verb":["burn","scorch"]}
+sweasing {"noun":["food","victuals"]}
+Sweave {"noun":["Swabian","Alamanni"],"preposition":["Swabian","Alamanni"],"interjection":["Swabian","Alamanni"]}
+Sweerich {"noun":["Sweden"],"preposition":["Sweden"],"interjection":["Sweden"]}
+sweeting {"noun":["darling"]}
+sweetwater {"noun":["fragrance"]}
+sweeve {"verb":["put to sleep"]}
+swere {"verb":["heavy","grave","oppressive"]}
+swerely {"adverb":["heavily","grievously"]}
+swevelen {"adjective":["sulfurous"]}
+swiker {"noun":["traitor","deceiver"]}
+swingel {"noun":["scourge","flail"]}
+swingle {"noun":["flax beating tool"],"verb":["scutch","beat with a swingle"]}
+swinkful {"adjective":["toilsome","laborious"]}
+swipper {"adjective":["nimble"]}
+swithly {"adjective":["great","intense"]}
+swive {"verb":["fuck","mate"]}
+swong {"adjective":["lean","gaunt"]}
+swow {"noun":["faint","swoon"],"verb":["faint","swoon"]}
+syefast {"adjective":["victorious","triumphant"]}
+syeless {"adjective":["defeated"]}
+talewise {"adjective":["talkative","tale-telling"]}
+talt {"adjective":["unstable","transitory"]}
+talter {"verb":["totter","stagger","be unsteady"]}
+Tarse {"noun":["roughly Turkestan","Transoxiana"]}
+tavel {"noun":["boardgame","die"]}
+teel {"noun":["mock","ridicule"],"verb":["mock","ridicule"]}
+teeler {"noun":["mocker","ridiculer"]}
+teely {"adjective":["blasphemous","reprehensible"]}
+teenful {"adjective":["troublesome","harmful","painful"]}
+teigh {"verb":["intend","suppose"]}
+tellall {"noun":["expos"]}
+temse {"verb":["sift","strain","sieve"]}
+tenpenny {"noun":["ten cents","ten pence"],"adjective":["ten cents","ten pence"]}
+tensome {"noun":["decade"]}
+tetterberry {"noun":["Bryonia plant"]}
+th {"other":["abstract nominal suffix"]}
+thackboard {"noun":["shingle"]}
+thanen {"noun":["baroness"]}
+thaning {"noun":["service"]}
+thar {"verb":["need","require"]}
+thasledge {"verb":["agree","fit"]}
+thasly {"adjective":["seemly","elegant","harmonious"],"adverb":["seemly","elegantly","harmoniously"]}
+thaught {"noun":["counsel"]}
+thaughting {"noun":["counsel","deliberation"]}
+thaveless {"adjective":["feeble"]}
+thaver {"noun":["supporter","consenter"]}
+the all {"noun":["universe"]}
+the endtime {"noun":["apocalypse"]}
+The Fareld {"noun":["The Passover"],"preposition":["The Passover"],"interjection":["The Passover"]}
+the Great Dying {"noun":["the Permian","Triassic extinction event"],"preposition":["the Permian","Triassic extinction event"],"interjection":["the Permian","Triassic extinction event"]}
+the Healend {"noun":["the healing one"],"preposition":["analyzable as"],"interjection":["title of Jesus"]}
+the Hurling Time {"noun":["the Peasants' Revolt","Wat Tyler's Rebellion"],"preposition":["of"],"interjection":["the Peasants' Revolt","Wat Tyler's Rebellion"]}
+the North Star {"noun":["Polaris"]}
+the Quidbook {"noun":["Book of Proverbs"]}
+the shows {"noun":["the circus","the fair"]}
+The Skaw {"noun":["Skagen","peninsula"],"preposition":["Skagen","peninsula"],"interjection":["Skagen","peninsula"]}
+the sticks {"noun":["countryside"]}
+the web {"noun":["internet"]}
+thearl {"adverb":["greatly","vigorously","harshly","severely","sorely"]}
+theavethorn {"noun":["thornbush","gooseberry","blackberry"]}
+theeden {"noun":["chieftain"]}
+theedness {"noun":["conjunction"]}
+theedship {"noun":["fellowship"]}
+theet {"noun":["pipe","tube","channel"],"verb":["howl"]}
+ther {"other":["tool","instrument"]}
+thern {"noun":["girl","handmaid"]}
+thewen {"noun":["bondswoman","slave"]}
+thewet {"noun":["slavery","servitude","bondage"]}
+thickfold {"adverb":["rapidly"]}
+thiften {"noun":["handmaiden","servant"]}
+thilk {"noun":["thing"]}
+thillcraft {"noun":["rhetoric"]}
+thilling {"noun":["plank flooring","boarding"]}
+thind {"verb":["swell"]}
+thinger {"noun":["advocate"]}
+think on {"verb":["contemplate","consider","ponder"]}
+thir {"adjective":["dry"]}
+thitherto {"adverb":["until then"]}
+thixel {"noun":["beam"]}
+thode {"noun":["whirlwind","gale"]}
+thoft {"noun":["fellow","comrade"],"verb":["associate"]}
+thoftship {"noun":["fellowship","alliance"]}
+thost {"noun":["dung","manure"]}
+thoughtache {"noun":["angst","dread"]}
+thoughtline {"noun":["train of thought"]}
+thoughtworld {"noun":["worldview"]}
+thove {"adjective":["tufted","tufty"]}
+thrave {"verb":["urge","rebuke"]}
+thrax {"noun":["rot"]}
+thray {"verb":["rebuke","reproach","chastise"]}
+threa {"noun":["infliction"]}
+threep {"noun":["quarrel","argument"],"verb":["quarrel","argue"]}
+threesheet {"adjective":["three-cornered"]}
+thriddendeal {"noun":["unit of liquid measure"]}
+thril {"noun":["hole","opening"]}
+thrilly {"adjective":["exciting"]}
+thriness {"noun":["trinity"]}
+thringing {"adjective":["urgent","pressing","pressure"]}
+thrinter {"noun":["three-year-old animal","something three years old"]}
+thristledge {"verb":["presume"]}
+thrithe {"noun":["forces"]}
+throenly {"adjective":["passive"]}
+throer {"noun":["sufferer"]}
+throsomy {"adjective":["smoky"]}
+throughbore {"verb":["bore through","perforate","transfix"]}
+throughseek {"verb":["scour","examine thoroughly","scrutinize"]}
+throughsmow {"verb":["creep through","pour over"]}
+throughtee {"verb":["achieve","accomplish"]}
+throughwon {"verb":["continue","remain","endure"]}
+Throwend {"noun":["Norse people-group"],"preposition":["Norse people-group"],"interjection":["Norse people-group"],"other":["Scorpio"]}
+throwing star {"noun":["shuriken","ninja star"]}
+thrumfast {"adjective":["glorious","majestic","illustrious"]}
+thrumfull {"adjective":["glorious","majestic","mighty"]}
+thrumly {"adjective":["magnificent","splendid","glorious"],"adverb":["magnificently","splendidly","gloriously"]}
+Thunder {"noun":["Thor"],"preposition":["Thor"],"interjection":["Thor"]}
+thungen {"adjective":["grown","thriven"]}
+thurrock {"noun":["hold","bilge"]}
+thwarst {"adverb":["across","transversely"],"preposition":["across"],"interjection":["across"]}
+thwartnick {"verb":["deny","defy"]}
+thwearness {"noun":["agreement","harmony","peace"]}
+thwire {"verb":["oppose","cross"],"adjective":["obstinate","crooked","cross"]}
+thwirely {"adjective":["contrary","opposite","awry","askew"],"adverb":["contrary","opposite","awry","askew"]}
+thwireness {"noun":["crookedness"]}
+tid {"adjective":["tender","soft"]}
+tidder {"verb":["fondle"],"adjective":["frail"]}
+tideghost {"noun":["ethos of an age"]}
+tidewriter {"noun":["chronicler"]}
+tield {"noun":["tent","awning"],"verb":["tent","awn","pitch","trap","erect"]}
+tigercat {"noun":["ocelot","oncilla","margay"]}
+tigerwolf {"noun":["tiger","wolf","thylacine"]}
+tilewright {"noun":["brickmaker","potter"]}
+tillman {"noun":["farmer"]}
+tinglass {"noun":["element"]}
+tinmouth {"noun":["crappie"]}
+tinstone {"noun":["cassiterite"]}
+tintrey {"noun":["torment","torture"]}
+tocome {"noun":["arrival","future"]}
+todeal {"noun":["distribute","part","separate"],"verb":["distribute","part","separate"]}
+todo {"noun":["fuss"]}
+toebone {"noun":["phalanx of a toe"]}
+tofloat {"verb":["float"]}
+tofore {"adverb":["previously"],"preposition":["prior to"],"interjection":["previously"]}
+tokenbearer {"noun":["standard bearer"]}
+tokening {"noun":["representation","indication","evidence","gesturing","memorial","memento"]}
+toknow {"verb":["discern","distinguish","know"]}
+tolimb {"verb":["dismember"]}
+toname {"noun":["surname","nickname"]}
+tooler {"noun":["mechanic","technician"]}
+topsyturviness {"noun":["chaos","disorder"]}
+topsyturvy {"adjective":["backwards","upside-down","chaotic"],"adverb":["chaotically"]}
+torght {"verb":["bright","clear"],"adjective":["bright","clear"],"adverb":["clearly"]}
+torghtly {"adjective":["splendid"],"adverb":["splendidly"]}
+torghtness {"noun":["glory","splendour"]}
+tornquid {"noun":["utterance that causes grief","bitter words"]}
+torve {"verb":["throw","pelt"]}
+touder {"noun":["offspring","progeny","product"]}
+toward tide {"noun":["tide"],"adjective":["coming","forthcoming"]}
+town green {"noun":["village square","green"]}
+toyen {"preposition":["against"],"interjection":["against"]}
+traughten {"verb":["explain"]}
+treehoney {"noun":["syrup","treacle"]}
+treen {"noun":["wooden"],"adjective":["wooden"]}
+trendle {"noun":["orb","sphere"],"verb":["roll","roll around"]}
+trendled {"adjective":["rounded","round","circular"]}
+trothplight {"noun":["betrothal","betrothed","engaged"]}
+trowfast {"adjective":["loyal","faithful"]}
+trowless {"adjective":["faithless"]}
+trum {"adjective":["firm","safeguarded"],"noun":["troop","army","forces","company","array"]}
+truse {"verb":["swear","guarantee"]}
+tunereeve {"noun":["bailiff"]}
+tunsingwort {"noun":["white hellebore"]}
+turdle {"noun":["pellet of faeces"]}
+turfen {"adjective":["made of turf","covered with turf"]}
+tweam {"verb":["divide","separate","estrange"]}
+tweaming {"noun":["separation"]}
+tweenenly {"adjective":["dubitative"]}
+tweenle {"adjective":["doubtful","uncertain"]}
+twibill {"noun":["axe"]}
+twifoldly {"adjective":["double"]}
+twiganger {"noun":["Doppelganger"]}
+twispeech {"noun":["deceit"]}
+twissel {"noun":["double","twofold"],"adjective":["double","twofold"]}
+twitchen {"noun":["narrow passage","alley"]}
+twiwield {"noun":["dyarchy"]}
+twodeal {"noun":["bikini"]}
+twoling {"noun":["doublet","twin"]}
+twoness {"noun":["duality","doubleness"]}
+Tyeling {"noun":["inhabitant of Mars"]}
+umbecast {"verb":["travel around","explore","ponder"]}
+umbeight {"noun":["collection"]}
+umbfang {"verb":["encompass","surround"]}
+umbfare {"noun":["going around"]}
+umbgang {"noun":["circling","circuit"]}
+umbhang {"verb":["drape","deck"]}
+umbhow {"noun":["anxiety"],"adjective":["anxious"]}
+umbloater {"noun":["spectator","observer"]}
+umbset {"adjective":["set around"],"preposition":["set around"],"interjection":["set around"]}
+umbtrim {"verb":["surround","fortify"]}
+umbwend {"noun":["transform","convert"]}
+umbwharft {"noun":["orbit"]}
+umbwharve {"verb":["orbit"]}
+unache {"verb":["soothe"]}
+unakin {"adjective":["dissimilar"]}
+unamete {"adjective":["immeasurable","immense"],"adverb":["immeasurably","immensely"]}
+unbeliever {"noun":["nonbeliever","heathen"]}
+unbiseny {"adjective":["unruly"]}
+unbootly {"adjective":["irremediable","without remedy"]}
+undear {"adjective":["cheap","disesteemed"]}
+undercome {"verb":["undergo","submit"]}
+underfang {"verb":["receive","accept","assume"]}
+underget {"verb":["notice","realize","discover"]}
+underly {"adjective":["inferior","lower","insufficiently"],"adverb":["inferior","lower","insufficiently"]}
+undermakeup {"noun":["primer"]}
+undern {"noun":["tierce"]}
+undernim {"verb":["rebuke","reprove","censure","criticize"]}
+underred {"noun":["infrared"],"adjective":["infrared"]}
+underroom {"noun":["basement","underrooms"]}
+undertheed {"verb":["subject","subjugate"]}
+undertheedingly {"adjective":["subjunctive"]}
+undoughty {"adjective":["uncourageous","cowardly"]}
+unfrith {"noun":["strife","discord"]}
+ungraith {"adjective":["unready"]}
+ungraithly {"adverb":["unpreparedly","unreadily"]}
+ungrounded {"adjective":["baseless","unfounded"]}
+unheel {"verb":["uncover","reveal"]}
+unhill {"verb":["uncover","expose"]}
+unk {"noun":["us two"]}
+unkinly {"adjective":["unsuitable"]}
+unlaw {"noun":["crime","lawlessness"]}
+unleed {"adjective":["wretched","miserable"]}
+unlib {"noun":["poison"]}
+unlibwright {"noun":["maker of poisons","witch","sorcerer"]}
+unlikeworthy {"adjective":["unlikable"]}
+unlittiness {"noun":["ugliness","disfigurement"]}
+unlitty {"verb":["disfigure"],"adjective":["ugly"]}
+unluck {"noun":["misfortune"]}
+unmad {"adjective":["sane"]}
+unmaiden {"verb":["deflower"]}
+unmaidening {"noun":["deflowering"]}
+unmannish {"adjective":["inhuman","inhumane"]}
+unmeet {"adjective":["improper","unsuitable"]}
+unmerry {"adjective":["unpleasant","unfair"]}
+unmighten {"verb":["disempower","disable"]}
+unmighty {"adjective":["weak","feeble"]}
+unmilse {"noun":["wrath"]}
+unmilsing {"noun":["impiety","pitilessness"]}
+unmirth {"noun":["sadness","misery"]}
+unmoody {"adjective":["fainthearted","humble"]}
+unn {"verb":["allow","permit"]}
+unnithing {"noun":["honest person"]}
+unoften {"adverb":["seldom"]}
+unorn {"adjective":["simple","plain","modest","unelaborate","unattractive","humble","decrepit"]}
+unrearded {"adjective":["voiceless"]}
+unride {"adjective":["unrestrained","uncontrolled","excessive","great","unmitigated","immoderate"]}
+unrode {"adjective":["unreasonable","unwise","irrational"]}
+unroot {"adjective":["sad"]}
+unrown {"verb":["decrypt"]}
+unrowned {"noun":["unencrypted"]}
+unseely {"adjective":["unhappy","miserable","unlucky","wretched"]}
+unsooth {"noun":["untruth","falsehood"]}
+unsteadfast {"adjective":["capricious"]}
+unstill {"verb":["disturb","disquiet"]}
+unsundrenly {"adjective":["inseparable","indivisible"]}
+unsuttleness {"noun":["vagueness","unclearness"]}
+unsweven {"noun":["bad dream","nightmare"]}
+unsyefast {"adjective":["unvictorious","untriumphant"]}
+unthank {"noun":["ingratitude","harm","injury","thanklessness"]}
+unthroenly {"adjective":["impassible"]}
+unthwear {"verb":["disagree","discordant"],"adjective":["disagree","discordant","dissonant"]}
+unthwearness {"noun":["discord","disagreement","disharmony"]}
+untine {"verb":["free","unbind"]}
+untrum {"adjective":["unfirm","sick","sickly","infirm","ill"]}
+untwee {"noun":["certainty"]}
+unwaxen {"adjective":["ungrown"]}
+unweather {"noun":["storm","tempest"]}
+unwight {"noun":["monster"]}
+unwin {"noun":["foe","enemy"]}
+unwinsome {"adjective":["unpleasant","disagreeable"]}
+unwist {"adjective":["unknown"]}
+unwont {"adjective":["unaccustomed"]}
+unworship {"noun":["irreverence","dishonour"],"verb":["irreverence","dishonour"]}
+unwry {"verb":["uncover","expose","untie","behold","perceive"]}
+unyore {"adjective":["unprepared","recent"],"adverb":["unprepared","recently","soon"]}
+upbrook {"verb":["use up"]}
+upheaving {"noun":["upheaval"]}
+upnimming {"noun":["undertaking","project"]}
+upp {"noun":["stage","platform","dais"]}
+uprist {"noun":["rising out of bed","sunrise","resurrection"]}
+upsodown {"adverb":["upside down","inverted"]}
+vattle {"noun":["container","vat","ship"]}
+wal {"noun":["slaughter","carnage"]}
+walhawk {"noun":["gyrfalcon"]}
+walkirry {"noun":["valkyrie"]}
+wallime {"noun":["mortar","mixture"]}
+walm {"verb":["surge","spout","gush","boil up"]}
+walt {"verb":["turn over","invert","topple","consider"],"adjective":["unstable"]}
+wandbone {"noun":["bone"]}
+wanenly {"adjective":["diminutive"]}
+wanion {"noun":["curse","vengeance"]}
+wankle {"adjective":["weak","unsteady","untrustworthy","unstable","mutable","inconstant","fickle","irresolute","wobbly","insecure"]}
+wanthriven {"adjective":["stunted","decayed","emaciated","weakly"]}
+wardman {"noun":["guard","watchman","jailer"]}
+wardship {"noun":["guardianship","custody","protection"]}
+waregoose {"noun":["brant"]}
+waren {"noun":["inhabitants"]}
+warkleech {"noun":["anesthetist"]}
+warlow {"noun":["traitor","oath-breaker"]}
+warry {"noun":["monster","criminal","felon"],"verb":["swear","curse","curse someone"]}
+warryen {"noun":["criminaless","feloness"]}
+warryness {"noun":["villainy"]}
+warryqueddle {"adjective":["foul-mouthed","slanderous"]}
+watchhouse {"noun":["guard house"]}
+waterflask {"noun":["water flask","water bottle","pitcher"]}
+waterfree {"adjective":["waterproof","devoid"]}
+waterlily {"noun":["water lily"]}
+waterlode {"noun":["aqueduct"]}
+waterouzel {"noun":["Cinclus cinclus","Cinclus mexicanus"]}
+waterpipe {"noun":["water organ"]}
+waterscooter {"noun":["waterscooter"]}
+watersick {"adjective":["dropsied","dropsical"]}
+watersickness {"noun":["dropsy"]}
+waterwave {"noun":["wave","tsunami"]}
+wayfarer's tree {"noun":["traveler's-tree","east-west palm"]}
+waywiser {"noun":["pedometer","odometer"]}
+waywort {"noun":["pimpernel"]}
+weaponwifester {"noun":["intersex person"]}
+weared {"adjective":["allied"]}
+weast {"verb":["ravage","devastate","waste away"],"adjective":["desolate","deserted","barren"]}
+weasten {"noun":["wasteland","desert"]}
+weastenlox {"noun":["caracal","lynx"]}
+weathe {"verb":["hunt","chase"]}
+weedle {"noun":["beg","poor"],"verb":["beg"],"adjective":["poor"]}
+weer {"verb":["guard","defend"]}
+weeze {"verb":["ooze","steep","saturate"]}
+weighs {"noun":["scales","balance"]}
+wellaway {"interjection":["alas"]}
+weller {"noun":["lips"]}
+wellhung {"adjective":["dry aged","of meat"]}
+wellnigh {"adverb":["almost","nearly"]}
+wellread {"adjective":["erudite"]}
+wellwilling {"adjective":["benevolent","benignant","good-willed"]}
+wemdeed {"noun":["crime"]}
+wemful {"adjective":["guilty"]}
+wemlust {"noun":["allurement","seduction"]}
+wemmy {"adjective":["faulty","defective","impure"]}
+wemquid {"noun":["slander","blasphemy"]}
+wenchel {"noun":["girl"]}
+wendendliness {"noun":["changeableness"]}
+wendenly {"adjective":["versatile"]}
+went {"noun":["passageway","course","method","plan of action"]}
+werely {"adjective":["male","masculine"]}
+wern {"noun":["refusal"],"verb":["refuse"]}
+wetch {"verb":["rouse","provoke","arouse"]}
+wey {"verb":["move","convey"]}
+whalebird {"noun":["petrel bird"]}
+whaleshot {"noun":["spermaceti","whale oil"]}
+whall {"adjective":["impudent","insolent"]}
+wharft {"noun":["circuit","circle","revolution","orbit","turning"]}
+wharvebone {"noun":["vertebra"]}
+wharvely {"adjective":["changeable","turnable","mutable"]}
+wharver {"noun":["changer","joint"],"other":["-trope"]}
+whas {"adjective":["sharp","keen"]}
+whate {"noun":["fortune","omen"]}
+whater {"noun":["diviner"]}
+whather {"verb":["roar","foam"]}
+wheatmeal {"noun":["wheaten meal","flour"]}
+whelkred {"noun":["scarlet","purple"],"adjective":["scarlet","purple"]}
+whelve {"verb":["invert","turn upside down"]}
+whereof {"adverb":["of what","of which"]}
+wherwhet {"noun":["cucumber"]}
+whig {"noun":["liberal"]}
+whilend {"adjective":["temporary","transitory","transient"]}
+whilf {"verb":["arch","vault"]}
+whitch {"noun":["chest"]}
+Whitches {"noun":["Hwicce"],"preposition":["Hwicce"],"interjection":["Hwicce"]}
+white bothen {"noun":["ox-eye daisy"]}
+White Sheep Turkmen {"noun":["Turkmen"],"preposition":["Turkmen"],"interjection":["Turkmen"]}
+whiteback {"noun":["canvasback"]}
+whitepepper {"noun":["arugula"]}
+whiteroot {"noun":["Solomon's seal"]}
+whitesmith {"noun":["worker in white metals","tinsmith","worker in metal finishing","polishing","galvanizing"]}
+whith {"noun":["breeze"]}
+Whitstow {"noun":["Mount Lebanon"],"preposition":["Mount Lebanon"],"interjection":["Mount Lebanon"]}
+whoaster {"verb":["whisper","murmur"]}
+wholewise {"adverb":["completely"]}
+wholf {"noun":["vault"]}
+whoon {"adjective":["few"]}
+whoonly {"adjective":["small","little","slight"]}
+whorekeeper {"noun":["pimp","madam"]}
+whoreling {"noun":["fornicator","adulterer"]}
+wicken {"noun":["duty","position"],"verb":["duty","hold an office"]}
+wickeny {"adjective":["official","lawful"]}
+wickner {"noun":["officer"]}
+widegale {"adjective":["spacious","vast","extensive"]}
+widegaleness {"noun":["spaciousness","vastness"]}
+wieldcraft {"noun":["statecraft","ruling","government"]}
+wielder {"noun":["ruler","controller","governor","master"]}
+wifeleech {"noun":["gynecologist"]}
+wiking {"noun":["Viking"]}
+wildman {"noun":["barbarian","savage"]}
+wildware {"noun":["furs"]}
+willess {"adjective":["involuntary","intestate"]}
+willowwort {"noun":["willowherb"]}
+willsome {"adjective":["desirable"]}
+willsomeness {"noun":["devotion","vow"]}
+willynilly {"adverb":["haphazardly"]}
+windfucker {"noun":["kestrel"]}
+windharp {"noun":["windharp"]}
+Windland {"noun":["Lusatia"],"preposition":["Lusatia"],"interjection":["Lusatia"]}
+windmare {"noun":["wind spirit said to be responsible for echoes","echo"]}
+winebearer {"noun":["wine-waiter"]}
+winfast {"adjective":["joyous","joyful"]}
+winster {"adjective":["left","direction"]}
+wirdless {"adjective":["ill-fated","improvident"]}
+wisehead {"noun":["wiseacre"]}
+wishenly {"adjective":["desirable","wishable"]}
+wishingly {"adjective":["optative"]}
+wishywashy {"adjective":["weak","watery","wavering"]}
+wising {"noun":["guidance","instruction"]}
+wiss {"adjective":["certain","sure"],"adverb":["certainly","surely"]}
+wissly {"adverb":["certainly","surely"]}
+witeful {"adjective":["guilty"]}
+witelock {"noun":["punishment","torment","pain"]}
+witener {"noun":["tormentor"]}
+witerail {"noun":["sackcloth"]}
+witeswing {"noun":["chastisement"]}
+witethew {"noun":["one in slavery"],"adjective":["enslaved"]}
+with {"other":["anti-"]}
+with wiss {"adverb":["certainly","surely"]}
+withbraid {"verb":["withhold","hold back","restrain"]}
+withchoose {"verb":["reject","disapprove"]}
+withdraught {"noun":["withdrawal","extraction","retreat"]}
+witherdeed {"noun":["reaction"]}
+withermood {"adjective":["adverse","hostile","contrary"]}
+witherweight {"noun":["counterweight"]}
+withmeetly {"adjective":["comparative"]}
+withsaw {"noun":["opposition"]}
+withsit {"verb":["resist"]}
+withtee {"verb":["withdraw","abstain","refrain"]}
+withwind {"noun":["honeysuckle"]}
+witling {"noun":["derogatory"]}
+witsick {"adjective":["possessed"]}
+witsmoot {"noun":["parliament","congress"]}
+witted {"adjective":["appointed","ordained","assured","certain","sure"]}
+witwanton {"noun":["fool"],"verb":["indulge"]}
+witybook {"noun":["prophetical book","book of prophecies"]}
+witydom {"noun":["prophecy","divination"]}
+witydomly {"adjective":["prophetic","prophetical"]}
+witying {"noun":["prophecy"]}
+woak {"adjective":["weak","frail"]}
+woakmood {"adjective":["fainthearted"]}
+woan {"verb":["moan","wail"]}
+woesome {"adjective":["terrible","miserable"]}
+woggin {"noun":["penguin","great auk"]}
+wolfshead {"noun":["outlaw"]}
+wolfsmilk {"noun":["spurge"]}
+womansrighter {"noun":["feminist"]}
+wonderworker {"noun":["miracle worker"]}
+wong {"noun":["field","plain"]}
+wonly {"adjective":["common","customary","usual"]}
+wonner {"noun":["dweller","inhabitant"]}
+wontly {"adverb":["usually","customarily","habitually"]}
+woodant {"noun":["carpenter ant"]}
+woodelf {"noun":["wood elf"]}
+woodelfen {"noun":["dryad","wood-nymph"]}
+Wooden {"noun":["Odin"],"preposition":["Odin"],"interjection":["Odin"]}
+wooder {"noun":["enraged man"]}
+woodmarch {"noun":["sanicle"]}
+woodwale {"noun":["bird"]}
+woodwose {"noun":["wild man"]}
+woolward {"adjective":["penitent"]}
+woom {"noun":["sound","noise"]}
+woop {"noun":["cry"]}
+woor {"verb":["disturb"]}
+wordful {"adjective":["talkative"]}
+wordlock {"noun":["speech"]}
+wordmark {"noun":["term"]}
+wordsnotering {"noun":["sophism"]}
+wordwinsome {"adjective":["pleasant","affable"]}
+worldaught {"noun":["worldly possessions","worldly property"]}
+worsom {"noun":["pus","matter"]}
+worthmind {"noun":["dignity","honour"]}
+worthness {"noun":["dignity","nobility"]}
+wortwale {"noun":["plant"],"verb":["plant"]}
+wory {"adjective":["confused","perplexed","troubled","disturbed"]}
+wrast {"adjective":["splendid"]}
+wrathe {"noun":["prop","stay","support"]}
+wreat {"noun":["ornament"]}
+wreathen {"adjective":["twisted","wreathed"]}
+wreatly {"adverb":["wondrously"]}
+wreaty {"adjective":["wondrous","curious"]}
+wrenchwise {"adjective":["unjust"]}
+wrength {"noun":["wrongness","incorrectness"]}
+wrethe {"verb":["prop","support"]}
+wride {"noun":["shoot","grow","blossom","bloom","burgeon"],"verb":["shoot","grow","flourish","blossom","bloom","burgeon"]}
+wrile {"noun":["clothing","garment"]}
+wurmel {"noun":["marjoram"]}
+wurp {"verb":["recover"]}
+wyesmith {"noun":["warrior","war smith"]}
+yaffle {"noun":["green woodpecker"]}
+yared {"adjective":["ready","prepared","supplied","equipped"]}
+yarewordy {"adjective":["eloquent","fluent"]}
+yark {"verb":["prepare","ready"]}
+ye {"preposition":[],"interjection":[],"noun":["you"]}
+yearnenly {"adjective":["yearnable"]}
+Yeatish {"noun":["of Geats"],"adjective":["of Geats"]}
+yeed {"verb":["went"]}
+yeek {"noun":["bird","cuckoo"]}
+yeemerly {"adverb":["miserably","dismally","melancholily"]}
+yeemlessness {"noun":["negligence","neglect","carelessness"]}
+yeen {"preposition":["against","opposite","next to","bordering"],"interjection":["against","opposite"]}
+yeet {"verb":["pour","libate","found"]}
+yeeter {"noun":["caster of metal"]}
+yeft {"noun":["gift","present"]}
+yeld {"adjective":["barren","infertile","unproductive"]}
+yellow bothen {"noun":["plant","marigold"]}
+yellowgreen {"noun":["chartreuse"],"adjective":["chartreuse"]}
+yelse {"noun":["luxury"]}
+yenner {"noun":["refuge","sanctuary"]}
+yennerstead {"noun":["asylum","sanctuary"]}
+yerk {"verb":["sharply strike","pull","push"]}
+yern {"adjective":["eager"],"adverb":["eagerly"]}
+yernly {"adverb":["eagerly","fervently"]}
+yestereve {"noun":["yesterday evening"],"adverb":["yesterday evening"]}
+yetling {"noun":["vessel of cast metal","plate"]}
+yever {"adjective":["greedy","covetous","gluttonous"]}
+yevery {"adjective":["ravenous"]}
+Yew {"noun":["someone from","land in Sweden"],"preposition":["someone from","land in Sweden"],"interjection":["someone from","land in Sweden"]}
+yond {"other":[],"adverb":["over there","throughout","through","over"],"preposition":["over there","throughout","through","over"],"interjection":["over there","throughout","through","over"]}
+yondgang {"verb":["go about","perambulate"]}
+yondseek {"verb":["search","pervade"]}
+yoreyearn {"noun":["nostalgia"]}
+abb {"noun":["yarn","wool","filling"]}
+sparrowhawk {"noun":["Eurasian sparrowhawk","female such bird","small birds of Old World species of Accipiter"]}
+naam {"noun":["Goods"]}
+auf {"noun":["oaf"]}
+haaf {"noun":["sea","fishing"]}
+wergeld {"noun":["blood money","compensation"]}
+carl {"noun":["churl","niggard"]}
+bub {"noun":["young brother","little boy"]}
+hooper {"noun":["One who applies hoops to casks or tubs"]}
+sheave {"noun":["pulley"]}
+duma {"noun":["assembly"]}
+stang {"noun":["pole","rod","staff"]}
+garth {"noun":["yard","garden"]}
+childe {"noun":["child of noble birth"]}
+whim-wham {"noun":["trinket","whim","anxiety"]}
+soc {"noun":["jurisdiction","privilege"]}
+flet {"noun":["floor","home"]}
+mund {"noun":["hand","Protection"]}
+gemot {"noun":["assembly"]}
+elding {"noun":["firewood","fuel"]}
+yuletide {"noun":["The flower Camellia sasanqua, native to Japan and nearby islands"]}
+collop {"noun":["slice","rasher","roll","portion"]}
+outfangthief {"noun":["privilege of some feudal lords permitting them to execute summary judgment upon thieves captured outside their estates and to keep any chattels forfeited upon conviction","thief so captured and tried"]}
+dreidel {"noun":["spinning top","gambling game"]}
+doek {"noun":["cloth","kopdoek"]}
+saeter {"noun":["meadow","barn","cabin","dairy","farm"]}
+witenagemot {"noun":["assembly","session"]}
+eme {"noun":["uncle","friend"]}
+beot {"noun":["boast","Boastfulness"]}
+fas {"noun":["border","fringe"]}
+zenana {"noun":["harem","segregation system"]}
+hoar frost {"noun":["frost"]}
+combe {"noun":["valley"]}
+staithe {"noun":["wharf","landing","installation"]}
+head man {"noun":["leader","chieftain"]}
+bubber {"noun":["person who drinks a lot of alcohol"]}
+didapper {"noun":["bird","scoundrel"]}
+naze {"noun":["promontory","cape"]}
+cheeselep {"noun":["Rennet","bag"]}
+thirling {"noun":["boring","thirl","mark"]}
+seg {"noun":["warrior","fellow"]}
+tummler {"noun":["lively, mischievous man","facilitator"]}
+selfheal {"noun":["plant"]}
+wynd {"noun":["narrow lane","stack of hay"]}
+knez {"noun":["duke","leader"]}
+puttock {"noun":["kite","buzzard","harrier"]}
+dweomer {"noun":["magic aura","magic spell"]}
+sloot {"noun":["ditch"]}
+sevennight {"noun":["week"]}
+twinling {"noun":["twin","twin lamb"]}
+gote {"noun":["sluice","pipe","miry-place"]}
+barghest {"noun":["black dog","ghost","hobgoblin","elf","spirit"]}
+wifehood {"noun":["wife","wifeliness"]}
+trub {"noun":["sediment"]}
+bubba {"noun":["Brother"]}
+cag {"noun":["stump"]}
+seawolf {"noun":["fish","attacker"]}
+lattermath {"noun":["aftermath","consequences"]}
+frush {"noun":["thrush"]}
+shaftment {"noun":["unit","width"]}
+daywork {"noun":["day's work","daily work","day labour"]}
+to-name {"noun":["surname","additional name"]}
+freet {"noun":["superstition","wont","charm"]}
+spadger {"noun":["sparrow"]}
+rean {"noun":["deep furrow","ridge","gutter"]}
+eckle {"noun":["icicle"]}
+wroo {"noun":["corner","enclosure"]}
+wame {"noun":["womb"]}
+orl {"noun":["alder tree"]}
+kingric {"noun":["kingdom","kingship"]}
+unlust {"noun":["dislike","listlessness"]}
+krang {"noun":["whalebone","remains"]}
+gossipred {"noun":["gossip"]}
+bedrip {"noun":["crowd"]}
+treddle {"noun":["prostitute"]}
+ferede {"noun":["Companionship","Company","companions"]}
+heathenesse {"noun":["heathendom"]}
+portreeve {"noun":["borough-reeve","port reeve"]}
+freke {"noun":["warrior","man","creature"]}
+inbeing {"noun":["indwelling being"]}
+stull {"noun":["framework","prop"]}
+spale {"noun":["chip","shaving","strengthening cross timber"]}
+yepsen {"noun":["Amount that can be held in two hands cupped together","Two hands cupped together"]}
+whinyard {"noun":["sword","hanger"]}
+cleve {"noun":["room","cottage","cliff"]}
+aleconner {"noun":["officer appointed yearly at the leet of ancient English communities to ensure the goodness and wholesomeness of bread, ale, and beer"]}
+bearbind {"noun":["bindweed"]}
+borsholder {"noun":["head","peace officer"]}
+pebblestone {"noun":["pebble"]}
+burian {"noun":["tomb","burial mound","hill-fort"]}
+undermeal {"noun":["afternoon meal","snack"]}
+red-gum {"noun":["tooth rash","rust on grain"]}
+hulch {"noun":["hump","hook"]}
+bewist {"noun":["living","condition","dwelling","abode"]}
+bride-ale {"noun":["bridal","spiced ale"]}
+dodman {"noun":["land-based snail","shellfish","surveyor"]}
+sicklewort {"noun":["plant","heal-all"]}
+grundel {"noun":["kind of fish","perineum"]}
+rigol {"noun":["circle","crown","ridge"]}
+flathe {"noun":["ray"]}
+rickle {"noun":["heap","rick","building","vehicle","person"]}
+ongang {"noun":["beginning","antics"]}
+errand-ghost {"noun":["spirit","ghostly messenger"]}
+mersnake {"noun":["sea snake"]}
+cammock {"noun":["common restharrow"]}
+big talk {"noun":["boast","gossip"]}
+oakwood {"noun":["oak trees","oak wood"]}
+harefoot {"noun":["foot","clover","mushroom"]}
+staith {"noun":["shore","landing"]}
+heretog {"noun":["marshal"]}
+sea adder {"noun":["tanglefish","greater pipefish"]}
+measling {"noun":["disease","delamination"]}
+high king {"noun":["chief king","God"]}
+highday {"noun":["holiday","heyday"]}
+manhater {"noun":["misandrist"]}
+runecraft {"noun":["runes"]}
+smearwort {"noun":["Aristolochia rotunda","Blitum bonus-henricus"]}
+firwood {"noun":["fir wood","fir forest"]}
+dillweed {"noun":["Dill"]}
+buckwagon {"noun":["strong wagon with a frame over the wheels used for hauling goods","wagon"]}
+brotherwort {"noun":["pennyroyal"]}
+heregeld {"noun":["Danegeld","heriot"]}
+flynet {"noun":["net to catch flies","fringe or net to protect a horse"]}
+bizen {"noun":["monster","spectacle","disgrace","warning","example"]}
+galdr {"noun":["chanting","song"]}
+new wine {"noun":["fresh batch of wine"]}
+handplay {"noun":["Hand-to-hand combat"]}
+Easter term {"noun":["The third term of the legal year, running from April to May, during which the upper courts of England and Wales, and Ireland, sit to hear cases","The summer term of the University of Cambridge, and other educational institutions, running from April to June"]}
+malmstone {"noun":["flintlike material used in pavement or as a building material"]}
+brandreth {"noun":["tripod","railing"]}
+water adder {"noun":["non-venomous water snake","venomous cottonmouth","non-venomous northern water snake","venomous crab-eating water snake"]}
+horse-comb {"noun":["curry comb"]}
+witchdom {"noun":["witchery","world of witches"]}
+fox's foot {"noun":["bur-reed","cocksfoot"]}
+cowtail {"noun":["tail","wool"]}
+rullion {"noun":["shoe","woman","animal"]}
+eye-apple {"noun":["eyeball","apple"]}
+tree worm {"noun":["worm that lives in trees","parasitic individual","lowlife"]}
+sandcorn {"noun":["grain of sand"]}
+cavel {"noun":["stick","lot","land"]}
+herepath {"noun":["road","path"]}

@@ -1,0 +1,12 @@
+adwell {"verb":["allure","attract"]}
+aftercomer {"noun":["descendant","successor"]}
+andet {"verb":["confess"]}
+anether {"verb":["abase","humiliate"]}
+barn-find {"noun":["antique"],"adjective":["antique"]}
+begetting {"noun":["generation"],"adjective":["producing"]}
+beswike {"verb":["betray","deceive"],"noun":["cheat"]}
+betighten {"verb":["constrict"]}
+cride {"noun":["taste"]}
+daven {"adjective":["necessary"]}
+deemer {"noun":["judge"]}
+dern {"adjective":["secret"],"noun":["cipher","concealment"]}

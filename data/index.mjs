@@ -8,6 +8,8 @@ import {
 import { redis } from './redis.mjs';
 import * as gpt from './gpt.mjs';
 import _ from 'lodash';
+import { appendFile } from 'fs/promises';
+import { getPath } from './util.mjs';
 
 const program = new Command();
 
@@ -16,12 +18,12 @@ program.option('--wordbook', 'load data from The Anglish Wordbook');
 program.parse(process.argv);
 const options = program.opts();
 
-await loadAll();
+await compile();
 
 /**
  * Calls all loader functions with option to flush Redis first.
  **/
-export default async function loadAll(flush = false) {
+export default async function compile(flush = false) {
   console.time('loadAll');
 
   if (flush) {
@@ -31,13 +33,12 @@ export default async function loadAll(flush = false) {
 
   const wikt = new WiktionaryLoader();
   await wikt.load({ save: false });
-  return;
 
   const wordbook = new WordbookLoader();
-  await wordbook.load({ save: true });
+  await wordbook.load({ save: false });
 
   const moot = new MootLoader();
-  await moot.load({ save: true });
+  await moot.load({ save: false });
   moot.addAnglishWordsFromEnglishDefs();
 
   const wordnet = new WordNetLoader();
@@ -51,137 +52,75 @@ export default async function loadAll(flush = false) {
   console.log(`WordNet synsets: ${Object.keys(wordnet.synsets).length}`);
   console.log();
 
-  const anglish = moot.anglish;
+  const wordsAdded = new Set();
 
-  console.log(anglish);
-  return;
+  const addToWordNet = (data) => {
+    for (const word in data) {
+      const inWordNet = Object.hasOwn(wordnet.entries, word);
+      if (inWordNet) {
+        // Word is a modern English word, already in WordNet.
+        // Also valid Anglish; update language and continue.
+        if (!wordnet.entries[word].languages.includes('Anglish')) {
+          wordnet.entries[word].languages.push('Anglish');
+        }
+        continue;
+      } else {
+        if (Object.keys(data[word]).includes('name')) {
+          // Skip proper nouns from Kaikki; they add bloat.
+          continue;
+        }
+        // Word is Anglish only. Add WordNet entry.
+        wordsAdded.add(word);
+        wordnet.entries[word] = {
+          languages: ['Anglish'],
+        };
 
-  // Parse Wordbook anglish.
-  for (const word in wordbook.data) {
-    for (const pos in wordbook.data[word]) {
-      if (!anglish[word]) {
-        anglish[word] = {};
-      }
-    }
-    const { word, pos } = item;
-    if (!anglish[word]) {
-      anglish[word] = {};
-    }
-    const entry = anglish[word];
-    if (!entry[item.pos]) {
-      entry[pos] = {
-        senses: item.senses.map((sense) => ({
-          sense: sense,
-          source: 'wordbook',
-        })),
-      };
-    } else {
-      entry[pos].senses.push(
-        ...item.senses.map((sense) => ({
-          sense: sense,
-          source: 'wordbook',
-        }))
-      );
-    }
-  }
-
-  // Update WordNet data with Anglish anglish.
-  for (const word in anglish) {
-    const entry = anglish[word];
-    const inWordNet = Object.hasOwn(wordnet.entries, word);
-
-    if (inWordNet) {
-      // Word is a modern English word, already in WordNet.
-      // Update language and remove.
-      wordnet.entries[word].languages.push('Anglish');
-      delete anglish[word];
-      continue;
-    } else {
-      // Word is Anglish. Add WordNet entry.
-      wordnet.entries[word] = {
-        languages: ['Anglish'],
-      };
-      const wn = wordnet.entries[word];
-
-      for (const pos in entry) {
-        // Remove duplicates by string match.
-        entry[pos].senses = _.uniqBy(entry[pos].senses, 'sense');
-      }
-
-      continue;
-
-      // For each part of speech, link synsets based on senses.
-      for (const pos in entry) {
-        wn[pos] = {};
-        const senses = entry[pos].senses;
-
-        for (const { sense } of senses) {
-          // TODO: Remove senses that are basically identical.
-          // eg: craft:n:vehicle, craft:n:conveyance
-          // Use ChatGPT.
-          // eg: const deduped = await removeDuplicateSenses(senses)
-
-          // Then, loop over them and select the sense/synset from wordnet[word][pos] that matches this sense.
-          // eg: selectMatchingSense(sense, _senses);
-
-          // Keep a record of senses with no synset, errors. Fix manually.
-
-          const _entry = wordnet.entries[sense];
-          if (!_entry?.[pos]) {
-            // Entry for this sense not found. Could be a typo or
-            // a poorly formatted string.
-            continue;
+        for (const pos in data[word]) {
+          if (!wordnet.entries[word][pos]) {
+            wordnet.entries[word][pos] = { senses: [] };
           }
-
-          const _senses = _entry[pos].sense;
-          //console.log(word, sense, _senses);
+          wordnet.entries[word][pos].senses = Array.from(
+            new Set(
+              wordnet.entries[word][pos].senses.concat(
+                data[word][pos].senses || []
+              )
+            )
+          );
         }
       }
     }
-  }
+  };
 
-  const words = Object.keys(anglish);
+  addToWordNet(moot.anglish);
+  addToWordNet(wordbook.data);
+  addToWordNet(wikt.data);
 
-  const gptWords = [];
-  for (const word of words) {
-    const entry = anglish[word];
-    // If there is only one `pos` and one `sense`, skip.
-    const keys = Object.keys(entry);
-    for (const pos of Object.keys(entry)) {
-      if (entry[pos].senses.length > 1) {
-        gptWords.push(word);
-        break;
+  const wordsToProcess = _.pick(wordnet.entries, Array.from(wordsAdded));
+
+  for (const word in wordsToProcess) {
+    // Skip words that have only one sense.
+    let willProcess = false;
+    for (const pos of Object.keys(wordsToProcess[word]).filter(
+      (s) => s !== 'languages'
+    )) {
+      if (wordsToProcess[word][pos].senses.length > 1) {
+        willProcess = true;
       }
     }
+    if (!willProcess) {
+      continue;
+    }
+
+    try {
+      const res = await gpt.curateSenses(word, wordsToProcess[word]);
+      const data = `${word} ${JSON.stringify(res)}\n`;
+      await appendFile(getPath('output.txt'), data);
+    } catch (error) {
+      console.log('Error:', error);
+      const data = `${word} ${JSON.stringify(wordsToProcess[word])}\n`;
+      await appendFile(getPath('errors.txt'), data);
+    }
   }
-
-  for (const word of gptWords) {
-    const entry = anglish[word];
-    await gpt.removeDuplicateSenses(word, entry);
-  }
-
-  // const total = gptWords.length;
-  // let processed = 0;
-  // const promises = [];
-
-  // await new Promise((resolve) => {
-  //   setInterval(() => {
-  //     const word = gptWords.shift();
-  //     const entry = anglish[word];
-  //     if (!word) {
-  //       return resolve();
-  //     }
-  //     promises.push(gpt.removeDuplicateSenses(word, entry));
-  //     processed++;
-  //     console.log(`${word} ${processed}/${total}`);
-  //   }, 800);
-  // });
-
-  // await Promise.all(promises);
-
-  // await buildIndex();
-
-  console.timeEnd('loadAll');
 
   // Will async-hang if called from command line without this.
   process.exit();

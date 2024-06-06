@@ -11752,16 +11752,6 @@
       "from": "ME",
       "notes": "\"both\" might be from Norse \"báðir\"",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "both"
-      ],
-      "forebear": "bō",
-      "from": "ME",
-      "notes": "\"both\" might be from Norse \"báðir\"",
-      "tags": ""
     }
   },
   "board": {
@@ -47893,16 +47883,6 @@
       "notes": "",
       "tags": ""
     },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "them"
-      ],
-      "forebear": "hem",
-      "from": "ME",
-      "notes": "or: em (some claim 'em descends from hem)",
-      "tags": ""
-    },
     "v": {
       "angSpelling": "",
       "senses": [
@@ -48134,16 +48114,6 @@
       "from": "ME",
       "notes": "",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "their"
-      ],
-      "forebear": "here/hire/hure[heora]",
-      "from": "ME",
-      "notes": "",
-      "tags": ""
     }
   },
   "herd": {
@@ -48266,16 +48236,6 @@
   },
   "hers": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "theirs"
-      ],
-      "forebear": "hē̆res/hirs",
-      "from": "ME",
-      "notes": "or: \"hern\", from a Middle English alternative",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "theirs"
@@ -49102,17 +49062,6 @@
   },
   "hin": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "him",
-        "accusative"
-      ],
-      "forebear": "hine",
-      "from": "ME",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "him",
@@ -50456,16 +50405,6 @@
   },
   "hoo": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "she"
-      ],
-      "forebear": "~[heo]",
-      "from": "NE",
-      "notes": "found in West Yorkshire and Lancashire",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "she"
@@ -51985,16 +51924,6 @@
       "from": "ME",
       "notes": "rhyme: pie",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "hie",
-      "senses": [
-        "they"
-      ],
-      "forebear": "hē/hy/hie[hīe]",
-      "from": "ME",
-      "notes": "rhyme: pie",
-      "tags": ""
     }
   },
   "hye": {
@@ -53200,17 +53129,6 @@
       "from": "ME",
       "notes": "",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "you two",
-        "accusative"
-      ],
-      "forebear": "inc",
-      "from": "ME",
-      "notes": "",
-      "tags": ""
     }
   },
   "inker": {
@@ -53224,32 +53142,10 @@
       "from": "OE",
       "notes": "",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "your",
-        "dual you two's"
-      ],
-      "forebear": "incer",
-      "from": "OE",
-      "notes": "",
-      "tags": ""
     }
   },
   "inkers": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "yours",
-        "dual you two's"
-      ],
-      "forebear": "incer",
-      "from": "OE",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "yours",
@@ -53309,16 +53205,6 @@
   },
   "inkselves": {
     "n": {
-      "angSpelling": "inkselfs",
-      "senses": [
-        "you two's selves"
-      ],
-      "forebear": "inc seluen",
-      "from": "ME",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "inkselfs",
       "senses": [
         "you two's selves"
@@ -58116,7 +58002,7 @@
       "angSpelling": "ledger",
       "senses": [
         "book for keeping notes",
-        "A collection of credit and debit entries"
+        "collection of credit and debit entries"
       ],
       "forebear": "~",
       "from": "NE‹NL",
@@ -64054,17 +63940,6 @@
   },
   "man": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "one",
-        "generic pronoun"
-      ],
-      "forebear": "man[man]",
-      "from": "ME",
-      "notes": "some believe \"one\" replacing \"man\" is from French influence, others disagree",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "one",
@@ -71021,16 +70896,6 @@
       "from": "ME",
       "notes": "equal to: nay ich",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "nic",
-      "senses": [
-        "not I"
-      ],
-      "forebear": "nich",
-      "from": "ME",
-      "notes": "equal to: nay ich",
-      "tags": ""
     }
   },
   "nick": {
@@ -74383,16 +74248,6 @@
   },
   "ourn": {
     "n": {
-      "angSpelling": "urn",
-      "senses": [
-        "ours"
-      ],
-      "forebear": "ouren",
-      "from": "ME",
-      "notes": "optional",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "urn",
       "senses": [
         "ours"
@@ -84646,7 +84501,7 @@
     "n": {
       "angSpelling": "searafen",
       "senses": [
-        "A Phalacrocoracidae bird",
+        "Phalacrocoracidae bird",
         "cormorant"
       ],
       "forebear": "~",
@@ -86217,7 +86072,7 @@
     "n": {
       "angSpelling": "scag",
       "senses": [
-        "A Phalacrocoracidae bird",
+        "Phalacrocoracidae bird",
         "shag",
         "cormorant"
       ],
@@ -89944,19 +89799,6 @@
   },
   "sine": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "his",
-        "her",
-        "its",
-        "their"
-      ],
-      "forebear": "sīn",
-      "from": "OE",
-      "notes": "optional pronoun",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "his",
@@ -102823,17 +102665,6 @@
       "notes": "",
       "tags": ""
     },
-    "x": {
-      "angSpelling": "þee",
-      "senses": [
-        "you",
-        "accusative case"
-      ],
-      "forebear": "~[þē]",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
-    },
     "v": {
       "angSpelling": "þee",
       "senses": [
@@ -103598,17 +103429,6 @@
       "from": "NE",
       "notes": "",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "þilk",
-      "senses": [
-        "that same",
-        "the very thing"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
     }
   },
   "thill": {
@@ -103668,18 +103488,6 @@
   },
   "thine": {
     "n": {
-      "angSpelling": "þine",
-      "senses": [
-        "yours",
-        "your",
-        "when before a vowel sound"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "þine",
       "senses": [
         "yours",
@@ -104363,17 +104171,6 @@
   },
   "thou": {
     "n": {
-      "angSpelling": "þu",
-      "senses": [
-        "you",
-        "nominative"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "þu",
       "senses": [
         "you",
@@ -106412,30 +106209,10 @@
       "from": "NE",
       "notes": "",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "þi",
-      "senses": [
-        "your"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
     }
   },
   "thyself": {
     "n": {
-      "angSpelling": "þiself",
-      "senses": [
-        "yourself"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "þiself",
       "senses": [
         "yourself"
@@ -108631,7 +108408,7 @@
     "n": {
       "angSpelling": "",
       "senses": [
-        "A fashionista"
+        "fashionista"
       ],
       "forebear": "~",
       "from": "NE",
@@ -111982,17 +111759,6 @@
       "from": "ME",
       "notes": "ARCHAIC & NOT RECOMMENDED",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "us two",
-        "accusative"
-      ],
-      "forebear": "unc",
-      "from": "ME",
-      "notes": "ARCHAIC & NOT RECOMMENDED",
-      "tags": ""
     }
   },
   "unkempt": {
@@ -112017,30 +111783,10 @@
       "from": "ME",
       "notes": "",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "",
-      "senses": [
-        "my and your"
-      ],
-      "forebear": "unker",
-      "from": "ME",
-      "notes": "",
-      "tags": ""
     }
   },
   "unkers": {
     "n": {
-      "angSpelling": "",
-      "senses": [
-        "mine and yours"
-      ],
-      "forebear": "unker+s",
-      "from": "OE+NE",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "",
       "senses": [
         "mine and yours"
@@ -112078,16 +111824,6 @@
   },
   "unkselves": {
     "n": {
-      "angSpelling": "unkselfs",
-      "senses": [
-        "we two's selves"
-      ],
-      "forebear": "unke seoluen",
-      "from": "ME",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "unkselfs",
       "senses": [
         "we two's selves"
@@ -120524,16 +120260,6 @@
       "from": "NE",
       "notes": "\"whoever\" is Anglisc too ᛫ or: whosoever",
       "tags": ""
-    },
-    "x": {
-      "angSpelling": "ƿhoso",
-      "senses": [
-        "whoever"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "\"whoever\" is Anglisc too ᛫ or: whosoever",
-      "tags": ""
     }
   },
   "wick": {
@@ -121839,7 +121565,7 @@
     "n": {
       "angSpelling": "ƿiretree",
       "senses": [
-        "A myrtle tree"
+        "myrtle tree"
       ],
       "forebear": "wīrtrēow",
       "from": "OE",
@@ -126655,18 +126381,6 @@
       "tags": ""
     },
     "n": {
-      "angSpelling": "ge",
-      "senses": [
-        "you guys",
-        "y'all",
-        "youse"
-      ],
-      "forebear": "~",
-      "from": "NE",
-      "notes": "",
-      "tags": ""
-    },
-    "x": {
       "angSpelling": "ge",
       "senses": [
         "you guys",

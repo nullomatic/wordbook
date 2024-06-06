@@ -1,20 +1,20 @@
 import 'dotenv/config';
 import { appendFile } from 'fs/promises';
 import OpenAI from 'openai';
+import _ from 'lodash';
+import { getPath } from './util.mjs';
 
 export const openai = new OpenAI();
 
-export async function removeDuplicateSenses(word, entry) {
+export async function curateSenses(word, entry) {
   const formatted = formatObj(word, entry);
   const completion = await openai.chat.completions.create({
     messages: [
       {
         role: 'system',
         content: `"Anglish" is a linguistically pure, Germanic version of English - how English would be without foreign influence. \
-          Given an Anglish context word and JSON object following it, remove any English array elements that do not describe the Anglish \
-          context word (according to their part of speech, denoted by the key). Remove any words that are close synonyms of another, that \
-          redundantly duplicate meaning. Remove any long array elements that are not a single word or compound word. If you don't recognize \
-          the Anglish context word, err on the side of leaving array elements in, rather than taking them out. Leave at least one array element \
+          Given an Anglish context word and JSON object following it, replace the English array elements with each possible sense of the
+          context word. You may need to condense longer sentences down to one word. Leave at least one array element \
           in each array. Return the filtered JSON object, without Markdown or backticks, such that the entire response can be passed directly \
           to JSON.parse().
 
@@ -27,7 +27,7 @@ export async function removeDuplicateSenses(word, entry) {
             ],
             "adjective": [
               "easy",
-              "gentle",
+              "given to gentle behavior or treatment",
               "pale",
               "scarce"
             ],
@@ -67,17 +67,15 @@ export async function removeDuplicateSenses(word, entry) {
   });
 
   const res = JSON.parse(completion.choices[0].message.content);
-  const data = `${word} ${JSON.stringify(res)}\n`;
-  console.log(data);
-  await appendFile('./test.txt', data);
   return res;
 }
 
 function formatObj(word, entry) {
   const obj = {};
-  for (const key in entry) {
-    const arr = entry[key].senses.map(({ sense }) => sense);
-    switch (key) {
+  for (const pos of _.without(Object.keys(entry), 'languages')) {
+    const arr = entry[pos].senses;
+    switch (pos) {
+      case 'noun':
       case 'n':
         obj.noun = arr;
         break;
@@ -95,8 +93,11 @@ function formatObj(word, entry) {
       case 'i':
         obj.interjection = arr;
         break;
+      case 'x':
+        obj.other = arr;
+        break;
       default:
-        throw new Error(`Unrecognized PoS: ${key}`);
+        throw new Error(`Unrecognized PoS: ${pos}`);
     }
   }
   return `${word} ${JSON.stringify(obj)}`;

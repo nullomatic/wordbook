@@ -39,6 +39,7 @@ export function formatPoS(pos) {
     case 'n':
     case 'nm':
     case 'num':
+    case 'pro':
     case 'pron':
       pos = 'n'; // noun
       break;
@@ -68,6 +69,7 @@ export function formatPoS(pos) {
     case 'd':
     case 'prep':
     case 'prp':
+    case 'prep_phrase':
       pos = 'p'; // preposition
       break;
     case 'i':
@@ -89,11 +91,31 @@ export function formatPoS(pos) {
     case 'suf':
     case 'suff':
     case 'afx':
-    case 'pro':
     case 'pn':
     case 'ac':
     case 'pt':
     case 'letter':
+    case 'name':
+    case 'prefix':
+    case 'phrase':
+    case 'intj':
+    case 'adv_phrase':
+    case 'interfix':
+    case 'affix':
+    case 'circumfix':
+    case 'suffix':
+    case 'particle':
+    case 'num':
+    case 'det':
+    case 'article':
+    case 'character':
+    case 'symbol':
+    case 'proverb':
+    case 'contraction':
+    case 'punct':
+    case 'infix':
+    case 'abbrev':
+    case 'postp':
       pos = 'x'; // other
       break;
     default:
@@ -106,7 +128,7 @@ export function formatSenses(str) {
   return str
     .split(/[^a-z\s\-']/i)
     .map((str) => {
-      return cleanStr(str).replace(/^(a|an|to)\s/g, ''); // Replace 'a/an <word>' and 'to <word>'
+      return cleanStr(str).replace(/^(a|an|to)\s/gi, ''); // Replace 'a/an <word>' and 'to <word>'
     })
     .filter((str) => !!str);
 }

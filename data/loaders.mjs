@@ -58,6 +58,30 @@ export class WiktionaryLoader {
     }
 
     this.data = {};
+
+    // God this is messy.
+    const extractSenses = (senses) => {
+      const _a = senses
+        .map(({ glosses }) =>
+          glosses.map((str) => {
+            const _b = str
+              .replace(/\([^)]*\)/g, '')
+              .replace(/\[[^\]]*\]/g, '')
+              .split(';')
+              .map((s) =>
+                s
+                  .trim()
+                  .replace(/^(a|an|to)\s/gi, '')
+                  .replace(/\./g, '')
+              )
+              .join('; ');
+            return _b;
+          })
+        )
+        .reduce((acc, cur) => acc.concat(cur));
+      return _a;
+    };
+
     const handler = (line) => {
       const json = JSON.parse(line);
       let isAnglish = false;
@@ -67,35 +91,30 @@ export class WiktionaryLoader {
       if (/(french|latin|greek)/i.test(json.etymology_text)) {
         isAnglish = false;
       }
-
-      if (isAnglish && json.pos !== 'name') {
-        // TODO: Filter out other parts of speech
+      if (isAnglish) {
         if (!this.data[json.word]) {
-          console.log(json.word);
-          this.data[json.word] = { [json.pos]: { senses: json.senses } };
+          this.data[json.word] = {
+            [json.pos]: {
+              senses: extractSenses(json.senses),
+            },
+          };
         } else {
-          this.data[json.word][json.pos] = { senses: json.senses };
+          this.data[json.word][json.pos] = {
+            senses: extractSenses(json.senses),
+          };
         }
       }
     };
 
-    const callback = () => {
-      console.log(Object.keys(this.data).length);
-    };
+    await this.#loadWithStream((line) => [handler(line)]);
 
-    await this.#loadWithStream((line) => {
-      const handlers = [];
-      if (options?.store) {
-        this.data.push(JSON.parse(line));
-      }
-      if (options?.redis) {
-        handlers.push(this.#redisCallback(line));
-      }
-      if (handler) {
-        handlers.push(handler(line));
-      }
-      return handlers;
-    }, callback);
+    if (options?.save) {
+      console.log('Saving kaikki-an.json');
+      const uri = getPath('/assets/kaikki/kaikki-an.json');
+      writeFileSync(uri, JSON.stringify(this.data, null, 2));
+    }
+
+    return this;
   }
 
   async _load(options, callback) {
@@ -186,7 +205,9 @@ export class WiktionaryLoader {
       console.warn(`WARN: Missed ${iteration - processed} entries`);
     }
 
-    await callback();
+    if (callback) {
+      await callback();
+    }
   }
 
   /**
@@ -216,7 +237,6 @@ export class WiktionaryLoader {
 export class WordbookLoader {
   constructor() {
     this.data = null;
-    this.uri = getPath('/assets/wordbook/wordbook.csv');
   }
 
   async load(options) {
@@ -232,7 +252,7 @@ export class WordbookLoader {
     }
 
     this.data = {};
-    const data = await csv().fromFile(this.uri);
+    const data = await csv().fromFile(getPath('/assets/wordbook/wordbook.csv'));
 
     for (const item of data) {
       const posArr = this.#formatPoSArr(item['KIND']);
@@ -336,7 +356,7 @@ export class MootLoader {
     this.anglish = {};
     let $, data;
 
-    data = await this.#getURL(`${this.baseURL}/wiki/Anglish_Wordbook`);
+    data = await this.#fetchURL(`${this.baseURL}/wiki/Anglish_Wordbook`);
     $ = cheerio.load(data);
     const hrefs = Array.from(
       $('tbody')
@@ -349,7 +369,7 @@ export class MootLoader {
       console.time(href);
 
       const url = this.baseURL + href;
-      let data = await this.#getURL(url);
+      let data = await this.#fetchURL(url);
       if (!data) {
         continue;
       }
@@ -420,7 +440,7 @@ export class MootLoader {
     this.english = {};
     let $, data;
 
-    data = await this.#getURL(`${this.baseURL}/wiki/English_Wordbook`);
+    data = await this.#fetchURL(`${this.baseURL}/wiki/English_Wordbook`);
     $ = cheerio.load(data);
     const hrefs = Array.from(
       $('big')
@@ -433,7 +453,7 @@ export class MootLoader {
       console.time(href);
 
       const url = this.baseURL + href;
-      let data = await this.#getURL(url);
+      let data = await this.#fetchURL(url);
       if (!data) {
         continue;
       }
@@ -494,7 +514,7 @@ export class MootLoader {
     return this;
   }
 
-  async #getURL(url) {
+  async #fetchURL(url) {
     let data;
     try {
       ({ data } = await axios.get(url));
@@ -506,11 +526,6 @@ export class MootLoader {
   }
 
   addAnglishWordsFromEnglishDefs() {
-    this.senses = {};
-    this.dirtyEntries = [];
-
-    const added = [];
-
     for (const englishWord in this.english) {
       const entry = this.english[englishWord];
       for (const pos in entry) {
@@ -520,14 +535,12 @@ export class MootLoader {
           } else if (!this.anglish[anglishWord][pos]) {
             this.anglish[anglishWord][pos] = { senses: [] };
           } else if (!this.anglish[anglishWord][pos].senses) {
-            added.push(anglishWord);
             this.anglish[anglishWord][pos].senses = [];
           }
           this.anglish[anglishWord][pos].senses.push(englishWord);
         }
       }
     }
-
     return this;
   }
 
