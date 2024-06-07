@@ -21,11 +21,9 @@ import {
 import byteSize from 'byte-size';
 import YAML from 'yaml';
 
-// TODO: Add scripts to download data assets
-
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
- * in the /assets folder. It's big. Each line is an object and looks like this:
+ * in the /assets/kaikki folder. It's big. Each line is an object and looks like this:
  *
  * {"pos": "noun", "word": "aardvark", "lang": "English", ... }
  *
@@ -39,12 +37,6 @@ export class WiktionaryLoader {
     this.uri = getPath('/assets/kaikki/kaikki-en.json');
   }
 
-  /**
-   * Loads Wiktionary data into memory.
-   *
-   * @param options Options to store loaded data in memory or load into Redis.
-   * @param callback An optional callback to process each line.
-   **/
   async load(options) {
     if (!options?.save) {
       // Attempt to read JSON from disk before parsing JSON.
@@ -145,9 +137,8 @@ export class WiktionaryLoader {
 
   /**
    * Loads file via read stream and processes lines in batches.
-   *
-   * @param callback Callback to process each line. Return type should
-   * be an array of Promises, which are then passed to Promise.all().
+   * @param handler Handler function to process each line. Return type is array of Promises.
+   * @param callback Callback that is called after read stream finishes.
    **/
   async #loadWithStream(handler, callback) {
     // Adjust BATCH_SIZE to keep memory under Node limit.
@@ -211,8 +202,7 @@ export class WiktionaryLoader {
   }
 
   /**
-   * Loads Wiktionary data into Redis.
-   *
+   * Callback to load Wiktionary data into Redis.
    * @param line A single line string from the read stream.
    **/
   #redisCallback(line) {
@@ -311,12 +301,11 @@ export class MootLoader {
 
     this.jsonPathAnglish = getPath('/assets/moot/moot-an.json');
     this.jsonPathEnglish = getPath('/assets/moot/moot-en.json');
-    this.dirtyEntries = null;
   }
 
   async load(options) {
     if (!options.save) {
-      // Attempt to read the file from disk before fetching from web.
+      // Attempt to read the files from disk before fetching from web.
       // If `options.save` is specified, assume we want to reload the data.
       try {
         console.log('Loading moot-an.json');
@@ -336,22 +325,14 @@ export class MootLoader {
       await this.scrapeAnglish(options);
       await this.scrapeEnglish(options);
     }
+
+    this.#addAnglishWordsFromEnglishDefs();
+    return this;
   }
 
   async scrapeAnglish(options) {
     console.time('scrapeMootAnglish');
     console.log('Scraping Anglish Moot data...');
-
-    if (!options.save) {
-      // Attempt to read the file from disk before fetching from web.
-      // If `options.save` is specified, assume we want to reload the data.
-      try {
-        const file = readFileSync(this.uri);
-        this.data = JSON.parse(file);
-        console.timeEnd('scrapeMootAnglish');
-        return this;
-      } catch (e) {}
-    }
 
     this.anglish = {};
     let $, data;
@@ -425,17 +406,6 @@ export class MootLoader {
   async scrapeEnglish(options) {
     console.time('scrapeMootEnglish');
     console.log('Scraping English Moot data...');
-
-    if (!options.save) {
-      // Attempt to read the file from disk before fetching from web.
-      // If `options.save` is specified, assume we want to reload the data.
-      try {
-        const file = readFileSync(this.uri);
-        this.data = JSON.parse(file);
-        console.timeEnd('scrapeMootEnglish');
-        return this;
-      } catch (e) {}
-    }
 
     this.english = {};
     let $, data;
@@ -525,11 +495,16 @@ export class MootLoader {
     return data;
   }
 
-  addAnglishWordsFromEnglishDefs() {
+  /*
+   * Takes Anglish words from English->Anglish definitions and
+   * adds them to the unified Anglish word object.
+   */
+  #addAnglishWordsFromEnglishDefs() {
     for (const englishWord in this.english) {
       const entry = this.english[englishWord];
       for (const pos in entry) {
         for (const anglishWord of entry[pos].senses) {
+          // TODO: This could be replaced with lodash fn
           if (!this.anglish[anglishWord]) {
             this.anglish[anglishWord] = { [pos]: { senses: [] } };
           } else if (!this.anglish[anglishWord][pos]) {
@@ -541,9 +516,11 @@ export class MootLoader {
         }
       }
     }
-    return this;
   }
 
+  /*
+   * Cleans text entries found by scraper.
+   */
   #processEntry(entry, type) {
     // Clean `att` or `una` field.
     const anglishWordsStr = cleanStr(entry[type]);
@@ -575,7 +552,6 @@ export class MootLoader {
         this.senses[word][partOfSpeech].push(englishWord);
       } else {
         // TODO: Handle sus word
-        this.dirtyEntries.push(entry);
       }
     }
   }
@@ -644,6 +620,10 @@ export class WordNetLoader {
     return this;
   }
 
+  /*
+   * Adds similar words by mutual synset or `similar` array.
+   * TODO: Do I need this?
+   */
   async addSimilar() {
     const add = function (synsetIds, arr) {
       if (synsetIds?.length) {
