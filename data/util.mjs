@@ -29,7 +29,8 @@ export function cleanStr(str) {
   return str
     .replace(/\([^)]*\)/g, '')
     .replace(/\[[^\]]*\]/g, '')
-    .replace(/\n.*$/g, '')
+    .split('\n')
+    .find((s) => !!s)
     .trim();
 }
 
@@ -50,12 +51,13 @@ export function formatPoS(pos) {
     case 'verb':
       pos = 'v'; // verb
       break;
+    case 'a':
     case 'aj':
     case 'ad':
     case 'adj':
       pos = 'a'; // adjective
       break;
-    case 'a':
+    case 'r':
     case 'av':
     case 'avb':
     case 'adv':

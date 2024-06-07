@@ -6,6 +6,8 @@ import {
 } from './loaders.mjs';
 import * as gpt from './gpt.mjs';
 import _ from 'lodash';
+import { readFileSync } from 'fs';
+import { formatPoS, getPath } from './util.mjs';
 
 /**
  * Loads Anglish words from all sources and compiles them into a single
@@ -49,11 +51,55 @@ export default async function compileSources(options) {
   addToWordNet(wordbook.data, wordnet, wordsForGPT);
   addToWordNet(wikt.data, wordnet, wordsForGPT);
 
+  if (options.fixSenses) {
+    await fixEntries(wordnet);
+  }
+
+  const file = readFileSync(getPath('/log/gpt-condensed.log'), 'utf-8');
+  const lines = file.split('\n');
+
+  for (const line of lines) {
+    if (!line.trim()) {
+      continue;
+    }
+    const index = line.indexOf('{');
+    const word = line.slice(0, index - 1);
+    const json = JSON.parse(line.slice(index));
+
+    if (!wordnet.entries[word]) {
+      throw new Error(`Word '${word}' not found`);
+    }
+
+    for (const pos in json) {
+      if (!wordnet.entries[word][pos]) {
+        continue;
+      }
+      wordnet.entries[word][pos].senses = json[pos];
+      const senses = wordnet.entries[word][pos].senses;
+
+      for (let i = 0; i < senses.length; i++) {
+        const sense = senses[i];
+        if (!wordnet.entries[sense]?.[pos]?.senses?.length) {
+          continue; // Nothing to match.
+        }
+        const _senses = wordnet.entries[sense][pos].senses;
+        if (_senses.length === 1) {
+          if (_senses[0].synset) {
+            senses[i] = {
+              synset: _senses[0].synset,
+            };
+          }
+          continue;
+        }
+
+        // Match sense word to synset.
+        await gpt.matchSense(word, pos, sense, _senses, wordnet);
+      }
+    }
+  }
+
   if (options.condenseSenses) {
     await gpt.condenseSenses(_.pick(wordnet.entries, Array.from(wordsForGPT)));
-  }
-  if (options.matchSenses) {
-    await gpt.matchSenses();
   }
 }
 
@@ -97,4 +143,26 @@ function addToWordNet(data, wordnet, wordsForGPT) {
       }
     }
   }
+}
+
+async function fixEntries(wordnet) {
+  const file = readFileSync(getPath('/log/gpt-condensed.err'), 'utf-8');
+  const lines = file.split('\n');
+  const toFix = {};
+
+  for (const line of lines) {
+    if (!line.trim()) {
+      continue;
+    }
+    const i = line.indexOf('{');
+    const word = line.slice(0, i - 1);
+
+    if (!wordnet.entries[word]) {
+      throw new Error(`Word '${word}' not found`);
+    }
+
+    toFix[word] = wordnet.entries[word];
+  }
+
+  await gpt.condenseSenses(toFix);
 }

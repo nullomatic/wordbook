@@ -8,6 +8,7 @@ program.option('-c, --compile', 'Compile all word sources');
 program.option('-r, --reload <sources>', 'Reload <sources> and save to disk');
 program.option('-cs, --condense-senses', 'Condense word senses with ChatGPT');
 program.option('-ms, --match-senses', 'Match word senses with ChatGPT');
+program.option('-fs, --fix-senses', 'Fix words in ChatGPT error log');
 program.parse(process.argv);
 const options = program.opts();
 

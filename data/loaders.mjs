@@ -10,7 +10,6 @@ import {
   statSync,
   writeFileSync,
 } from 'fs';
-import { redis, buildIndex } from './redis.mjs';
 import {
   cleanStr,
   formatPoS,
@@ -20,6 +19,7 @@ import {
 } from './util.mjs';
 import byteSize from 'byte-size';
 import YAML from 'yaml';
+import _ from 'lodash';
 
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
@@ -84,14 +84,15 @@ export class WiktionaryLoader {
         isAnglish = false;
       }
       if (isAnglish) {
+        const pos = formatPoS(json.pos);
         if (!this.data[json.word]) {
           this.data[json.word] = {
-            [json.pos]: {
+            [pos]: {
               senses: extractSenses(json.senses),
             },
           };
         } else {
-          this.data[json.word][json.pos] = {
+          this.data[json.word][pos] = {
             senses: extractSenses(json.senses),
           };
         }
@@ -673,6 +674,11 @@ export class WordNetLoader {
         const data = json[word];
         data.languages = ['English'];
         this.entries[word] = data;
+        // Rename all `sense` keys to `senses`.
+        for (const pos of _.without(Object.keys(data), 'languages')) {
+          data[pos].senses = data[pos].sense;
+          delete data[pos].sense;
+        }
       }
     }
 
