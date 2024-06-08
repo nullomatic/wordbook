@@ -9,9 +9,9 @@ export const openai = new OpenAI();
 const MSG_CONDENSE_SENSES = `
   "Anglish" is a linguistically pure, Germanic version of English - how English would be without foreign influence. \
   Given an Anglish context word and JSON object following it, replace the English array elements with each possible \
-  sense of the context word. You may need to condense longer sentences down to one word. Leave at least one array element \
-  in each array. Return the filtered JSON object, without Markdown or backticks, such that the entire response can be passed \
-  directly to JSON.parse().
+  sense of the context word. Condense longer sentences down to a single word or compound word. Leave at least one array \
+  element in each array. Return the filtered JSON object, without Markdown or backticks, such that the entire response \
+  can be passed directly to JSON.parse().
 
   For example, given the following word and object...
   
@@ -22,7 +22,7 @@ const MSG_CONDENSE_SENSES = `
     ],
     "adjective": [
       "easy",
-      "given to gentle behavior or treatment",
+      "given to gentle behavior or treatment; soft",
       "pale",
       "scarce"
     ],
@@ -85,21 +85,26 @@ const MSG_MATCH_SENSE = `
   ...The response should be: 0
 `;
 
-export async function condenseSenses(entries) {
-  for (const word in entries) {
-    // Skip words that have only one sense.
-    let willProcess = false;
-    for (const pos of Object.keys(entries[word]).filter(
-      (s) => s !== 'languages'
-    )) {
-      if (entries[word][pos].senses.length > 1) {
-        willProcess = true;
-      }
-    }
-    if (!willProcess) {
-      continue;
-    }
+export async function condenseSense(wordnet, word, entry) {
+  try {
+    let res = await createCompletion(
+      MSG_CONDENSE_SENSES,
+      formatMessage(word, entry)
+    );
+    res = unformat(JSON.parse(res));
+    const data = `${word} ${JSON.stringify(res)}`;
+    console.log('data', data);
+    await appendFile(getPath('/log/gpt-condensed2.out'), data + '\n');
+  } catch (error) {
+    console.error('Error:', error);
+    const data = `${word} ${JSON.stringify(entry)}\n`;
+    await appendFile(getPath('/log/gpt-condensed2.err'), data + '\n');
+  }
+}
 
+export async function condenseSenses(wordnetEntries, wordsForGPT) {
+  const entries = _.pick(wordnetEntries, Array.from(wordsForGPT));
+  for (const word in entries) {
     try {
       let res = await createCompletion(
         MSG_CONDENSE_SENSES,
@@ -108,7 +113,7 @@ export async function condenseSenses(entries) {
       res = unformat(JSON.parse(res));
       const data = `${word} ${JSON.stringify(res)}`;
       console.log(data);
-      await appendFile(getPath('/log/gpt-condensed.log'), data + '\n');
+      await appendFile(getPath('/log/gpt-condensed.out'), data + '\n');
     } catch (error) {
       console.error('Error:', error);
       const data = `${word} ${JSON.stringify(entries[word])}\n`;
@@ -141,9 +146,14 @@ export async function matchSense(word, pos, sense, _senses, wordnet) {
   try {
     const formatted = `${JSON.stringify(obj)} ${JSON.stringify(selection)}`;
     const res = await createCompletion(MSG_MATCH_SENSE, formatted);
-    const indices = res ? res.split(',') : [];
+    let indices = (res ? res.split(',') : [])
+      .filter((s) => !!s)
+      .map((i) => parseInt(i));
+    if (indices[indices.length - 1] === selection.length) {
+      indices = indices.map((i) => i - 1); // Correct zero-based indices
+    }
     const after = indices.map((i) => {
-      const sense = selection[parseInt(i)];
+      const sense = selection[i];
       if (!sense) {
         throw new Error(
           `ChatGPT parsing error. No word sense at index '${i}'\n` +
@@ -154,7 +164,7 @@ export async function matchSense(word, pos, sense, _senses, wordnet) {
     });
     data += JSON.stringify(after);
     console.log(data);
-    await appendFile(getPath('/log/gpt-matched.log'), data + '\n');
+    await appendFile(getPath('/log/gpt-matched.out'), data + '\n');
   } catch (error) {
     console.error('Error:', error);
     await appendFile(getPath('/log/gpt-matched.err'), data + '\n');
@@ -179,7 +189,7 @@ async function createCompletion(systemMessage, userMessage) {
 }
 
 function longFormPoS(pos, obj) {
-  switch (formatPoS(pos)) {
+  switch (pos) {
     case 'n':
       return 'noun';
     case 'v':
@@ -201,7 +211,8 @@ function longFormPoS(pos, obj) {
 
 function formatMessage(word, entry) {
   const obj = {};
-  for (const pos of _.without(Object.keys(entry), 'languages')) {
+  for (const pos in entry) {
+    if (pos === 'languages') continue;
     const arr = entry[pos].senses;
     obj[longFormPoS(pos)] = arr;
   }

@@ -12,8 +12,6 @@ program.option('-fs, --fix-senses', 'Fix words in ChatGPT error log');
 program.parse(process.argv);
 const options = program.opts();
 
-console.log(options);
-
 if (options.reload) {
   options.reload = options.reload.split(',');
 }

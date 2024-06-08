@@ -27,11 +27,12 @@ export function getPath(suffix) {
 export function cleanStr(str) {
   // TODO: This could be optimized
   return str
+    .trim()
     .replace(/\([^)]*\)/g, '')
     .replace(/\[[^\]]*\]/g, '')
     .split('\n')
     .find((s) => !!s)
-    .trim();
+    ?.trim();
 }
 
 export function formatPoS(pos) {
@@ -133,4 +134,13 @@ export function formatSenses(str) {
       return cleanStr(str).replace(/^(a|an|to)\s/gi, ''); // Replace 'a/an <word>' and 'to <word>'
     })
     .filter((str) => !!str);
+}
+
+export function sortObj(obj) {
+  return Object.keys(obj)
+    .sort()
+    .reduce((acc, key) => {
+      acc[key] = obj[key];
+      return acc;
+    }, {});
 }

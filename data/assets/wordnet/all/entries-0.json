@@ -1,0 +1,6539 @@
+{
+  "0": {
+    "a": {
+      "senses": [
+        {
+          "id": "0%5:00:00:cardinal:00",
+          "synset": "02193771-s"
+        }
+      ]
+    },
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈziːɹəʊ",
+          "variety": "US"
+        },
+        {
+          "value": "ˈzɪəɹəʊ",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "id": "0%1:23:00::",
+          "synset": "13764498-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1": {
+    "a": {
+      "senses": [
+        {
+          "id": "1%5:00:00:cardinal:00",
+          "synset": "02193977-s"
+        }
+      ]
+    },
+    "n": {
+      "pronunciation": [
+        {
+          "value": "wan"
+        }
+      ],
+      "senses": [
+        {
+          "id": "1%1:23:00::",
+          "synset": "13764713-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2": {
+    "a": {
+      "senses": [
+        {
+          "id": "2%5:00:00:cardinal:00",
+          "synset": "02194109-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "2%1:23:00::",
+          "synset": "13765409-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3": {
+    "a": {
+      "senses": [
+        {
+          "id": "3%5:00:00:cardinal:00",
+          "synset": "02194219-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "3%1:23:00::",
+          "synset": "13766184-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4": {
+    "a": {
+      "senses": [
+        {
+          "id": "4%5:00:00:cardinal:00",
+          "synset": "02194304-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "4%1:23:00::",
+          "synset": "13766444-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "5": {
+    "a": {
+      "senses": [
+        {
+          "id": "5%5:00:00:cardinal:00",
+          "synset": "02194389-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "5%1:23:00::",
+          "synset": "13766661-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "6": {
+    "a": {
+      "senses": [
+        {
+          "id": "6%5:00:00:cardinal:00",
+          "synset": "02194472-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "6%1:23:00::",
+          "synset": "13766862-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "7": {
+    "a": {
+      "senses": [
+        {
+          "id": "7%5:00:00:cardinal:00",
+          "synset": "02194609-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "7%1:23:00::",
+          "synset": "13767056-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "8": {
+    "a": {
+      "senses": [
+        {
+          "id": "8%5:00:00:cardinal:00",
+          "synset": "02194712-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "8%1:23:00::",
+          "synset": "13767226-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "9": {
+    "a": {
+      "senses": [
+        {
+          "id": "9%5:00:00:cardinal:00",
+          "synset": "02194800-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "9%1:23:00::",
+          "synset": "13767410-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "10": {
+    "a": {
+      "senses": [
+        {
+          "id": "10%5:00:00:cardinal:00",
+          "synset": "02194935-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "10%1:23:00::",
+          "synset": "13768652-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "11": {
+    "a": {
+      "senses": [
+        {
+          "id": "11%5:00:00:cardinal:00",
+          "synset": "02195018-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "11%1:23:00::",
+          "synset": "13768812-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "12": {
+    "a": {
+      "senses": [
+        {
+          "id": "12%5:00:00:cardinal:00",
+          "synset": "02195104-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "12%1:23:00::",
+          "synset": "13768925-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "13": {
+    "a": {
+      "senses": [
+        {
+          "id": "13%5:00:00:cardinal:00",
+          "synset": "02195245-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "13%1:23:00::",
+          "synset": "13769339-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "14": {
+    "a": {
+      "senses": [
+        {
+          "id": "14%5:00:00:cardinal:00",
+          "synset": "02195338-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "14%1:23:00::",
+          "synset": "13769488-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "15": {
+    "a": {
+      "senses": [
+        {
+          "id": "15%5:00:00:cardinal:00",
+          "synset": "02195432-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "15%1:23:00::",
+          "synset": "13769609-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "16": {
+    "a": {
+      "senses": [
+        {
+          "id": "16%5:00:00:cardinal:00",
+          "synset": "02195542-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "16%1:23:00::",
+          "synset": "13769746-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "17": {
+    "a": {
+      "senses": [
+        {
+          "id": "17%5:00:00:cardinal:00",
+          "synset": "02195634-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "17%1:23:00::",
+          "synset": "13769865-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "18": {
+    "a": {
+      "senses": [
+        {
+          "id": "18%5:00:00:cardinal:00",
+          "synset": "02195747-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "18%1:23:00::",
+          "synset": "13770005-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "19": {
+    "a": {
+      "senses": [
+        {
+          "id": "19%5:00:00:cardinal:00",
+          "synset": "02195844-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "19%1:23:00::",
+          "synset": "13770129-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "20": {
+    "a": {
+      "senses": [
+        {
+          "id": "20%5:00:00:cardinal:00",
+          "synset": "02195956-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "20%1:23:00::",
+          "synset": "13770268-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "21": {
+    "a": {
+      "senses": [
+        {
+          "id": "21%5:00:00:cardinal:00",
+          "synset": "02196070-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "21%1:23:00::",
+          "synset": "13770386-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "22": {
+    "a": {
+      "senses": [
+        {
+          "id": "22%5:00:00:cardinal:00",
+          "synset": "02196164-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "22%1:23:00::",
+          "synset": "13770507-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "23": {
+    "a": {
+      "senses": [
+        {
+          "id": "23%5:00:00:cardinal:00",
+          "synset": "02196259-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "23%1:23:00::",
+          "synset": "13770633-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "24": {
+    "a": {
+      "senses": [
+        {
+          "id": "24%5:00:00:cardinal:00",
+          "synset": "02196359-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "24%1:23:00::",
+          "synset": "13770762-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "25": {
+    "a": {
+      "senses": [
+        {
+          "id": "25%5:00:00:cardinal:00",
+          "synset": "02196456-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "25%1:23:00::",
+          "synset": "13770903-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "26": {
+    "a": {
+      "senses": [
+        {
+          "id": "26%5:00:00:cardinal:00",
+          "synset": "02196552-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "26%1:23:00::",
+          "synset": "13771030-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "27": {
+    "a": {
+      "senses": [
+        {
+          "id": "27%5:00:00:cardinal:00",
+          "synset": "02196647-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "27%1:23:00::",
+          "synset": "13771157-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "28": {
+    "a": {
+      "senses": [
+        {
+          "id": "28%5:00:00:cardinal:00",
+          "synset": "02196747-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "28%1:23:00::",
+          "synset": "13771286-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "29": {
+    "a": {
+      "senses": [
+        {
+          "id": "29%5:00:00:cardinal:00",
+          "synset": "02196848-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "29%1:23:00::",
+          "synset": "13771418-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "30": {
+    "a": {
+      "senses": [
+        {
+          "id": "30%5:00:00:cardinal:00",
+          "synset": "02196945-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "30%1:23:00::",
+          "synset": "13771547-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "31": {
+    "a": {
+      "senses": [
+        {
+          "id": "31%5:00:00:cardinal:00",
+          "synset": "02197035-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "32": {
+    "a": {
+      "senses": [
+        {
+          "id": "32%5:00:00:cardinal:00",
+          "synset": "02197130-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "33": {
+    "a": {
+      "senses": [
+        {
+          "id": "33%5:00:00:cardinal:00",
+          "synset": "02197226-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "34": {
+    "a": {
+      "senses": [
+        {
+          "id": "34%5:00:00:cardinal:00",
+          "synset": "02197327-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "35": {
+    "a": {
+      "senses": [
+        {
+          "id": "35%5:00:00:cardinal:00",
+          "synset": "02197425-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "36": {
+    "a": {
+      "senses": [
+        {
+          "id": "36%5:00:00:cardinal:00",
+          "synset": "02197522-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "37": {
+    "a": {
+      "senses": [
+        {
+          "id": "37%5:00:00:cardinal:00",
+          "synset": "02197618-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "38": {
+    "a": {
+      "senses": [
+        {
+          "id": "38%5:00:00:cardinal:00",
+          "synset": "02197719-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "39": {
+    "a": {
+      "senses": [
+        {
+          "id": "39%5:00:00:cardinal:00",
+          "synset": "02197821-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "40": {
+    "a": {
+      "senses": [
+        {
+          "id": "40%5:00:00:cardinal:00",
+          "synset": "02197917-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "40%1:23:00::",
+          "synset": "13771667-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "41": {
+    "a": {
+      "senses": [
+        {
+          "id": "41%5:00:00:cardinal:00",
+          "synset": "02198016-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "42": {
+    "a": {
+      "senses": [
+        {
+          "id": "42%5:00:00:cardinal:00",
+          "synset": "02198108-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "43": {
+    "a": {
+      "senses": [
+        {
+          "id": "43%5:00:00:cardinal:00",
+          "synset": "02198201-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "44": {
+    "a": {
+      "senses": [
+        {
+          "id": "44%5:00:00:cardinal:00",
+          "synset": "02198299-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "45": {
+    "a": {
+      "senses": [
+        {
+          "id": "45%5:00:00:cardinal:00",
+          "synset": "02198394-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "46": {
+    "a": {
+      "senses": [
+        {
+          "id": "46%5:00:00:cardinal:00",
+          "synset": "02198488-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "47": {
+    "a": {
+      "senses": [
+        {
+          "id": "47%5:00:00:cardinal:00",
+          "synset": "02198581-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "48": {
+    "a": {
+      "senses": [
+        {
+          "id": "48%5:00:00:cardinal:00",
+          "synset": "02198679-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "49": {
+    "a": {
+      "senses": [
+        {
+          "id": "49%5:00:00:cardinal:00",
+          "synset": "02198778-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "50": {
+    "a": {
+      "senses": [
+        {
+          "id": "50%5:00:00:cardinal:00",
+          "synset": "02198871-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "50%1:23:00::",
+          "synset": "13771784-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "51": {
+    "a": {
+      "senses": [
+        {
+          "id": "51%5:00:00:cardinal:00",
+          "synset": "02198975-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "52": {
+    "a": {
+      "senses": [
+        {
+          "id": "52%5:00:00:cardinal:00",
+          "synset": "02199066-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "53": {
+    "a": {
+      "senses": [
+        {
+          "id": "53%5:00:00:cardinal:00",
+          "synset": "02199158-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "54": {
+    "a": {
+      "senses": [
+        {
+          "id": "54%5:00:00:cardinal:00",
+          "synset": "02199255-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "55": {
+    "a": {
+      "senses": [
+        {
+          "id": "55%5:00:00:cardinal:00",
+          "synset": "02199349-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "56": {
+    "a": {
+      "senses": [
+        {
+          "id": "56%5:00:00:cardinal:00",
+          "synset": "02199442-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "57": {
+    "a": {
+      "senses": [
+        {
+          "id": "57%5:00:00:cardinal:00",
+          "synset": "02199534-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "58": {
+    "a": {
+      "senses": [
+        {
+          "id": "58%5:00:00:cardinal:00",
+          "synset": "02199631-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "59": {
+    "a": {
+      "senses": [
+        {
+          "id": "59%5:00:00:cardinal:00",
+          "synset": "02199729-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "60": {
+    "a": {
+      "senses": [
+        {
+          "id": "60%5:00:00:cardinal:00",
+          "synset": "02199823-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "60%1:23:00::",
+          "synset": "13771918-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "61": {
+    "a": {
+      "senses": [
+        {
+          "id": "61%5:00:00:cardinal:00",
+          "synset": "02199923-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "62": {
+    "a": {
+      "senses": [
+        {
+          "id": "62%5:00:00:cardinal:00",
+          "synset": "02200015-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "63": {
+    "a": {
+      "senses": [
+        {
+          "id": "63%5:00:00:cardinal:00",
+          "synset": "02200108-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "64": {
+    "a": {
+      "senses": [
+        {
+          "id": "64%5:00:00:cardinal:00",
+          "synset": "02200206-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "65": {
+    "a": {
+      "senses": [
+        {
+          "id": "65%5:00:00:cardinal:00",
+          "synset": "02200301-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "66": {
+    "a": {
+      "senses": [
+        {
+          "id": "66%5:00:00:cardinal:00",
+          "synset": "02200395-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "67": {
+    "a": {
+      "senses": [
+        {
+          "id": "67%5:00:00:cardinal:00",
+          "synset": "02200488-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "68": {
+    "a": {
+      "senses": [
+        {
+          "id": "68%5:00:00:cardinal:00",
+          "synset": "02200586-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "69": {
+    "a": {
+      "senses": [
+        {
+          "id": "69%5:00:00:cardinal:00",
+          "synset": "02200685-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "70": {
+    "a": {
+      "senses": [
+        {
+          "id": "70%5:00:00:cardinal:00",
+          "synset": "02200780-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "70%1:23:00::",
+          "synset": "13772034-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "71": {
+    "a": {
+      "senses": [
+        {
+          "id": "71%5:00:00:cardinal:00",
+          "synset": "02200888-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "72": {
+    "a": {
+      "senses": [
+        {
+          "id": "72%5:00:00:cardinal:00",
+          "synset": "02200985-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "73": {
+    "a": {
+      "senses": [
+        {
+          "id": "73%5:00:00:cardinal:00",
+          "synset": "02201083-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "74": {
+    "a": {
+      "senses": [
+        {
+          "id": "74%5:00:00:cardinal:00",
+          "synset": "02201186-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "75": {
+    "a": {
+      "senses": [
+        {
+          "id": "75%5:00:00:cardinal:00",
+          "synset": "02201286-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "76": {
+    "a": {
+      "senses": [
+        {
+          "id": "76%5:00:00:cardinal:00",
+          "synset": "02201385-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "77": {
+    "a": {
+      "senses": [
+        {
+          "id": "77%5:00:00:cardinal:00",
+          "synset": "02201483-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "78": {
+    "a": {
+      "senses": [
+        {
+          "id": "78%5:00:00:cardinal:00",
+          "synset": "02201586-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "78%1:23:00::",
+          "synset": "13772173-n"
+        },
+        {
+          "id": "78%1:06:00::",
+          "synset": "04185251-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "79": {
+    "a": {
+      "senses": [
+        {
+          "id": "79%5:00:00:cardinal:00",
+          "synset": "02201690-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "80": {
+    "a": {
+      "senses": [
+        {
+          "id": "80%5:00:00:cardinal:00",
+          "synset": "02201790-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "80%1:23:00::",
+          "synset": "13772304-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "81": {
+    "a": {
+      "senses": [
+        {
+          "id": "81%5:00:00:cardinal:00",
+          "synset": "02201894-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "82": {
+    "a": {
+      "senses": [
+        {
+          "id": "82%5:00:00:cardinal:00",
+          "synset": "02201990-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "83": {
+    "a": {
+      "senses": [
+        {
+          "id": "83%5:00:00:cardinal:00",
+          "synset": "02202087-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "84": {
+    "a": {
+      "senses": [
+        {
+          "id": "84%5:00:00:cardinal:00",
+          "synset": "02202189-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "85": {
+    "a": {
+      "senses": [
+        {
+          "id": "85%5:00:00:cardinal:00",
+          "synset": "02202288-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "86": {
+    "a": {
+      "senses": [
+        {
+          "id": "86%5:00:00:cardinal:00",
+          "synset": "02202386-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "87": {
+    "a": {
+      "senses": [
+        {
+          "id": "87%5:00:00:cardinal:00",
+          "synset": "02202483-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "88": {
+    "a": {
+      "senses": [
+        {
+          "id": "88%5:00:00:cardinal:00",
+          "synset": "02202585-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "89": {
+    "a": {
+      "senses": [
+        {
+          "id": "89%5:00:00:cardinal:00",
+          "synset": "02202688-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "90": {
+    "a": {
+      "senses": [
+        {
+          "id": "90%5:00:00:cardinal:00",
+          "synset": "02202784-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "90%1:23:00::",
+          "synset": "13772437-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "91": {
+    "a": {
+      "senses": [
+        {
+          "id": "91%5:00:00:cardinal:00",
+          "synset": "02202873-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "92": {
+    "a": {
+      "senses": [
+        {
+          "id": "92%5:00:00:cardinal:00",
+          "synset": "02202967-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "93": {
+    "a": {
+      "senses": [
+        {
+          "id": "93%5:00:00:cardinal:00",
+          "synset": "02203062-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "94": {
+    "a": {
+      "senses": [
+        {
+          "id": "94%5:00:00:cardinal:00",
+          "synset": "02203162-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "95": {
+    "a": {
+      "senses": [
+        {
+          "id": "95%5:00:00:cardinal:00",
+          "synset": "02203259-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "96": {
+    "a": {
+      "senses": [
+        {
+          "id": "96%5:00:00:cardinal:00",
+          "synset": "02203355-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "97": {
+    "a": {
+      "senses": [
+        {
+          "id": "97%5:00:00:cardinal:00",
+          "synset": "02203450-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "98": {
+    "a": {
+      "senses": [
+        {
+          "id": "98%5:00:00:cardinal:00",
+          "synset": "02203550-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "99": {
+    "a": {
+      "senses": [
+        {
+          "id": "99%5:00:00:cardinal:00",
+          "synset": "02203651-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "100": {
+    "a": {
+      "senses": [
+        {
+          "id": "100%5:00:00:cardinal:00",
+          "synset": "02203776-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "100%1:23:00::",
+          "synset": "13772555-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "101": {
+    "a": {
+      "senses": [
+        {
+          "id": "101%5:00:00:cardinal:00",
+          "synset": "02203880-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "105": {
+    "a": {
+      "senses": [
+        {
+          "id": "105%5:00:00:cardinal:00",
+          "synset": "02204002-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "110": {
+    "a": {
+      "senses": [
+        {
+          "id": "110%5:00:00:cardinal:00",
+          "synset": "02204108-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "115": {
+    "a": {
+      "senses": [
+        {
+          "id": "115%5:00:00:cardinal:00",
+          "synset": "02204212-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "120": {
+    "a": {
+      "senses": [
+        {
+          "id": "120%5:00:00:cardinal:00",
+          "synset": "02204326-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "120%1:23:00::",
+          "synset": "13772714-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "125": {
+    "a": {
+      "senses": [
+        {
+          "id": "125%5:00:00:cardinal:00",
+          "synset": "02204438-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "130": {
+    "a": {
+      "senses": [
+        {
+          "id": "130%5:00:00:cardinal:00",
+          "synset": "02204560-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "135": {
+    "a": {
+      "senses": [
+        {
+          "id": "135%5:00:00:cardinal:00",
+          "synset": "02204676-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "140": {
+    "a": {
+      "senses": [
+        {
+          "id": "140%5:00:00:cardinal:00",
+          "synset": "02204799-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "144": {
+    "n": {
+      "senses": [
+        {
+          "id": "144%1:23:00::",
+          "synset": "13772644-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "145": {
+    "a": {
+      "senses": [
+        {
+          "id": "145%5:00:00:cardinal:00",
+          "synset": "02204913-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "150": {
+    "a": {
+      "senses": [
+        {
+          "id": "150%5:00:00:cardinal:00",
+          "synset": "02205033-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "155": {
+    "a": {
+      "senses": [
+        {
+          "id": "155%5:00:00:cardinal:00",
+          "synset": "02205145-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "160": {
+    "a": {
+      "senses": [
+        {
+          "id": "160%5:00:00:cardinal:00",
+          "synset": "02205264-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "165": {
+    "a": {
+      "senses": [
+        {
+          "id": "165%5:00:00:cardinal:00",
+          "synset": "02205377-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "170": {
+    "a": {
+      "senses": [
+        {
+          "id": "170%5:00:00:cardinal:00",
+          "synset": "02205497-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "175": {
+    "a": {
+      "senses": [
+        {
+          "id": "175%5:00:00:cardinal:00",
+          "synset": "02205613-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "180": {
+    "a": {
+      "senses": [
+        {
+          "id": "180%5:00:00:cardinal:00",
+          "synset": "02205738-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "190": {
+    "a": {
+      "senses": [
+        {
+          "id": "190%5:00:00:cardinal:00",
+          "synset": "02205856-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "200": {
+    "a": {
+      "senses": [
+        {
+          "id": "200%5:00:00:cardinal:00",
+          "synset": "02205971-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "300": {
+    "a": {
+      "senses": [
+        {
+          "id": "300%5:00:00:cardinal:00",
+          "synset": "02206078-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "400": {
+    "a": {
+      "senses": [
+        {
+          "id": "400%5:00:00:cardinal:00",
+          "synset": "02206189-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "500": {
+    "a": {
+      "senses": [
+        {
+          "id": "500%5:00:00:cardinal:00",
+          "synset": "02206300-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "500%1:23:00::",
+          "synset": "13772852-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1000": {
+    "a": {
+      "senses": [
+        {
+          "id": "1000%5:00:00:cardinal:00",
+          "synset": "02206421-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "1000%1:23:00::",
+          "synset": "13772984-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1728": {
+    "n": {
+      "senses": [
+        {
+          "id": "1728%1:23:00::",
+          "synset": "13773298-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "10000": {
+    "n": {
+      "senses": [
+        {
+          "id": "10000%1:23:00::",
+          "synset": "13773405-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "100000": {
+    "n": {
+      "senses": [
+        {
+          "id": "100000%1:23:00::",
+          "synset": "13773544-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1000000": {
+    "n": {
+      "senses": [
+        {
+          "id": "1000000%1:23:00::",
+          "synset": "13773673-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1000000000": {
+    "n": {
+      "senses": [
+        {
+          "id": "1000000000%1:23:00::",
+          "synset": "13773969-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "'em": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": []
+    }
+  },
+  "'emselves": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "Themselves "
+      ]
+    }
+  },
+  "'goal'": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06321227-n"
+        }
+      ]
+    }
+  },
+  "'hood": {
+    "n": {
+      "senses": [
+        {
+          "id": "'hood%1:14:01::",
+          "synset": "08242255-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "'s": {
+    "languages": [
+      "Anglish"
+    ],
+    "p": {
+      "senses": [
+        "chez _____"
+      ]
+    }
+  },
+  "'s Gravenhage": {
+    "n": {
+      "senses": [
+        {
+          "id": "'s_gravenhage%1:15:00::",
+          "synset": "08970180-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "'sacrifice'": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "10316279-n"
+        },
+        {
+          "synset": "10316493-n"
+        }
+      ]
+    }
+  },
+  "'the establishment": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "08070328-n"
+        },
+        {
+          "synset": "08181484-n"
+        },
+        {
+          "synset": "03302664-n"
+        },
+        {
+          "synset": "08092683-n"
+        },
+        {
+          "synset": "13497470-n"
+        }
+      ]
+    }
+  },
+  "'the topside'": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "08070328-n"
+        },
+        {
+          "synset": "08092683-n"
+        }
+      ]
+    }
+  },
+  "'turn to stone'": {
+    "languages": [
+      "Anglish"
+    ],
+    "v": {
+      "senses": [
+        {
+          "synset": "00508566-v"
+        },
+        {
+          "synset": "00419035-v"
+        }
+      ]
+    }
+  },
+  "'tween": {
+    "r": {
+      "senses": [
+        {
+          "id": "'tween%4:02:00::",
+          "synset": "00252367-r"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "'tween decks": {
+    "r": {
+      "senses": [
+        {
+          "id": "'tween_decks%4:02:00::",
+          "synset": "00500491-r"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "- bare-bonedness": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "05009032-n"
+        }
+      ]
+    }
+  },
+  "- fordwine": {
+    "languages": [
+      "Anglish"
+    ],
+    "v": {
+      "senses": [
+        {
+          "synset": "00151509-v"
+        },
+        {
+          "synset": "00442836-v"
+        }
+      ]
+    }
+  },
+  "- sleepout": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "02923176-n"
+        }
+      ]
+    }
+  },
+  "- the practice of writing about one's unhappiness or emotional problems on social media": {
+    "languages": [
+      "Anglish"
+    ],
+    "a": {
+      "senses": [
+        "emotional attention"
+      ]
+    }
+  },
+  "- y": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ic/ -ical"
+      ]
+    }
+  },
+  "-'s": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Possessive marker, indicating that an object belongs to the noun or noun phrase bearing the marker",
+        "In the absence of a specified object, used to indicate “the house/place/establishment of”",
+        "Indicates a purpose or a user",
+        "Used to indicate a quantity of something, especially of time",
+        "Used to indicate various other kinds of relationship, such as source or origin, object of an action, subject depicted, etc",
+        "Attached to a noun or noun phrase linked to a genitive of, forming a double genitive"
+      ]
+    }
+  },
+  "-and": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form the present participle of verbs, equivalent to -ing",
+        "suffix of Anglo-Saxon origin forming adjectives from verbs analogous to -ing"
+      ]
+    }
+  },
+  "-ar": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Forming nouns such as beggar, liar, pedlar, etc"
+      ]
+    }
+  },
+  "-ate so": {
+    "languages": [
+      "Anglish"
+    ],
+    "v": {
+      "senses": [
+        {
+          "synset": "00251763-v"
+        },
+        {
+          "synset": "00168396-v"
+        },
+        {
+          "synset": "00097535-v"
+        }
+      ]
+    }
+  },
+  "-bear": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-beare": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-bearing": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-belief": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ism"
+      ]
+    }
+  },
+  "-belly": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "05564576-n"
+        },
+        {
+          "synset": "05565978-n"
+        }
+      ]
+    }
+  },
+  "-bere": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-berry": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "13155706-n"
+        }
+      ]
+    }
+  },
+  "-boro": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Synonym of -borough"
+      ]
+    }
+  },
+  "-borough": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Placename suffix, indicated site of a fortified place",
+        "Placename suffix, indicating a borough"
+      ]
+    }
+  },
+  "-burg": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Synonym of -burgh"
+      ]
+    }
+  },
+  "-burgh": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Place name suffix, indicating the site of a fortified place"
+      ]
+    }
+  },
+  "-bury": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "placename suffix indicating a fortified place"
+      ]
+    }
+  },
+  "-by": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "04589115-n"
+        }
+      ]
+    }
+  },
+  "-cannish": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-canny": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-craft": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-logy, -log, -logue"
+      ]
+    }
+  },
+  "-craftly": {
+    "languages": [
+      "Anglish"
+    ],
+    "a": {
+      "senses": [
+        {
+          "synset": "02804097-a"
+        },
+        {
+          "synset": "02091950-a"
+        }
+      ]
+    }
+  },
+  "-der": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ee"
+      ]
+    }
+  },
+  "-dom": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ism"
+      ]
+    }
+  },
+  "-e": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used for archaizing"
+      ]
+    }
+  },
+  "-ed": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ee"
+      ]
+    }
+  },
+  "-el": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-let"
+      ]
+    }
+  },
+  "-en": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-an",
+        "-ify",
+        "-ize"
+      ]
+    },
+    "n": {
+      "senses": [
+        "-ian"
+      ]
+    },
+    "v": {
+      "senses": [
+        {
+          "synset": "02122959-v"
+        },
+        {
+          "synset": "01060995-v"
+        }
+      ]
+    },
+    "a": {
+      "senses": [
+        "replicate"
+      ]
+    }
+  },
+  "-end": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ee"
+      ]
+    }
+  },
+  "-endly": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-eous": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used with nouns to form adjectives with the sense of resembling to or having the characteristics of the suffixed term; similar to -ous"
+      ]
+    }
+  },
+  "-er": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-an"
+      ]
+    },
+    "n": {
+      "senses": [
+        "-ian"
+      ]
+    }
+  },
+  "-ern": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Added to the names of directions to form adjectives"
+      ]
+    }
+  },
+  "-es": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form the third person singular present of verbs",
+        "that end in \"ch\"  — impeach → impeaches",
+        "that end in \"s\" — miss → misses",
+        "that end in \"ce\" — dance → dances",
+        "that end in \"ge\" — bridge → bridges, range → ranges",
+        "that end in \"x\" — tax → taxes",
+        "that end in \"z\" — fizz → fizzes",
+        "that end in \"o\"  — go → goes",
+        "that end in \"sh\" — wish → wishes",
+        "that end in \"y\" — cry → cries"
+      ]
+    }
+  },
+  "-est": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form the second-person singular present tense and past tense of verbs"
+      ]
+    }
+  },
+  "-eth": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "used to create ordinal numbers from cardinal numbers ending in -y, namely the multiples of ten : 20, 30, 40, 50, 60, 70, 80, and 90; eg twentieth, thirtieth"
+      ]
+    }
+  },
+  "-evenness": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "05071996-n"
+        },
+        {
+          "synset": "13921008-n"
+        }
+      ]
+    }
+  },
+  "-ey": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "09342362-n"
+        }
+      ]
+    }
+  },
+  "-fear": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-phobia"
+      ]
+    }
+  },
+  "-fold": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-plex"
+      ]
+    }
+  },
+  "-foolish": {
+    "languages": [
+      "Anglish"
+    ],
+    "a": {
+      "senses": [
+        {
+          "synset": "01433985-s"
+        },
+        {
+          "synset": "02581199-s"
+        }
+      ]
+    }
+  },
+  "-free": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "free from; devoid of; without"
+      ]
+    }
+  },
+  "-frod": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-logy, -log, -logue"
+      ]
+    }
+  },
+  "-ful": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form nouns from nouns meaning “as much as can be held by what is denoted by the noun”"
+      ]
+    }
+  },
+  "-gale": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-cule"
+      ]
+    }
+  },
+  "-gate": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form place names"
+      ]
+    }
+  },
+  "-gather": {
+    "languages": [
+      "Anglish"
+    ],
+    "v": {
+      "senses": [
+        {
+          "synset": "01043634-v"
+        },
+        {
+          "synset": "01384203-v"
+        }
+      ]
+    }
+  },
+  "-grave": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to signify a local ruler or administrator"
+      ]
+    }
+  },
+  "-ham": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Place-name suffix, variously indicating a settlement, farm or enclosure"
+      ]
+    }
+  },
+  "-hang": {
+    "languages": [
+      "Anglish"
+    ],
+    "v": {
+      "senses": [
+        {
+          "synset": "01483784-v"
+        },
+        {
+          "synset": "00148583-v"
+        }
+      ]
+    }
+  },
+  "-head": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to create nouns indicating a state; -hood"
+      ]
+    }
+  },
+  "-hew": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-oid"
+      ]
+    }
+  },
+  "-hood": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "substantive suffix denoting a condition or state of being",
+        "substantive suffix denoting a group sharing a specified condition or state"
+      ]
+    }
+  },
+  "-icle": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Alternative form of -sicle"
+      ]
+    }
+  },
+  "-in'": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Alternative form of -ing"
+      ]
+    }
+  },
+  "-ing": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Forming derivative nouns , with the sense ‘son of, belonging to’, as in placenames, patronymics or diminutives; -ite",
+        "Forming nouns having a specified quality, characteristic, or nature; of the kind of"
+      ]
+    }
+  },
+  "-ingly": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able",
+        "-ative"
+      ]
+    }
+  },
+  "-insides": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "05541966-n"
+        }
+      ]
+    }
+  },
+  "-iron": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "calligraphy pen"
+      ]
+    }
+  },
+  "-ish": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-an",
+        "-ic/ -ical"
+      ]
+    },
+    "n": {
+      "senses": [
+        "-ian"
+      ]
+    }
+  },
+  "-ish belief": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ism"
+      ]
+    }
+  },
+  "-ishness": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ism"
+      ]
+    }
+  },
+  "-k": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "suffix found in words of Middle English, Old English, usually with an intensive or frequentative effect"
+      ]
+    }
+  },
+  "-kin": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Forming diminutives of nouns"
+      ]
+    }
+  },
+  "-kind": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form nouns denoting groups or classes taken collectively from animate nouns"
+      ]
+    }
+  },
+  "-le": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-let"
+      ]
+    }
+  },
+  "-ledge": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ify",
+        "-ize"
+      ]
+    }
+  },
+  "-leigh": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "suffix meaning “meadow” present in various given names and toponyms of Old English origin"
+      ]
+    }
+  },
+  "-less": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "non-"
+      ]
+    }
+  },
+  "-like": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "pseudo-"
+      ]
+    }
+  },
+  "-ling": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ee",
+        "-let"
+      ]
+    }
+  },
+  "-look over": {
+    "languages": [
+      "Anglish"
+    ],
+    "v": {
+      "senses": [
+        {
+          "synset": "02154758-v"
+        },
+        {
+          "synset": "00649582-v"
+        }
+      ]
+    }
+  },
+  "-lore": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-logy, -log, -logue",
+        "-ology"
+      ]
+    }
+  },
+  "-lust": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-philia"
+      ]
+    }
+  },
+  "-ly": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able",
+        "-ic/ -ical",
+        "-ise"
+      ]
+    },
+    "a": {
+      "senses": [
+        {
+          "synset": "02950743-a"
+        }
+      ]
+    }
+  },
+  "-mas": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Indicates holidays or sacred days"
+      ]
+    }
+  },
+  "-meal": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Denotes a powder made of ground cereal"
+      ]
+    }
+  },
+  "-most": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Furthest; -est; used to form superlatives of certain adjectives, especially directional and inherently-comparative ones"
+      ]
+    }
+  },
+  "-n": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Alternative form of -en"
+      ]
+    }
+  },
+  "-nce": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06322842-n"
+        }
+      ]
+    }
+  },
+  "-ne": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06322842-n"
+        }
+      ]
+    }
+  },
+  "-ness": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "04012006-n"
+        },
+        {
+          "synset": "13960317-n"
+        }
+      ]
+    }
+  },
+  "-notwithstanding": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "non obstante"
+      ]
+    }
+  },
+  "-ock": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Forming nouns from nouns, originally with a diminutive sense"
+      ]
+    }
+  },
+  "-rShow words": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06322842-n"
+        }
+      ]
+    }
+  },
+  "-red": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "suffix forming nouns of condition or state"
+      ]
+    }
+  },
+  "-ric": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "08671935-n"
+        },
+        {
+          "synset": "00024900-n"
+        },
+        {
+          "synset": "08185877-n"
+        },
+        {
+          "synset": "08562388-n"
+        }
+      ]
+    }
+  },
+  "-right-minded": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "sane"
+      ]
+    }
+  },
+  "-s": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06322842-n"
+        }
+      ]
+    }
+  },
+  "-s-": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Genitival interfix used to link elements in some compounds, equivalent to the possessive clitic -'s"
+      ]
+    }
+  },
+  "-salt": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ite"
+      ]
+    }
+  },
+  "-scape": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "form, formation, shape",
+        "scene, picture, view",
+        "specific type of space"
+      ]
+    }
+  },
+  "-se": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Creates denominatives from adjective or nouns",
+        "When attached to certain adjectives, it forms a transitive verb whose meaning is, to make  The same construction could also be done to certain  nouns, as, bless, in which case the verb means roughly, to make bloody/sanctify"
+      ]
+    }
+  },
+  "-seer": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-scope"
+      ]
+    }
+  },
+  "-ship": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Appended to a noun to form a new noun denoting a property or state of being, time spent in a role, or a specialised union In particular, the way a set of social duties associated with a particular role shapes or develop's one's character"
+      ]
+    }
+  },
+  "-some": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able",
+        "-ic/ -ical"
+      ]
+    },
+    "a": {
+      "senses": [
+        {
+          "synset": "02344316-s"
+        }
+      ]
+    }
+  },
+  "-son": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Added to a stem  to form a patronymic or matronymic surname",
+        "Added to a stem  to form a given name"
+      ]
+    }
+  },
+  "-st": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06322842-n"
+        }
+      ]
+    }
+  },
+  "-stem": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ism"
+      ]
+    }
+  },
+  "-ster": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Someone who is, or who is associated with, or who does something specified",
+        "diminutive appended to a person's name"
+      ]
+    }
+  },
+  "-stone": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ite"
+      ]
+    }
+  },
+  "-t": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Verbs formed from nouns or adjectives , frequently having a causative force, or modified from an existing verb into a frequentative verb"
+      ]
+    }
+  },
+  "-teen": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form cardinal numbers from thirteen to nineteen"
+      ]
+    }
+  },
+  "-th": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "variant of -eth, used to form the archaic third-person singular indicative present tense of verbs"
+      ]
+    }
+  },
+  "-ther": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ee"
+      ]
+    }
+  },
+  "-tide": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Time; often added to a festival name to indicate the period around that festival or a season beginning or ending with it"
+      ]
+    }
+  },
+  "-ton": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Place-name suffix, originally denoting a town or enclosure of buildings",
+        "set of specific objects or persons"
+      ]
+    }
+  },
+  "-troth": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ism"
+      ]
+    }
+  },
+  "-ty": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Nonproductive suffix indicating single-digit integer multiples of ten"
+      ]
+    }
+  },
+  "-understanding": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "07568767-n"
+        },
+        {
+          "synset": "13834112-n"
+        }
+      ]
+    }
+  },
+  "-wards": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06322842-n"
+        }
+      ]
+    }
+  },
+  "-ware": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Used to form nouns denoting, collectively, items made from a particular substance",
+        "Used to form nouns denoting, collectively, items made in a particular place",
+        "Used to form nouns denoting, collectively, items of a particular kind or for a particular use"
+      ]
+    }
+  },
+  "-wear": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "garments"
+      ]
+    }
+  },
+  "-wend": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-wich": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Brine spring; well"
+      ]
+    }
+  },
+  "-wick": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "08569713-n"
+        }
+      ]
+    }
+  },
+  "-wise": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "In the direction or orientation of",
+        "In the manner of",
+        "In the matter of; with regard to",
+        "One at a time, or one thing at a time"
+      ]
+    }
+  },
+  "-work": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "Denoting a craft involving a particular material, tool, or practitioner",
+        "Denoting a structure or work of art crafted chiefly from a given material",
+        "Denoting the structure or mechanism of a given object"
+      ]
+    }
+  },
+  "-worth": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-worthy": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-able"
+      ]
+    }
+  },
+  "-writ": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "07183749-n"
+        },
+        {
+          "synset": "06568683-n"
+        }
+      ]
+    }
+  },
+  "-y": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "-ive"
+      ]
+    }
+  },
+  ".22": {
+    "n": {
+      "senses": [
+        {
+          "id": ".22%1:06:00::",
+          "synset": "04510146-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".22 caliber": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "american_spelling%1:10:01::"
+          ],
+          "id": ".22_caliber%3:01:00::",
+          "pertainym": [
+            "caliber%1:07:01::"
+          ],
+          "synset": "03157978-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".22 calibre": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "british_spelling%1:10:01::",
+            "canadian_spelling%1:10:01::",
+            "australian_spelling%1:10:01::"
+          ],
+          "id": ".22_calibre%3:01:00::",
+          "pertainym": [
+            "calibre%1:07:01::"
+          ],
+          "synset": "03157978-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".22-caliber": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "american_spelling%1:10:01::"
+          ],
+          "id": ".22-caliber%3:01:00::",
+          "pertainym": [
+            "caliber%1:07:01::"
+          ],
+          "synset": "03157978-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".22-calibre": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "british_spelling%1:10:01::",
+            "canadian_spelling%1:10:01::",
+            "australian_spelling%1:10:01::"
+          ],
+          "id": ".22-calibre%3:01:00::",
+          "pertainym": [
+            "calibre%1:07:01::"
+          ],
+          "synset": "03157978-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".38 caliber": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "american_spelling%1:10:01::"
+          ],
+          "id": ".38_caliber%3:01:00::",
+          "pertainym": [
+            "caliber%1:07:01::"
+          ],
+          "synset": "03158270-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".38 calibre": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "british_spelling%1:10:01::",
+            "canadian_spelling%1:10:01::",
+            "australian_spelling%1:10:01::"
+          ],
+          "id": ".38_calibre%3:01:00::",
+          "pertainym": [
+            "calibre%1:07:01::"
+          ],
+          "synset": "03158270-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".38-caliber": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "american_spelling%1:10:01::"
+          ],
+          "id": ".38-caliber%3:01:00::",
+          "pertainym": [
+            "caliber%1:07:01::"
+          ],
+          "synset": "03158270-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".38-calibre": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "british_spelling%1:10:01::",
+            "canadian_spelling%1:10:01::",
+            "australian_spelling%1:10:01::"
+          ],
+          "id": ".38-calibre%3:01:00::",
+          "pertainym": [
+            "calibre%1:07:01::"
+          ],
+          "synset": "03158270-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".45 caliber": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "american_spelling%1:10:01::"
+          ],
+          "id": ".45_caliber%3:01:00::",
+          "pertainym": [
+            "caliber%1:07:01::"
+          ],
+          "synset": "03158563-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".45 calibre": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "british_spelling%1:10:01::",
+            "canadian_spelling%1:10:01::",
+            "australian_spelling%1:10:01::"
+          ],
+          "id": ".45_calibre%3:01:00::",
+          "pertainym": [
+            "calibre%1:07:01::"
+          ],
+          "synset": "03158563-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".45-caliber": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "american_spelling%1:10:01::"
+          ],
+          "id": ".45-caliber%3:01:00::",
+          "pertainym": [
+            "caliber%1:07:01::"
+          ],
+          "synset": "03158563-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  ".45-calibre": {
+    "a": {
+      "senses": [
+        {
+          "exemplifies": [
+            "british_spelling%1:10:01::",
+            "canadian_spelling%1:10:01::",
+            "australian_spelling%1:10:01::"
+          ],
+          "id": ".45-calibre%3:01:00::",
+          "pertainym": [
+            "calibre%1:07:01::"
+          ],
+          "synset": "03158563-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1 Chronicles": {
+    "n": {
+      "senses": [
+        {
+          "id": "1_chronicles%1:10:00::",
+          "synset": "06447321-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1 Esdras": {
+    "n": {
+      "senses": [
+        {
+          "id": "1_esdras%1:10:00::",
+          "synset": "06471648-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1 Kings": {
+    "n": {
+      "senses": [
+        {
+          "id": "1_kings%1:10:00::",
+          "synset": "06446674-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1 Maccabees": {
+    "n": {
+      "senses": [
+        {
+          "id": "1_maccabees%1:10:00::",
+          "synset": "06472446-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1 Samuel": {
+    "n": {
+      "senses": [
+        {
+          "id": "1_samuel%1:10:00::",
+          "synset": "06446320-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1-dodecanol": {
+    "n": {
+      "senses": [
+        {
+          "id": "1-dodecanol%1:27:00::",
+          "synset": "14954808-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1-hitter": {
+    "n": {
+      "senses": [
+        {
+          "id": "1-hitter%1:04:00::",
+          "synset": "00476153-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "10-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "10-membered%5:00:00:membered:00",
+          "synset": "01507439-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "100 mL": {
+    "n": {
+      "senses": [
+        {
+          "id": "100_ml%1:23:01::",
+          "synset": "92410379-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1000000000000": {
+    "n": {
+      "senses": [
+        {
+          "id": "1000000000000%1:23:01::",
+          "synset": "13774583-n"
+        },
+        {
+          "id": "1000000000000%1:23:00::",
+          "synset": "13774312-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1000th": {
+    "a": {
+      "senses": [
+        {
+          "id": "1000th%5:00:00:ordinal:00",
+          "synset": "02220142-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "100th": {
+    "a": {
+      "senses": [
+        {
+          "id": "100th%5:00:00:ordinal:00",
+          "synset": "02217092-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "101st": {
+    "a": {
+      "senses": [
+        {
+          "id": "101st%5:00:00:ordinal:00",
+          "synset": "02217220-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "105th": {
+    "a": {
+      "senses": [
+        {
+          "id": "105th%5:00:00:ordinal:00",
+          "synset": "02217347-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "10th": {
+    "a": {
+      "senses": [
+        {
+          "id": "10th%5:00:00:ordinal:00",
+          "synset": "02211042-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "11 November": {
+    "n": {
+      "senses": [
+        {
+          "id": "11_november%1:28:00::",
+          "synset": "15210672-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "11-plus": {
+    "n": {
+      "senses": [
+        {
+          "id": "11-plus%1:04:00::",
+          "synset": "00638388-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "110th": {
+    "a": {
+      "senses": [
+        {
+          "id": "110th%5:00:00:ordinal:00",
+          "synset": "02217475-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "115th": {
+    "a": {
+      "senses": [
+        {
+          "id": "115th%5:00:00:ordinal:00",
+          "synset": "02217602-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "11th": {
+    "a": {
+      "senses": [
+        {
+          "id": "11th%5:00:00:ordinal:00",
+          "synset": "02211169-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "12-tone music": {
+    "n": {
+      "senses": [
+        {
+          "id": "12-tone_music%1:10:00::",
+          "synset": "07071579-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "12-tone system": {
+    "n": {
+      "senses": [
+        {
+          "id": "12-tone_system%1:10:00::",
+          "synset": "07071579-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "120th": {
+    "a": {
+      "senses": [
+        {
+          "id": "120th%5:00:00:ordinal:00",
+          "synset": "02217737-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "125th": {
+    "a": {
+      "senses": [
+        {
+          "id": "125th%5:00:00:ordinal:00",
+          "synset": "02217871-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "12th": {
+    "a": {
+      "senses": [
+        {
+          "id": "12th%5:00:00:ordinal:00",
+          "synset": "02211298-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "130th": {
+    "a": {
+      "senses": [
+        {
+          "id": "130th%5:00:00:ordinal:00",
+          "synset": "02218013-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "135th": {
+    "a": {
+      "senses": [
+        {
+          "id": "135th%5:00:00:ordinal:00",
+          "synset": "02218147-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "13th": {
+    "a": {
+      "senses": [
+        {
+          "id": "13th%5:00:00:ordinal:00",
+          "synset": "02211432-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "14 July": {
+    "n": {
+      "senses": [
+        {
+          "id": "14_july%1:28:00::",
+          "synset": "15225328-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "140th": {
+    "a": {
+      "senses": [
+        {
+          "id": "140th%5:00:00:ordinal:00",
+          "synset": "02218289-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "145th": {
+    "a": {
+      "senses": [
+        {
+          "id": "145th%5:00:00:ordinal:00",
+          "synset": "02218421-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "14th": {
+    "a": {
+      "senses": [
+        {
+          "id": "14th%5:00:00:ordinal:00",
+          "synset": "02211537-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "15 August 1945": {
+    "n": {
+      "senses": [
+        {
+          "id": "15_august_1945%1:28:00::",
+          "synset": "15187929-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "15 May Organization": {
+    "n": {
+      "senses": [
+        {
+          "id": "15_may_organization%1:14:00::",
+          "synset": "08056064-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "15 minutes": {
+    "n": {
+      "senses": [
+        {
+          "id": "15_minutes%1:28:00::",
+          "synset": "15253063-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "150th": {
+    "a": {
+      "senses": [
+        {
+          "id": "150th%5:00:00:ordinal:00",
+          "synset": "02218561-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1530s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1530s%1:28:00::",
+          "synset": "15173747-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "155th": {
+    "a": {
+      "senses": [
+        {
+          "id": "155th%5:00:00:ordinal:00",
+          "synset": "02218693-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "15th": {
+    "a": {
+      "senses": [
+        {
+          "id": "15th%5:00:00:ordinal:00",
+          "synset": "02211645-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "16 PF": {
+    "n": {
+      "senses": [
+        {
+          "id": "16_pf%1:10:00::",
+          "synset": "06487604-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "160th": {
+    "a": {
+      "senses": [
+        {
+          "id": "160th%5:00:00:ordinal:00",
+          "synset": "02218833-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "165th": {
+    "a": {
+      "senses": [
+        {
+          "id": "165th%5:00:00:ordinal:00",
+          "synset": "02218965-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "16th": {
+    "a": {
+      "senses": [
+        {
+          "id": "16th%5:00:00:ordinal:00",
+          "synset": "02211800-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "17 November": {
+    "n": {
+      "senses": [
+        {
+          "id": "17_november%1:14:00::",
+          "synset": "08059288-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "170th": {
+    "a": {
+      "senses": [
+        {
+          "id": "170th%5:00:00:ordinal:00",
+          "synset": "02219105-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1750s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1750s%1:28:00::",
+          "synset": "15174893-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "175th": {
+    "a": {
+      "senses": [
+        {
+          "id": "175th%5:00:00:ordinal:00",
+          "synset": "02219241-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1760s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1760s%1:28:00::",
+          "synset": "15175264-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1770s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1770s%1:28:00::",
+          "synset": "15175750-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1780s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1780s%1:28:00::",
+          "synset": "15176135-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1790s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1790s%1:28:00::",
+          "synset": "15176521-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "17th": {
+    "a": {
+      "senses": [
+        {
+          "id": "17th%5:00:00:ordinal:00",
+          "synset": "02211906-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "18-karat gold": {
+    "n": {
+      "senses": [
+        {
+          "id": "18-karat_gold%1:27:00::",
+          "synset": "14663447-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "180th": {
+    "a": {
+      "senses": [
+        {
+          "id": "180th%5:00:00:ordinal:00",
+          "synset": "02219385-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1820s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1820s%1:28:00::",
+          "synset": "15173918-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1830s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1830s%1:28:00::",
+          "synset": "15174231-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1840s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1840s%1:28:00::",
+          "synset": "15174522-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1850s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1850s%1:28:00::",
+          "synset": "15174813-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1860s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1860s%1:28:00::",
+          "synset": "15175184-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1862 Apollo": {
+    "n": {
+      "senses": [
+        {
+          "id": "1862_apollo%1:17:01::",
+          "synset": "09224067-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1870s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1870s%1:28:00::",
+          "synset": "15175670-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1880s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1880s%1:28:00::",
+          "synset": "15176044-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1890s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1890s%1:28:00::",
+          "synset": "15176430-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "18th": {
+    "a": {
+      "senses": [
+        {
+          "id": "18th%5:00:00:ordinal:00",
+          "synset": "02212032-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1900s": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "naɪn.tiːn.ˈhʌn.dɹədz"
+        }
+      ],
+      "senses": [
+        {
+          "id": "1900s%1:28:00::",
+          "synset": "15173667-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "190th": {
+    "a": {
+      "senses": [
+        {
+          "id": "190th%5:00:00:ordinal:00",
+          "synset": "02219519-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1920s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1920s%1:28:00::",
+          "synset": "15173827-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1930s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1930s%1:28:00::",
+          "synset": "15174140-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1940s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1940s%1:28:00::",
+          "synset": "15174432-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1950s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1950s%1:28:00::",
+          "synset": "15174723-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1960s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1960s%1:28:00::",
+          "synset": "15175094-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1970s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1970s%1:28:00::",
+          "synset": "15175578-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1980s": {
+    "n": {
+      "senses": [
+        {
+          "id": "1980s%1:28:00::",
+          "synset": "15175953-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1990s": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈnaɪn.tiːn.ˈnaɪn.tiːz",
+          "variety": "GB"
+        },
+        {
+          "value": "ˈnaɪn.tin.ˈnaɪn.tiz",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "id": "1990s%1:28:00::",
+          "synset": "15176339-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "19th": {
+    "a": {
+      "senses": [
+        {
+          "id": "19th%5:00:00:ordinal:00",
+          "synset": "02212141-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st": {
+    "a": {
+      "pronunciation": [
+        {
+          "value": "fɝst",
+          "variety": "US"
+        },
+        {
+          "value": "fɜːst",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "id": "1st%3:00:00::",
+          "synset": "01014459-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st Baron Beaverbrook": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_baron_beaverbrook%1:18:00::",
+          "synset": "10859387-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st Baron Verulam": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_baron_verulam%1:18:00::",
+          "synset": "10850052-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st Earl Attlee": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_earl_attlee%1:18:00::",
+          "synset": "10847477-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st Earl Baldwin of Bewdley": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_earl_baldwin_of_bewdley%1:18:00::",
+          "synset": "10851681-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st Earl of Balfour": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_earl_of_balfour%1:18:00::",
+          "synset": "10852164-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st Viscount Montgomery of Alamein": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_viscount_montgomery_of_alamein%1:18:00::",
+          "synset": "11208306-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st class": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_class%1:10:00::",
+          "synset": "06275925-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st lieutenant": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st_lieutenant%1:18:00::",
+          "synset": "10112747-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "1st-class mail": {
+    "n": {
+      "senses": [
+        {
+          "id": "1st-class_mail%1:10:00::",
+          "synset": "06275925-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2 Chronicles": {
+    "n": {
+      "senses": [
+        {
+          "id": "2_chronicles%1:10:00::",
+          "synset": "06447586-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2 Esdras": {
+    "n": {
+      "senses": [
+        {
+          "id": "2_esdras%1:10:00::",
+          "synset": "06471837-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2 Kings": {
+    "n": {
+      "senses": [
+        {
+          "id": "2_kings%1:10:00::",
+          "synset": "06446868-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2 Maccabees": {
+    "n": {
+      "senses": [
+        {
+          "id": "2_maccabees%1:10:00::",
+          "synset": "06472596-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2 Pallas": {
+    "n": {
+      "senses": [
+        {
+          "id": "2_pallas%1:17:01::",
+          "synset": "09406891-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2 Samuel": {
+    "n": {
+      "senses": [
+        {
+          "id": "2_samuel%1:10:00::",
+          "synset": "06446496-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2-dimensional": {
+    "a": {
+      "senses": [
+        {
+          "id": "2-dimensional%5:00:00:multidimensional:00",
+          "synset": "00663738-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2-hitter": {
+    "n": {
+      "senses": [
+        {
+          "id": "2-hitter%1:04:00::",
+          "synset": "00476284-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2-hydroxybenzoic acid": {
+    "n": {
+      "senses": [
+        {
+          "id": "2-hydroxybenzoic_acid%1:27:00::",
+          "synset": "15034605-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2-methylpropenoic acid": {
+    "n": {
+      "senses": [
+        {
+          "id": "2-methylpropenoic_acid%1:27:00::",
+          "synset": "14640000-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "20/20": {
+    "n": {
+      "senses": [
+        {
+          "id": "20/20%1:09:00::",
+          "synset": "05663655-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "200th": {
+    "a": {
+      "senses": [
+        {
+          "id": "200th%5:00:00:ordinal:00",
+          "synset": "02219658-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2019-nCoV acute respiratory disease": {
+    "n": {
+      "senses": [
+        {
+          "id": "2019-ncov_acute_respiratory_disease%1:26:01::",
+          "synset": "82230893-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "20th": {
+    "a": {
+      "senses": [
+        {
+          "id": "20th%5:00:00:ordinal:00",
+          "synset": "02212385-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "21st": {
+    "a": {
+      "senses": [
+        {
+          "id": "21st%5:00:00:ordinal:00",
+          "synset": "02212492-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "22-karat gold": {
+    "n": {
+      "senses": [
+        {
+          "id": "22-karat_gold%1:27:00::",
+          "synset": "14663546-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "22nd": {
+    "a": {
+      "senses": [
+        {
+          "id": "22nd%5:00:00:ordinal:00",
+          "synset": "02212601-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "23rd": {
+    "a": {
+      "senses": [
+        {
+          "id": "23rd%5:00:00:ordinal:00",
+          "synset": "02212714-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "24-hour interval": {
+    "n": {
+      "senses": [
+        {
+          "id": "24-hour_interval%1:28:00::",
+          "synset": "15180180-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "24-karat gold": {
+    "n": {
+      "senses": [
+        {
+          "id": "24-karat_gold%1:27:00::",
+          "synset": "14663645-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "24/7": {
+    "n": {
+      "senses": [
+        {
+          "id": "24/7%1:28:00::",
+          "synset": "15142953-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "24th": {
+    "a": {
+      "senses": [
+        {
+          "id": "24th%5:00:00:ordinal:00",
+          "synset": "02212827-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "25 de Abril Bridge": {
+    "n": {
+      "senses": [
+        {
+          "id": "25_de_abril_bridge%1:06:01::",
+          "synset": "03987562-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "25th": {
+    "a": {
+      "senses": [
+        {
+          "id": "25th%5:00:00:ordinal:00",
+          "synset": "02212940-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "26th": {
+    "a": {
+      "senses": [
+        {
+          "id": "26th%5:00:00:ordinal:00",
+          "synset": "02213053-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "27th": {
+    "a": {
+      "senses": [
+        {
+          "id": "27th%5:00:00:ordinal:00",
+          "synset": "02213165-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "28th": {
+    "a": {
+      "senses": [
+        {
+          "id": "28th%5:00:00:ordinal:00",
+          "synset": "02213279-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "29th": {
+    "a": {
+      "senses": [
+        {
+          "id": "29th%5:00:00:ordinal:00",
+          "synset": "02213394-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2d": {
+    "a": {
+      "senses": [
+        {
+          "id": "2d%5:00:00:ordinal:00",
+          "synset": "02209815-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2nd": {
+    "a": {
+      "senses": [
+        {
+          "id": "2nd%5:00:00:ordinal:00",
+          "synset": "02209815-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "2nd lieutenant": {
+    "n": {
+      "senses": [
+        {
+          "id": "2nd_lieutenant%1:18:00::",
+          "synset": "10588455-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3-D": {
+    "n": {
+      "senses": [
+        {
+          "id": "3-d%1:10:00::",
+          "synset": "06631444-n"
+        },
+        {
+          "id": "3-d%1:09:00::",
+          "synset": "05948666-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3-dimensional": {
+    "a": {
+      "senses": [
+        {
+          "id": "3-dimensional%5:00:00:multidimensional:00",
+          "synset": "00663996-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3-hitter": {
+    "n": {
+      "senses": [
+        {
+          "id": "3-hitter%1:04:00::",
+          "synset": "00476414-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "3-membered%5:00:00:membered:00",
+          "synset": "01506475-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "30 minutes": {
+    "n": {
+      "senses": [
+        {
+          "id": "30_minutes%1:28:00::",
+          "synset": "15252958-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "300th": {
+    "a": {
+      "senses": [
+        {
+          "id": "300th%5:00:00:ordinal:00",
+          "synset": "02219777-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "30th": {
+    "a": {
+      "senses": [
+        {
+          "id": "30th%5:00:00:ordinal:00",
+          "synset": "02213507-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "31st": {
+    "a": {
+      "senses": [
+        {
+          "id": "31st%5:00:00:ordinal:00",
+          "synset": "02213616-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "32nd": {
+    "a": {
+      "senses": [
+        {
+          "id": "32nd%5:00:00:ordinal:00",
+          "synset": "02213725-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "33rd": {
+    "a": {
+      "senses": [
+        {
+          "id": "33rd%5:00:00:ordinal:00",
+          "synset": "02213842-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "34th": {
+    "a": {
+      "senses": [
+        {
+          "id": "34th%5:00:00:ordinal:00",
+          "synset": "02213960-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "35th": {
+    "a": {
+      "senses": [
+        {
+          "id": "35th%5:00:00:ordinal:00",
+          "synset": "02214078-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "365 days": {
+    "n": {
+      "senses": [
+        {
+          "id": "365_days%1:28:00::",
+          "synset": "15226966-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "366 days": {
+    "n": {
+      "senses": [
+        {
+          "id": "366_days%1:28:00::",
+          "synset": "15227065-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "36th": {
+    "a": {
+      "senses": [
+        {
+          "id": "36th%5:00:00:ordinal:00",
+          "synset": "02214195-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "37th": {
+    "a": {
+      "senses": [
+        {
+          "id": "37th%5:00:00:ordinal:00",
+          "synset": "02214311-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "38th": {
+    "a": {
+      "senses": [
+        {
+          "id": "38th%5:00:00:ordinal:00",
+          "synset": "02214431-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "39th": {
+    "a": {
+      "senses": [
+        {
+          "id": "39th%5:00:00:ordinal:00",
+          "synset": "02214550-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3D": {
+    "n": {
+      "senses": [
+        {
+          "id": "3d%1:10:00::",
+          "synset": "06631444-n"
+        },
+        {
+          "id": "3d%1:09:00::",
+          "synset": "05948666-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3TC": {
+    "n": {
+      "senses": [
+        {
+          "id": "3tc%1:06:00::",
+          "synset": "03641353-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3d radar": {
+    "n": {
+      "senses": [
+        {
+          "id": "3d_radar%1:06:00::",
+          "synset": "04434694-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3rd": {
+    "a": {
+      "senses": [
+        {
+          "id": "3rd%5:00:00:ordinal:00",
+          "synset": "02209976-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "3rd October Organization": {
+    "n": {
+      "senses": [
+        {
+          "id": "3rd_october_organization%1:14:00::",
+          "synset": "08033138-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4 Vesta": {
+    "n": {
+      "senses": [
+        {
+          "id": "4_vesta%1:17:01::",
+          "synset": "09494354-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4-dimensional": {
+    "a": {
+      "senses": [
+        {
+          "id": "4-dimensional%5:00:00:multidimensional:00",
+          "synset": "00664333-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4-hitter": {
+    "n": {
+      "senses": [
+        {
+          "id": "4-hitter%1:04:00::",
+          "synset": "00476546-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "4-membered%5:00:00:membered:00",
+          "synset": "01506604-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4.5-Inch Beach Barrage Rocket": {
+    "n": {
+      "senses": [
+        {
+          "id": "4.5-inch_beach_barrage_rocket%1:17:01::",
+          "synset": "09401090-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "400th": {
+    "a": {
+      "senses": [
+        {
+          "id": "400th%5:00:00:ordinal:00",
+          "synset": "02219900-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "401-k": {
+    "n": {
+      "senses": [
+        {
+          "id": "401-k%1:09:00::",
+          "synset": "05920154-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "401-k plan": {
+    "n": {
+      "senses": [
+        {
+          "id": "401-k_plan%1:09:00::",
+          "synset": "05920154-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "40th": {
+    "a": {
+      "senses": [
+        {
+          "id": "40th%5:00:00:ordinal:00",
+          "synset": "02214667-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "41st": {
+    "a": {
+      "senses": [
+        {
+          "id": "41st%5:00:00:ordinal:00",
+          "synset": "02214774-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "42nd": {
+    "a": {
+      "senses": [
+        {
+          "id": "42nd%5:00:00:ordinal:00",
+          "synset": "02214888-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "43rd": {
+    "a": {
+      "senses": [
+        {
+          "id": "43rd%5:00:00:ordinal:00",
+          "synset": "02215003-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "440 yards": {
+    "n": {
+      "senses": [
+        {
+          "id": "440_yards%1:23:00::",
+          "synset": "13673549-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "44th": {
+    "a": {
+      "senses": [
+        {
+          "id": "44th%5:00:00:ordinal:00",
+          "synset": "02215119-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "45th": {
+    "a": {
+      "senses": [
+        {
+          "id": "45th%5:00:00:ordinal:00",
+          "synset": "02215235-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "46th": {
+    "a": {
+      "senses": [
+        {
+          "id": "46th%5:00:00:ordinal:00",
+          "synset": "02215350-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "47th": {
+    "a": {
+      "senses": [
+        {
+          "id": "47th%5:00:00:ordinal:00",
+          "synset": "02215464-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "48th": {
+    "a": {
+      "senses": [
+        {
+          "id": "48th%5:00:00:ordinal:00",
+          "synset": "02215582-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "49th": {
+    "a": {
+      "senses": [
+        {
+          "id": "49th%5:00:00:ordinal:00",
+          "synset": "02215699-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4WD": {
+    "n": {
+      "senses": [
+        {
+          "id": "4wd%1:06:01::",
+          "synset": "03394607-n"
+        },
+        {
+          "id": "4wd%1:06:00::",
+          "synset": "03394457-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4th": {
+    "a": {
+      "senses": [
+        {
+          "id": "4th%5:00:00:ordinal:00",
+          "synset": "02210112-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "4to": {
+    "n": {
+      "senses": [
+        {
+          "id": "4to%1:07:00::",
+          "synset": "05104082-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "5-hitter": {
+    "n": {
+      "senses": [
+        {
+          "id": "5-hitter%1:04:00::",
+          "synset": "00476672-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "5-hydroxy-3-methylglutaryl-coenzyme A reductase": {
+    "n": {
+      "senses": [
+        {
+          "id": "5-hydroxy-3-methylglutaryl-coenzyme_a_reductase%1:27:00::",
+          "synset": "14636622-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "5-hydroxytryptamine": {
+    "n": {
+      "senses": [
+        {
+          "id": "5-hydroxytryptamine%1:27:00::",
+          "synset": "14832443-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "5-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "5-membered%5:00:00:membered:00",
+          "synset": "01506731-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "50000 Quaoar": {
+    "n": {
+      "senses": [
+        {
+          "id": "50000_quaoar%1:17:01::",
+          "synset": "09424625-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "500th": {
+    "a": {
+      "senses": [
+        {
+          "id": "500th%5:00:00:ordinal:00",
+          "synset": "02220021-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "50th": {
+    "a": {
+      "senses": [
+        {
+          "id": "50th%5:00:00:ordinal:00",
+          "synset": "02215814-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "55th": {
+    "a": {
+      "senses": [
+        {
+          "id": "55th%5:00:00:ordinal:00",
+          "synset": "02215939-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "5th": {
+    "a": {
+      "senses": [
+        {
+          "id": "5th%5:00:00:ordinal:00",
+          "synset": "02210381-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "6 June 1944": {
+    "n": {
+      "senses": [
+        {
+          "id": "6_june_1944%1:28:00::",
+          "synset": "15187570-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "6-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "6-membered%5:00:00:membered:00",
+          "synset": "01506858-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "60 minutes": {
+    "n": {
+      "senses": [
+        {
+          "id": "60_minutes%1:28:00::",
+          "synset": "15252642-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "60th": {
+    "a": {
+      "senses": [
+        {
+          "id": "60th%5:00:00:ordinal:00",
+          "synset": "02216054-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "64th": {
+    "a": {
+      "senses": [
+        {
+          "id": "64th%5:00:00:ordinal:00",
+          "synset": "02216161-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "65th": {
+    "a": {
+      "senses": [
+        {
+          "id": "65th%5:00:00:ordinal:00",
+          "synset": "02216277-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "6th": {
+    "a": {
+      "senses": [
+        {
+          "id": "6th%5:00:00:ordinal:00",
+          "synset": "02210523-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "7-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "7-membered%5:00:00:membered:00",
+          "synset": "01507054-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "70th": {
+    "a": {
+      "senses": [
+        {
+          "id": "70th%5:00:00:ordinal:00",
+          "synset": "02216392-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "75th": {
+    "a": {
+      "senses": [
+        {
+          "id": "75th%5:00:00:ordinal:00",
+          "synset": "02216521-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "7th": {
+    "a": {
+      "senses": [
+        {
+          "id": "7th%5:00:00:ordinal:00",
+          "synset": "02210648-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "8 May 1945": {
+    "n": {
+      "senses": [
+        {
+          "id": "8_may_1945%1:28:00::",
+          "synset": "15187811-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "8-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "8-membered%5:00:00:membered:00",
+          "synset": "01507183-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "80th": {
+    "a": {
+      "senses": [
+        {
+          "id": "80th%5:00:00:ordinal:00",
+          "synset": "02216640-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "85th": {
+    "a": {
+      "senses": [
+        {
+          "id": "85th%5:00:00:ordinal:00",
+          "synset": "02216749-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "880 yards": {
+    "n": {
+      "senses": [
+        {
+          "id": "880_yards%1:23:00::",
+          "synset": "13673422-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "8th": {
+    "a": {
+      "senses": [
+        {
+          "id": "8th%5:00:00:ordinal:00",
+          "synset": "02210792-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "8vo": {
+    "n": {
+      "senses": [
+        {
+          "id": "8vo%1:07:00::",
+          "synset": "05103670-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "9-11": {
+    "n": {
+      "senses": [
+        {
+          "id": "9-11%1:28:00::",
+          "synset": "15325294-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "9-membered": {
+    "a": {
+      "senses": [
+        {
+          "id": "9-membered%5:00:00:membered:00",
+          "synset": "01507312-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "9/11": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "naɪn.əˈlɛvən"
+        }
+      ],
+      "senses": [
+        {
+          "id": "9/11%1:28:00::",
+          "synset": "15325294-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "90377 Sedna": {
+    "n": {
+      "senses": [
+        {
+          "id": "90377_sedna%1:17:01::",
+          "synset": "09452098-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "90th": {
+    "a": {
+      "senses": [
+        {
+          "id": "90th%5:00:00:ordinal:00",
+          "synset": "02216866-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "95th": {
+    "a": {
+      "senses": [
+        {
+          "id": "95th%5:00:00:ordinal:00",
+          "synset": "02216975-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "9th": {
+    "a": {
+      "senses": [
+        {
+          "id": "9th%5:00:00:ordinal:00",
+          "synset": "02210918-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Ælfric": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "the name of several historically significant men in tenth- and eleventh-century England"
+      ]
+    }
+  },
+  "Æsir": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "The principal group of benevolent deities in the Norse pantheon, representing power and war; opponents of the Vanir"
+      ]
+    }
+  },
+  "Óðr": {
+    "languages": [
+      "Anglish"
+    ],
+    "x": {
+      "senses": [
+        "In Norse mythology, the husband of Freya and father of Hnoss and Gersemi"
+      ]
+    }
+  },
+  "æsc": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        {
+          "synset": "06819327-n"
+        }
+      ]
+    }
+  },
+  "œthel": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "Alternative spelling of ethel "
+      ]
+    }
+  }
+}

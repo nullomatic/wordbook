@@ -1,0 +1,3278 @@
+{
+  "X": {
+    "n": {
+      "senses": [
+        {
+          "id": "x%1:23:00::",
+          "synset": "13768652-n"
+        },
+        {
+          "id": "x%1:10:00::",
+          "synset": "06846713-n"
+        },
+        {
+          "id": "x%1:06:00::",
+          "synset": "02681592-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X chromosome": {
+    "n": {
+      "senses": [
+        {
+          "id": "x_chromosome%1:08:00::",
+          "synset": "05450170-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X ray": {
+    "n": {
+      "senses": [
+        {
+          "id": "x_ray%1:19:00::",
+          "synset": "11547628-n"
+        },
+        {
+          "id": "x_ray%1:06:00::",
+          "synset": "04107714-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-OR circuit": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-or_circuit%1:06:00::",
+          "synset": "04616711-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-SCID": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-scid%1:26:00::",
+          "synset": "14152833-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-linked": {
+    "a": {
+      "senses": [
+        {
+          "id": "x-linked%3:01:00::",
+          "pertainym": [
+            "x_chromosome%1:08:00::"
+          ],
+          "synset": "03156978-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-linked SCID": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-linked_scid%1:26:00::",
+          "synset": "14152833-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-linked dominant inheritance": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-linked_dominant_inheritance%1:07:00::",
+          "synset": "04930476-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-linked gene": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-linked_gene%1:08:00::",
+          "synset": "05449505-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-linked recessive inheritance": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-linked_recessive_inheritance%1:07:00::",
+          "synset": "04930673-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-radiation": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-radiation%1:19:00::",
+          "synset": "11547628-n"
+        },
+        {
+          "id": "x-radiation%1:04:00::",
+          "synset": "00903014-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈɛks ɹeɪ",
+          "variety": "GB"
+        },
+        {
+          "value": "ˈɛks ˌɹeɪ",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "id": "x-ray%1:19:00::",
+          "synset": "11547628-n"
+        },
+        {
+          "id": "x-ray%1:06:00::",
+          "synset": "04107714-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray diffraction": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_diffraction%1:19:00::",
+          "synset": "11547837-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray film": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_film%1:06:00::",
+          "synset": "04616888-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray machine": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_machine%1:06:00::",
+          "synset": "04617008-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray photograph": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_photograph%1:06:00::",
+          "synset": "04107714-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray photography": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_photography%1:04:00::",
+          "synset": "00906321-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray picture": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_picture%1:06:00::",
+          "synset": "04107714-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray therapy": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_therapy%1:04:00::",
+          "synset": "00707386-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-ray tube": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-ray_tube%1:06:00::",
+          "synset": "04617168-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-raying": {
+    "n": {
+      "senses": [
+        {
+          "derivation": [
+            "x-ray%2:39:00::",
+            "x-ray%2:32:00::"
+          ],
+          "id": "x-raying%1:04:00::",
+          "synset": "00903014-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "X-tail": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-tail%1:06:01::",
+          "synset": "92459287-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XC": {
+    "n": {
+      "senses": [
+        {
+          "id": "xc%1:23:00::",
+          "synset": "13772437-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XI": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ksaɪ"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xi%1:23:00::",
+          "synset": "13768812-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xii%1:23:00::",
+          "synset": "13768925-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XIII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiii%1:23:00::",
+          "synset": "13769339-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XIV": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiv%1:23:00::",
+          "synset": "13769488-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XIX": {
+    "n": {
+      "senses": [
+        {
+          "id": "xix%1:23:00::",
+          "synset": "13770129-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XL": {
+    "n": {
+      "senses": [
+        {
+          "id": "xl%1:23:00::",
+          "synset": "13771667-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XOR circuit": {
+    "n": {
+      "senses": [
+        {
+          "id": "xor_circuit%1:06:00::",
+          "synset": "04616711-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XOR gate": {
+    "n": {
+      "senses": [
+        {
+          "id": "xor_gate%1:06:00::",
+          "synset": "04616711-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XT": {
+    "n": {
+      "senses": [
+        {
+          "id": "xt%1:11:00::",
+          "synset": "07445847-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XTC": {
+    "n": {
+      "senses": [
+        {
+          "id": "xtc%1:06:00::",
+          "synset": "02681592-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XV": {
+    "n": {
+      "senses": [
+        {
+          "id": "xv%1:23:00::",
+          "synset": "13769609-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XVI": {
+    "n": {
+      "senses": [
+        {
+          "id": "xvi%1:23:00::",
+          "synset": "13769746-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XVII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xvii%1:23:00::",
+          "synset": "13769865-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XVIII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xviii%1:23:00::",
+          "synset": "13770005-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XX": {
+    "n": {
+      "senses": [
+        {
+          "id": "xx%1:23:00::",
+          "synset": "13770268-n"
+        },
+        {
+          "id": "xx%1:08:00::",
+          "synset": "05450365-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXI": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxi%1:23:00::",
+          "synset": "13770386-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxii%1:23:00::",
+          "synset": "13770507-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXIII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxiii%1:23:00::",
+          "synset": "13770633-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXIV": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxiv%1:23:00::",
+          "synset": "13770762-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXIX": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxix%1:23:00::",
+          "synset": "13771418-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXV": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxv%1:23:00::",
+          "synset": "13770903-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXVI": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxvi%1:23:00::",
+          "synset": "13771030-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXVII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxvii%1:23:00::",
+          "synset": "13771157-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXVIII": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxviii%1:23:00::",
+          "synset": "13771286-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXX": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxx%1:23:00::",
+          "synset": "13771547-n"
+        },
+        {
+          "id": "xxx%1:08:00::",
+          "synset": "05450492-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXY": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxy%1:08:00::",
+          "synset": "05450626-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XXY-syndrome": {
+    "n": {
+      "senses": [
+        {
+          "id": "xxy-syndrome%1:26:00::",
+          "synset": "14329902-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XY": {
+    "n": {
+      "senses": [
+        {
+          "id": "xy%1:08:00::",
+          "synset": "05450787-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "XYY": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyy%1:08:00::",
+          "synset": "05450909-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanax": {
+    "n": {
+      "senses": [
+        {
+          "exemplifies": [
+            "trade_name%1:10:00::"
+          ],
+          "id": "xanax%1:06:00::",
+          "synset": "02702202-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthium": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthium%1:20:00::",
+          "synset": "12053408-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthomonas": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthomonas%1:05:00::",
+          "synset": "01364106-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthophyceae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthophyceae%1:05:00::",
+          "synset": "01403413-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthorrhoeaceae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthorrhoeaceae%1:20:00::",
+          "synset": "12486301-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthorroea": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthorroea%1:20:00::",
+          "synset": "12486539-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthosoma": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthosoma%1:20:00::",
+          "synset": "11813721-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthosoma atrovirens": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthosoma_atrovirens%1:20:00::",
+          "synset": "11813872-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xanthosoma sagittifolium": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthosoma_sagittifolium%1:20:00::",
+          "synset": "11813872-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xantusiidae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xantusiidae%1:05:00::",
+          "synset": "01686069-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xavier": {
+    "n": {
+      "senses": [
+        {
+          "id": "xavier%1:18:00::",
+          "synset": "11421005-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xe": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "zi"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xe%1:27:00::",
+          "synset": "14685453-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenarthra": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenarthra%1:05:00::",
+          "synset": "02456521-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenicidae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenicidae%1:05:00::",
+          "synset": "01590813-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenicus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenicus%1:05:00::",
+          "synset": "01591230-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenicus gilviventris": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenicus_gilviventris%1:05:00::",
+          "synset": "01591366-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenophanes": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenophanes%1:18:00::",
+          "synset": "11421190-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenophon": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenophon%1:18:00::",
+          "synset": "11421278-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenopodidae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenopodidae%1:05:00::",
+          "synset": "01656886-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenopus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenopus%1:05:00::",
+          "synset": "01657070-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenopus laevis": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenopus_laevis%1:05:00::",
+          "synset": "01657278-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenorhyncus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenorhyncus%1:05:00::",
+          "synset": "02006997-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenorhyncus asiaticus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenorhyncus_asiaticus%1:05:00::",
+          "synset": "02007146-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenosauridae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenosauridae%1:05:00::",
+          "synset": "01693344-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xenosaurus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenosaurus%1:05:00::",
+          "synset": "01693498-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xeranthemum annuum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xeranthemum_annuum%1:20:00::",
+          "synset": "12054178-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerobates": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerobates%1:05:00::",
+          "synset": "01673953-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerophyllum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophyllum%1:20:00::",
+          "synset": "12485826-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerophyllum tenax": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophyllum_tenax%1:20:00::",
+          "synset": "12486062-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerox": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzɛ.ɹɒks",
+          "variety": "GB"
+        },
+        {
+          "value": "ˈziː(ə)ɹ.ɑks",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "xerox%2:36:00::"
+          ],
+          "id": "xerox%1:06:00::",
+          "synset": "04616281-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerox machine": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerox_machine%1:06:00::",
+          "synset": "04616281-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerxes I": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerxes_i%1:18:00::",
+          "synset": "11421414-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xerxes the Great": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerxes_the_great%1:18:00::",
+          "synset": "11421414-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xestobium rufovillosum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xestobium_rufovillosum%1:05:00::",
+          "synset": "02180427-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xhosa": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈkoʊ.sə",
+          "variety": "US"
+        },
+        {
+          "value": "ˈkəʊ.sə",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xhosa%1:18:00::",
+          "synset": "09770827-n"
+        },
+        {
+          "id": "xhosa%1:14:00::",
+          "synset": "08506295-n"
+        },
+        {
+          "id": "xhosa%1:10:00::",
+          "synset": "07007360-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xhosa language": {
+    "n": {
+      "senses": [
+        {
+          "id": "xhosa_language%1:10:01::",
+          "synset": "07007360-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xi'an": {
+    "n": {
+      "senses": [
+        {
+          "id": "xi'an%1:15:01::",
+          "synset": "08747285-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xian": {
+    "n": {
+      "senses": [
+        {
+          "id": "xian%1:15:00::",
+          "synset": "08747285-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Ximenesia encelioides": {
+    "n": {
+      "senses": [
+        {
+          "id": "ximenesia_encelioides%1:20:00::",
+          "synset": "12051608-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xinjiang": {
+    "n": {
+      "senses": [
+        {
+          "id": "xinjiang%1:15:00::",
+          "synset": "08747459-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xinjiang Uighur Autonomous Region": {
+    "n": {
+      "senses": [
+        {
+          "id": "xinjiang_uighur_autonomous_region%1:15:00::",
+          "synset": "08747459-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xiphias": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzɪfɪəs",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xiphias%1:05:00::",
+          "synset": "02632211-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xiphias gladius": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiphias_gladius%1:05:00::",
+          "synset": "02632346-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xiphiidae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiphiidae%1:05:00::",
+          "synset": "02632065-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xiphosura": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiphosura%1:05:00::",
+          "synset": "01790042-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xiphosurus polyphemus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiphosurus_polyphemus%1:05:00::",
+          "synset": "01790476-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xishuangbanna Dai": {
+    "n": {
+      "senses": [
+        {
+          "id": "xishuangbanna_dai%1:10:00::",
+          "synset": "06948091-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xizang": {
+    "n": {
+      "senses": [
+        {
+          "id": "xizang%1:15:00::",
+          "synset": "08926725-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xmas": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈkɹɪs.məs"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xmas%1:28:00::",
+          "synset": "15221021-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylaria": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylaria%1:20:00::",
+          "synset": "12987341-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylaria mali": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylaria_mali%1:20:00::",
+          "synset": "12987564-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylaria polymorpha": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylaria_polymorpha%1:20:00::",
+          "synset": "12987705-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylariaceae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylariaceae%1:20:00::",
+          "synset": "12987146-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylocaine": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylocaine%1:06:00::",
+          "synset": "03667342-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylocopa": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylocopa%1:05:00::",
+          "synset": "02211882-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylomelum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylomelum%1:20:00::",
+          "synset": "12244467-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylomelum pyriforme": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylomelum_pyriforme%1:20:00::",
+          "synset": "12244657-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylopia": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylopia%1:20:00::",
+          "synset": "11717245-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylopia aethiopica": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylopia_aethiopica%1:20:00::",
+          "synset": "11717404-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xylosma congestum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylosma_congestum%1:20:00::",
+          "synset": "12401612-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xyphophorus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyphophorus%1:05:00::",
+          "synset": "01450806-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xyphophorus helleri": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyphophorus_helleri%1:05:00::",
+          "synset": "01450932-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xyridaceae": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyridaceae%1:20:00::",
+          "synset": "12626076-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xyridales": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyridales%1:20:00::",
+          "synset": "12625780-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xyris": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyris%1:20:00::",
+          "synset": "12626280-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "Xyris operculata": {
+    "n": {
+      "senses": [
+        {
+          "id": "xyris_operculata%1:20:00::",
+          "synset": "12626633-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "x": {
+    "a": {
+      "senses": [
+        {
+          "id": "x%5:00:00:cardinal:00",
+          "synset": "02194935-s"
+        }
+      ]
+    },
+    "n": {
+      "senses": [
+        {
+          "id": "x%1:10:01::",
+          "synset": "06846713-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "x-axis": {
+    "n": {
+      "senses": [
+        {
+          "id": "x-axis%1:09:00::",
+          "synset": "06018582-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "x-beam": {
+    "languages": [
+      "Anglish"
+    ],
+    "n": {
+      "senses": [
+        "x-ray"
+      ]
+    }
+  },
+  "x-ray": {
+    "v": {
+      "pronunciation": [
+        {
+          "value": "ˈɛks ɹeɪ",
+          "variety": "GB"
+        },
+        {
+          "value": "ˈɛks ˌɹeɪ",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "x-raying%1:04:00::"
+          ],
+          "id": "x-ray%2:39:00::",
+          "subcat": [
+            "vtaa",
+            "vtai"
+          ],
+          "synset": "02154216-v"
+        },
+        {
+          "derivation": [
+            "x-raying%1:04:00::"
+          ],
+          "id": "x-ray%2:32:00::",
+          "sent": [
+            "Did he x-ray his foot?"
+          ],
+          "subcat": [
+            "vtaa",
+            "vtai"
+          ],
+          "synset": "01005930-v"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "x64": {
+    "n": {
+      "senses": [
+        {
+          "id": "x64%1:07:01::",
+          "synset": "90007891-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "x86": {
+    "n": {
+      "senses": [
+        {
+          "id": "x86%1:07:01::",
+          "synset": "90007211-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthate": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzænθeɪt",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xanthate%1:27:00::",
+          "synset": "15137395-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthelasma": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "zænθɪˈlæzmə"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xanthelasma%1:26:00::",
+          "synset": "14256637-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthemia": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthemia%1:26:00::",
+          "synset": "14590187-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthic acid": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthic_acid%1:27:00::",
+          "synset": "15137499-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthine": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthine%1:27:00::",
+          "synset": "15137617-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthoma": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthoma%1:26:00::",
+          "synset": "14256749-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthoma disseminatum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthoma_disseminatum%1:26:00::",
+          "synset": "14257027-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthoma multiplex": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthoma_multiplex%1:26:00::",
+          "synset": "14257199-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthomatosis": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthomatosis%1:26:00::",
+          "synset": "14257199-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthomonad": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthomonad%1:05:00::",
+          "synset": "01364324-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthophyl": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthophyl%1:27:00::",
+          "synset": "14745796-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthophyll": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthophyll%1:27:00::",
+          "synset": "14745796-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthopsia": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthopsia%1:26:00::",
+          "synset": "14597737-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthosis": {
+    "n": {
+      "senses": [
+        {
+          "id": "xanthosis%1:26:00::",
+          "synset": "14257456-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xanthous": {
+    "a": {
+      "pronunciation": [
+        {
+          "value": "ˈzæn.θəs"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xanthous%5:00:00:chromatic:00",
+          "synset": "00386818-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xc": {
+    "a": {
+      "senses": [
+        {
+          "id": "xc%5:00:00:cardinal:00",
+          "synset": "02202784-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xci": {
+    "a": {
+      "senses": [
+        {
+          "id": "xci%5:00:00:cardinal:00",
+          "synset": "02202873-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xcii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xcii%5:00:00:cardinal:00",
+          "synset": "02202967-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xciii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xciii%5:00:00:cardinal:00",
+          "synset": "02203062-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xciv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xciv%5:00:00:cardinal:00",
+          "synset": "02203162-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xcl": {
+    "a": {
+      "senses": [
+        {
+          "id": "xcl%5:00:00:cardinal:00",
+          "synset": "02205856-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xcv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xcv%5:00:00:cardinal:00",
+          "synset": "02203259-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xcvi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xcvi%5:00:00:cardinal:00",
+          "synset": "02203355-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xcvii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xcvii%5:00:00:cardinal:00",
+          "synset": "02203450-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xcviii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xcviii%5:00:00:cardinal:00",
+          "synset": "02203550-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenogeneic": {
+    "a": {
+      "senses": [
+        {
+          "antonym": [
+            "allogeneic%3:00:00::"
+          ],
+          "id": "xenogeneic%3:00:00::",
+          "synset": "02606374-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenogenesis": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "zɛnəʊˈd͡ʒɛnəsɪs",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xenogenesis%1:19:00::",
+          "synset": "11444308-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenograft": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzɛnəʊɡɹæft"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xenograft%1:08:00::",
+          "synset": "05591274-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenolith": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenolith%1:17:00::",
+          "synset": "09504250-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenon": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈziːnɒn",
+          "variety": "GB"
+        },
+        {
+          "value": "zinən",
+          "variety": "US"
+        },
+        {
+          "value": "zɪinɔn",
+          "variety": "AU"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xenon%1:27:00::",
+          "synset": "14685453-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenophobia": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "zɛnəˈfəʊbɪə",
+          "variety": "GB"
+        },
+        {
+          "value": "zinəˈfoʊbiə",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "xenophobic%5:00:00:afraid:00"
+          ],
+          "id": "xenophobia%1:26:00::",
+          "synset": "14409427-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenophobic": {
+    "a": {
+      "senses": [
+        {
+          "derivation": [
+            "xenophobia%1:26:00::"
+          ],
+          "id": "xenophobic%5:00:00:afraid:00",
+          "synset": "00081983-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenotime": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenotime%1:27:00::",
+          "synset": "15130522-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenotransplant": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenotransplant%1:04:00::",
+          "synset": "01270764-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xenotransplantation": {
+    "n": {
+      "senses": [
+        {
+          "id": "xenotransplantation%1:04:00::",
+          "synset": "01270764-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xeranthemum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xeranthemum%1:20:00::",
+          "synset": "12053973-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xeric": {
+    "a": {
+      "pronunciation": [
+        {
+          "value": "ˈzɪɹɪk",
+          "variety": "US"
+        },
+        {
+          "value": "ˈzɪəɹɪk",
+          "variety": "GB"
+        }
+      ],
+      "senses": [
+        {
+          "antonym": [
+            "hydric%3:00:00::",
+            "mesic%3:00:00::"
+          ],
+          "id": "xeric%3:00:00::",
+          "synset": "02599077-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xeroderma": {
+    "n": {
+      "senses": [
+        {
+          "id": "xeroderma%1:26:00::",
+          "synset": "14561165-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xeroderma pigmentosum": {
+    "n": {
+      "senses": [
+        {
+          "id": "xeroderma_pigmentosum%1:26:00::",
+          "synset": "14561337-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerodermia": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerodermia%1:26:00::",
+          "synset": "14561165-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerographic": {
+    "a": {
+      "senses": [
+        {
+          "derivation": [
+            "xerography%1:04:00::"
+          ],
+          "id": "xerographic%3:01:00::",
+          "pertainym": [
+            "xerography%1:04:00::"
+          ],
+          "synset": "03142526-a"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerographic copier": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerographic_copier%1:06:00::",
+          "synset": "04616281-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerographic printer": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerographic_printer%1:06:00::",
+          "synset": "04616167-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerography": {
+    "n": {
+      "senses": [
+        {
+          "derivation": [
+            "xerographic%3:01:00::"
+          ],
+          "id": "xerography%1:04:00::",
+          "synset": "00906602-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xeroma": {
+    "n": {
+      "senses": [
+        {
+          "id": "xeroma%1:26:00::",
+          "synset": "14561715-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophile": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophile%1:20:00::",
+          "synset": "13141863-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophilous plant": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophilous_plant%1:20:00::",
+          "synset": "13141863-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophthalmia": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophthalmia%1:26:00::",
+          "synset": "14561715-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophthalmus": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophthalmus%1:26:00::",
+          "synset": "14561715-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophyte": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzɪəɹəʊfaɪt"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "xerophytic%5:00:00:xeric:00"
+          ],
+          "id": "xerophyte%1:20:00::",
+          "synset": "13141863-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophytic": {
+    "a": {
+      "senses": [
+        {
+          "derivation": [
+            "xerophyte%1:20:00::"
+          ],
+          "id": "xerophytic%5:00:00:xeric:00",
+          "synset": "02599230-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerophytic plant": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerophytic_plant%1:20:00::",
+          "synset": "13141863-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xeroradiography": {
+    "n": {
+      "senses": [
+        {
+          "id": "xeroradiography%1:04:00::",
+          "synset": "00906890-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerostomia": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerostomia%1:26:00::",
+          "synset": "14561931-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerotes": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerotes%1:26:00::",
+          "synset": "14560040-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerox": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzɛ.ɹɒks",
+          "variety": "GB"
+        },
+        {
+          "value": "ˈziː(ə)ɹ.ɑks",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "xerox%2:36:00::"
+          ],
+          "id": "xerox%1:06:01::",
+          "synset": "04616593-n"
+        }
+      ]
+    },
+    "v": {
+      "pronunciation": [
+        {
+          "value": "ˈzɛ.ɹɒks",
+          "variety": "GB"
+        },
+        {
+          "value": "ˈziː(ə)ɹ.ɑks",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "xerox%1:06:01::",
+            "xerox%1:06:00::"
+          ],
+          "id": "xerox%2:36:00::",
+          "result": [
+            "xerox%1:06:01::"
+          ],
+          "subcat": [
+            "via",
+            "vtai"
+          ],
+          "synset": "01740180-v"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xerox copy": {
+    "n": {
+      "senses": [
+        {
+          "id": "xerox_copy%1:06:00::",
+          "synset": "04616593-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xi%5:00:00:cardinal:00",
+          "synset": "02195018-s"
+        }
+      ]
+    },
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ksaɪ"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xi%1:10:00::",
+          "synset": "06848575-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xii%5:00:00:cardinal:00",
+          "synset": "02195104-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xiii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xiii%5:00:00:cardinal:00",
+          "synset": "02195245-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xiphium iris": {
+    "n": {
+      "senses": [
+        {
+          "id": "xiphium_iris%1:20:00::",
+          "synset": "12436100-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xiphoid process": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzɪˌfɔɪd ˈpɹɑˌsɛs",
+          "variety": "US"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xiphoid_process%1:08:00::",
+          "synset": "05289190-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xiv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xiv%5:00:00:cardinal:00",
+          "synset": "02195338-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xix": {
+    "a": {
+      "senses": [
+        {
+          "id": "xix%5:00:00:cardinal:00",
+          "synset": "02195844-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xl": {
+    "a": {
+      "senses": [
+        {
+          "id": "xl%5:00:00:cardinal:00",
+          "synset": "02197917-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xli": {
+    "a": {
+      "senses": [
+        {
+          "id": "xli%5:00:00:cardinal:00",
+          "synset": "02198016-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xlii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xlii%5:00:00:cardinal:00",
+          "synset": "02198108-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xliii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xliii%5:00:00:cardinal:00",
+          "synset": "02198201-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xliv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xliv%5:00:00:cardinal:00",
+          "synset": "02198299-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xlv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xlv%5:00:00:cardinal:00",
+          "synset": "02198394-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xlvi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xlvi%5:00:00:cardinal:00",
+          "synset": "02198488-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xlvii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xlvii%5:00:00:cardinal:00",
+          "synset": "02198581-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xlviii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xlviii%5:00:00:cardinal:00",
+          "synset": "02198679-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xv%5:00:00:cardinal:00",
+          "synset": "02195432-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xvi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xvi%5:00:00:cardinal:00",
+          "synset": "02195542-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xvii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xvii%5:00:00:cardinal:00",
+          "synset": "02195634-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xviii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xviii%5:00:00:cardinal:00",
+          "synset": "02195747-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xx": {
+    "a": {
+      "senses": [
+        {
+          "id": "xx%5:00:00:cardinal:00",
+          "synset": "02195956-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxi%5:00:00:cardinal:00",
+          "synset": "02196070-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxii%5:00:00:cardinal:00",
+          "synset": "02196164-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxiii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxiii%5:00:00:cardinal:00",
+          "synset": "02196259-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxiv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxiv%5:00:00:cardinal:00",
+          "synset": "02196359-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxix": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxix%5:00:00:cardinal:00",
+          "synset": "02196848-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxv%5:00:00:cardinal:00",
+          "synset": "02196456-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxvi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxvi%5:00:00:cardinal:00",
+          "synset": "02196552-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxvii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxvii%5:00:00:cardinal:00",
+          "synset": "02196647-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxviii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxviii%5:00:00:cardinal:00",
+          "synset": "02196747-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxx": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxx%5:00:00:cardinal:00",
+          "synset": "02196945-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxi%5:00:00:cardinal:00",
+          "synset": "02197035-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxii%5:00:00:cardinal:00",
+          "synset": "02197130-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxiii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxiii%5:00:00:cardinal:00",
+          "synset": "02197226-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxiv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxiv%5:00:00:cardinal:00",
+          "synset": "02197327-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxv": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxv%5:00:00:cardinal:00",
+          "synset": "02197425-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxvi": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxvi%5:00:00:cardinal:00",
+          "synset": "02197522-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxvii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxvii%5:00:00:cardinal:00",
+          "synset": "02197618-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xxxviii": {
+    "a": {
+      "senses": [
+        {
+          "id": "xxxviii%5:00:00:cardinal:00",
+          "synset": "02197719-s"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylem": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzaɪ.ləm"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xylem%1:20:00::",
+          "synset": "13119407-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylene": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzaɪliːn"
+        }
+      ],
+      "senses": [
+        {
+          "id": "xylene%1:27:00::",
+          "synset": "15130710-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylol": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylol%1:27:00::",
+          "synset": "15130710-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylometer": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylometer%1:06:01::",
+          "synset": "92459134-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylophone": {
+    "n": {
+      "pronunciation": [
+        {
+          "value": "ˈzaɪ.lə.ˌfəʊn"
+        }
+      ],
+      "senses": [
+        {
+          "derivation": [
+            "xylophonist%1:18:00::"
+          ],
+          "id": "xylophone%1:06:00::",
+          "synset": "03726875-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylophonist": {
+    "n": {
+      "senses": [
+        {
+          "derivation": [
+            "xylophone%1:06:00::"
+          ],
+          "id": "xylophonist%1:18:00::",
+          "synset": "10821301-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylose": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylose%1:27:00::",
+          "synset": "15128347-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  },
+  "xylosma": {
+    "n": {
+      "senses": [
+        {
+          "id": "xylosma%1:20:00::",
+          "synset": "12401612-n"
+        }
+      ]
+    },
+    "languages": [
+      "English"
+    ]
+  }
+}

@@ -3772,6 +3772,11 @@
       "def": "A journey or a way; one's experiences in life; an instant in time or an occasion; synonym with trip (when referring to a journey) [From the Old English \"sīþ\", which holds the same meanings as above]"
     }
   },
+  "silver": {
+    "x": {
+      "def": "a bribe will soften the heart of the most obdurate;  [OE]"
+    }
+  },
   "sinwash": {
     "v": {
       "def": "cleanse or absolve from sin;  [compound of sin + wash]"
@@ -4813,7 +4818,7 @@
     }
   },
   "wunlingly": {
-    "r": {
+    "a": {
       "def": "normative;  [OE gewunelic]"
     }
   },

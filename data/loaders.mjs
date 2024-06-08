@@ -366,7 +366,7 @@ export class MootLoader {
         let [word, pos, def] = Array.from(cells).map((cell) => $(cell).text());
         if (!/anglish/i.test(word)) {
           word = cleanStr(word);
-          if (!/^([\w'-]+\s?)+$/.test(word)) continue main;
+          if (!word || !/^([\w'-]+\s?)+$/.test(word)) continue main;
           if (!this.anglish[word]) {
             this.anglish[word] = {};
           }
@@ -442,9 +442,13 @@ export class MootLoader {
             this.english[word] = {};
           }
 
-          pos = cleanStr(pos)
-            .split(/[^\w\s-']/)
-            .filter((s) => !!s)[0];
+          pos = pos
+            .replace(/\n/g, ';')
+            .replace(/\([^)]*\)/g, '')
+            .replace(/\[[^\]]*\]/g, '')
+            .split(/[^a-z\s\-']/i)
+            .map((str) => str.trim())
+            .filter((s) => !!s && s !== '-')[0];
           if (!pos || !/^\w+$/.test(pos)) {
             delete this.english[word];
             continue main;
@@ -456,15 +460,21 @@ export class MootLoader {
             };
           }
 
-          att = cleanStr(att)
+          att = att
+            .replace(/\n/g, ';')
+            .replace(/\([^)]*\)/g, '')
+            .replace(/\[[^\]]*\]/g, '')
             .split(/[^a-z\s\-']/i)
-            .map((s) => s.trim())
+            .map((str) => str.trim())
             .filter((s) => !!s && s !== '-');
           this.english[word][pos].senses.push(...att);
 
-          una = cleanStr(una)
+          una = una
+            .replace(/\n/g, ';')
+            .replace(/\([^)]*\)/g, '')
+            .replace(/\[[^\]]*\]/g, '')
             .split(/[^a-z\s\-']/i)
-            .map((s) => s.trim())
+            .map((str) => str.trim())
             .filter((s) => !!s && s !== '-');
           this.english[word][pos].senses.push(...una);
         }
