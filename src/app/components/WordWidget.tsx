@@ -4,9 +4,9 @@ import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 
-export default function Widget() {
+export default function WordWidget() {
   return (
-    <div className='relative rounded-lg border-2 border-stone-700 p-6 w-full shadow-lg bg-stone-800'>
+    <div className='relative rounded-lg border-2 dark:border-stone-700 p-6 w-full shadow-lg dark:bg-stone-800'>
       <Link href='/word/bookcraft' className='text-sm absolute right-6 top-6'>
         <FontAwesomeIcon icon={faUpRightFromSquare} />
       </Link>

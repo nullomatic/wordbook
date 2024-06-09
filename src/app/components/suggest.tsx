@@ -35,26 +35,31 @@ export default function Counter() {
 
   return (
     <div className='w-full relative'>
-      <div className='absolute left-4 top-5 flex items-center h-4 w-4'>
+      <div className='absolute left-4 top-4 flex items-center h-4 w-4 z-20'>
         <FontAwesomeIcon icon={faMagnifyingGlass} className='text-sm' />
       </div>
       <input
-        className='border border-stone-300 h-14 rounded-lg px-11 py-4 w-full focus:shadow-md focus:border-stone-400 ring-pink-300 outline-none'
-        placeholder='Enter a word...'
+        className='dark:bg-stone-800 z-10 dark:placeholder:text-stone-400 relative border dark:border-stone-800 h-12 rounded-lg px-11 py-4 w-full shadow-inner focus:border-stone-400 ring-pink-300 outline-none'
+        placeholder='Search for a word...'
         onChange={_suggest}
       />
-      <div className='absolute right-4 top-5 flex items-center h-4 w-4'>
+      <div className='h-12 w-full rounded-lg dark:bg-stone-600 absolute top-1 left-1'></div>
+      <div className='absolute right-3 top-4 flex items-center h-4 w-4 z-20'>
         <FontAwesomeIcon icon={faCircleXmark} className='text-sm' />
       </div>
       {
-        <div className='mt-3 bg-white rounded-lg border border-stone-300 divide-y overflow-hidden'>
+        <div
+          className={`mt-3 bg-white rounded-lg border dark:border-stone-300 divide-y overflow-hidden ${
+            !list.length ? 'hidden' : ''
+          }`}
+        >
           {list.map((result: any, i: number) => (
             <Link
               key={i}
               href={`/word/${result.lang}/${result.word}`}
               className='flex items-center py-3 hover:bg-lime-100'
             >
-              <div className='uppercase text-sm font-bold text-stone-800 px-5'>
+              <div className='uppercase text-sm font-bold dark:text-stone-800 px-5'>
                 {result.lang}
               </div>
               <div className='grow'>{result.word}</div>
