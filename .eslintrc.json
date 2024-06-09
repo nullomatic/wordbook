@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:import/recommended",
+    "plugin:import/typescript"
+  ],
+  "plugins": ["import"],
+  "rules": {
+    "semi": "error",
+    "import/order": ["error", { "alphabetize": { "order": "asc" } }]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": { "project": ["tsconfig.json"] }
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    }
+  }
 }

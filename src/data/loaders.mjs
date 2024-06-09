@@ -1,7 +1,3 @@
-import * as cheerio from 'cheerio';
-import axios from 'axios';
-import csv from 'csvtojson';
-import { createInterface } from 'node:readline/promises';
 import {
   createReadStream,
   mkdirSync,
@@ -10,16 +6,19 @@ import {
   statSync,
   writeFileSync,
 } from 'fs';
+import { createInterface } from 'node:readline/promises';
+import axios from 'axios';
+import * as cheerio from 'cheerio';
+import csv from 'csvtojson';
+import _ from 'lodash';
+import YAML from 'yaml';
 import {
-  cleanStr,
   formatPoS,
+  cleanStr,
   formatSenses,
   getPath,
   replaceKeyPattern,
 } from './util.mjs';
-import byteSize from 'byte-size';
-import YAML from 'yaml';
-import _ from 'lodash';
 
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
@@ -336,10 +335,9 @@ export class MootLoader {
     console.log('Scraping Anglish Moot data...');
 
     this.anglish = {};
-    let $, data;
 
-    data = await this.#fetchURL(`${this.baseURL}/wiki/Anglish_Wordbook`);
-    $ = cheerio.load(data);
+    const data = await this.#fetchURL(`${this.baseURL}/wiki/Anglish_Wordbook`);
+    let $ = cheerio.load(data);
     const hrefs = Array.from(
       $('tbody')
         .first()
@@ -351,7 +349,7 @@ export class MootLoader {
       console.time(href);
 
       const url = this.baseURL + href;
-      let data = await this.#fetchURL(url);
+      const data = await this.#fetchURL(url);
       if (!data) {
         continue;
       }
@@ -409,10 +407,9 @@ export class MootLoader {
     console.log('Scraping English Moot data...');
 
     this.english = {};
-    let $, data;
 
-    data = await this.#fetchURL(`${this.baseURL}/wiki/English_Wordbook`);
-    $ = cheerio.load(data);
+    const data = await this.#fetchURL(`${this.baseURL}/wiki/English_Wordbook`);
+    let $ = cheerio.load(data);
     const hrefs = Array.from(
       $('big')
         .first()
@@ -424,7 +421,7 @@ export class MootLoader {
       console.time(href);
 
       const url = this.baseURL + href;
-      let data = await this.#fetchURL(url);
+      const data = await this.#fetchURL(url);
       if (!data) {
         continue;
       }

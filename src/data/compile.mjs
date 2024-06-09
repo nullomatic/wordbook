@@ -1,12 +1,12 @@
+import * as fs from 'fs';
+import _ from 'lodash';
+import * as gpt from './gpt.mjs';
 import {
   MootLoader,
   WiktionaryLoader,
   WordNetLoader,
   WordbookLoader,
 } from './loaders.mjs';
-import * as gpt from './gpt.mjs';
-import _ from 'lodash';
-import * as fs from 'fs';
 import * as util from './util.mjs';
 
 /**

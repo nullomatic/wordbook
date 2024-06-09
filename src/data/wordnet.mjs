@@ -1,10 +1,10 @@
 import { createReadStream, readFileSync, readdirSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { redis } from './redis.mjs';
-import { getPath } from './util.mjs';
 import { fileURLToPath } from 'url';
 import YAML from 'yaml';
 import { openai } from './gpt.mjs';
+import { redis } from './redis.mjs';
+import { getPath } from './util.mjs';
 
 await parseMootJSON();
 

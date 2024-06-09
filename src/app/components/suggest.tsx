@@ -1,13 +1,13 @@
 'use client';
 
-import { debounce } from 'lodash';
-import Link from 'next/link';
-import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faMagnifyingGlass,
   faCircleXmark,
 } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { debounce } from 'lodash';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Counter() {
   const results: any = [];
@@ -46,7 +46,7 @@ export default function Counter() {
       <div className='absolute right-4 top-5 flex items-center h-4 w-4'>
         <FontAwesomeIcon icon={faCircleXmark} className='text-sm' />
       </div>
-      {list.length && (
+      {
         <div className='mt-3 bg-white rounded-lg border border-stone-300 divide-y overflow-hidden'>
           {list.map((result: any, i: number) => (
             <Link
@@ -62,7 +62,7 @@ export default function Counter() {
             </Link>
           ))}
         </div>
-      )}
+      }
     </div>
   );
 }

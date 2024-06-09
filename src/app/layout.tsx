@@ -1,7 +1,7 @@
+import { config } from '@fortawesome/fontawesome-svg-core';
 import type { Metadata } from 'next';
 import { Source_Sans_3 } from 'next/font/google';
 import './globals.css';
-import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
 
@@ -19,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={font.className}>{children}</body>
+      <body
+        className={`bg-stone-100 text-black dark:bg-stone-900 dark:text-white ${font.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
