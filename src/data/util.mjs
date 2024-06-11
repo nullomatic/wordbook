@@ -1,3 +1,4 @@
+import { readdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -7,6 +8,12 @@ const DIRNAME = dirname(fileURLToPath(import.meta.url));
 // e.g., `en:aardvark:noun:1`, where `1` represents the etymological
 // index of the word for words that have multiple meanings.
 const KEY_PATTERN = '<lang>:<word>:<pos>:<etym>';
+
+export function getFilenames(dir) {
+  const filenames = readdirSync(getPath(dir));
+  const uris = filenames.map((filename) => getPath(`${dir}/${filename}`));
+  return [uris, filenames];
+}
 
 export function replaceKeyPattern(options) {
   return KEY_PATTERN.replace(/<(\w+)>/g, (match, key) => {

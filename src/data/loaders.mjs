@@ -12,13 +12,7 @@ import * as cheerio from 'cheerio';
 import csv from 'csvtojson';
 import _ from 'lodash';
 import YAML from 'yaml';
-import {
-  formatPoS,
-  cleanStr,
-  formatSenses,
-  getPath,
-  replaceKeyPattern,
-} from './util.mjs';
+import * as util from './util.mjs';
 
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
@@ -33,7 +27,7 @@ import {
 export class WiktionaryLoader {
   constructor() {
     this.data = null;
-    this.uri = getPath('/assets/kaikki/kaikki-en.json');
+    this.uri = util.getPath('/assets/kaikki/kaikki-en.json');
   }
 
   async load(options) {
@@ -42,7 +36,9 @@ export class WiktionaryLoader {
       // If `options.save` is specified, assume we want to reload the data.
       try {
         console.log('Loading kaikki-an.json');
-        const file = readFileSync(getPath('/assets/kaikki/kaikki-an.json'));
+        const file = readFileSync(
+          util.getPath('/assets/kaikki/kaikki-an.json')
+        );
         this.data = JSON.parse(file);
         return this;
       } catch (e) {}
@@ -83,7 +79,7 @@ export class WiktionaryLoader {
         isAnglish = false;
       }
       if (isAnglish) {
-        const pos = formatPoS(json.pos);
+        const pos = util.formatPoS(json.pos);
         if (!this.data[json.word]) {
           this.data[json.word] = {
             [pos]: {
@@ -102,7 +98,7 @@ export class WiktionaryLoader {
 
     if (options?.save) {
       console.log('Saving kaikki-an.json');
-      const uri = getPath('/assets/kaikki/kaikki-an.json');
+      const uri = util.getPath('/assets/kaikki/kaikki-an.json');
       writeFileSync(uri, JSON.stringify(this.data, null, 2));
     }
 
@@ -207,7 +203,7 @@ export class WiktionaryLoader {
    **/
   #redisCallback(line) {
     const entry = JSON.parse(line);
-    const key = replaceKeyPattern({
+    const key = util.replaceKeyPattern({
       lang: 'en',
       word: entry.word,
       pos: entry.pos,
@@ -235,21 +231,25 @@ export class WordbookLoader {
       // If `options.save` is specified, assume we want to reload the data.
       try {
         console.log('Loading wordbook.json');
-        const file = readFileSync(getPath('/assets/wordbook/wordbook.json'));
+        const file = readFileSync(
+          util.getPath('/assets/wordbook/wordbook.json')
+        );
         this.data = JSON.parse(file);
         return this;
       } catch (e) {}
     }
 
     this.data = {};
-    const data = await csv().fromFile(getPath('/assets/wordbook/wordbook.csv'));
+    const data = await csv().fromFile(
+      util.getPath('/assets/wordbook/wordbook.csv')
+    );
 
     for (const item of data) {
       const posArr = this.#formatPoSArr(item['KIND']);
       const senses = formatSenses(item['MEANING']);
 
       for (const pos of posArr) {
-        const word = cleanStr(item['WORD']);
+        const word = util.cleanStr(item['WORD']);
         const entry = {
           angSpelling: item['ANG. SPEL.'],
           senses: senses,
@@ -268,7 +268,7 @@ export class WordbookLoader {
 
     if (options?.save) {
       console.log('Saving wordbook.json');
-      const uri = getPath('/assets/wordbook/wordbook.json');
+      const uri = util.getPath('/assets/wordbook/wordbook.json');
       writeFileSync(uri, JSON.stringify(this.data, null, 2));
     }
 
@@ -282,7 +282,7 @@ export class WordbookLoader {
       .split(/[^\w\s]/)
       .filter((s) => !!s);
     for (let pos of arr) {
-      pos = formatPoS(pos);
+      pos = util.formatPoS(pos);
       s.add(pos);
     }
     return Array.from(s);
@@ -299,8 +299,8 @@ export class MootLoader {
     this.english = null;
     this.anglish = null;
 
-    this.jsonPathAnglish = getPath('/assets/moot/moot-an.json');
-    this.jsonPathEnglish = getPath('/assets/moot/moot-en.json');
+    this.jsonPathAnglish = util.getPath('/assets/moot/moot-an.json');
+    this.jsonPathEnglish = util.getPath('/assets/moot/moot-en.json');
   }
 
   async load(options) {
@@ -363,20 +363,21 @@ export class MootLoader {
         const cells = $(el).find('td');
         let [word, pos, def] = Array.from(cells).map((cell) => $(cell).text());
         if (!/anglish/i.test(word)) {
-          word = cleanStr(word);
+          word = util.cleanStr(word);
           if (!word || !/^([\w'-]+\s?)+$/.test(word)) continue main;
           if (!this.anglish[word]) {
             this.anglish[word] = {};
           }
 
-          pos = cleanStr(pos)
+          pos = util
+            .cleanStr(pos)
             .split(/[^\w\s-']/)
             .filter((s) => !!s)[0];
           if (!pos || !/^\w+$/.test(pos)) {
             delete this.anglish[word];
             continue main;
           }
-          pos = formatPoS(pos);
+          pos = util.formatPoS(pos);
           if (!this.anglish[word][pos]) {
             this.anglish[word][pos] = {
               def: '',
@@ -434,7 +435,7 @@ export class MootLoader {
             $(cell).text()
           );
 
-          word = cleanStr(word);
+          word = util.cleanStr(word);
           if (!this.english[word]) {
             this.english[word] = {};
           }
@@ -450,7 +451,7 @@ export class MootLoader {
             delete this.english[word];
             continue main;
           }
-          pos = formatPoS(pos);
+          pos = util.formatPoS(pos);
           if (!this.english[word][pos]) {
             this.english[word][pos] = {
               senses: [],
@@ -531,7 +532,7 @@ export class MootLoader {
    */
   #processEntry(entry, type) {
     // Clean `att` or `una` field.
-    const anglishWordsStr = cleanStr(entry[type]);
+    const anglishWordsStr = util.cleanStr(entry[type]);
     if (!anglishWordsStr || /^\s?-\s?$/.test(anglishWordsStr)) {
       return;
     }
@@ -540,7 +541,7 @@ export class MootLoader {
       .map((word) => word.trim());
 
     // Clean `eng` field.
-    let englishWord = cleanStr(entry.eng);
+    let englishWord = util.cleanStr(entry.eng);
     if (/,/.test(englishWord)) {
       englishWord = englishWord.split(',').shift();
     }
@@ -609,14 +610,14 @@ export class WordNetLoader {
       if (options?.save) {
         throw new Error();
       }
-      [uris, filenames] = this.#getFilenames(this.dirJSON);
+      [uris, filenames] = util.getFilenames(this.dirJSON);
     } catch (e) {
-      [uris, filenames] = this.#getFilenames(this.dirYAML);
+      [uris, filenames] = util.getFilenames(this.dirYAML);
       isYAML = true;
     }
 
     if (options?.save) {
-      mkdirSync(getPath(this.dirJSON), { recursive: true });
+      mkdirSync(util.getPath(this.dirJSON), { recursive: true });
     }
 
     for (const [uri, filename] of uris.map((uri, i) => [uri, filenames[i]])) {
@@ -657,12 +658,6 @@ export class WordNetLoader {
     return this;
   }
 
-  #getFilenames(dir) {
-    const filenames = readdirSync(getPath(dir));
-    const uris = filenames.map((filename) => getPath(`${dir}/${filename}`));
-    return [uris, filenames];
-  }
-
   async #processFile(filename, json, isYAML, options) {
     console.log(`Loading ${filename}`);
 
@@ -670,7 +665,7 @@ export class WordNetLoader {
       const _filename = filename.replace('yaml', 'json');
       console.log(`Saving ${_filename}`);
       writeFileSync(
-        getPath(`${this.dirJSON}/${_filename}`),
+        util.getPath(`${this.dirJSON}/${_filename}`),
         JSON.stringify(json, null, 2)
       );
     }

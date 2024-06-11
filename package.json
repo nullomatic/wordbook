@@ -18,6 +18,7 @@
     "lodash": "^4.17.21",
     "next": "14.2.3",
     "openai": "^4.47.3",
+    "pg": "^8.12.0",
     "react": "^18",
     "react-dom": "^18",
     "redis": "^4.6.14"
@@ -38,6 +39,7 @@
     "eslint-config-next": "14.2.3",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
+    "glob": "^10.4.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5",
