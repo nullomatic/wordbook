@@ -1,6 +1,8 @@
 import { readdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import _ from 'lodash';
+import * as winston from 'winston';
 
 const DIRNAME = dirname(fileURLToPath(import.meta.url));
 
@@ -9,10 +11,26 @@ const DIRNAME = dirname(fileURLToPath(import.meta.url));
 // index of the word for words that have multiple meanings.
 const KEY_PATTERN = '<lang>:<word>:<pos>:<etym>';
 
+const logFormat = winston.format.printf(function (info) {
+  return `${info.timestamp}-${info.level}: ${info.message}`;
+});
+
+export const logger = winston.createLogger({
+  transports: [
+    new winston.transports.Console({
+      format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.colorize(),
+        logFormat
+      ),
+    }),
+  ],
+});
+
 export function getFilenames(dir) {
   const filenames = readdirSync(getPath(dir));
-  const uris = filenames.map((filename) => getPath(`${dir}/${filename}`));
-  return [uris, filenames];
+  const fullPaths = filenames.map((filename) => getPath(`${dir}/${filename}`));
+  return _.zip(filenames, fullPaths);
 }
 
 export function replaceKeyPattern(options) {

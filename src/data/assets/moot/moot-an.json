@@ -82,6 +82,9 @@
   "afore": {
     "p": {
       "def": "(Archaic/dialectal) before; before, previously, whilom [OED, Still use in some English Dialects and Lowland Scots, OE onforan, ME aforen,  aforne  (A + fore)]"
+    },
+    "r": {
+      "def": "(Archaic/dialectal) before; before, previously, whilom [OED, Still use in some English Dialects and Lowland Scots, OE onforan, ME aforen,  aforne  (A + fore)]"
     }
   },
   "aforesaid": {
@@ -194,6 +197,11 @@
       "def": "anointing; baptism [PWG ankwō + -þi]"
     }
   },
+  "anxthing": {
+    "n": {
+      "def": "unction;  [PWG ankwō + -þi, -ti + -ungaz]"
+    }
+  },
   "aqueath": {
     "v": {
       "def": "declare, express;  [OE acweðan]"
@@ -277,6 +285,9 @@
   "atween": {
     "p": {
       "def": "archaic word for between; between [OED,  ME atwen, uncommon (still used in Lowland Scots)]"
+    },
+    "r": {
+      "def": "archaic word for between; between [OED,  ME atwen, uncommon (still used in Lowland Scots)]"
     }
   },
   "avond": {
@@ -356,6 +367,9 @@
   },
   "bearing": {
     "n": {
+      "def": "Meaning 1: fertile, fecund Meaning 2: behavior Meaning 3: tolerance Meaning 4: awareness or sense of direction; Varies by meaning [OE berend]"
+    },
+    "a": {
       "def": "Meaning 1: fertile, fecund Meaning 2: behavior Meaning 3: tolerance Meaning 4: awareness or sense of direction; Varies by meaning [OE berend]"
     }
   },
@@ -452,6 +466,9 @@
   "beshed": {
     "n": {
       "def": "n: distinction vb: to discriminate;  [OE bescead(an)]"
+    },
+    "v": {
+      "def": "n: distinction vb: to discriminate;  [OE bescead(an)]"
     }
   },
   "besnit": {
@@ -529,11 +546,7 @@
       "def": "of urban decay during times of unsustainable numbers of refugees taking sanctuary within the walls of a besieged town. It originates from decaying buildings, contaminated agricultural soils, the accumulation of human and animal waste indicating continuing activity alongside the collapse of civic control.;  []"
     }
   },
-  "bleeding edge": {
-    "x": {
-      "def": "something too new and untested to be considered reliable or to have an assurance of safety. fig. such place where such things exist, 'as the 'bleeding edge' of drone technology.' cf. 'cutting edge.'; cutting edge [OE]"
-    }
-  },
+  "bleeding edge": {},
   "bleeter": {
     "v": {
       "def": "to talk aimlessly;  [Doric]"
@@ -824,11 +837,7 @@
       "def": "a word, verse or sentence that reads the same backwards or forwards.; palindrome [neologism, from crab + word. Crab a being which is happy going backwards or forward. Taken from Greek, karkinos.]"
     }
   },
-  "cradle to the grave": {
-    "x": {
-      "def": "lifespan, from birth to death.; 'womb to doom; lifespan [O.E.]"
-    }
-  },
+  "cradle to the grave": {},
   "craftwork": {
     "n": {
       "def": "an industrial site where electricity is wrought.;  [neologism, from craft + work. Taken from German, kraftwerksee SV \"kraftverk\".]"
@@ -1034,11 +1043,7 @@
       "def": "the sixth month of the year, the dry month; June [Anglo-Saxon, from Sēre-Mōnath]"
     }
   },
-  "like a working-bee in blossom dust": {
-    "x": {
-      "def": "a description of a miller at work.;  []"
-    }
-  },
+  "like a working-bee in blossom dust": {},
   "dustsucker": {
     "n": {
       "def": "a vacuum cleaner.;  [dust & suck]"
@@ -1069,6 +1074,7 @@
       "def": "chaos;  [OE]"
     }
   },
+  "ðes": {},
   "ea": {
     "n": {
       "def": "a flow of water over land, larger than a stream; river [dialectical, from OE ea]"
@@ -1127,11 +1133,6 @@
   "eawishberrend": {
     "n": {
       "def": "the middle finger;  [Anglo-Saxon, aewishberend]"
-    }
-  },
-  "ed-": {
-    "x": {
-      "def": "to do anew; to do ayen; re- [OE ed-]"
     }
   },
   "edforbind": {
@@ -1219,6 +1220,14 @@
       "def": "giant;  [OE eoten]"
     }
   },
+  "ere": {
+    "p": {
+      "def": "Def 1:Long ago, Def 2:sooner or quicker before an event happens, Def 3:before;  [OED, OE ǣr]"
+    },
+    "c": {
+      "def": "Def 1:Long ago, Def 2:sooner or quicker before an event happens, Def 3:before;  [OED, OE ǣr]"
+    }
+  },
   "eretide": {
     "n": {
       "def": "the time gone by; past [neologism, from ere 'before' + tide 'time']"
@@ -1269,6 +1278,7 @@
       "def": "just; right, iright [OE aew + -þa; cognate with Latish iustus, justus]"
     }
   },
+  "ewther": {},
   "fading": {
     "n": {
       "def": "arrangement, order, disposition;  [OE fadung]"
@@ -1519,6 +1529,11 @@
       "def": "example; model, template, archetypte [from OE forebysen]"
     }
   },
+  "fordher": {
+    "a": {
+      "def": ";  [OÞ firi- + -þeraz; cognate with YG πρότερος]"
+    }
+  },
   "forhewth": {
     "a": {
       "def": "precise;  [for- + hew (wordlore 1) + -th; kinword with Latish praecisus]"
@@ -1647,6 +1662,9 @@
   "fornheafsel": {
     "n": {
       "def": "principal;  [OE forma + heaf + E -sel]"
+    },
+    "a": {
+      "def": "principal;  [OE forma + heaf + E -sel]"
     }
   },
   "fornheafselt": {
@@ -1687,6 +1705,11 @@
   "forthput": {
     "v": {
       "def": "to put forth, bring forth, show,; to present [forth + put]"
+    }
+  },
+  "forþring": {
+    "v": {
+      "def": "drive out, rescue from, defend against, elbow, displace;  [OE forþringan]"
     }
   },
   "the four sights": {
@@ -1764,6 +1787,11 @@
       "def": "curious;  [OE frymdig]"
     }
   },
+  "friþ": {
+    "n": {
+      "def": "peace, freedom from molestation, protection, safety; security, harmfast [obsolete and poetic OE friþ/friðu akin to OS frithu and ON friðr]"
+    }
+  },
   "frithstool": {
     "n": {
       "def": "a stone seat, placed near the altar of a church, which afforded protection to those seeking sanctuary;  [OED]"
@@ -1784,6 +1812,11 @@
       "def": "frog, toad;  [rare/dialectical from OE frosc]"
     }
   },
+  "froðer": {
+    "v": {
+      "def": "change, wend;  [contraction of for - other (cf. Du. veranderen)]"
+    }
+  },
   "frover": {
     "v": {
       "def": "console;  [OE frefran]"
@@ -1799,11 +1832,7 @@
       "def": "difficult to deal with; contrary;  [OE fromweard.]"
     }
   },
-  "the frozen middle": {
-    "x": {
-      "def": "the most conservative layer in the organization. It is the most resistant to new ways of doing business, and to innovative ideas and perspectives. \"Middle-status conformity effect\" leads individuals to choose the safety of the tried-and-true over inventiveness and ingenuity;  [OE]"
-    }
-  },
+  "the frozen middle": {},
   "fungather": {
     "n": {
       "def": "1. a social gathering of invited guests, typically involving eating, drinking, and entertainment.\n2. a formally constituted political group, typically operating on a national basis, that contests elections and attempts to form or take part in a government.; party, meeting, group, faction [fun-ga-ther]"
@@ -1812,11 +1841,6 @@
   "gadling": {
     "n": {
       "def": "man of humble condition, a fellow;  [<ME <OE gædeling 'kinsman, fellow, companion in arms, comrade' from gāda 'comrade, companion']"
-    }
-  },
-  "gain-": {
-    "x": {
-      "def": "cyclical; repetitive; re-;  [obsolete, from GAIN-]"
     }
   },
   "gainbuy": {
@@ -1874,6 +1898,7 @@
       "def": "bunch of men or things; company, fellowship [OE ġesīþsċipe]"
     }
   },
+  "ghosts-in-the-wires": {},
   "ghost staff": {
     "n": {
       "def": "someone recorded on the payroll system, but who does not work for the business. \"The ghost\" can be a real person who knowingly or not is placed on the payroll, or a fictitious person invented by the dishonest employee.;  [OE: ghost & staff]"
@@ -1914,11 +1939,6 @@
       "def": "the diversity of any society;  [a theatre term, from god \"ground +ling\"]"
     }
   },
-  "godwin's oath-": {
-    "x": {
-      "def": "an assertion of innocence that is immediately proven false;  [Godwin (d.1053) Earl of Wessex and close associate of King Canute of England. Accused of murdering Alfred the brother of King Edward, legend claims that he vehemently protested his innocence and even swore that heaven would strike him if he were guilty. He promptly choked on a piece of bread. Oath: a solemn pledge to God; Godwin: follower of God.]"
-    }
-  },
   "Gotham": {
     "n": {
       "def": "nickname of New York; The Big Apple [Gotham is an Anglo Saxon word meaning “Goat Town” and was first used by Washington Irving in his satirical 1807 periodical Salmagundi. Irving was comparing the savvy New Yorkers to inhabitants of the tiny English village of Gotham who gained notoriety way back in the thirteenth century by pretending to be insane just to get out of paying taxes to King John]"
@@ -1937,6 +1957,11 @@
   "greenwash": {
     "n": {
       "def": "to implement token environmentally friendly iniatives as a way of hiding or deflecting criticism about environmentally destructive practices; none known [neologism, from OE. words green & wash and based on whitewash]"
+    }
+  },
+  "grið": {
+    "n": {
+      "def": "protection, safe conduct;  in OE law security, peace or protection guaranteed under limitations; quarter (in battle); peace , protection, asylum [archaic, from OE. gri truce, peace, pardon]"
     }
   },
   "hemdloving": {
@@ -2039,6 +2064,11 @@
       "def": "lift up;  [OE hebban]"
     }
   },
+  "hedge": {
+    "v": {
+      "def": "consider;  [OE hycgan]"
+    }
+  },
   "heed": {
     "v": {
       "def": "pay attention, take notice;  [CED]"
@@ -2107,6 +2137,11 @@
   "hiddle": {
     "n": {
       "def": "secret;  [OE hydels]"
+    }
+  },
+  "hidesack": {
+    "n": {
+      "def": "leather bag; {{{synonyms}}} [Anglo-Saxon, from hȳdesacc]"
     }
   },
   "high-bliss": {
@@ -2239,6 +2274,11 @@
       "def": "neologism, protologism, sniglet,; new word [OE hot, house & word]"
     }
   },
+  "huecouþ": {
+    "v": {
+      "def": "to make known;  [OE gehiwcuðlician]"
+    }
+  },
   "hueledge": {
     "v": {
       "def": "to form, shape, fashion;  [OE gehiwlæcan]"
@@ -2251,6 +2291,9 @@
   },
   "hure": {
     "a": {
+      "def": "certainly, especially;  [OE huru]"
+    },
+    "r": {
       "def": "certainly, especially;  [OE huru]"
     }
   },
@@ -2266,6 +2309,9 @@
   },
   "ilk": {
     "n": {
+      "def": "same person or persons, kind, class; each, every, each; same family, kind, class, sort [from OE ilca]"
+    },
+    "a": {
       "def": "same person or persons, kind, class; each, every, each; same family, kind, class, sort [from OE ilca]"
     }
   },
@@ -2570,7 +2616,7 @@
     }
   },
   "lest": {
-    "p": {
+    "c": {
       "def": "so as to prevent any possibility that; for fear that;  []"
     }
   },
@@ -2667,6 +2713,9 @@
   "lock-step": {
     "n": {
       "def": "n = a mode of marching by a body of men going one after another as closely as possible , in which the leg of each moves at the same time with the corresponding leg of the person before him. 2. fig. the winnetish copying of one person's actions with another; as political party members act or vote in lockstep with their leadershipadj = synchronized;  [OED]"
+    },
+    "a": {
+      "def": "n = a mode of marching by a body of men going one after another as closely as possible , in which the leg of each moves at the same time with the corresponding leg of the person before him. 2. fig. the winnetish copying of one person's actions with another; as political party members act or vote in lockstep with their leadershipadj = synchronized;  [OED]"
     }
   },
   "loft": {
@@ -2719,11 +2768,6 @@
       "def": "amount;  ['lot' (much, many) + 'hood', influenced by Dutch 'hoeveelheid' (how + much + hood)]"
     }
   },
-  "-ly": {
-    "x": {
-      "def": "the manner in which a noun executes a verb; Example: \"The boy ran quickly\". 'Quick' is the manner in which the boy ran. [O.E. \"lig\" Middle to Modern English \"ly\"]"
-    }
-  },
   "maer": {
     "n": {
       "def": "border; boundary; limit; extent;  [O.E. 'meardenu' meaning a valley that serves as a boundary; O.E. 'mærcumb' literally meaning 'border valley']"
@@ -2741,6 +2785,9 @@
   },
   "manifold": {
     "a": {
+      "def": "1. many and of several different typesmultiply;  [Cambridge English Dictionary]"
+    },
+    "v": {
       "def": "1. many and of several different typesmultiply;  [Cambridge English Dictionary]"
     }
   },
@@ -2804,6 +2851,11 @@
       "def": "smooth, soft or developed; not too sharp, bright, new or rough;  [CED]"
     }
   },
+  "wo": {
+    "n": {
+      "def": "surfers; surfers collectively.;  [OE]"
+    }
+  },
   "mere": {
     "n": {
       "def": "a large body of inland water; lake [dialectual, from OE mere]"
@@ -2836,6 +2888,9 @@
   },
   "mid-thought": {
     "n": {
+      "def": "(n)some time during thought. 2. (adv) during thought. 3. (adv) in mid thought.;  [O.E. mid & thought]"
+    },
+    "r": {
       "def": "(n)some time during thought. 2. (adv) during thought. 3. (adv) in mid thought.;  [O.E. mid & thought]"
     }
   },
@@ -2876,6 +2931,9 @@
   },
   "mindy": {
     "n": {
+      "def": "mention; speak of [mind + PG -jǭ]"
+    },
+    "v": {
       "def": "mention; speak of [mind + PG -jǭ]"
     }
   },
@@ -2919,6 +2977,7 @@
       "def": "food considered to be beneficial to physical and mental health.; mindful eating [OE mood & food.]"
     }
   },
+  "When the moon is full": {},
   "Moonsnavel": {
     "n": {
       "def": "Mexico;  [as Nahuatl \"metz- (moon) + xic- (navel) + -co (land) > mexihco\"]"
@@ -3090,6 +3149,9 @@
   "nutshell": {
     "v": {
       "def": "1. to summarize2. in a nutshell: using as few words as possible;  [CED]"
+    },
+    "n": {
+      "def": "1. to summarize2. in a nutshell: using as few words as possible;  [CED]"
     }
   },
   "oad": {
@@ -3195,6 +3257,9 @@
   "ord": {
     "n": {
       "def": "point, can be used in all ways that modern English utilizes the word \"point\", such as \"to point the finger (to ord the finger)\" and \"the point of this meeting (the ord of this meeting)\"; Synonym with \"point of origin\" as well [From the Old English \"ord\", which as far as I can tell did not have as many meanings in its brooking as \"point\" does in modern English, but did truly mean \"point\".]"
+    },
+    "v": {
+      "def": "point, can be used in all ways that modern English utilizes the word \"point\", such as \"to point the finger (to ord the finger)\" and \"the point of this meeting (the ord of this meeting)\"; Synonym with \"point of origin\" as well [From the Old English \"ord\", which as far as I can tell did not have as many meanings in its brooking as \"point\" does in modern English, but did truly mean \"point\".]"
     }
   },
   "ordfrim": {
@@ -3240,6 +3305,9 @@
   "oth": {
     "p": {
       "def": "until, as far as, up to, down to;  [OE oþ]"
+    },
+    "c": {
+      "def": "until, as far as, up to, down to;  [OE oþ]"
     }
   },
   "other tongue": {
@@ -3270,6 +3338,9 @@
   "outlay": {
     "n": {
       "def": "def 1: template, def 2(economics): total cost of something def  3: literally to lay something out; varies by definition [ENE out+lay]"
+    },
+    "v": {
+      "def": "def 1: template, def 2(economics): total cost of something def  3: literally to lay something out; varies by definition [ENE out+lay]"
     }
   },
   "outspring": {
@@ -3285,6 +3356,14 @@
   "outway": {
     "n": {
       "def": "exit; literally \"the way out\"; outgoing [neologism: out + way]"
+    }
+  },
+  "outwend": {
+    "n": {
+      "def": "separate, divide, to part one from another; guide elsewhere from another [out + wend(O.E. \"wendan\", turn, direct, go, translate/move elsewhere)]"
+    },
+    "v": {
+      "def": "separate, divide, to part one from another; guide elsewhere from another [out + wend(O.E. \"wendan\", turn, direct, go, translate/move elsewhere)]"
     }
   },
   "ovehinge": {
@@ -3435,6 +3514,9 @@
   "rede": {
     "n": {
       "def": "advice, counsel; to advise, to counsel;  [NE rede & ME rēd]"
+    },
+    "v": {
+      "def": "advice, counsel; to advise, to counsel;  [NE rede & ME rēd]"
     }
   },
   "redlighter": {
@@ -3484,6 +3566,9 @@
   },
   "rich": {
     "n": {
+      "def": "a state, a country, a realm; wealthy; powerful; land; wealthy [OE rīce]"
+    },
+    "a": {
       "def": "a state, a country, a realm; wealthy; powerful; land; wealthy [OE rīce]"
     }
   },
@@ -3647,11 +3732,7 @@
       "def": "a heavenly body's course of sinking below the horizon; sunset [OE setlgang]"
     }
   },
-  "shadow on my shoulder": {
-    "x": {
-      "def": "sad, unhappy and depressed;  [OE]"
-    }
-  },
+  "shadow on my shoulder": {},
   "shakeneedy": {
     "a": {
       "def": "having a very great desire, need; offering so little chance for improvement as to cause despair; desperate [compound of shake + need + y]"
@@ -3772,11 +3853,6 @@
       "def": "A journey or a way; one's experiences in life; an instant in time or an occasion; synonym with trip (when referring to a journey) [From the Old English \"sīþ\", which holds the same meanings as above]"
     }
   },
-  "silver": {
-    "x": {
-      "def": "a bribe will soften the heart of the most obdurate;  [OE]"
-    }
-  },
   "sinwash": {
     "v": {
       "def": "cleanse or absolve from sin;  [compound of sin + wash]"
@@ -3857,6 +3933,7 @@
       "def": "truly, verily, actually, really; in sooth, in truth [NE < ME sōthlī]"
     }
   },
+  "sop in the pan": {},
   "so-so-ish": {
     "a": {
       "def": "indifferent, passable, of indifferent quality or performance; mediocrity [OE: \"So-so\": fair  & \"ish\" - inclined.]"
@@ -4012,11 +4089,7 @@
       "def": "the manner in which a person or thing is placed or arranged; position [compound: ‘there’ + ‘stand’]"
     }
   },
-  "third rock from the sun": {
-    "x": {
-      "def": "the earth;  [O.E]"
-    }
-  },
+  "third rock from the sun": {},
   "thought-drop": {
     "n": {
       "def": "idea; mind's eye; belief, thought [OE 'thought' & 'drop']"
@@ -4132,6 +4205,59 @@
       "def": "a firebrand; torch [unknown]"
     }
   },
+  "þarf": {
+    "v": {
+      "def": "1. intrans. vb: to be under necessity or obligation (to do something)- impers. adj: needful2. unleavened, not leavened, containing no leaven; as in unleavened bread. Unleavened bread is often simply flour mixed with water. Bread or cake without yeast or baking powder; as in tharf-cake; compelled, forced [1. rare, from OE þurfan - 2. OE and dialect]"
+    },
+    "a": {
+      "def": "1. intrans. vb: to be under necessity or obligation (to do something)- impers. adj: needful2. unleavened, not leavened, containing no leaven; as in unleavened bread. Unleavened bread is often simply flour mixed with water. Bread or cake without yeast or baking powder; as in tharf-cake; compelled, forced [1. rare, from OE þurfan - 2. OE and dialect]"
+    }
+  },
+  "þarm": {
+    "n": {
+      "def": "an intestine;  chiefly in pl.   2 an intestine as cleansed and prepared for some purposes. Also in sing., as  a substance or material; catgut for  fiddlestrings,  etc.; intestine(s) [rare, from  OE. þarm, þearm.  OTeut. þarmoz: to  go  through. See modern English ‘thrum’]"
+    }
+  },
+  "þedeship": {
+    "n": {
+      "def": "nationality;  []"
+    }
+  },
+  "þedewielding": {
+    "n": {
+      "def": "political entity that controls, maintains, and represents a nation or state; government [neologism using archaisms, from ‘thede’ (nation, people) (archaic) + ‘wield’ (guide, manage') (archaic meanings) + ‘-ing’]"
+    }
+  },
+  "þew": {
+    "n": {
+      "def": "1. accepted or habitual practice2. the tissue of the body which contracts to exert a force and movement, physical strength, muscle;  [OE þeaw 'habit, custom']"
+    }
+  },
+  "þild": {
+    "n": {
+      "def": "patience;  [OE geþyld, cf. NHG Geduld]"
+    }
+  },
+  "þing": {
+    "v": {
+      "def": "1. to invite, address2. to thrive;  [1. OE þingan - 2. OE geþingan]"
+    }
+  },
+  "þinkly": {
+    "a": {
+      "def": "thinking deeply or seriously, tending to think, intellectual;  []"
+    }
+  },
+  "þong": {
+    "n": {
+      "def": "growth;  [OE geþang]"
+    }
+  },
+  "Þree-milk": {
+    "n": {
+      "def": "the fifth month of the year (because, in the long, spring days, the cows could be milked three times between sunrise and evening); May [OE Þrimilce]"
+    }
+  },
   "treewright": {
     "n": {
       "def": "carpenter; one who does the heavier sort of wood-working; {{{synonyms}}} [O.E treowwyrhta, treow + wryhta]"
@@ -4145,6 +4271,14 @@
   "trektide": {
     "n": {
       "def": "vacation (as in a break from the usual work schedule; \"holiday\", not the literal meaning of \"vacancy\" or \"vacating\");  [trek (voyage) + tide (time)]"
+    }
+  },
+  "þringrising": {
+    "v": {
+      "def": "artesian;  [thring 'pressure' + rising]"
+    },
+    "a": {
+      "def": "artesian;  [thring 'pressure' + rising]"
     }
   },
   "throsm": {
@@ -4197,11 +4331,13 @@
       "def": "to stir, twirl; churn [OE þweran]"
     }
   },
+  "twimas": {},
   "twine": {
     "v": {
       "def": "to decrease, lessen;  [OE þwínan]"
     }
   },
+  "twishank": {},
   "thwite": {
     "v": {
       "def": "to cut, whittle; snithe [archaic, from OE þwítan]"
@@ -4317,11 +4453,7 @@
       "def": "different; not the same, distinct, seperate [already present in english]"
     }
   },
-  "unlocking your wordhoard": {
-    "x": {
-      "def": "making a speech (obsolete);  [O.E]"
-    }
-  },
+  "unlocking your wordhoard": {},
   "unset": {
     "v": {
       "def": "destabilise;  [OE]"
@@ -4354,6 +4486,9 @@
   },
   "vand": {
     "n": {
+      "def": "bad; evil, terrible, deceitful [ON vándr]"
+    },
+    "a": {
       "def": "bad; evil, terrible, deceitful [ON vándr]"
     }
   },
@@ -4532,6 +4667,11 @@
       "def": "man (metaphorically) as an invasive weed colonising the planet destroying  other species and bringing many more to the point of extinction.;  [OE were (man) & weed.]"
     }
   },
+  "werthe": {
+    "v": {
+      "def": "become, turn into;  [Old English \"weorðan\", Middle and Modern English \"worth\", not to be confused with \"worth\" as in value or price. Cognate with German \"werden\".]"
+    }
+  },
   "whelm": {
     "v": {
       "def": "surround, encircle, close in on something but not overtake, trap;  [Proto-Germanic \"hwalbjan\". Old English \"hwielfan\" Mercian \"hwelfan\" meaning to \"cover over\", altered by association with Old English \"helmian\" meaning \"to cover\". The beginning of the word \"hwel\" remained the same, but the \"m\" replaced the \"f\" and the suffix was dropped later on.]"
@@ -4554,6 +4694,9 @@
   },
   "Whilom": {
     "r": {
+      "def": "adv: formerly, adj:former; erstwhile, in the past, previously [OED, OE: hwīlum]"
+    },
+    "a": {
       "def": "adv: formerly, adj:former; erstwhile, in the past, previously [OED, OE: hwīlum]"
     }
   },
@@ -4604,6 +4747,9 @@
   },
   "wis": {
     "a": {
+      "def": "absolute in certainty; sure, certainly [archaic and rare, from OE gewis \"that which is known\"]"
+    },
+    "r": {
       "def": "absolute in certainty; sure, certainly [archaic and rare, from OE gewis \"that which is known\"]"
     }
   },
@@ -4817,19 +4963,10 @@
       "def": "norm;  [OE gewunelic]"
     }
   },
-  "wunlingly": {
-    "a": {
-      "def": "normative;  [OE gewunelic]"
-    }
-  },
+  "wunlingly": {},
   "wyrm": {
     "n": {
       "def": "a small creeping animal with more or less slender, elongated bodies, and without limbs or with very short ones; worm, snake, serpent [revival, wyrm]"
-    }
-  },
-  "-y": {
-    "x": {
-      "def": "state of being, characterized by a certain trait; -dom [Middle English, from Old English -ig.]"
     }
   },
   "yare": {

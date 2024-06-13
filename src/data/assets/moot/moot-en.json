@@ -288,25 +288,6 @@
       ]
     }
   },
-  "-able": {
-    "x": {
-      "senses": [
-        "-worthy",
-        "-some",
-        "-bearing",
-        "-ly",
-        "-wend",
-        "-endly",
-        "-ingly",
-        "-bere",
-        "-cannish",
-        "-canny",
-        "-worth",
-        "-bear",
-        "-beare"
-      ]
-    }
-  },
   "able to": {
     "x": {
       "senses": [
@@ -1265,7 +1246,7 @@
       ]
     }
   },
-  "actor/actress": {
+  "actor": {
     "n": {
       "senses": [
         "player",
@@ -1328,15 +1309,6 @@
         "honed",
         "shrill",
         "suttle"
-      ]
-    }
-  },
-  "A.D.": {
-    "r": {
-      "senses": [
-        "in the year of our lord",
-        "Y",
-        "L"
       ]
     }
   },
@@ -2605,7 +2577,7 @@
       ]
     }
   },
-  "airplane / aeroplane": {
+  "airplane": {
     "n": {
       "senses": [
         "wing craft",
@@ -3113,7 +3085,7 @@
       ]
     }
   },
-  "aluminum/aluminium": {
+  "aluminum": {
     "n": {
       "senses": [
         "canshaft"
@@ -3131,18 +3103,6 @@
     "n": {
       "senses": [
         "the long goodbye"
-      ]
-    }
-  },
-  "A.M.": {
-    "r": {
-      "senses": [
-        "in the morning",
-        "B",
-        "M",
-        "F",
-        "M",
-        "forenoon"
       ]
     }
   },
@@ -3523,15 +3483,6 @@
     "a": {
       "senses": [
         "listing"
-      ]
-    }
-  },
-  "-an": {
-    "x": {
-      "senses": [
-        "-en",
-        "-ish",
-        "-er"
       ]
     }
   },
@@ -4167,14 +4118,6 @@
         "theedlore",
         "manlore",
         "werelore"
-      ]
-    }
-  },
-  "anti-": {
-    "x": {
-      "senses": [
-        "an-",
-        "un-"
       ]
     }
   },
@@ -4880,13 +4823,6 @@
       ]
     }
   },
-  "aqua-": {
-    "x": {
-      "senses": [
-        "water"
-      ]
-    }
-  },
   "aquaculture": {
     "n": {
       "senses": [
@@ -5331,7 +5267,7 @@
       ]
     }
   },
-  "armor/armour": {
+  "armor": {
     "n": {
       "senses": [
         "shield",
@@ -5359,7 +5295,7 @@
       ]
     }
   },
-  "armory/armoury": {
+  "armory": {
     "n": {
       "senses": [
         "shieldhouse",
@@ -5522,7 +5458,12 @@
     "n": {
       "senses": [
         "craft",
-        "list"
+        "list",
+        "craft",
+        "deftness",
+        "handiwork",
+        "trade",
+        "skill"
       ]
     }
   },
@@ -5626,17 +5567,6 @@
         "trade",
         "skill",
         "craft"
-      ]
-    }
-  },
-  "art, artistry": {
-    "n": {
-      "senses": [
-        "craft",
-        "deftness",
-        "handiwork",
-        "trade",
-        "skill"
       ]
     }
   },
@@ -6143,13 +6073,6 @@
       ]
     }
   },
-  "-ative": {
-    "x": {
-      "senses": [
-        "-ingly"
-      ]
-    }
-  },
   "atlas": {
     "n": {
       "senses": [
@@ -6646,13 +6569,6 @@
         "learnedom",
         "lorewdom",
         "swinge"
-      ]
-    }
-  },
-  "auto-": {
-    "x": {
-      "senses": [
-        "self-"
       ]
     }
   },
@@ -8079,7 +7995,7 @@
       ]
     }
   },
-  "behaviour/behavior": {
+  "behaviour": {
     "n": {
       "senses": [
         "bearing",
@@ -8296,14 +8212,6 @@
       ]
     }
   },
-  "bi-": {
-    "x": {
-      "senses": [
-        "two-",
-        "twi-"
-      ]
-    }
-  },
   "biannual": {
     "a": {
       "senses": [
@@ -8459,13 +8367,6 @@
         "farsights",
         "twi",
         "yen"
-      ]
-    }
-  },
-  "bio-": {
-    "x": {
-      "senses": [
-        "life-"
       ]
     }
   },
@@ -8896,7 +8797,7 @@
       ]
     }
   },
-  "Bothnia, Gulf of": {
+  "Bothnia": {
     "n": {
       "senses": [
         "Bottoms",
@@ -9124,13 +9025,6 @@
         "stalworth",
         "thrist",
         "ellen"
-      ]
-    }
-  },
-  "bravo!": {
-    "i": {
-      "senses": [
-        "well done"
       ]
     }
   },
@@ -11945,7 +11839,7 @@
       ]
     }
   },
-  "chasten, castigate, chastise/chastize": {
+  "chasten": {
     "v": {
       "senses": [
         "wreak",
@@ -12090,14 +11984,6 @@
       ]
     }
   },
-  "chez _____": {
-    "p": {
-      "senses": [
-        "at",
-        "'s"
-      ]
-    }
-  },
   "chic": {
     "a": {
       "senses": [
@@ -12107,7 +11993,7 @@
       ]
     }
   },
-  "chief, chieftain": {
+  "chief": {
     "n": {
       "senses": [
         "headman",
@@ -12465,14 +12351,6 @@
     "n": {
       "senses": [
         "bloodstream"
-      ]
-    }
-  },
-  "circum-/circul-": {
-    "x": {
-      "senses": [
-        "um-",
-        "umb-"
       ]
     }
   },
@@ -12938,16 +12816,6 @@
     "n": {
       "senses": [
         "gripsare"
-      ]
-    }
-  },
-  "co-": {
-    "x": {
-      "senses": [
-        "fellow-",
-        "by-",
-        "i-",
-        "even-"
       ]
     }
   },
@@ -14423,7 +14291,7 @@
       ]
     }
   },
-  "condemned, the": {
+  "condemned": {
     "n": {
       "senses": [
         "doomed",
@@ -15842,14 +15710,6 @@
       ]
     }
   },
-  "copy & paste": {
-    "v": {
-      "senses": [
-        "twin",
-        "tack"
-      ]
-    }
-  },
   "coral": {
     "n": {
       "senses": [
@@ -16283,15 +16143,6 @@
     "n": {
       "senses": [
         "cast"
-      ]
-    }
-  },
-  "counter-": {
-    "x": {
-      "senses": [
-        "with-",
-        "gain-",
-        "wither-"
       ]
     }
   },
@@ -17304,14 +17155,6 @@
       ]
     }
   },
-  "-cule": {
-    "x": {
-      "senses": [
-        "-gale",
-        "gazle"
-      ]
-    }
-  },
   "cub": {
     "n": {
       "senses": [
@@ -18021,13 +17864,6 @@
       "senses": [
         "arvethday",
         "arveth-day"
-      ]
-    }
-  },
-  "de-": {
-    "x": {
-      "senses": [
-        "un-"
       ]
     }
   },
@@ -19232,7 +19068,7 @@
       ]
     }
   },
-  "departing/departure": {
+  "departing": {
     "n": {
       "senses": [
         "farewell",
@@ -19888,14 +19724,14 @@
       ]
     }
   },
-  "Deus vult/Deus lo vult": {
+  "Deus vult": {
     "i": {
       "senses": [
         "God wills it"
       ]
     }
   },
-  "Devail/Devil": {
+  "Devail": {
     "n": {
       "senses": [
         "fiend",
@@ -19957,7 +19793,7 @@
       ]
     }
   },
-  "developed, poorly": {
+  "developed": {
     "a": {
       "senses": [
         "wan-thriven"
@@ -20061,13 +19897,6 @@
       ]
     }
   },
-  "di-": {
-    "x": {
-      "senses": [
-        "twi-"
-      ]
-    }
-  },
   "diabetes": {
     "n": {
       "senses": [
@@ -20096,7 +19925,7 @@
       ]
     }
   },
-  "diæresis/diëresis": {
+  "diæresis": {
     "n": {
       "senses": [
         "break",
@@ -20141,13 +19970,7 @@
         "bore",
         "straightspan",
         "wreathwidth",
-        "ringwidth"
-      ]
-    }
-  },
-  "diameter, inner": {
-    "n": {
-      "senses": [
+        "ringwidth",
         "inner",
         "bore",
         "outer",
@@ -20593,14 +20416,6 @@
       ]
     }
   },
-  "dis-": {
-    "x": {
-      "senses": [
-        "mis-",
-        "un-"
-      ]
-    }
-  },
   "disability": {
     "n": {
       "senses": [
@@ -20896,13 +20711,7 @@
         "cothe",
         "sickness",
         "illness",
-        "wanhaleness"
-      ]
-    }
-  },
-  "disease, skin": {
-    "n": {
-      "senses": [
+        "wanhaleness",
         "tetter",
         "skinaddle"
       ]
@@ -22582,17 +22391,6 @@
       ]
     }
   },
-  "-ee": {
-    "x": {
-      "senses": [
-        "-end",
-        "-ling",
-        "-ed",
-        "-der",
-        "-ther"
-      ]
-    }
-  },
   "effect": {
     "n": {
       "senses": [
@@ -22694,14 +22492,6 @@
       "senses": [
         "shamelessness",
         "brazenness"
-      ]
-    }
-  },
-  "e.g.": {
-    "x": {
-      "senses": [
-        "f",
-        "b"
       ]
     }
   },
@@ -23392,16 +23182,6 @@
       ]
     }
   },
-  "en-": {
-    "x": {
-      "senses": [
-        "in-",
-        "be-",
-        "umb-",
-        "um-"
-      ]
-    }
-  },
   "enable": {
     "v": {
       "senses": [
@@ -23615,7 +23395,7 @@
       ]
     }
   },
-  "encyclopedia / encyclopaedia": {
+  "encyclopedia": {
     "n": {
       "senses": [
         "allkennbook  alkunnebok",
@@ -23624,7 +23404,7 @@
       ]
     }
   },
-  "encyclopedic / encyclopaedic": {
+  "encyclopedic": {
     "a": {
       "senses": [
         "all-in",
@@ -23635,7 +23415,7 @@
       ]
     }
   },
-  "endeavor / endeavour": {
+  "endeavor": {
     "v": {
       "senses": [
         "undertake",
@@ -24815,14 +24595,7 @@
       ]
     }
   },
-  "et al.": {
-    "x": {
-      "senses": [
-        "and others"
-      ]
-    }
-  },
-  "et cetera/etcetera": {
+  "et cetera": {
     "x": {
       "senses": [
         "and so on",
@@ -24896,15 +24669,6 @@
       "senses": [
         "rootlore",
         "wordlore"
-      ]
-    }
-  },
-  "eu-": {
-    "n": {
-      "senses": [
-        "good-",
-        "bet-",
-        "well-"
       ]
     }
   },
@@ -25169,15 +24933,6 @@
         "unfold",
         "bloom",
         "forblow"
-      ]
-    }
-  },
-  "ex–": {
-    "x": {
-      "senses": [
-        "fore-",
-        "out-",
-        "ere-"
       ]
     }
   },
@@ -26266,13 +26021,6 @@
       ]
     }
   },
-  "extra-": {
-    "x": {
-      "senses": [
-        "beyond"
-      ]
-    }
-  },
   "extra": {
     "a": {
       "senses": [
@@ -26576,9 +26324,7 @@
         "sooth",
         "deedsake"
       ]
-    }
-  },
-  "fact, in": {
+    },
     "x": {
       "senses": [
         "indeed",
@@ -26733,6 +26479,13 @@
         "trow",
         "lief"
       ]
+    },
+    "v": {
+      "senses": [
+        "trust",
+        "lief",
+        "trow"
+      ]
     }
   },
   "faithful": {
@@ -26754,15 +26507,6 @@
       "senses": [
         "lieffulness",
         "trowfulness"
-      ]
-    }
-  },
-  "faith, to have": {
-    "v": {
-      "senses": [
-        "trust",
-        "lief",
-        "trow"
       ]
     }
   },
@@ -28981,7 +28725,7 @@
       ]
     }
   },
-  "frenulum/frenum": {
+  "frenulum": {
     "n": {
       "senses": [
         "tongue thrum",
@@ -31140,13 +30884,6 @@
       ]
     }
   },
-  "gulp  source)": {
-    "v": {
-      "senses": [
-        "overswallow"
-      ]
-    }
-  },
   "gunpowder": {
     "n": {
       "senses": [
@@ -31546,16 +31283,6 @@
         "helm",
         "grime",
         "beadgrime"
-      ]
-    }
-  },
-  "hemi-": {
-    "x": {
-      "senses": [
-        "half-",
-        "sam-",
-        "sand-",
-        "some-"
       ]
     }
   },
@@ -32744,15 +32471,6 @@
       ]
     }
   },
-  "-ian": {
-    "n": {
-      "senses": [
-        "-en",
-        "-ish",
-        "-er"
-      ]
-    }
-  },
   "ibex": {
     "n": {
       "senses": [
@@ -32765,16 +32483,6 @@
     "n": {
       "senses": [
         "TBB"
-      ]
-    }
-  },
-  "-ic/ -ical": {
-    "x": {
-      "senses": [
-        "-ish",
-        "-some",
-        "-ly",
-        "- y"
       ]
     }
   },
@@ -32969,24 +32677,6 @@
       ]
     }
   },
-  "i.e.": {
-    "x": {
-      "senses": [
-        "t",
-        "i",
-        "that is"
-      ]
-    }
-  },
-  "-ify": {
-    "x": {
-      "senses": [
-        "be-",
-        "-en",
-        "-ledge"
-      ]
-    }
-  },
   "igloo": {
     "n": {
       "senses": [
@@ -33031,14 +32721,6 @@
         "shunhood",
         "nittenness",
         "unwit"
-      ]
-    }
-  },
-  "ignorance : when ignorance is bliss tis folly to be wise": {
-    "x": {
-      "senses": [
-        "The less you know",
-        "the better you sleep"
       ]
     }
   },
@@ -35080,7 +34762,7 @@
       ]
     }
   },
-  "inkhorn terms/words": {
+  "inkhorn terms": {
     "n": {
       "senses": [
         "share-words"
@@ -35633,7 +35315,7 @@
       ]
     }
   },
-  "intention/ intent": {
+  "intention": {
     "n": {
       "senses": [
         "ettling",
@@ -35654,15 +35336,6 @@
       "senses": [
         "lay",
         "put away"
-      ]
-    }
-  },
-  "inter-": {
-    "x": {
-      "senses": [
-        "in-",
-        "between-",
-        "middle- tween-"
       ]
     }
   },
@@ -35768,7 +35441,7 @@
       ]
     }
   },
-  "interim/interval": {
+  "interim": {
     "n": {
       "senses": [
         "midtime",
@@ -36293,7 +35966,7 @@
       ]
     }
   },
-  "ipe/ipê": {
+  "ipe": {
     "n": {
       "senses": [
         "bow-wood",
@@ -36432,15 +36105,6 @@
       ]
     }
   },
-  "-ise": {
-    "x": {
-      "senses": [
-        "ledge",
-        "-ly",
-        "make"
-      ]
-    }
-  },
   "isle": {
     "n": {
       "senses": [
@@ -36463,29 +36127,6 @@
         "eyot",
         "iling",
         "holm"
-      ]
-    }
-  },
-  "-ism": {
-    "x": {
-      "senses": [
-        "general abstractum",
-        "-dom",
-        "general belief system or school of thought",
-        "-belief",
-        "political doctrine",
-        "policy",
-        "-stem",
-        "belief system associated with a person",
-        "place",
-        "etc",
-        "-ishness",
-        "-ish belief",
-        "belief system as a religious or political establishment",
-        "realm",
-        "-dom",
-        "belief as faith",
-        "-troth"
       ]
     }
   },
@@ -36552,14 +36193,6 @@
       ]
     }
   },
-  "-ite": {
-    "x": {
-      "senses": [
-        "-stone",
-        "-salt"
-      ]
-    }
-  },
   "item": {
     "n": {
       "senses": [
@@ -36575,27 +36208,11 @@
       ]
     }
   },
-  "-ive": {
-    "x": {
-      "senses": [
-        "-y"
-      ]
-    }
-  },
   "ivory": {
     "n": {
       "senses": [
         "tusk",
         "elpbone"
-      ]
-    }
-  },
-  "-ize": {
-    "x": {
-      "senses": [
-        "be-",
-        "-en",
-        "-ledge"
       ]
     }
   },
@@ -36991,14 +36608,6 @@
       ]
     }
   },
-  "Jr.": {
-    "a": {
-      "senses": [
-        "Yr",
-        "for younger"
-      ]
-    }
-  },
   "Judaism": {
     "n": {
       "senses": [
@@ -37277,7 +36886,7 @@
       ]
     }
   },
-  "Jutland, Jylland": {
+  "Jutland": {
     "n": {
       "senses": [
         "Gateland"
@@ -37382,14 +36991,6 @@
       ]
     }
   },
-  "keno-": {
-    "x": {
-      "senses": [
-        "empty",
-        "idle"
-      ]
-    }
-  },
   "ketchup": {
     "n": {
       "senses": [
@@ -37447,13 +37048,6 @@
       "senses": [
         "booth",
         "stall"
-      ]
-    }
-  },
-  "klepto-": {
-    "x": {
-      "senses": [
-        "stal-"
       ]
     }
   },
@@ -37885,7 +37479,7 @@
       ]
     }
   },
-  "Larvik, Norway": {
+  "Larvik": {
     "n": {
       "senses": [
         "Laywick",
@@ -38283,9 +37877,7 @@
         "busiless",
         "off"
       ]
-    }
-  },
-  "leisure, have": {
+    },
     "v": {
       "senses": [
         "rest",
@@ -38355,15 +37947,6 @@
         "learning",
         "read",
         "underright"
-      ]
-    }
-  },
-  "-let": {
-    "x": {
-      "senses": [
-        "-ling",
-        "-el",
-        "-le"
       ]
     }
   },
@@ -38885,7 +38468,7 @@
       ]
     }
   },
-  "liquorice/licorice": {
+  "liquorice": {
     "n": {
       "senses": [
         "sweetroot",
@@ -39178,15 +38761,6 @@
       "senses": [
         "Word",
         "thew"
-      ]
-    }
-  },
-  "-logy, -log, -logue": {
-    "x": {
-      "senses": [
-        "-lore",
-        "-craft",
-        "-frod"
       ]
     }
   },
@@ -40993,22 +40567,6 @@
       ]
     }
   },
-  "mega-": {
-    "x": {
-      "senses": [
-        "mickle"
-      ]
-    }
-  },
-  "mega annum-": {
-    "n": {
-      "senses": [
-        "Greatyear",
-        "Mickleredyear",
-        "twisandyear"
-      ]
-    }
-  },
   "megalodon": {
     "n": {
       "senses": [
@@ -41372,14 +40930,6 @@
       ]
     }
   },
-  "meta-": {
-    "x": {
-      "senses": [
-        "over-",
-        "after-"
-      ]
-    }
-  },
   "metal": {
     "n": {
       "senses": [
@@ -41481,13 +41031,6 @@
       "senses": [
         "alderborough",
         "mickleborough"
-      ]
-    }
-  },
-  "micro-": {
-    "x": {
-      "senses": [
-        "small-"
       ]
     }
   },
@@ -41665,14 +41208,6 @@
     "n": {
       "senses": [
         "ore"
-      ]
-    }
-  },
-  "mini-": {
-    "x": {
-      "senses": [
-        "small-",
-        "lesser"
       ]
     }
   },
@@ -41995,7 +41530,7 @@
       ]
     }
   },
-  "Mister/Mr.": {
+  "Mister": {
     "n": {
       "senses": [
         "Goodman",
@@ -42753,7 +42288,7 @@
       ]
     }
   },
-  "Mr/Mr., Sir": {
+  "Mr": {
     "n": {
       "senses": [
         "Lord",
@@ -42761,7 +42296,7 @@
       ]
     }
   },
-  "Mrs/Mrs., Miss, Ms/Ms., Missus": {
+  "Mrs": {
     "n": {
       "senses": [
         "Lady",
@@ -42813,16 +42348,6 @@
     "v": {
       "senses": [
         "manifold"
-      ]
-    }
-  },
-  "multi-": {
-    "x": {
-      "senses": [
-        "cluster-",
-        "mani-",
-        "fele-",
-        "fay"
       ]
     }
   },
@@ -43515,15 +43040,6 @@
       ]
     }
   },
-  "necro-": {
-    "x": {
-      "senses": [
-        "dead-",
-        "death-",
-        "lich-"
-      ]
-    }
-  },
   "necrology": {
     "n": {
       "senses": [
@@ -44003,15 +43519,6 @@
       ]
     }
   },
-  "non-": {
-    "x": {
-      "senses": [
-        "un-",
-        "-less",
-        "not"
-      ]
-    }
-  },
   "non obstante": {
     "n": {
       "senses": [
@@ -44132,9 +43639,7 @@
       "senses": [
         "log"
       ]
-    }
-  },
-  "note, of": {
+    },
     "a": {
       "senses": [
         "namecouth"
@@ -45060,7 +44565,7 @@
       ]
     }
   },
-  "offence/offense": {
+  "offence": {
     "n": {
       "senses": [
         "ewish"
@@ -45143,13 +44648,6 @@
       ]
     }
   },
-  "-oid": {
-    "x": {
-      "senses": [
-        "-hew"
-      ]
-    }
-  },
   "oil": {
     "n": {
       "senses": [
@@ -45223,13 +44721,6 @@
     "n": {
       "senses": [
         "ealberry"
-      ]
-    }
-  },
-  "-ology": {
-    "x": {
-      "senses": [
-        "-lore"
       ]
     }
   },
@@ -46222,7 +45713,7 @@
       ]
     }
   },
-  "pajamas / pyjamas": {
+  "pajamas": {
     "n": {
       "senses": [
         "nightclothes",
@@ -46285,15 +45776,6 @@
       "senses": [
         "wall",
         "weir"
-      ]
-    }
-  },
-  "paleo-": {
-    "x": {
-      "senses": [
-        "ere-",
-        "ur-",
-        "or-"
       ]
     }
   },
@@ -46521,13 +46003,7 @@
         "hosen",
         "strides",
         "slacks",
-        "legwear"
-      ]
-    }
-  },
-  "pants, under-": {
-    "n": {
-      "senses": [
+        "legwear",
         "undies",
         "underwear",
         "drawers",
@@ -46559,14 +46035,6 @@
       "senses": [
         "sheetmash",
         "mashed sheet"
-      ]
-    }
-  },
-  "para-": {
-    "x": {
-      "senses": [
-        "over-",
-        "yond-"
       ]
     }
   },
@@ -48165,7 +47633,7 @@
       ]
     }
   },
-  "perpetuity, in": {
+  "perpetuity": {
     "r": {
       "senses": [
         "forevermore"
@@ -48635,13 +48103,6 @@
       ]
     }
   },
-  "-philia": {
-    "x": {
-      "senses": [
-        "-lust"
-      ]
-    }
-  },
   "Philippines": {
     "n": {
       "senses": [
@@ -48707,13 +48168,6 @@
     "n": {
       "senses": [
         "wortrowel"
-      ]
-    }
-  },
-  "-phobia": {
-    "x": {
-      "senses": [
-        "-fear"
       ]
     }
   },
@@ -48787,6 +48241,7 @@
   "phonon": {
     "n": {
       "senses": [
+        "sweymote",
         "ringbit"
       ]
     }
@@ -49037,10 +48492,10 @@
   "pilot": {
     "n": {
       "senses": [
-        "lodeman",
-        "skyship boss",
-        "foreflyer",
-        "loftman",
+        "of an aircraft",
+        "flyer",
+        "of a ship",
+        "lodesman",
         "skyward",
         "fanding bit",
         "broadcast",
@@ -49052,6 +48507,7 @@
   "pilot whale": {
     "n": {
       "senses": [
+        "pothead whale",
         "grindwhale"
       ]
     }
@@ -49116,8 +48572,8 @@
   "pinecone": {
     "n": {
       "senses": [
-        "firtap",
-        "fircail"
+        "pinenut",
+        "firtap"
       ]
     }
   },
@@ -49179,6 +48635,7 @@
     "n": {
       "senses": [
         "seareaver",
+        "wiking",
         "shaythman"
       ]
     }
@@ -49632,13 +49089,6 @@
       ]
     }
   },
-  "-plex": {
-    "x": {
-      "senses": [
-        "-fold"
-      ]
-    }
-  },
   "pliable": {
     "a": {
       "senses": [
@@ -49739,14 +49189,6 @@
         "rainly",
         "indicator",
         "watergall"
-      ]
-    }
-  },
-  "P.M.": {
-    "r": {
-      "senses": [
-        "after midday",
-        "aftermidday"
       ]
     }
   },
@@ -50574,13 +50016,6 @@
       ]
     }
   },
-  "post-": {
-    "x": {
-      "senses": [
-        "after-"
-      ]
-    }
-  },
   "posterior": {
     "n": {
       "senses": [
@@ -50920,13 +50355,6 @@
       "senses": [
         "beadful",
         "inspeechful"
-      ]
-    }
-  },
-  "pre-": {
-    "x": {
-      "senses": [
-        "fore-"
       ]
     }
   },
@@ -51877,11 +51305,11 @@
         "frim",
         "atheling",
         "highness",
-        "first",
+        "thingle",
+        "fingle",
+        "brey",
         "high earl",
-        "kingling",
-        "fengle",
-        "brey"
+        "kingling"
       ]
     }
   },
@@ -51891,17 +51319,16 @@
         "highness",
         "lady",
         "athelingen",
-        "high earlin",
+        "high earlen",
         "brinen",
-        "ides",
-        "firstine"
+        "ides"
       ]
     }
   },
   "principality": {
     "n": {
       "senses": [
-        "fengledom",
+        "fingledom",
         "high earldom",
         "breydom"
       ]
@@ -52867,6 +52294,21 @@
       ]
     }
   },
+  "prosody": {
+    "n": {
+      "senses": [
+        "linsaycraft"
+      ]
+    }
+  },
+  "prosper": {
+    "v": {
+      "senses": [
+        "thrive",
+        "thee"
+      ]
+    }
+  },
   "prosperity": {
     "n": {
       "senses": [
@@ -53019,15 +52461,6 @@
         "gospeller",
         "true believer",
         "speaker against lies"
-      ]
-    }
-  },
-  "proto-": {
-    "x": {
-      "senses": [
-        "ere-",
-        "ur-",
-        "or-"
       ]
     }
   },
@@ -53221,15 +52654,6 @@
       ]
     }
   },
-  "pseudo-": {
-    "n": {
-      "senses": [
-        "fake",
-        "-like",
-        "lease-"
-      ]
-    }
-  },
   "psychedelic": {
     "a": {
       "senses": [
@@ -53298,7 +52722,7 @@
       ]
     }
   },
-  "psychotropic/psychoactive": {
+  "psychotropic": {
     "a": {
       "senses": [
         "mindwending"
@@ -53324,6 +52748,7 @@
   "pubic bone": {
     "n": {
       "senses": [
+        "sharebone",
         "shamebone",
         "ripebone"
       ]
@@ -53709,16 +53134,6 @@
       ]
     }
   },
-  "q&a": {
-    "n": {
-      "senses": [
-        "a",
-        "a",
-        "f",
-        "a"
-      ]
-    }
-  },
   "quadrennium": {
     "n": {
       "senses": [
@@ -53857,15 +53272,6 @@
         "fourth",
         "farthing",
         "fourdeal"
-      ]
-    }
-  },
-  "quasi-": {
-    "x": {
-      "senses": [
-        "almost",
-        "nearly",
-        "nigh-"
       ]
     }
   },
@@ -54098,7 +53504,7 @@
       "senses": [
         "kind",
         "stock",
-        "strind  sley",
+        "strind",
         "rease"
       ]
     }
@@ -54106,9 +53512,7 @@
   "racism": {
     "n": {
       "senses": [
-        "kindlove",
-        "kindtroth",
-        "lovestem",
+        "ilkhatred",
         "kindhatred"
       ]
     }
@@ -54226,13 +53630,6 @@
     "n": {
       "senses": [
         "drygrape"
-      ]
-    }
-  },
-  "raison d'état.": {
-    "n": {
-      "senses": [
-        "theedish intryst"
       ]
     }
   },
@@ -54534,19 +53931,6 @@
       ]
     }
   },
-  "re-": {
-    "x": {
-      "senses": [
-        "with-",
-        "gain-",
-        "new-",
-        "back-",
-        "and-",
-        "ed-",
-        "eft-"
-      ]
-    }
-  },
   "real": {
     "a": {
       "senses": [
@@ -54580,7 +53964,7 @@
       ]
     }
   },
-  "realize / realise": {
+  "realize": {
     "v": {
       "senses": [
         "wit",
@@ -54776,9 +54160,7 @@
       "senses": [
         "new",
         "late",
-        "fresh",
-        "not long ago",
-        "shortago"
+        "latter"
       ]
     }
   },
@@ -54786,9 +54168,13 @@
     "r": {
       "senses": [
         "lately",
+        "latterly",
+        "of late",
         "newly",
-        "tidely",
-        "shortago"
+        "newlings",
+        "lateward",
+        "newen",
+        "unyore"
       ]
     }
   },
@@ -54855,8 +54241,8 @@
   "reconsider": {
     "v": {
       "senses": [
-        "bethink",
         "think over",
+        "bethink",
         "withthink",
         "afterthink"
       ]
@@ -54909,8 +54295,7 @@
         "cast",
         "lorekeep",
         "long-play",
-        "wax",
-        "spinner"
+        "wax"
       ]
     }
   },
@@ -54978,8 +54363,8 @@
       "senses": [
         "draft",
         "bring in",
-        "umlist",
-        "inlist"
+        "inlist",
+        "umblist"
       ]
     }
   },
@@ -55087,6 +54472,7 @@
   "referee": {
     "n": {
       "senses": [
+        "stickler",
         "shedsrighter"
       ]
     }
@@ -55591,7 +54977,7 @@
         "hookup",
         "linkup",
         "tie-up",
-        "maythhood"
+        "maithhood"
       ]
     }
   },
@@ -55724,9 +55110,14 @@
   "remain": {
     "v": {
       "senses": [
+        "abide",
+        "bide",
+        "dwell",
+        "linger",
         "belave",
         "belive",
-        "stick"
+        "lend",
+        "throughwon"
       ]
     }
   },
@@ -55769,23 +55160,23 @@
     "v": {
       "senses": [
         "hark back",
-        "min",
         "mind",
         "think of",
         "call to mind",
         "bethink",
         "mark",
-        "unforget",
         "withcall",
         "behold",
-        "think backmemorize",
+        "think back",
+        "unforgetmemorize",
         "bear in mind",
         "keep in mind",
+        "mun",
         "edcall",
         "eftcall",
-        "mon",
         "mind back",
-        "umbethink memorize",
+        "umbethink",
+        "min memorize",
         "inmind",
         "stockmind",
         "inkeep"
@@ -55795,9 +55186,9 @@
   "remind": {
     "v": {
       "senses": [
-        "min",
         "call to mind",
-        "mane",
+        "min",
+        "man",
         "edmind",
         "eftmind",
         "incall"
@@ -55955,14 +55346,13 @@
         "withdraw",
         "withsake",
         "asake",
-        "unsaye"
+        "unsay"
       ]
     }
   },
   "renovate": {
     "v": {
       "senses": [
-        "overhaul",
         "ednew"
       ]
     }
@@ -55971,9 +55361,8 @@
     "v": {
       "senses": [
         "meed",
-        "I meeded a room for myself",
-        "foremeed",
-        "They're foremeeding rooms cheaply"
+        "gavel",
+        "foremeed"
       ]
     }
   },
@@ -56153,7 +55542,7 @@
         "hold back",
         "sink",
         "swallow",
-        "bethryck"
+        "bethrutch"
       ]
     }
   },
@@ -56200,15 +55589,13 @@
       "senses": [
         "make offspring",
         "foreke",
-        "foresow",
-        "formore"
+        "foresow"
       ]
     }
   },
   "reproduction": {
     "n": {
       "senses": [
-        "formoring",
         "foreking",
         "forthseeding"
       ]
@@ -56228,14 +55615,11 @@
   "republic": {
     "n": {
       "senses": [
-        "folkdom",
+        "meanwealth",
         "ledewealth",
-        "ledeward",
-        "mootrick",
         "richwealth",
         "wholewelfare",
         "freerich",
-        "kyndwise",
         "rich"
       ]
     }
@@ -56290,7 +55674,6 @@
         "make good",
         "atone",
         "meed",
-        "forguld",
         "foryield"
       ]
     }
@@ -56414,8 +55797,7 @@
   "reservoir": {
     "n": {
       "senses": [
-        "waterberg",
-        "waterhold"
+        "merestock"
       ]
     }
   },
@@ -56432,9 +55814,7 @@
         "live",
         "dwell",
         "abide",
-        "wone",
-        "erde",
-        "wick"
+        "wone"
       ]
     }
   },
@@ -56459,8 +55839,7 @@
         "wreck",
         "leavings",
         "leftovers",
-        "odds and ends",
-        "stufflave"
+        "odds and ends"
       ]
     }
   },
@@ -56493,6 +55872,8 @@
   "resin": {
     "n": {
       "senses": [
+        "cud",
+        "tar",
         "hart"
       ]
     }
@@ -56568,7 +55949,6 @@
     "n": {
       "senses": [
         "wherewithal",
-        "rawstuff",
         "orshaft"
       ]
     }
@@ -56619,13 +55999,6 @@
       ]
     }
   },
-  "respiratory": {
-    "n": {
-      "senses": [
-        "lungs"
-      ]
-    }
-  },
   "respiration": {
     "n": {
       "senses": [
@@ -56644,7 +56017,7 @@
     "v": {
       "senses": [
         "answer",
-        "onqwethe"
+        "anqueath"
       ]
     }
   },
@@ -57068,7 +56441,7 @@
       ]
     }
   },
-  "reverse/reversal": {
+  "reverse": {
     "n": {
       "senses": [
         "knock",
@@ -57199,14 +56572,6 @@
       ]
     }
   },
-  "rich": {
-    "n": {
-      "senses": [
-        "moot",
-        "rech"
-      ]
-    }
-  },
   "riddance": {
     "n": {
       "senses": [
@@ -57234,11 +56599,11 @@
   "rifle": {
     "n": {
       "senses": [
+        "threadbore",
         "scratchgun",
         "shattergun",
         "shouldershooter",
-        "furrowgun",
-        "awere"
+        "furrowgun"
       ]
     }
   },
@@ -57489,7 +56854,7 @@
       ]
     }
   },
-  "rolling-paper/cigarette-paper": {
+  "rolling-paper": {
     "n": {
       "senses": [
         "skins",
@@ -57514,10 +56879,10 @@
       ]
     }
   },
-  "roman": {
+  "Roman": {
     "a": {
       "senses": [
-        "romish"
+        "Romish"
       ]
     }
   },
@@ -57613,8 +56978,7 @@
   "royal": {
     "a": {
       "senses": [
-        "kingly",
-        "cweenly"
+        "kingly"
       ]
     }
   },
@@ -57717,7 +57081,7 @@
     "n": {
       "senses": [
         "Russland",
-        "Yardric"
+        "Yardrich"
       ]
     }
   },
@@ -57725,9 +57089,9 @@
     "a": {
       "senses": [
         "of the land",
-        "russlandish",
+        "Russlandish",
         "of the folk",
-        "russish"
+        "Russish"
       ]
     },
     "n": {
@@ -58688,13 +58052,6 @@
       ]
     }
   },
-  "-scope": {
-    "x": {
-      "senses": [
-        "-seer"
-      ]
-    }
-  },
   "scorn": {
     "v": {
       "senses": [
@@ -59204,16 +58561,6 @@
       ]
     }
   },
-  "semi-": {
-    "x": {
-      "senses": [
-        "half-",
-        "sam-",
-        "sand-",
-        "some-"
-      ]
-    }
-  },
   "semicircle": {
     "n": {
       "senses": [
@@ -59600,7 +58947,13 @@
         "give",
         "thane",
         "thew",
-        "ambight",
+        "ambight"
+      ]
+    }
+  },
+  "serve a meal": {
+    "v": {
+      "senses": [
         "help",
         "give"
       ]
@@ -59780,7 +59133,7 @@
       ]
     }
   },
-  "Shintoism/Shinto": {
+  "Shintoism": {
     "n": {
       "senses": [
         "Way of the Gods",
@@ -60264,7 +59617,7 @@
       ]
     }
   },
-  "snow globe/snowglobe": {
+  "snow globe": {
     "n": {
       "senses": [
         "snowkuggle"
@@ -60307,7 +59660,7 @@
       "senses": []
     }
   },
-  "social/societal": {
+  "social": {
     "a": {
       "senses": [
         "friendly",
@@ -60756,7 +60109,7 @@
       ]
     }
   },
-  "sporty/sportive": {
+  "sporty": {
     "a": {
       "senses": [
         "gamely"
@@ -60844,13 +60197,6 @@
     "n": {
       "senses": [
         "spurd"
-      ]
-    }
-  },
-  "-stan": {
-    "x": {
-      "senses": [
-        "stem"
       ]
     }
   },
@@ -61105,7 +60451,7 @@
       ]
     }
   },
-  "strive/strife": {
+  "strive": {
     "v": {
       "senses": [
         "fight"
@@ -61208,14 +60554,6 @@
         "writing tool",
         "needle",
         "leadstick"
-      ]
-    }
-  },
-  "sub-": {
-    "x": {
-      "senses": [
-        "under-",
-        "after-"
       ]
     }
   },
@@ -63344,13 +62682,6 @@
       ]
     }
   },
-  "thermo-": {
-    "x": {
-      "senses": [
-        "heat-"
-      ]
-    }
-  },
   "thermodynamic": {
     "a": {
       "senses": [
@@ -63413,7 +62744,7 @@
       ]
     }
   },
-  "they/them/their": {
+  "they": {
     "n": {
       "senses": [
         "hie",
@@ -64128,15 +63459,6 @@
       ]
     }
   },
-  "trans-": {
-    "x": {
-      "senses": [
-        "over-",
-        "through- or thru-",
-        "yond-"
-      ]
-    }
-  },
   "transcend": {
     "v": {
       "senses": [
@@ -64418,16 +63740,10 @@
       ]
     }
   },
-  "trapezium/trapezoid": {
-    "n": {
-      "senses": [
-        "boardshape"
-      ]
-    }
-  },
   "trapezium": {
     "n": {
       "senses": [
+        "boardshape",
         "lesser boardbone"
       ]
     }
@@ -66539,9 +65855,7 @@
         "worthless",
         "hollow"
       ]
-    }
-  },
-  "vain, in": {
+    },
     "x": {
       "senses": [
         "for nothing",
@@ -68560,7 +67874,7 @@
       ]
     }
   },
-  "wick/wich": {
+  "wick": {
     "n": {
       "senses": [
         "thorpe",
@@ -68582,15 +67896,6 @@
     "n": {
       "senses": [
         "head-topper"
-      ]
-    }
-  },
-  "will-o'-the-wisp": {
-    "n": {
-      "senses": [
-        "elf-fire",
-        "ghost-fire",
-        "walking-fire"
       ]
     }
   },

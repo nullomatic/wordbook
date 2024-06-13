@@ -1,18 +1,13 @@
-import {
-  createReadStream,
-  mkdirSync,
-  readFileSync,
-  readdirSync,
-  statSync,
-  writeFileSync,
-} from 'fs';
+import * as fs from 'fs';
 import { createInterface } from 'node:readline/promises';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import csv from 'csvtojson';
 import _ from 'lodash';
+import prompt from 'prompt';
 import YAML from 'yaml';
 import * as util from './util.mjs';
+import { logger } from './util.mjs';
 
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
@@ -35,8 +30,8 @@ export class WiktionaryLoader {
       // Attempt to read JSON from disk before parsing JSON.
       // If `options.save` is specified, assume we want to reload the data.
       try {
-        console.log('Loading kaikki-an.json');
-        const file = readFileSync(
+        logger.info('Loading kaikki-an.json');
+        const file = fs.readFileSync(
           util.getPath('/assets/kaikki/kaikki-an.json')
         );
         this.data = JSON.parse(file);
@@ -97,17 +92,16 @@ export class WiktionaryLoader {
     await this.#loadWithStream((line) => [handler(line)]);
 
     if (options?.save) {
-      console.log('Saving kaikki-an.json');
+      logger.info('Saving kaikki-an.json');
       const uri = util.getPath('/assets/kaikki/kaikki-an.json');
-      writeFileSync(uri, JSON.stringify(this.data, null, 2));
+      fs.writeFileSync(uri, JSON.stringify(this.data, null, 2));
     }
 
     return this;
   }
 
   async _load(options, callback) {
-    console.time('loadWiktionary');
-    console.log('Loading Wiktionary data...');
+    logger.info('Loading Wiktionary data...');
 
     if (options?.store) {
       this.data = [];
@@ -127,7 +121,6 @@ export class WiktionaryLoader {
       return callbacks;
     });
 
-    console.timeEnd('loadWiktionary');
     return this;
   }
 
@@ -155,7 +148,7 @@ export class WiktionaryLoader {
           // Flatten batch array.
           batch.reduce((acc, cur) => acc.concat(cur))
         );
-        console.log(`Processed ${processed} lines`);
+        logger.info(`Processed ${processed} lines`);
       }
     };
 
@@ -230,8 +223,8 @@ export class WordbookLoader {
       // Attempt to read JSON from disk before parsing CSV.
       // If `options.save` is specified, assume we want to reload the data.
       try {
-        console.log('Loading wordbook.json');
-        const file = readFileSync(
+        logger.info('Loading wordbook.json');
+        const file = fs.readFileSync(
           util.getPath('/assets/wordbook/wordbook.json')
         );
         this.data = JSON.parse(file);
@@ -267,9 +260,9 @@ export class WordbookLoader {
     }
 
     if (options?.save) {
-      console.log('Saving wordbook.json');
+      logger.info('Saving wordbook.json');
       const uri = util.getPath('/assets/wordbook/wordbook.json');
-      writeFileSync(uri, JSON.stringify(this.data, null, 2));
+      fs.writeFileSync(uri, JSON.stringify(this.data, null, 2));
     }
 
     return this;
@@ -301,6 +294,15 @@ export class MootLoader {
 
     this.jsonPathAnglish = util.getPath('/assets/moot/moot-an.json');
     this.jsonPathEnglish = util.getPath('/assets/moot/moot-en.json');
+    this.htmlDirAnglish = util.getPath('/assets/moot/html/anglish/');
+    this.htmlDirEnglish = util.getPath('/assets/moot/html/english/');
+
+    if (!fs.existsSync(this.htmlDirAnglish)) {
+      fs.mkdirSync(this.htmlDirAnglish, { recursive: true });
+    }
+    if (!fs.existsSync(this.htmlDirEnglish)) {
+      fs.mkdirSync(this.htmlDirEnglish, { recursive: true });
+    }
   }
 
   async load(options) {
@@ -308,15 +310,15 @@ export class MootLoader {
       // Attempt to read the files from disk before fetching from web.
       // If `options.save` is specified, assume we want to reload the data.
       try {
-        console.log('Loading moot-an.json');
-        const file = readFileSync(this.jsonPathAnglish);
+        logger.info('Loading moot-an.json');
+        const file = fs.readFileSync(this.jsonPathAnglish);
         this.anglish = JSON.parse(file);
       } catch (e) {
         await this.scrapeAnglish({ save: true });
       }
       try {
-        console.log('Loading moot-en.json');
-        const file = readFileSync(this.jsonPathEnglish);
+        logger.info('Loading moot-en.json');
+        const file = fs.readFileSync(this.jsonPathEnglish);
         this.english = JSON.parse(file);
       } catch (e) {
         await this.scrapeEnglish({ save: true });
@@ -330,178 +332,280 @@ export class MootLoader {
     return this;
   }
 
-  async scrapeAnglish(options) {
-    console.time('scrapeMootAnglish');
-    console.log('Scraping Anglish Moot data...');
-
-    this.anglish = {};
-
-    const data = await this.#fetchURL(`${this.baseURL}/wiki/Anglish_Wordbook`);
-    let $ = cheerio.load(data);
+  async fetchAnglishHTML() {
+    logger.info('Local HTML not found. Fetching Anglish HTML...');
+    let data = await this.#fetch(`${this.baseURL}/wiki/Anglish_Wordbook`);
+    const $ = cheerio.load(data);
     const hrefs = Array.from(
       $('tbody')
         .first()
         .find('a')
         .map((i, el) => $(el).attr('href'))
     );
-
-    for (const href of hrefs) {
-      console.time(href);
-
-      const url = this.baseURL + href;
-      const data = await this.#fetchURL(url);
-      if (!data) {
-        continue;
-      }
-      $ = cheerio.load(data);
-
-      main: for (const el of Array.from($('table > tbody'))) {
-        if ($(el).children.length > 1) {
-          continue;
-        }
-
-        const cells = $(el).find('td');
-        let [word, pos, def] = Array.from(cells).map((cell) => $(cell).text());
-        if (!/anglish/i.test(word)) {
-          word = util.cleanStr(word);
-          if (!word || !/^([\w'-]+\s?)+$/.test(word)) continue main;
-          if (!this.anglish[word]) {
-            this.anglish[word] = {};
-          }
-
-          pos = util
-            .cleanStr(pos)
-            .split(/[^\w\s-']/)
-            .filter((s) => !!s)[0];
-          if (!pos || !/^\w+$/.test(pos)) {
-            delete this.anglish[word];
-            continue main;
-          }
-          pos = util.formatPoS(pos);
-          if (!this.anglish[word][pos]) {
-            this.anglish[word][pos] = {
-              def: '',
-            };
-          }
-
-          this.anglish[word][pos].def = def.trim();
-        }
-      }
-
-      console.timeEnd(href);
-    }
-
-    if (options?.save) {
-      console.log('Saving moot-an.json');
-      writeFileSync(
-        this.jsonPathAnglish,
-        JSON.stringify(this.anglish, null, 2)
-      );
-    }
-
-    console.timeEnd('scrapeMootAnglish');
-    return this;
+    await this.#saveHTML(hrefs, this.htmlDirAnglish);
   }
 
-  async scrapeEnglish(options) {
-    console.time('scrapeMootEnglish');
-    console.log('Scraping English Moot data...');
-
-    this.english = {};
-
-    const data = await this.#fetchURL(`${this.baseURL}/wiki/English_Wordbook`);
-    let $ = cheerio.load(data);
+  async fetchEnglishHTML() {
+    logger.info('Local HTML not found. Fetching English HTML...');
+    let data = await this.#fetch(`${this.baseURL}/wiki/English_Wordbook`);
+    const $ = cheerio.load(data);
     const hrefs = Array.from(
       $('big')
         .first()
         .find('a')
         .map((i, el) => $(el).attr('href'))
     );
+    await this.#saveHTML(hrefs, this.htmlDirEnglish);
+  }
 
+  async #saveHTML(hrefs, dir) {
     for (const href of hrefs) {
-      console.time(href);
-
       const url = this.baseURL + href;
-      const data = await this.#fetchURL(url);
-      if (!data) {
-        continue;
-      }
-      $ = cheerio.load(data);
+      const data = await this.#fetch(url);
+      const filename = `${href.split('/').pop()}.html`;
+      const fullPath = dir + filename;
+      logger.info(`Saving ${fullPath}`);
+      fs.writeFileSync(fullPath, data);
+    }
+  }
 
-      main: for (const el of Array.from($('table > tbody > tr'))) {
+  async scrapeAnglish(options) {
+    logger.info('Scraping Anglish Moot data...');
+
+    this.anglish = {};
+
+    let filenames = util.getFilenames('/assets/moot/html/anglish');
+
+    if (!filenames.length) {
+      await this.fetchAnglishHTML();
+      filenames = util.getFilenames('/assets/moot/html/anglish');
+    }
+
+    for (const [, fullPath] of filenames) {
+      logger.verbose(`Scraping ${fullPath}`);
+
+      const data = fs.readFileSync(fullPath, 'utf-8');
+      const $ = cheerio.load(data);
+
+      for (const el of Array.from($('table > tbody > tr'))) {
+        if ($(el).children('td').length !== 3) {
+          continue;
+        }
+
+        const cells = $(el).find('td');
+        let [_word, _pos, _def] = Array.from(cells).map((cell) =>
+          $(cell).text()
+        );
+
+        const word = this.#cleanWord(_word);
+
+        if (!word) {
+          continue;
+        } else if (!this.anglish[word]) {
+          this.anglish[word] = {};
+        }
+
+        const posArr = [];
+        _pos = _pos
+          .replace(/[\s\n]/g, '')
+          .split(/[^\w]/)
+          .filter((s) => s);
+
+        for (const str of _pos) {
+          const schema = {
+            properties: {
+              pos: {
+                description: `Part of speech for '${word}:${str}'`,
+                type: 'string',
+                pattern: /^(n|v|a|r|s|c|p|x|u)$/,
+                message:
+                  'Part of speech must be of selection (n|v|a|r|s|c|p|x|u)',
+              },
+            },
+          };
+
+          switch (str.toLowerCase()) {
+            case 'noun':
+            case 'n':
+              posArr.push('n'); // noun
+              break;
+            case 'verb':
+            case 'vb':
+            case 'vt':
+            case 'v':
+              posArr.push('v'); // verb
+              break;
+            case 'adj':
+              posArr.push('a'); // adjective
+              break;
+            case 'adv':
+              posArr.push('r'); // adverb
+              break;
+            case 'conj':
+              posArr.push('c'); // conjunction
+              break;
+            case 'prep':
+              posArr.push('p'); // adposition
+              break;
+            default:
+              if (options?.interactive) {
+                prompt.start();
+                const input = await new Promise((resolve, reject) => {
+                  prompt.get(schema, (error, result) => {
+                    resolve(result);
+                  });
+                });
+                if (input) {
+                  posArr.push(input);
+                }
+              }
+          }
+        }
+
+        for (const pos of posArr) {
+          _.set(this.anglish, `${word}.${pos}.def`, _def.trim());
+        }
+      }
+    }
+
+    // TODO:
+    // 1) Have ChatGPT create an array of sense words out of each definition
+    // 2) Have ChatGPT extract word origin from definition
+
+    if (options?.save) {
+      logger.info('Saving moot-an.json');
+      fs.writeFileSync(
+        this.jsonPathAnglish,
+        JSON.stringify(this.anglish, null, 2)
+      );
+    }
+
+    return this;
+  }
+
+  async scrapeEnglish(options) {
+    logger.info('Scraping English Moot data...');
+
+    this.english = {};
+
+    let filenames = util.getFilenames('/assets/moot/html/english');
+
+    if (!filenames.length) {
+      await this.fetchEnglishHTML();
+      filenames = util.getFilenames('/assets/moot/html/english');
+    }
+
+    for (const [, fullPath] of filenames) {
+      logger.verbose(`Scraping ${fullPath}`);
+
+      const data = fs.readFileSync(fullPath, 'utf-8');
+      const $ = cheerio.load(data);
+
+      for (const el of Array.from($('table > tbody > tr'))) {
         const cells = $(el).children('td');
         if (cells.length === 4) {
-          let [word, pos, att, una] = Array.from(cells).map((cell) =>
-            $(cell).text()
-          );
+          let [_word, _pos, _att, _una] = Array.from(cells).map((cell, i) => {
+            if (i < 3) {
+              return $(cell).text();
+            } else {
+              return $(cell).text();
+            }
+          });
 
-          word = util.cleanStr(word);
-          if (!this.english[word]) {
+          const word = this.#cleanWord(_word);
+
+          const match = _una.match(/(?<=(cf\.|<)\s?)(NHG|OE|ME|NL)/);
+          console.log(word, _una.match(/a\((<|cf\.)\s?(OE|ME)/));
+
+          if (!word) {
+            continue;
+          } else if (!this.english[word]) {
             this.english[word] = {};
           }
 
-          pos = pos
+          const anglishWords = [];
+
+          _pos = _pos
             .replace(/\n/g, ';')
             .replace(/\([^)]*\)/g, '')
             .replace(/\[[^\]]*\]/g, '')
             .split(/[^a-z\s\-']/i)
             .map((str) => str.trim())
             .filter((s) => !!s && s !== '-')[0];
-          if (!pos || !/^\w+$/.test(pos)) {
+          if (!_pos || !/^\w+$/.test(_pos)) {
             delete this.english[word];
-            continue main;
+            continue;
           }
-          pos = util.formatPoS(pos);
-          if (!this.english[word][pos]) {
-            this.english[word][pos] = {
+          _pos = util.formatPoS(_pos);
+          if (!this.english[word][_pos]) {
+            this.english[word][_pos] = {
               senses: [],
             };
           }
 
-          att = att
+          _att = _att
             .replace(/\n/g, ';')
             .replace(/\([^)]*\)/g, '')
             .replace(/\[[^\]]*\]/g, '')
             .split(/[^a-z\s\-']/i)
             .map((str) => str.trim())
             .filter((s) => !!s && s !== '-');
-          this.english[word][pos].senses.push(...att);
+          this.english[word][_pos].senses.push(..._att);
 
-          una = una
+          _una = _una
             .replace(/\n/g, ';')
             .replace(/\([^)]*\)/g, '')
             .replace(/\[[^\]]*\]/g, '')
             .split(/[^a-z\s\-']/i)
             .map((str) => str.trim())
             .filter((s) => !!s && s !== '-');
-          this.english[word][pos].senses.push(...una);
+          this.english[word][_pos].senses.push(..._una);
         }
       }
-
-      console.timeEnd(href);
     }
 
     if (options?.save) {
-      console.log('Saving moot-en.json');
-      writeFileSync(
+      logger.info('Saving moot-en.json');
+      fs.writeFileSync(
         this.jsonPathEnglish,
         JSON.stringify(this.english, null, 2)
       );
     }
 
-    console.timeEnd('scrapeMootEnglish');
     return this;
   }
 
-  async #fetchURL(url) {
+  async #fetch(url) {
     let data;
     try {
       ({ data } = await axios.get(url));
     } catch (error) {
-      const res = error?.response || {};
-      console.error(res.status, res.statusText);
+      throw new Error(error.message);
     }
     return data;
+  }
+
+  #cleanWord(word) {
+    word = word
+      .replace(/\([^)]*\)/g, '') // Remove (parentheses)
+      .replace(/\[[^\]]*\]/g, '') // Remove [square brackets]
+      .replace(/\n.*$/g, '') // Remove anything that comes after a newline
+      .replace(/\s+/g, ' ') // Remove extra spaces between words
+      .trim(); // Trim
+
+    if (!/^\p{L}+([-\s']\p{L}+)*$/iu.test(word)) {
+      const match = word.match(/^\p{L}+([-\s']\p{L}+)*(?=\s*[\/,])/iu);
+      if (!match) {
+        // No word could be extracted.
+        logger.verbose(`abandoned:\t"${word}"`);
+        return null;
+      }
+      const clean = match[0];
+      logger.verbose(`cleaned:\t"${word}" -> "${clean}"`);
+      word = clean;
+    }
+
+    return word;
   }
 
   /*
@@ -617,11 +721,11 @@ export class WordNetLoader {
     }
 
     if (options?.save) {
-      mkdirSync(util.getPath(this.dirJSON), { recursive: true });
+      await mkdir(util.getPath(this.dirJSON), { recursive: true });
     }
 
     for (const [uri, filename] of uris.map((uri, i) => [uri, filenames[i]])) {
-      const file = readFileSync(uri, 'utf-8');
+      const file = fs.readFileSync(uri, 'utf-8');
       const json = isYAML ? YAML.parse(file) : JSON.parse(file);
       await this.#processFile(filename, json, isYAML, options);
     }
@@ -659,19 +763,18 @@ export class WordNetLoader {
   }
 
   async #processFile(filename, json, isYAML, options) {
-    console.log(`Loading ${filename}`);
+    logger.info(`Loading ${filename}`);
 
     if (isYAML && options?.save) {
       const _filename = filename.replace('yaml', 'json');
-      console.log(`Saving ${_filename}`);
-      writeFileSync(
+      logger.info(`Saving ${_filename}`);
+      fs.writeFileSync(
         util.getPath(`${this.dirJSON}/${_filename}`),
         JSON.stringify(json, null, 2)
       );
     }
 
     if (/^entries/.test(filename)) {
-      const promises = [];
       for (const word in json) {
         const data = json[word];
         data.languages = ['English'];
