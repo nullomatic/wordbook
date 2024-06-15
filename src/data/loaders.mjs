@@ -9,6 +9,9 @@ import YAML from 'yaml';
 import * as util from './util.mjs';
 import { logger } from './util.mjs';
 
+const WORD_PATTERN = `\\b\\p{L}+([-\\s']\\p{L}+)*\\b`;
+const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
+
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
  * in the /assets/kaikki folder. It's big. Each line is an object and looks like this:
@@ -398,7 +401,6 @@ export class MootLoader {
         );
 
         const word = this.#cleanWord(_word);
-
         if (!word) {
           continue;
         } else if (!this.anglish[word]) {
@@ -412,18 +414,6 @@ export class MootLoader {
           .filter((s) => s);
 
         for (const str of _pos) {
-          const schema = {
-            properties: {
-              pos: {
-                description: `Part of speech for '${word}:${str}'`,
-                type: 'string',
-                pattern: /^(n|v|a|r|s|c|p|x|u)$/,
-                message:
-                  'Part of speech must be of selection (n|v|a|r|s|c|p|x|u)',
-              },
-            },
-          };
-
           switch (str.toLowerCase()) {
             case 'noun':
             case 'n':
@@ -449,6 +439,18 @@ export class MootLoader {
               break;
             default:
               if (options?.interactive) {
+                // Prompt schema for correcting parts of speech.
+                const schema = {
+                  properties: {
+                    pos: {
+                      description: `Part of speech for '${word}:${str}'`,
+                      type: 'string',
+                      pattern: /^(n|v|a|r|s|c|p|x|u)$/,
+                      message:
+                        'Part of speech must be of selection (n|v|a|r|s|c|p|x|u)',
+                    },
+                  },
+                };
                 prompt.start();
                 const input = await new Promise((resolve, reject) => {
                   prompt.get(schema, (error, result) => {
@@ -488,6 +490,11 @@ export class MootLoader {
 
     this.english = {};
 
+    const originRegExp = new RegExp(
+      `(?<!\\()(?<words>${WORD_PATTERN}(, ${WORD_PATTERN})*)(?!\\))(\\s?\\((?<origin>[^\\)]*)\\))?`,
+      'iug'
+    );
+
     let filenames = util.getFilenames('/assets/moot/html/english');
 
     if (!filenames.length) {
@@ -514,13 +521,24 @@ export class MootLoader {
 
           const word = this.#cleanWord(_word);
 
-          const match = _una.match(/(?<=(cf\.|<)\s?)(NHG|OE|ME|NL)/);
-          console.log(word, _una.match(/a\((<|cf\.)\s?(OE|ME)/));
-
           if (!word) {
             continue;
           } else if (!this.english[word]) {
             this.english[word] = {};
+          }
+
+          const matches = _una.matchAll(originRegExp);
+          if (matches) {
+            for (const match of matches) {
+              for (const w of match.groups.words.split(',')) {
+                const entry = {
+                  word: w.trim(),
+                  english: word,
+                  origin: match.groups.origin,
+                };
+                console.log(entry);
+              }
+            }
           }
 
           const anglishWords = [];
@@ -593,8 +611,12 @@ export class MootLoader {
       .replace(/\s+/g, ' ') // Remove extra spaces between words
       .trim(); // Trim
 
-    if (!/^\p{L}+([-\s']\p{L}+)*$/iu.test(word)) {
-      const match = word.match(/^\p{L}+([-\s']\p{L}+)*(?=\s*[\/,])/iu);
+    // If word does not have form "word" or "word word" or "word-word"...
+    if (!WORD_REGEXP.test(word)) {
+      // Take the first match before a "/" or ",".
+      const match = word.match(
+        new RegExp(`^${WORD_PATTERN}(?=\s*[\/,])`, 'iu')
+      );
       if (!match) {
         // No word could be extracted.
         logger.verbose(`abandoned:\t"${word}"`);
@@ -706,7 +728,7 @@ export class WordNetLoader {
     this.entries = {};
     this.synsets = {};
 
-    let uris, filenames, isYAML;
+    let filenames, isYAML;
     try {
       // Attempt to load JSON files before loading and parsing YAML.
       // (Parsing YAML files is much slower than loading directly from JSON.)
@@ -714,9 +736,9 @@ export class WordNetLoader {
       if (options?.save) {
         throw new Error();
       }
-      [uris, filenames] = util.getFilenames(this.dirJSON);
+      filenames = util.getFilenames(this.dirJSON);
     } catch (e) {
-      [uris, filenames] = util.getFilenames(this.dirYAML);
+      filenames = util.getFilenames(this.dirYAML);
       isYAML = true;
     }
 
@@ -724,10 +746,10 @@ export class WordNetLoader {
       await mkdir(util.getPath(this.dirJSON), { recursive: true });
     }
 
-    for (const [uri, filename] of uris.map((uri, i) => [uri, filenames[i]])) {
-      const file = fs.readFileSync(uri, 'utf-8');
+    for (const [, fullPath] of filenames) {
+      const file = fs.readFileSync(fullPath, 'utf-8');
       const json = isYAML ? YAML.parse(file) : JSON.parse(file);
-      await this.#processFile(filename, json, isYAML, options);
+      await this.#processFile(fullPath, json, isYAML, options);
     }
 
     return this;
@@ -762,19 +784,16 @@ export class WordNetLoader {
     return this;
   }
 
-  async #processFile(filename, json, isYAML, options) {
-    logger.info(`Loading ${filename}`);
+  async #processFile(fullPath, json, isYAML, options) {
+    logger.info(`Loading ${fullPath}`);
 
     if (isYAML && options?.save) {
-      const _filename = filename.replace('yaml', 'json');
-      logger.info(`Saving ${_filename}`);
-      fs.writeFileSync(
-        util.getPath(`${this.dirJSON}/${_filename}`),
-        JSON.stringify(json, null, 2)
-      );
+      fullPath = fullPath.replace(/(?<=\.)yaml$/, 'json');
+      logger.info(`Saving ${fullPath}`);
+      fs.writeFileSync(fullPath, JSON.stringify(json, null, 2));
     }
 
-    if (/^entries/.test(filename)) {
+    if (/entries-\w\.(json|yaml)$/i.test(fullPath)) {
       for (const word in json) {
         const data = json[word];
         data.languages = ['English'];
@@ -787,14 +806,14 @@ export class WordNetLoader {
       }
     }
 
-    if (/^(adj|adv|noun|verb)/.test(filename)) {
+    if (/(adj|adv|noun|verb)\.\w+\.(json|yaml)$/i.test(fullPath)) {
       for (const word in json) {
         const data = json[word];
         this.synsets[word] = data;
       }
     }
 
-    if (/^frames/.test(filename)) {
+    if (/frames(json|yaml)$/i.test(fullPath)) {
       // TODO: Handle frames file
     }
   }
