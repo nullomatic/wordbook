@@ -6,6 +6,13 @@ import * as winston from 'winston';
 
 const DIRNAME = dirname(fileURLToPath(import.meta.url));
 
+export const WORD_PATTERN = `\\b\\p{L}+([-\\s']\\p{L}+){0,4}\\b`;
+export const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
+export const MOOT_ENGLISH_REGEXP = new RegExp(
+  `(?<!\\()(?<words>${WORD_PATTERN}(, (${WORD_PATTERN})?)*)(?!\\))(\\s?\\((?<origin>[^\\)]*)\\))?`,
+  'iug'
+);
+
 // This pattern determines the shape of word entry keys in Redis.
 // e.g., `en:aardvark:noun:1`, where `1` represents the etymological
 // index of the word for words that have multiple meanings.
@@ -47,6 +54,31 @@ export function replaceKeyPattern(options) {
 
 export function getPath(suffix) {
   return join(DIRNAME, suffix);
+}
+
+export function cleanWord(word) {
+  word = word
+    .replace(/\([^)]*\)/g, '') // Remove (parentheses)
+    .replace(/\[[^\]]*\]/g, '') // Remove [square brackets]
+    .replace(/\n.*$/g, '') // Remove anything that comes after a newline
+    .replace(/\s+/g, ' ') // Remove extra spaces between words
+    .trim(); // Trim
+
+  // If word does not have form "word" or "word word" or "word-word"...
+  if (!WORD_REGEXP.test(word)) {
+    // Take the first match before a "/" or ",".
+    const match = word.match(new RegExp(`^${WORD_PATTERN}(?=\s*[\/,])`, 'iu'));
+    if (!match) {
+      // No word could be extracted.
+      logger.verbose(`abandoned:\t"${word}"`);
+      return null;
+    }
+    const clean = match[0];
+    logger.verbose(`cleaned:\t"${word}" -> "${clean}"`);
+    word = clean;
+  }
+
+  return word;
 }
 
 export function cleanStr(str) {

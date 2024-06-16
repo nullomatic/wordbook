@@ -17,8 +17,8 @@ export default async function compileSources(options) {
   console.time('compileSources');
 
   let saveWikt, saveWordbook, saveMoot, saveWordNet;
-  if (options?.reload) {
-    for (const source of options.reload) {
+  if (options?.save) {
+    for (const source of options.save) {
       if (source === 'wikt') {
         saveWikt = true;
       }
@@ -34,10 +34,22 @@ export default async function compileSources(options) {
     }
   }
 
-  const wikt = await new WiktionaryLoader().load({ save: saveWikt });
-  const wordbook = await new WordbookLoader().load({ save: saveWordbook });
-  const moot = await new MootLoader().load({ save: saveMoot });
-  const wordnet = await new WordNetLoader().load({ save: saveWordNet });
+  const wikt = await new WiktionaryLoader().load({
+    ...options,
+    save: options?.save?.includes('wikt'),
+  });
+  const wordbook = await new WordbookLoader().load({
+    ...options,
+    save: options?.save?.includes('wordbook'),
+  });
+  const moot = await new MootLoader().load({
+    ...options,
+    save: options?.save?.includes('moot'),
+  });
+  const wordnet = await new WordNetLoader().load({
+    ...options,
+    save: options?.save?.includes('wordnet'),
+  });
 
   console.log(`\nWordbook entries: ${Object.keys(wordbook.data).length}`);
   console.log(`Moot English entries: ${Object.keys(moot.english).length}`);
