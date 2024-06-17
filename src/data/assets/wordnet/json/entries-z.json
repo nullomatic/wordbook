@@ -14,7 +14,7 @@
           "value": "z"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "z%1:11:00::",
           "synset": "07369614-n"
@@ -24,11 +24,12 @@
           "synset": "06846940-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZB": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zb%1:23:01::",
           "synset": "13653148-n"
@@ -38,41 +39,45 @@
           "synset": "13652973-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZDV": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zdv%1:06:00::",
           "synset": "02768434-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZFLOPS": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zflops%1:23:01::",
           "synset": "92467429-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZIP": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zip%1:10:00::",
           "synset": "06367112-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZIP code": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "american_english%1:10:00::"
@@ -81,41 +86,45 @@
           "synset": "06367112-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaar": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaar%1:10:00::",
           "synset": "06996076-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaar language": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaar_language%1:10:01::",
           "synset": "06996076-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zabrze": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zabrze%1:15:00::",
           "synset": "09006827-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zacharias": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zacharias%1:18:00::",
           "synset": "11425315-n"
@@ -125,51 +134,56 @@
           "synset": "06452865-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zachary Taylor": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zachary_taylor%1:18:00::",
           "synset": "11353232-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaglossus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaglossus%1:05:00::",
           "synset": "01875276-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zagreb": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zagreb%1:15:00::",
           "synset": "08836980-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaharias": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaharias%1:18:00::",
           "synset": "11424662-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaire": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zairean%3:01:00::"
@@ -178,17 +192,19 @@
           "synset": "08752218-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaire River": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaire_river%1:17:00::",
           "synset": "09274984-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zairean": {
     "a": {
@@ -202,7 +218,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zairean%1:18:00::",
@@ -227,7 +243,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zairean%3:01:00::"
@@ -236,11 +252,12 @@
           "synset": "09770953-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zairese": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zairese%1:18:00::"
@@ -254,7 +271,7 @@
       ]
     },
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zairese%3:01:00::"
@@ -263,91 +280,100 @@
           "synset": "09770953-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zairese monetary unit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zairese_monetary_unit%1:23:00::",
           "synset": "13732422-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zalophus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zalophus%1:05:00::",
           "synset": "02081088-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zalophus californianus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zalophus_californianus%1:05:00::",
           "synset": "02081226-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zalophus californicus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zalophus_californicus%1:05:00::",
           "synset": "02081226-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zalophus lobatus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zalophus_lobatus%1:05:00::",
           "synset": "02081390-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zama": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zama%1:04:00::",
           "synset": "01303914-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zambezi": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zambezi%1:17:00::",
           "synset": "09506259-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zambezi River": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zambezi_river%1:17:00::",
           "synset": "09506259-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zambia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zambian%3:01:00::"
@@ -356,11 +382,12 @@
           "synset": "09188406-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zambian": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zambian%1:18:00::",
@@ -375,7 +402,7 @@
       ]
     },
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zambian%3:01:00::"
@@ -384,27 +411,30 @@
           "synset": "09771103-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zambian kwacha": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zambian_kwacha%1:23:00::",
           "synset": "13705683-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zambian monetary unit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zambian_monetary_unit%1:23:00::",
           "synset": "13705556-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zamboni": {
     "n": {
@@ -414,7 +444,7 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -423,81 +453,89 @@
           "synset": "04621296-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zamia pumila": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamia_pumila%1:20:00::",
           "synset": "11622542-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zamiaceae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamiaceae%1:20:00::",
           "synset": "11621938-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zane Grey": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zane_grey%1:18:00::",
           "synset": "11036071-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zangwill": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zangwill%1:18:00::",
           "synset": "11424867-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zannichellia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zannichellia%1:20:00::",
           "synset": "12638711-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zannichellia palustris": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zannichellia_palustris%1:20:00::",
           "synset": "12638907-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zannichelliaceae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zannichelliaceae%1:20:00::",
           "synset": "12638500-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zantac": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -506,7 +544,8 @@
           "synset": "04061107-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zantedeschia": {
     "n": {
@@ -515,137 +554,150 @@
           "value": "ˌzæntɨˈdɛski.ə"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zantedeschia%1:20:00::",
           "synset": "11814120-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zantedeschia aethiopica": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zantedeschia_aethiopica%1:20:00::",
           "synset": "11814248-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zantedeschia rehmanii": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zantedeschia_rehmanii%1:20:00::",
           "synset": "11814493-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanthoxylum": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanthoxylum%1:20:00::",
           "synset": "12735310-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanthoxylum americanum": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanthoxylum_americanum%1:20:00::",
           "synset": "12735709-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanthoxylum clava-herculis": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanthoxylum_clava-herculis%1:20:00::",
           "synset": "12735955-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanthoxylum flavum": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanthoxylum_flavum%1:20:00::",
           "synset": "12736168-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanthoxylum fraxineum": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanthoxylum_fraxineum%1:20:00::",
           "synset": "12735709-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanuck": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanuck%1:18:00::",
           "synset": "11424967-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanzibar": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanzibar%1:15:00::",
           "synset": "09057933-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zanzibar copal": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zanzibar_copal%1:27:00::",
           "synset": "14920169-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapata": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapata%1:18:00::",
           "synset": "11425172-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapodidae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapodidae%1:05:00::",
           "synset": "02353497-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapotec": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zapotec%3:01:00::",
           "pertainym": [
@@ -656,7 +708,7 @@
       ]
     },
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapotec%1:18:00::",
           "synset": "09669077-n"
@@ -666,21 +718,23 @@
           "synset": "06931898-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapotec language": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapotec_language%1:10:01::",
           "synset": "06931898-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapotecan": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapotecan%1:18:00::",
           "synset": "09669077-n"
@@ -690,71 +744,78 @@
           "synset": "06931898-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapotecan language": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapotecan_language%1:10:01::",
           "synset": "06931898-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapus%1:05:00::",
           "synset": "02353864-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zapus hudsonius": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zapus_hudsonius%1:05:00::",
           "synset": "02353995-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaragoza": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaragoza%1:15:00::",
           "synset": "09050049-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zarathustra": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zarathustra%1:18:00::",
           "synset": "11427710-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zaria": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaria%1:15:00::",
           "synset": "08997344-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zarontin": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -763,157 +824,173 @@
           "synset": "03305523-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zarpanit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zarpanit%1:18:00::",
           "synset": "09544783-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zarqa": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zarqa%1:15:00::",
           "synset": "08947856-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zauschneria californica": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zauschneria_californica%1:20:00::",
           "synset": "12363369-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zb": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zb%1:23:02::",
           "synset": "13653306-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zbit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zbit%1:23:00::",
           "synset": "13653306-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea%1:20:00::",
           "synset": "12164089-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea mays": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_mays%1:20:00::",
           "synset": "12164193-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea mays amylacea": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_mays_amylacea%1:20:00::",
           "synset": "12165842-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea mays everta": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_mays_everta%1:20:00::",
           "synset": "12165994-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea mays indentata": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_mays_indentata%1:20:00::",
           "synset": "12165504-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea mays indurata": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_mays_indurata%1:20:00::",
           "synset": "12165665-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea mays rugosa": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_mays_rugosa%1:20:00::",
           "synset": "12165259-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zea saccharata": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zea_saccharata%1:20:00::",
           "synset": "12165259-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zealand": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zealand%1:15:00::",
           "synset": "08779530-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zealander": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zealander%1:18:00::",
           "synset": "09719413-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zealot": {
     "n": {
@@ -922,17 +999,18 @@
           "value": "ˈzɛl.ət"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zealot%1:18:01::",
           "synset": "10824878-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zechariah": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zechariah%1:18:00::",
           "synset": "11425315-n"
@@ -942,27 +1020,30 @@
           "synset": "06452865-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeeman": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeeman%1:18:00::",
           "synset": "11425433-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeidae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeidae%1:05:00::",
           "synset": "01455274-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeitgeist": {
     "n": {
@@ -972,37 +1053,40 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zeitgeist%1:26:00::",
           "synset": "14550237-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zellig Harris": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zellig_harris%1:18:00::",
           "synset": "11051012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zellig Sabbatai Harris": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zellig_sabbatai_harris%1:18:00::",
           "synset": "11051012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zen": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zen_buddhist%1:18:00::"
@@ -1022,11 +1106,12 @@
           "synset": "02678511-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zen Buddhism": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zen_buddhism%1:14:00::",
           "synset": "08115995-n"
@@ -1036,11 +1121,12 @@
           "synset": "06252178-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zen Buddhist": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zen%1:14:00::",
@@ -1050,61 +1136,67 @@
           "synset": "09703302-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zenaidura": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zenaidura%1:05:00::",
           "synset": "01816732-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zenaidura macroura": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zenaidura_macroura%1:05:00::",
           "synset": "01816858-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zend": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zend%1:10:00::",
           "synset": "06986601-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zend language": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zend_language%1:10:01::",
           "synset": "06986601-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zend-Avesta": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zend-avesta%1:10:00::",
           "synset": "06442666-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeno": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeno%1:18:02::",
           "synset": "11425822-n"
@@ -1114,41 +1206,45 @@
           "synset": "11425680-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeno of Citium": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeno_of_citium%1:18:00::",
           "synset": "11425680-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeno of Elea": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeno_of_elea%1:18:00::",
           "synset": "11425822-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeomorphi": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeomorphi%1:05:00::",
           "synset": "01455137-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zephaniah": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zephaniah%1:18:00::",
           "synset": "11426019-n"
@@ -1158,7 +1254,8 @@
           "synset": "06452333-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zephyr": {
     "n": {
@@ -1172,13 +1269,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zephyr%1:18:00::",
           "synset": "09596739-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeppelin": {
     "n": {
@@ -1187,37 +1285,40 @@
           "value": "ˈzɛp.lɪn"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zeppelin%1:18:00::",
           "synset": "11426137-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeppo": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeppo%1:18:00::",
           "synset": "11181218-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeppo Marx": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeppo_marx%1:18:01::",
           "synset": "11181218-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zestril": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -1226,21 +1327,23 @@
           "synset": "03682634-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zetland": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zetland%1:15:00::",
           "synset": "08973830-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeus%1:18:00::",
           "synset": "09596860-n"
@@ -1250,221 +1353,243 @@
           "synset": "01455595-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zeus faber": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeus_faber%1:05:00::",
           "synset": "01455728-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhang Guolao": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhang_guolao%1:18:01::",
           "synset": "09556412-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhou": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhou%1:14:00::",
           "synset": "08496418-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhou En-lai": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhou_en-lai%1:18:00::",
           "synset": "11426310-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhou Enlai": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhou_enlai%1:18:01::",
           "synset": "11426310-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhou dynasty": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhou_dynasty%1:14:00::",
           "synset": "08496418-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhu Jiang": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhu_jiang%1:17:00::",
           "synset": "09506470-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhuang": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhuang%1:10:00::",
           "synset": "06949156-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhuang Zhou": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhuang_zhou%1:18:01::",
           "synset": "09557169-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zhukov": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zhukov%1:18:00::",
           "synset": "11426456-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZiB": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zib%1:23:00::",
           "synset": "13652973-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zibit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zibit%1:23:00::",
           "synset": "13653468-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziegfeld": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziegfeld%1:18:00::",
           "synset": "11426695-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziegfeld Follies": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziegfeld_follies%1:10:00::",
           "synset": "07033235-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziegler": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziegler%1:18:00::",
           "synset": "11426901-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zigadenus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadenus%1:20:00::",
           "synset": "12486955-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zigadenus elegans": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadenus_elegans%1:20:00::",
           "synset": "12487523-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zigadenus glaucus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadenus_glaucus%1:20:00::",
           "synset": "12487702-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zigadenus nuttalli": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadenus_nuttalli%1:20:00::",
           "synset": "12487938-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zigadenus venenosus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadenus_venenosus%1:20:00::",
           "synset": "12488097-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zigadenus venenosus gramineus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadenus_venenosus_gramineus%1:20:00::",
           "synset": "12488097-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zimbabwe": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zimbabwean%3:01:00::"
@@ -1473,11 +1598,12 @@
           "synset": "09189894-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zimbabwean": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zimbabwean%1:18:00::",
@@ -1492,7 +1618,7 @@
       ]
     },
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zimbabwean%3:01:00::"
@@ -1501,31 +1627,34 @@
           "synset": "09771226-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zimbabwean dollar": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zimbabwean_dollar%1:23:00::",
           "synset": "13696765-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zimbalist": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zimbalist%1:18:00::",
           "synset": "11427043-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zimmer": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -1534,11 +1663,12 @@
           "synset": "04552757-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zimmer frame": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -1547,17 +1677,19 @@
           "synset": "04552757-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinacef": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinacef%1:06:00::",
           "synset": "02993558-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinfandel": {
     "n": {
@@ -1567,107 +1699,117 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zinfandel%1:20:00::",
           "synset": "13168163-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zingiber": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zingiber%1:20:00::",
           "synset": "12376111-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zingiber officinale": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zingiber_officinale%1:20:00::",
           "synset": "12376540-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zingiberaceae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zingiberaceae%1:20:00::",
           "synset": "12375837-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinjanthropus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinjanthropus%1:05:00::",
           "synset": "02479818-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinnemann": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinnemann%1:18:00::",
           "synset": "11427170-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinnia acerosa": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinnia_acerosa%1:20:00::",
           "synset": "12054853-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinnia grandiflora": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinnia_grandiflora%1:20:00::",
           "synset": "12055063-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinsser": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinsser%1:18:00::",
           "synset": "11427297-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zinzendorf": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinzendorf%1:18:00::",
           "synset": "11427460-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zion": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zion%1:15:02::",
           "synset": "08814203-n"
@@ -1681,21 +1823,23 @@
           "synset": "05639839-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zion National Park": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zion_national_park%1:15:00::",
           "synset": "08628367-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zionism": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zionist%1:18:00::"
@@ -1711,11 +1855,12 @@
           "synset": "08496213-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zionist": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zionist%3:01:01::",
           "pertainym": [
@@ -1736,7 +1881,7 @@
       ]
     },
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zionist%3:01:00::",
@@ -1747,47 +1892,52 @@
           "synset": "10825105-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zionist movement": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zionist_movement%1:14:00::",
           "synset": "08496213-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziphiidae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziphiidae%1:05:00::",
           "synset": "02070594-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zirbanit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zirbanit%1:18:00::",
           "synset": "09544783-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zithromax": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zithromax%1:06:00::",
           "synset": "02768661-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zizania": {
     "n": {
@@ -1796,107 +1946,117 @@
           "value": "zɪˈzeɪniə"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zizania%1:20:00::",
           "synset": "12166319-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zizania aquatica": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zizania_aquatica%1:20:00::",
           "synset": "12166436-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziziphus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziziphus%1:20:00::",
           "synset": "13163874-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziziphus jujuba": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziziphus_jujuba%1:20:00::",
           "synset": "13164062-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Ziziphus lotus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "ziziphus_lotus%1:20:00::",
           "synset": "13164260-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zn": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zn%1:27:00::",
           "synset": "14686156-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ZnCO3": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "znco3%1:27:01::",
           "synset": "92463247-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoarces": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoarces%1:05:00::",
           "synset": "02620032-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoarces viviparus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoarces_viviparus%1:05:00::",
           "synset": "02620167-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoarcidae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoarcidae%1:05:00::",
           "synset": "02619659-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zocor": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -1905,31 +2065,34 @@
           "synset": "04229061-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoisia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoisia%1:20:00::",
           "synset": "12166617-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zola": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zola%1:18:00::",
           "synset": "11427586-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zolaesque": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zolaesque%3:01:00::",
           "pertainym": [
@@ -1938,21 +2101,23 @@
           "synset": "03050518-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zollinger-Ellison syndrome": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zollinger-ellison_syndrome%1:26:00::",
           "synset": "14494638-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoloft": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -1961,61 +2126,67 @@
           "synset": "04181914-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zomba": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zomba%1:15:00::",
           "synset": "08983017-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zonotrichia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zonotrichia%1:05:00::",
           "synset": "01537951-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zonotrichia albicollis": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zonotrichia_albicollis%1:05:00::",
           "synset": "01538110-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zonotrichia leucophrys": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zonotrichia_leucophrys%1:05:00::",
           "synset": "01538331-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoomastigina": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoomastigina%1:05:00::",
           "synset": "01420878-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoroaster": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoroastrian%3:01:00::"
@@ -2024,7 +2195,8 @@
           "synset": "11427710-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoroastrian": {
     "a": {
@@ -2038,7 +2210,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoroastrian%1:18:00::",
@@ -2063,7 +2235,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoroastrian%3:01:00::"
@@ -2072,51 +2244,56 @@
           "synset": "09705524-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoroastrianism": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoroastrianism%1:09:00::",
           "synset": "06254279-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zostera": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zostera%1:20:00::",
           "synset": "12639285-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zostera marina": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zostera_marina%1:20:00::",
           "synset": "12639488-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zosteraceae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zosteraceae%1:20:00::",
           "synset": "12639097-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zovirax": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trademark%1:10:00::"
@@ -2125,107 +2302,118 @@
           "synset": "02681382-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoysia japonica": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoysia_japonica%1:20:00::",
           "synset": "12167171-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoysia matrella": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoysia_matrella%1:20:00::",
           "synset": "12167005-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zoysia tenuifolia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoysia_tenuifolia%1:20:00::",
           "synset": "12167340-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zr": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zr%1:27:00::",
           "synset": "14686460-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zsigmondy": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zsigmondy%1:18:00::",
           "synset": "11427860-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zu": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zu%1:18:00::",
           "synset": "09545750-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zubird": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zubird%1:18:00::",
           "synset": "09545750-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zuider Zee": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zuider_zee%1:17:00::",
           "synset": "09506649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zuiderzee": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zuiderzee%1:17:01::",
           "synset": "09506649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zukerman": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zukerman%1:18:00::",
           "synset": "11428036-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zulu": {
     "n": {
@@ -2234,7 +2422,7 @@
           "value": "ˈzuːluː"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zulu%1:18:00::",
           "synset": "09771354-n"
@@ -2248,51 +2436,56 @@
           "synset": "07007452-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zulu language": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zulu_language%1:10:01::",
           "synset": "07007452-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zuni": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zuni%1:18:00::",
           "synset": "09692937-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zurich": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zurich%1:15:00::",
           "synset": "09055592-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zurvan": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zurvan%1:18:00::",
           "synset": "10826216-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zurvanism": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zurvanism%1:14:00::",
           "synset": "08168103-n"
@@ -2302,181 +2495,199 @@
           "synset": "06261683-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zweig": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zweig%1:18:00::",
           "synset": "11428143-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zwingli": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zwingli%1:18:00::",
           "synset": "11428238-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zworykin": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zworykin%1:18:00::",
           "synset": "11428409-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygnema": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygnema%1:05:00::",
           "synset": "01412971-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygnemales": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygnemales%1:05:00::",
           "synset": "01412581-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygnemataceae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygnemataceae%1:05:00::",
           "synset": "01412750-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygnematales": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygnematales%1:05:00::",
           "synset": "01412581-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygocactus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygocactus%1:20:00::",
           "synset": "11874701-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygocactus truncatus": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygocactus_truncatus%1:20:00::",
           "synset": "11874948-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygomycetes": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomycetes%1:20:00::",
           "synset": "12993389-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygomycota": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomycota%1:20:00::",
           "synset": "12993174-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygomycotina": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomycotina%1:20:00::",
           "synset": "12993174-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygophyllaceae": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygophyllaceae%1:20:00::",
           "synset": "12741292-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygophyllum": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygophyllum%1:20:00::",
           "synset": "12741653-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygophyllum fabago": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygophyllum_fabago%1:20:00::",
           "synset": "12741882-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zygoptera": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygoptera%1:05:00::",
           "synset": "02271398-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zyklon A": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zyklon_a%1:27:01::",
           "synset": "92428084-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zyloprim": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "trademark%1:10:00::"
@@ -2485,27 +2696,30 @@
           "synset": "02700895-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zyrian": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zyrian%1:10:00::",
           "synset": "06969782-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "Zyrian language": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zyrian_language%1:10:01::",
           "synset": "06969782-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "z": {
     "n": {
@@ -2522,33 +2736,36 @@
           "value": "z"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "z%1:10:01::",
           "synset": "06846940-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "z-axis": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "z-axis%1:09:00::",
           "synset": "06018782-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "z-fold": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "z-fold%1:25:01::",
           "synset": "92423476-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zaatar": {
     "n": {
@@ -2562,13 +2779,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zaatar%1:13:01::",
           "synset": "92413787-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zabaglione": {
     "n": {
@@ -2582,13 +2800,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zabaglione%1:13:00::",
           "synset": "07637106-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zaftig": {
     "a": {
@@ -2602,13 +2821,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zaftig%5:00:00:fat:01",
           "synset": "00990165-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zag": {
     "n": {
@@ -2617,33 +2837,36 @@
           "value": "zæɡ"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zag%1:25:00::",
           "synset": "13910012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zaire": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaire%1:23:00::",
           "synset": "13732548-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zakat": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zakat%1:09:00::",
           "synset": "05923445-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zalcitabine": {
     "n": {
@@ -2657,43 +2880,47 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zalcitabine%1:06:00::",
           "synset": "03195447-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zaman": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zaman%1:20:00::",
           "synset": "11780322-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zamang": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamang%1:20:00::",
           "synset": "11780322-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zamboorak": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamboorak%1:14:00::",
           "synset": "08406649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zamburak": {
     "n": {
@@ -2702,43 +2929,47 @@
           "value": "ˈzʌmbʊɹʌk"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zamburak%1:14:00::",
           "synset": "08406649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zamburek": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamburek%1:14:00::",
           "synset": "08406649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zamia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamia%1:20:00::",
           "synset": "11622369-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zamia family": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zamia_family%1:20:00::",
           "synset": "11621938-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zany": {
     "a": {
@@ -2751,7 +2982,7 @@
           "value": "ˈzeɪni"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zany%1:18:01::",
@@ -2776,7 +3007,7 @@
           "value": "ˈzeɪni"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zany%5:00:00:humorous:00",
@@ -2794,7 +3025,8 @@
           "synset": "10177319-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zap": {
     "n": {
@@ -2803,7 +3035,7 @@
           "value": "zæp"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zap%1:11:00::",
           "synset": "07494768-n"
@@ -2820,7 +3052,7 @@
           "value": "zæp"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zap%2:37:00::",
           "subcat": [
@@ -2862,7 +3094,8 @@
           "synset": "00322737-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zapper": {
     "n": {
@@ -2872,7 +3105,7 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zap%2:35:00::"
@@ -2881,27 +3114,30 @@
           "synset": "04621440-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zarf": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zarf%1:06:00::",
           "synset": "04621601-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zayin": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zayin%1:10:00::",
           "synset": "06850407-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeal": {
     "n": {
@@ -2915,7 +3151,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zealous%5:00:00:enthusiastic:00"
@@ -2935,7 +3171,8 @@
           "synset": "04652076-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zealot": {
     "n": {
@@ -2944,13 +3181,14 @@
           "value": "ˈzɛl.ət"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zealot%1:18:00::",
           "synset": "10421831-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zealotry": {
     "n": {
@@ -2960,13 +3198,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zealotry%1:09:00::",
           "synset": "06216069-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zealous": {
     "a": {
@@ -2975,7 +3214,7 @@
           "value": "ˈzɛl.əs"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zeal%1:12:02::",
@@ -2985,11 +3224,12 @@
           "synset": "00889495-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zealously": {
     "r": {
-      "sense": [
+      "senses": [
         {
           "id": "zealously%4:02:00::",
           "pertainym": [
@@ -2998,37 +3238,41 @@
           "synset": "00499976-r"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeaxanthin": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeaxanthin%1:27:00::",
           "synset": "14745942-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebibit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebibit%1:23:00::",
           "synset": "13653468-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebibyte": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebibyte%1:23:00::",
           "synset": "13652973-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebra": {
     "n": {
@@ -3038,17 +3282,18 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zebra%1:05:00::",
           "synset": "02393701-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebra crossing": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "british_english%1:10:01::"
@@ -3057,51 +3302,56 @@
           "synset": "03910302-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebra finch": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebra_finch%1:05:00::",
           "synset": "01547030-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebra mussel": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebra_mussel%1:05:00::",
           "synset": "01968170-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebra orchid": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebra_orchid%1:20:00::",
           "synset": "12069006-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebra-tailed lizard": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebra-tailed_lizard%1:05:00::",
           "synset": "01681298-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebrawood": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebrawood%1:20:02::",
           "synset": "11766529-n"
@@ -3111,27 +3361,30 @@
           "synset": "11766286-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebrawood family": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebrawood_family%1:20:00::",
           "synset": "11766693-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebrawood tree": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zebrawood_tree%1:20:00::",
           "synset": "11766286-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zebu": {
     "n": {
@@ -3140,13 +3393,14 @@
           "value": "ˈziː.buː"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zebu%1:05:00::",
           "synset": "02407558-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zed": {
     "n": {
@@ -3155,7 +3409,7 @@
           "value": "zɛd"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "british_english%1:10:01::"
@@ -3164,7 +3418,8 @@
           "synset": "06846940-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zee": {
     "n": {
@@ -3173,7 +3428,7 @@
           "value": "ˈziː"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "exemplifies": [
             "american_english%1:10:00::"
@@ -3182,17 +3437,19 @@
           "synset": "06846940-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zenerdiode": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zenerdiode%1:06:01::",
           "synset": "92449997-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zenith": {
     "n": {
@@ -3202,7 +3459,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "antonym": [
             "nadir%1:15:01::"
@@ -3214,7 +3471,8 @@
           "synset": "08702507-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zenithal": {
     "a": {
@@ -3228,7 +3486,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zenith%1:15:01::"
@@ -3240,37 +3498,41 @@
           "synset": "03143301-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeolite": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeolite%1:27:00::",
           "synset": "15131434-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeolitic water": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeolitic_water%1:27:01::",
           "synset": "92462241-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zep": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zep%1:13:00::",
           "synset": "07713570-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zephyr": {
     "n": {
@@ -3284,13 +3546,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zephyr%1:19:00::",
           "synset": "11451868-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeppelin": {
     "n": {
@@ -3299,13 +3562,14 @@
           "value": "ˈzɛp.lɪn"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zeppelin%1:06:00::",
           "synset": "04621729-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero": {
     "a": {
@@ -3315,7 +3579,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zero%5:00:00:cardinal:00",
           "synset": "02193771-s"
@@ -3348,7 +3612,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zero%2:30:01::"
@@ -3383,7 +3647,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zero%1:23:02::",
@@ -3409,41 +3673,45 @@
           "synset": "00298114-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero coupon bond": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero_coupon_bond%1:21:00::",
           "synset": "13362067-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero coupon security": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero_coupon_security%1:21:00::",
           "synset": "13439996-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero hour": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero_hour%1:28:00::",
           "synset": "15254096-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero in": {
     "v": {
-      "sense": [
+      "senses": [
         {
           "id": "zero_in%2:33:12::",
           "subcat": [
@@ -3459,67 +3727,74 @@
           "synset": "00298114-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero point": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero_point%1:09:00::",
           "synset": "05864801-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero tolerance": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero_tolerance%1:09:00::",
           "synset": "06216311-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero-coupon bond": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero-coupon_bond%1:21:00::",
           "synset": "13362067-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero-coupon security": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero-coupon_security%1:21:00::",
           "synset": "13439996-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero-sum game": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero-sum_game%1:04:00::",
           "synset": "00510717-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zero-tolerance policy": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zero-tolerance_policy%1:10:00::",
           "synset": "06676053-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeroth": {
     "a": {
@@ -3529,23 +3804,25 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zeroth%5:00:00:ordinal:00",
           "synset": "02209639-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeroth law of thermodynamics": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeroth_law_of_thermodynamics%1:09:00::",
           "synset": "05892080-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zest": {
     "n": {
@@ -3554,7 +3831,7 @@
           "value": "zɛst"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zesty%5:00:00:spirited:00"
@@ -3578,7 +3855,7 @@
           "value": "zɛst"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zest%1:07:01::"
@@ -3593,11 +3870,12 @@
           "synset": "02197016-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zestful": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zestfulness%1:12:00::"
@@ -3606,11 +3884,12 @@
           "synset": "02288916-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zestfully": {
     "r": {
-      "sense": [
+      "senses": [
         {
           "id": "zestfully%4:02:00::",
           "pertainym": [
@@ -3619,11 +3898,12 @@
           "synset": "00500115-r"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zestfulness": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zestful%5:00:00:spirited:00"
@@ -3632,11 +3912,12 @@
           "synset": "07507121-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zestily": {
     "r": {
-      "sense": [
+      "senses": [
         {
           "id": "zestily%4:02:00::",
           "pertainym": [
@@ -3645,7 +3926,8 @@
           "synset": "00500115-r"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zesty": {
     "a": {
@@ -3655,7 +3937,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zest%1:07:01::"
@@ -3671,7 +3953,8 @@
           "synset": "02288916-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeta": {
     "n": {
@@ -3685,47 +3968,51 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zeta%1:10:00::",
           "synset": "06847724-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeta key": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeta_key%1:06:01::",
           "synset": "92299200-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeta wrench": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zeta_wrench%1:06:01::",
           "synset": "92299200-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zettabit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zettabit%1:23:00::",
           "synset": "13653306-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zettabyte": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zettabyte%1:23:01::",
           "synset": "13653148-n"
@@ -3735,17 +4022,19 @@
           "synset": "13652973-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zettaflop": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zettaflop%1:23:01::",
           "synset": "92467429-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zeugma": {
     "n": {
@@ -3754,13 +4043,14 @@
           "value": "ˈzjuːɡ.mə"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zeugma%1:10:00::",
           "synset": "07123492-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zidovudine": {
     "n": {
@@ -3774,27 +4064,29 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zidovudine%1:06:00::",
           "synset": "02768434-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zig": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zig%1:25:00::",
           "synset": "13910012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zig-zag": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zigzag%1:25:00::"
@@ -3803,27 +4095,30 @@
           "synset": "02322131-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zig-zag fold": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zig-zag_fold%1:25:01::",
           "synset": "92423476-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zigadene": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigadene%1:20:00::",
           "synset": "12487232-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ziggurat": {
     "n": {
@@ -3832,17 +4127,18 @@
           "value": "ˈzɪɡʊˌɹæt"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "ziggurat%1:06:00::",
           "synset": "04622012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zigzag": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zigzag%1:25:00::"
@@ -3853,7 +4149,7 @@
       ]
     },
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zigzag%5:00:00:crooked:01",
@@ -3866,7 +4162,7 @@
       ]
     },
     "r": {
-      "sense": [
+      "senses": [
         {
           "id": "zigzag%4:02:00::",
           "synset": "00500266-r"
@@ -3878,7 +4174,7 @@
         "zigzagged",
         "zigzagging"
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zigzag%1:25:00::"
@@ -3897,47 +4193,52 @@
           "synset": "01995776-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zigzag goldenrod": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigzag_goldenrod%1:20:00::",
           "synset": "12038999-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zigzaggedness": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zigzaggedness%1:07:01::",
           "synset": "92419961-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zikkurat": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zikkurat%1:06:00::",
           "synset": "04622012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zikurat": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zikurat%1:06:00::",
           "synset": "04622012-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zilch": {
     "n": {
@@ -3946,27 +4247,29 @@
           "value": "zɪltʃ"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zilch%1:23:00::",
           "synset": "13762308-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zill": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zill%1:06:00::",
           "synset": "04622201-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zillion": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zillion%5:00:00:cardinal:00",
           "synset": "02207588-s"
@@ -3979,13 +4282,14 @@
           "value": "ˈzɪljən"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zillion%1:23:00::",
           "synset": "13798632-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc": {
     "n": {
@@ -3995,7 +4299,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zinc%1:27:00::",
           "synset": "14686156-n"
@@ -4009,7 +4313,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zinc%2:35:00::",
           "subcat": [
@@ -4018,167 +4322,184 @@
           "synset": "01618810-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc blende": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_blende%1:27:00::",
           "synset": "15132443-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc cadmium sulfide": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_cadmium_sulfide%1:27:00::",
           "synset": "15120993-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc carbonate": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_carbonate%1:27:01::",
           "synset": "92463247-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc deficiency": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_deficiency%1:26:00::",
           "synset": "14224186-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc ointment": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_ointment%1:06:00::",
           "synset": "04622375-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc oxide": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_oxide%1:27:00::",
           "synset": "15132654-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc phosphate cement": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_phosphate_cement%1:27:01::",
           "synset": "92431344-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc phosphate dental cement": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_phosphate_dental_cement%1:27:01::",
           "synset": "92431344-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc selenite": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_selenite%1:27:01::",
           "synset": "92420837-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc spar": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_spar%1:27:01::",
           "synset": "92463249-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc sulfate": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_sulfate%1:27:00::",
           "synset": "15132891-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc sulfide": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_sulfide%1:27:00::",
           "synset": "15133105-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc sulphate": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_sulphate%1:27:00::",
           "synset": "15132891-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc sulphide": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_sulphide%1:27:00::",
           "synset": "15133105-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc vitriol": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_vitriol%1:27:00::",
           "synset": "15132891-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinc white": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinc_white%1:27:00::",
           "synset": "15133312-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinfandel": {
     "n": {
@@ -4188,13 +4509,14 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zinfandel%1:13:00::",
           "synset": "07914308-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zing": {
     "n": {
@@ -4203,7 +4525,7 @@
           "value": "zɪŋ"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zing%1:11:00::",
           "synset": "07415301-n"
@@ -4213,51 +4535,56 @@
           "synset": "04642839-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinger": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinger%1:10:00::",
           "synset": "07297400-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinkenite": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinkenite%1:27:00::",
           "synset": "15133464-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinnia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinnia%1:20:00::",
           "synset": "12054610-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zinnwaldite": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zinnwaldite%1:27:00::",
           "synset": "15133583-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zip": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zip%1:23:00::",
           "synset": "13762308-n"
@@ -4283,7 +4610,7 @@
         "zipped",
         "zipping"
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zip%1:06:00::",
@@ -4308,11 +4635,12 @@
           "synset": "02059573-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zip by": {
     "v": {
-      "sense": [
+      "senses": [
         {
           "id": "zip_by%2:38:00::",
           "sent": [
@@ -4325,31 +4653,34 @@
           "synset": "02057753-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zip fastener": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zip_fastener%1:06:00::",
           "synset": "04245427-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zip gun": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zip_gun%1:06:00::",
           "synset": "04622506-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zip up": {
     "v": {
-      "sense": [
+      "senses": [
         {
           "antonym": [
             "unzip%2:35:00::"
@@ -4361,7 +4692,8 @@
           "synset": "01356373-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zipper": {
     "n": {
@@ -4371,7 +4703,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zipper%2:35:00::",
@@ -4389,7 +4721,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zipper%1:06:00::"
@@ -4404,17 +4736,19 @@
           "synset": "01356373-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zippo": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zippo%1:23:00::",
           "synset": "13762308-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zippy": {
     "a": {
@@ -4427,7 +4761,7 @@
           "value": "ˈzɪpi"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zip%1:07:00::"
@@ -4440,27 +4774,30 @@
           "synset": "00808879-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zircon": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zircon%1:27:00::",
           "synset": "15133694-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zirconia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zirconia%1:27:00::",
           "synset": "15133958-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zirconium": {
     "n": {
@@ -4469,53 +4806,58 @@
           "value": "zɜːɹˈkoʊniəm"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zirconium%1:27:00::",
           "synset": "14686460-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zirconium dioxide": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zirconium_dioxide%1:27:00::",
           "synset": "15133958-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zirconium oxide": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zirconium_oxide%1:27:00::",
           "synset": "15133958-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zirconium silicate": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zirconium_silicate%1:27:00::",
           "synset": "15133694-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zit%1:26:00::",
           "synset": "14357711-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zither": {
     "n": {
@@ -4529,23 +4871,25 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zither%1:06:00::",
           "synset": "04622583-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zithern": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zithern%1:06:00::",
           "synset": "04622583-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "ziti": {
     "n": {
@@ -4554,13 +4898,14 @@
           "value": "ˈziːti"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "ziti%1:13:00::",
           "synset": "07716000-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zizz": {
     "n": {
@@ -4569,7 +4914,7 @@
           "value": "zɪz"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zizz%1:11:00::",
           "synset": "07494939-n"
@@ -4579,7 +4924,8 @@
           "synset": "00860420-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zloty": {
     "n": {
@@ -4593,23 +4939,25 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zloty%1:23:00::",
           "synset": "13732882-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoanthropy": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoanthropy%1:26:00::",
           "synset": "14402422-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoarium": {
     "n": {
@@ -4618,13 +4966,14 @@
           "value": "zəʊˈɛəɹiəm"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoarium%1:14:01::",
           "synset": "92420170-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zodiac": {
     "n": {
@@ -4638,7 +4987,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zodiacal%3:01:00::"
@@ -4654,7 +5003,8 @@
           "synset": "04622813-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zodiacal": {
     "a": {
@@ -4663,7 +5013,7 @@
           "value": "ˌzoʊ.ˈdaɪ.ə.kəl"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zodiac%1:15:00::",
@@ -4676,27 +5026,30 @@
           "synset": "03144228-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zodiacal light": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zodiacal_light%1:19:00::",
           "synset": "11548007-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoftig": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zoftig%5:00:00:fat:01",
           "synset": "00990165-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoic": {
     "a": {
@@ -4705,7 +5058,7 @@
           "value": "ˈzəʊɪk"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoic%3:01:00::",
           "pertainym": [
@@ -4714,11 +5067,12 @@
           "synset": "02666826-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zombi": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zombi%1:18:03::",
           "synset": "10825536-n"
@@ -4740,17 +5094,19 @@
           "synset": "07935405-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zombi spirit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zombi_spirit%1:18:00::",
           "synset": "10825536-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zombie": {
     "n": {
@@ -4764,7 +5120,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zombie%1:18:00::",
           "synset": "10825242-n"
@@ -4786,37 +5142,41 @@
           "synset": "07935405-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zombie spirit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zombie_spirit%1:18:00::",
           "synset": "10825536-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zona": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zona%1:08:00::",
           "synset": "05618817-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zona pellucida": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zona_pellucida%1:08:00::",
           "synset": "05616370-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zonal": {
     "a": {
@@ -4825,7 +5185,7 @@
           "value": "ˈzəʊnəl"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zonal%3:01:00::",
           "pertainym": [
@@ -4841,21 +5201,23 @@
           "synset": "02600228-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zonal pelargonium": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zonal_pelargonium%1:20:00::",
           "synset": "12708459-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zonary": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zone%1:15:02::",
@@ -4866,7 +5228,8 @@
           "synset": "03143853-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zone": {
     "n": {
@@ -4880,7 +5243,7 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zonary%3:01:00::",
@@ -4921,7 +5284,7 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zone%1:15:00::"
@@ -4950,71 +5313,78 @@
           "synset": "00333645-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zone fire": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zone_fire%1:04:00::",
           "synset": "00997075-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zone of interior": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zone_of_interior%1:15:00::",
           "synset": "08569559-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoning": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoning%1:04:00::",
           "synset": "00930566-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoning board": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoning_board%1:14:00::",
           "synset": "08430486-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoning change fee": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoning_change_fee%1:21:01::",
           "synset": "92468158-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoning commission": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoning_commission%1:14:00::",
           "synset": "08430638-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zonk out": {
     "v": {
-      "sense": [
+      "senses": [
         {
           "id": "zonk_out%2:29:01::",
           "subcat": [
@@ -5030,27 +5400,30 @@
           "synset": "00016848-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zonula": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zonula%1:08:00::",
           "synset": "05618976-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zonule": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zonule%1:08:00::",
           "synset": "05618976-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoo": {
     "n": {
@@ -5059,63 +5432,69 @@
           "value": "zuː"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoo%1:06:00::",
           "synset": "03750637-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoo keeper": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoo_keeper%1:18:00::",
           "synset": "10825717-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zooecdysone": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zooecdysone%1:27:01::",
           "synset": "92424812-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zooerastia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zooerastia%1:04:00::",
           "synset": "00859689-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zooerasty": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zooerasty%1:04:00::",
           "synset": "00859689-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zooflagellate": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zooflagellate%1:05:00::",
           "synset": "01421261-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zooid": {
     "n": {
@@ -5125,13 +5504,14 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zooid%1:05:00::",
           "synset": "01418854-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoolatry": {
     "n": {
@@ -5140,13 +5520,14 @@
           "value": "zəʊˈɒlətɹi"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoolatry%1:04:00::",
           "synset": "01048365-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoological": {
     "a": {
@@ -5160,7 +5541,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoology%1:09:00::"
@@ -5179,7 +5560,8 @@
           "synset": "02902696-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoological garden": {
     "n": {
@@ -5193,23 +5575,25 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoological_garden%1:06:00::",
           "synset": "03750637-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoological science": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoological_science%1:09:00::",
           "synset": "06092831-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoologist": {
     "n": {
@@ -5223,7 +5607,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoology%1:09:00::"
@@ -5232,7 +5616,8 @@
           "synset": "10825826-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoology": {
     "n": {
@@ -5246,7 +5631,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoology%1:14:00::",
           "synset": "08009721-n"
@@ -5260,11 +5645,12 @@
           "synset": "06092831-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoom": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoom%2:38:03::"
@@ -5282,7 +5668,7 @@
       ]
     },
     "v": {
-      "sense": [
+      "senses": [
         {
           "id": "zoom%2:38:00::",
           "subcat": [
@@ -5315,11 +5701,12 @@
           "synset": "01947577-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoom along": {
     "v": {
-      "sense": [
+      "senses": [
         {
           "id": "zoom_along%2:38:00::",
           "subcat": [
@@ -5329,7 +5716,8 @@
           "synset": "02059445-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoom in": {
     "v": {
@@ -5338,7 +5726,7 @@
           "value": "ˌzuːm ˈɪn"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoom_in%2:39:00::",
           "subcat": [
@@ -5347,7 +5735,8 @@
           "synset": "02157683-v"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoom lens": {
     "n": {
@@ -5356,33 +5745,36 @@
           "value": "zu(ː)m lɛnz"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoom_lens%1:06:00::",
           "synset": "04410548-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoomastigote": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoomastigote%1:05:00::",
           "synset": "01421261-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoomorphism": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoomorphism%1:09:00::",
           "synset": "05743090-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoonosis": {
     "n": {
@@ -5399,7 +5791,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoonotic%3:01:00::"
@@ -5408,7 +5800,8 @@
           "synset": "14300151-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoonotic": {
     "a": {
@@ -5426,7 +5819,7 @@
           "variety": "NZ"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zoonosis%1:26:00::"
@@ -5438,37 +5831,41 @@
           "synset": "03157624-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoonotic disease": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoonotic_disease%1:26:00::",
           "synset": "14300151-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoophagous": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zoophagous%5:00:00:carnivorous:00",
           "synset": "00314598-s"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoophagy": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoophagy%1:22:01::",
           "synset": "92419120-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoophilia": {
     "n": {
@@ -5482,33 +5879,36 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoophilia%1:04:00::",
           "synset": "00739896-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoophilism": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoophilism%1:04:00::",
           "synset": "00739896-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoophobia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoophobia%1:26:00::",
           "synset": "14408201-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoophyte": {
     "n": {
@@ -5518,13 +5918,14 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoophyte%1:05:00::",
           "synset": "01908819-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zooplankton": {
     "n": {
@@ -5533,13 +5934,14 @@
           "value": "ˈzoʊəˌplæŋktən"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zooplankton%1:05:00::",
           "synset": "01386805-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoopsia": {
     "n": {
@@ -5549,43 +5951,47 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zoopsia%1:26:00::",
           "synset": "14401991-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoospore": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoospore%1:20:00::",
           "synset": "11570346-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoot suit": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoot_suit%1:06:00::",
           "synset": "04623001-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zootoxin": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zootoxin%1:27:00::",
           "synset": "15059308-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zori": {
     "n": {
@@ -5594,43 +6000,47 @@
           "value": "ˈzɔːɹi"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zori%1:06:00::",
           "synset": "04034182-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoril": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoril%1:05:00::",
           "synset": "02447015-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoster": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoster%1:26:00::",
           "synset": "14156311-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zoysia": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zoysia%1:20:00::",
           "synset": "12166828-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zucchini": {
     "n": {
@@ -5639,7 +6049,7 @@
           "value": "zuːˈkiːniː"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zucchini%1:20:00::",
           "synset": "12180321-n"
@@ -5652,51 +6062,56 @@
           "synset": "07732103-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zumbooruck": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zumbooruck%1:14:00::",
           "synset": "08406649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zumbooruk": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zumbooruk%1:14:00::",
           "synset": "08406649-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zwieback": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zwieback%1:13:00::",
           "synset": "07705587-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zydeco": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zydeco%1:10:00::",
           "synset": "07076590-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygodactyl": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "antonym": [
             "heterodactyl%3:00:00::"
@@ -5705,11 +6120,12 @@
           "synset": "01202129-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygodactyl foot": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "antonym": [
             "heterodactyl_foot%1:05:00::"
@@ -5718,11 +6134,12 @@
           "synset": "02157476-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygoma": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zygomatic%3:01:00::"
@@ -5731,7 +6148,8 @@
           "synset": "05292350-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygomatic": {
     "a": {
@@ -5745,7 +6163,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zygoma%1:08:00::"
@@ -5769,47 +6187,51 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "id": "zygomatic%1:08:00::",
           "synset": "05281321-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygomatic arch": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomatic_arch%1:08:00::",
           "synset": "05292350-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygomatic bone": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomatic_bone%1:08:00::",
           "synset": "05281321-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygomatic process": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomatic_process%1:08:00::",
           "synset": "05554016-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygomorphic": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "antonym": [
             "actinomorphic%3:00:00::"
@@ -5818,27 +6240,30 @@
           "synset": "02383265-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygomorphous": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zygomorphous%3:00:00::",
           "synset": "02383265-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygospore": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygospore%1:20:00::",
           "synset": "13260819-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygote": {
     "n": {
@@ -5852,7 +6277,7 @@
           "variety": "US"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zygotic%3:01:00::"
@@ -5861,21 +6286,23 @@
           "synset": "05439502-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygotene": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zygotene%1:22:00::",
           "synset": "13596312-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zygotic": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zygote%1:08:00::"
@@ -5887,31 +6314,34 @@
           "synset": "02893579-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymase": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zymase%1:27:00::",
           "synset": "15134153-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymogen": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zymogen%1:27:00::",
           "synset": "14715606-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymoid": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "id": "zymoid%3:01:00::",
           "pertainym": [
@@ -5920,21 +6350,23 @@
           "synset": "03157905-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymology": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zymology%1:09:00::",
           "synset": "06089949-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymolysis": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zymolytic%3:01:00::"
@@ -5943,11 +6375,12 @@
           "synset": "13596636-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymolytic": {
     "a": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zymolysis%1:22:00::"
@@ -5959,11 +6392,12 @@
           "synset": "03011955-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymosis": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zymotic%3:01:01::"
@@ -5979,7 +6413,8 @@
           "synset": "13596429-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymotic": {
     "a": {
@@ -5989,7 +6424,7 @@
           "variety": "GB"
         }
       ],
-      "sense": [
+      "senses": [
         {
           "derivation": [
             "zymosis%1:22:01::"
@@ -6011,16 +6446,18 @@
           "synset": "03011849-a"
         }
       ]
-    }
+    },
+    "isAnglish": false
   },
   "zymurgy": {
     "n": {
-      "sense": [
+      "senses": [
         {
           "id": "zymurgy%1:09:00::",
           "synset": "06089949-n"
         }
       ]
-    }
+    },
+    "isAnglish": false
   }
 }

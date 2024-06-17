@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { appendFile } from 'fs/promises';
 import _ from 'lodash';
 import OpenAI from 'openai';
-import { formatPoS, getPath } from './util.mjs';
+import { getPath } from './util.mjs';
 
 export const openai = new OpenAI();
 

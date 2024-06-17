@@ -5,7 +5,7 @@ import {
   MootLoader,
   WiktionaryLoader,
   WordNetLoader,
-  WordbookLoader,
+  HurlebatteLoader,
 } from './loaders.mjs';
 import * as util from './util.mjs';
 
@@ -38,9 +38,9 @@ export default async function compileSources(options) {
     ...options,
     save: options?.save?.includes('wikt'),
   });
-  const wordbook = await new WordbookLoader().load({
+  const hb = await new HurlebatteLoader().load({
     ...options,
-    save: options?.save?.includes('wordbook'),
+    save: options?.save?.includes('hb'),
   });
   const moot = await new MootLoader().load({
     ...options,
@@ -51,11 +51,64 @@ export default async function compileSources(options) {
     save: options?.save?.includes('wordnet'),
   });
 
-  console.log(`\nWordbook entries: ${Object.keys(wordbook.data).length}`);
-  console.log(`Moot English entries: ${Object.keys(moot.english).length}`);
-  console.log(`Moot Anglish entries: ${Object.keys(moot.anglish).length}`);
+  console.log(`\nHurlebatte entries: ${Object.keys(hb.anglish).length}`);
+  console.log(`Moot entries: ${Object.keys(moot.anglish).length}`);
+  console.log(`Wiktionary entries: ${Object.keys(wikt.anglish).length}`);
   console.log(`WordNet entries: ${Object.keys(wordnet.entries).length}`);
   console.log(`WordNet synsets: ${Object.keys(wordnet.synsets).length}\n`);
+
+  let sensesCount = 0;
+
+  const mergeSourceIntoWordNet = (source) => {
+    for (const word in source) {
+      if (!wordnet.entries[word]) {
+        wordnet.entries[word] = { ...source[word], isAnglish: true };
+      } else {
+        wordnet.entries[word].isAnglish = true;
+
+        for (const pos in source[word]) {
+          if (!wordnet.entries[word][pos]) {
+            wordnet.entries[word][pos] = source[word][pos];
+          } else {
+            wordnet.entries[word][pos].senses.push(...source[word][pos].senses);
+          }
+
+          // for (const sense of source[word][pos].senses) {
+          //   wordnet.entries[word][pos].senses.push(sense)
+          //   if (sense.english.split(' ').length < 2) {
+          //     continue;
+          //   }
+          //   // convert sense longer than 2+ words to one English word
+          //   // see if that word/pos exists in WordNet
+          //   // if yes, map its senses to their synset/definition
+          //   // filter those by which make sense in context of original word
+          //   sensesCount++;
+          // }
+        }
+      }
+    }
+  };
+
+  mergeSourceIntoWordNet(hb.anglish);
+  mergeSourceIntoWordNet(moot.anglish);
+  mergeSourceIntoWordNet(wikt.anglish);
+
+  main: for (const word in wordnet.entries) {
+    if (!wordnet.entries[word].isAnglish) {
+      const parts = word.split(/[\s-]/);
+      if (parts.length > 1) {
+        for (const part of word.split(/\s-/)) {
+          if (!wordnet.entries[part]?.isAnglish) {
+            continue main;
+          }
+        }
+        console.log(`setting "${word}" to Anglish`);
+        wordnet.entries[word].isAnglish = true;
+      }
+    }
+  }
+
+  return;
 
   const anglishWords = new Set();
   addToWordNet(moot.anglish, wordnet, anglishWords);

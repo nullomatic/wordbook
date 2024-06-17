@@ -4,7 +4,6 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import csv from 'csvtojson';
 import _ from 'lodash';
-import prompt from 'prompt';
 import YAML from 'yaml';
 import * as util from './util.mjs';
 import { logger } from './util.mjs';
@@ -28,107 +27,120 @@ const Sources = Object.freeze({
  **/
 export class WiktionaryLoader {
   constructor() {
-    this.data = null;
-    this.uri = util.getPath('/assets/kaikki/kaikki-en.json');
+    this.anglish = {};
+    this.dataPath = util.getPath('/assets/kaikki/kaikki-en.json');
+    this.jsonPath = util.getPath('/assets/kaikki/wikt-anglish.json');
   }
 
   async load(options) {
-    if (!options?.save) {
-      // Attempt to read JSON from disk before parsing JSON.
-      // If `options.save` is specified, assume we want to reload the data.
+    if (options?.save) {
+      await this.#loadWiktData(options);
+      logger.info(`Saving ${this.jsonPath}`);
+      fs.writeFileSync(this.jsonPath, JSON.stringify(this.anglish, null, 2));
+    } else {
       try {
-        logger.info('Loading kaikki-an.json');
-        const file = fs.readFileSync(
-          util.getPath('/assets/kaikki/kaikki-an.json')
-        );
-        this.data = JSON.parse(file);
-        return this;
-      } catch (e) {}
+        logger.info(`Loading ${this.jsonPath}`);
+        const file = fs.readFileSync(this.jsonPath, 'utf-8');
+        this.anglish = JSON.parse(file);
+      } catch (error) {
+        return this.load({ ...options, save: true });
+      }
     }
+    return this;
+  }
 
-    this.data = {};
-
-    // God this is messy.
-    const extractSenses = (senses) => {
-      const _a = senses
-        .map(({ glosses }) =>
-          glosses.map((str) => {
-            const _b = str
-              .replace(/\([^)]*\)/g, '')
-              .replace(/\[[^\]]*\]/g, '')
-              .split(';')
-              .map((s) =>
-                s
-                  .trim()
-                  .replace(/^(a|an|to)\s/gi, '')
-                  .replace(/\./g, '')
-              )
-              .join('; ');
-            return _b;
-          })
-        )
-        .reduce((acc, cur) => acc.concat(cur));
-      return _a;
-    };
-
-    const handler = (line) => {
+  async #loadWiktData(options) {
+    const handler = async (line) => {
       const json = JSON.parse(line);
-      let isAnglish = false;
-      if (/(old english|germanic)/i.test(json.etymology_text)) {
-        isAnglish = true;
+      const word = json.word;
+
+      let hasGermanic = false;
+      let hasLatin = false;
+
+      if (Array.isArray(json.etymology_templates)) {
+        for (const etym of json.etymology_templates) {
+          if (etym.name === 'inh') {
+            if (
+              /(Old English|Germanic|Norse|Saxon|Frankish)/i.test(
+                etym.expansion
+              )
+            ) {
+              hasGermanic = true;
+            } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
+              hasLatin = true;
+            }
+          }
+        }
       }
-      if (/(french|latin|greek)/i.test(json.etymology_text)) {
-        isAnglish = false;
-      }
+
+      const isAnglish = hasGermanic && !hasLatin;
+
       if (isAnglish) {
-        const pos = util.formatPoS(json.pos);
-        if (!this.data[json.word]) {
-          this.data[json.word] = {
-            [pos]: {
-              senses: extractSenses(json.senses),
-            },
-          };
-        } else {
-          this.data[json.word][pos] = {
-            senses: extractSenses(json.senses),
-          };
+        if (!util.WORD_REGEXP.test(word)) {
+          return;
+        }
+        const pos = await this.#formatPartOfSpeech(word, json.pos);
+        if (!pos) {
+          return;
+        }
+
+        this.#createEntry(word, pos);
+        this.anglish[word][pos].origin = json.etymology_text;
+
+        for (const sense of json.senses) {
+          for (const gloss of sense.glosses) {
+            this.anglish[word][pos].senses.push({
+              english: gloss,
+              source: Sources.WIKTIONARY,
+            });
+          }
+        }
+        if (_.isEmpty(this.anglish[word])) {
+          delete this.anglish[word];
         }
       }
     };
 
     await this.#loadWithStream((line) => [handler(line)]);
-
-    if (options?.save) {
-      logger.info('Saving kaikki-an.json');
-      const uri = util.getPath('/assets/kaikki/kaikki-an.json');
-      fs.writeFileSync(uri, JSON.stringify(this.data, null, 2));
-    }
-
-    return this;
   }
 
-  async _load(options, callback) {
-    logger.info('Loading Wiktionary data...');
-
-    if (options?.store) {
-      this.data = [];
+  async #formatPartOfSpeech(word, _pos) {
+    switch (_pos.toLowerCase()) {
+      case 'noun':
+        return 'n'; // noun
+        break;
+      case 'verb':
+        return 'v'; // verb
+        break;
+      case 'adj':
+        return 'a'; // adjective
+        break;
+      case 'adv':
+        return 'r'; // adverb
+        break;
+      case 'conj':
+        return 'c'; // conjunction
+        break;
+      case 'prep':
+      case 'prep_phrase':
+        return 'p'; // adposition
+        break;
+      case 'article':
+      case 'det':
+      case 'intj':
+      case 'num':
+      case 'phrase':
+      case 'pron':
+      case 'contraction':
+        return 'x'; // other
+        break;
+      case 'particle':
+      case 'character':
+      case 'symbol':
+        return null; // discard
+      default:
+        return null;
     }
-
-    await this.#loadWithStream((line) => {
-      const callbacks = [];
-      if (options?.store) {
-        this.data.push(JSON.parse(line));
-      }
-      if (options?.redis) {
-        cbs.concat(this.#redisCallback(line));
-      }
-      if (callback) {
-        callbacks.concat(callback(line) || []);
-      }
-      return callbacks;
-    });
-
-    return this;
   }
 
   /**
@@ -140,7 +152,7 @@ export class WiktionaryLoader {
     // Adjust BATCH_SIZE to keep memory under Node limit.
     // Alternatively, adjust --max-old-space-size.
     const BATCH_SIZE = 50000;
-    const stream = createReadStream(this.uri);
+    const stream = fs.createReadStream(this.dataPath);
     const rl = createInterface({ input: stream });
     const batches = []; // [ [ <promise>, <promise>, ... ], ... ]
     let currentBatch = []; // [ <promise>, <promise>, ... ]
@@ -197,22 +209,19 @@ export class WiktionaryLoader {
     }
   }
 
-  /**
-   * Callback to load Wiktionary data into Redis.
-   * @param line A single line string from the read stream.
-   **/
-  #redisCallback(line) {
-    const entry = JSON.parse(line);
-    const key = util.replaceKeyPattern({
-      lang: 'en',
-      word: entry.word,
-      pos: entry.pos,
-      etym: entry.etymology_number || 1,
-    });
-    return [
-      redis.set(key, line),
-      redis.zAdd('terms', { score: 0, value: key }),
-    ];
+  #createEntry(word, pos) {
+    if (!Object.hasOwn(this.anglish, word)) {
+      this.anglish[word] = {};
+    }
+    if (!Object.hasOwn(this.anglish[word], pos)) {
+      this.anglish[word][pos] = {};
+    }
+    if (!Object.hasOwn(this.anglish[word][pos], 'senses')) {
+      this.anglish[word][pos].senses = [];
+    }
+    if (!Object.hasOwn(this.anglish[word][pos], 'origin')) {
+      this.anglish[word][pos].origin = null;
+    }
   }
 }
 
@@ -220,22 +229,24 @@ export class WiktionaryLoader {
  * Loads data from Hurlebatte's Anglish Wordbook CSV.
  * https://docs.google.com/spreadsheets/d/1y8_11RDvuCRyUK_MXj5K7ZjccgCUDapsPDI5PjaEkMw
  **/
-export class WordbookLoader {
+export class HurlebatteLoader {
   constructor() {
     this.anglish = {};
-    this.jsonPath = util.getPath('/assets/hurlebatte/wordbook.json');
+    this.jsonPath = util.getPath('/assets/hurlebatte/hb-anglish.json');
   }
 
   async load(options) {
-    if (options?.fromDisk) {
-      logger.info(`Loading ${this.jsonPath}`);
-      const file = fs.readFileSync(this.jsonPath, 'utf-8');
-      this.anglish = JSON.parse(file);
-    } else {
+    if (options?.save) {
       await this.loadCSV();
-      if (options?.save) {
-        logger.info(`Saving ${this.jsonPath}`);
-        fs.writeFileSync(this.jsonPath, JSON.stringify(this.anglish, null, 2));
+      logger.info(`Saving ${this.jsonPath}`);
+      fs.writeFileSync(this.jsonPath, JSON.stringify(this.anglish, null, 2));
+    } else {
+      try {
+        logger.info(`Loading ${this.jsonPath}`);
+        const file = fs.readFileSync(this.jsonPath, 'utf-8');
+        this.anglish = JSON.parse(file);
+      } catch (error) {
+        return this.load({ ...options, save: true });
       }
     }
     return this;
@@ -261,7 +272,7 @@ export class WordbookLoader {
       const senses = row['MEANING']
         .replace(/\([^)]*\)/g, ',')
         .split(/[^\w\s'\-]/g)
-        .map((s) => s.trim())
+        .map((s) => s.trim().replace(/^(a|an|to) /g, ''))
         .filter((s) => s);
 
       let origin = row['FROM'];
@@ -335,31 +346,7 @@ export class WordbookLoader {
           break;
         default:
           if (interactive) {
-            // Prompt schema for correcting parts of speech.
-            const schema = {
-              properties: {
-                pos: {
-                  description: `Part of speech for '${word}:${pos}'`,
-                  type: 'string',
-                  pattern: /^(n|v|a|r|s|c|p|x|u)$/,
-                  message:
-                    'Part of speech must be of selection (n|v|a|r|s|c|p|x|u)',
-                },
-              },
-            };
-            prompt.start();
-            const input = await new Promise((resolve, reject) => {
-              prompt.get(schema, (error, result) => {
-                if (error) {
-                  reject(error);
-                } else {
-                  resolve(result);
-                }
-              });
-            });
-            if (input) {
-              posArr.push(input);
-            }
+            return await util.promptPartOfSpeech(word, pos);
           }
       }
     }
@@ -383,19 +370,22 @@ export class MootLoader {
   }
 
   async load(options) {
-    if (options?.fromDisk) {
-      logger.info(`Loading ${this.jsonPath}`);
-      const file = fs.readFileSync(this.jsonPath, 'utf-8');
-      this.anglish = JSON.parse(file);
-    } else {
+    if (options?.save) {
       await this.scrapeEnglish(options);
       await this.scrapeAnglish(options);
       this.#sortEntries();
-      if (options?.save) {
-        logger.info(`Saving ${this.jsonPath}`);
-        fs.writeFileSync(this.jsonPath, JSON.stringify(this.anglish, null, 2));
+      logger.info(`Saving ${this.jsonPath}`);
+      fs.writeFileSync(this.jsonPath, JSON.stringify(this.anglish, null, 2));
+    } else {
+      try {
+        logger.info(`Loading ${this.jsonPath}`);
+        const file = fs.readFileSync(this.jsonPath, 'utf-8');
+        this.anglish = JSON.parse(file);
+      } catch (error) {
+        return this.load({ ...options, save: true });
       }
     }
+
     return this;
   }
 
@@ -519,7 +509,7 @@ export class MootLoader {
         const senses = words
           .replace(/\([^)]*\)/g, ',')
           .split(/[^\w\s'\-]/g)
-          .map((s) => s.trim())
+          .map((s) => s.trim().replace(/^(a|an|to) /g, ''))
           .filter((s) => s);
 
         const posArr = await this.#getPartsOfSpeech(_pos, anglishWord);
@@ -588,27 +578,7 @@ export class MootLoader {
           break;
         default:
           if (interactive) {
-            // Prompt schema for correcting parts of speech.
-            const schema = {
-              properties: {
-                pos: {
-                  description: `Part of speech for '${word}:${_pos}'`,
-                  type: 'string',
-                  pattern: /^(n|v|a|r|s|c|p|x|u)$/,
-                  message:
-                    'Part of speech must be of selection (n|v|a|r|s|c|p|x|u)',
-                },
-              },
-            };
-            prompt.start();
-            const input = await new Promise((resolve, reject) => {
-              prompt.get(schema, (error, result) => {
-                resolve(result);
-              });
-            });
-            if (input) {
-              posArr.push(input);
-            }
+            return await util.promptPartOfSpeech(word, _pos);
           }
       }
     }
@@ -685,124 +655,92 @@ export class MootLoader {
  * https://globalwordnet.github.io/
  **/
 export class WordNetLoader {
-  // TODO: Make types for this shit
   constructor() {
-    /*
-     * {
-     *   craft: {
-     *     n: { ... },
-     *     v: { ... },
-     *     ...
-     *   },
-     *   ...
-     * }
-     */
-    this.entries = null;
-    /*
-     * {
-     *   "123456789-n": {
-     *     definition: "some meaningful definition",
-     *     members: [ "craft", "make", "construct", ... ]
-     *   },
-     *   ...
-     * }
-     */
-    this.synsets = null;
-    this.dirYAML = '/assets/wordnet/yaml';
-    this.dirJSON = '/assets/wordnet/json';
+    this.entries = {};
+    this.synsets = {};
+    this.dirYAML = util.getPath('/assets/wordnet/yaml');
+    this.dirJSON = util.getPath('/assets/wordnet/json');
   }
 
   async load(options) {
-    this.entries = {};
-    this.synsets = {};
-
-    let filenames, isYAML;
-    try {
-      // Attempt to load JSON files before loading and parsing YAML.
-      // (Parsing YAML files is much slower than loading directly from JSON.)
-      // If `options.save` is specified, assume we want to reload the data.
-      if (options?.save) {
-        throw new Error();
-      }
-      filenames = util.getFilenames(this.dirJSON);
-    } catch (e) {
-      filenames = util.getFilenames(this.dirYAML);
-      isYAML = true;
-    }
-
     if (options?.save) {
-      await mkdir(util.getPath(this.dirJSON), { recursive: true });
+      await this.#loadYAML();
+    } else {
+      await this.#loadJSON();
     }
+    return this;
+  }
 
-    for (const [, fullPath] of filenames) {
+  async #loadYAML() {
+    fs.mkdirSync(this.dirJSON, { recursive: true });
+
+    for (const [filename, fullPath] of util.getFilenames(this.dirYAML)) {
+      logger.info(`Loading ${fullPath}`);
+
       const file = fs.readFileSync(fullPath, 'utf-8');
-      const json = isYAML ? YAML.parse(file) : JSON.parse(file);
-      await this.#processFile(fullPath, json, isYAML, options);
-    }
+      const json = YAML.parse(file);
 
-    return this;
-  }
-
-  /*
-   * Adds similar words by mutual synset or `similar` array.
-   * TODO: Do I need this?
-   */
-  async addSimilar() {
-    const add = function (synsetIds, arr) {
-      if (synsetIds?.length) {
-        for (const id of synsetIds) {
-          if (synsets[id].members?.length) {
-            arr.concat(synsets[id].members);
+      if (/entries-\w\.yaml$/i.test(filename)) {
+        for (const word in json) {
+          const entry = json[word];
+          // Rename all `sense` keys to `senses`.
+          for (const pos of Object.keys(entry)) {
+            entry[pos].senses = entry[pos].sense;
+            delete entry[pos].sense;
           }
+          entry.isAnglish = false;
+          this.entries[word] = entry;
         }
       }
-    };
 
-    const promises = [];
-    for (const key in this.synsets) {
-      const synset = this.synsets[key];
-      const similarKey = `synset:${key}:similar`;
-      const similarWords = synset.members || [];
-      add(synset.hypernym, similarWords);
-      add(synset.similar, similarWords);
-      const command = redis.set(similarKey, JSON.stringify(similarWords));
-      promises.push(command);
+      if (/(adj|adv|noun|verb)\.\w+\.yaml$/i.test(filename)) {
+        for (const synsetId in json) {
+          const synset = json[synsetId];
+          this.synsets[synsetId] = synset;
+        }
+      }
+
+      if (/frames\.yaml$/i.test(filename)) {
+        // TODO: Handle frames file
+      }
+
+      const filenameJSON = filename.replace(/yaml$/, 'json');
+      const jsonFullPath = `${this.dirJSON}/${filenameJSON}`;
+      logger.info(`Saving ${jsonFullPath}`);
+      fs.writeFileSync(jsonFullPath, JSON.stringify(json, null, 2));
     }
-    await Promise.all(promises);
-    return this;
   }
 
-  async #processFile(fullPath, json, isYAML, options) {
-    logger.info(`Loading ${fullPath}`);
-
-    if (isYAML && options?.save) {
-      fullPath = fullPath.replace(/(?<=\.)yaml$/, 'json');
-      logger.info(`Saving ${fullPath}`);
-      fs.writeFileSync(fullPath, JSON.stringify(json, null, 2));
+  async #loadJSON() {
+    if (!fs.existsSync(this.dirJSON)) {
+      return this.#loadYAML();
+    }
+    const filenames = util.getFilenames(this.dirJSON);
+    if (!filenames.length) {
+      return this.#loadYAML();
     }
 
-    if (/entries-\w\.(json|yaml)$/i.test(fullPath)) {
-      for (const word in json) {
-        const data = json[word];
-        data.languages = ['English'];
-        this.entries[word] = data;
-        // Rename all `sense` keys to `senses`.
-        for (const pos of _.without(Object.keys(data), 'languages')) {
-          data[pos].senses = data[pos].sense;
-          delete data[pos].sense;
+    for (const [filename, fullPath] of filenames) {
+      logger.info(`Loading ${fullPath}`);
+
+      const file = fs.readFileSync(fullPath, 'utf-8');
+      const json = JSON.parse(file);
+
+      if (/entries-\w\.json$/i.test(filename)) {
+        for (const word in json) {
+          this.entries[word] = json[word];
         }
       }
-    }
 
-    if (/(adj|adv|noun|verb)\.\w+\.(json|yaml)$/i.test(fullPath)) {
-      for (const word in json) {
-        const data = json[word];
-        this.synsets[word] = data;
+      if (/(adj|adv|noun|verb)\.\w+\.json$/i.test(filename)) {
+        for (const synsetId in json) {
+          this.synsets[synsetId] = json[synsetId];
+        }
       }
-    }
 
-    if (/frames(json|yaml)$/i.test(fullPath)) {
-      // TODO: Handle frames file
+      if (/frames\.json$/i.test(filename)) {
+        // TODO: Handle frames file
+      }
     }
   }
 }
