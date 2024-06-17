@@ -21,8 +21,8 @@ if (options.verbose) {
   logger.transports[0].level = 'verbose';
 }
 
-if (options.reload) {
-  options.reload = options.reload.split(',');
+if (options.save) {
+  options.save = options.save.split(',');
 }
 
 if (options.compile) {

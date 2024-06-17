@@ -1,4 +1,4 @@
-import { readdirSync } from 'fs';
+import { readdirSync, readFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import _ from 'lodash';
@@ -6,12 +6,23 @@ import * as winston from 'winston';
 
 const DIRNAME = dirname(fileURLToPath(import.meta.url));
 
-export const WORD_PATTERN = `\\b\\p{L}+([-\\s']\\p{L}+){0,4}\\b`;
+export const WORD_PATTERN = `\\p{L}+([-\\s']\\p{L}+){0,4}`;
 export const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
 export const MOOT_ENGLISH_REGEXP = new RegExp(
   `(?<!\\()(?<words>${WORD_PATTERN}(, (${WORD_PATTERN})?)*)(?!\\))(\\s?\\((?<origin>[^\\)]*)\\))?`,
   'iug'
 );
+export const MOOT_ORIGINS_PATTERN = (() => {
+  const file = readFileSync(
+    getPath('/assets/moot/abbreviations.json'),
+    'utf-8'
+  );
+  const json = JSON.parse(file);
+  const pattern = `(${Object.keys(json)
+    .map((s) => s.replace('.', ''))
+    .join('|')})`;
+  return pattern;
+})();
 
 // This pattern determines the shape of word entry keys in Redis.
 // e.g., `en:aardvark:noun:1`, where `1` represents the etymological
@@ -70,7 +81,9 @@ export function cleanWord(word) {
     const match = word.match(new RegExp(`^${WORD_PATTERN}(?=\s*[\/,])`, 'iu'));
     if (!match) {
       // No word could be extracted.
-      logger.verbose(`abandoned:\t"${word}"`);
+      if (word) {
+        logger.verbose(`abandoned:\t"${word}"`);
+      }
       return null;
     }
     const clean = match[0];

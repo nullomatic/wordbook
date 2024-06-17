@@ -242,27 +242,35 @@ export class WordbookLoader {
   }
 
   async loadCSV(options) {
-    const data = await csv().fromFile(
+    const rows = await csv().fromFile(
       util.getPath('/assets/hurlebatte/wordbook.csv')
     );
 
-    for (const item of data) {
-      const word = util.cleanWord(item['WORD']);
+    for (const row of rows) {
+      const word = util.cleanWord(row['WORD']);
       if (!word) {
-        console.log(item['WORD']);
-        throw new Error();
+        continue;
       }
+
       const posArr = await this.#getPartsOfSpeech(
-        item['KIND'],
+        row['KIND'],
         word,
         options?.interactive
       );
-      const senses = item['MEANING']
-        .split(/᛫᛭/g)
+
+      const senses = row['MEANING']
+        .replace(/\([^)]*\)/g, ',')
+        .split(/[^\w\s'\-]/g)
         .map((s) => s.trim())
         .filter((s) => s);
 
-      const origin = `${item['FROM']}, ${item['FOREBEAR']}; ${item['NOTES']}`;
+      let origin = row['FROM'];
+      if (row['FOREBEAR'] && row['FOREBEAR'] !== '~') {
+        origin += `, ${row['FOREBEAR']}`;
+      }
+      if (row['NOTES']) {
+        origin += `; ${row['NOTES']}`;
+      }
 
       for (const pos of posArr) {
         this.#createEntry(word, pos);
@@ -275,17 +283,9 @@ export class WordbookLoader {
         }
       }
 
-      console.log(word, JSON.stringify(this.anglish[word], null, 2));
-
       if (_.isEmpty(this.anglish[word])) {
         delete this.anglish[word];
       }
-    }
-
-    if (options?.save) {
-      logger.info('Saving wordbook.json');
-      const uri = util.getPath('/assets/wordbook/wordbook.json');
-      fs.writeFileSync(uri, JSON.stringify(this.data, null, 2));
     }
 
     return this;
@@ -306,15 +306,15 @@ export class WordbookLoader {
     }
   }
 
-  async #getPartsOfSpeech(str, word, interactive) {
+  async #getPartsOfSpeech(_pos, word, interactive) {
     const posArr = [];
-    str = str
+    _pos = _pos
       .replace(/[\s\n]/g, '') // Remove all spaces and newlines
       .split(/[^\w]/) // Split on any non-word character
       .filter((s) => s);
 
-    for (const _pos of str) {
-      switch (_pos.toLowerCase()) {
+    for (const pos of _pos) {
+      switch (pos.toLowerCase()) {
         case 'n':
           posArr.push('n'); // noun
           break;
@@ -339,7 +339,7 @@ export class WordbookLoader {
             const schema = {
               properties: {
                 pos: {
-                  description: `Part of speech for '${word}:${_pos}'`,
+                  description: `Part of speech for '${word}:${pos}'`,
                   type: 'string',
                   pattern: /^(n|v|a|r|s|c|p|x|u)$/,
                   message:
@@ -365,19 +365,6 @@ export class WordbookLoader {
     }
 
     return posArr;
-  }
-
-  #formatPoSArr(str) {
-    const s = new Set();
-    const arr = str
-      .toLowerCase()
-      .split(/[^\w\s]/)
-      .filter((s) => !!s);
-    for (let pos of arr) {
-      pos = util.formatPoS(pos);
-      s.add(pos);
-    }
-    return Array.from(s);
   }
 }
 
@@ -531,7 +518,7 @@ export class MootLoader {
         const [words, origin] = _def.split(/[\[\]]/g);
         const senses = words
           .replace(/\([^)]*\)/g, ',')
-          .split(/[^\w\s'-]/g)
+          .split(/[^\w\s'\-]/g)
           .map((s) => s.trim())
           .filter((s) => s);
 
@@ -637,13 +624,16 @@ export class MootLoader {
       .replace(/(?:^|\n).*?:/g, '') // Remove text coming before a colon
       .trim(); // Trim
 
+    // Sometimes the regular expression wrongly extracts an origin acronym.
+    const originRegExp = new RegExp(`^${util.MOOT_ORIGINS_PATTERN}`);
+
     const matches = str.matchAll(util.MOOT_ENGLISH_REGEXP);
     if (matches) {
       for (const match of matches) {
         const origin = match.groups.origin || null;
         for (const _word of match.groups.words.split(/[,;]/)) {
           const anglishWord = util.cleanWord(_word);
-          if (!anglishWord) {
+          if (!anglishWord || originRegExp.test(anglishWord)) {
             continue;
           } else if (!this.anglish[anglishWord]) {
             this.anglish[anglishWord] = {};

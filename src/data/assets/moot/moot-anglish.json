@@ -926,17 +926,6 @@
       "origin": null
     }
   },
-  "DN": {
-    "n": {
-      "senses": [
-        {
-          "english": "research",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "Dawn-woman": {
     "n": {
       "senses": [
@@ -1095,7 +1084,7 @@
       "origin": null
     }
   },
-  "ELG": {
+  "ELG Ese": {
     "n": {
       "senses": [
         {
@@ -1348,30 +1337,6 @@
       "origin": "<OE"
     }
   },
-  "Eng": {
-    "a": {
-      "senses": [
-        {
-          "english": "glorious",
-          "source": 3
-        },
-        {
-          "english": "hypocritical",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "r": {
-      "senses": [
-        {
-          "english": "immediately",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "English": {
     "n": {
       "senses": [
@@ -1489,6 +1454,17 @@
         }
       ],
       "origin": "<OE Ærraġēola"
+    }
+  },
+  "Ese": {
+    "n": {
+      "senses": [
+        {
+          "english": "Æsir",
+          "source": 3
+        }
+      ],
+      "origin": "<OE ese; see The Elder Gods by Stephen Pollington"
     }
   },
   "Esetroth": {
@@ -2195,21 +2171,6 @@
       "origin": null
     }
   },
-  "GO": {
-    "n": {
-      "senses": [
-        {
-          "english": "cost",
-          "source": 3
-        },
-        {
-          "english": "senior",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "Gang-Day": {
     "n": {
       "senses": [
@@ -2450,6 +2411,28 @@
       "senses": [
         {
           "english": "Belarus",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "Greatrightwiseness": {
+    "n": {
+      "senses": [
+        {
+          "english": "Taishō",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "Greatuprightness": {
+    "n": {
+      "senses": [
+        {
+          "english": "Taishō",
           "source": 3
         }
       ],
@@ -2872,40 +2855,6 @@
       "senses": [
         {
           "english": "je ne sais quoi",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "IC": {
-    "n": {
-      "senses": [
-        {
-          "english": "culture",
-          "source": 3
-        },
-        {
-          "english": "obsidian",
-          "source": 3
-        },
-        {
-          "english": "organization",
-          "source": 3
-        },
-        {
-          "english": "perfume",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "IC hlj": {
-    "n": {
-      "senses": [
-        {
-          "english": "sound",
           "source": 3
         }
       ],
@@ -3545,50 +3494,6 @@
       "origin": null
     }
   },
-  "ME": {
-    "v": {
-      "senses": [
-        {
-          "english": "seize",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "ME herre": {
-    "n": {
-      "senses": [
-        {
-          "english": "Mister",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "ME lacchen": {
-    "v": {
-      "senses": [
-        {
-          "english": "seize",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "ME schuld": {
-    "n": {
-      "senses": [
-        {
-          "english": "fault",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "MTF": {
     "n": {
       "senses": [
@@ -4050,857 +3955,6 @@
       "origin": null
     }
   },
-  "NF onsääker": {
-    "a": {
-      "senses": [
-        {
-          "english": "insecure",
-          "source": 3
-        }
-      ],
-      "origin": "Halligen"
-    }
-  },
-  "NHG": {
-    "v": {
-      "senses": [
-        {
-          "english": "alienate",
-          "source": 3
-        },
-        {
-          "english": "appear",
-          "source": 3
-        },
-        {
-          "english": "confuse",
-          "source": 3
-        },
-        {
-          "english": "content",
-          "source": 3
-        },
-        {
-          "english": "disappear",
-          "source": 3
-        },
-        {
-          "english": "disempower",
-          "source": 3
-        },
-        {
-          "english": "expose",
-          "source": 3
-        },
-        {
-          "english": "expropriate",
-          "source": 3
-        },
-        {
-          "english": "extend",
-          "source": 3
-        },
-        {
-          "english": "finish",
-          "source": 3
-        },
-        {
-          "english": "guide",
-          "source": 3
-        },
-        {
-          "english": "impart",
-          "source": 3
-        },
-        {
-          "english": "implement",
-          "source": 3
-        },
-        {
-          "english": "maintain",
-          "source": 3
-        },
-        {
-          "english": "mediate",
-          "source": 3
-        },
-        {
-          "english": "migrate",
-          "source": 3
-        },
-        {
-          "english": "observe",
-          "source": 3
-        },
-        {
-          "english": "offend",
-          "source": 3
-        },
-        {
-          "english": "originate",
-          "source": 3
-        },
-        {
-          "english": "pay",
-          "source": 3
-        },
-        {
-          "english": "pervade",
-          "source": 3
-        },
-        {
-          "english": "promise",
-          "source": 3
-        },
-        {
-          "english": "refer",
-          "source": 3
-        },
-        {
-          "english": "refute",
-          "source": 3
-        },
-        {
-          "english": "remove",
-          "source": 3
-        },
-        {
-          "english": "represent",
-          "source": 3
-        },
-        {
-          "english": "retail",
-          "source": 3
-        },
-        {
-          "english": "retaliate",
-          "source": 3
-        },
-        {
-          "english": "separate",
-          "source": 3
-        },
-        {
-          "english": "succumb",
-          "source": 3
-        },
-        {
-          "english": "vanquish",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "barber",
-          "source": 3
-        },
-        {
-          "english": "bicycle",
-          "source": 3
-        },
-        {
-          "english": "cartoon",
-          "source": 3
-        },
-        {
-          "english": "comedy",
-          "source": 3
-        },
-        {
-          "english": "communion",
-          "source": 3
-        },
-        {
-          "english": "compass point",
-          "source": 3
-        },
-        {
-          "english": "competition",
-          "source": 3
-        },
-        {
-          "english": "compound",
-          "source": 3
-        },
-        {
-          "english": "consonant",
-          "source": 3
-        },
-        {
-          "english": "consulation",
-          "source": 3
-        },
-        {
-          "english": "content",
-          "source": 3
-        },
-        {
-          "english": "conversation",
-          "source": 3
-        },
-        {
-          "english": "countersign",
-          "source": 3
-        },
-        {
-          "english": "cul de sac",
-          "source": 3
-        },
-        {
-          "english": "dative",
-          "source": 3
-        },
-        {
-          "english": "disability",
-          "source": 3
-        },
-        {
-          "english": "domain",
-          "source": 3
-        },
-        {
-          "english": "drama",
-          "source": 3
-        },
-        {
-          "english": "duty",
-          "source": 3
-        },
-        {
-          "english": "empire",
-          "source": 3
-        },
-        {
-          "english": "existence",
-          "source": 3
-        },
-        {
-          "english": "exsolution",
-          "source": 3
-        },
-        {
-          "english": "guide",
-          "source": 3
-        },
-        {
-          "english": "hero",
-          "source": 3
-        },
-        {
-          "english": "lesson",
-          "source": 3
-        },
-        {
-          "english": "Mediterranean Sea",
-          "source": 3
-        },
-        {
-          "english": "Mister",
-          "source": 3
-        },
-        {
-          "english": "municipality",
-          "source": 3
-        },
-        {
-          "english": "obstacle",
-          "source": 3
-        },
-        {
-          "english": "obstetrics",
-          "source": 3
-        },
-        {
-          "english": "octopus",
-          "source": 3
-        },
-        {
-          "english": "opinion",
-          "source": 3
-        },
-        {
-          "english": "opposite",
-          "source": 3
-        },
-        {
-          "english": "orca",
-          "source": 3
-        },
-        {
-          "english": "orthography",
-          "source": 3
-        },
-        {
-          "english": "passenger",
-          "source": 3
-        },
-        {
-          "english": "phonology",
-          "source": 3
-        },
-        {
-          "english": "radiation",
-          "source": 3
-        },
-        {
-          "english": "radio wave",
-          "source": 3
-        },
-        {
-          "english": "railroad",
-          "source": 3
-        },
-        {
-          "english": "reference",
-          "source": 3
-        },
-        {
-          "english": "reformer",
-          "source": 3
-        },
-        {
-          "english": "reservation",
-          "source": 3
-        },
-        {
-          "english": "reservoir",
-          "source": 3
-        },
-        {
-          "english": "responsibility",
-          "source": 3
-        },
-        {
-          "english": "satisfaction",
-          "source": 3
-        },
-        {
-          "english": "sphere",
-          "source": 3
-        },
-        {
-          "english": "transparency",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "a": {
-      "senses": [
-        {
-          "english": "disgusting",
-          "source": 3
-        },
-        {
-          "english": "dubious",
-          "source": 3
-        },
-        {
-          "english": "insecure",
-          "source": 3
-        },
-        {
-          "english": "miserable",
-          "source": 3
-        },
-        {
-          "english": "present",
-          "source": 3
-        },
-        {
-          "english": "related",
-          "source": 3
-        },
-        {
-          "english": "relaxed",
-          "source": 3
-        },
-        {
-          "english": "reprehensible",
-          "source": 3
-        },
-        {
-          "english": "respectful",
-          "source": 3
-        },
-        {
-          "english": "responsible",
-          "source": 3
-        },
-        {
-          "english": "savory",
-          "source": 3
-        },
-        {
-          "english": "vigilant",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "r": {
-      "senses": [
-        {
-          "english": "obviously",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Bewegung": {
-    "n": {
-      "senses": [
-        {
-          "english": "motion",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Beweis": {
-    "n": {
-      "senses": [
-        {
-          "english": "proof",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Laut": {
-    "n": {
-      "senses": [
-        {
-          "english": "sound",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Leute": {
-    "n": {
-      "senses": [
-        {
-          "english": "person",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Schauspieler": {
-    "n": {
-      "senses": [
-        {
-          "english": "actor",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Umgangssprache": {
-    "n": {
-      "senses": [
-        {
-          "english": "vernacular",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG Urwald": {
-    "n": {
-      "senses": [
-        {
-          "english": "tiger",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG auslassen": {
-    "v": {
-      "senses": [
-        {
-          "english": "omit",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG beweisen": {
-    "v": {
-      "senses": [
-        {
-          "english": "prove",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG unterschieden": {
-    "v": {
-      "senses": [
-        {
-          "english": "distinguish",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NHG übertreiben": {
-    "v": {
-      "senses": [
-        {
-          "english": "exaggerate",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL": {
-    "n": {
-      "senses": [
-        {
-          "english": "air",
-          "source": 3
-        },
-        {
-          "english": "ambulance",
-          "source": 3
-        },
-        {
-          "english": "characteristic",
-          "source": 3
-        },
-        {
-          "english": "conference",
-          "source": 3
-        },
-        {
-          "english": "dialect",
-          "source": 3
-        },
-        {
-          "english": "esophagus",
-          "source": 3
-        },
-        {
-          "english": "fault",
-          "source": 3
-        },
-        {
-          "english": "glacier",
-          "source": 3
-        },
-        {
-          "english": "independence",
-          "source": 3
-        },
-        {
-          "english": "level",
-          "source": 3
-        },
-        {
-          "english": "matrix",
-          "source": 3
-        },
-        {
-          "english": "message",
-          "source": 3
-        },
-        {
-          "english": "motion",
-          "source": 3
-        },
-        {
-          "english": "orgasm",
-          "source": 3
-        },
-        {
-          "english": "person",
-          "source": 3
-        },
-        {
-          "english": "plebiscite",
-          "source": 3
-        },
-        {
-          "english": "real estate",
-          "source": 3
-        },
-        {
-          "english": "rebel",
-          "source": 3
-        },
-        {
-          "english": "rectangle",
-          "source": 3
-        },
-        {
-          "english": "referee",
-          "source": 3
-        },
-        {
-          "english": "referendum",
-          "source": 3
-        },
-        {
-          "english": "rodent",
-          "source": 3
-        },
-        {
-          "english": "syllable",
-          "source": 3
-        },
-        {
-          "english": "vaccine",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "v": {
-      "senses": [
-        {
-          "english": "air",
-          "source": 3
-        },
-        {
-          "english": "distinguish",
-          "source": 3
-        },
-        {
-          "english": "fabricate",
-          "source": 3
-        },
-        {
-          "english": "separate",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL afnemen": {
-    "v": {
-      "senses": [
-        {
-          "english": "remove",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL betalen": {
-    "v": {
-      "senses": [
-        {
-          "english": "pay",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL bewijs": {
-    "n": {
-      "senses": [
-        {
-          "english": "proof",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL bewijzen": {
-    "v": {
-      "senses": [
-        {
-          "english": "prove",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL geluid": {
-    "n": {
-      "senses": [
-        {
-          "english": "sound",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL oerwoud": {
-    "n": {
-      "senses": [
-        {
-          "english": "tiger",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL onderwerp": {
-    "n": {
-      "senses": [
-        {
-          "english": "topic",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL opstand": {
-    "v": {
-      "senses": [
-        {
-          "english": "rebel",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL overdrijven": {
-    "v": {
-      "senses": [
-        {
-          "english": "exaggerate",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL stuwmeer": {
-    "n": {
-      "senses": [
-        {
-          "english": "reservoir",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL verschijnen": {
-    "v": {
-      "senses": [
-        {
-          "english": "appear",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL verwijzen": {
-    "v": {
-      "senses": [
-        {
-          "english": "refer",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL wasbeer": {
-    "n": {
-      "senses": [
-        {
-          "english": "raccoon",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL wijzen": {
-    "v": {
-      "senses": [
-        {
-          "english": "guide",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "guide",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NL zoethout": {
-    "n": {
-      "senses": [
-        {
-          "english": "liquorice",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NO": {
-    "n": {
-      "senses": [
-        {
-          "english": "bill",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "a": {
-      "senses": [
-        {
-          "english": "peculiar",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "NO eikja": {
-    "v": {
-      "senses": [
-        {
-          "english": "annoy",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "Net": {
     "n": {
       "senses": [
@@ -5088,7 +4142,7 @@
       "origin": null
     }
   },
-  "Non": {
+  "Non-Englis": {
     "n": {
       "senses": [
         {
@@ -5133,218 +4187,19 @@
     }
   },
   "O": {
+    "v": {
+      "senses": [
+        {
+          "english": "neglect",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
     "n": {
       "senses": [
         {
           "english": "squirrel",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE": {
-    "v": {
-      "senses": [
-        {
-          "english": "abandon",
-          "source": 3
-        },
-        {
-          "english": "test",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "language",
-          "source": 3
-        },
-        {
-          "english": "restore",
-          "source": 3
-        },
-        {
-          "english": "test",
-          "source": 3
-        },
-        {
-          "english": "trench",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "a": {
-      "senses": [
-        {
-          "english": "plural",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE budd": {
-    "n": {
-      "senses": [
-        {
-          "english": "earphone",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE deorf": {
-    "n": {
-      "senses": [
-        {
-          "english": "danger",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE doeth daedbot": {
-    "v": {
-      "senses": [
-        {
-          "english": "repent",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE dreosan and": {
-    "a": {
-      "senses": [
-        {
-          "english": "perish",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE hreddan": {
-    "v": {
-      "senses": [
-        {
-          "english": "liberate",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE hæle": {
-    "n": {
-      "senses": [
-        {
-          "english": "hero",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE lēod": {
-    "n": {
-      "senses": [
-        {
-          "english": "person",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE rihtwís": {
-    "a": {
-      "senses": [
-        {
-          "english": "righteous",
-          "source": 3
-        }
-      ],
-      "origin": "nes"
-    }
-  },
-  "OE run": {
-    "a": {
-      "senses": [
-        {
-          "english": "secret",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "secret",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE scyld": {
-    "n": {
-      "senses": [
-        {
-          "english": "fault",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OE wyrċan": {
-    "v": {
-      "senses": [
-        {
-          "english": "labor",
-          "source": 3
-        }
-      ],
-      "origin": "attested as historical/dialectal verbs"
-    }
-  },
-  "OED": {
-    "v": {
-      "senses": [
-        {
-          "english": "envy",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "OHG": {
-    "n": {
-      "senses": [
-        {
-          "english": "tiger",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "ON": {
-    "n": {
-      "senses": [
-        {
-          "english": "Yggdrasil",
           "source": 3
         }
       ],
@@ -5483,17 +4338,6 @@
       "origin": null
     }
   },
-  "PG": {
-    "n": {
-      "senses": [
-        {
-          "english": "senior",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "PTCP": {
     "v": {
       "senses": [
@@ -5599,7 +4443,7 @@
       "origin": null
     }
   },
-  "Powhatan": {
+  "Powhatan aposou": {
     "n": {
       "senses": [
         {
@@ -5839,28 +4683,6 @@
       "origin": null
     }
   },
-  "SF uunseker": {
-    "a": {
-      "senses": [
-        {
-          "english": "insecure",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "SF Íezel": {
-    "n": {
-      "senses": [
-        {
-          "english": "donkey",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "SSD": {
     "n": {
       "senses": [
@@ -5870,54 +4692,6 @@
         }
       ],
       "origin": "\"Still-Standing Drive\" / \"Stand Still Drive\""
-    }
-  },
-  "SW": {
-    "a": {
-      "senses": [
-        {
-          "english": "modern",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "orphanage",
-          "source": 3
-        },
-        {
-          "english": "pound",
-          "source": 3
-        },
-        {
-          "english": "proof",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "v": {
-      "senses": [
-        {
-          "english": "prove",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "SW ljud": {
-    "n": {
-      "senses": [
-        {
-          "english": "sound",
-          "source": 3
-        }
-      ],
-      "origin": null
     }
   },
   "Samogitland": {
@@ -7038,57 +5812,22 @@
       "origin": null
     }
   },
-  "WF": {
-    "v": {
-      "senses": [
-        {
-          "english": "cooperate",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "January",
-          "source": 3
-        },
-        {
-          "english": "motto",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "WF iisberch": {
-    "n": {
-      "senses": [
-        {
-          "english": "glacier",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "WF ynstelling": {
-    "n": {
-      "senses": [
-        {
-          "english": "conference",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "Walking-dead": {
     "n": {
       "senses": [
         {
           "english": "doppelgänger",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "Way": {
+    "n": {
+      "senses": [
+        {
+          "english": "Vé",
           "source": 3
         }
       ],
@@ -7667,17 +6406,6 @@
       "origin": null
     }
   },
-  "a church": {
-    "n": {
-      "senses": [
-        {
-          "english": "simony",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "a light": {
     "n": {
       "senses": [
@@ -7694,17 +6422,6 @@
       "senses": [
         {
           "english": "dinner",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "a tv": {
-    "n": {
-      "senses": [
-        {
-          "english": "pilot",
           "source": 3
         }
       ],
@@ -7982,6 +6699,17 @@
         }
       ],
       "origin": "already Germanic"
+    }
+  },
+  "able": {
+    "n": {
+      "senses": [
+        {
+          "english": "dinner",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "ablending": {
@@ -10030,6 +8758,26 @@
       "origin": null
     }
   },
+  "agic concerning changing fate": {
+    "n": {
+      "senses": [
+        {
+          "english": "magic",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "a": {
+      "senses": [
+        {
+          "english": "magic",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "agift": {
     "n": {
       "senses": [
@@ -10545,6 +9293,14 @@
       "senses": [
         {
           "english": "appear",
+          "source": 3
+        },
+        {
+          "english": "nourish",
+          "source": 3
+        },
+        {
+          "english": "produce",
           "source": 3
         }
       ],
@@ -11806,6 +10562,39 @@
       "origin": "<OE áloten"
     }
   },
+  "alque of Greekish": {
+    "n": {
+      "senses": [
+        {
+          "english": "pterosaur",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "alque of NHG Anschlus": {
+    "v": {
+      "senses": [
+        {
+          "english": "annex",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "alque of all Germanic speeche": {
+    "v": {
+      "senses": [
+        {
+          "english": "touch",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "alreadiness": {
     "n": {
       "senses": [
@@ -11822,6 +10611,17 @@
       "senses": [
         {
           "english": "previously",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "already atteste": {
+    "a": {
+      "senses": [
+        {
+          "english": "hostile",
           "source": 3
         }
       ],
@@ -12314,6 +11114,17 @@
       "origin": null
     }
   },
+  "ampr": {
+    "n": {
+      "senses": [
+        {
+          "english": "tumor",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "amurther": {
     "v": {
       "senses": [
@@ -12411,7 +11222,7 @@
       "origin": null
     }
   },
-  "and the faring": {
+  "and the faring pat": {
     "n": {
       "senses": [
         {
@@ -14466,7 +13277,7 @@
       "origin": null
     }
   },
-  "as far as I": {
+  "as far as I kno": {
     "n": {
       "senses": [
         {
@@ -14585,6 +13396,10 @@
       "senses": [
         {
           "english": "refuse",
+          "source": 3
+        },
+        {
+          "english": "renounce",
           "source": 3
         }
       ],
@@ -20453,7 +19268,7 @@
       "origin": "a"
     }
   },
-  "be on the lookout": {
+  "be on the lookout fo": {
     "n": {
       "senses": [
         {
@@ -27569,6 +26384,10 @@
     },
     "n": {
       "senses": [
+        {
+          "english": "fiancé",
+          "source": 3
+        },
         {
           "english": "fiancée",
           "source": 3
@@ -37576,6 +36395,25 @@
       "origin": null
     }
   },
+  "bsolet": {
+    "n": {
+      "senses": [
+        {
+          "english": "grandchild",
+          "source": 3
+        },
+        {
+          "english": "grandchild",
+          "source": 3
+        },
+        {
+          "english": "pain",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "bubbling": {
     "r": {
       "senses": [
@@ -44281,26 +43119,6 @@
       "origin": null
     }
   },
-  "concerning changing fate": {
-    "n": {
-      "senses": [
-        {
-          "english": "magic",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
-    "a": {
-      "senses": [
-        {
-          "english": "magic",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "conserm": {
     "n": {
       "senses": [
@@ -44316,7 +43134,7 @@
       "origin": "calque of NS co-sheirm - sheirm calqued as 'serm' as in 'sermon'. Also mirrors Ic. samhljómur"
     }
   },
-  "contraction of": {
+  "contraction of bowsom": {
     "a": {
       "senses": [
         {
@@ -46673,17 +45491,6 @@
       "senses": [
         {
           "english": "questionable",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "cweorna": {
-    "n": {
-      "senses": [
-        {
-          "english": "squirrel",
           "source": 3
         }
       ],
@@ -49984,6 +48791,26 @@
       "origin": null
     }
   },
+  "dialecta": {
+    "v": {
+      "senses": [
+        {
+          "english": "guide",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "n": {
+      "senses": [
+        {
+          "english": "guide",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "dibs": {
     "n": {
       "senses": [
@@ -50551,10 +49378,6 @@
           "source": 3
         },
         {
-          "english": "repent",
-          "source": 3
-        },
-        {
           "english": "suffice",
           "source": 3
         }
@@ -50644,6 +49467,17 @@
       "senses": [
         {
           "english": "repeat",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "do penanc": {
+    "v": {
+      "senses": [
+        {
+          "english": "repent",
           "source": 3
         }
       ],
@@ -53017,6 +51851,17 @@
       "origin": null
     }
   },
+  "dreamscap": {
+    "n": {
+      "senses": [
+        {
+          "english": "fantasy",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "dreamsome": {
     "a": {
       "senses": [
@@ -55351,6 +54196,17 @@
       "origin": "<ME diȝel, <OE dīegol hushthought, hushword, roun(d"
     }
   },
+  "e": {
+    "n": {
+      "senses": [
+        {
+          "english": "triumvirate",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "ea": {
     "n": {
       "senses": [
@@ -56008,6 +54864,17 @@
       "origin": null
     }
   },
+  "earsþer": {
+    "n": {
+      "senses": [
+        {
+          "english": "anus",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "earth": {
     "n": {
       "senses": [
@@ -56527,6 +55394,17 @@
       "origin": null
     }
   },
+  "easo": {
+    "n": {
+      "senses": [
+        {
+          "english": "intelligence",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "eastern": {
     "a": {
       "senses": [
@@ -56554,6 +55432,17 @@
       "senses": [
         {
           "english": "panda bear",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "easur": {
+    "n": {
+      "senses": [
+        {
+          "english": "millimeter",
           "source": 3
         }
       ],
@@ -56821,6 +55710,17 @@
       "senses": [
         {
           "english": "vicissitude",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ech": {
+    "a": {
+      "senses": [
+        {
+          "english": "hypocritical",
           "source": 3
         }
       ],
@@ -57518,6 +56418,148 @@
         }
       ],
       "origin": "re- (“again”"
+    }
+  },
+  "ee": {
+    "a": {
+      "senses": [
+        {
+          "english": "a la mode",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee Eng": {
+    "a": {
+      "senses": [
+        {
+          "english": "glorious",
+          "source": 3
+        },
+        {
+          "english": "hypocritical",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "r": {
+      "senses": [
+        {
+          "english": "immediately",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee islet": {
+    "n": {
+      "senses": [
+        {
+          "english": "insulin",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee onfal": {
+    "a": {
+      "senses": [
+        {
+          "english": "susceptible",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee or": {
+    "a": {
+      "senses": [
+        {
+          "english": "original",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee rear ety": {
+    "v": {
+      "senses": [
+        {
+          "english": "touch",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee red": {
+    "v": {
+      "senses": [
+        {
+          "english": "betray",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee schimpfe": {
+    "v": {
+      "senses": [
+        {
+          "english": "insult",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee stel": {
+    "v": {
+      "senses": [
+        {
+          "english": "adjust",
+          "source": 3
+        },
+        {
+          "english": "ensure",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee steve": {
+    "a": {
+      "senses": [
+        {
+          "english": "certain",
+          "source": 3
+        },
+        {
+          "english": "specific",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ee wi": {
+    "n": {
+      "senses": [
+        {
+          "english": "insecurity",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "eed": {
@@ -59583,6 +58625,17 @@
       "origin": "Barnes"
     }
   },
+  "enior record keeper": {
+    "n": {
+      "senses": [
+        {
+          "english": "chancellor",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "enkindle": {
     "v": {
       "senses": [
@@ -60483,6 +59536,17 @@
       "senses": [
         {
           "english": "emotional attention",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "esse": {
+    "n": {
+      "senses": [
+        {
+          "english": "wapiti",
           "source": 3
         }
       ],
@@ -61970,6 +61034,17 @@
       "origin": "OE aew + -þa; cognate with Latish iustus, justus"
     }
   },
+  "exickis": {
+    "n": {
+      "senses": [
+        {
+          "english": "taco",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "ey": {
     "n": {
       "senses": [
@@ -62184,6 +61259,17 @@
         }
       ],
       "origin": "NHG augenblicklich"
+    }
+  },
+  "eyeblin": {
+    "r": {
+      "senses": [
+        {
+          "english": "immediately",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "eyeblink": {
@@ -62440,10 +61526,79 @@
     }
   },
   "f": {
+    "n": {
+      "senses": [
+        {
+          "english": "Belarus",
+          "source": 3
+        },
+        {
+          "english": "countersign",
+          "source": 3
+        },
+        {
+          "english": "guide",
+          "source": 3
+        },
+        {
+          "english": "situation",
+          "source": 3
+        },
+        {
+          "english": "sphere",
+          "source": 3
+        },
+        {
+          "english": "syllable",
+          "source": 3
+        },
+        {
+          "english": "transparency",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
     "v": {
       "senses": [
         {
+          "english": "finish",
+          "source": 3
+        },
+        {
+          "english": "guide",
+          "source": 3
+        },
+        {
+          "english": "refer",
+          "source": 3
+        },
+        {
           "english": "retaliate",
+          "source": 3
+        },
+        {
+          "english": "succumb",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "a": {
+      "senses": [
+        {
+          "english": "just about",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "f a tv episod": {
+    "n": {
+      "senses": [
+        {
+          "english": "pilot",
           "source": 3
         }
       ],
@@ -66650,6 +65805,17 @@
       "origin": null
     }
   },
+  "feve": {
+    "n": {
+      "senses": [
+        {
+          "english": "dysentery",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "fewdom": {
     "n": {
       "senses": [
@@ -66800,6 +65966,17 @@
         }
       ],
       "origin": "<OE fēogan"
+    }
+  },
+  "fiel": {
+    "n": {
+      "senses": [
+        {
+          "english": "park",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "field": {
@@ -66992,17 +66169,6 @@
       "origin": null
     }
   },
-  "fiendish and fiendlike are already": {
-    "a": {
-      "senses": [
-        {
-          "english": "hostile",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "fiendishness": {
     "n": {
       "senses": [
@@ -67058,6 +66224,10 @@
   "fiends": {
     "n": {
       "senses": [
+        {
+          "english": "Æsir",
+          "source": 3
+        },
         {
           "english": "Vánir",
           "source": 3
@@ -70527,6 +69697,17 @@
       "origin": null
     }
   },
+  "flokku": {
+    "a": {
+      "senses": [
+        {
+          "english": "political",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "flood": {
     "n": {
       "senses": [
@@ -71118,6 +70299,10 @@
   "foes": {
     "n": {
       "senses": [
+        {
+          "english": "Æsir",
+          "source": 3
+        },
         {
           "english": "Vánir",
           "source": 3
@@ -72633,15 +71818,6 @@
       ],
       "origin": "sentence framework is flipped"
     },
-    "n": {
-      "senses": [
-        {
-          "english": "llama",
-          "source": 3
-        }
-      ],
-      "origin": null
-    },
     "a": {
       "senses": [
         {
@@ -72666,6 +71842,17 @@
       "senses": [
         {
           "english": "perpetually",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "for came": {
+    "n": {
+      "senses": [
+        {
+          "english": "llama",
           "source": 3
         }
       ],
@@ -77183,6 +76370,10 @@
   "forloved": {
     "n": {
       "senses": [
+        {
+          "english": "fiancé",
+          "source": 3
+        },
         {
           "english": "fiancée",
           "source": 3
@@ -82332,6 +81523,37 @@
       "origin": "<OE friþgeard"
     }
   },
+  "friþ": {
+    "n": {
+      "senses": [
+        {
+          "english": "peace",
+          "source": 4
+        },
+        {
+          "english": "freedom from molestation",
+          "source": 4
+        },
+        {
+          "english": "protection",
+          "source": 4
+        },
+        {
+          "english": "safety",
+          "source": 4
+        },
+        {
+          "english": "security",
+          "source": 4
+        },
+        {
+          "english": "harmfast",
+          "source": 4
+        }
+      ],
+      "origin": "obsolete and poetic OE friþ/friðu akin to OS frithu and ON friðr"
+    }
+  },
   "fro-sent": {
     "n": {
       "senses": [
@@ -82405,17 +81627,6 @@
       "senses": [
         {
           "english": "revel",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "from": {
-    "n": {
-      "senses": [
-        {
-          "english": "natural logarithm",
           "source": 3
         }
       ],
@@ -86217,6 +85428,17 @@
       "origin": "O.E.D."
     }
   },
+  "ghosts": {
+    "n": {
+      "senses": [
+        {
+          "english": "Æsir",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "gidden": {
     "n": {
       "senses": [
@@ -88462,6 +87684,17 @@
       "senses": [
         {
           "english": "godparent",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "gods": {
+    "n": {
+      "senses": [
+        {
+          "english": "Æsir",
           "source": 3
         }
       ],
@@ -90922,6 +90155,45 @@
       "origin": null
     }
   },
+  "grið": {
+    "n": {
+      "senses": [
+        {
+          "english": "protection",
+          "source": 4
+        },
+        {
+          "english": "safe conduct",
+          "source": 4
+        },
+        {
+          "english": "in OE law security",
+          "source": 4
+        },
+        {
+          "english": "peace or protection guaranteed under limitations",
+          "source": 4
+        },
+        {
+          "english": "quarter",
+          "source": 4
+        },
+        {
+          "english": "peace",
+          "source": 4
+        },
+        {
+          "english": "protection",
+          "source": 4
+        },
+        {
+          "english": "asylum",
+          "source": 4
+        }
+      ],
+      "origin": "archaic, from OE. gri truce, peace, pardon"
+    }
+  },
   "groaner": {
     "n": {
       "senses": [
@@ -92310,6 +91582,17 @@
       "origin": null
     }
   },
+  "h": {
+    "n": {
+      "senses": [
+        {
+          "english": "prey",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "hack": {
     "v": {
       "senses": [
@@ -93115,6 +92398,15 @@
         },
         {
           "english": "unassailable",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "n": {
+      "senses": [
+        {
+          "english": "Vé",
           "source": 3
         }
       ],
@@ -94380,6 +93672,26 @@
       "senses": [
         {
           "english": "temptation",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "hanting magi": {
+    "n": {
+      "senses": [
+        {
+          "english": "magic",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "a": {
+      "senses": [
+        {
+          "english": "magic",
           "source": 3
         }
       ],
@@ -98078,6 +97390,17 @@
       "origin": "calque"
     }
   },
+  "heavenwhalve": {
+    "n": {
+      "senses": [
+        {
+          "english": "vault of heaven",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "heaviness": {
     "n": {
       "senses": [
@@ -98458,6 +97781,17 @@
       "senses": [
         {
           "english": "gravity",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "heigh": {
+    "v": {
+      "senses": [
+        {
+          "english": "persecute",
           "source": 3
         }
       ],
@@ -99681,6 +99015,17 @@
         {
           "english": "hather",
           "source": 4
+        }
+      ],
+      "origin": null
+    }
+  },
+  "hetorica": {
+    "n": {
+      "senses": [
+        {
+          "english": "eon",
+          "source": 3
         }
       ],
       "origin": null
@@ -102011,6 +101356,17 @@
       "origin": null
     }
   },
+  "hoa": {
+    "a": {
+      "senses": [
+        {
+          "english": "glorious",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "hoad": {
     "n": {
       "senses": [
@@ -102931,6 +102287,15 @@
         }
       ],
       "origin": null
+    },
+    "n": {
+      "senses": [
+        {
+          "english": "Vé",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "holy book": {
@@ -103037,6 +102402,17 @@
       "senses": [
         {
           "english": "sanctuary",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "hom": {
+    "v": {
+      "senses": [
+        {
+          "english": "visit",
           "source": 3
         }
       ],
@@ -104652,6 +104028,32 @@
       "origin": null
     }
   },
+  "hras": {
+    "n": {
+      "senses": [
+        {
+          "english": "raison d'être",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "hrase": {
+    "v": {
+      "senses": [
+        {
+          "english": "damn",
+          "source": 3
+        },
+        {
+          "english": "despair",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "huckster": {
     "n": {
       "senses": [
@@ -104763,6 +104165,17 @@
         }
       ],
       "origin": "calque of original Greek"
+    }
+  },
+  "huecouþ": {
+    "v": {
+      "senses": [
+        {
+          "english": "to make known",
+          "source": 4
+        }
+      ],
+      "origin": "OE gehiwcuðlician"
     }
   },
   "hueledge": {
@@ -105270,6 +104683,17 @@
       "senses": [
         {
           "english": "conserve",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "husband-to-be": {
+    "n": {
+      "senses": [
+        {
+          "english": "fiancé",
           "source": 3
         }
       ],
@@ -106551,7 +105975,7 @@
       "origin": "the"
     }
   },
-  "in a": {
+  "in a cauldro": {
     "n": {
       "senses": [
         {
@@ -107502,6 +106926,17 @@
       "senses": [
         {
           "english": "inherent",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ineig": {
+    "n": {
+      "senses": [
+        {
+          "english": "senior",
           "source": 3
         }
       ],
@@ -109753,6 +109188,17 @@
       "origin": null
     }
   },
+  "irch": {
+    "v": {
+      "senses": [
+        {
+          "english": "discredit",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "irk": {
     "v": {
       "senses": [
@@ -109970,17 +109416,6 @@
       "senses": [
         {
           "english": "archipelago",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "islet": {
-    "n": {
-      "senses": [
-        {
-          "english": "insulin",
           "source": 3
         }
       ],
@@ -113716,6 +113151,17 @@
       "origin": null
     }
   },
+  "koleberry": {
+    "n": {
+      "senses": [
+        {
+          "english": "açaí",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "kooky": {
     "a": {
       "senses": [
@@ -113754,6 +113200,17 @@
       "senses": [
         {
           "english": "emerge",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "l": {
+    "a": {
+      "senses": [
+        {
+          "english": "Martian",
           "source": 3
         }
       ],
@@ -114244,6 +113701,17 @@
       "senses": [
         {
           "english": "fugitive",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "lan": {
+    "n": {
+      "senses": [
+        {
+          "english": "record",
           "source": 3
         }
       ],
@@ -116029,7 +115497,7 @@
       "origin": null
     }
   },
-  "lay of the": {
+  "lay of the lan": {
     "n": {
       "senses": [
         {
@@ -116207,7 +115675,7 @@
       "origin": null
     }
   },
-  "le": {
+  "le diminutiv": {
     "n": {
       "senses": [
         {
@@ -119630,17 +119098,6 @@
       "origin": "cf. NHG lieber, NL liever"
     }
   },
-  "life": {
-    "n": {
-      "senses": [
-        {
-          "english": "nitrogen",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "life of a leaf": {
     "n": {
       "senses": [
@@ -121511,6 +120968,10 @@
       "senses": [
         {
           "english": "melody",
+          "source": 3
+        },
+        {
+          "english": "nugget",
           "source": 3
         }
       ],
@@ -129125,6 +128586,17 @@
       "origin": "Spanish calque"
     }
   },
+  "mashed sheet": {
+    "n": {
+      "senses": [
+        {
+          "english": "papier-mâché",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "mashing": {
     "n": {
       "senses": [
@@ -129710,6 +129182,17 @@
       "senses": [
         {
           "english": "dative",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "mea": {
+    "n": {
+      "senses": [
+        {
+          "english": "dinner",
           "source": 3
         }
       ],
@@ -130890,6 +130373,17 @@
         }
       ],
       "origin": "<OE meregrot 'sea particle'"
+    }
+  },
+  "meric": {
+    "n": {
+      "senses": [
+        {
+          "english": "bacon",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "mermen": {
@@ -137056,6 +136550,17 @@
       "origin": null
     }
   },
+  "nattested": {
+    "n": {
+      "senses": [
+        {
+          "english": "danger",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "natty": {
     "a": {
       "senses": [
@@ -138152,6 +137657,17 @@
       "origin": "‘neighbor’ + ‘ship’"
     }
   },
+  "neighbou": {
+    "n": {
+      "senses": [
+        {
+          "english": "peasant farmer",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "neighbourhood": {
     "n": {
       "senses": [
@@ -139163,6 +138679,37 @@
       "origin": null
     }
   },
+  "nf": {
+    "n": {
+      "senses": [
+        {
+          "english": "lager",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ng": {
+    "v": {
+      "senses": [
+        {
+          "english": "guide",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "n": {
+      "senses": [
+        {
+          "english": "guide",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "nib": {
     "v": {
       "senses": [
@@ -139714,6 +139261,17 @@
       "senses": [
         {
           "english": "tweezers",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "niqu": {
+    "a": {
+      "senses": [
+        {
+          "english": "singular",
           "source": 3
         }
       ],
@@ -140724,6 +140282,17 @@
       "origin": null
     }
   },
+  "ntertainmen": {
+    "n": {
+      "senses": [
+        {
+          "english": "season",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "nub": {
     "n": {
       "senses": [
@@ -140923,6 +140492,17 @@
       "origin": "u"
     }
   },
+  "o shend": {
+    "n": {
+      "senses": [
+        {
+          "english": "sacrilege",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "oad": {
     "n": {
       "senses": [
@@ -140973,6 +140553,17 @@
         }
       ],
       "origin": "<OE ár"
+    }
+  },
+  "oaring-hors": {
+    "n": {
+      "senses": [
+        {
+          "english": "motorcycle",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "oarship": {
@@ -141235,6 +140826,28 @@
       "origin": "<ME oe & <ME lybb"
     }
   },
+  "oeti": {
+    "n": {
+      "senses": [
+        {
+          "english": "pneumonoultramicrosco-picsilicovolcanoconosis",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "oetr": {
+    "n": {
+      "senses": [
+        {
+          "english": "meter",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "of": {
     "n": {
       "senses": [
@@ -141249,39 +140862,6 @@
       "senses": [
         {
           "english": "taboo",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "of Greekish": {
-    "n": {
-      "senses": [
-        {
-          "english": "pterosaur",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "of NHG": {
-    "v": {
-      "senses": [
-        {
-          "english": "annex",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "of all Germanic": {
-    "v": {
-      "senses": [
-        {
-          "english": "touch",
           "source": 3
         }
       ],
@@ -141675,7 +141255,7 @@
       "origin": "off + hinge + -end (wordlore 1)"
     }
   },
-  "official": {
+  "official document": {
     "n": {
       "senses": [
         {
@@ -142441,6 +142021,17 @@
         },
         {
           "english": "antiquity",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ollectiv": {
+    "n": {
+      "senses": [
+        {
+          "english": "reptile",
           "source": 3
         }
       ],
@@ -144561,6 +144152,17 @@
       "origin": null
     }
   },
+  "oo": {
+    "v": {
+      "senses": [
+        {
+          "english": "intend",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "oodness": {
     "n": {
       "senses": [
@@ -144952,18 +144554,9 @@
         }
       ],
       "origin": null
-    },
-    "a": {
-      "senses": [
-        {
-          "english": "original",
-          "source": 3
-        }
-      ],
-      "origin": null
     }
   },
-  "or Germanic": {
+  "or Germanic origi": {
     "n": {
       "senses": [
         {
@@ -145005,6 +144598,17 @@
         }
       ],
       "origin": "shortening of bear 'fertile' + rith 'stream'"
+    }
+  },
+  "ora": {
+    "n": {
+      "senses": [
+        {
+          "english": "commandment",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "orchease": {
@@ -145524,6 +145128,17 @@
       "origin": "OE orlæg: or- ‘out’ + læg ‘lay’"
     }
   },
+  "orld Wid": {
+    "n": {
+      "senses": [
+        {
+          "english": "Internet",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "orold": {
     "a": {
       "senses": [
@@ -145838,6 +145453,17 @@
       "senses": [
         {
           "english": "cede",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "os": {
+    "a": {
+      "senses": [
+        {
+          "english": "invaluable",
           "source": 3
         }
       ],
@@ -146250,15 +145876,6 @@
         }
       ],
       "origin": null
-    },
-    "v": {
-      "senses": [
-        {
-          "english": "omit",
-          "source": 3
-        }
-      ],
-      "origin": null
     }
   },
   "out of brook": {
@@ -146299,6 +145916,17 @@
       "senses": [
         {
           "english": "emanate",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "out-LE": {
+    "v": {
+      "senses": [
+        {
+          "english": "omit",
           "source": 3
         }
       ],
@@ -149752,6 +149380,17 @@
       "origin": null
     }
   },
+  "overraugh": {
+    "v": {
+      "senses": [
+        {
+          "english": "convince",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "overreach": {
     "v": {
       "senses": [
@@ -151371,6 +151010,17 @@
         },
         {
           "english": "route",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "paugh": {
+    "v": {
+      "senses": [
+        {
+          "english": "deceive",
           "source": 3
         }
       ],
@@ -155245,6 +154895,34 @@
       "origin": null
     }
   },
+  "ramma": {
+    "n": {
+      "senses": [
+        {
+          "english": "object",
+          "source": 3
+        },
+        {
+          "english": "stress",
+          "source": 3
+        },
+        {
+          "english": "subject",
+          "source": 3
+        }
+      ],
+      "origin": null
+    },
+    "a": {
+      "senses": [
+        {
+          "english": "phrasal",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "ramps": {
     "n": {
       "senses": [
@@ -155768,6 +155446,17 @@
       "origin": "s"
     }
   },
+  "rchai": {
+    "v": {
+      "senses": [
+        {
+          "english": "decrease",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "reach": {
     "n": {
       "senses": [
@@ -156115,17 +155804,6 @@
       "origin": "<PG *rauza-; cf. SW rör, NHG Rohr; cf. \"red\" = NHG rot <PG *raudaz"
     }
   },
-  "rear ety": {
-    "v": {
-      "senses": [
-        {
-          "english": "touch",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "rear up": {
     "n": {
       "senses": [
@@ -156248,6 +155926,21 @@
         }
       ],
       "origin": "<OE rǣswung"
+    }
+  },
+  "reate": {
+    "n": {
+      "senses": [
+        {
+          "english": "moose",
+          "source": 3
+        },
+        {
+          "english": "panda bear",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "reave": {
@@ -156627,17 +156320,6 @@
       "senses": [
         {
           "english": "compute",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
-  "record keeper": {
-    "n": {
-      "senses": [
-        {
-          "english": "chancellor",
           "source": 3
         }
       ],
@@ -159834,6 +159516,17 @@
       "origin": "<OE hriþ"
     }
   },
+  "ritis": {
+    "n": {
+      "senses": [
+        {
+          "english": "bacon",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "rive": {
     "v": {
       "senses": [
@@ -160508,7 +160201,7 @@
       "origin": null
     }
   },
-  "root modified through Old": {
+  "root modified through Old Frenc": {
     "n": {
       "senses": [
         {
@@ -161097,17 +160790,6 @@
       "origin": null
     }
   },
-  "rowe": {
-    "n": {
-      "senses": [
-        {
-          "english": "moment",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "rowing behest board": {
     "n": {
       "senses": [
@@ -161143,6 +160825,17 @@
         }
       ],
       "origin": "cf. NL lavaglas"
+    }
+  },
+  "rsa Mino": {
+    "a": {
+      "senses": [
+        {
+          "english": "arctic",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "rub": {
@@ -161435,6 +161128,10 @@
       "senses": [
         {
           "english": "current",
+          "source": 3
+        },
+        {
+          "english": "level",
           "source": 3
         }
       ],
@@ -161760,6 +161457,17 @@
       "senses": [
         {
           "english": "fluid",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "runstif": {
+    "v": {
+      "senses": [
+        {
+          "english": "fix",
           "source": 3
         }
       ],
@@ -164820,15 +164528,6 @@
         }
       ],
       "origin": null
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "vernacular",
-          "source": 3
-        }
-      ],
-      "origin": null
     }
   },
   "see Kalends": {
@@ -164836,6 +164535,17 @@
       "senses": [
         {
           "english": "Calends",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "see OE leġe": {
+    "a": {
+      "senses": [
+        {
+          "english": "adultery",
           "source": 3
         }
       ],
@@ -164902,6 +164612,17 @@
       "senses": [
         {
           "english": "ensure",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "see umbgan": {
+    "n": {
+      "senses": [
+        {
+          "english": "vernacular",
           "source": 3
         }
       ],
@@ -167386,7 +167107,7 @@
       "origin": null
     }
   },
-  "several decades": {
+  "several decades ol": {
     "a": {
       "senses": [
         {
@@ -169464,6 +169185,17 @@
       "origin": null
     }
   },
+  "sheetmash": {
+    "n": {
+      "senses": [
+        {
+          "english": "papier-mâché",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "shehue": {
     "n": {
       "senses": [
@@ -169751,15 +169483,6 @@
         }
       ],
       "origin": "conjugated as the vb \"to send\""
-    },
-    "n": {
-      "senses": [
-        {
-          "english": "sacrilege",
-          "source": 3
-        }
-      ],
-      "origin": null
     }
   },
   "shendful": {
@@ -169771,6 +169494,17 @@
         }
       ],
       "origin": "<ME shendful"
+    }
+  },
+  "shendful outlaying": {
+    "n": {
+      "senses": [
+        {
+          "english": "exposé",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "shendship": {
@@ -171372,6 +171106,17 @@
       "origin": null
     }
   },
+  "shortlo": {
+    "n": {
+      "senses": [
+        {
+          "english": "second",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "shortlog": {
     "n": {
       "senses": [
@@ -172023,6 +171768,17 @@
         }
       ],
       "origin": "<OE scræb"
+    }
+  },
+  "shrave": {
+    "n": {
+      "senses": [
+        {
+          "english": "cave",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "shreading": {
@@ -173776,7 +173532,7 @@
       "origin": null
     }
   },
-  "simulated": {
+  "simulated realit": {
     "n": {
       "senses": [
         {
@@ -174187,6 +173943,17 @@
         }
       ],
       "origin": "cf. IC sívalningur"
+    }
+  },
+  "sinīga": {
+    "n": {
+      "senses": [
+        {
+          "english": "senior",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "sisson": {
@@ -177544,7 +177311,7 @@
       "origin": "ing"
     }
   },
-  "snithe NHG": {
+  "snithe NHG betreibe": {
     "v": {
       "senses": [
         {
@@ -187849,6 +187616,10 @@
         {
           "english": "plunder",
           "source": 3
+        },
+        {
+          "english": "plunder",
+          "source": 3
         }
       ],
       "origin": null
@@ -189918,6 +189689,10 @@
       "senses": [
         {
           "english": "labor",
+          "source": 3
+        },
+        {
+          "english": "transpire",
           "source": 3
         }
       ],
@@ -200977,17 +200752,6 @@
       "origin": "cf. NL toverdrank"
     }
   },
-  "to": {
-    "n": {
-      "senses": [
-        {
-          "english": "sacrilege",
-          "source": 3
-        }
-      ],
-      "origin": null
-    }
-  },
   "to cleave at": {
     "v": {
       "senses": [
@@ -201008,6 +200772,17 @@
         }
       ],
       "origin": "old infinitives of \"can\" and \"may\""
+    }
+  },
+  "to defil": {
+    "n": {
+      "senses": [
+        {
+          "english": "sacrilege",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "to have a smack of": {
@@ -201761,6 +201536,10 @@
         },
         {
           "english": "instrument",
+          "source": 3
+        },
+        {
+          "english": "laxative",
           "source": 3
         },
         {
@@ -203482,6 +203261,17 @@
         }
       ],
       "origin": "<NE troth + fast, cf. SW trofast, NO trofast <ON trúfastr"
+    }
+  },
+  "troubl": {
+    "n": {
+      "senses": [
+        {
+          "english": "immunity",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   },
   "trough": {
@@ -207577,6 +207367,10 @@
   "undead": {
     "n": {
       "senses": [
+        {
+          "english": "Æsir",
+          "source": 3
+        },
         {
           "english": "zombie",
           "source": 3
@@ -213108,10 +212902,10 @@
       ],
       "origin": null
     },
-    "v": {
+    "n": {
       "senses": [
         {
-          "english": "rebel",
+          "english": "dome",
           "source": 3
         }
       ],
@@ -213123,6 +212917,17 @@
       "senses": [
         {
           "english": "vertically",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "up-STAN": {
+    "v": {
+      "senses": [
+        {
+          "english": "rebel",
           "source": 3
         }
       ],
@@ -214663,6 +214468,17 @@
       "senses": [
         {
           "english": "accustomed",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ut fiendish and fiendlike are": {
+    "a": {
+      "senses": [
+        {
+          "english": "hostile",
           "source": 3
         }
       ],
@@ -216566,6 +216382,10 @@
         },
         {
           "english": "protection",
+          "source": 3
+        },
+        {
+          "english": "protégé",
           "source": 3
         },
         {
@@ -223733,7 +223553,7 @@
       "origin": null
     }
   },
-  "wick coming from ON": {
+  "wick coming from ON vi": {
     "n": {
       "senses": [
         {
@@ -223769,6 +223589,17 @@
         },
         {
           "english": "vile",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "wicked wights": {
+    "n": {
+      "senses": [
+        {
+          "english": "Æsir",
           "source": 3
         }
       ],
@@ -224138,6 +223969,10 @@
       "senses": [
         {
           "english": "idol",
+          "source": 3
+        },
+        {
+          "english": "Vé",
           "source": 3
         },
         {
@@ -225045,6 +224880,10 @@
       "senses": [
         {
           "english": "acquire",
+          "source": 3
+        },
+        {
+          "english": "develop",
           "source": 3
         },
         {
@@ -228193,6 +228032,17 @@
       "origin": null
     }
   },
+  "withyouthe": {
+    "v": {
+      "senses": [
+        {
+          "english": "rejuvenate",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "witing hingang": {
     "n": {
       "senses": [
@@ -228744,6 +228594,17 @@
       "senses": [
         {
           "english": "panic",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "wodes": {
+    "n": {
+      "senses": [
+        {
+          "english": "Æsir",
           "source": 3
         }
       ],
@@ -229918,7 +229779,7 @@
       "origin": null
     }
   },
-  "word from Leeden": {
+  "word from Leeden saccu": {
     "n": {
       "senses": [
         {
@@ -234258,6 +234119,17 @@
       "origin": null
     }
   },
+  "y a church-monge": {
+    "n": {
+      "senses": [
+        {
+          "english": "simony",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "yammer": {
     "n": {
       "senses": [
@@ -234303,6 +234175,10 @@
   "yar": {
     "n": {
       "senses": [
+        {
+          "english": "Africa",
+          "source": 3
+        },
         {
           "english": "sound",
           "source": 3
@@ -236060,6 +235936,17 @@
       "origin": null
     }
   },
+  "ynthesised from meanin": {
+    "n": {
+      "senses": [
+        {
+          "english": "natural logarithm",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
   "yoelding": {
     "a": {
       "senses": [
@@ -236856,6 +236743,411 @@
         }
       ],
       "origin": "Mean Anglish"
+    }
+  },
+  "zowa": {
+    "a": {
+      "senses": [
+        {
+          "english": "just about",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "Þree-milk": {
+    "n": {
+      "senses": [
+        {
+          "english": "the fifth month of the year",
+          "source": 4
+        },
+        {
+          "english": "May",
+          "source": 4
+        }
+      ],
+      "origin": "OE Þrimilce"
+    }
+  },
+  "þarf": {
+    "v": {
+      "senses": [
+        {
+          "english": "1",
+          "source": 4
+        },
+        {
+          "english": "intrans",
+          "source": 4
+        },
+        {
+          "english": "vb",
+          "source": 4
+        },
+        {
+          "english": "to be under necessity or obligation",
+          "source": 4
+        },
+        {
+          "english": "- impers",
+          "source": 4
+        },
+        {
+          "english": "adj",
+          "source": 4
+        },
+        {
+          "english": "needful2",
+          "source": 4
+        },
+        {
+          "english": "unleavened",
+          "source": 4
+        },
+        {
+          "english": "not leavened",
+          "source": 4
+        },
+        {
+          "english": "containing no leaven",
+          "source": 4
+        },
+        {
+          "english": "as in unleavened bread",
+          "source": 4
+        },
+        {
+          "english": "Unleavened bread is often simply flour mixed with water",
+          "source": 4
+        },
+        {
+          "english": "Bread or cake without yeast or baking powder",
+          "source": 4
+        },
+        {
+          "english": "as in tharf-cake",
+          "source": 4
+        },
+        {
+          "english": "compelled",
+          "source": 4
+        },
+        {
+          "english": "forced",
+          "source": 4
+        }
+      ],
+      "origin": "1. rare, from OE þurfan - 2. OE and dialect"
+    },
+    "a": {
+      "senses": [
+        {
+          "english": "1",
+          "source": 4
+        },
+        {
+          "english": "intrans",
+          "source": 4
+        },
+        {
+          "english": "vb",
+          "source": 4
+        },
+        {
+          "english": "to be under necessity or obligation",
+          "source": 4
+        },
+        {
+          "english": "- impers",
+          "source": 4
+        },
+        {
+          "english": "adj",
+          "source": 4
+        },
+        {
+          "english": "needful2",
+          "source": 4
+        },
+        {
+          "english": "unleavened",
+          "source": 4
+        },
+        {
+          "english": "not leavened",
+          "source": 4
+        },
+        {
+          "english": "containing no leaven",
+          "source": 4
+        },
+        {
+          "english": "as in unleavened bread",
+          "source": 4
+        },
+        {
+          "english": "Unleavened bread is often simply flour mixed with water",
+          "source": 4
+        },
+        {
+          "english": "Bread or cake without yeast or baking powder",
+          "source": 4
+        },
+        {
+          "english": "as in tharf-cake",
+          "source": 4
+        },
+        {
+          "english": "compelled",
+          "source": 4
+        },
+        {
+          "english": "forced",
+          "source": 4
+        }
+      ],
+      "origin": "1. rare, from OE þurfan - 2. OE and dialect"
+    }
+  },
+  "þarm": {
+    "n": {
+      "senses": [
+        {
+          "english": "an intestine",
+          "source": 4
+        },
+        {
+          "english": "chiefly in pl",
+          "source": 4
+        },
+        {
+          "english": "2 an intestine as cleansed and prepared for some purposes",
+          "source": 4
+        },
+        {
+          "english": "Also in sing",
+          "source": 4
+        },
+        {
+          "english": "as  a substance or material",
+          "source": 4
+        },
+        {
+          "english": "catgut for  fiddlestrings",
+          "source": 4
+        },
+        {
+          "english": "etc",
+          "source": 4
+        },
+        {
+          "english": "intestine",
+          "source": 4
+        }
+      ],
+      "origin": "rare, from  OE. þarm, þearm.  OTeut. þarmoz: to  go  through. See modern English ‘thrum’"
+    }
+  },
+  "þedeship": {
+    "n": {
+      "senses": [
+        {
+          "english": "nationality",
+          "source": 4
+        }
+      ],
+      "origin": null
+    }
+  },
+  "þedewielding": {
+    "n": {
+      "senses": [
+        {
+          "english": "political entity that controls",
+          "source": 4
+        },
+        {
+          "english": "maintains",
+          "source": 4
+        },
+        {
+          "english": "and represents a nation or state",
+          "source": 4
+        },
+        {
+          "english": "government",
+          "source": 4
+        }
+      ],
+      "origin": "neologism using archaisms, from ‘thede’ (nation, people) (archaic) + ‘wield’ (guide, manage') (archaic meanings) + ‘-ing’"
+    }
+  },
+  "þew": {
+    "n": {
+      "senses": [
+        {
+          "english": "1",
+          "source": 4
+        },
+        {
+          "english": "accepted or habitual practice2",
+          "source": 4
+        },
+        {
+          "english": "the tissue of the body which contracts to exert a force and movement",
+          "source": 4
+        },
+        {
+          "english": "physical strength",
+          "source": 4
+        },
+        {
+          "english": "muscle",
+          "source": 4
+        }
+      ],
+      "origin": "OE þeaw 'habit, custom'"
+    }
+  },
+  "þild": {
+    "n": {
+      "senses": [
+        {
+          "english": "patience",
+          "source": 4
+        }
+      ],
+      "origin": "OE geþyld, cf. NHG Geduld"
+    }
+  },
+  "þing": {
+    "v": {
+      "senses": [
+        {
+          "english": "1",
+          "source": 4
+        },
+        {
+          "english": "to invite",
+          "source": 4
+        },
+        {
+          "english": "address2",
+          "source": 4
+        },
+        {
+          "english": "to thrive",
+          "source": 4
+        }
+      ],
+      "origin": "1. OE þingan - 2. OE geþingan"
+    }
+  },
+  "þinkly": {
+    "a": {
+      "senses": [
+        {
+          "english": "thinking deeply or seriously",
+          "source": 4
+        },
+        {
+          "english": "tending to think",
+          "source": 4
+        },
+        {
+          "english": "intellectual",
+          "source": 4
+        }
+      ],
+      "origin": null
+    }
+  },
+  "þong": {
+    "n": {
+      "senses": [
+        {
+          "english": "growth",
+          "source": 4
+        }
+      ],
+      "origin": "OE geþang"
+    }
+  },
+  "þringrising": {
+    "v": {
+      "senses": [
+        {
+          "english": "artesian",
+          "source": 4
+        }
+      ],
+      "origin": "thring 'pressure' + rising"
+    },
+    "a": {
+      "senses": [
+        {
+          "english": "artesian",
+          "source": 4
+        }
+      ],
+      "origin": "thring 'pressure' + rising"
+    }
+  },
+  "þrowe": {
+    "n": {
+      "senses": [
+        {
+          "english": "moment",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ācweorna": {
+    "n": {
+      "senses": [
+        {
+          "english": "squirrel",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "ζωή": {
+    "n": {
+      "senses": [
+        {
+          "english": "nitrogen",
+          "source": 3
+        }
+      ],
+      "origin": "zōḗ, “life”"
+    }
+  },
+  "πτερόν": {
+    "n": {
+      "senses": [
+        {
+          "english": "pterosaur",
+          "source": 3
+        }
+      ],
+      "origin": null
+    }
+  },
+  "σαῦρος": {
+    "n": {
+      "senses": [
+        {
+          "english": "pterosaur",
+          "source": 3
+        }
+      ],
+      "origin": null
     }
   }
 }
