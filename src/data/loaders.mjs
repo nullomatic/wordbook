@@ -21,9 +21,7 @@ const Sources = Object.freeze({
  *
  * {"pos": "noun", "word": "aardvark", "lang": "English", ... }
  *
- * To manage memory, we create a `readline` stream that collects entries into batches,
- * which are then passed to the Redis client. The client automatically pipelines multiple
- * commands to Redis (https://www.npmjs.com/package/redis#auto-pipelining).
+ * To manage memory, we create a `readline` stream that processes entries in batches.
  **/
 export class WiktionaryLoader {
   constructor() {
@@ -146,9 +144,8 @@ export class WiktionaryLoader {
   /**
    * Loads file via read stream and processes lines in batches.
    * @param handler Handler function to process each line. Return type is array of Promises.
-   * @param callback Callback that is called after read stream finishes.
    **/
-  async #loadWithStream(handler, callback) {
+  async #loadWithStream(handler) {
     // Adjust BATCH_SIZE to keep memory under Node limit.
     // Alternatively, adjust --max-old-space-size.
     const BATCH_SIZE = 50000;
@@ -203,10 +200,6 @@ export class WiktionaryLoader {
     if (iteration !== processed) {
       console.warn(`WARN: Missed ${iteration - processed} entries`);
     }
-
-    if (callback) {
-      await callback();
-    }
   }
 
   #createEntry(word, pos) {
@@ -232,12 +225,13 @@ export class WiktionaryLoader {
 export class HurlebatteLoader {
   constructor() {
     this.anglish = {};
+    this.csvPath = util.getPath('/assets/hurlebatte/wordbook.csv');
     this.jsonPath = util.getPath('/assets/hurlebatte/hb-anglish.json');
   }
 
   async load(options) {
     if (options?.save) {
-      await this.loadCSV();
+      await this.#loadCSV();
       logger.info(`Saving ${this.jsonPath}`);
       fs.writeFileSync(this.jsonPath, JSON.stringify(this.anglish, null, 2));
     } else {
@@ -252,11 +246,8 @@ export class HurlebatteLoader {
     return this;
   }
 
-  async loadCSV(options) {
-    const rows = await csv().fromFile(
-      util.getPath('/assets/hurlebatte/wordbook.csv')
-    );
-
+  async #loadCSV(options) {
+    const rows = await csv().fromFile(this.csvPath);
     for (const row of rows) {
       const word = util.cleanWord(row['WORD']);
       if (!word) {
@@ -270,9 +261,9 @@ export class HurlebatteLoader {
       );
 
       const senses = row['MEANING']
-        .replace(/\([^)]*\)/g, ',')
-        .split(/[^\w\s'\-]/g)
-        .map((s) => s.trim().replace(/^(a|an|to) /g, ''))
+        .replace(/\([^)]*\)/g, ',') // Remove square brackets
+        .split(/[^\w\s'\-]/g) // Split on non-word characters
+        .map((s) => s.trim().replace(/^(a|an|to) /g, '')) // Remove a/an/to at start
         .filter((s) => s);
 
       let origin = row['FROM'];
@@ -320,8 +311,8 @@ export class HurlebatteLoader {
   async #getPartsOfSpeech(_pos, word, interactive) {
     const posArr = [];
     _pos = _pos
-      .replace(/[\s\n]/g, '') // Remove all spaces and newlines
-      .split(/[^\w]/) // Split on any non-word character
+      .replace(/[\s\n]/g, '') // Remove spaces and newlines
+      .split(/[^\w]/) // Split on non-word characters
       .filter((s) => s);
 
     for (const pos of _pos) {
@@ -361,9 +352,8 @@ export class HurlebatteLoader {
  **/
 export class MootLoader {
   constructor() {
-    this.baseURL = 'https://anglish.fandom.com';
     this.anglish = {};
-
+    this.baseURL = 'https://anglish.fandom.com';
     this.jsonPath = util.getPath('/assets/moot/moot-anglish.json');
     this.htmlDirAnglish = util.getPath('/assets/moot/html/anglish/');
     this.htmlDirEnglish = util.getPath('/assets/moot/html/english/');
@@ -432,10 +422,10 @@ export class MootLoader {
   async scrapeEnglish(options) {
     logger.info('Scraping English Moot data...');
 
-    let filenames = util.getFilenames('/assets/moot/html/english');
+    let filenames = util.getFilenames(this.htmlDirEnglish);
     if (!filenames.length) {
       await this.fetchEnglishHTML();
-      filenames = util.getFilenames('/assets/moot/html/english');
+      filenames = util.getFilenames(this.htmlDirEnglish);
     }
 
     for (const [, fullPath] of filenames) {
@@ -478,10 +468,10 @@ export class MootLoader {
   async scrapeAnglish(options) {
     logger.info('Scraping Anglish Moot data...');
 
-    let filenames = util.getFilenames('/assets/moot/html/anglish');
+    let filenames = util.getFilenames(this.htmlDirAnglish);
     if (!filenames.length) {
       await this.fetchAnglishHTML();
-      filenames = util.getFilenames('/assets/moot/html/anglish');
+      filenames = util.getFilenames(this.htmlDirAnglish);
     }
 
     for (const [, fullPath] of filenames) {
@@ -507,12 +497,17 @@ export class MootLoader {
 
         const [words, origin] = _def.split(/[\[\]]/g);
         const senses = words
-          .replace(/\([^)]*\)/g, ',')
-          .split(/[^\w\s'\-]/g)
-          .map((s) => s.trim().replace(/^(a|an|to) /g, ''))
+          .replace(/\([^)]*\)/g, ',') // Remove square brackets
+          .split(/[^\w\s'\-]/g) // Split on non-word characters
+          .map((s) => s.trim().replace(/^(a|an|to) /g, '')) // Remove a/an/to at start
           .filter((s) => s);
 
-        const posArr = await this.#getPartsOfSpeech(_pos, anglishWord);
+        const posArr = await this.#getPartsOfSpeech(
+          _pos,
+          anglishWord,
+          options?.interactive
+        );
+
         for (const pos of posArr) {
           this.#createEntry(anglishWord, pos);
           if (origin) {
@@ -548,8 +543,8 @@ export class MootLoader {
   async #getPartsOfSpeech(str, word, interactive) {
     const posArr = [];
     str = str
-      .replace(/[\s\n]/g, '') // Remove all spaces and newlines
-      .split(/[^\w]/) // Split on any non-word character
+      .replace(/[\s\n]/g, '') // Remove spaces and newlines
+      .split(/[^\w]/) // Split on non-word characters
       .filter((s) => s);
 
     for (const _pos of str) {
@@ -587,12 +582,12 @@ export class MootLoader {
   }
 
   /**
-   * Reverses one english->anglish[] entry to multiple anglish->english entries.
+   * Reverses one english->anglish[] entry to multiple (anglish->english)[] entries.
    */
   #reverseEnglish(str, englishWord, posArr) {
     str = str
       .replace(/(?:^|\n).*?:/g, '') // Remove text coming before a colon
-      .trim(); // Trim
+      .trim();
 
     // Sometimes the regular expression wrongly extracts an origin acronym.
     const originRegExp = new RegExp(`^${util.MOOT_ORIGINS_PATTERN}`);
@@ -674,8 +669,10 @@ export class WordNetLoader {
   async #loadYAML() {
     fs.mkdirSync(this.dirJSON, { recursive: true });
 
+    logger.info(`Loading files in ${this.dirYAML}`);
+
     for (const [filename, fullPath] of util.getFilenames(this.dirYAML)) {
-      logger.info(`Loading ${fullPath}`);
+      logger.verbose(`Loading ${fullPath}`);
 
       const file = fs.readFileSync(fullPath, 'utf-8');
       const json = YAML.parse(file);
@@ -715,13 +712,16 @@ export class WordNetLoader {
     if (!fs.existsSync(this.dirJSON)) {
       return this.#loadYAML();
     }
+
     const filenames = util.getFilenames(this.dirJSON);
     if (!filenames.length) {
       return this.#loadYAML();
     }
 
+    logger.info(`Loading files in ${this.dirJSON}`);
+
     for (const [filename, fullPath] of filenames) {
-      logger.info(`Loading ${fullPath}`);
+      logger.verbose(`Loading ${fullPath}`);
 
       const file = fs.readFileSync(fullPath, 'utf-8');
       const json = JSON.parse(file);

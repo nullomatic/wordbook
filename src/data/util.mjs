@@ -6,6 +6,21 @@ import prompt from 'prompt';
 import * as winston from 'winston';
 
 const DIRNAME = dirname(fileURLToPath(import.meta.url));
+const logFormat = winston.format.printf(function (info) {
+  return `${info.timestamp}-${info.level}: ${info.message}`;
+});
+
+export const logger = winston.createLogger({
+  transports: [
+    new winston.transports.Console({
+      format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.colorize(),
+        logFormat
+      ),
+    }),
+  ],
+});
 
 export const WORD_PATTERN = `\\p{L}+([-\\s']\\p{L}+){0,4}`;
 export const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
@@ -24,27 +39,6 @@ export const MOOT_ORIGINS_PATTERN = (() => {
     .join('|')})`;
   return pattern;
 })();
-
-// This pattern determines the shape of word entry keys in Redis.
-// e.g., `en:aardvark:noun:1`, where `1` represents the etymological
-// index of the word for words that have multiple meanings.
-const KEY_PATTERN = '<lang>:<word>:<pos>:<etym>';
-
-const logFormat = winston.format.printf(function (info) {
-  return `${info.timestamp}-${info.level}: ${info.message}`;
-});
-
-export const logger = winston.createLogger({
-  transports: [
-    new winston.transports.Console({
-      format: winston.format.combine(
-        winston.format.timestamp(),
-        winston.format.colorize(),
-        logFormat
-      ),
-    }),
-  ],
-});
 
 export function getFilenames(dir) {
   const filenames = readdirSync(dir);
@@ -84,7 +78,6 @@ export function cleanWord(word) {
 }
 
 export async function promptPartOfSpeech(word, _pos) {
-  // Prompt schema for correcting parts of speech.
   const schema = {
     properties: {
       pos: {
@@ -105,122 +98,8 @@ export async function promptPartOfSpeech(word, _pos) {
       }
     });
   });
-  if (input) {
-    return input;
-  }
+  return input;
 }
-
-// export function cleanStr(str) {
-//   // TODO: This could be optimized
-//   return str
-//     .trim()
-//     .replace(/\([^)]*\)/g, '')
-//     .replace(/\[[^\]]*\]/g, '')
-//     .split('\n')
-//     .find((s) => !!s)
-//     ?.trim();
-// }
-
-// export function formatPoS(pos) {
-//   switch (pos.toLowerCase()) {
-//     case 'noun':
-//     case 'n':
-//     case 'nm':
-//     case 'num':
-//     case 'pro':
-//     case 'pron':
-//       pos = 'n'; // noun
-//       break;
-//     case 'v':
-//     case 'vb':
-//     case 'vt':
-//     case 'vb phr':
-//     case 'verb':
-//       pos = 'v'; // verb
-//       break;
-//     case 'a':
-//     case 'aj':
-//     case 'ad':
-//     case 'adj':
-//       pos = 'a'; // adjective
-//       break;
-//     case 'r':
-//     case 'av':
-//     case 'avb':
-//     case 'adv':
-//       pos = 'r'; // adverb
-//       break;
-//     case 'c':
-//     case 'conj':
-//       pos = 'c'; // conjunction
-//     case 'p':
-//     case 'pp':
-//     case 'd':
-//     case 'prep':
-//     case 'prp':
-//     case 'prep_phrase':
-//       pos = 'p'; // preposition
-//       break;
-//     case 'i':
-//     case 'int':
-//     case 'interj':
-//       pos = 'i'; // interjection
-//       break;
-//     case 'abbr':
-//     case 'abbrev':
-//     case 'phrase':
-//     case 'phr':
-//     case 'pre':
-//     case 'pvb':
-//     case 'prefix':
-//     case 'pfx':
-//     case 'pref':
-//     case 'suffix':
-//     case 'sfx':
-//     case 'suf':
-//     case 'suff':
-//     case 'afx':
-//     case 'pn':
-//     case 'ac':
-//     case 'pt':
-//     case 'letter':
-//     case 'name':
-//     case 'prefix':
-//     case 'phrase':
-//     case 'intj':
-//     case 'adv_phrase':
-//     case 'interfix':
-//     case 'affix':
-//     case 'circumfix':
-//     case 'suffix':
-//     case 'particle':
-//     case 'num':
-//     case 'det':
-//     case 'article':
-//     case 'character':
-//     case 'symbol':
-//     case 'proverb':
-//     case 'contraction':
-//     case 'punct':
-//     case 'infix':
-//     case 'abbrev':
-//     case 'postp':
-//       pos = 'x'; // other
-//       break;
-//     default:
-//       throw new Error(`Unknown part of speech '${pos}'`);
-//   }
-//   return pos;
-// }
-
-// export function formatSenses(str) {
-//   return str
-//     .split(/[^a-z\s\-']/i)
-//     .map((str) => {
-//       return cleanStr(str).replace(/^(a|an|to)\s/gi, ''); // Replace 'a/an <word>' and 'to <word>'
-//     })
-//     .filter((str) => !!str);
-// }
 
 export function sortObj(obj) {
   return Object.keys(obj)

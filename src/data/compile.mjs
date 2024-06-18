@@ -7,7 +7,7 @@ import {
   WordNetLoader,
   HurlebatteLoader,
 } from './loaders.mjs';
-import * as util from './util.mjs';
+import { logger, getPath, sortObj } from './util.mjs';
 
 /**
  * Loads Anglish words from all sources and compiles them into a single
@@ -51,69 +51,50 @@ export default async function compileSources(options) {
     save: options?.save?.includes('wordnet'),
   });
 
-  console.log(`\nHurlebatte entries: ${Object.keys(hb.anglish).length}`);
-  console.log(`Moot entries: ${Object.keys(moot.anglish).length}`);
-  console.log(`Wiktionary entries: ${Object.keys(wikt.anglish).length}`);
-  console.log(`WordNet entries: ${Object.keys(wordnet.entries).length}`);
-  console.log(`WordNet synsets: ${Object.keys(wordnet.synsets).length}\n`);
+  logger.info(`Hurlebatte entries:\t${Object.keys(hb.anglish).length}`);
+  logger.info(`Moot entries:\t\t${Object.keys(moot.anglish).length}`);
+  logger.info(`Wiktionary entries:\t${Object.keys(wikt.anglish).length}`);
+  logger.info(`WordNet entries:\t\t${Object.keys(wordnet.entries).length}`);
+  logger.info(`WordNet synsets:\t\t${Object.keys(wordnet.synsets).length}`);
 
-  let sensesCount = 0;
+  // Merge sources into WordNet. Skip existing words.
+  const originalWords = new Set(Object.keys(wordnet.entries));
+  mergeSource(hb.anglish, wordnet, originalWords);
+  mergeSource(moot.anglish, wordnet, originalWords);
+  mergeSource(wikt.anglish, wordnet, originalWords);
 
-  const mergeSourceIntoWordNet = (source) => {
-    for (const word in source) {
-      if (!wordnet.entries[word]) {
-        wordnet.entries[word] = { ...source[word], isAnglish: true };
-      } else {
-        wordnet.entries[word].isAnglish = true;
+  // Set `isAnglish = true` for compound words whose parts are Anglish.
+  setAnglishByWordParts(wordnet);
 
-        for (const pos in source[word]) {
-          if (!wordnet.entries[word][pos]) {
-            wordnet.entries[word][pos] = source[word][pos];
-          } else {
-            wordnet.entries[word][pos].senses.push(...source[word][pos].senses);
-          }
+  wordnet.entries = sortObj(wordnet.entries);
 
-          // for (const sense of source[word][pos].senses) {
-          //   wordnet.entries[word][pos].senses.push(sense)
-          //   if (sense.english.split(' ').length < 2) {
-          //     continue;
-          //   }
-          //   // convert sense longer than 2+ words to one English word
-          //   // see if that word/pos exists in WordNet
-          //   // if yes, map its senses to their synset/definition
-          //   // filter those by which make sense in context of original word
-          //   sensesCount++;
-          // }
-        }
-      }
-    }
-  };
+  countAnglishEntries(wordnet);
 
-  mergeSourceIntoWordNet(hb.anglish);
-  mergeSourceIntoWordNet(moot.anglish);
-  mergeSourceIntoWordNet(wikt.anglish);
+  const condense = false;
+  if (condense) {
+    const [toCondense, batchCount] = getSensesToCondense(wordnet);
+    await gpt.condenseSenses(toCondense, batchCount);
+  }
 
-  main: for (const word in wordnet.entries) {
-    if (!wordnet.entries[word].isAnglish) {
-      const parts = word.split(/[\s-]/);
-      if (parts.length > 1) {
-        for (const part of word.split(/\s-/)) {
-          if (!wordnet.entries[part]?.isAnglish) {
-            continue main;
-          }
-        }
-        console.log(`setting "${word}" to Anglish`);
-        wordnet.entries[word].isAnglish = true;
-      }
+  const file = fs.readFileSync(getPath('/gpt/gpt-condensed.out'), 'utf-8');
+  const lines = file.split('\n');
+  for (const line of lines) {
+    if (!line) continue;
+    const { word, ...entry } = JSON.parse(line);
+    for (const pos in entry) {
+      wordnet.entries[word][pos].senses = entry[pos].map((str) => ({
+        english: str,
+      }));
     }
   }
 
-  return;
+  const match = true;
+  if (match) {
+    const [toMatch, matchCount] = getSensesToMatch(wordnet);
+    await gpt.matchSenses(toMatch, matchCount);
+  }
 
-  const anglishWords = new Set();
-  addToWordNet(moot.anglish, wordnet, anglishWords);
-  addToWordNet(wordbook.data, wordnet, anglishWords);
-  addToWordNet(wikt.data, wordnet, anglishWords);
+  return;
 
   updateSenses(wordnet, anglishWords);
 
@@ -138,175 +119,135 @@ export default async function compileSources(options) {
   for (const key in master) {
     const filename = `entries-${key}.json`;
     fs.writeFileSync(
-      util.getPath(`/assets/wordnet/all/${filename}`),
+      getPath(`/assets/wordnet/all/${filename}`),
       JSON.stringify(util.sortObj(master[key]), null, 2)
     );
   }
 }
 
-/*
- * Adds words from the given sources to WordNet.
- */
-function addToWordNet(data, wordnet, anglishWords) {
-  for (const word in data) {
-    const inWordNet = Object.hasOwn(wordnet.entries, word);
-    if (inWordNet) {
-      // Word is both valid Anglish and a modern English word,
-      // already in WordNet. Update language and continue.
-      if (!wordnet.entries[word].languages.includes('Anglish')) {
-        wordnet.entries[word].languages.push('Anglish');
-      }
-      continue;
+function mergeSource(source, wordnet, originalWords) {
+  for (const word in source) {
+    if (originalWords.has(word)) {
+      wordnet.entries[word].isAnglish = true;
+    } else if (!wordnet.entries[word]) {
+      wordnet.entries[word] = { ...source[word], isAnglish: true };
     } else {
-      // Word is Anglish only. Add new WordNet entry.
-
-      if (Object.keys(data[word]).includes('name')) {
-        // Skip proper nouns from Kaikki; they add bloat.
-        continue;
-      }
-
-      anglishWords?.add(word);
-      wordnet.entries[word] = {
-        languages: ['Anglish'],
-      };
-
-      for (const pos in data[word]) {
+      for (const pos in source[word]) {
         if (!wordnet.entries[word][pos]) {
-          wordnet.entries[word][pos] = { senses: [] };
-        }
-        wordnet.entries[word][pos].senses = Array.from(
-          new Set(
-            wordnet.entries[word][pos].senses.concat(
-              data[word][pos].senses || []
-            )
-          )
-        );
-      }
-    }
-  }
-}
-
-async function fixSenses(wordnet) {
-  const file = fs.readFileSync(util.getPath('/log/gpt-condensed.err'), 'utf-8');
-  const lines = file.split('\n');
-  const toFix = {};
-
-  for (const line of lines) {
-    if (!line.trim()) {
-      continue;
-    }
-    const index = line.indexOf('{');
-    const word = line.slice(0, index - 1);
-    if (!wordnet.entries[word]) {
-      throw new Error(`Word '${word}' not found`);
-    }
-    toFix[word] = wordnet.entries[word];
-  }
-
-  await gpt.condenseSenses(toFix);
-}
-
-async function fixSenses2(wordnet, anglishWords) {
-  let haveSeenAston = false;
-  for (const word of anglishWords) {
-    const entry = wordnet.entries[word];
-    let willProcess = false;
-    for (const pos in entry) {
-      if (
-        pos === 'languages' ||
-        pos === 'x' ||
-        !entry[pos].senses.length ||
-        entry[pos].senses.some((sense) => Object.hasOwn(wordnet.entries, sense))
-      ) {
-        continue;
-      }
-      willProcess = true;
-    }
-    if (willProcess && haveSeenAston) {
-      await gpt.condenseSense(wordnet, word, entry);
-    }
-    if (word === 'Aston') {
-      haveSeenAston = true;
-    }
-  }
-}
-
-async function fixSenses3(wordnet) {
-  const file = fs.readFileSync(util.getPath('/log/gpt-matched2.err'), 'utf-8');
-  const lines = file.split('\n');
-
-  for (const line of lines) {
-    if (!line.trim()) {
-      continue;
-    }
-    const [word, pos, sense] = line.split(':').map((s) => s.trim());
-    if (!wordnet.entries[word]?.[pos] || !wordnet.entries[sense]?.[pos]) {
-      continue;
-    }
-
-    const _senses = wordnet.entries[sense][pos].senses;
-    if (_senses.length === 1) {
-      continue;
-    }
-
-    // Match sense word to synset.
-    await gpt.matchSense(word, pos, sense, _senses, wordnet);
-  }
-}
-
-async function fixSenses4(wordnet, anglishWords) {
-  // Match senses from GPT output file.
-  const words = new Set();
-  const file = fs.readFileSync(util.getPath('/log/gpt-matched.out'), 'utf-8');
-  const lines = file.split('\n');
-  for (const line of lines) {
-    if (!line.trim()) {
-      continue;
-    }
-    const index = line.indexOf('[');
-    if (index === -1) {
-      continue;
-    }
-    const [word, pos, sense] = line.slice(0, index - 1).split(':');
-    words.add(word);
-  }
-
-  main: for (const word of anglishWords) {
-    if (words.has(word)) continue;
-    for (const pos in wordnet.entries[word]) {
-      if (pos === 'languages' || !wordnet.entries[word][pos]) {
-        continue;
-      }
-      if (
-        Object.keys(wordnet.entries[word]).length === 2 &&
-        Object.hasOwn(wordnet.entries[word], 'x')
-      ) {
-        continue main;
-      }
-      const senses = wordnet.entries[word][pos].senses;
-      for (let i = 0; i < senses.length; i++) {
-        const sense = senses[i];
-        if (!wordnet.entries[sense]?.[pos]?.senses?.length) {
-          continue; // Nothing to match.
-        }
-        const _senses = wordnet.entries[sense][pos].senses;
-        if (_senses.length === 1 && _senses[0]?.synset) {
-          senses[i] = {
-            synset: _senses[0].synset,
-          };
+          wordnet.entries[word][pos] = source[word][pos];
         } else {
-          await gpt.matchSense(word, pos, sense, _senses, wordnet);
+          wordnet.entries[word][pos].senses.push(...source[word][pos].senses);
         }
       }
     }
   }
+}
+
+function setAnglishByWordParts(wordnet) {
+  main: for (const word in wordnet.entries) {
+    if (!wordnet.entries[word].isAnglish) {
+      const parts = word.split(/[\s-]/);
+      if (parts.length > 1) {
+        for (const part of parts) {
+          if (!wordnet.entries[part]?.isAnglish) {
+            continue main;
+          }
+        }
+        logger.verbose(`Setting "${word}" to Anglish`);
+        wordnet.entries[word].isAnglish = true;
+      }
+    }
+  }
+}
+
+function countAnglishEntries(wordnet) {
+  let count = 0;
+  for (const word in wordnet.entries) {
+    if (wordnet.entries[word].isAnglish) {
+      count++;
+    }
+  }
+  logger.info(`Total Anglish entries:\t${count}`);
+}
+
+function getSensesToCondense(wordnet) {
+  let count = 0;
+  let batchCount = 0;
+  const toCondense = {};
+
+  for (const word in wordnet.entries) {
+    for (const pos in wordnet.entries[word]) {
+      if (pos === 'isAnglish') continue;
+      let willCondense = false;
+      for (const sense of wordnet.entries[word][pos].senses) {
+        if (sense.english?.split(/\s/).length > 2) {
+          count++;
+          willCondense = true;
+        }
+      }
+      if (willCondense) {
+        _.set(
+          toCondense,
+          `${word}.${pos}`,
+          wordnet.entries[word][pos].senses.map(({ english }) => english)
+        );
+        batchCount++;
+      }
+    }
+  }
+
+  const batchesPerSecond = 1.5;
+  const minutes = Math.round(batchCount / (60 * batchesPerSecond));
+  const hours = (minutes / 60).toFixed(1);
+  logger.verbose(
+    `${count} total senses to be condensed in ${batchCount} batches (${hours} hours)`
+  );
+
+  return [toCondense, batchCount];
+}
+
+function getSensesToMatch(wordnet) {
+  let count = 0;
+  const toMatch = {};
+
+  for (const word in wordnet.entries) {
+    if (wordnet.entries[word].isAnglish) {
+      for (const pos in wordnet.entries[word]) {
+        if (pos === 'isAnglish') continue;
+        const senses = wordnet.entries[word][pos].senses
+          .map(({ english }) => english)
+          .filter((s) => s);
+        const candidates = [];
+        for (const sense of senses) {
+          if (wordnet.entries[sense]?.[pos]) {
+            for (const { synset: id } of wordnet.entries[sense][pos].senses) {
+              if (id) {
+                candidates.push({ id, def: wordnet.synsets[id].definition[0] });
+              }
+            }
+          }
+        }
+        // Matching every sense would take forever, so we triage.
+        // If there are 3 or more candidate synsets, we boil them down.
+        // Otherwise, we stick with what is already there.
+        if (candidates.length > 3) {
+          count++;
+          _.set(toMatch, `${word}.${pos}`, { senses, candidates });
+        }
+      }
+    }
+  }
+
+  const matchesPerSecond = 1.5;
+  const minutes = Math.round(count / (60 * matchesPerSecond));
+  const hours = (minutes / 60).toFixed(1);
+  logger.verbose(`${count} total senses to be matched (${hours} hours)`);
+
+  return [toMatch, count];
 }
 
 async function matchSenses(wordnet) {
-  const file = fs.readFileSync(
-    util.getPath('/log/gpt-condensed2.out'),
-    'utf-8'
-  );
+  const file = fs.readFileSync(getPath('/log/gpt-condensed2.out'), 'utf-8');
   const lines = file.split('\n');
 
   for (const line of lines) {
@@ -360,7 +301,7 @@ async function matchSenses(wordnet) {
 
 function updateSenses(wordnet, anglishWords) {
   // Match senses from GPT output file.
-  const file = fs.readFileSync(util.getPath('/log/gpt-matched.out'), 'utf-8');
+  const file = fs.readFileSync(getPath('/log/gpt-matched.out'), 'utf-8');
   const lines = file.split('\n');
   for (const line of lines) {
     if (!line.trim()) {
