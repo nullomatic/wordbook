@@ -19,6 +19,10 @@ As always when delving into foreign code, I was confronted with a dearth of docu
 
 ## TODO
 
+- find words that have no senses/synset links, and link them
+- refine origin strings
+- create IDs for senses that have none
+
 - integrate WordNet data, maybe also EuroWordNet
 - highlight first search result / go to word page on Enter
 - remove huge files from repo and host elsewhere

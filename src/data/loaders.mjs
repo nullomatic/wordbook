@@ -59,9 +59,7 @@ export class WiktionaryLoader {
         for (const etym of json.etymology_templates) {
           if (etym.name === 'inh') {
             if (
-              /(Old English|Germanic|Norse|Saxon|Frankish)/i.test(
-                etym.expansion
-              )
+              /(English|Germanic|Norse|Saxon|Frankish)/i.test(etym.expansion)
             ) {
               hasGermanic = true;
             } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
@@ -77,7 +75,7 @@ export class WiktionaryLoader {
         if (!util.WORD_REGEXP.test(word)) {
           return;
         }
-        const pos = await this.#formatPartOfSpeech(word, json.pos);
+        const pos = await this.formatPartOfSpeech(word, json.pos);
         if (!pos) {
           return;
         }
@@ -99,53 +97,14 @@ export class WiktionaryLoader {
       }
     };
 
-    await this.#loadWithStream((line) => [handler(line)]);
-  }
-
-  async #formatPartOfSpeech(word, _pos) {
-    switch (_pos.toLowerCase()) {
-      case 'noun':
-        return 'n'; // noun
-        break;
-      case 'verb':
-        return 'v'; // verb
-        break;
-      case 'adj':
-        return 'a'; // adjective
-        break;
-      case 'adv':
-        return 'r'; // adverb
-        break;
-      case 'conj':
-        return 'c'; // conjunction
-        break;
-      case 'prep':
-      case 'prep_phrase':
-        return 'p'; // adposition
-        break;
-      case 'article':
-      case 'det':
-      case 'intj':
-      case 'num':
-      case 'phrase':
-      case 'pron':
-      case 'contraction':
-        return 'x'; // other
-        break;
-      case 'particle':
-      case 'character':
-      case 'symbol':
-        return null; // discard
-      default:
-        return null;
-    }
+    await this.loadWithStream((line) => [handler(line)]);
   }
 
   /**
    * Loads file via read stream and processes lines in batches.
    * @param handler Handler function to process each line. Return type is array of Promises.
    **/
-  async #loadWithStream(handler) {
+  async loadWithStream(handler) {
     // Adjust BATCH_SIZE to keep memory under Node limit.
     // Alternatively, adjust --max-old-space-size.
     const BATCH_SIZE = 50000;
@@ -199,6 +158,45 @@ export class WiktionaryLoader {
 
     if (iteration !== processed) {
       console.warn(`WARN: Missed ${iteration - processed} entries`);
+    }
+  }
+
+  async formatPartOfSpeech(word, _pos) {
+    switch (_pos.toLowerCase()) {
+      case 'noun':
+        return 'n'; // noun
+        break;
+      case 'verb':
+        return 'v'; // verb
+        break;
+      case 'adj':
+        return 'a'; // adjective
+        break;
+      case 'adv':
+        return 'r'; // adverb
+        break;
+      case 'conj':
+        return 'c'; // conjunction
+        break;
+      case 'prep':
+      case 'prep_phrase':
+        return 'p'; // adposition
+        break;
+      case 'article':
+      case 'det':
+      case 'intj':
+      case 'num':
+      case 'phrase':
+      case 'pron':
+      case 'contraction':
+        return 'x'; // other
+        break;
+      case 'particle':
+      case 'character':
+      case 'symbol':
+        return null; // discard
+      default:
+        return null;
     }
   }
 

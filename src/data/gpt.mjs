@@ -150,6 +150,15 @@ async function createCompletion(systemMessage, userMessage) {
   return completion.choices[0].message.content;
 }
 
+export function estimateReqTime(reqCount, descriptor) {
+  const reqsPerSecond = 1.5;
+  const minutes = Math.round(reqCount / (60 * reqsPerSecond));
+  const hours = (minutes / 60).toFixed(1);
+  logger.info(
+    `${descriptor}: ${reqCount} total requests to ChatGPT (${hours} hours)`
+  );
+}
+
 function longForm(pos) {
   switch (pos) {
     case 'n':
