@@ -9,30 +9,18 @@ import {
 } from './loaders.mjs';
 import { logger, getPath, sortObj } from './util.mjs';
 
+// When linking string senses to synset IDs, the algorithm will look up each sense
+// in WordNet and add all replacement candidates to an array. If the final length of
+// that array is greater than this value, it is sent to ChatGPT to be meaning-matched.
+// Otherwise, it is pushed unchanged onto the word's sense array.
+const SYNSET_CANDIDATES_THRESHOLD = 3;
+
 /**
  * Loads Anglish words from all sources and compiles them into a single
  * unified dictionary object, which is then sent to ChatGPT to refine.
  **/
 export default async function compileSources(options) {
   console.time('compileSources');
-
-  let saveWikt, saveWordbook, saveMoot, saveWordNet;
-  if (options?.save) {
-    for (const source of options.save) {
-      if (source === 'wikt') {
-        saveWikt = true;
-      }
-      if (source === 'wordbook') {
-        saveWordbook = true;
-      }
-      if (source === 'moot') {
-        saveMoot = true;
-      }
-      if (source === 'wordnet') {
-        saveWordNet = true;
-      }
-    }
-  }
 
   const wikt = await new WiktionaryLoader().load({
     ...options,
@@ -87,7 +75,7 @@ export default async function compileSources(options) {
   }
 
   mergeMatchedSenses(wordnet);
-  await overwriteWithWiktOrigin(wikt, wordnet);
+  await addWiktData(wikt, wordnet);
   writeMasterWordNet(wordnet);
 }
 
@@ -218,9 +206,7 @@ function addToMatch(word, pos, wordnet, toMatch) {
     }
   }
   // Matching every sense would take forever, so we triage.
-  // If there are 3 or more candidate synsets, we boil them down.
-  // Otherwise, we stick with what is already there.
-  if (candidates.length > 3) {
+  if (candidates.length > SYNSET_CANDIDATES_THRESHOLD) {
     _.set(toMatch, `${word}.${pos}`, { senses, candidates });
   }
 }
@@ -281,15 +267,36 @@ function mergeMatchedSenses(wordnet) {
     }
   }
 
-  // Filter out remaining string senses.
+  // Filter out remaining string senses and reduce to unique synsets.
   for (const word in wordnet.entries) {
     for (const pos in wordnet.entries[word]) {
       if (pos === 'isAnglish') continue;
-      wordnet.entries[word][pos].senses = wordnet.entries[word][
-        pos
-      ].senses.filter(({ synset }) => synset);
+      const filtered = wordnet.entries[word][pos].senses.filter(
+        ({ synset }) => synset
+      );
+      wordnet.entries[word][pos].senses = _.uniqBy(filtered, 'synset');
+      // TODO: It may be better to just let the database handle sense ID creation.
+      // .map(
+      //   (sense) => {
+      //     if (!sense.id) {
+      //       sense.id = formatSenseId(word, pos);
+      //     }
+      //   }
+      // );
     }
   }
+}
+
+function formatSenseId(word, pos) {
+  const ss_type =
+    ['n', 'v', 'a', 'r', 's', 'c', 'p', 'x', 'u'].indexOf(pos) + 1;
+  const lex_filenum = '';
+  const lex_id = '';
+  const head_word = '';
+  const head_id = '';
+  return `${word
+    .replace(' ', '_')
+    .toLowerCase()}%${ss_type}:${lex_filenum}:${lex_id}:${head_word}:${head_id}`;
 }
 
 function replaceStringSensesWithSynsets(word, pos, wordnet) {
@@ -307,9 +314,28 @@ function replaceStringSensesWithSynsets(word, pos, wordnet) {
       }
     }
   }
-  if (candidates.length <= 3) {
+  if (candidates.length <= SYNSET_CANDIDATES_THRESHOLD) {
     wordnet.entries[word][pos].senses.push(...candidates);
   }
+}
+
+async function addWiktData(wikt, wordnet) {
+  // There is a lot of good information in the Kaikki data, like comprehensive
+  // word origins, pronunciation, translations... Extract and link some of it.
+  const handler = async (line) => {
+    const json = JSON.parse(line);
+    const word = json.word;
+    const pos = await wikt.formatPartOfSpeech(word, json.pos);
+    if (!pos) {
+      return;
+    }
+    if (wordnet.entries[word]?.[pos]) {
+      wordnet.entries[word][pos].origin = json.etymology_text;
+      wordnet.entries[word][pos].sounds = json.sounds || [];
+    }
+  };
+
+  await wikt.loadWithStream((line) => [handler(line)]);
 }
 
 function writeMasterWordNet(wordnet) {
@@ -331,7 +357,7 @@ function writeMasterWordNet(wordnet) {
   }
 
   for (const key in master) {
-    const dir = '/master/';
+    const dir = '/compiled/';
     const dirFullPath = getPath(dir);
     const filename = `entries-${key}.json`;
     const fullPath = dirFullPath + filename;
@@ -341,20 +367,4 @@ function writeMasterWordNet(wordnet) {
     logger.info(`Saving ${fullPath}`);
     fs.writeFileSync(fullPath, JSON.stringify(sortObj(master[key]), null, 2));
   }
-}
-
-async function overwriteWithWiktOrigin(wikt, wordnet) {
-  const handler = async (line) => {
-    const json = JSON.parse(line);
-    const word = json.word;
-    const pos = await wikt.formatPartOfSpeech(word, json.pos);
-    if (!pos) {
-      return;
-    }
-    if (wordnet.entries[word]?.[pos]) {
-      wordnet.entries[word][pos].origin = json.etymology_text;
-    }
-  };
-
-  await wikt.loadWithStream((line) => [handler(line)]);
 }

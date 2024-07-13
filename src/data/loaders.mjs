@@ -47,7 +47,7 @@ export class WiktionaryLoader {
     return this;
   }
 
-  async #loadWiktData(options) {
+  async #loadWiktData() {
     const handler = async (line) => {
       const json = JSON.parse(line);
       const word = json.word;

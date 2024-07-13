@@ -1,15 +1,17 @@
 import { Command } from 'commander';
 import compileSources from './compile.mjs';
+import { populateDatabase } from './db.mjs';
 import { logger } from './util.mjs';
 
 const program = new Command();
 
 program.option('-f, --flush', 'flush all Redis keys');
-program.option('-c, --compile', 'Compile all word sources');
+program.option('--compile', 'Compile all word sources');
+program.option('--populate', 'Populate database');
 program.option('-s, --save <sources>', 'Save <sources> to disk');
-program.option('-cs, --condense-senses', 'Condense word senses with ChatGPT');
-program.option('-ms, --match-senses', 'Match word senses with ChatGPT');
-program.option('-fs, --fix-senses', 'Fix words in ChatGPT error log');
+program.option('--condense-senses', 'Condense word senses with ChatGPT');
+program.option('--match-senses', 'Match word senses with ChatGPT');
+program.option('--fix-senses', 'Fix words in ChatGPT error log');
 program.option('-v, --verbose', 'Verbose logging level');
 program.option('-d, --from-disk', 'Load sources from disk');
 program.option('-i, --interactive', 'Prompt for user-corrected word input');
@@ -27,6 +29,10 @@ if (options.save) {
 
 if (options.compile) {
   await compileSources(options);
+}
+
+if (options.populate) {
+  await populateDatabase(options);
 }
 
 process.exit();
