@@ -51,26 +51,8 @@ export class WiktionaryLoader {
     const handler = async (line) => {
       const json = JSON.parse(line);
       const word = json.word;
-
-      let hasGermanic = false;
-      let hasLatin = false;
-
-      if (Array.isArray(json.etymology_templates)) {
-        for (const etym of json.etymology_templates) {
-          if (etym.name === 'inh') {
-            if (
-              /(English|Germanic|Norse|Saxon|Frankish)/i.test(etym.expansion)
-            ) {
-              hasGermanic = true;
-            } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
-              hasLatin = true;
-            }
-          }
-        }
-      }
-
-      const isAnglish = hasGermanic && !hasLatin;
-
+      const isAnglish = this.checkIfAnglish(json.etymology_templates);
+      console.log(`"${word}" is Anglish: ${isAnglish}`);
       if (isAnglish) {
         if (!util.WORD_REGEXP.test(word)) {
           return;
@@ -98,6 +80,25 @@ export class WiktionaryLoader {
     };
 
     await this.loadWithStream((line) => [handler(line)]);
+  }
+
+  checkIfAnglish(templates) {
+    let hasGermanic = false;
+    let hasLatin = false;
+
+    if (Array.isArray(templates)) {
+      for (const etym of templates) {
+        if (['inh', 'der'].includes(etym.name)) {
+          if (/(English|Germanic|Norse|Saxon|Frankish)/i.test(etym.expansion)) {
+            hasGermanic = true;
+          } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
+            hasLatin = true;
+          }
+        }
+      }
+    }
+
+    return hasGermanic && !hasLatin;
   }
 
   /**

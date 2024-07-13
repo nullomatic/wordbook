@@ -16,7 +16,7 @@ await client.connect();
 export async function populateDatabase(_options) {
   await resetDatabase();
   await loadSynsets();
-  //await truncate();
+  await loadFrames();
   await loadEntries();
 }
 
@@ -28,15 +28,6 @@ async function resetDatabase() {
   const fullPath = util.getPath('/setup.sql');
   const sql = fs.readFileSync(fullPath, 'utf-8');
   await client.query(sql);
-}
-
-/**
- * Temporary function to remove rows from the given tables.
- */
-async function truncate() {
-  await client.query(
-    `TRUNCATE word, sense, sense_sense, word_sense, sense_frame`
-  );
 }
 
 /**
@@ -65,7 +56,6 @@ async function loadSynsets() {
   }
 
   logger.info(`Inserting ${values.length} synsets`);
-
   await client.query(
     // prettier-ignore
     format(
@@ -89,7 +79,6 @@ async function loadSynsets() {
   }
 
   logger.info(`Inserting ${values.length} synset relations`);
-
   await client.query(
     // prettier-ignore
     format(
@@ -122,6 +111,26 @@ async function loadEntries() {
   await insertSenseRelations(senses);
 }
 
+async function loadFrames() {
+  const fullPath = util.getPath('/assets/wordnet/json/frames.json');
+  const file = fs.readFileSync(fullPath, 'utf-8');
+  const json = JSON.parse(file);
+  const values = [];
+  for (const frame in json) {
+    const template = json[frame];
+    values.push([frame, template]);
+  }
+
+  logger.info(`Inserting ${values.length} frames`);
+  return client.query(
+    // prettier-ignore
+    format(
+      `INSERT INTO frame (id, template) ` +
+      `VALUES %L`,
+    values)
+  );
+}
+
 /**
  * Inserts word entries into database.
  */
@@ -151,7 +160,6 @@ function insertEntries(entries) {
   }
 
   logger.info(`Inserting ${values.length} entries`);
-
   return client.query(
     // prettier-ignore
     format(
@@ -181,7 +189,6 @@ function insertSenses(entries, entryRows, senseIndices, senses) {
   }
 
   logger.info(`Inserting ${values.length} senses`);
-
   return client.query(
     // prettier-ignore
     format(
@@ -195,7 +202,7 @@ function insertSenses(entries, entryRows, senseIndices, senses) {
 /**
  * Inserts sense relations into database.
  */
-function insertSenseRelations(senses) {
+async function insertSenseRelations(senses) {
   const senseRelations = [
     'exemplifies',
     'pertainym',
@@ -219,33 +226,48 @@ function insertSenseRelations(senses) {
     'similar',
     'destination',
   ];
-  const values = [];
+  const relationValues = [];
+  const frameValues = [];
   for (const sense of Object.values(senses)) {
     const dbSenseId = sense.newSenseId;
-    for (const relation in sense) {
-      if (senseRelations.includes(relation)) {
-        for (const relationId of sense[relation]) {
-          if (!senses[relationId]) {
-            console.log(relationId, sense);
-          }
+    for (const key in sense) {
+      if (senseRelations.includes(key)) {
+        // Add sense-sense relation.
+        for (const relationId of sense[key]) {
           const dbRelationId = senses[relationId].newSenseId;
-          values.push([dbSenseId, dbRelationId, relation]);
+          relationValues.push([dbSenseId, dbRelationId, key]);
+        }
+      } else if (key === 'subcat') {
+        // Add sense-frame relation.
+        for (const frameId of sense[key]) {
+          frameValues.push([dbSenseId, frameId]);
         }
       }
     }
   }
 
-  logger.info(`Inserting ${values.length} sense relations`);
-
-  return client.query(
+  logger.info(`Inserting ${relationValues.length} sense-sense relations`);
+  await client.query(
     // prettier-ignore
     format(
       `INSERT INTO sense_sense (sense_id_1, sense_id_2, relation) ` +
       `VALUES %L`,
-    values)
+    relationValues)
+  );
+
+  logger.info(`Inserting ${frameValues.length} sense-frame relations`);
+  await client.query(
+    // prettier-ignore
+    format(
+      `INSERT INTO sense_frame (sense_id, frame_id) ` +
+      `VALUES %L`,
+    frameValues)
   );
 }
 
+/**
+ * Extracts IPA rhyme from `sounds` key.
+ */
 function getRhymes(sounds) {
   if (sounds) {
     for (const sound of sounds) {

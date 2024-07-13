@@ -57,19 +57,14 @@ export default async function compileSources(options) {
 
   wordnet.entries = sortObj(wordnet.entries);
 
-  const condense = false;
-  if (condense) {
+  if (options.condenseSenses) {
     await condenseSenses(wordnet);
   }
-
-  const match = false;
-  if (match) {
+  if (options.matchSenses) {
     loadCondensed(wordnet);
     await matchSenses(wordnet);
   }
-
-  const fix = false;
-  if (fix) {
+  if (options.fixSenses) {
     await fixCondenseErrors(wordnet);
     await fixMatchErrors(wordnet);
   }
@@ -131,14 +126,12 @@ function countAnglishEntries(wordnet) {
 
 async function condenseSenses(wordnet) {
   const toCondense = {};
-
   for (const word in wordnet.entries) {
     for (const pos in wordnet.entries[word]) {
       if (pos === 'isAnglish') continue;
       addToCondense(word, pos, wordnet, toCondense);
     }
   }
-
   const reqCount = Object.keys(toCondense).length;
   gpt.estimateReqTime(reqCount, 'Condense senses');
   await gpt.matchSenses(toMatch, reqCount);
@@ -146,7 +139,6 @@ async function condenseSenses(wordnet) {
 
 async function matchSenses(wordnet) {
   const toMatch = {};
-
   for (const word in wordnet.entries) {
     if (wordnet.entries[word].isAnglish) {
       for (const pos in wordnet.entries[word]) {
@@ -155,7 +147,6 @@ async function matchSenses(wordnet) {
       }
     }
   }
-
   const reqCount = Object.keys(toMatch).length;
   gpt.estimateReqTime(reqCount, 'Match senses');
   await gpt.matchSenses(toMatch, reqCount);
@@ -215,13 +206,11 @@ async function fixCondenseErrors(wordnet) {
   const file = fs.readFileSync(getPath('/gpt/gpt-condensed.err'), 'utf-8');
   const lines = file.split('\n');
   const toCondense = {};
-
   for (const line of lines) {
     if (!line) continue;
     const [word, pos] = line.split(':');
     addToCondense(word, pos, wordnet, toCondense);
   }
-
   const reqCount = Object.keys(toCondense).length;
   gpt.estimateReqTime(reqCount, 'Condense senses');
   await gpt.condenseSenses(toCondense, reqCount);
@@ -231,13 +220,11 @@ async function fixMatchErrors(wordnet) {
   const file = fs.readFileSync(getPath('/gpt/gpt-matched.err'), 'utf-8');
   const lines = file.split('\n');
   const toMatch = {};
-
   for (const line of lines) {
     if (!line) continue;
     const [word, pos] = line.split(':');
     addToMatch(word, pos, wordnet, toMatch);
   }
-
   const reqCount = Object.keys(toMatch).length;
   gpt.estimateReqTime(reqCount, 'Match senses');
   await gpt.matchSenses(toMatch, reqCount);
@@ -329,6 +316,9 @@ async function addWiktData(wikt, wordnet) {
     if (!pos) {
       return;
     }
+    wordnet.entries[word].isAnglish = wikt.checkIfAnglish(
+      json.etymology_templates
+    );
     if (wordnet.entries[word]?.[pos]) {
       wordnet.entries[word][pos].origin = json.etymology_text;
       wordnet.entries[word][pos].sounds = json.sounds || [];

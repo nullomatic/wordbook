@@ -40,13 +40,6 @@ CREATE TABLE frame (
     template VARCHAR(80)
 );
 
-/* Word-Sense */
-CREATE TABLE word_sense (
-    word_id INTEGER REFERENCES word(id) ON UPDATE CASCADE ON DELETE CASCADE,
-    sense_id INTEGER REFERENCES sense(id) ON UPDATE CASCADE ON DELETE CASCADE
-
-);
-
 /* Sense-Sense */
 CREATE TABLE sense_sense (
     sense_id_1 INTEGER REFERENCES sense(id) ON UPDATE CASCADE ON DELETE CASCADE,
