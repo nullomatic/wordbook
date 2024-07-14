@@ -43,7 +43,7 @@
       "origin": "Partial calque of German U-Boot.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "U-shaped": {
     "a": {
@@ -2053,7 +2053,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Ulster Defence Association": {
     "n": {
@@ -2553,6 +2553,21 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "Underwood": {
+    "n": {
+      "senses": [],
+      "origin": "The name is from England or Scotland, and from Middle English.\nThe surname is sometimes habitational, used by someone who lived in any of several places of the same name. Otherwise it is topographic, referring to someone who lived near a wood.\nThe common noun comes from the name of the manufacturer, after John T. Underwood, one of its founders.",
+      "sounds": [
+        {
+          "ipa": "/ˈʌndə(ɹ)ˌwʊd/"
+        },
+        {
+          "rhymes": "-ʊd"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -4115,6 +4130,19 @@
     },
     "isAnglish": false
   },
+  "Unseelie": {
+    "n": {
+      "senses": [],
+      "origin": "From (Scots unseely (“mischievous, evil-doing”), from) Middle English unsely, from Old English unsǣliġ. Doublet of unsilly.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From (Scots unseely (“mischievous, evil-doing”), from) Middle English unsely, from Old English unsǣliġ. Doublet of unsilly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Untermeyer": {
     "n": {
       "senses": [
@@ -4587,7 +4615,7 @@
       "origin": "From Old Norse Urðr, from Proto-Germanic *wurdiz (“fate, destiny”), Proto-Indo-European *wert- (“to turn, wind”). Cognate with English weird.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Urdu": {
     "n": {
@@ -6322,7 +6350,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "u-turn": {
     "n": {
@@ -6558,6 +6586,51 @@
     },
     "isAnglish": false
   },
+  "ug": {
+    "n": {
+      "senses": [],
+      "origin": "From Icelandic uggi (“fin”).",
+      "sounds": [
+        {
+          "ipa": "/ʌɡ/"
+        },
+        {
+          "rhymes": "-ʌɡ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-ug.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/LL-Q1860_%28eng%29-Vealhurl-ug.wav/LL-Q1860_%28eng%29-Vealhurl-ug.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/LL-Q1860_%28eng%29-Vealhurl-ug.wav/LL-Q1860_%28eng%29-Vealhurl-ug.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uggen, from Old Norse ugga (“to fear”), see above.",
+      "sounds": [
+        {
+          "ipa": "/ʌɡ/"
+        },
+        {
+          "rhymes": "-ʌɡ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-ug.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/LL-Q1860_%28eng%29-Vealhurl-ug.wav/LL-Q1860_%28eng%29-Vealhurl-ug.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/LL-Q1860_%28eng%29-Vealhurl-ug.wav/LL-Q1860_%28eng%29-Vealhurl-ug.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "ugli": {
     "n": {
       "form": [
@@ -6790,6 +6863,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "ugsome": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ugsom, equivalent to ug + -some.",
+      "sounds": [
+        {
+          "ipa": "/ˈʌɡsəm/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "uintathere": {
     "n": {
@@ -8573,7 +8658,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "a": {
       "senses": [],
       "origin": null
@@ -8674,6 +8759,14 @@
     },
     "isAnglish": true
   },
+  "umbeclap": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English umbeclappen, equivalent to umbe- + clap or um- + beclap.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "umbecrafty": {
     "a": {
       "senses": [
@@ -8708,6 +8801,14 @@
         }
       ],
       "origin": "From Middle English umbegon, from Old English ymbgān (“to go around, go about, surround”), from Proto-Germanic *umbi (“around”), *gāną (“to go”), equivalent to um- + bego, or umbe- + go.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "umbegrip": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English umbegrippen, equivalent to umbe- + grip.",
       "sounds": []
     },
     "isAnglish": true
@@ -9875,6 +9976,27 @@
     },
     "isAnglish": false
   },
+  "umbraid": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English umbreiden (“to scold, reproach”), equivalent to um- + braid.",
+      "sounds": [
+        {
+          "rhymes": "-eɪd"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English umbreiden (“to scold, reproach”), equivalent to um- + braid.",
+      "sounds": [
+        {
+          "rhymes": "-eɪd"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "umbrealm": {
     "n": {
       "senses": [
@@ -10340,6 +10462,14 @@
         }
       ],
       "origin": "OE, ymbhweorfan"
+    },
+    "isAnglish": true
+  },
+  "umcast": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English umcasten, umbecasten, equivalent to um- + cast.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -10902,6 +11032,14 @@
     },
     "isAnglish": true
   },
+  "umstrid": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English umstridden, past participle of umstriden (“to mount (a horse)”), equivalent to um- + stride. Compare astride.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "umsweep": {
     "n": {
       "senses": [],
@@ -10974,6 +11112,19 @@
         }
       ],
       "origin": "umb 'around' + wend 'change' + -ingly"
+    },
+    "isAnglish": true
+  },
+  "umwhile": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English umwhile, umwhyle, umbewhile, from the phrase umbe while (literally “at times, at some time”). Analyzable as um- + while. More at umbe, while.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English umwhile, umwhyle, umbewhile, from the phrase umbe while (literally “at times, at some time”). Analyzable as um- + while. More at umbe, while.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -11226,6 +11377,14 @@
     },
     "isAnglish": false
   },
+  "unabiding": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unabydyng; equivalent to un- + abiding.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unable": {
     "a": {
       "senses": [
@@ -11265,7 +11424,23 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "unabling": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unablyng, equivalent to unable + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unably": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English un-ably, unabilly, equivalent to unable + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unabridged": {
     "a": {
@@ -11456,7 +11631,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unacceptableness": {
     "n": {
@@ -11520,7 +11695,7 @@
       "origin": "From Middle English unaccessible, equivalent to un- + accessible.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unaccommodating": {
     "a": {
@@ -11579,6 +11754,22 @@
       ]
     },
     "isAnglish": false
+  },
+  "unaccordance": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unaccordaunce, equivalent to un- + accordance.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unaccordant": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unaccordant, unaccordaunte; equivalent to un- + accordant.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unaccountable": {
     "a": {
@@ -12011,6 +12202,14 @@
     },
     "isAnglish": false
   },
+  "unadvanced": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English un-avanced, unavanced; equivalent to un- + advanced.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unadventurous": {
     "a": {
       "senses": [
@@ -12026,6 +12225,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unadvertised": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unadvertised, equivalent to un- + advertised.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unadvisable": {
     "a": {
@@ -12055,7 +12262,7 @@
       "origin": "From Middle English unavised; equivalent to un- + advised.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unadvisedly": {
     "r": {
@@ -12115,7 +12322,7 @@
       "origin": "un- + afeared",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unaffected": {
     "a": {
@@ -12339,6 +12546,14 @@
     },
     "isAnglish": false
   },
+  "unagreeable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unagreable, equivalent to un- + agreeable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unai": {
     "n": {
       "senses": [
@@ -12413,7 +12628,7 @@
       "origin": "un- + akin",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unakinly": {
     "a": {
@@ -12505,7 +12720,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unalikeness": {
     "n": {
@@ -12520,7 +12735,7 @@
       "origin": "unalike + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unalloyed": {
     "a": {
@@ -13128,7 +13343,7 @@
       "origin": "From Middle English unansuered, unanswerd, equivalent to un- + answered.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unanswering": {
     "a": {
@@ -13146,7 +13361,7 @@
       "origin": "un- + answering",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unanswerly": {
     "a": {
@@ -13926,7 +14141,7 @@
       "origin": "From Middle English un asked, unaskyd, uneasket; equivalent to un- + asked.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unasked-for": {
     "a": {
@@ -13937,7 +14152,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unasourseedsweetkernly sour": {
     "n": {
@@ -14004,6 +14219,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "unassayed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unasaed, un-assaied, unassaied, unassayed; equivalent to un- + assayed.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unassertive": {
     "a": {
@@ -14099,7 +14322,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unassisted": {
     "a": {
@@ -14120,6 +14343,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unassoiled": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unasoyled, unasoylid; equivalent to un- + assoiled.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unassuming": {
     "a": {
@@ -14192,7 +14423,7 @@
       "origin": "From Middle English unassured, unassuryd, equivalent to un- + assured.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unasterisked": {
     "a": {
@@ -14346,6 +14577,22 @@
     },
     "isAnglish": false
   },
+  "unattained": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unattained, equivalent to un- + attained.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unattendance": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unattendaunce, equivalent to un- + attendance.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unattended": {
     "a": {
       "senses": [
@@ -14378,7 +14625,7 @@
       "origin": "From Middle English un-atired, equivalent to un- + attired.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unattractive": {
     "a": {
@@ -14679,7 +14926,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unavoidable casualty": {
     "n": {
@@ -14817,7 +15064,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unawareness": {
     "n": {
@@ -14833,7 +15080,7 @@
       "origin": "unaware + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unawares": {
     "r": {
@@ -14875,7 +15122,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unawed": {
     "a": {
@@ -15034,7 +15281,7 @@
       "origin": "From Middle English unbaptized, unbaptist, equivalent to un- + baptised.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbaptized": {
     "a": {
@@ -15050,7 +15297,7 @@
       "origin": "From Middle English unbaptized, unbaptist, equivalent to un- + baptized.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbar": {
     "v": {
@@ -15076,7 +15323,7 @@
       "origin": "From Middle English unbarren, equivalent to un- + bar.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbarred": {
     "a": {
@@ -15132,7 +15379,7 @@
       "origin": "From Middle English unberable, equivalent to un- + bearable.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbearably": {
     "r": {
@@ -15231,7 +15478,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbeatsome": {
     "a": {
@@ -15276,7 +15523,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbecomingly": {
     "r": {
@@ -15341,7 +15588,7 @@
       "origin": "un- + befitting",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbeginningness": {
     "n": {
@@ -15362,7 +15609,7 @@
       "origin": "unbeginning + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbegun": {
     "a": {
@@ -15428,7 +15675,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbehired": {
     "a": {
@@ -15453,7 +15700,7 @@
       "origin": "From Middle English unbehealden, equivalent to un- + beholden.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbeing": {
     "n": {
@@ -15469,7 +15716,16 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unbeing, equivalent to un- + being.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈbiːɪŋ/"
+        }
+      ]
+    }
   },
   "unbeknown": {
     "a": {
@@ -15572,7 +15828,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbelief": {
     "n": {
@@ -15705,7 +15961,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbelieving": {
     "a": {
@@ -15777,7 +16033,7 @@
       "origin": "From Middle English unbelten, equivalent to un- + belt.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbelted": {
     "a": {
@@ -15886,7 +16142,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbendable": {
     "a": {
@@ -15925,7 +16181,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbeneficed": {
     "a": {
@@ -15971,7 +16227,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbeshamed": {
     "a": {
@@ -16063,7 +16319,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbidding": {
     "a": {
@@ -16144,6 +16400,22 @@
     },
     "isAnglish": true
   },
+  "unbishop": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *unbishopen (suggested by past participle unbishoped, unbisschoped), equivalent to un- + bishop.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unbishoped": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unbishoped, unbisschoped, equivalent to un- + bishoped.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unbitter": {
     "a": {
       "senses": [
@@ -16153,6 +16425,22 @@
         }
       ],
       "origin": "un- + bitter",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "unblameful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *unblamfulli (suggested by derivative unblamfulli), equivalent to un- + blameful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unblamefully": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unblamfulli, unblamfully, equivalent to unblameful + -ly.",
       "sounds": []
     },
     "isAnglish": true
@@ -16312,7 +16600,7 @@
       "origin": "un- + blithe",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unblock": {
     "v": {
@@ -16429,7 +16717,7 @@
       "origin": "un- + bodied",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbodily": {
     "a": {
@@ -16441,7 +16729,7 @@
       "origin": "un- + bodily",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbold": {
     "v": {
@@ -16634,7 +16922,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbothered": {
     "a": {
@@ -16649,7 +16937,7 @@
       "origin": "un- + bothered",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbound": {
     "a": {
@@ -16696,7 +16984,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbounded": {
     "a": {
@@ -16712,7 +17000,7 @@
       "origin": "From un- + bounded.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbounded interval": {
     "n": {
@@ -16865,7 +17153,7 @@
       "origin": "un- + braid",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbrainwashed": {
     "a": {
@@ -17019,7 +17307,7 @@
       "origin": "un- + bridled",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unbrokehood": {
     "n": {
@@ -17163,7 +17451,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbuild": {
     "v": {
@@ -17173,6 +17461,14 @@
         }
       ],
       "origin": "un- + build",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "unbuilt": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unbilt, equivalent to un- + built.",
       "sounds": []
     },
     "isAnglish": true
@@ -17210,7 +17506,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unburdened": {
     "a": {
@@ -17290,6 +17586,19 @@
     },
     "isAnglish": true
   },
+  "unbusy": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unbysy, unbesy, equivalent to un- + busy.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unbysy, unbesy, equivalent to un- + busy.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unbutton": {
     "v": {
       "pronunciation": [
@@ -17328,7 +17637,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbuttoned": {
     "a": {
@@ -17368,7 +17677,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncalled-for": {
     "a": {
@@ -17405,7 +17714,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncamphorated": {
     "a": {
@@ -17488,7 +17797,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncapped": {
     "a": {
@@ -17544,7 +17853,7 @@
       "origin": "un- + careful",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncaring": {
     "a": {
@@ -17561,7 +17870,7 @@
       "origin": "un- + caring",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncarpeted": {
     "a": {
@@ -17628,6 +17937,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "uncatch": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uncachen, equivalent to un- + catch.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "uncategorised": {
     "a": {
@@ -17923,7 +18240,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncertainly": {
     "r": {
@@ -17984,7 +18301,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncertainness": {
     "n": {
@@ -18004,7 +18321,7 @@
       "origin": "From Middle English uncerteynnes; equivalent to uncertain + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncertainty": {
     "n": {
@@ -18059,7 +18376,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncertainty principle": {
     "n": {
@@ -18477,7 +18794,30 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "unchastely": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English un-chastely; equivalent to un- + chastely or unchaste + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unchastity": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unchastite; equivalent to un- + chastity.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈtʃastɪti/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "uncheap": {
     "a": {
@@ -18722,7 +19062,7 @@
       "origin": "un- + church",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncial": {
     "a": {
@@ -18814,6 +19154,36 @@
       ]
     },
     "isAnglish": false
+  },
+  "uncircumcised": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English uncircumcised, equivalent to un- + circumcised. Subsidiary definitions are much influenced by traditions of the Abrahamic religions.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈsɜːkəmsaɪzd/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ʌnˈsɝkəmsaɪzd/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-uncircumcised.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/LL-Q1860_%28eng%29-Vealhurl-uncircumcised.wav/LL-Q1860_%28eng%29-Vealhurl-uncircumcised.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/LL-Q1860_%28eng%29-Vealhurl-uncircumcised.wav/LL-Q1860_%28eng%29-Vealhurl-uncircumcised.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "uncivil": {
     "a": {
@@ -19263,7 +19633,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncleared": {
     "a": {
@@ -19355,7 +19725,7 @@
       "origin": "un- + cleft",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncleft-like": {
     "a": {
@@ -19388,6 +19758,21 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "unclench": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unclenchen, equivalent to un- + clench.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈklɛnt͡ʃ/"
+        },
+        {
+          "rhymes": "-ɛnt͡ʃ"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -19438,7 +19823,7 @@
       "origin": "From Middle English unclipped, equivalent to un- + clipped.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncloak": {
     "v": {
@@ -19568,7 +19953,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unclouded": {
     "a": {
@@ -19605,7 +19990,7 @@
       "origin": "un- + clouded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncloudedness": {
     "n": {
@@ -20249,7 +20634,7 @@
       "origin": "From Middle English uncomparable; equivalent to un- + comparable.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncomparably": {
     "r": {
@@ -20293,6 +20678,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "uncompelled": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English uncompellyd, uncompelled; equivalent to un- + compelled.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "uncompensated": {
     "a": {
@@ -20796,7 +21189,7 @@
       "origin": "un- + confident",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unconfined": {
     "a": {
@@ -21469,7 +21862,7 @@
       "origin": "From Middle English, equivalent to un- + constrained.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unconstraint": {
     "n": {
@@ -22055,7 +22448,7 @@
       "origin": "From Middle English, equivalent to un- + corrected.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncorrelated": {
     "a": {
@@ -22115,7 +22508,7 @@
       "origin": "From Middle English uncountit; equivalent to un- + counted.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncouple": {
     "v": {
@@ -22156,7 +22549,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncoupled": {
     "a": {
@@ -22170,6 +22563,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "uncourteously": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English uncurteisly; equivalent to uncourteous + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "uncousinly": {
     "a": {
@@ -22251,7 +22652,7 @@
       "origin": "uncouth + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uncover": {
     "v": {
@@ -22323,7 +22724,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncovered": {
     "a": {
@@ -22604,6 +23005,14 @@
     },
     "isAnglish": false
   },
+  "uncrown": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uncoroun, uncroun, uncrowne; equivalent to un- + crown.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "uncrowned": {
     "a": {
       "senses": [
@@ -22629,7 +23038,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncrystallised": {
     "a": {
@@ -22871,6 +23280,29 @@
     },
     "isAnglish": false
   },
+  "uncunning": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unconnyng; equivalent to un- + cunning.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "uncurable": {
+    "a": {
+      "senses": [
+        {
+          "synset": "00997914-a"
+        },
+        {
+          "synset": "00350861-s"
+        }
+      ],
+      "origin": "From Middle English uncurable; equivalent to un- + curable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "uncurbed": {
     "a": {
       "senses": [
@@ -23028,7 +23460,7 @@
       "origin": "From Middle English unkut, uncutte, unkyt, unkutt, equivalent to un- + cut.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncweming": {
     "a": {
@@ -23056,6 +23488,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "undamned": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undampned; equivalent to un- + damned.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "undatable": {
     "a": {
@@ -23132,7 +23572,28 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undede, equivalent to un- + dead. The first attestation is from around 1400. Usage as a noun is attested from the early 20th century onwards.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈdɛd/"
+        },
+        {
+          "rhymes": "-ɛd"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-I learned some phrases-undead.wav",
+          "text": "Audio (UK)",
+          "tags": [
+            "UK"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/LL-Q1860_%28eng%29-I_learned_some_phrases-undead.wav/LL-Q1860_%28eng%29-I_learned_some_phrases-undead.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/LL-Q1860_%28eng%29-I_learned_some_phrases-undead.wav/LL-Q1860_%28eng%29-I_learned_some_phrases-undead.wav.mp3"
+        }
+      ]
+    }
   },
   "undeadliness": {
     "n": {
@@ -23165,7 +23626,7 @@
       "origin": "From un- + deadly.",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "r": {
       "senses": [],
       "origin": "From Middle English undedly, undeedly, undedlich, from Old English undēadlīc (“immortal, for all eternity”), equivalent to undead + -ly.",
@@ -23185,7 +23646,7 @@
       "origin": "un- + dear",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undeath": {
     "n": {
@@ -23193,7 +23654,7 @@
       "origin": "un- + death, on the pattern of undead.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undeathliness": {
     "n": {
@@ -23232,6 +23693,14 @@
         }
       ],
       "origin": "ME, undethshildiȝnesse"
+    },
+    "isAnglish": true
+  },
+  "undebated": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undebated; equivalent to un- + debated.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -23313,7 +23782,7 @@
       "origin": "From Middle English undecided, equivalent to un- + decided.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "undecipherable": {
     "a": {
@@ -23397,7 +23866,7 @@
       "origin": "un- + deck",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undecking": {
     "n": {
@@ -24110,7 +24579,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "under fire": {
     "a": {
@@ -24134,6 +24603,24 @@
       ]
     },
     "isAnglish": false
+  },
+  "under the sun": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English under þe sonne, under þe sunne (compare Old English under sunnan), a calque of Hebrew תַּחַת הַשָּׁמֶשׁ (táchat hashémesh). The phrase has been associated with the book of Ecclesiastes ever since appearing 29 times in the translation to English by John Wycliffe https://www.biblegateway.com/quicksearch/?quicksearch=Under+the+sun&version=WYC",
+      "sounds": [
+        {
+          "audio": "En-au-under the sun.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/En-au-under_the_sun.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/En-au-under_the_sun.ogg/En-au-under_the_sun.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "under the weather": {
     "a": {
@@ -24178,7 +24665,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "under way": {
     "r": {
@@ -24206,6 +24693,14 @@
     },
     "isAnglish": true
   },
+  "under-steward": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English understuard, understeward; equivalent to under- + steward.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "under-the-counter": {
     "a": {
       "senses": [
@@ -24228,7 +24723,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underachieve": {
     "v": {
@@ -24568,6 +25063,19 @@
       ],
       "origin": "cf. NHG Verband"
     },
+    "isAnglish": true,
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underbinden, equivalent to under- + bind.",
+      "sounds": []
+    }
+  },
+  "underblow": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underblowen, equivalent to under- + blow.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "underblown": {
@@ -24705,7 +25213,7 @@
       "origin": "From under- + bred.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underbringing": {
     "n": {
@@ -24748,6 +25256,19 @@
     },
     "isAnglish": true
   },
+  "underburn": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underbrennen (“to set on fire, burn up”), equivalent to under- + burn.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English underbrennen (“to set on fire, burn up”), equivalent to under- + burn.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "undercarriage": {
     "n": {
       "pronunciation": [
@@ -24783,6 +25304,19 @@
       ]
     },
     "isAnglish": false
+  },
+  "undercast": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English undercasten, equivalent to under- + cast.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English undercasten, equivalent to under- + cast.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "undercharge": {
     "n": {
@@ -24860,6 +25394,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "underclerk": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English underclerk, underclerc, undyr-clerk, equivalent to under- + clerk.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "underclothed": {
     "a": {
@@ -25017,7 +25559,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undercover": {
     "a": {
@@ -25078,6 +25620,14 @@
     },
     "isAnglish": false
   },
+  "undercreep": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English undercrepen, equivalent to under- + creep.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "undercroft": {
     "n": {
       "senses": [
@@ -25089,6 +25639,14 @@
         }
       ],
       "origin": "From under- + croft (crypt).",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "undercry": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English undercryen, equivalent to under- + cry.",
       "sounds": []
     },
     "isAnglish": true
@@ -25527,6 +26085,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "underdraw": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underdrawen, equivalent to under- + draw.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "underdrawers": {
@@ -25840,7 +26406,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underfelt": {
     "n": {
@@ -25919,7 +26485,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "underforesitter": {
     "n": {
@@ -26084,7 +26650,7 @@
       "origin": "From under- + get. Compare Middle English underyeten (“to comprehend, perceive”), from Old English underġietan (“to understand, perceive, know”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undergetting": {
     "n": {
@@ -26099,7 +26665,7 @@
       "origin": "From underget + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undergird": {
     "v": {
@@ -26473,7 +27039,7 @@
       "origin": "under- + grown",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undergrowth": {
     "n": {
@@ -26579,7 +27145,7 @@
       "origin": "under- + handed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underhandedly": {
     "r": {
@@ -26634,7 +27200,7 @@
       "origin": "From under- + hold.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underhung": {
     "a": {
@@ -26682,6 +27248,14 @@
     },
     "isAnglish": false
   },
+  "underjoin": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underjoinen, equivalent to under- + join.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "underkegs": {
     "n": {
       "senses": [
@@ -26709,6 +27283,22 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "underlaugh": {
+    "n": {
+      "senses": [],
+      "origin": "Probably derived from Middle English underlaughen (“to smile; smile with the eyes”), Middle English underlaughteren (“to smirk”), equivalent to under- + laugh.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "underlaughter": {
+    "n": {
+      "senses": [],
+      "origin": "Probably derived from Middle English underlaughteren (“to smirk”), Middle English underlaughen (“to smile; smile with the eyes”), equivalent to under- + laughter.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -26821,7 +27411,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underlie": {
     "v": {
@@ -27038,7 +27628,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underlinked": {
     "a": {
@@ -27058,7 +27648,7 @@
       ],
       "origin": "calque of Latin"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underlip": {
     "n": {
@@ -27236,7 +27826,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underlyer": {
     "a": {
@@ -27267,7 +27857,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underlying meaning": {
     "n": {
@@ -27293,7 +27883,7 @@
       "origin": "underlying + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underlyings": {
     "n": {
@@ -27307,7 +27897,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undermakeup": {
     "n": {
@@ -27325,7 +27915,7 @@
       "origin": "under- + makeup",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undermanned": {
     "a": {
@@ -27342,6 +27932,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "undermaster": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English undermaister, equivalent to under- + master.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "undermeal": {
     "n": {
@@ -27368,7 +27966,7 @@
       "origin": "under- + meaning",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undermentioned": {
     "a": {
@@ -27993,7 +28591,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underpinning": {
     "n": {
@@ -28016,7 +28614,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underplay": {
     "v": {
@@ -28075,6 +28673,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "underpriest": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English underprest, unnderrpreost, equivalent to under- + priest. Cognate with Icelandic undirprestur.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "underprivileged": {
     "a": {
@@ -28148,7 +28754,7 @@
       "origin": "From under- + prop.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underqueath": {
     "n": {
@@ -28291,7 +28897,30 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
+  },
+  "underroot": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English underwroten, equivalent to under- + root.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English underwroten, equivalent to under- + root.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underwroten, equivalent to under- + root.",
+      "sounds": []
+    },
+    "isAnglish": false
   },
   "underrun": {
     "v": {
@@ -28416,7 +29045,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undersea": {
     "a": {
@@ -28429,7 +29058,7 @@
       "origin": "From under- + sea.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underseal": {
     "n": {
@@ -28610,6 +29239,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "undersend": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *undersenden (attested only in the past participle undersent), equivalent to under- + send. Compare Dutch onderzenden, Middle High German undersenden.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *undersenden (attested only in the past participle undersent), equivalent to under- + send. Compare Dutch onderzenden, Middle High German undersenden.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "underset": {
     "v": {
@@ -28833,7 +29475,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undershotwain": {
     "n": {
@@ -29262,7 +29904,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "understandableness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English understondablenes, undirstondableness, equivalent to understandable + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "understandably": {
     "r": {
@@ -29293,6 +29943,18 @@
       "origin": null
     },
     "isAnglish": true
+  },
+  "understander": {
+    "n": {
+      "senses": [],
+      "origin": "under + stander",
+      "sounds": [
+        {
+          "other": "/ˈəndɚˌstændɚ/"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "understanding": {
     "a": {
@@ -29402,7 +30064,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "understandingly": {
     "r": {
@@ -29418,7 +30080,7 @@
       "origin": "From Middle English undirstondingli, understandandly, equivalent to understanding + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "understate": {
     "v": {
@@ -29729,6 +30391,19 @@
     },
     "isAnglish": true
   },
+  "undersupport": {
+    "v": {
+      "senses": [],
+      "origin": "Verb: from Middle English undersupporten, equivalent to under- + support.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "Verb: from Middle English undersupporten, equivalent to under- + support.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "undersurface": {
     "n": {
       "senses": [
@@ -29863,7 +30538,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undertaker's": {
     "n": {
@@ -29874,7 +30549,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undertaking": {
     "n": {
@@ -29908,7 +30583,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undertheed": {
     "v": {
@@ -29983,7 +30658,7 @@
       "origin": "under + thought",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underthrow": {
     "v": {
@@ -30011,6 +30686,14 @@
     },
     "isAnglish": true
   },
+  "underthrust": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underthristen, underthresten, equivalent to under- + thrust.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "undertide": {
     "n": {
       "senses": [
@@ -30022,7 +30705,7 @@
       "origin": "under- + tide",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undertilth": {
     "n": {
@@ -30109,6 +30792,14 @@
         }
       ],
       "origin": "From under- + tow.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "underturn": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English underturnen, equivalent to under- + turn.",
       "sounds": []
     },
     "isAnglish": true
@@ -30219,7 +30910,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underwater archaeology": {
     "n": {
@@ -30314,7 +31005,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underweight": {
     "a": {
@@ -30485,7 +31176,7 @@
       "origin": "From under- + wood.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underworld": {
     "n": {
@@ -30636,7 +31327,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "underyoke": {
     "v": {
@@ -30918,7 +31609,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "undesiring": {
     "a": {
@@ -31130,6 +31821,14 @@
         }
       ],
       "origin": "und(erwear) + -ies.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "undifferent": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undifferent, equivalent to un- + different.",
       "sounds": []
     },
     "isAnglish": true
@@ -31923,7 +32622,15 @@
       "origin": "From Middle English undoer, ondoare, equivalent to undo + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "undoffed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undofte; equivalent to un- + doffed.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "undogmatic": {
     "a": {
@@ -32075,6 +32782,34 @@
     },
     "isAnglish": true
   },
+  "undoubtable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undoutable, undoutabil, equivalent to un- + doubtable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "undoubtably": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English undoutably, equivalent to undoubtable + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "undoubted": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undouted, undoutid, equivalent to un- + doubted.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈdaʊtɪd/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "undoubtedly": {
     "r": {
       "pronunciation": [
@@ -32104,7 +32839,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "undought": {
     "n": {
@@ -32127,7 +32862,7 @@
       "origin": "un- + doughty",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undouth": {
     "n": {
@@ -32465,7 +33200,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "undressed": {
     "a": {
@@ -32522,7 +33257,7 @@
       "origin": "un- + drunken",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undue": {
     "a": {
@@ -32893,6 +33628,14 @@
     },
     "isAnglish": false
   },
+  "undull": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English undull, equivalent to un- (“not”) + dull.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unduly": {
     "r": {
       "pronunciation": [
@@ -32959,6 +33702,18 @@
       "origin": "un- + dwelled",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "undye": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English undien, equivalent to un- + dye.",
+      "sounds": [
+        {
+          "rhymes": "-aɪ"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "undyed": {
@@ -32993,7 +33748,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "undynamic": {
     "a": {
@@ -33168,7 +33923,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unearthing": {
     "n": {
@@ -33185,7 +33940,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unearthly": {
     "a": {
@@ -33243,7 +33998,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unease": {
     "n": {
@@ -33270,7 +34025,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uneasily": {
     "r": {
@@ -33423,7 +34178,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uneatable": {
     "a": {
@@ -34120,7 +34875,7 @@
       "origin": "unending + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unendingness": {
     "n": {
@@ -34132,7 +34887,7 @@
       "origin": "From unending + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unendlihood": {
     "n": {
@@ -34491,7 +35246,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unequal to": {
     "a": {
@@ -34818,6 +35573,14 @@
     },
     "isAnglish": false
   },
+  "unespied": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unespied, onespied, unaspied, unaspyed, equivalent to un- + espied.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unessential": {
     "a": {
       "senses": [
@@ -35058,7 +35821,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uneventful": {
     "a": {
@@ -35925,7 +36688,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfairse": {
     "n": {
@@ -36135,6 +36898,14 @@
     },
     "isAnglish": false
   },
+  "unfamous": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unfamous, unfamouse; equivalent to un- + famous.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unfashionable": {
     "a": {
       "senses": [
@@ -36173,6 +36944,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unfast": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unfasten, unvesten, onfesten, equivalent to un- + fast.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unfasten": {
     "v": {
@@ -36336,7 +37115,7 @@
       "origin": "un- + fathered",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfathomable": {
     "a": {
@@ -36520,6 +37299,14 @@
     },
     "isAnglish": false
   },
+  "unfavored": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unfavored; equivalent to un- + favored.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unfavourable": {
     "a": {
       "senses": [
@@ -36598,7 +37385,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfearing": {
     "a": {
@@ -36611,7 +37398,7 @@
       "origin": "un- + fearing",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfeasibility": {
     "n": {
@@ -36770,7 +37557,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfeelingly": {
     "r": {
@@ -36992,7 +37779,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfettered": {
     "a": {
@@ -37045,7 +37832,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfettle": {
     "n": {
@@ -37072,6 +37859,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "unfillable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unfillable; equivalent to un- + fillable.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -37291,7 +38086,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfitness": {
     "n": {
@@ -37339,6 +38134,14 @@
         }
       ],
       "origin": "From Middle English unfitting, equivalent to un- + fitting.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unfittingly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unfittyngly, equivalent to unfitting + -ly.",
       "sounds": []
     },
     "isAnglish": true
@@ -37510,7 +38313,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unflinching": {
     "a": {
@@ -37694,7 +38497,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfolk": {
     "n": {
@@ -37837,7 +38640,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unforeseen leaf": {
     "n": {
@@ -38330,7 +39133,7 @@
       "origin": "un- + founded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unframed": {
     "a": {
@@ -38416,7 +39219,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfrelsed": {
     "a": {
@@ -38451,7 +39254,7 @@
       "origin": "unfresh + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfretted": {
     "a": {
@@ -38511,7 +39314,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfriendliness": {
     "n": {
@@ -38540,7 +39343,7 @@
       "origin": "From unfriendly + -ness. Compare Dutch onvriendelijkheid, German Unfreundlichkeit.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfriendly": {
     "a": {
@@ -38607,7 +39410,7 @@
       "origin": "un- + frightened",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfrith": {
     "n": {
@@ -38726,7 +39529,7 @@
       "origin": "From Middle English unfruytful; equivalent to un- + fruitful.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unfueled": {
     "a": {
@@ -38744,6 +39547,14 @@
     },
     "isAnglish": false
   },
+  "unfulfill": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unfulfillen, equivalent to un- + fulfill.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unfulfilled": {
     "a": {
       "senses": [
@@ -38755,7 +39566,7 @@
       "origin": "un- + fulfilled",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfull": {
     "n": {
@@ -38879,6 +39690,18 @@
     },
     "isAnglish": true
   },
+  "unfully": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unfulli, equivalent to un- + fully.",
+      "sounds": [
+        {
+          "rhymes": "-ʊli"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "unfulmaking": {
     "a": {
       "senses": [],
@@ -38930,7 +39753,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unfurl": {
     "v": {
@@ -39031,6 +39854,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "ungain": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ungain, ungayn, ungein, equivalent to un- + gain (“suitable; convenient”). See ungainly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "ungainliness": {
     "n": {
@@ -39145,7 +39976,7 @@
       "origin": "From Middle English ungadered, equivalent to un- + gathered.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ungeared": {
     "a": {
@@ -39237,7 +40068,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ungetatable": {
     "a": {
@@ -39374,6 +40205,27 @@
     },
     "isAnglish": false
   },
+  "unglossed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unglosed; equivalent to un- + glossed.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unglosed; equivalent to un- + glossed.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unglove": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English ungloven, equivalent to un- + glove.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ungodliness": {
     "n": {
       "senses": [
@@ -39486,6 +40338,31 @@
         }
       ]
     },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ungod (“evil”), equivalent to un- (“lack of”) + good (noun). Cognate with German Low German Ungood (“bad, evil”), German Ungüte (“ungood”).",
+      "sounds": [
+        {
+          "ipa": "/ˈʌnˌɡʊd/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "ungoodly": {
+    "a": {
+      "senses": [],
+      "origin": "From un- + goodly (adjective via Middle English ungoodly). Compare obsolete Dutch ongoedelike.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From un- + goodly (adjective via Middle English ungoodly). Compare obsolete Dutch ongoedelike.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "ungotten": {
@@ -39505,7 +40382,7 @@
       "senses": [],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ungovernable": {
     "a": {
@@ -39613,7 +40490,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ungraciously": {
     "r": {
@@ -40203,7 +41080,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unguilty": {
     "a": {
@@ -40381,7 +41258,7 @@
       "origin": "From un- + hallow.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhallowed": {
     "a": {
@@ -40394,7 +41271,7 @@
       "origin": "From Middle English unhalowyd; equivalent to un- + hallowed.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unhampered": {
     "a": {
@@ -40482,6 +41359,14 @@
       "origin": "un- + handy",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "unhap": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English unhap, onhap, equivalent to un- (“lack of”) + hap (“fortune”).",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "unhappily": {
@@ -40515,7 +41400,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unhappiness": {
     "n": {
@@ -40602,7 +41487,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unhardened": {
     "a": {
@@ -40645,7 +41530,7 @@
       "origin": "un- + harmed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unharmonious": {
     "a": {
@@ -40759,7 +41644,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhealthful": {
     "a": {
@@ -40792,7 +41677,7 @@
       "origin": "un- + healthful",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhealthfulness": {
     "n": {
@@ -40885,7 +41770,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unheaping": {
     "v": {
@@ -40934,7 +41819,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unheard of": {
     "a": {
@@ -40945,7 +41830,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unheard-of": {
     "a": {
@@ -40957,7 +41842,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhearing": {
     "a": {
@@ -41019,6 +41904,14 @@
     },
     "isAnglish": false
   },
+  "unheavily": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unhevely, unhevili, equivalent to un- + heavily.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unheed": {
     "v": {
       "senses": [
@@ -41042,7 +41935,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unheeded": {
     "a": {
@@ -41072,7 +41965,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unheel": {
     "v": {
@@ -41132,6 +42025,14 @@
     },
     "isAnglish": true
   },
+  "unhelp": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unhelpe, equivalent to un- + help.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unhelpful": {
     "a": {
       "pronunciation": [
@@ -41158,7 +42059,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhelpfully": {
     "r": {
@@ -41317,7 +42218,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhield": {
     "n": {
@@ -41343,7 +42244,7 @@
       "origin": "From un- + hill.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhindered": {
     "a": {
@@ -41395,7 +42296,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhinged": {
     "a": {
@@ -41408,7 +42309,7 @@
       "origin": "From un- + hinged.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhippend": {
     "a": {
@@ -41458,7 +42359,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhitch": {
     "v": {
@@ -41531,6 +42432,14 @@
       "origin": "unholy + -ness",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "unholpen": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unholpen, past participle of Middle English unhelpen (“to unhelp”), equivalent to un- + holpen.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "unholy": {
@@ -41586,6 +42495,14 @@
     },
     "isAnglish": true
   },
+  "unhomeliness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unhomlines, unhamlynes, equivalent to unhomely + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unhomogenised": {
     "a": {
       "senses": [
@@ -41612,6 +42529,37 @@
     },
     "isAnglish": false
   },
+  "unhonest": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unhonest, unhoneste (“dishonourable”), equivalent to un- + honest.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈɒnɪst/"
+        },
+        {
+          "ipa": "/ʌnˈɒnəst/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "unhonestly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unhonestly (“disgracefully”); equivalent to un- + honestly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unhonesty": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unhoneste (“immorality”); equivalent to un- + honesty.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unhood": {
     "v": {
       "senses": [
@@ -41625,7 +42573,7 @@
       "origin": "From un- + hood.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhook": {
     "v": {
@@ -41646,6 +42594,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unhope": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English, equivalent to un- + hope.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unhoped": {
     "a": {
@@ -41683,7 +42639,15 @@
       "origin": "From Middle English unhopful, unhopfulle, equivalent to un- + hopeful.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "unhorned": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unhorned, equivalent to un- + horned.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unhorse": {
     "v": {
@@ -41703,7 +42667,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unhuman": {
     "a": {
@@ -41730,6 +42694,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unhungry": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unhungrye, equivalent to un- + hungry.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unhurried": {
     "a": {
@@ -41765,7 +42737,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unhurriedly": {
     "r": {
@@ -46743,7 +47715,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "universe": {
     "n": {
@@ -47145,6 +48117,18 @@
     },
     "isAnglish": true
   },
+  "unked": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unked, past participle of unkythen, equivalent to un- + ked (an old past participle form of kithe).",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈkɛd/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "unkempt": {
     "a": {
       "pronunciation": [
@@ -47295,7 +48279,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unkind person": {
     "n": {
@@ -47422,7 +48406,7 @@
       "origin": "From Middle English unkindenes; equivalent to unkind + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unkindred": {
     "a": {
@@ -47432,6 +48416,19 @@
         }
       ],
       "origin": "un- + kindred",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "unkingly": {
+    "a": {
+      "senses": [],
+      "origin": "From un- + kingly (adverb via Middle English unkyngly).",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From un- + kingly (adverb via Middle English unkyngly).",
       "sounds": []
     },
     "isAnglish": true
@@ -47450,6 +48447,14 @@
         }
       ],
       "origin": "OE, uncynlīc"
+    },
+    "isAnglish": true
+  },
+  "unkissed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English on-kyst, unkest, unkissid, unkist, unkyste; equivalent to un- + kissed.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -47568,7 +48573,7 @@
       "origin": "From un- + knowing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unknowingly": {
     "r": {
@@ -47625,7 +48630,7 @@
       "origin": "From un- + knowledge.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unknowledgeable": {
     "a": {
@@ -47865,6 +48870,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unlaboured": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unlabouryd, unlabored; equivalent to un- + laboured.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unlace": {
     "v": {
@@ -48232,7 +49245,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unleaded gasoline": {
     "n": {
@@ -48325,7 +49338,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unlearned": {
     "a": {
@@ -48359,7 +49372,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlearnt": {
     "a": {
@@ -48375,7 +49388,16 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unlernd, equivalent to unlearn + -t.",
+      "sounds": [
+        {
+          "rhymes": "-ɜː(ɹ)nt"
+        }
+      ]
+    }
   },
   "unleash": {
     "v": {
@@ -48490,7 +49512,7 @@
       "origin": "un- + lessened",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlet": {
     "a": {
@@ -48502,7 +49524,7 @@
       "origin": "un- + let",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlettered": {
     "a": {
@@ -48621,7 +49643,7 @@
       "origin": "un- + life",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlifelike": {
     "a": {
@@ -48644,6 +49666,24 @@
         }
       ],
       "origin": "OE, unlyft"
+    },
+    "isAnglish": true
+  },
+  "unlight": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unlighten (“to lighten the burden of; alleviate; dismount from horseback”), equivalent to un- + light (“to alight”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From un- + light or, in the case of the verb, perhaps from Middle English *unlighten (suggested by past participle unlight, unlyght, unliȝt (“unlit”)), equivalent to un- + light.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unlight, unlyght, unliȝt (“not light (in weight)”), equivalent to un- + light.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -48850,6 +49890,14 @@
     },
     "isAnglish": true
   },
+  "unliken": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unliknen, equivalent to un- + liken.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unlikeness": {
     "n": {
       "senses": [
@@ -48867,7 +49915,7 @@
       "origin": "unlike + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlikeworthy": {
     "a": {
@@ -48914,7 +49962,7 @@
       "origin": "un- + limb",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlimited": {
     "a": {
@@ -49012,7 +50060,7 @@
       "origin": "un- + link",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlipped": {
     "a": {
@@ -49048,7 +50096,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlisted security": {
     "n": {
@@ -49094,7 +50142,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unliterary": {
     "a": {
@@ -49382,7 +50430,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unloaded": {
     "a": {
@@ -49648,7 +50696,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unloosen": {
     "v": {
@@ -49687,6 +50735,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unlove": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unloven, equivalent to un- (reversal prefix) + love (verb).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unloved": {
     "a": {
@@ -49762,7 +50818,7 @@
       "origin": "From un- + luck.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unluckily": {
     "r": {
@@ -49813,12 +50869,28 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unlust": {
     "n": {
       "senses": [],
       "origin": "From Middle English unlust, from Old English unlust (“displeasure, dislike”), from Proto-West Germanic *unlust, from Proto-Germanic *unlustuz (“listlessness”). Equivalent to un- + lust.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unlustiness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unlustynesse; equivalent to unlusty + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unlusty": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unlusty; equivalent to un- + lusty.",
       "sounds": []
     },
     "isAnglish": true
@@ -49864,7 +50936,7 @@
       "origin": "un- + mad",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmade": {
     "a": {
@@ -49899,7 +50971,7 @@
       "origin": "un- + maiden",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmaidening": {
     "n": {
@@ -49932,6 +51004,14 @@
     },
     "isAnglish": true
   },
+  "unmaimed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unmaymed; equivalent to un- + maimed.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unmake": {
     "v": {
       "form": [
@@ -49954,6 +51034,14 @@
     },
     "isAnglish": true
   },
+  "unmaker": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unmakere; equivalent to unmake + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unmaking": {
     "n": {
       "senses": [
@@ -49969,7 +51057,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmalicious": {
     "a": {
@@ -50073,7 +51161,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmanageable": {
     "a": {
@@ -50267,7 +51355,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmanned": {
     "a": {
@@ -50411,7 +51499,7 @@
       "senses": [],
       "origin": "calque"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmarked": {
     "a": {
@@ -50712,7 +51800,7 @@
       "origin": "From un- (“not”) + mean.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmeaning": {
     "a": {
@@ -51077,7 +52165,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unmercifully": {
     "r": {
@@ -51110,6 +52198,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unmercy": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English onmerci, unmerci, unmercy; equivalent to un- (“lack or absence of”) + mercy.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unmerited": {
     "a": {
@@ -51223,7 +52319,7 @@
       "origin": "un- + mesh",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmeted": {
     "a": {
@@ -51241,7 +52337,7 @@
       "origin": "un- + meted",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmetely": {
     "a": {
@@ -51578,7 +52674,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmingled": {
     "a": {
@@ -51692,7 +52788,7 @@
       "origin": "un- + mix",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unmixable": {
     "a": {
@@ -52084,6 +53180,14 @@
     },
     "isAnglish": false
   },
+  "unmutable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unmutable; equivalent to un- + mutable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unmutilated": {
     "a": {
       "senses": [
@@ -52204,7 +53308,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unnatural": {
     "a": {
@@ -52249,7 +53353,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unnaturalised": {
     "a": {
@@ -52308,7 +53412,7 @@
       "origin": "From Middle English unnaturelly, equivalent to unnatural + -ly and/or un- + naturally.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unnaturalness": {
     "n": {
@@ -52327,7 +53431,7 @@
       "origin": "From Middle English unnaturelnesse, equivalent to unnatural + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unnavigable": {
     "a": {
@@ -52448,6 +53552,14 @@
         }
       ],
       "origin": "un- + needed.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "unneedful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unnedeful; equivalent to un- + needful.",
       "sounds": []
     },
     "isAnglish": true
@@ -52609,6 +53721,27 @@
     },
     "isAnglish": true
   },
+  "unnoble": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unnoble, equivalent to un- + noble.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unnoble, equivalent to un- + noble.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unnobleness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unnoblenesse, unnobelnesse, equivalent to un- + nobleness and/or unnoble + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unnotched": {
     "a": {
       "senses": [
@@ -52634,6 +53767,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unnoteful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unnoteful (“useless, unprofitable”), equivalent to un- + noteful.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unnoticeable": {
     "a": {
@@ -52779,7 +53920,7 @@
       "origin": "From Middle English unnoumbird, unnoumbrid, un-nowmbyrde, unnowmyrd; equivalent to un- + numbered.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unnumerable": {
     "a": {
@@ -52793,6 +53934,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unobedience": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unobedience. Equivalent to un- + obedience or unobedient + -ence.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unobedient": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unobedient. Equivalent to un- + obedient.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unobjectionable": {
     "a": {
@@ -53074,7 +54231,7 @@
       "origin": "From Middle English unoccupied; equivalent to un- + occupied.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unoffending": {
     "a": {
@@ -53205,7 +54362,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unoiled": {
     "a": {
@@ -53641,7 +54798,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpackaged": {
     "a": {
@@ -53730,7 +54887,7 @@
       "origin": "From Middle English unpeynefull; equivalent to un- + painful.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpaintable": {
     "a": {
@@ -53769,7 +54926,7 @@
       "origin": "From Middle English unpeinted, on-poyntid, equivalent to un- + painted.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpaired": {
     "a": {
@@ -54133,6 +55290,14 @@
     },
     "isAnglish": false
   },
+  "unpay": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unpayen, unpaien, equivalent to un- + pay.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unpeaceable": {
     "a": {
       "senses": [
@@ -54453,7 +55618,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpictured": {
     "a": {
@@ -54694,7 +55859,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpleasant person": {
     "n": {
@@ -54716,7 +55881,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpleasant-smelling": {
     "a": {
@@ -54813,7 +55978,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unpleasingness": {
     "n": {
@@ -54846,6 +56011,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unplight": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unpliȝt, equivalent to un- + plight.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unploughed": {
     "a": {
@@ -55112,6 +56285,18 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unpossible": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unpossible, equivalent to un- (“not”) + possible.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈpɒsɪbəl/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "unpotted": {
     "a": {
@@ -56277,6 +57462,14 @@
     },
     "isAnglish": false
   },
+  "unprudence": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unprudence, equivalent to un- (“lack of”) + prudence.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unpublishable": {
     "a": {
       "senses": [
@@ -56832,7 +58025,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unreachable": {
     "a": {
@@ -56918,7 +58111,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unreadable": {
     "a": {
@@ -56967,6 +58160,14 @@
         }
       ],
       "origin": "un- + readied. Attested since the 19th century.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "unreadily": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unredily; equivalent to unready + -ly.",
       "sounds": []
     },
     "isAnglish": true
@@ -57195,7 +58396,7 @@
       "origin": "From Middle English unreson; equivalent to un- + reason.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unreasonable": {
     "a": {
@@ -57233,7 +58434,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unreasonably": {
     "r": {
@@ -57281,7 +58482,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unreasoning": {
     "a": {
@@ -57324,6 +58525,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unrebuked": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unrebukid; equivalent to un- + rebuked.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unreceptive": {
     "a": {
@@ -57382,6 +58591,14 @@
         }
       ],
       "origin": "un- + recking",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "unreckoned": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unrekind, unrekend; equivalent to un- + reckoned.",
       "sounds": []
     },
     "isAnglish": true
@@ -57546,6 +58763,14 @@
     },
     "isAnglish": false
   },
+  "unrecompensed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unrecompensid; equivalent to un- + recompensed.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unreconcilable": {
     "a": {
       "senses": [
@@ -57570,7 +58795,7 @@
       "origin": "From Middle English unreconcyled; equivalent to un- + reconciled.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unreconstructed": {
     "a": {
@@ -57616,6 +58841,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unrecuperable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English onrecuperable; equivalent to un- + recuperable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unrecurable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English on-recurabyll, un-recurabyl; equivalent to un- + recurable.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unred": {
     "a": {
@@ -57708,6 +58949,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unreeve": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *unreven (attested only in past participle unrevyn) equivalent to un- + reeve.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unrefined": {
     "a": {
@@ -58871,6 +60120,14 @@
     },
     "isAnglish": false
   },
+  "unrestrainable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unrestreynable; equivalent to un- + restrainable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unrestrained": {
     "a": {
       "senses": [
@@ -59186,7 +60443,7 @@
       "origin": "From un- + riddle.",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [],
       "origin": null
@@ -59293,6 +60550,11 @@
       "origin": "From Middle English unright, unriȝt, unriht, from Old English unriht (“wrong, sin, vice, wickedness, evil, injustice, oppression, a wrong act”), equivalent to un- (“absence of”) + right. Cognate with Scots unricht (“wrongdoing, injustice”), Dutch onrecht (“injustice, inequity, wrong”), German Unrecht (“injustice”), Swedish orätt (“injustice, wrong, sin”).",
       "sounds": []
     },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unrighten, from unright (“unright”, adj.).",
+      "sounds": []
+    },
     "r": {
       "senses": [],
       "origin": "From Middle English unright, unrighte, from Old English unrihte (“wrongly, crookedly, unjustly”), equivalent to un- + right.",
@@ -59383,7 +60645,7 @@
       "origin": "un- + rightful",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unrightfully": {
     "r": {
@@ -59398,7 +60660,7 @@
       "origin": "unrightful + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unrightly": {
     "r": {
@@ -59503,7 +60765,7 @@
       "origin": "un- + ripened",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unrivaled": {
     "a": {
@@ -59719,7 +60981,7 @@
       "origin": "un- + ruffled",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unruliness": {
     "n": {
@@ -59885,7 +61147,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsake": {
     "v": {
@@ -60539,7 +61801,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unscheduled": {
     "a": {
@@ -60585,6 +61847,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unscience": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unscience (“false knowledge or understanding”), equivalent to un- + science.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unscientific": {
     "a": {
@@ -60839,6 +62109,33 @@
     },
     "isAnglish": false
   },
+  "unsearchable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unserchable, equivalent to un- + searchable.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈsəːtʃəb(ə)l/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unserchable, equivalent to un- + searchable.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈsəːtʃəb(ə)l/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "unseasonable": {
     "a": {
       "senses": [
@@ -60863,7 +62160,7 @@
       "origin": "From Middle English unseasonable, unsesonable, equivalent to un- + seasonable.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unseasonableness": {
     "n": {
@@ -61085,7 +62382,7 @@
       "origin": "From Middle English unseable, equivalent to un- + seeable.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unseeded": {
     "a": {
@@ -61322,7 +62619,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unseenly": {
     "a": {
@@ -61509,7 +62806,7 @@
       "origin": "un- + selfish.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unselfishly": {
     "r": {
@@ -61574,6 +62871,22 @@
     },
     "isAnglish": false
   },
+  "unsensible": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unsensible, equivalent to un- + sensible.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unsensibly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unsensibli, equivalent to unsensible + -ly or un- + sensibly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unsent": {
     "a": {
       "senses": [
@@ -61592,7 +62905,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unsentimental": {
     "a": {
@@ -61629,6 +62942,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unseparable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unseperable, equivalent to un- + separable.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unserviceable": {
     "a": {
@@ -61701,7 +63022,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsettle": {
     "v": {
@@ -61734,7 +63055,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsettled": {
     "a": {
@@ -61764,7 +63085,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsettling": {
     "a": {
@@ -61778,7 +63099,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -61790,6 +63111,14 @@
       ],
       "sounds": []
     }
+  },
+  "unsevered": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unsevered, equivalent to un- + severed.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unsex": {
     "v": {
@@ -61958,7 +63287,7 @@
       "origin": "un- + shaken",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unshape": {
     "v": {
@@ -61982,7 +63311,7 @@
       "origin": "From un- + shape.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unshaped": {
     "a": {
@@ -62011,7 +63340,7 @@
       "origin": "un- + shapely",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unshapen": {
     "a": {
@@ -62190,7 +63519,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsheathe": {
     "v": {
@@ -62299,7 +63628,7 @@
       "origin": "un- + shielded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unshild": {
     "v": {
@@ -62432,7 +63761,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unshrinkable": {
     "a": {
@@ -62554,7 +63883,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsidedness": {
     "n": {
@@ -62679,7 +64008,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsigned": {
     "a": {
@@ -62869,7 +64198,7 @@
       "origin": "From un- + sleeping.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsleeping-eye": {
     "n": {
@@ -62903,6 +64232,21 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unsly": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unsly, unslei, unsley, unsleiȝ, unsleȝe, unsleeiȝ, equivalent to un- + sly.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈslaɪ/"
+        },
+        {
+          "rhymes": "-aɪ"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "unsmeller": {
     "n": {
@@ -63477,7 +64821,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsound rake": {
     "n": {
@@ -63557,7 +64901,7 @@
       "origin": "unsound + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsour": {
     "v": {
@@ -63565,7 +64909,7 @@
       "origin": "un- + sour",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsoured": {
     "a": {
@@ -63651,7 +64995,7 @@
       "origin": "un- + sparing",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsparingly": {
     "r": {
@@ -63927,7 +65271,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unspoken accusation": {
     "n": {
@@ -64086,7 +65430,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unstableness": {
     "n": {
@@ -64253,7 +65597,7 @@
       "origin": "From un- + stay.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unstead": {
     "v": {
@@ -64295,6 +65639,14 @@
         }
       ],
       "origin": "Inherited from Middle English unstedefast, from Old English unstædefast; equivalent to un- + steadfast.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unsteadfastness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unstedefastnesse; equivalent to unsteadfast + -ness.",
       "sounds": []
     },
     "isAnglish": true
@@ -64402,7 +65754,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsterilised": {
     "a": {
@@ -64450,7 +65802,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unstill": {
     "v": {
@@ -64528,7 +65880,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unstinting": {
     "a": {
@@ -64616,6 +65968,14 @@
     },
     "isAnglish": true
   },
+  "unstop": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unstoppen, equivalent to un- + stop. Cognate with Dutch ontstoppen, German entstopfen.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unstoppable": {
     "a": {
       "pronunciation": [
@@ -64695,6 +66055,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unstrange": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unstraunge, equivalent to un- + strange.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unstrap": {
     "v": {
@@ -65457,7 +66825,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsupervised": {
     "a": {
@@ -65486,7 +66854,7 @@
       "origin": "From Middle English unsupportable, equivalent to un- + supportable.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unsupported": {
     "a": {
@@ -65509,7 +66877,7 @@
       "origin": "From Middle English unsupported, equivalent to un- + supported.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unsupportive": {
     "a": {
@@ -65526,6 +66894,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unsupposable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unsupposable, equivalent to un- + supposable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unsupposed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unsupposed, unsupposid, equivalent to un- + supposed.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unsuppressed": {
     "a": {
@@ -65799,7 +67183,7 @@
       "origin": "un- + swayed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unsweet": {
     "a": {
@@ -65830,6 +67214,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unswell": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unswellen, equivalent to un- + swell.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unswept": {
     "a": {
@@ -66295,6 +67687,14 @@
     },
     "isAnglish": false
   },
+  "untaken": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English untaken; equivalent to un- + taken.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "untalely": {
     "a": {
       "senses": [],
@@ -66330,6 +67730,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "untame": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English untame, ontame, equivalent to un- (“not”) + tame.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English untamen, *untemien (attested as untemed), equivalent to un- (“back; reverse”) + tame.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "untamed": {
     "a": {
@@ -66601,7 +68014,7 @@
       "origin": "un- + teeming",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untellable": {
     "a": {
@@ -66614,7 +68027,7 @@
       "origin": "From Middle English untellable; equivalent to un- + tellable.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "untellenly": {
     "a": {
@@ -66709,6 +68122,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "untenderly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English untenderly, untendirly, equivalent to untender + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "untested": {
     "a": {
@@ -66809,6 +68230,22 @@
     },
     "isAnglish": true
   },
+  "unthankfully": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unthankefully, equivalent to unthankful + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unthankfulness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English unthankfullnes, equivalent to unthankful + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unthasly": {
     "a": {
       "senses": [
@@ -66839,7 +68276,7 @@
       "origin": "un- + thatch",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unthaw": {
     "v": {
@@ -67019,7 +68456,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unthinkingly": {
     "r": {
@@ -67113,7 +68550,7 @@
       "origin": "un- + thread",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unthreatening": {
     "a": {
@@ -67163,6 +68600,32 @@
         }
       ]
     },
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unthrift, equivalent to un- + thrift.",
+      "sounds": [
+        {
+          "ipa": "/ˈʌnθɹɪft/",
+          "tags": [
+            "noun"
+          ]
+        },
+        {
+          "ipa": "/ʌnˈθɹɪft/",
+          "tags": [
+            "adjective"
+          ]
+        }
+      ]
+    }
+  },
+  "unthriftily": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unthriftily. By surface analysis, unthrifty + ly.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "unthrifty": {
@@ -67179,6 +68642,14 @@
         }
       ],
       "origin": "From Middle English unthrifty. By surface analysis, un + thrifty.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unthrive": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unthryven, equivalent to un- + thrive.",
       "sounds": []
     },
     "isAnglish": true
@@ -67422,7 +68893,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untie": {
     "v": {
@@ -67534,6 +69005,119 @@
     },
     "isAnglish": false
   },
+  "until": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English vntil, until, untill, ontil, ontill, equivalent to un- (“against; toward; up to”) + till. Perhaps representing a northern variant of Middle English unto. See unto.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈtɪl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ənˈtɪl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ʊnˈtɪl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ʌnˈtɪl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ənˈtɪl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈʌntəl/",
+          "note": "Appalachians, also"
+        },
+        {
+          "rhymes": "-ɪl"
+        },
+        {
+          "audio": "En-us-until.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/En-us-until.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/En-us-until.ogg/En-us-until.ogg.mp3"
+        },
+        {
+          "enpr": "ŭn-tĭlʹ"
+        }
+      ]
+    },
+    "c": {
+      "senses": [],
+      "origin": "From Middle English vntil, until, untill, ontil, ontill, equivalent to un- (“against; toward; up to”) + till. Perhaps representing a northern variant of Middle English unto. See unto.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈtɪl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ənˈtɪl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ʊnˈtɪl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ʌnˈtɪl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ənˈtɪl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈʌntəl/",
+          "note": "Appalachians, also"
+        },
+        {
+          "rhymes": "-ɪl"
+        },
+        {
+          "audio": "En-us-until.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/En-us-until.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/En-us-until.ogg/En-us-until.ogg.mp3"
+        },
+        {
+          "enpr": "ŭn-tĭlʹ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "until now": {
     "r": {
       "senses": [
@@ -67543,7 +69127,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "untile": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English untylle; equivalent to un- + tile.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "untilled": {
     "a": {
@@ -67955,7 +69547,15 @@
       "origin": "From Middle English untoþed, on tothyd; equivalent to un- + toothed.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "untorn": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English untorn, untorne, equivalent to un- + torn.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "untouchable": {
     "a": {
@@ -68140,7 +69740,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untraceable": {
     "a": {
@@ -68421,7 +70021,7 @@
       "origin": "un- + trimmed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untrod": {
     "a": {
@@ -68486,6 +70086,18 @@
     },
     "isAnglish": false
   },
+  "untrowable": {
+    "a": {
+      "senses": [
+        {
+          "synset": "00648515-a"
+        }
+      ],
+      "origin": "From Middle English untrowable, untrowabyll, equivalent to un- + trowable.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "untrue": {
     "a": {
       "senses": [
@@ -68541,7 +70153,7 @@
       "origin": "From Middle English untrewly; equivalent to un- + truly or untrue + -ly; compare Old English untrēowlīce.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "untrum": {
     "a": {
@@ -68563,6 +70175,27 @@
         }
       ],
       "origin": "ME, untrum"
+    },
+    "isAnglish": true
+  },
+  "untrust": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English untrust, untrost, untrist, likely from un- + trust. Cognate with Icelandic útraust (“untrust”). Compare also Swedish otro (“lack of faith, disbelief”).",
+      "sounds": [
+        {
+          "rhymes": "-ʌst"
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English untrust, untriste, probably from Old Norse útraustr (“untrustworthy”). Cognate with Icelandic útraustur.",
+      "sounds": [
+        {
+          "rhymes": "-ʌst"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -68647,7 +70280,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untrustworthy anwork evenwear": {
     "n": {
@@ -68742,7 +70375,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untruthfully": {
     "r": {
@@ -68780,7 +70413,7 @@
       "origin": "untruthful + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "untruthsome": {
     "a": {
@@ -69711,7 +71344,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unveiled": {
     "a": {
@@ -69727,7 +71360,7 @@
       "origin": "From Middle English unveiled, vnueylyd, equivalent to un- + veil + -ed.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unveiling": {
     "n": {
@@ -69986,6 +71619,14 @@
     },
     "isAnglish": false
   },
+  "unwalled": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unwalled, unwallyd; equivalent to un- + walled.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unwanted": {
     "a": {
       "pronunciation": [
@@ -70056,7 +71697,7 @@
       "origin": "un- + warded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwarely": {
     "r": {
@@ -70241,7 +71882,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unwashen": {
     "a": {
@@ -70280,7 +71921,7 @@
       "origin": "un- + water",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwatering": {
     "n": {
@@ -70298,7 +71939,7 @@
       "origin": "un- + water + -ing",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwatery": {
     "a": {
@@ -70435,7 +72076,7 @@
       "origin": "un- + wealthy",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unweaned": {
     "a": {
@@ -70473,7 +72114,7 @@
       "origin": "un- + weaponed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwearable": {
     "a": {
@@ -70633,7 +72274,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwedded": {
     "a": {
@@ -70646,7 +72287,7 @@
       "origin": "un- + wedded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unweened": {
     "a": {
@@ -70763,7 +72404,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwellness": {
     "n": {
@@ -70802,7 +72443,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwem": {
     "a": {
@@ -70886,7 +72527,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwhole": {
     "a": {
@@ -70922,6 +72563,14 @@
     },
     "isAnglish": true
   },
+  "unwholesomely": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English unholsomli, equivalent to unwholesome + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unwholesomeness": {
     "n": {
       "senses": [
@@ -70941,10 +72590,26 @@
     },
     "isAnglish": false
   },
+  "unwicked": {
+    "a": {
+      "senses": [],
+      "origin": "un- + wicked",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "unwide": {
     "a": {
       "senses": [],
       "origin": "From Middle English unwid, from Old English unwīd (“not wide”), equivalent to un- + wide. Cognate with Dutch onwijd (“unwide”), German unweit (“not far from”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unwielded": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unweldid, equivalent to un- + wielded.",
       "sounds": []
     },
     "isAnglish": true
@@ -71096,7 +72761,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwillingly": {
     "r": {
@@ -71252,7 +72917,7 @@
       "origin": "un- + winsome",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwire": {
     "v": {
@@ -71493,7 +73158,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -71752,7 +73417,7 @@
       "origin": "From un- + witty.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwold": {
     "v": {
@@ -71834,7 +73499,7 @@
       "origin": "un- + wont",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwonted": {
     "a": {
@@ -71891,7 +73556,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unwontedly": {
     "r": {
@@ -71992,6 +73657,14 @@
     },
     "isAnglish": false
   },
+  "unworked": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unwerked, unwerched, equivalent to un- + worked. Doublet of unwrought.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unworking": {
     "a": {
       "senses": [
@@ -72004,7 +73677,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unworkmanlike": {
     "a": {
@@ -72035,7 +73708,7 @@
       "origin": "From un- + worksome. Compare German unwirksam (“ineffective, useless”), Swedish overksam (“inactive, passive, ineffective”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unworldly": {
     "a": {
@@ -72068,7 +73741,7 @@
       "origin": "From un- + worried.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unworship": {
     "n": {
@@ -72104,7 +73777,7 @@
       "origin": "From un- + worship.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unworth": {
     "n": {
@@ -72171,6 +73844,9 @@
         },
         {
           "synset": "02512179-a"
+        },
+        {
+          "synset": "01136517-s"
         }
       ],
       "origin": "From Middle English unworth, unwurth, from Old English unweorþ, unweorþe (“unworthy, poor, mean, of low estate, worthless, contemptible, ignoble”), equivalent to un- + worth.",
@@ -72435,6 +74111,19 @@
     },
     "isAnglish": true
   },
+  "unwrought": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English unwrought, unwroght, unwrouȝt, equivalent to un- + wrought. Doublet of unworked.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English unwrought, unwroght, unwrouȝt, equivalent to un- + wrought. Doublet of unworked.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unwry": {
     "v": {
       "senses": [
@@ -72506,7 +74195,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "unyieldingness": {
     "n": {
@@ -72967,7 +74656,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "up here": {
     "r": {
@@ -73027,7 +74716,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "up quark": {
     "n": {
@@ -73040,6 +74729,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "up so down": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English up-so-doun, upsedowne, upsadowne (“upside down”); equivalent to up + so + down, literally “up as down”.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "up the stairs": {
     "r": {
@@ -73209,7 +74906,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "up-bow": {
     "n": {
@@ -73221,7 +74918,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "up-country": {
     "r": {
@@ -73245,6 +74942,14 @@
         }
       ],
       "origin": "<OE ofġiefan, ofġifan"
+    },
+    "isAnglish": true
+  },
+  "up-pulled": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English uppuld, equivalent to up- + pulled.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -73278,7 +74983,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "up-to-date": {
     "a": {
@@ -73358,6 +75063,35 @@
     },
     "isAnglish": false
   },
+  "upbear": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upberen, equivalent to up- + bear.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "upbearer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upberere, equivalent to upbear + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "upbearing": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upberinge, upberynge, equivalent to upbear + -ing.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upberynge, upberande, equivalent to upbear + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "upbeat": {
     "a": {
       "senses": [
@@ -73433,12 +75167,33 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "upbend": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upbenden, equivalent to up- + bend.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upbenden, equivalent to up- + bend.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "upbend driff": {
     "n": {
       "senses": [],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "upblow": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upblowen, equivalent to up- + blow.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -73573,7 +75328,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upbrook": {
     "v": {
@@ -73618,7 +75373,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upcall": {
     "v": {
@@ -73641,7 +75396,7 @@
       "origin": "up- + call",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upcast": {
     "n": {
@@ -73711,7 +75466,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upchuck": {
     "v": {
@@ -73727,7 +75482,7 @@
       "origin": "up- + chuck, from chuck up.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upcleam": {
     "v": {
@@ -73832,7 +75587,7 @@
       "origin": "upcome + -ing",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upcountry": {
     "a": {
@@ -74126,6 +75881,19 @@
     },
     "isAnglish": false
   },
+  "updraw": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English updrawen, updrauen, equivalent to up- + draw. Compare Dutch opdragen, German auftragen, Swedish uppdraga.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English updrawen, updrauen, equivalent to up- + draw. Compare Dutch opdragen, German auftragen, Swedish uppdraga.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "upedge": {
     "v": {
       "senses": [
@@ -74200,7 +75968,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upended": {
     "a": {
@@ -74261,6 +76029,14 @@
     },
     "isAnglish": true
   },
+  "upfill": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upfillen, equivalent to up- + fill.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "upfloor": {
     "n": {
       "senses": [
@@ -74311,7 +76087,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upgang": {
     "n": {
@@ -74371,7 +76147,7 @@
       "origin": "up- + give. Cognate with German aufgeben (“to abandon, give up, quit”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upgoing": {
     "n": {
@@ -74389,7 +76165,7 @@
       "origin": "From up- + going. Cf. Old English upgang (“upgoing”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upgrade": {
     "n": {
@@ -74581,6 +76357,14 @@
     },
     "isAnglish": false
   },
+  "upgrowing": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upgrowinge, upgrowyng, equivalent to upgrow + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "uphang": {
     "v": {
       "senses": [
@@ -74600,6 +76384,14 @@
     },
     "isAnglish": true
   },
+  "uphaul": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uphalen, equivalent to up- + haul.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "upheap": {
     "v": {
       "senses": [
@@ -74611,6 +76403,14 @@
         }
       ],
       "origin": "From Middle English uphepen, equivalent to up- + heap.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "upheaping": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upheping (“abundance”), equivalent to up- + heaping.",
       "sounds": []
     },
     "isAnglish": true
@@ -74711,7 +76511,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uphill": {
     "a": {
@@ -74853,7 +76653,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uphold": {
     "v": {
@@ -74937,7 +76737,7 @@
       "origin": "uphold + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upholding": {
     "n": {
@@ -74957,7 +76757,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upholster": {
     "v": {
@@ -75000,7 +76800,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upholsterer": {
     "n": {
@@ -75025,7 +76825,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upholstery": {
     "n": {
@@ -75100,7 +76900,7 @@
       "origin": "up + keep",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upland": {
     "a": {
@@ -75320,6 +77120,14 @@
     },
     "isAnglish": true
   },
+  "upleap": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uplepen, equivalent to up- + leap. Cognate with Dutch oplopen (“to incur, run up”), German auflaufen (“to accumulate, mount up, run aground”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "uplift": {
     "n": {
       "pronunciation": [
@@ -75480,7 +77288,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uplifted": {
     "a": {
@@ -75527,7 +77335,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uplifting trance": {
     "n": {
@@ -75538,7 +77346,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uplink": {
     "n": {
@@ -75551,7 +77359,7 @@
       "origin": "up + link",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uplive": {
     "v": {
@@ -75661,7 +77469,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uplock": {
     "v": {
@@ -75674,6 +77482,14 @@
         }
       ],
       "origin": "up- + lock",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "uplook": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uploken, equivalent to up- + look.",
       "sounds": []
     },
     "isAnglish": true
@@ -76480,6 +78296,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "uppermore": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English uppermore; equivalent to upper + -more.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "uppermost": {
@@ -76571,7 +78395,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uppish": {
     "a": {
@@ -76597,7 +78421,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uppishly": {
     "r": {
@@ -76673,7 +78497,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uppityness": {
     "n": {
@@ -76691,6 +78515,14 @@
     },
     "isAnglish": false
   },
+  "uppluck": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upplucken, upplukken, equivalent to up- + pluck.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "upprop": {
     "v": {
       "senses": [
@@ -76707,7 +78539,7 @@
       "origin": "up- + prop",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upraise": {
     "v": {
@@ -76741,6 +78573,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "upreach": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English uprechen, equivalent to up- + reach.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "uprear": {
     "v": {
@@ -76787,6 +78627,14 @@
         }
       ],
       "origin": "calque, based on French and Spanish Ordinateur/Ordenador"
+    },
+    "isAnglish": true
+  },
+  "upride": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upriden, equivalent to up- + ride.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -76968,7 +78816,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uprimer": {
     "n": {
@@ -77098,7 +78946,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uprisin": {
     "n": {
@@ -77127,7 +78975,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uprist": {
     "n": {
@@ -77222,7 +79070,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uproarious": {
     "a": {
@@ -77420,7 +79268,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upscale": {
     "a": {
@@ -77456,6 +79304,19 @@
         }
       ],
       "origin": "cf. NHG Aufseher"
+    },
+    "isAnglish": true
+  },
+  "upsend": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upsenden, equivalent to up- + send. Cognate with Scots upsend (“to ascend”), Dutch opzenden (“to redirect, forward”), Low German upsenden (“to send up, deliver (mail)”), Swedish uppsända (“to offer up”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upsenden, equivalent to up- + send. Cognate with Scots upsend (“to ascend”), Dutch opzenden (“to redirect, forward”), Low German upsenden (“to send up, deliver (mail)”), Swedish uppsända (“to offer up”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -77748,7 +79609,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upshat": {
     "v": {
@@ -77809,6 +79670,19 @@
     },
     "isAnglish": true
   },
+  "upshift": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upshiften, upschyften (“to raise”), equivalent to up- + shift.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English upshiften, upschyften (“to raise”), equivalent to up- + shift.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "upshot": {
     "n": {
       "pronunciation": [
@@ -77852,7 +79726,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upside": {
     "n": {
@@ -77889,7 +79763,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upside down": {
     "r": {
@@ -77932,7 +79806,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upside-down cake": {
     "n": {
@@ -78626,7 +80500,16 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English upstanden, equivalent to up- + stand. Cognate with Dutch opstaan (“to rise, stand up”), German aufstehen (“to arise, get up, stand up”), Swedish uppstå (“to arise, emerge, come up”).",
+      "sounds": [
+        {
+          "rhymes": "-ænd"
+        }
+      ]
+    }
   },
   "upstander": {
     "n": {
@@ -78646,7 +80529,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upstanding": {
     "a": {
@@ -78672,7 +80555,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upstandy": {
     "a": {
@@ -78812,7 +80695,7 @@
       "origin": "From up- + stir.",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "v": {
       "senses": [
         {
@@ -78855,7 +80738,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upstream": {
     "a": {
@@ -79018,7 +80901,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uptake": {
     "n": {
@@ -79099,7 +80982,7 @@
       "origin": "From Middle English upthrowen, equivalent to up- + throw.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upthrust": {
     "n": {
@@ -79182,7 +81065,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uptightness": {
     "n": {
@@ -79200,7 +81083,7 @@
       "origin": "uptight + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uptime": {
     "n": {
@@ -79216,7 +81099,7 @@
       "origin": "up (“(computing) functional, working”, adjective) + time",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uptown": {
     "a": {
@@ -79341,7 +81224,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upturned": {
     "a": {
@@ -79369,6 +81252,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "upturning": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English upturnynge, equivalent to upturn + -ing and/or up- + turning.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "upvote": {
     "n": {
@@ -79758,7 +81649,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "upyeave": {
     "n": {
@@ -82493,7 +84384,7 @@
       "origin": "See the etymology of the corresponding lemma form.",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "x": {
       "senses": [],
       "origin": "From Middle English us, from Old English ūs (“us”, dative personal pronoun), from Proto-Germanic *uns (“us”), from Proto-Indo-European *ne-, *nō-, *n-ge-, *n̥smé (“us”). The compensatory lengthening was lost in Middle English due to the word being unstressed while being used. Cognate with Saterland Frisian uus (“us”), West Frisian us, ús (“us”), Low German us (“us”), Dutch ons (“us”), German uns (“us”), Danish os (“us”), Latin nōs (“we, us”).",
@@ -83303,7 +85194,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "used-car": {
     "n": {
@@ -83611,7 +85502,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "user interface": {
     "n": {
@@ -83899,6 +85790,14 @@
     },
     "isAnglish": false
   },
+  "usself": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English. Equivalent to us + -self.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "usual": {
     "a": {
       "pronunciation": [
@@ -84012,7 +85911,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "usualness": {
     "n": {
@@ -84426,6 +86325,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "usward": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English us-ward; equivalent to us + -ward.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "ut": {
     "n": {
@@ -85882,7 +87789,7 @@
       "origin": "utter + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uttering": {
     "n": {
@@ -85905,7 +87812,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "utterless": {
     "a": {
@@ -85920,7 +87827,7 @@
       "origin": "utter + -less",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "utterly": {
     "r": {
@@ -85958,7 +87865,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "uttermost": {
     "a": {

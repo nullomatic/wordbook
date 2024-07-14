@@ -359,6 +359,14 @@
     },
     "isAnglish": false
   },
+  "VTuber": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese VTuber, from English virtual + YouTuber.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "VX gas": {
     "n": {
       "senses": [
@@ -5479,7 +5487,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Viktor Korchnoi": {
     "n": {
@@ -7005,7 +7013,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Visken": {
     "n": {
@@ -7353,6 +7361,27 @@
       ]
     },
     "isAnglish": false
+  },
+  "Vlach": {
+    "n": {
+      "senses": [],
+      "origin": "From Proto-Slavic *volxъ (“speaker of a Romance language”), from Proto-Germanic *walhaz (“non-Germanic foreigner, Celt; later Roman”). Presumably introduced into Slavic around the 7th century, but first recorded only in the 11th century in Byzantine Greek. In English used as a synonym of \"Wallachian\" from the 19th century. The word is etymologically distantly related to Wales/Welsh, Walloon, and Gaul. Doublet of Gaul.",
+      "sounds": [
+        {
+          "ipa": "[vlɑːk]"
+        },
+        {
+          "ipa": "[vlæk]"
+        },
+        {
+          "rhymes": "-ɑːk"
+        },
+        {
+          "rhymes": "-æk"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Vladimir Horowitz": {
     "n": {
@@ -9746,6 +9775,14 @@
     },
     "isAnglish": false
   },
+  "vadium": {
+    "n": {
+      "senses": [],
+      "origin": "From Medieval Latin wadium, from Frankish *wadja, from Proto-Germanic *wadją (“pledge”); akin to Old English wedd (“pledge”). More at wed.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "vagabond": {
     "a": {
       "pronunciation": [
@@ -10362,7 +10399,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "vague": {
     "a": {
@@ -10525,6 +10562,69 @@
       ],
       "origin": "Partial translation of New Latin nervus vagus (“wandering nerve”).",
       "sounds": []
+    },
+    "isAnglish": false
+  },
+  "vail": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/veɪl/"
+        },
+        {
+          "rhymes": "-eɪl"
+        },
+        {
+          "homophone": "vale"
+        },
+        {
+          "homophone": "veil"
+        },
+        {
+          "homophone": "Vail"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-vail.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/LL-Q1860_%28eng%29-Vealhurl-vail.wav/LL-Q1860_%28eng%29-Vealhurl-vail.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/LL-Q1860_%28eng%29-Vealhurl-vail.wav/LL-Q1860_%28eng%29-Vealhurl-vail.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/veɪl/"
+        },
+        {
+          "rhymes": "-eɪl"
+        },
+        {
+          "homophone": "vale"
+        },
+        {
+          "homophone": "veil"
+        },
+        {
+          "homophone": "Vail"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-vail.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/LL-Q1860_%28eng%29-Vealhurl-vail.wav/LL-Q1860_%28eng%29-Vealhurl-vail.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/LL-Q1860_%28eng%29-Vealhurl-vail.wav/LL-Q1860_%28eng%29-Vealhurl-vail.wav.mp3"
+        }
+      ]
     },
     "isAnglish": false
   },
@@ -10692,7 +10792,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vaisya": {
     "n": {
@@ -10740,6 +10840,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "valanced": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English valansid; equivalent to valance + -ed.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "valdecoxib": {
     "n": {
@@ -11630,6 +11738,14 @@
     },
     "isAnglish": false
   },
+  "valiantness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English vaillauntnesse, valiauntnes, valyauntenesse; equivalent to valiant + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "valid": {
     "a": {
       "pronunciation": [
@@ -12041,6 +12157,53 @@
     },
     "isAnglish": false
   },
+  "valknut": {
+    "n": {
+      "senses": [],
+      "origin": "Derived from Old Norse valr (“the slain”) and Old Norse knútr (“a knot”), meaning \"knot of the slain\". The term was coined in later history, as it is not known what name was used by the historical Norse for that symbol.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "valkyrie": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Old Norse valkyrja sg (“chooser of the slain”), plural valkyrjur pl, from Proto-Germanic *walakuzjǭ. Cognate to Old English wælcyrge. First attested in English as a proper noun (Valkyries) in the 1770s; attested as a common noun (valkyries) since the 1880s.",
+      "sounds": [
+        {
+          "ipa": "/ˈvælˌkɪ.ɹi/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈvælˌkɚ.i/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈvɑl-/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        },
+        {
+          "audio": "En-us-Valkyrie.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/En-us-Valkyrie.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/En-us-Valkyrie.ogg/En-us-Valkyrie.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "vallecula": {
     "n": {
       "form": [
@@ -12123,7 +12286,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "valley fever": {
     "n": {
@@ -12135,7 +12298,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "valley girl": {
     "n": {
@@ -12158,7 +12321,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "valley oak": {
     "n": {
@@ -12169,7 +12332,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "valley pocket gopher": {
     "n": {
@@ -12191,7 +12354,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "valor": {
     "n": {
@@ -13264,7 +13427,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vamoose": {
     "v": {
@@ -14091,6 +14254,14 @@
     },
     "isAnglish": false
   },
+  "vang": {
+    "v": {
+      "senses": [],
+      "origin": "Borrowed from Dutch vangen (“to catch”). Ultimately a doublet of etymology one.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "vanguard": {
     "n": {
       "pronunciation": [
@@ -14762,7 +14933,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vantage point": {
     "n": {
@@ -19002,7 +19173,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "vatic": {
     "a": {
@@ -19666,6 +19837,57 @@
     },
     "isAnglish": false
   },
+  "vaward": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English vawarde, late form of vantwarde, aphetism of Anglo-Norman avantwarde, a variant of Old French avant-guarde. Doublet of avant-garde and vanguard.",
+      "sounds": [
+        {
+          "ipa": "/ˈvɔːwəd/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈvɔwɚd/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ˈvɑwɚd/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "Inherited from Middle English vawarde, late form of vantwarde, aphetism of Anglo-Norman avantwarde, a variant of Old French avant-guarde. Doublet of avant-garde and vanguard.",
+      "sounds": [
+        {
+          "ipa": "/ˈvɔːwəd/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈvɔwɚd/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ˈvɑwɚd/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "veal": {
     "n": {
       "pronunciation": [
@@ -20009,6 +20231,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "veesick": {
+    "n": {
+      "senses": [],
+      "origin": "Ultimately from Old Norse vísa (“verse, strophe, stanza”) (perhaps via Norn [Term?]), whence also Danish vise (“song, ballad, ditty”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "veg": {
     "n": {
@@ -21758,7 +21988,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "veldt": {
     "n": {
@@ -25469,6 +25699,21 @@
     },
     "isAnglish": false
   },
+  "venomosity": {
+    "n": {
+      "senses": [],
+      "origin": "Probably from venomous + -ity; compare Middle English venymouste.",
+      "sounds": [
+        {
+          "ipa": "/vɛnəˈmɒsɪti/"
+        },
+        {
+          "ipa": "/vɛnəˈmɒsəti/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "venomous": {
     "a": {
       "pronunciation": [
@@ -25543,7 +25788,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "venomousness": {
     "n": {
@@ -26156,6 +26401,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "ventouse": {
+    "n": {
+      "senses": [],
+      "origin": "Possibly continuing Middle English ventouse, ventuse, ventose, a borrowing from Anglo-Norman ventuse; or perhaps a reborrowing directly from French ventouse, or both.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "Possibly continuing Middle English ventouse, ventuse, ventose, a borrowing from Anglo-Norman ventuse; or perhaps a reborrowing directly from French ventouse, or both.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "ventral": {
     "a": {
@@ -28193,7 +28451,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "verdigris": {
     "n": {
@@ -28847,7 +29105,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "verisimilar": {
     "a": {
@@ -30410,7 +30668,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "verse form": {
     "n": {
@@ -30421,7 +30679,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "verse line": {
     "n": {
@@ -30432,7 +30690,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "versed": {
     "a": {
@@ -34336,7 +34594,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vexer": {
     "n": {
@@ -34369,7 +34627,7 @@
       "origin": "From Middle English vexynge (“harassment”); equivalent to vex + -ing.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vi": {
     "a": {
@@ -34582,7 +34840,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "viand": {
     "n": {
@@ -36285,7 +36543,7 @@
       "origin": "From Middle English viciously; equivalent to vicious + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "viciousness": {
     "n": {
@@ -36313,7 +36571,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vicissitude": {
     "n": {
@@ -36778,7 +37036,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "victory": {
     "n": {
@@ -37846,7 +38104,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "viewers": {
     "n": {
@@ -39091,6 +39349,14 @@
     },
     "isAnglish": false
   },
+  "villainly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English vilenly; equivalent to villain + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "villainous": {
     "a": {
       "senses": [
@@ -40069,7 +40335,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vingt-et-un": {
     "n": {
@@ -40364,7 +40630,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "vintager": {
     "n": {
@@ -41130,7 +41396,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "violet": {
     "a": {
@@ -41947,6 +42213,45 @@
     },
     "isAnglish": false
   },
+  "virgate": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Latin virgāta, from Old English ġeardland, \"yard\" compared to \"virga\" as a measuring rod. Doublet of vergée.",
+      "sounds": [
+        {
+          "ipa": "/vɜɹˈɡeɪt/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈvɝɡət/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈvɜːɡət/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "(US) -eɪt"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-virgate.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/LL-Q1860_%28eng%29-Vealhurl-virgate.wav/LL-Q1860_%28eng%29-Vealhurl-virgate.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/LL-Q1860_%28eng%29-Vealhurl-virgate.wav/LL-Q1860_%28eng%29-Vealhurl-virgate.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "virgin": {
     "a": {
       "pronunciation": [
@@ -42762,6 +43067,14 @@
     },
     "isAnglish": false
   },
+  "virtual YouTuber": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese バーチャルYouTuber, from English virtual + YouTuber.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "virtual image": {
     "n": {
       "senses": [
@@ -42844,7 +43157,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "virtue": {
     "n": {
@@ -42926,6 +43239,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "virtueless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English vertulees; equivalent to virtue + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "virtuosity": {
     "n": {
@@ -43139,7 +43460,7 @@
       "origin": "From Middle English vertuously; equivalent to virtuous + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "virtuousness": {
     "n": {
@@ -43155,7 +43476,7 @@
       "origin": "From Middle English vertuousnesse; equivalent to virtuous + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "virucidal": {
     "a": {
@@ -50275,7 +50596,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "voice box": {
     "n": {
@@ -50355,7 +50676,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "voice part": {
     "n": {
@@ -50806,7 +51127,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "voiding": {
     "n": {
@@ -50822,6 +51143,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "voidness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English voidenesse, equivalent to void + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "voile": {
     "n": {
@@ -55689,6 +56018,21 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "vraic": {
+    "n": {
+      "senses": [],
+      "origin": "From Auregnais Norman vraic (“seaweed”), from Germanic. Doublet of wrack.",
+      "sounds": [
+        {
+          "ipa": "/vɹeɪk/"
+        },
+        {
+          "rhymes": "-eɪk"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "vroom": {
     "n": {

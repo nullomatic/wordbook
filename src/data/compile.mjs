@@ -242,6 +242,7 @@ function mergeMatchedSenses(wordnet) {
       const senses = entry[pos].map((synsetId) => ({
         synset: synsetId,
       }));
+      if (!wordnet.entries[word]?.[pos]) continue;
       wordnet.entries[word][pos].senses.push(...senses);
     }
   }
@@ -316,10 +317,10 @@ async function addWiktData(wikt, wordnet) {
     if (!pos) {
       return;
     }
-    wordnet.entries[word].isAnglish = wikt.checkIfAnglish(
-      json.etymology_templates
-    );
     if (wordnet.entries[word]?.[pos]) {
+      wordnet.entries[word].isAnglish = wikt.checkIfAnglish(
+        json.etymology_templates
+      );
       wordnet.entries[word][pos].origin = json.etymology_text;
       wordnet.entries[word][pos].sounds = json.sounds || [];
     }

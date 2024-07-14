@@ -18,7 +18,7 @@
       "origin": "Abbreviation.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "L'Aquila": {
     "n": {
@@ -97,7 +97,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "L. Frank Baum": {
     "n": {
@@ -612,6 +612,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "LN": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese LN (エルエヌ, eruenu), from ライトノベル (raito noberu), from English light+novel.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "LOX": {
     "n": {
@@ -1740,7 +1748,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Lady Day": {
     "n": {
@@ -1753,7 +1761,7 @@
       "origin": "From Middle English leafdi dei.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Lady Diana Frances Spencer": {
     "n": {
@@ -3457,7 +3465,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Lancaster": {
     "n": {
@@ -3782,7 +3790,7 @@
       "origin": "Learned borrowing from Latin langobardus (“a Lombard”), from Proto-Germanic *langabardaz, derived from the elements *langaz (“long”) + *bardaz (“beard”). Doublet of Lombard.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Langside": {
     "n": {
@@ -4331,6 +4339,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "Laphroaig": {
+    "n": {
+      "senses": [],
+      "origin": "From Goidelic/Scottish Gaelic; possibly from lag (“hollow”) + Old Norse breidd (“breadth”) + Old Norse vík (“bay”).",
+      "sounds": [
+        {
+          "ipa": "/ləˈfɹɔɪɡ/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Laplace": {
     "n": {
@@ -7968,7 +7988,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Leicestershire": {
     "n": {
@@ -8643,7 +8663,7 @@
       "origin": "From its blossoming in spring.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Lente Iletin": {
     "n": {
@@ -10482,7 +10502,7 @@
       "senses": [],
       "origin": "NE‹HG‹O"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Lettenland": {
     "n": {
@@ -16297,6 +16317,18 @@
     },
     "isAnglish": false
   },
+  "Lollard": {
+    "n": {
+      "senses": [],
+      "origin": "Late Middle English, possibly from or influenced by Dutch lollen (“to mumble”). Other origins have been proposed; see Lollardy.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɒlɑː(ɹ)d/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Loller": {
     "n": {
       "senses": [],
@@ -17220,7 +17252,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Lord Britten of Aldeburgh": {
     "n": {
@@ -19015,7 +19047,7 @@
       "origin": "From Middle English lufeless (“loveless”), possibly a nickname for a philanderer. In the libertine sense, refers to Robert Lovelace, a character in Samuel Richardson's 1748 novel Clarissa, or, the History of a Young Lady.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Lovell": {
     "n": {
@@ -19346,7 +19378,7 @@
       "origin": "From Lowlands + -er.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Lowlands": {
     "n": {
@@ -20245,6 +20277,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "Ludlow": {
+    "a": {
+      "senses": [],
+      "origin": "From the Old English rivername Hlūde, now the River Teme, + hlǣw (“mountain, hill, mound”).",
+      "sounds": [
+        {
+          "ipa": "/ˈlʌd.ləʊ/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Ludwig Boltzmann": {
     "n": {
@@ -23156,7 +23203,7 @@
       "origin": "Abbreviation.\n# (stenoscript) the sound sequence /ɛl/.\n# (stenoscript) Abbreviation of will.\n# (stenoscript) Abbreviation of well.\n# (stenoscript) Abbreviation of all.\n# (stenoscript) the suffix -ly or word-final syllable /liː/.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "la": {
     "n": {
@@ -23202,7 +23249,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laager": {
     "n": {
@@ -23243,7 +23290,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lab": {
     "n": {
@@ -26346,7 +26393,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lack belief": {
     "n": {
@@ -26462,7 +26509,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lackey": {
     "n": {
@@ -26535,7 +26582,23 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
+  },
+  "lackless": {
+    "a": {
+      "senses": [],
+      "origin": "Probably a special development of the above, influenced by luckless.",
+      "sounds": [
+        {
+          "ipa": "/ˈlækləs/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "lackluster": {
     "a": {
@@ -26616,7 +26679,7 @@
       "origin": "lack + wit",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laconic": {
     "a": {
@@ -28087,7 +28150,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ladder-back chair": {
     "n": {
@@ -28299,7 +28362,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ladened": {
     "a": {
@@ -28419,6 +28482,19 @@
     },
     "isAnglish": false
   },
+  "ladily": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ladyly, ladily; equivalent to lady + -ly.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English ladyly, ladily; equivalent to lady + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lading": {
     "n": {
       "senses": [
@@ -28457,7 +28533,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ladle": {
     "n": {
@@ -28552,6 +28628,14 @@
     },
     "isAnglish": true
   },
+  "ladleful": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ladelful, ladel-ful; equivalent to ladle + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lady": {
     "n": {
       "pronunciation": [
@@ -28606,7 +28690,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lady chapel": {
     "n": {
@@ -28629,7 +28713,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lady fern": {
     "n": {
@@ -28641,7 +28725,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lady friend": {
     "n": {
@@ -28653,7 +28737,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lady killer": {
     "n": {
@@ -28700,7 +28784,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lady slipper": {
     "n": {
@@ -29094,7 +29178,7 @@
       "origin": "lady + -like",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ladylikeness": {
     "n": {
@@ -29139,6 +29223,22 @@
         }
       ],
       "sounds": []
+    },
+    "isAnglish": false
+  },
+  "ladyship": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ladyship; equivalent to lady + -ship.",
+      "sounds": [
+        {
+          "ipa": "/ˈleɪ.di.ʃɪp/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -29777,7 +29877,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lahar": {
     "n": {
@@ -29961,7 +30061,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laid-back": {
     "a": {
@@ -29987,6 +30087,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "laidly": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English laithlie (“ugly”), equivalent to loath+-ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lain": {
     "v": {
@@ -30085,7 +30193,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laird": {
     "n": {
@@ -30142,7 +30250,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lairing": {
     "n": {
@@ -30384,6 +30492,14 @@
     },
     "isAnglish": true
   },
+  "laitand": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English laitande, present participle of laiten (“to seek, look for”), equivalent to lait + -and.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "laith": {
     "n": {
       "senses": [],
@@ -30494,7 +30610,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lake bed": {
     "n": {
@@ -30562,7 +30678,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lake herring": {
     "n": {
@@ -30615,7 +30731,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lake whitefish": {
     "n": {
@@ -30656,7 +30772,28 @@
       ],
       "origin": "OE, hlacerian; rare"
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "n": {
+      "senses": [],
+      "origin": "From lake (“body of water”) + -er (“inhabitant”) or + -er (relational suffix).",
+      "sounds": [
+        {
+          "ipa": "/ˈleɪkə(ɹ)/"
+        },
+        {
+          "rhymes": "-eɪkə(ɹ)"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-laker.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/LL-Q1860_%28eng%29-Vealhurl-laker.wav/LL-Q1860_%28eng%29-Vealhurl-laker.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/LL-Q1860_%28eng%29-Vealhurl-laker.wav/LL-Q1860_%28eng%29-Vealhurl-laker.wav.mp3"
+        }
+      ]
+    }
   },
   "lakering": {
     "n": {
@@ -30824,6 +30961,33 @@
     },
     "isAnglish": false
   },
+  "lakin": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/ˈleɪkɪn/"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "laky": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English laky, equivalent to lake + -y.",
+      "sounds": [
+        {
+          "ipa": "/ˈleɪki/"
+        },
+        {
+          "rhymes": "-eɪki"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lallation": {
     "n": {
       "senses": [
@@ -30968,7 +31132,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lam into": {
     "v": {
@@ -30987,7 +31151,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lama": {
     "n": {
@@ -31157,7 +31321,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lamb curry": {
     "n": {
@@ -31246,7 +31410,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lambast": {
     "v": {
@@ -31274,7 +31438,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lambaste": {
     "v": {
@@ -31528,6 +31692,14 @@
     },
     "isAnglish": false
   },
+  "lambish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lambish, lambisch, equivalent to lamb + -ish.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lambkill": {
     "n": {
       "senses": [
@@ -31600,6 +31772,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "lambren": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lambren, alteration of Middle English lambre (“lambs”), from Old English lambru (“lambs”), from Proto-Germanic *lambizō, plural of Proto-Germanic *lambaz (“lamb”), corresponding to lamb + -ren. Compare Saterland Frisian Loumere (“lambs”), Dutch lammeren (“lambs”), German Low German Lammer (“lambs”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lambrequin": {
     "n": {
@@ -31771,7 +31951,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lame duck": {
     "n": {
@@ -31794,7 +31974,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lamed": {
     "a": {
@@ -31817,7 +31997,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lamedh": {
     "n": {
@@ -32740,6 +32920,14 @@
     },
     "isAnglish": false
   },
+  "laming": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English laminge, equivalent to lame + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "laminitis": {
     "n": {
       "senses": [
@@ -32983,6 +33171,14 @@
     },
     "isAnglish": false
   },
+  "lamp-oil": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lamp oyl, lampehoyle, lamp oyle, lampe oyl, lampe oyle, equivalent to lamp + oil. Compare West Frisian lampoalje (“lamp-oil”), Dutch lampolie (“lamp-oil”), German Lampenöl (“lamp-oil”), Danish lampeolie (“lamp-oil”), Swedish lampolja (“lamp-oil”), Icelandic lampaolía (“lamp-oil”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lampblack": {
     "n": {
       "senses": [
@@ -33040,7 +33236,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lamplighter": {
     "n": {
@@ -33314,7 +33510,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lan": {
     "n": {
@@ -34078,7 +34274,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land development": {
     "n": {
@@ -34114,7 +34310,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land mass": {
     "n": {
@@ -34126,7 +34322,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land mile": {
     "n": {
@@ -34138,7 +34334,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land mine": {
     "n": {
@@ -34163,7 +34359,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land of the midnight Sun": {
     "n": {
@@ -34197,7 +34393,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land reform": {
     "n": {
@@ -34230,7 +34426,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "land snail": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English lond snayl (attested in the plural londe snayles), equivalent to land + snail. Compare water snail, sea snail, etc.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "land tax": {
     "n": {
@@ -34276,7 +34480,7 @@
       "origin": "Idiom derived from \"to land.\"",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "land-eft": {
     "n": {
@@ -34418,7 +34622,7 @@
       "origin": "land + book",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landboten": {
     "v": {
@@ -34490,7 +34694,7 @@
       "origin": "From Middle English lande, launde, from Old French lande (“clearing in a wood, leigh; remote wooded area”). Doublet of lawn and land.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landed": {
     "a": {
@@ -34586,7 +34790,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landfall": {
     "n": {
@@ -34632,7 +34836,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landferd": {
     "n": {
@@ -34712,7 +34916,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landfowl": {
     "n": {
@@ -34720,7 +34924,7 @@
       "origin": "From land + fowl.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landfrod": {
     "n": {
@@ -34746,7 +34950,7 @@
       "origin": "Learned borrowing from Old English landfyrd (“army”); equivalent to land + fyrd.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landgood": {
     "n": {
@@ -34813,7 +35017,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landimere": {
     "n": {
@@ -34873,7 +35077,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landing approach": {
     "n": {
@@ -34884,7 +35088,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "landing craft": {
     "n": {
@@ -34896,7 +35100,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landing deck": {
     "n": {
@@ -34919,7 +35123,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landing flap": {
     "n": {
@@ -34930,7 +35134,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "landing gear": {
     "n": {
@@ -34942,7 +35146,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landing net": {
     "n": {
@@ -34954,7 +35158,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landing party": {
     "n": {
@@ -35021,7 +35225,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landish": {
     "a": {
@@ -35094,6 +35298,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "landleaper": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English landeleper, londlepar; equivalent to land + leaper. Conflated with the adstratal landlouper.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -35403,7 +35615,7 @@
       "origin": "land + -man",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landmark": {
     "n": {
@@ -35974,7 +36186,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landsid": {
     "n": {
@@ -36073,7 +36285,7 @@
       "origin": "From land + -s- + man. In meanings 3 and 4, influenced by Yiddish לאַנדסמאַן (landsman). Compare also German Landsmann, Norwegian landsmann. Doublet of lantzman.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "landsong": {
     "n": {
@@ -36306,7 +36518,7 @@
       "origin": "lane + way",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lang syne": {
     "n": {
@@ -37079,7 +37291,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lanolin": {
     "n": {
@@ -37207,7 +37419,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "v": {
       "senses": [],
       "origin": "Alteration of earlier land (“urine”), from Middle English *land (“urine”), from Old English hland (“urine”), from Proto-West Germanic *hland, from Proto-Germanic *hlandą (“urine”), from Proto-Indo-European *klān- (“liquid, wet ground”). Cognate with Icelandic hland (“urine”), Norwegian Nynorsk land (“urine”).",
@@ -37744,7 +37956,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lap choly": {
     "n": {
@@ -37768,7 +37980,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lap joint": {
     "n": {
@@ -37851,7 +38063,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lap-jointed": {
     "a": {
@@ -38560,7 +38772,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lapping machine": {
     "n": {
@@ -39220,6 +39432,41 @@
     },
     "isAnglish": false
   },
+  "larderer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English larderer, larderere, equivalent to larder + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "lardiner": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English lardener, from Anglo-Norman lardiner, modification of larder (“larder”) after gardiner (“gardener”). Compare obsolete Scots laidner (“larder”).",
+      "sounds": [
+        {
+          "ipa": "/ˈlɑːdɪnə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈlɑːdnə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈlɑɹdənɚ/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lardizabala family": {
     "n": {
       "senses": [
@@ -39466,7 +39713,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "large calorie": {
     "n": {
@@ -39489,7 +39736,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "large civet": {
     "n": {
@@ -39522,7 +39769,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "large indefinite amount": {
     "n": {
@@ -39600,7 +39847,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "large person": {
     "n": {
@@ -39645,7 +39892,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "large white petunia": {
     "n": {
@@ -39805,7 +40052,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "large-leaved aster": {
     "n": {
@@ -39890,7 +40137,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "largeleaf holly": {
     "n": {
@@ -40114,7 +40361,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "larger-than-life": {
     "a": {
@@ -40480,7 +40727,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lark about": {
     "v": {
@@ -40506,7 +40753,7 @@
       "origin": "lark + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "larkhouse": {
     "n": {
@@ -41530,7 +41777,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lash out": {
     "v": {
@@ -41550,7 +41797,7 @@
       "origin": "For the verb's chief current sense (to attack suddenly), surface analysis suggests reaching out with the lash (either literally or figuratively); however, the verb is entered in various early-19th-century dictionaries with various senses, only some of which have to do with attacking, kicking, or similar. One of them corresponds to today's splash out (that is, to break out into spending), while another corresponds to breaking out into expressing oneself verbally.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lash together": {
     "v": {
@@ -41566,7 +41813,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lash-like": {
     "a": {
@@ -41593,7 +41840,7 @@
       "origin": "Deverbal from lash up.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lashdye": {
     "n": {
@@ -41703,7 +41950,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lasiocampid": {
     "n": {
@@ -42469,7 +42716,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last minute": {
     "n": {
@@ -42491,7 +42738,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last name": {
     "n": {
@@ -42516,7 +42763,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last not least": {
     "r": {
@@ -42527,7 +42774,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "last out": {
     "v": {
@@ -42542,7 +42789,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last quarter": {
     "n": {
@@ -42627,7 +42874,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last word": {
     "n": {
@@ -42657,7 +42904,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last words": {
     "n": {
@@ -42671,7 +42918,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last-but-one": {
     "a": {
@@ -42705,7 +42952,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last-minute": {
     "a": {
@@ -42717,7 +42964,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "last-place": {
     "a": {
@@ -42821,7 +43068,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lastingly": {
     "r": {
@@ -42837,7 +43084,7 @@
       "origin": "lasting + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lastingness": {
     "n": {
@@ -42879,7 +43126,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lastly": {
     "r": {
@@ -42988,7 +43235,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "latakia": {
     "n": {
@@ -43118,7 +43365,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "latch fire": {
     "v": {
@@ -43163,7 +43410,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "latchet": {
     "n": {
@@ -43410,7 +43657,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "late-flowering": {
     "a": {
@@ -44030,7 +44277,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lateral": {
     "a": {
@@ -44510,7 +44757,7 @@
       "origin": "late + -ward",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "latex": {
     "n": {
@@ -44922,7 +45169,7 @@
       "origin": "From lath + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lathsome": {
     "a": {
@@ -45586,7 +45833,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "latterday": {
     "a": {
@@ -45603,7 +45850,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "latterly": {
     "r": {
@@ -45616,7 +45863,7 @@
       "origin": "latter + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lattermath": {
     "n": {
@@ -46247,7 +46494,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laugh away": {
     "v": {
@@ -46265,7 +46512,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laugh line": {
     "n": {
@@ -46281,7 +46528,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laugh loudly": {
     "v": {
@@ -46296,7 +46543,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "laugh off": {
     "v": {
@@ -46314,7 +46561,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laugh softly": {
     "v": {
@@ -46328,7 +46575,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "laugh track": {
     "n": {
@@ -46500,7 +46747,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "laughing": {
     "a": {
@@ -46577,7 +46824,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laughingly": {
     "r": {
@@ -46603,7 +46850,7 @@
       "origin": "laughing + stock.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laughsome": {
     "a": {
@@ -46618,7 +46865,7 @@
       "origin": "laugh + -some",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laughter": {
     "n": {
@@ -46793,7 +47040,7 @@
       "origin": "laugh + -worthy",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lauhala": {
     "n": {
@@ -47202,52 +47449,6 @@
       "sounds": []
     },
     "isAnglish": false
-  },
-  "laund": {
-    "n": {
-      "senses": [
-        {
-          "synset": "08588163-n"
-        },
-        {
-          "synset": "08633625-n"
-        },
-        {
-          "synset": "08558851-n"
-        },
-        {
-          "synset": "08615857-n"
-        },
-        {
-          "synset": "08587527-n"
-        },
-        {
-          "synset": "08588287-n"
-        },
-        {
-          "synset": "09416498-n"
-        }
-      ],
-      "origin": "From Middle English launde, from Old French launde (“wooded area”) (French lande), of Germanic or Gaulish origin, from Proto-Germanic *landą (“land”) or Proto-Celtic *landā, both from Proto-Indo-European *lendʰ- (“land, heath”). Doublet of land.",
-      "sounds": [
-        {
-          "ipa": "/lɔːnd/"
-        },
-        {
-          "rhymes": "-ɔːnd"
-        },
-        {
-          "audio": "LL-Q1860 (eng)-Vealhurl-laund.wav",
-          "text": "Audio (Southern England)",
-          "tags": [
-            "Southern-England"
-          ],
-          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/LL-Q1860_%28eng%29-Vealhurl-laund.wav/LL-Q1860_%28eng%29-Vealhurl-laund.wav.ogg",
-          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/LL-Q1860_%28eng%29-Vealhurl-laund.wav/LL-Q1860_%28eng%29-Vealhurl-laund.wav.mp3"
-        }
-      ]
-    },
-    "isAnglish": true
   },
   "launder": {
     "v": {
@@ -48241,6 +48442,14 @@
     },
     "isAnglish": false
   },
+  "lavant": {
+    "n": {
+      "senses": [],
+      "origin": "Uncertain. Possibly from Middle English *lavand, *lavant, lavande, present participle of Middle English laven (“to stream, pour out a stream, wash”), from Old English lafian (“to pour water on, wash, lave, bathe, ladle out”), equivalent to lave + -and; or from Old French lavant, present participle of laver (“to wash”). See lave.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lavation": {
     "n": {
       "senses": [
@@ -48558,7 +48767,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laverock": {
     "n": {
@@ -48731,7 +48940,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lavishness": {
     "n": {
@@ -48776,6 +48985,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "lavy": {
+    "n": {
+      "senses": [],
+      "origin": "From Irish lamhaidh, from Old Norse tangvé, langvé. Cognate with Icelandic langvía, lómvia, Faroese lomvigi, Norwegian langve, lomvi. Compare also French lare (“seagull”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "law": {
     "n": {
@@ -49137,7 +49354,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "law of equal areas": {
     "n": {
@@ -49329,7 +49546,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "law of thermodynamics": {
     "n": {
@@ -49396,7 +49613,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "law student": {
     "n": {
@@ -49430,7 +49647,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "law-abidingness": {
     "n": {
@@ -49581,7 +49798,7 @@
       "origin": "law + breaking",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawcourt": {
     "n": {
@@ -49604,7 +49821,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawful": {
     "a": {
@@ -49752,7 +49969,7 @@
       "origin": "From Middle English laufulnes, lahfulnesse, equivalent to lawful + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lawgiver": {
     "n": {
@@ -49823,7 +50040,7 @@
       "origin": "law + -ing",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawless": {
     "a": {
@@ -49957,6 +50174,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "lawly": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lawly, Northern variant of Middle English lowly, louly, louelich, equivalent to law (“low”) + -ly. More at lowly.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "lawmaker": {
@@ -50072,7 +50297,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawmoot": {
     "n": {
@@ -50130,7 +50355,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawn bowling": {
     "n": {
@@ -50153,7 +50378,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawn chair": {
     "n": {
@@ -50242,7 +50467,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lawrencium": {
     "n": {
@@ -50448,7 +50673,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lawyer bush": {
     "n": {
@@ -50459,7 +50684,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lawyer cane": {
     "n": {
@@ -50567,7 +50792,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "laxation": {
     "n": {
@@ -50931,6 +51156,24 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "lay a finger on": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English fynger on (hem) to leyn (“touch (someone) with hostile intent”).",
+      "sounds": [
+        {
+          "audio": "En-au-lay a finger on.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/En-au-lay_a_finger_on.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/En-au-lay_a_finger_on.ogg/En-au-lay_a_finger_on.ogg.mp3"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "lay about": {
@@ -50966,7 +51209,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay away": {
     "v": {
@@ -50984,7 +51227,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay bare": {
     "v": {
@@ -50995,7 +51238,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay claim": {
     "v": {
@@ -51101,7 +51344,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay in": {
     "v": {
@@ -51116,7 +51359,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay into": {
     "v": {
@@ -51135,7 +51378,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay low": {
     "v": {
@@ -51147,7 +51390,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay of the lan": {
     "n": {
@@ -51198,7 +51441,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay on": {
     "v": {
@@ -51225,7 +51468,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay on the line": {
     "v": {
@@ -51251,7 +51494,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay out": {
     "v": {
@@ -51303,7 +51546,7 @@
       "origin": "From lay + out.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay over": {
     "v": {
@@ -51345,7 +51588,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay reader": {
     "n": {
@@ -51357,7 +51600,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay to rest": {
     "v": {
@@ -51402,7 +51645,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay waste to": {
     "v": {
@@ -51465,7 +51708,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lay-up": {
     "n": {
@@ -51477,7 +51720,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "layabout": {
     "n": {
@@ -51677,7 +51920,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "layer cake": {
     "n": {
@@ -51839,7 +52082,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "layoff": {
     "n": {
@@ -51906,7 +52149,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "layover": {
     "n": {
@@ -52428,6 +52671,19 @@
     },
     "isAnglish": true
   },
+  "le dollar bean": {
+    "a": {
+      "senses": [],
+      "origin": "From English le$bian, as pronounced by TikTok's text-to-speech feature.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From English le$bian, as pronounced by TikTok's text-to-speech feature.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lea": {
     "n": {
       "senses": [
@@ -52605,7 +52861,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead": {
     "n-1": {
@@ -52878,7 +53134,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead acetate": {
     "n": {
@@ -52980,7 +53236,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead carbonate": {
     "n": {
@@ -53027,7 +53283,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead in": {
     "v": {
@@ -53050,7 +53306,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead line": {
     "n": {
@@ -53062,7 +53318,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead off": {
     "v": {
@@ -53085,7 +53341,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead off from": {
     "v": {
@@ -53126,7 +53382,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead ore": {
     "n": {
@@ -53159,7 +53415,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead pencil": {
     "n": {
@@ -53183,7 +53439,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead poisoning": {
     "n": {
@@ -53217,7 +53473,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead story": {
     "n": {
@@ -53261,7 +53517,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead to": {
     "v": {
@@ -53365,7 +53621,7 @@
       "origin": "From lead + -free.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead-in": {
     "n": {
@@ -53382,7 +53638,7 @@
       "origin": "Deverbal from lead in.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lead-off": {
     "n": {
@@ -53396,7 +53652,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leadabout": {
     "n": {
@@ -53714,6 +53970,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "leadiness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ledynesse, equivalent to leady + -ness.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "leading": {
@@ -53828,7 +54092,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leading indicator": {
     "n": {
@@ -53852,7 +54116,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leading light": {
     "n": {
@@ -53874,7 +54138,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leading man": {
     "n": {
@@ -53886,7 +54150,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leading off": {
     "n": {
@@ -53933,7 +54197,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leading-off": {
     "n": {
@@ -53943,6 +54207,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "leadish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ledissh, ledisch, equivalent to lead + -ish.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -53992,6 +54264,27 @@
     },
     "isAnglish": false
   },
+  "leadsman": {
+    "n": {
+      "senses": [],
+      "origin": "From (genitive form of) lead (“heavy metal; Pb”) + man.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɛdzmən/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "enpr": "lĕdzʹmən",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "leadstick": {
     "n": {
       "senses": [
@@ -54025,7 +54318,7 @@
       "origin": "lead + work",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leadworker": {
     "n": {
@@ -54061,6 +54354,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "leady": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English leddy, ledy, ledi, equivalent to lead + -y.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɛdi/"
+        },
+        {
+          "rhymes": "-ɛdi"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "leaf": {
     "n": {
@@ -54243,7 +54551,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf blade": {
     "n": {
@@ -54277,7 +54585,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf bug": {
     "n": {
@@ -54323,7 +54631,7 @@
       "origin": "From its layered appearance.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf folding": {
     "n": {
@@ -54397,7 +54705,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf mold": {
     "n": {
@@ -54410,7 +54718,7 @@
       "origin": "From leaf + mold.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf mould": {
     "n": {
@@ -54421,7 +54729,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leaf mustard": {
     "n": {
@@ -54495,7 +54803,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf spring": {
     "n": {
@@ -54507,7 +54815,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf-book": {
     "n": {
@@ -54530,7 +54838,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf-cutter bee": {
     "n": {
@@ -54542,7 +54850,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf-cutting bee": {
     "n": {
@@ -54554,7 +54862,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf-foot bug": {
     "n": {
@@ -54600,7 +54908,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaf-nosed bat": {
     "n": {
@@ -54694,7 +55002,7 @@
       "origin": "leaf + -dom",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leafed": {
     "a": {
@@ -54784,7 +55092,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leafless": {
     "a": {
@@ -54800,7 +55108,7 @@
       "origin": "From earlier leaveless, from Middle English leveles, equivalent to leaf + -less.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leaflet": {
     "n": {
@@ -54882,7 +55190,7 @@
       "origin": "From leaf + -ling.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leafnose bat": {
     "n": {
@@ -54922,7 +55230,7 @@
       "origin": "leaf + -some",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leafstalk": {
     "n": {
@@ -55044,7 +55352,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leafy liverwort": {
     "n": {
@@ -55056,7 +55364,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leafy spurge": {
     "n": {
@@ -55219,6 +55527,19 @@
           "synset": "02434925-v"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "leaguer": {
+    "n": {
+      "senses": [],
+      "origin": "Related to lager.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Dutch leger (“army”), itself derived from Proto-Germanic *legrą. Doublet of lair.",
+      "sounds": []
     },
     "isAnglish": false
   },
@@ -55425,7 +55746,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leakage": {
     "n": {
@@ -55526,7 +55847,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leakproof": {
     "a": {
@@ -55739,7 +56060,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leamer": {
     "n": {
@@ -55754,7 +56075,7 @@
       "origin": "From French limier, from Old French liemier, from Latin ligamen (“band, bandage”). See lien.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaming": {
     "a": {
@@ -55962,7 +56283,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lean against": {
     "v": {
@@ -56016,7 +56337,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lean-to": {
     "n": {
@@ -56195,7 +56516,7 @@
       "origin": "From Middle English lenenesse, equivalent to lean + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leanset": {
     "n": {
@@ -56472,7 +56793,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leap in": {
     "v": {
@@ -56797,7 +57118,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -57093,7 +57414,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "learned person": {
     "n": {
@@ -57255,7 +57576,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "learner's dictionary": {
     "n": {
@@ -57504,6 +57825,50 @@
     },
     "isAnglish": true
   },
+  "learnt": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English lernd, lernde, equivalent to learn + -t.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɜːnt/",
+          "tags": [
+            "General-Australian",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈlɝnt/",
+          "tags": [
+            "Canada",
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)nt"
+        },
+        {
+          "audio": "en-uk-learnt.ogg",
+          "text": "Audio (UK)",
+          "tags": [
+            "UK"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/En-uk-learnt.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/En-uk-learnt.ogg/En-uk-learnt.ogg.mp3"
+        },
+        {
+          "audio": "en-au-learnt.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/En-au-learnt.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/En-au-learnt.ogg/En-au-learnt.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lease": {
     "n": {
       "senses": [
@@ -57678,7 +58043,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lease giver": {
     "n": {
@@ -57689,7 +58054,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lease-lend": {
     "n": {
@@ -57701,7 +58066,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leased": {
     "a": {
@@ -57959,7 +58324,28 @@
         }
       ]
     },
-    "isAnglish": true
+    "v": {
+      "senses": [],
+      "origin": "From lease (“to rent out”) + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈliːsɪŋ/"
+        },
+        {
+          "rhymes": "-iːsɪŋ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-leasing (s).wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/LL-Q1860_%28eng%29-Vealhurl-leasing_%28s%29.wav/LL-Q1860_%28eng%29-Vealhurl-leasing_%28s%29.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/LL-Q1860_%28eng%29-Vealhurl-leasing_%28s%29.wav/LL-Q1860_%28eng%29-Vealhurl-leasing_%28s%29.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "leasow": {
     "n": {
@@ -58198,7 +58584,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "least resistance": {
     "n": {
@@ -58538,7 +58924,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leather fern": {
     "n": {
@@ -58626,7 +59012,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leatherback": {
     "n": {
@@ -59339,7 +59725,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leave alone": {
     "v": {
@@ -59359,7 +59745,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leave behind": {
     "v": {
@@ -59396,7 +59782,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leave in a will": {
     "v": {
@@ -59490,7 +59876,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leave office": {
     "v": {
@@ -59532,7 +59918,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leave-taking": {
     "n": {
@@ -59544,7 +59930,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leaved": {
     "a": {
@@ -59578,7 +59964,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leaveful": {
     "a": {
@@ -59594,6 +59980,14 @@
         }
       ],
       "origin": "ME, lēfful"
+    },
+    "isAnglish": true
+  },
+  "leaveless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English leveles, equivalent to leaf + -less.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -59814,7 +60208,7 @@
       "origin": "Participial form of \"leave\".",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lebensraum": {
     "n": {
@@ -60484,7 +60878,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leden": {
     "n": {
@@ -60700,7 +61094,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ledger entry": {
     "n": {
@@ -60723,7 +61117,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ledger paper": {
     "n": {
@@ -60735,6 +61129,30 @@
       ]
     },
     "isAnglish": false
+  },
+  "ledging": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English leggyng, legynge, equivalent to ledge + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ledgment": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English legement; equivalent to ledge + -ment.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ledish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ledisshe, ledische, equivalent to lead + -ish.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lee": {
     "a": {
@@ -60844,7 +61262,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lee side": {
     "n": {
@@ -60865,6 +61283,14 @@
           "synset": "07418201-n"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "leeboard": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lebord, leburd, probably from Old Norse *hléborð, equivalent to lee + board. Cognate with Icelandic hléborð.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -61172,7 +61598,7 @@
       "origin": "See lede.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leedfrom": {
     "n": {
@@ -61472,7 +61898,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leerer": {
     "n": {
@@ -61490,7 +61916,7 @@
       "origin": "leer + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leering": {
     "a": {
@@ -61570,7 +61996,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lees": {
     "n": {
@@ -61635,7 +62061,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leeselore": {
     "n": {
@@ -61743,7 +62169,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leeth": {
     "n": {
@@ -62157,7 +62583,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leflunomide": {
     "n": {
@@ -62413,7 +62839,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left brain": {
     "n": {
@@ -62425,7 +62851,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left coronary artery": {
     "n": {
@@ -62468,7 +62894,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left fielder": {
     "n": {
@@ -62484,7 +62910,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left gastric artery": {
     "n": {
@@ -62521,7 +62947,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left hander": {
     "n": {
@@ -62556,7 +62982,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left stage": {
     "n": {
@@ -62605,7 +63031,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "left-hand": {
     "a": {
@@ -62633,7 +63059,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left-handed": {
     "a": {
@@ -62673,7 +63099,7 @@
       "origin": "From Middle English left handyd, lyfthonded, equivalent to left + handed.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "left-handed pitcher": {
     "n": {
@@ -62704,7 +63130,7 @@
       "origin": "From left-handed + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "left-hander": {
     "n": {
@@ -62972,7 +63398,7 @@
       "origin": "From left (“remaining, abandoned”) + over (“excess”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leftovers": {
     "n": {
@@ -62984,7 +63410,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leftwise": {
     "r": {
@@ -62996,7 +63422,7 @@
       "origin": "left + -wise",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lefty": {
     "n": {
@@ -63035,6 +63461,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "lefull": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lefull (“permissible, allowable”), from lēve (“permission, privilege”), equivalent to leave + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "leg": {
     "n": {
@@ -63104,7 +63538,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leg covering": {
     "n": {
@@ -63115,7 +63549,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leg curl": {
     "n": {
@@ -63210,7 +63644,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leg up": {
     "n": {
@@ -63234,7 +63668,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leg-pull": {
     "n": {
@@ -64047,7 +64481,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "legatee": {
     "n": {
@@ -64450,7 +64884,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "legging": {
     "n": {
@@ -64495,7 +64929,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leggy": {
     "a": {
@@ -64543,6 +64977,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "legharness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English legharneis; equivalent to leg + harness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "leghorn": {
     "n": {
@@ -65570,7 +66012,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "legless lizard": {
     "n": {
@@ -65753,7 +66195,7 @@
       "origin": "leg + -wear",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "legwork": {
     "n": {
@@ -65790,7 +66232,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lei": {
     "n": {
@@ -66036,7 +66478,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leisure": {
     "n": {
@@ -66138,6 +66580,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "leisureful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English leiserful, equivalent to leisure + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "leisureliness": {
     "n": {
@@ -66526,6 +66976,14 @@
     },
     "isAnglish": false
   },
+  "lemman": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lemman, lefmon, leofmon, from Old English lēof + mann, equivalent to lief + man.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lemming": {
     "n": {
       "pronunciation": [
@@ -66562,7 +67020,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lemniscate": {
     "n": {
@@ -67406,7 +67864,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lendable": {
     "a": {
@@ -67488,7 +67946,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lending": {
     "n": {
@@ -67641,7 +68099,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lengthen": {
     "v": {
@@ -67695,7 +68153,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lengthened": {
     "a": {
@@ -67854,7 +68312,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lenience": {
     "n": {
@@ -68227,7 +68685,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lensman": {
     "n": {
@@ -68273,7 +68731,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lent-addle": {
     "n": {
@@ -70192,7 +70650,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lesser": {
     "a": {
@@ -70247,7 +70705,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lesser anteater": {
     "n": {
@@ -70271,7 +70729,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lesser boardbone": {
     "n": {
@@ -70352,7 +70810,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lesser duckweed": {
     "n": {
@@ -70740,7 +71198,7 @@
       "origin": "From Middle English lessour, from Anglo-Norman lessour.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lest": {
     "c": {
@@ -70946,7 +71404,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let die out": {
     "v": {
@@ -70999,7 +71457,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let drive": {
     "v": {
@@ -71014,7 +71472,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let fly": {
     "v": {
@@ -71039,7 +71497,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let go": {
     "v": {
@@ -71063,7 +71521,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let go of": {
     "v": {
@@ -71106,7 +71564,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let it go": {
     "v": {
@@ -71137,7 +71595,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let leave": {
     "v": {
@@ -71193,7 +71651,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let off": {
     "v": {
@@ -71222,7 +71680,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let off the hook": {
     "v": {
@@ -71273,7 +71731,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let on about": {
     "v": {
@@ -71334,6 +71792,24 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "let slide": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English leten sliden (“to disregard, put aside, let pass, neglect”), equivalent to let + slide.",
+      "sounds": [
+        {
+          "audio": "En-au-let slide.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/En-au-let_slide.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/En-au-let_slide.ogg/En-au-let_slide.ogg.mp3"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "let something go on": {
@@ -71377,7 +71853,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let up": {
     "v": {
@@ -71408,7 +71884,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "let-on": {
     "n": {
@@ -71437,7 +71913,7 @@
       "origin": "Deverbal from let up.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "letch": {
     "n": {
@@ -71466,7 +71942,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "letdown": {
     "n": {
@@ -71482,7 +71958,7 @@
       "origin": "Deverbal from let down.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "letgame": {
     "n": {
@@ -71942,7 +72418,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "letter bomb": {
     "n": {
@@ -71986,7 +72462,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "letter box": {
     "n": {
@@ -72252,6 +72728,19 @@
     },
     "isAnglish": false
   },
+  "letterly": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English letterly, equivalent to letter + -ly.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English letterly, equivalent to letter + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "letterman": {
     "n": {
       "senses": [
@@ -72430,6 +72919,14 @@
     },
     "isAnglish": false
   },
+  "lettice": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "letting": {
     "n": {
       "pronunciation": [
@@ -72461,7 +72958,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "letting down": {
     "n": {
@@ -72591,7 +73088,7 @@
       "origin": "Deverbal from let up.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "leu": {
     "n": {
@@ -72768,6 +73265,27 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "leud": {
+    "n": {
+      "senses": [],
+      "origin": "1750, from Medieval Latin leudēs pl (“vassals or followers of the king”), from Frankish *liudi (“people”), from Proto-Germanic *liudiz (“people”), from Proto-Indo-European *h₁léwdʰis (“man, people”). Cognate with Old High German liuti (“people, subordinates”), Gothic *𐌻𐌹𐌿𐌸𐍃 (*liuþs), Old English lēod (“chief, man”). More at lede and leod.",
+      "sounds": [
+        {
+          "ipa": "/luːd/"
+        },
+        {
+          "rhymes": "-uːd"
+        },
+        {
+          "homophone": "lewd"
+        },
+        {
+          "enpr": "lo͞od"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "leukaemia": {
     "n": {
@@ -73163,6 +73681,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "leveful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English leveful, equivalent to leave (“permission”) + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "level": {
     "a": {
@@ -73688,7 +74214,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "levengame": {
     "n": {
@@ -73906,7 +74432,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lever lock": {
     "n": {
@@ -73917,7 +74443,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lever scale": {
     "n": {
@@ -73928,7 +74454,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lever tumbler": {
     "n": {
@@ -73939,7 +74465,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "leverage": {
     "n": {
@@ -74672,7 +75198,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "v": {
       "senses": [
         {
@@ -74773,7 +75299,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lewdly": {
     "r": {
@@ -74789,7 +75315,7 @@
       "origin": "From Middle English lewedly (“ignorantly, stupidly”); equivalent to lewd + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lewdness": {
     "n": {
@@ -74829,7 +75355,7 @@
       "origin": "From lewd + -ster.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lewing": {
     "n": {
@@ -75497,7 +76023,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "li": {
     "a": {
@@ -76148,7 +76674,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "libeler": {
     "n": {
@@ -76754,7 +77280,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liberated": {
     "a": {
@@ -78392,7 +78918,12 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English līke, līch (“like”); see like and -like for more. Compare -ly and -lich.",
+      "sounds": []
+    }
   },
   "lich-keep": {
     "n": {
@@ -78865,7 +79396,7 @@
       "origin": "lich (“corpse”) + yard",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "licit": {
     "a": {
@@ -79046,7 +79577,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "licked": {
     "a": {
@@ -79062,6 +79593,27 @@
         },
         {
           "rhymes": "-ɪkt"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "licker": {
+    "n": {
+      "senses": [],
+      "origin": "See liquor.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɪkɚ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "homophone": "liquor"
+        },
+        {
+          "rhymes": "-ɪkə(ɹ)"
         }
       ]
     },
@@ -79086,6 +79638,14 @@
           "homophone": "liquorice"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "lickerousness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English likerousnesse, equivalent to lickerous + -ness. Compare lecherousness.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -79146,6 +79706,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "lickpot": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English likpot; equivalent to lick + pot. Possibly from the act of using a finger to clean a pot after eating.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "lickspittle": {
@@ -79189,7 +79757,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "licorice": {
     "n": {
@@ -79433,6 +80001,14 @@
           "rhymes": "-ɪdən"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "lidderon": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lidrone, from lidder, lither (“bad, wicked, false”), from Old English lȳþre (“bad, wicked, base, mean, corrupt, wretched”), from Proto-Germanic *lūþrijaz (“neglected, dissolute, useless, bad”), from Proto-Indo-European *(s)lew- (“slack, limp”). More at lither.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -79780,7 +80356,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie awake": {
     "v": {
@@ -79812,7 +80388,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie detector": {
     "n": {
@@ -79858,7 +80434,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie in": {
     "v": {
@@ -79880,7 +80456,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie in wait": {
     "v": {
@@ -79918,7 +80494,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie to": {
     "v": {
@@ -79935,7 +80511,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie under oath": {
     "v": {
@@ -79966,7 +80542,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie-abed": {
     "n": {
@@ -79978,7 +80554,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lie-in": {
     "n": {
@@ -79991,7 +80567,7 @@
       "origin": "After sit-in etc.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liebfraumilch": {
     "n": {
@@ -80410,7 +80986,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lien": {
     "n-1": {
@@ -80481,6 +81057,36 @@
         {
           "id": "lienal_artery%1:08:00::",
           "synset": "05357609-n"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "lier": {
+    "n": {
+      "senses": [],
+      "origin": "See the main lemma.",
+      "sounds": [
+        {
+          "ipa": "/ˈlaɪ.ə/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˈlaɪ.ɚ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-aɪə(ɹ)"
+        },
+        {
+          "homophone": "liar"
+        },
+        {
+          "homophone": "lyre"
         }
       ]
     },
@@ -80749,7 +81355,7 @@
       ],
       "origin": "ME, lēve+er"
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "a": {
       "senses": [
         {
@@ -80906,7 +81512,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life buoy": {
     "n": {
@@ -81028,7 +81634,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life history": {
     "n": {
@@ -81092,7 +81698,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life mask": {
     "n": {
@@ -81206,7 +81812,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life science": {
     "n": {
@@ -81376,7 +81982,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life-begetting": {
     "a": {
@@ -81446,7 +82052,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life-size": {
     "a": {
@@ -81536,7 +82142,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life-tide": {
     "n": {
@@ -81559,7 +82165,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "life-tracker": {
     "n": {
@@ -81609,7 +82215,7 @@
       "origin": "From life + blood. Compare English heart-blood (“lifeblood”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lifeboat": {
     "n": {
@@ -81703,6 +82309,21 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "lifeday": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lif-day; equivalent to life + day.",
+      "sounds": [
+        {
+          "ipa": "/ˈlʌɪfdeɪ/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -81957,7 +82578,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lifelode": {
     "n": {
@@ -82008,7 +82629,7 @@
       "origin": "life + -long",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lifelore": {
     "n": {
@@ -82023,7 +82644,7 @@
       "origin": "From life + lore (“learning, knowledge”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lifelorely": {
     "a": {
@@ -82261,7 +82882,7 @@
       "origin": "From life + -scape.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lifesdraught": {
     "n": {
@@ -82512,7 +83133,7 @@
       "origin": "Calque of German Lebenswelt, coined by German philosopher Edmund Husserl.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lifewrit": {
     "n": {
@@ -82522,6 +83143,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "lifey": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lyfy, lyvy, equivalent to life + -y.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -83006,7 +83635,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lift out": {
     "v": {
@@ -83066,7 +83695,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liftband": {
     "n": {
@@ -83245,7 +83874,7 @@
       "origin": "lift + -less",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liftlore": {
     "n": {
@@ -83737,6 +84366,52 @@
         }
       ],
       "origin": "NE, ~[hlidgeat]"
+    },
+    "isAnglish": true
+  },
+  "ligged": {
+    "a": {
+      "senses": [],
+      "origin": "From Old Norse liggja.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Old Norse liggja.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ligger": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English liggere; equivalent to lig + -er. Doublet of ledger.\nMany senses (especially sense 5) are likely formed anew from lig rather than continuations of the preceding senses.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɪɡɚ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈlɪɡə/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɪɡə(ɹ)"
+        },
+        {
+          "audio": "En-au-ligger.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/En-au-ligger.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/En-au-ligger.ogg/En-au-ligger.ogg.mp3"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -84336,7 +85011,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "light beam": {
     "n": {
@@ -84361,6 +85036,14 @@
     },
     "isAnglish": true
   },
+  "light blue": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English light blewe, equivalent to light + blue.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "light bread": {
     "n": {
       "senses": [
@@ -84371,7 +85054,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light breeze": {
     "n": {
@@ -84383,7 +85066,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light brown": {
     "n": {
@@ -84577,7 +85260,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light intensity": {
     "n": {
@@ -84613,7 +85296,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light microscope": {
     "n": {
@@ -84652,7 +85335,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light of": {
     "p": {
@@ -84683,7 +85366,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light reaction": {
     "n": {
@@ -84751,7 +85434,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light sleep": {
     "n": {
@@ -84824,7 +85507,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light syllable": {
     "n": {
@@ -84847,7 +85530,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light touch": {
     "n": {
@@ -84925,7 +85608,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light upon": {
     "v": {
@@ -84940,7 +85623,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light wavelength": {
     "n": {
@@ -85037,7 +85720,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light-armed": {
     "a": {
@@ -85064,7 +85747,7 @@
       "origin": "From light + bearing. Compare Old English lēohtbǣre (“luminous, bright, splendid”, literally “light-bearing”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light-blue": {
     "a": {
@@ -85183,7 +85866,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "light-handed": {
     "a": {
@@ -85200,7 +85883,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "light-handedly": {
     "r": {
@@ -85266,7 +85949,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "light-heartedly": {
     "r": {
@@ -85368,6 +86051,18 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "light-witted": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English light-witted, from light (adjective) + witted (“having intelligence or understanding”, adjective), from the noun wit. See more at light, wit, -ed.",
+      "sounds": [
+        {
+          "enpr": "lītʹwĭt'(ĭ)d"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "light-year": {
@@ -85380,7 +86075,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightbearer": {
     "n": {
@@ -85477,7 +86172,7 @@
       "origin": "From light (noun) + boat (noun).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightbrick mote": {
     "n": {
@@ -85705,7 +86400,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lighten up": {
     "v": {
@@ -85753,7 +86448,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightened": {
     "a": {
@@ -86000,6 +86695,30 @@
     },
     "isAnglish": true
   },
+  "lightfoot": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English light-fot, light-foot, from light (adjective) + fot, foot (noun). See more at light, foot.",
+      "sounds": [
+        {
+          "enpr": "lītʹfo͝ot"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "lightful": {
+    "a": {
+      "senses": [],
+      "origin": "From light (“not weighed down”, adjective) + -ful (“full of, having”, adjective).",
+      "sounds": [
+        {
+          "enpr": "lītʹfo͝ol"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "lightgang": {
     "n": {
       "senses": [
@@ -86104,7 +86823,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lighthouse": {
     "n": {
@@ -86304,6 +87023,14 @@
     },
     "isAnglish": false
   },
+  "lightliness": {
+    "n": {
+      "senses": [],
+      "origin": "Possibly from Middle English lightlines, lightlinesse, from Middle English lyghtly, liȝtliche, lihtliche + -nes, -nesse. Equivalent to lightly + -ness (suffix forming nouns).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lightly": {
     "r": {
       "pronunciation": [
@@ -86449,7 +87176,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightmindedness": {
     "n": {
@@ -86482,7 +87209,7 @@
       "origin": "lightminded + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightmood": {
     "a": {
@@ -86748,7 +87475,7 @@
       "origin": "From light (noun) + ship (noun). Cognate with Middle Low German lüchteschip (“lightship”), Dutch lichtschip (“lightship”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightshooting": {
     "n": {
@@ -86806,7 +87533,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightsomely": {
     "r": {
@@ -86856,7 +87583,7 @@
       "origin": "From Middle English lightsomnesse, equivalent to lightsome (“light in weight, light-hearted, easy”) + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lightstick": {
     "n": {
@@ -87016,7 +87743,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lightweight aerated concrete": {
     "n": {
@@ -87601,6 +88328,24 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "like a man": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English lyke a man (“in the manner of a man, in accordance with man”).",
+      "sounds": [
+        {
+          "audio": "En-au-like a man.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/En-au-like_a_man.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/En-au-like_a_man.ogg/En-au-like_a_man.ogg.mp3"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "like a shot": {
@@ -87781,7 +88526,7 @@
       "origin": "From like + mind + -ed.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "like-mindedness": {
     "n": {
@@ -87796,7 +88541,7 @@
       "origin": "like-minded + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "like-timed": {
     "a": {
@@ -87858,6 +88603,22 @@
     },
     "isAnglish": true
   },
+  "likee": {
+    "v": {
+      "senses": [],
+      "origin": "Attributed to various forms of pidgin English, most prominently from Chinese Pidgin English.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "likeful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English likful, licvol, equivalent to like + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "likehappening": {
     "n": {
       "senses": [
@@ -87907,7 +88668,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "likeliness": {
     "n": {
@@ -88141,7 +88902,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "likesome": {
     "a": {
@@ -88159,7 +88920,7 @@
       "origin": "From like + -some.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "likething": {
     "n": {
@@ -88266,7 +89027,7 @@
       "origin": "From like + -worthy. Compare Old English līcwyrþe (“fit to please; well-pleasing; acceptable; agreeable”, literally “like-worthy”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liking": {
     "n": {
@@ -88295,6 +89056,27 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/LL-Q1860_%28eng%29-Vealhurl-liking.wav/LL-Q1860_%28eng%29-Vealhurl-liking.wav.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/LL-Q1860_%28eng%29-Vealhurl-liking.wav/LL-Q1860_%28eng%29-Vealhurl-liking.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "likkle": {
+    "a": {
+      "senses": [],
+      "origin": "Borrowed from Jamaican Creole likkle, from English little.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɪ.kəl/"
+        },
+        {
+          "ipa": "/ˈlɪ.kəw/"
+        },
+        {
+          "ipa": "/ˈlɪ.kəʊ/"
+        },
+        {
+          "rhymes": "-ɪkəl"
         }
       ]
     },
@@ -88805,7 +89587,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lilter": {
     "n": {
@@ -88875,7 +89657,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lily family": {
     "n": {
@@ -88923,7 +89705,7 @@
       "origin": "Calque of Biblical Hebrew שׁוֹשַׁנַּת הָעֲמָקִים (šôšannat hāʿămāqîm), a reference to Song of Solomon 2:1.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lily pad": {
     "n": {
@@ -88935,7 +89717,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lily turf": {
     "n": {
@@ -88946,7 +89728,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lily-livered": {
     "a": {
@@ -88980,7 +89762,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lily-white": {
     "a": {
@@ -89047,7 +89829,7 @@
       ],
       "origin": "OE, hlimman"
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -89226,7 +90008,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limb-girdle muscular dystrophy": {
     "n": {
@@ -89368,7 +90150,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limber pine": {
     "n": {
@@ -89401,7 +90183,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limberhall": {
     "n": {
@@ -89430,7 +90212,7 @@
       "origin": "limber + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limbers": {
     "n": {
@@ -89616,7 +90398,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lime": {
     "n": {
@@ -89725,7 +90507,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lime hydrate": {
     "n": {
@@ -89871,7 +90653,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limemote": {
     "n": {
@@ -89898,7 +90680,7 @@
       "origin": "Borrowed from Latin limen (“threshold”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limerick": {
     "n": {
@@ -89930,6 +90712,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "limerod": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lymrod, equivalent to lime + rod.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "limeshaft": {
     "n": {
@@ -89996,7 +90786,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limestone fern": {
     "n": {
@@ -90057,6 +90847,19 @@
     },
     "isAnglish": true
   },
+  "limetwig": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lime-twig, equivalent to lime + twig.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English lime-twig, equivalent to lime + twig.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "limewater": {
     "n": {
       "senses": [
@@ -90068,7 +90871,7 @@
       "origin": "lime + water",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limey": {
     "n": {
@@ -90101,6 +90904,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/En-au-limey.ogg/En-au-limey.ogg.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "limeyard": {
+    "n": {
+      "senses": [],
+      "origin": "From lime + yard (“area, space, enclosure”).",
+      "sounds": []
     },
     "isAnglish": false
   },
@@ -91125,7 +91936,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limpid": {
     "a": {
@@ -91282,7 +92093,7 @@
       "origin": "limp + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "limpness": {
     "n": {
@@ -91527,7 +92338,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lincomycin": {
     "n": {
@@ -91665,7 +92476,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lindy": {
     "n": {
@@ -92014,7 +92825,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line backer": {
     "n": {
@@ -92085,7 +92896,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line engraving": {
     "n": {
@@ -92113,7 +92924,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line item": {
     "n": {
@@ -92160,7 +92971,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of battle": {
     "n": {
@@ -92172,7 +92983,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of business": {
     "n": {
@@ -92188,7 +92999,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of credit": {
     "n": {
@@ -92261,7 +93072,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "line of destiny": {
     "n": {
@@ -92306,7 +93117,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of flight": {
     "n": {
@@ -92397,7 +93208,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of longitude": {
     "n": {
@@ -92424,7 +93235,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of merchandise": {
     "n": {
@@ -92435,7 +93246,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "line of poetry": {
     "n": {
@@ -92468,7 +93279,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "line of reasoning": {
     "n": {
@@ -92503,7 +93314,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of succession": {
     "n": {
@@ -92541,7 +93352,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of verse": {
     "n": {
@@ -92552,7 +93363,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line of vision": {
     "n": {
@@ -92575,7 +93386,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line officer": {
     "n": {
@@ -92721,7 +93532,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "line storm": {
     "n": {
@@ -92733,7 +93544,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line triple": {
     "n": {
@@ -92823,7 +93634,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "line worker": {
     "n": {
@@ -94298,6 +95109,14 @@
     },
     "isAnglish": false
   },
+  "lingot": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from French lingot, from English ingot.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lingua": {
     "n": {
       "form": [
@@ -95238,7 +96057,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "link up": {
     "v": {
@@ -95275,7 +96094,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "link-attached station": {
     "n": {
@@ -95412,7 +96231,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "linked feeling": {
     "n": {
@@ -95467,7 +96286,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "linking verb": {
     "n": {
@@ -95541,7 +96360,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "links course": {
     "n": {
@@ -95592,7 +96411,7 @@
       "origin": "link + up",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "linkword": {
     "n": {
@@ -95727,7 +96546,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lino": {
     "n": {
@@ -95934,7 +96753,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "linsaycraft": {
     "n": {
@@ -96513,7 +97332,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lip off": {
     "v": {
@@ -96528,7 +97347,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lip reader": {
     "n": {
@@ -96573,7 +97392,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lip sync": {
     "n": {
@@ -96652,7 +97471,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lip-shaped": {
     "a": {
@@ -97264,7 +98083,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lipread": {
     "v": {
@@ -98653,6 +99472,27 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "lirk": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English lyrken, from Old Norse lerka (“to plait, fold, bind, lace up tightly, chastise”), related to Old Norse lurkr (“cudgel, club”).",
+      "sounds": [
+        {
+          "rhymes": "-ɜː(ɹ)k"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lerke, from the verb. See above.",
+      "sounds": [
+        {
+          "rhymes": "-ɜː(ɹ)k"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "lirt": {
@@ -98736,7 +99576,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lis pendens": {
     "n": {
@@ -99152,7 +99992,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lissome": {
     "a": {
@@ -99168,7 +100008,7 @@
       "origin": "See lissom.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lissomeness": {
     "n": {
@@ -99350,7 +100190,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "list price": {
     "n": {
@@ -99583,7 +100423,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "listener": {
     "n": {
@@ -99632,7 +100472,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "listeners": {
     "n": {
@@ -99653,7 +100493,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "listenership": {
     "n": {
@@ -99710,7 +100550,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "listenet": {
     "n": {
@@ -99784,7 +100624,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lister": {
     "n": {
@@ -99901,7 +100741,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "listing": {
     "n": {
@@ -99947,7 +100787,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "listless": {
     "a": {
@@ -100029,7 +100869,7 @@
       "origin": "From listless + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lit": {
     "a": {
@@ -100142,7 +100982,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "litas": {
     "n": {
@@ -100686,7 +101526,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "literalness": {
     "n": {
@@ -101278,7 +102118,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lithbollow": {
     "n": {
@@ -101359,6 +102199,18 @@
       "origin": "ME, lethebei [liþebige]"
     },
     "isAnglish": true
+  },
+  "lithen": {
+    "v": {
+      "senses": [],
+      "origin": "From lithe (“a mixture of oatmeal and water”) + -en.",
+      "sounds": [
+        {
+          "ipa": "/ˈlaɪðən/"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "litheness": {
     "n": {
@@ -101500,7 +102352,7 @@
       ],
       "origin": "ME&ME, lithere[liþere]&litheren"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lithesome": {
     "a": {
@@ -101522,7 +102374,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lithfire": {
     "n": {
@@ -102364,7 +103216,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "litmus paper": {
     "n": {
@@ -102526,6 +103378,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "litster": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English litestere, from liten (“to dye”) (from Old Norse litr) + -stere (see -ster).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "litten": {
     "n": {
@@ -103313,7 +104173,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little blue heron": {
     "n": {
@@ -103336,7 +104196,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little brown bat": {
     "n": {
@@ -103374,7 +104234,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little chief hare": {
     "n": {
@@ -103466,7 +104326,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little golden zinnia": {
     "n": {
@@ -103522,7 +104382,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "little owl": {
     "n": {
@@ -103552,7 +104412,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little potato": {
     "n": {
@@ -103575,7 +104435,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little skate": {
     "n": {
@@ -103586,7 +104446,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "little slam": {
     "n": {
@@ -103697,7 +104557,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "little-leaf fig": {
     "n": {
@@ -103961,7 +104821,7 @@
       "origin": "lit + -y",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liturgical": {
     "a": {
@@ -104402,7 +105262,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live axle": {
     "n": {
@@ -104428,7 +105288,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live body": {
     "n": {
@@ -104454,7 +105314,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live in": {
     "v": {
@@ -104485,7 +105345,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live it up": {
     "v": {
@@ -104511,7 +105371,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live load": {
     "n": {
@@ -104523,7 +105383,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live oak": {
     "n": {
@@ -104549,7 +105409,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live on": {
     "v": {
@@ -104579,7 +105439,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live out": {
     "v": {
@@ -104607,7 +105467,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live over": {
     "v": {
@@ -104633,7 +105493,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live through": {
     "v": {
@@ -104650,7 +105510,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live together": {
     "v": {
@@ -104666,7 +105526,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live up to": {
     "v": {
@@ -104711,7 +105571,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live with": {
     "v": {
@@ -104736,7 +105596,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "live-and-die": {
     "n": {
@@ -105001,7 +105861,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "livelong": {
     "a": {
@@ -105153,7 +106013,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liveness": {
     "n": {
@@ -105257,7 +106117,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liver cancer": {
     "n": {
@@ -105303,7 +106163,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liver pudding": {
     "n": {
@@ -105326,7 +106186,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liver sausage": {
     "n": {
@@ -105350,7 +106210,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "liver-colored": {
     "a": {
@@ -105711,7 +106571,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "livewileman": {
     "n": {
@@ -105965,7 +106825,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living accommodations": {
     "n": {
@@ -105999,7 +106859,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living death": {
     "n": {
@@ -106021,7 +106881,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living earth": {
     "n": {
@@ -106071,7 +106931,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living room": {
     "n": {
@@ -106096,7 +106956,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living room set": {
     "n": {
@@ -106153,7 +107013,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living substance": {
     "n": {
@@ -106176,7 +107036,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living trust": {
     "n": {
@@ -106211,7 +107071,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living-room": {
     "n": {
@@ -106223,7 +107083,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "living-room set": {
     "n": {
@@ -106256,7 +107116,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "livingroom set": {
     "n": {
@@ -106292,6 +107152,21 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "livish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English livish, lifish, lifisch, equivalent to life + -ish.",
+      "sounds": [
+        {
+          "ipa": "/ˈlaɪvɪʃ/"
+        },
+        {
+          "enpr": "līv'ĭsh"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "livle": {
     "n": {
@@ -106587,6 +107462,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "lo and behold": {
+    "x": {
+      "senses": [],
+      "origin": "The lo in the expression probably originated from the shortening of the word look, commonly seen in Middle English texts. Its presence in literature can be traced to at least as early as the 18th century. The literal meaning of the expression is \"look and see\", and it is always used as if in the imperative.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "loach": {
@@ -106809,7 +107692,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "load down": {
     "v": {
@@ -106825,7 +107708,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "load factor": {
     "n": {
@@ -106849,7 +107732,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "load up": {
     "v": {
@@ -106879,7 +107762,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "load-bearing": {
     "a": {
@@ -106892,7 +107775,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "load-shedding": {
     "n": {
@@ -106904,7 +107787,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loadboard": {
     "n": {
@@ -107124,7 +108007,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loading area": {
     "n": {
@@ -107147,7 +108030,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loading zone": {
     "n": {
@@ -107209,7 +108092,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loadstar": {
     "n": {
@@ -107237,7 +108120,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loaf": {
     "n": {
@@ -107335,7 +108218,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loaf of bread": {
     "n": {
@@ -107359,7 +108242,7 @@
       "origin": "From Middle English lofe sugre, lofe zuger.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loaf-eater": {
     "n": {
@@ -107518,7 +108401,7 @@
       "origin": "loam + -y",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loan": {
     "n": {
@@ -107714,7 +108597,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loan translation": {
     "n": {
@@ -107813,7 +108696,7 @@
       "origin": "loan + shift",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loanwend": {
     "n": {
@@ -107880,7 +108763,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loasa": {
     "n": {
@@ -108075,6 +108958,18 @@
     },
     "isAnglish": false
   },
+  "loathful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lothful, loothful, equivalent to loath + -ful.",
+      "sounds": [
+        {
+          "ipa": "/ˈləʊθfəl/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "loathing": {
     "n": {
       "pronunciation": [
@@ -108114,7 +109009,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loathly": {
     "a": {
@@ -108125,6 +109020,14 @@
         }
       ],
       "origin": "From Middle English lothli, loothly, from Old English lāþlīċ (“loathly, hateful, horrible, repulsive, unpleasant”); equivalent to loath + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "loathness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lothnesse, laithnes, lathnes, lathnesse, equivalent to loath + -ness.",
       "sounds": []
     },
     "isAnglish": true
@@ -108195,7 +109098,7 @@
       "origin": "From Middle English lothsomnesse, loþsumnes, lathsumnes; equivalent to loathsome + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loathspel": {
     "n": {
@@ -108446,7 +109349,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobar": {
     "a": {
@@ -109033,7 +109936,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster Newburg": {
     "n": {
@@ -109067,7 +109970,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster plant": {
     "n": {
@@ -109078,7 +109981,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster pot": {
     "n": {
@@ -109090,7 +109993,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster stew": {
     "n": {
@@ -109101,7 +110004,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster tail": {
     "n": {
@@ -109112,7 +110015,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster tart": {
     "n": {
@@ -109123,7 +110026,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lobster thermidor": {
     "n": {
@@ -110834,7 +111737,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lock chamber": {
     "n": {
@@ -110871,7 +111774,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lock out": {
     "v": {
@@ -110889,7 +111792,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lock pick": {
     "v": {
@@ -110904,7 +111807,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lock ring": {
     "n": {
@@ -110953,7 +111856,7 @@
       "origin": "lock + up",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lock washer": {
     "n": {
@@ -110964,7 +111867,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lock-gate": {
     "n": {
@@ -111036,7 +111939,7 @@
       ],
       "origin": "OED"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lock-up option": {
     "n": {
@@ -111244,7 +112147,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "locker-room": {
     "a": {
@@ -111321,7 +112224,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lockgrindle": {
     "n": {
@@ -111495,7 +112398,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lockstep": {
     "n": {
@@ -111602,7 +112505,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lockvat": {
     "n": {
@@ -113396,7 +114299,7 @@
       "origin": "lofty + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loftlay": {
     "n": {
@@ -113769,7 +114672,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "log Z's": {
     "v": {
@@ -113827,7 +114730,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "log line": {
     "n": {
@@ -113839,7 +114742,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "log off": {
     "v": {
@@ -113864,7 +114767,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "log on": {
     "v": {
@@ -113889,7 +114792,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "log out": {
     "v": {
@@ -113907,7 +114810,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "log up": {
     "v": {
@@ -113940,7 +114843,7 @@
       "origin": "Deverbal from log in.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "logagraphia": {
     "n": {
@@ -114124,7 +115027,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "logcraft": {
     "n": {
@@ -114186,6 +115089,29 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "logg": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English logge, of unknown origin.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "logge": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English logge (“stick”), see below.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɒɡ/"
+        },
+        {
+          "rhymes": "-ɒɡ"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -114261,7 +115187,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loggerhead": {
     "n": {
@@ -114316,7 +115242,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loggerhead shrike": {
     "n": {
@@ -114328,7 +115254,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loggerhead turtle": {
     "n": {
@@ -114340,7 +115266,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loggerheaded": {
     "a": {
@@ -115945,7 +116871,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loiterer": {
     "n": {
@@ -116059,6 +116985,14 @@
     },
     "isAnglish": true
   },
+  "lolicon": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese ロリコン (rorikon), from English Lolita complex. Lolita comes from Spanish Lolita, diminutive of Lola, from the given name Dolores.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "loligo": {
     "n": {
       "senses": [
@@ -116133,7 +117067,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loll around": {
     "v": {
@@ -116148,7 +117082,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lollipop": {
     "n": {
@@ -116474,7 +117408,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lone hand": {
     "n": {
@@ -116497,7 +117431,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lonebelief": {
     "n": {
@@ -116616,7 +117550,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lonelord": {
     "n": {
@@ -116751,7 +117685,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lonesettler": {
     "n": {
@@ -116818,7 +117752,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lonesomeness": {
     "n": {
@@ -117206,7 +118140,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long ass": {
     "a": {
@@ -117244,7 +118178,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long castle": {
     "n": {
@@ -117255,7 +118189,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long castling": {
     "n": {
@@ -117266,7 +118200,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "long chain": {
     "n": {
@@ -117314,6 +118248,24 @@
     },
     "isAnglish": false
   },
+  "long finger": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English longe fyngyr, longue finguer.",
+      "sounds": [
+        {
+          "audio": "En-au-long finger.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/En-au-long_finger.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/En-au-long_finger.ogg/En-au-long_finger.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "long firm": {
     "n": {
       "senses": [
@@ -117356,7 +118308,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long haul": {
     "n": {
@@ -117382,6 +118334,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "long home": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lang ham, lang hame, long hom, longue home.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "long horse": {
@@ -117405,7 +118365,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long hundredweight": {
     "n": {
@@ -117456,7 +118416,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long measure": {
     "n": {
@@ -117505,7 +118465,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long pillow": {
     "n": {
@@ -117516,7 +118476,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long plane": {
     "n": {
@@ -117549,7 +118509,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long saphenous vein": {
     "n": {
@@ -117598,7 +118558,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long since": {
     "r": {
@@ -117620,7 +118580,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long skirt": {
     "n": {
@@ -117675,7 +118635,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long time": {
     "n": {
@@ -117698,7 +118658,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long tom": {
     "n": {
@@ -117746,7 +118706,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long vowel": {
     "n": {
@@ -117770,7 +118730,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long whist": {
     "n": {
@@ -117805,7 +118765,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-armed": {
     "a": {
@@ -118043,7 +119003,7 @@
       "origin": "long + haired",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-handled": {
     "a": {
@@ -118111,7 +119071,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-horned grasshopper": {
     "n": {
@@ -118123,7 +119083,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-jawed": {
     "a": {
@@ -118146,7 +119106,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-legged": {
     "a": {
@@ -118181,7 +119141,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-lived": {
     "a": {
@@ -118342,7 +119302,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-staple": {
     "a": {
@@ -118418,7 +119378,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "long-term": {
     "a": {
@@ -118491,7 +119451,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-wearing": {
     "a": {
@@ -118531,7 +119491,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "long-windedly": {
     "r": {
@@ -118585,7 +119545,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "longa": {
+    "p": {
+      "senses": [],
+      "origin": "From Kriol langa, from English along. Compare Bislama and Tok Pisin long.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "longan": {
     "n": {
@@ -118740,7 +119708,7 @@
       "origin": "From long + boat.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longbow": {
     "n": {
@@ -118907,7 +119875,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longest": {
     "r": {
@@ -119109,7 +120077,7 @@
       "origin": "long + hair",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longhand": {
     "a": {
@@ -119148,7 +120116,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longhandwritingise": {
     "n": {
@@ -119557,7 +120525,7 @@
       "origin": "From long + minded. Compare Old English langmōd (“patient, long-suffering”, literally “long-mood”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longmindedness": {
     "n": {
@@ -119565,7 +120533,7 @@
       "origin": "From longminded + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longmood": {
     "a": {
@@ -119725,7 +120693,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longshort": {
     "n": {
@@ -119861,7 +120829,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longtail weasel": {
     "n": {
@@ -119963,7 +120931,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "longwise": {
     "r": {
@@ -120146,7 +121114,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loofa": {
     "n": {
@@ -120483,7 +121451,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "look after": {
     "v": {
@@ -120512,7 +121480,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look around": {
     "v": {
@@ -120528,7 +121496,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look at": {
     "v": {
@@ -120550,7 +121518,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look away": {
     "v": {
@@ -120602,7 +121570,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look back on": {
     "v": {
@@ -120672,7 +121640,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look for": {
     "v": {
@@ -120713,7 +121681,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look forward": {
     "v": {
@@ -120767,7 +121735,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look like": {
     "v": {
@@ -120795,7 +121763,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look on": {
     "v": {
@@ -120831,7 +121799,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look out": {
     "v": {
@@ -120879,7 +121847,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look out on": {
     "v": {
@@ -120941,7 +121909,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look sharp": {
     "v": {
@@ -120956,7 +121924,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look through": {
     "v": {
@@ -120977,7 +121945,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look to": {
     "v": {
@@ -121039,7 +122007,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look up to": {
     "v": {
@@ -121058,7 +122026,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look upon": {
     "v": {
@@ -121074,7 +122042,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look-alike": {
     "a": {
@@ -121094,7 +122062,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "look-over": {
     "n": {
@@ -121117,7 +122085,7 @@
       "origin": "Borrowed from Chinese Pidgin English look-see.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lookbook": {
     "n": {
@@ -121151,7 +122119,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lookdown": {
     "n": {
@@ -121327,7 +122295,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "looking glass tree": {
     "n": {
@@ -121374,7 +122342,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "looking-glass plant": {
     "n": {
@@ -121385,7 +122353,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lookout": {
     "n": {
@@ -121440,7 +122408,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lookout man": {
     "n": {
@@ -121452,7 +122420,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lookout station": {
     "n": {
@@ -121502,7 +122470,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "looksome": {
     "a": {
@@ -121514,7 +122482,7 @@
       "origin": "look + -some.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lookup": {
     "n": {
@@ -121670,7 +122638,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "looney": {
     "n": {
@@ -122076,7 +123044,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "looper": {
     "n": {
@@ -122162,7 +123130,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "looping": {
     "n": {
@@ -122396,7 +123364,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loose cannon": {
     "n": {
@@ -122440,7 +123408,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loose man": {
     "n": {
@@ -122466,7 +123434,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loose sentence": {
     "n": {
@@ -122504,7 +123472,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loose-fitting": {
     "a": {
@@ -122516,7 +123484,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loose-jointed": {
     "a": {
@@ -122579,7 +123547,7 @@
       "origin": "loose + leaf",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loosely": {
     "r": {
@@ -122631,7 +123599,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loosely knit": {
     "a": {
@@ -122642,7 +123610,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loosen": {
     "v": {
@@ -122745,7 +123713,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loosen up": {
     "v": {
@@ -122799,7 +123767,7 @@
       "origin": "Compare Old Norse leysa upp (“loosen up”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loosened": {
     "a": {
@@ -122849,7 +123817,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "looseness": {
     "n": {
@@ -122979,7 +123947,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loosesheerwere": {
     "n": {
@@ -123357,7 +124325,7 @@
       "origin": "See lop.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lop-eared": {
     "a": {
@@ -123490,7 +124458,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lopper": {
     "n": {
@@ -123577,7 +124545,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lopsidedly": {
     "r": {
@@ -124013,7 +124981,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lord over": {
     "v": {
@@ -124027,7 +124995,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lorddom": {
     "n": {
@@ -124068,6 +125036,14 @@
     },
     "isAnglish": true
   },
+  "lordful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lordfulle, equivalent to lord + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lording": {
     "n": {
       "senses": [
@@ -124083,7 +125059,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lordless": {
     "a": {
@@ -124143,7 +125119,28 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "lordling": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lordlyng; equivalent to lord + -ling.",
+      "sounds": [
+        {
+          "ipa": "/ˈlɔːdlɪŋ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈlɔɹdlɪŋ/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "lordly": {
     "a": {
@@ -124376,7 +125373,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lore keeper": {
     "n": {
@@ -124708,7 +125705,7 @@
       "origin": "lore + -less",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lorelest": {
     "n": {
@@ -125314,7 +126311,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lory": {
     "n": {
@@ -125373,6 +126370,14 @@
         }
       ],
       "origin": "From Middle English los, from Old English los, from Proto-Germanic *lusą, from Proto-Indo-European *lews-.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "losable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English losable, from losen + -able, By surface analysis, lose + able.",
       "sounds": []
     },
     "isAnglish": true
@@ -125557,7 +126562,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lose hope": {
     "v": {
@@ -125596,7 +126601,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lose one's footing": {
     "v": {
@@ -125660,7 +126665,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lose track": {
     "v": {
@@ -125706,7 +126711,31 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English losel (also lorel), from *losen, loren, past participle of lesen (“to lose”), equivalent to lose + -le.",
+      "sounds": [
+        {
+          "ipa": "/ˈləʊzəl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˈloʊzəl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "enpr": "lōʹzəl",
+          "tags": [
+            "US"
+          ]
+        }
+      ]
+    }
   },
   "loser": {
     "n": {
@@ -125782,7 +126811,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loseyns": {
     "n": {
@@ -125976,7 +127005,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loss of consciousness": {
     "n": {
@@ -126000,6 +127029,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "losse": {
+    "n": {
+      "senses": [],
+      "origin": "From Dutch los, from Middle Dutch los, from Old Dutch *los, from Proto-West Germanic *luhs, from Proto-Germanic *luhsaz, from Proto-Indo-European *lewk-.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lossening": {
     "n": {
@@ -126588,6 +127625,14 @@
     },
     "isAnglish": true
   },
+  "loteby": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English loteby, equivalent to lote + by.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "loth": {
     "a": {
       "pronunciation": [
@@ -126610,7 +127655,7 @@
       "origin": "See loath.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lothly": {
     "r": {
@@ -127414,7 +128459,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loudlore": {
     "n": {
@@ -127492,7 +128537,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loudmouth": {
     "n": {
@@ -127527,7 +128572,7 @@
       "origin": "loud + mouthed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loudness": {
     "n": {
@@ -128226,6 +129271,19 @@
     },
     "isAnglish": true
   },
+  "louring": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English louryng, louringe, lowrynge, later variant of lourand, lowrand, lourande, lowrande, equivalent to lour + -ing. Cognate with Dutch loerend (“lurking, louring”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English louring, lowrynge, luring, equivalent to lour + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "louse": {
     "n": {
       "form": [
@@ -128298,7 +129356,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "louse up": {
     "v": {
@@ -128314,7 +129372,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lousiness": {
     "n": {
@@ -128619,7 +129677,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lovage": {
     "n": {
@@ -129029,7 +130087,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love affair": {
     "n": {
@@ -129054,7 +130112,7 @@
       "origin": "Calque of Italian pomo d'oro (“tomato”, literally “golden apple”), confusing d’oro (“golden”) with d’amore (“love”), or from French pomme d’amour, equivalent to love + apple.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love bite": {
     "n": {
@@ -129066,7 +130124,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love child": {
     "n": {
@@ -129079,7 +130137,7 @@
       "origin": "From love + child.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love feast": {
     "n": {
@@ -129108,7 +130166,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love handle": {
     "n": {
@@ -129119,6 +130177,14 @@
         }
       ],
       "origin": "From early 1980s. So called because supposed to be grabbed by a partner in sexual intercourse.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "love hotel": {
+    "n": {
+      "senses": [],
+      "origin": "Calque of Japanese ラブホテル (rabu hoteru), from English love + hotel, probably after the rotating sign of the Hotel Love, an early love hotel in Osaka, Japan.",
       "sounds": []
     },
     "isAnglish": true
@@ -129134,7 +130200,7 @@
       "origin": "So called from being used as a token of love, or as a pledge of mutual affection.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love letter": {
     "n": {
@@ -129157,7 +130223,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "love life": {
     "n": {
@@ -129169,7 +130235,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love line": {
     "n": {
@@ -129203,7 +130269,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love seat": {
     "n": {
@@ -129215,7 +130281,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love song": {
     "n": {
@@ -129300,7 +130366,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love-in-idleness": {
     "n": {
@@ -129312,7 +130378,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love-in-winter": {
     "n": {
@@ -129324,7 +130390,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "love-lies-bleeding": {
     "n": {
@@ -129443,7 +130509,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loveappledip": {
     "n": {
@@ -129485,7 +130551,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovebloom": {
     "n": {
@@ -129545,7 +130611,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovecraft": {
     "n": {
@@ -129608,7 +130674,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loveday": {
     "n": {
@@ -129619,6 +130685,14 @@
           "ipa": "/ˈlʌvdeɪ/"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "loveful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English luveful; equivalent to love + -ful.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -129656,7 +130730,7 @@
       "origin": "From Middle English loveles; equivalent to love + -less.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lovelily": {
     "r": {
@@ -129758,7 +130832,7 @@
       "origin": "From love + -ling. Compare West Frisian leaveling (“darling”), Dutch lieveling (“darling, sweetheart”), Afrikaans liefling (“darling”), German Liebling (“darling”); perhaps calqued, inspired, or reinforced by the term.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovelorn": {
     "a": {
@@ -129778,7 +130852,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovely": {
     "a": {
@@ -129860,7 +130934,7 @@
       "origin": "love + making",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovenly": {
     "a": {
@@ -129917,7 +130991,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lover's knot": {
     "n": {
@@ -130042,6 +131116,14 @@
     },
     "isAnglish": true
   },
+  "lovesomeness": {
+    "n": {
+      "senses": [],
+      "origin": "From late Middle English lovesumnes, equivalent to lovesome + -ness; compare Old English lufsumness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lovespark": {
     "n": {
       "senses": [],
@@ -130083,6 +131165,14 @@
     },
     "isAnglish": true
   },
+  "lovewende": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English luvewende, from Old English lufwende (“lovable, pleasant”), from lufu (“love”) + -wende.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "loveworthy": {
     "a": {
       "senses": [
@@ -130093,7 +131183,7 @@
       "origin": "love + -worthy",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovewulderless": {
     "n": {
@@ -130158,7 +131248,7 @@
       "origin": "Named around 1810 for the sense of unity its use brought.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loving-kindness": {
     "n": {
@@ -130170,7 +131260,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lovingly": {
     "r": {
@@ -130483,7 +131573,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low St Andrew's cross": {
     "n": {
@@ -130538,7 +131628,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low blueberry": {
     "n": {
@@ -130635,7 +131725,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low level flight": {
     "n": {
@@ -130756,7 +131846,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low vowel": {
     "n": {
@@ -130779,7 +131869,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-altitude": {
     "a": {
@@ -130824,7 +131914,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "low-birth-weight infant": {
     "n": {
@@ -130927,7 +132017,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-cut": {
     "a": {
@@ -130943,7 +132033,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-density": {
     "a": {
@@ -131057,7 +132147,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-fat diet": {
     "n": {
@@ -131185,7 +132275,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-keyed": {
     "a": {
@@ -131260,7 +132350,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-necked": {
     "a": {
@@ -131365,7 +132455,7 @@
       "origin": "Referring to the low waistline.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "low-salt diet": {
     "n": {
@@ -131525,7 +132615,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowan": {
     "n": {
@@ -131693,7 +132783,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowbrowed": {
     "a": {
@@ -131737,7 +132827,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowend": {
     "a": {
@@ -131907,7 +132997,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lower berth": {
     "n": {
@@ -132000,7 +133090,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lower jaw": {
     "n": {
@@ -132012,7 +133102,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lower jawbone": {
     "n": {
@@ -132050,7 +133140,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lower nosely spinner": {
     "n": {
@@ -132369,7 +133459,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loweringly": {
     "r": {
@@ -132479,7 +133569,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowest common multiple": {
     "n": {
@@ -132531,7 +133621,7 @@
       ],
       "origin": "NE‹(N+E)"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowland": {
     "a": {
@@ -132568,7 +133658,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowland burrowing treefrog": {
     "n": {
@@ -132651,6 +133741,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "lowlihead": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lowlyhede, equivalent to lowly + -head.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "lowliness": {
@@ -132692,7 +133790,7 @@
       "origin": "low + -ling",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowly": {
     "a": {
@@ -132756,7 +133854,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowminded": {
     "a": {
@@ -132780,7 +133878,7 @@
       "origin": "low + minded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lown": {
     "a": {
@@ -132814,7 +133912,12 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "n": {
+      "senses": [],
+      "origin": "See loon.",
+      "sounds": []
+    }
   },
   "lowness": {
     "n": {
@@ -132883,7 +133986,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lowset": {
     "a": {
@@ -132955,7 +134058,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "loxapine": {
     "n": {
@@ -134039,7 +135142,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "luck it": {
     "v": {
@@ -134078,7 +135181,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "luck through": {
     "v": {
@@ -134194,6 +135297,14 @@
     },
     "isAnglish": false
   },
+  "lucksome": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English luxom, *luksom, equivalent to luck + -some.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lucky": {
     "a": {
       "form": [
@@ -134276,7 +135387,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lucky leaf": {
     "n": {
@@ -134867,7 +135978,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lug wrench": {
     "n": {
@@ -134878,7 +135989,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "luge": {
     "n": {
@@ -135151,6 +136262,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "lugging": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lugging, equivalent to lug + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "luging": {
     "n": {
@@ -135576,7 +136695,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lulu": {
     "n": {
@@ -137596,7 +138715,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lunch meat": {
     "n": {
@@ -137619,7 +138738,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lunch period": {
     "n": {
@@ -138215,7 +139334,7 @@
       "origin": "lung + wort\n* Having an appearance reminiscent of lungs\n* Having been used as a treatment for respiratory ailments",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lungyi": {
     "n": {
@@ -138567,7 +139686,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lurch": {
     "n": {
@@ -139142,7 +140261,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lurking place": {
     "n": {
@@ -139321,7 +140440,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lushness": {
     "n": {
@@ -139339,6 +140458,72 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "lusk": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *lusk, from Old Norse lǫskr (“weak, idle”), from Proto-Germanic *laskwaz (“sluggish, dull, lazy”), from Proto-Indo-European *lēyd- (“to let, subside”). Cognate with Middle Dutch lasch (“flabby, loose”), Middle Low German lasch, las (“tired, dull”). Doublet of lush.",
+      "sounds": [
+        {
+          "ipa": "/lʌsk/"
+        },
+        {
+          "rhymes": "-ʌsk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-lusk.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-lusk.wav/LL-Q1860_%28eng%29-Vealhurl-lusk.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-lusk.wav/LL-Q1860_%28eng%29-Vealhurl-lusk.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *lusk, from Old Norse lǫskr (“weak, idle”), from Proto-Germanic *laskwaz (“sluggish, dull, lazy”), from Proto-Indo-European *lēyd- (“to let, subside”). Cognate with Middle Dutch lasch (“flabby, loose”), Middle Low German lasch, las (“tired, dull”). Doublet of lush.",
+      "sounds": [
+        {
+          "ipa": "/lʌsk/"
+        },
+        {
+          "rhymes": "-ʌsk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-lusk.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-lusk.wav/LL-Q1860_%28eng%29-Vealhurl-lusk.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-lusk.wav/LL-Q1860_%28eng%29-Vealhurl-lusk.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *lusk, from Old Norse lǫskr (“weak, idle”), from Proto-Germanic *laskwaz (“sluggish, dull, lazy”), from Proto-Indo-European *lēyd- (“to let, subside”). Cognate with Middle Dutch lasch (“flabby, loose”), Middle Low German lasch, las (“tired, dull”). Doublet of lush.",
+      "sounds": [
+        {
+          "ipa": "/lʌsk/"
+        },
+        {
+          "rhymes": "-ʌsk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-lusk.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-lusk.wav/LL-Q1860_%28eng%29-Vealhurl-lusk.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-lusk.wav/LL-Q1860_%28eng%29-Vealhurl-lusk.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "lust": {
     "n": {
@@ -139441,7 +140626,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lust for learning": {
     "n": {
@@ -139685,6 +140870,14 @@
     },
     "isAnglish": true
   },
+  "lustihead": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English lustyhede, lustiheed; equivalent to lusty + -head. Compare lustihood.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lustihood": {
     "n": {
       "senses": [
@@ -139748,6 +140941,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "lustless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English lustles, equivalent to lust + -less. Cognate with Dutch lusteloos, German lustlos. Doublet of listless.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -141697,7 +142898,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lye hominy": {
     "n": {
@@ -141842,7 +143043,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lying in wait": {
     "n": {
@@ -141880,7 +143081,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "lying-news": {
     "n": {
@@ -142562,6 +143763,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "lynchet": {
+    "n": {
+      "senses": [],
+      "origin": "Apparently lynch (“variant of linch”) + -et, the first element derived from Old English hlinc (“a hill”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lynching": {
     "n": {

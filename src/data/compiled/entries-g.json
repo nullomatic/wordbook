@@ -2974,6 +2974,14 @@
     },
     "isAnglish": false
   },
+  "Gandalfesque": {
+    "a": {
+      "senses": [],
+      "origin": "Gandalf + -esque, with the name having been taken by J. R. R. Tolkien from the Old Norse Gandálfr, from gandr (“magic staff”) + alfr (“elf”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Gandes": {
     "n": {
       "senses": [],
@@ -3775,7 +3783,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Gascony": {
     "n": {
@@ -8902,7 +8910,7 @@
       "origin": "From German + -ish. Compare Dutch Germaans (“Germanic”), German germanisch (“Germanic”), Swedish germansk (“Germanic”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Germanism": {
     "n": {
@@ -10290,6 +10298,26 @@
       ]
     },
     "isAnglish": false
+  },
+  "Gill": {
+    "n": {
+      "senses": [],
+      "origin": "* As an English surname, converged from variants of Giles (sometimes through Dutch), Julian, and William.\n* As a northern English surname, from Middle English gil (“ravine, glen”), from Old Norse gil. The Old Norse is also a source of the Norwegian surname.\n* As an Irish and Scottish Gaelic surname, variant of McGill.\n* Also as an Irish surname, variant of Gall.\n* As a Jewish/Israeli surname, from Hebrew גיל (“joy”).\n* As a German surname, variant of Gilger.\n* As an Indian/Sikh/Punjabi surname, from ਗਿੱਲ (gil, “moisture”).",
+      "sounds": [
+        {
+          "ipa": "/ˈd͡ʒɪl/",
+          "note": "diminutive of Giles, Julian, Gillian"
+        },
+        {
+          "ipa": "/ˈɡɪl/",
+          "note": "diminutive of Wiliam, surname, Gillingham FC person"
+        },
+        {
+          "rhymes": "-ɪl"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Gilles de la Tourette": {
     "n": {
@@ -11902,7 +11930,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Gloucestershire": {
     "n": {
@@ -12538,7 +12566,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "God Almighty": {
     "n": {
@@ -12549,7 +12577,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "God knows how": {
     "r": {
@@ -12571,7 +12599,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "God tree": {
     "n": {
@@ -12582,7 +12610,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "God's Will": {
     "n": {
@@ -12618,6 +12646,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "God's house": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English Goddes hous, goddes hous. Compare Dutch godshuis, German Gotteshaus.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "God-fearing": {
+    "a": {
+      "senses": [],
+      "origin": "From God + fearing, likely a continuation (in altered form) of earlier Middle English goddfrihti, gode-frigti (“god-fearing”), variants of Middle English godfriht, gode-friht, godfruht, god-furht, from Old English godfyrht, godefriht (“god-fearing”). Cognate with Gothic 𐌲𐌿𐌳𐌰𐍆𐌰𐌿𐍂𐌷𐍄𐍃 (gudafaurhts, “god-fearing, devout”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "God-king": {
     "a": {
@@ -12803,6 +12847,27 @@
       ]
     },
     "isAnglish": false
+  },
+  "Godward": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English God-ward, Godward; equivalent to God + -ward.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English God-ward, Godward; equivalent to God + -ward.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "Godwin": {
+    "n": {
+      "senses": [],
+      "origin": "The component -win is from Old English wine.\nThe second meaning is named after Michael Wayne Godwin (born 1956), American attorney and author.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "Godwin Austen": {
     "n": {
@@ -13825,6 +13890,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "Goosnargh": {
+    "x": {
+      "senses": [],
+      "origin": "From Old Irish Gosan or Gusan (“a given name”) and Old Norse erg (“hill-pasture”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "Gopher": {
     "n": {
@@ -16932,7 +17005,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Greek Catholic": {
     "n": {
@@ -17061,7 +17134,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Greek deity": {
     "n": {
@@ -17095,7 +17168,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Greek fret": {
     "n": {
@@ -17118,7 +17191,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Greek mode": {
     "n": {
@@ -17465,7 +17538,7 @@
       "origin": "From Greenland + -ish, influenced by Norwegian and Danish grønlandsk.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Greenpeace": {
     "n": {
@@ -18002,6 +18075,19 @@
     },
     "isAnglish": false
   },
+  "Gretna Green": {
+    "n": {
+      "senses": [],
+      "origin": "\"Green at the gravelly hill\", from Old English greot (“grit”) (in the dative form greoten) and hoh (“hill”).",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "\"Green at the gravelly hill\", from Old English greot (“grit”) (in the dative form greoten) and hoh (“hill”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Gretzky": {
     "n": {
       "senses": [
@@ -18314,6 +18400,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "Griselda": {
+    "n": {
+      "senses": [],
+      "origin": "From the Old English elements *grīs (“gray”) + hild (“battle”), meaning “gray battle-maid”.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "Griselinia": {
     "n": {
@@ -19180,7 +19274,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Guernsey monetary unit": {
     "n": {
@@ -21859,7 +21953,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gaberdine": {
     "n": {
@@ -21940,7 +22034,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gable end": {
     "n": {
@@ -21952,7 +22046,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gable roof": {
     "n": {
@@ -21964,7 +22058,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gable wall": {
     "n": {
@@ -22118,7 +22212,7 @@
       "origin": "Compare cod (“kind of fish”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gadfly": {
     "n": {
@@ -22213,7 +22307,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gadgeteer": {
     "n": {
@@ -22426,7 +22520,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gaff topsail": {
     "n": {
@@ -22437,7 +22531,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gaff-headed sail": {
     "n": {
@@ -22528,6 +22622,33 @@
       "origin": "OE, gaffetung"
     },
     "isAnglish": true
+  },
+  "gaffle": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gaffolle, a borrowing from Middle Dutch gaffel, gafel (“fork”), ultimately from Proto-West Germanic *gabulu (“fork”), related to Old English gafol, ġeafel (“fork”).",
+      "sounds": [
+        {
+          "ipa": "/ˈɡæfl̩/"
+        },
+        {
+          "rhymes": "-æfəl"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "Blend of gaff + grapple.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡæfl̩/"
+        },
+        {
+          "rhymes": "-æfəl"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "gaffsail": {
     "n": {
@@ -22701,7 +22822,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gag law": {
     "n": {
@@ -22716,7 +22837,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gag line": {
     "n": {
@@ -22727,7 +22848,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gag order": {
     "n": {
@@ -22950,7 +23071,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gagman": {
     "n": {
@@ -23294,7 +23415,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gain ground": {
     "v": {
@@ -23311,7 +23432,7 @@
       "origin": "Metaphor, suggesting e.g. military acquisition of territory.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gain vigor": {
     "v": {
@@ -23326,6 +23447,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "gainand": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gainand, present participle of Middle English gainen (“to gain, benefit”), equivalent to gain + -and.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gainatter": {
     "n": {
@@ -23459,7 +23588,7 @@
       "origin": "From gain (“profit, foredeal”) + -ful.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gainfully": {
     "r": {
@@ -23565,7 +23694,7 @@
       "origin": "From gain- + rising. Compare againrising.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gainrodlifeanwork": {
     "n": {
@@ -23635,6 +23764,18 @@
     },
     "isAnglish": true
   },
+  "gainsayer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English aȝenseyere, equivalent to gainsay + -er.",
+      "sounds": [
+        {
+          "rhymes": "-eɪə(ɹ)"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "gainsaying": {
     "n": {
       "senses": [
@@ -23649,6 +23790,14 @@
         }
       ],
       "origin": "From Middle English gaynesayenge, ȝeinseiing, ȝeinsegging, equivalent to gainsay + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gainset": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gaynsetten, yensetten (also aȝeynesetten (“to oppose”)), equivalent to gain- + set. Cognate with archaic German gegensetzen (“to oppose”) (whence entgegensetzen), German Gegensatz (“opposition”).",
       "sounds": []
     },
     "isAnglish": true
@@ -23701,7 +23850,12 @@
       "origin": "From Middle English gainstanden, corresponding to gain- + stand. Compare againstand.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gainstanden, corresponding to gain- + stand. Compare againstand.",
+      "sounds": []
+    }
   },
   "gainstander": {
     "n": {
@@ -23733,7 +23887,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gainstandly": {
     "n": {
@@ -23859,6 +24013,14 @@
     "n": {
       "senses": [],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "gainward": {
+    "p": {
+      "senses": [],
+      "origin": "From gain- + -ward, or from an apheretic variant of Middle English agaynward, aȝenward, aȝeinward.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -24660,6 +24822,14 @@
     },
     "isAnglish": false
   },
+  "galge": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese ギャルゲー (gyaruge), a shortening of ギャルゲーム (gyaru gēmu), a wasei-eigo derived from English gal + game.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "galingale": {
     "n": {
       "pronunciation": [
@@ -24680,7 +24850,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall": {
     "n": {
@@ -24813,7 +24983,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall bladder": {
     "n": {
@@ -24825,7 +24995,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall gnat": {
     "n": {
@@ -24837,7 +25007,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall midge": {
     "n": {
@@ -24849,7 +25019,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall of the earth": {
     "n": {
@@ -24861,7 +25031,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall wasp": {
     "n": {
@@ -24873,7 +25043,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gall-berry": {
     "n": {
@@ -25079,6 +25249,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "gallantness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English galauntnesse, galantnesse, equivalent to gallant + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gallantry": {
     "n": {
@@ -25942,7 +26120,7 @@
       "origin": "From gallows + bird. Compare virtually identical German construction Galgenvogel (literally “gallows-fowl\" or \"gallows-bird”), and French construction gibier de potence, as well as similar English jailbird.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gallows tree": {
     "n": {
@@ -26960,7 +27138,7 @@
       "senses": [],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gambling": {
     "a": {
@@ -27463,7 +27641,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "game bird": {
     "n": {
@@ -27475,7 +27653,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "game equipment": {
     "n": {
@@ -27498,7 +27676,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "game fowl": {
     "n": {
@@ -27607,6 +27785,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "game set": {
+    "x": {
+      "senses": [],
+      "origin": "Calque of Japanese ゲームセット (gēmu setto), derived from English game, set, match.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "game show": {
@@ -27619,7 +27805,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "game studies": {
     "n": {
@@ -27665,7 +27851,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gamebag": {
     "n": {
@@ -27840,7 +28026,7 @@
       "origin": "From game + -ly; compare Old English gamenlīċ (“belonging to games, sportive, theatrical, ridiculous”) and Middle High German gāmelich, gemelich (“joyful”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gameness": {
     "n": {
@@ -27867,6 +28053,39 @@
       ]
     },
     "isAnglish": false
+  },
+  "gamer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gamer, attested since before 1450 as a common noun and possibly since 1248 in the name of one Johannes le Gamer. Equivalent to game (noun) + -er (occupational suffix).",
+      "sounds": [
+        {
+          "ipa": "/ˈɡeɪmɚ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ˈɡeɪmə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-eɪmə(ɹ)"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Persent101-gamer.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/LL-Q1860_%28eng%29-Persent101-gamer.wav/LL-Q1860_%28eng%29-Persent101-gamer.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/LL-Q1860_%28eng%29-Persent101-gamer.wav/LL-Q1860_%28eng%29-Persent101-gamer.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "games-master": {
     "n": {
@@ -28240,7 +28459,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gaming table": {
     "n": {
@@ -28472,7 +28691,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gammon": {
     "n": {
@@ -28508,7 +28727,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gammopathy": {
     "n": {
@@ -28920,7 +29139,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gang fight": {
     "n": {
@@ -28979,7 +29198,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gang-rape": {
     "v": {
@@ -29116,7 +29335,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gangling": {
     "a": {
@@ -29133,7 +29352,7 @@
       "origin": "Perhaps from gangle, from the dialectal gang (“to go, to walk, to proceed”). Compare Swedish gänglig.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gangliocyte": {
     "n": {
@@ -29254,7 +29473,7 @@
       "origin": "gang + -man",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gangplank": {
     "n": {
@@ -29268,6 +29487,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "gangrel": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gangrel, equivalent to gang + -rel. Compare gangling.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gangrene": {
     "n": {
@@ -29729,6 +29956,14 @@
     },
     "isAnglish": false
   },
+  "gansey": {
+    "n": {
+      "senses": [],
+      "origin": "From Irish geansaí, from English guernsey.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gantlet": {
     "n": {
       "senses": [
@@ -29756,7 +29991,7 @@
       "origin": "From Middle English gantlett, gantelette, variant of Middle English gauntelett. More at gauntlet.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gantry": {
     "n": {
@@ -30047,7 +30282,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gap-toothed": {
     "a": {
@@ -30154,7 +30389,28 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "gaper": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gaper, equivalent to gape + -er.",
+      "sounds": [
+        {
+          "rhymes": "-eɪpə(ɹ)"
+        },
+        {
+          "audio": "En-au-gaper.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/En-au-gaper.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/En-au-gaper.ogg/En-au-gaper.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gapfall": {
     "n": {
@@ -30185,7 +30441,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gapped scale": {
     "n": {
@@ -30906,7 +31162,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gardant": {
     "a": {
@@ -30921,6 +31177,18 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "gardebras": {
+    "n": {
+      "senses": [],
+      "origin": "Either borrowed from (Middle) French garde-bras, gardebras, or modified (under the influence of that word) from Middle English garbrasse, itself from that (Middle) French word.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɑɹd.ə.bɹɑ/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "garden": {
     "a": {
@@ -31193,7 +31461,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden angelica": {
     "n": {
@@ -31227,7 +31495,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden centipede": {
     "n": {
@@ -31309,7 +31577,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden heliotrope": {
     "n": {
@@ -31453,7 +31721,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden plant": {
     "n": {
@@ -31475,7 +31743,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden rhubarb": {
     "n": {
@@ -31497,7 +31765,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden roller": {
     "n": {
@@ -31508,7 +31776,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden snail": {
     "n": {
@@ -31519,7 +31787,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden sorrel": {
     "n": {
@@ -31546,7 +31814,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden spider": {
     "n": {
@@ -31557,7 +31825,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden strawberry": {
     "n": {
@@ -31568,7 +31836,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden symphilid": {
     "n": {
@@ -31590,7 +31858,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden trowel": {
     "n": {
@@ -31612,7 +31880,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden violet": {
     "n": {
@@ -31817,6 +32085,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "garefowl": {
+    "n": {
+      "senses": [],
+      "origin": "From Icelandic geirfugl, from Old Norse geirfugl (“great auk”), related to Swedish garfågel, Danish geirfugl, Faroese geirfuglur, gorfuglur, French gorfou.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "garfish": {
@@ -31833,7 +32109,7 @@
       "origin": "From Middle English garfysche, equivalent to gar (“spear”) + fish.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garganey": {
     "n": {
@@ -32398,7 +32674,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "garlic butter": {
     "n": {
@@ -32410,7 +32686,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "garlic chive": {
     "n": {
@@ -32473,7 +32749,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "garlic sauce": {
     "n": {
@@ -33165,6 +33441,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "garnisher": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English garnishere, equivalent to garnish + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "garnishment": {
     "n": {
@@ -33869,6 +34153,33 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "garth": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English garth, from Old Norse garðr, from Proto-Germanic *gardaz, thus cognate with Old English ġeard, whence English yard.",
+      "sounds": [
+        {
+          "ipa": "/ɡɑː(ɹ)θ/"
+        },
+        {
+          "rhymes": "-ɑː(ɹ)θ"
+        },
+        {
+          "homophone": "Garth"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-garth.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/LL-Q1860_%28eng%29-Vealhurl-garth.wav/LL-Q1860_%28eng%29-Vealhurl-garth.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/LL-Q1860_%28eng%29-Vealhurl-garth.wav/LL-Q1860_%28eng%29-Vealhurl-garth.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gas": {
     "n": {
@@ -35591,7 +35902,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gassing": {
     "n": {
@@ -36491,7 +36802,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gat-toothed": {
     "a": {
@@ -36642,7 +36953,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gateau": {
     "n": {
@@ -36714,7 +37025,7 @@
       "origin": "gate + house",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gatekeeper": {
     "n": {
@@ -36768,7 +37079,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gateleg table": {
     "n": {
@@ -36824,7 +37135,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gateway drug": {
     "n": {
@@ -37091,7 +37402,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gatherbind": {
     "v": {
@@ -37220,7 +37531,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gathered skirt": {
     "n": {
@@ -37251,7 +37562,7 @@
       "origin": "From Middle English gaderere, gaderare, equivalent to gather + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gathering": {
     "n": {
@@ -37587,7 +37898,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gaudery": {
     "n": {
@@ -37798,7 +38109,7 @@
       "origin": "From French gaufrer (“to figure cloth, velvet, and other stuffs”), from gaufre (“honeycomb, waffle”); of Germanic origin. See waffle, wafer, and compare goffer, gopher (“an animal”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gauffering iron": {
     "n": {
@@ -37975,6 +38286,59 @@
     },
     "isAnglish": false
   },
+  "gauger": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gauger, gager, equivalent to gauge + -er. Compare Old French gaugeur, jaugëor.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gaum": {
+    "n": {
+      "senses": [],
+      "origin": "Hindi [Term?]",
+      "sounds": [
+        {
+          "ipa": "/ɡɔːm/"
+        },
+        {
+          "rhymes": "-ɔːm"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gaum.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/LL-Q1860_%28eng%29-Vealhurl-gaum.wav/LL-Q1860_%28eng%29-Vealhurl-gaum.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/LL-Q1860_%28eng%29-Vealhurl-gaum.wav/LL-Q1860_%28eng%29-Vealhurl-gaum.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "Variant of gorm (“to make a mess of”), which see for more.",
+      "sounds": [
+        {
+          "ipa": "/ɡɔːm/"
+        },
+        {
+          "rhymes": "-ɔːm"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gaum.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/LL-Q1860_%28eng%29-Vealhurl-gaum.wav/LL-Q1860_%28eng%29-Vealhurl-gaum.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/LL-Q1860_%28eng%29-Vealhurl-gaum.wav/LL-Q1860_%28eng%29-Vealhurl-gaum.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "gaumish": {
     "a": {
       "senses": [
@@ -37988,7 +38352,7 @@
       "origin": "gaum + -ish",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gaumless": {
     "a": {
@@ -38428,7 +38792,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gaveler": {
     "n": {
@@ -38573,6 +38937,30 @@
       ]
     },
     "isAnglish": false
+  },
+  "gaw": {
+    "v": {
+      "senses": [],
+      "origin": "Middle English gowen (“to stare”), from Old Norse gá.",
+      "sounds": [
+        {
+          "ipa": "/ɡɔː/"
+        },
+        {
+          "rhymes": "-ɔː"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gaw.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/LL-Q1860_%28eng%29-Vealhurl-gaw.wav/LL-Q1860_%28eng%29-Vealhurl-gaw.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/LL-Q1860_%28eng%29-Vealhurl-gaw.wav/LL-Q1860_%28eng%29-Vealhurl-gaw.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gawk": {
     "n": {
@@ -39025,7 +39413,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gaywings": {
     "n": {
@@ -39710,7 +40098,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gear wheel": {
     "n": {
@@ -39736,7 +40124,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gear-driven": {
     "a": {
@@ -39770,7 +40158,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "geared": {
     "a": {
@@ -39947,7 +40335,7 @@
       "origin": "gear + work",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "geason": {
     "a": {
@@ -40003,6 +40391,59 @@
     },
     "isAnglish": false
   },
+  "gebur": {
+    "n": {
+      "senses": [],
+      "origin": "Learned borrowing from Old English ġebūr (“dweller, husbandman, farmer, countryman, boor”), from Proto-West Germanic *gabūr, from Proto-Germanic *ga- + *būraz (“house, room, dwelling”), from Proto-Indo-European *bʰew- (“to swell, wax, grow”). More at bower, boor.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "geck": {
+    "n": {
+      "senses": [],
+      "origin": "From Dutch gek or Low German geck, from an imitative verb found in North Sea Germanic and Scandinavian/North Germanic meaning \"to croak, cackle,\" and also \"to mock, cheat\" (Dutch gekken, German gecken, Danish gjække, Swedish gäcka).",
+      "sounds": [
+        {
+          "ipa": "/ɡɛk/"
+        },
+        {
+          "rhymes": "-ɛk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-geck.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/LL-Q1860_%28eng%29-Vealhurl-geck.wav/LL-Q1860_%28eng%29-Vealhurl-geck.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/LL-Q1860_%28eng%29-Vealhurl-geck.wav/LL-Q1860_%28eng%29-Vealhurl-geck.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Dutch gek or Low German geck, from an imitative verb found in North Sea Germanic and Scandinavian/North Germanic meaning \"to croak, cackle,\" and also \"to mock, cheat\" (Dutch gekken, German gecken, Danish gjække, Swedish gäcka).",
+      "sounds": [
+        {
+          "ipa": "/ɡɛk/"
+        },
+        {
+          "rhymes": "-ɛk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-geck.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/LL-Q1860_%28eng%29-Vealhurl-geck.wav/LL-Q1860_%28eng%29-Vealhurl-geck.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/LL-Q1860_%28eng%29-Vealhurl-geck.wav/LL-Q1860_%28eng%29-Vealhurl-geck.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "gecko": {
     "n": {
       "form": [
@@ -40053,6 +40494,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "ged": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gedde, from Old Norse gedda (“pike”), cognate with Icelandic gedda (“pike”), Danish gedde (“pike”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gee": {
     "n": {
@@ -40314,6 +40763,21 @@
     },
     "isAnglish": false
   },
+  "geest": {
+    "n": {
+      "senses": [],
+      "origin": "A substantivization of Low German güst (“dry and infertile”, adjective), from Middle Low German gēst (“dry, elevated”, literally “cracking, gaping, yawning”), from Old Saxon gīnan, from Proto-West Germanic *gīnan. See also German gähnen.",
+      "sounds": [
+        {
+          "ipa": "/ɡiːst/"
+        },
+        {
+          "rhymes": "-iːst"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "geezer": {
     "n": {
       "pronunciation": [
@@ -40529,6 +40993,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "geitost": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Norwegian geitost (“goat cheese”), which is geit (“goat”) + ost (“cheese”), from Old Norse geit + ostr.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gel": {
     "n": {
@@ -40892,6 +41364,31 @@
     },
     "isAnglish": false
   },
+  "gelbstoff": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from German Gelbstoff (literally “yellow substance”) (coined by K. Kalle in a 1966 article: see the quotation), from German gelb (“amber, yellow”) (ultimately from Proto-Indo-European *ǵʰelh₃wós (“yellow”), from *ǵʰelh₃- (“to shine”) + *-wós (“suffix forming adjectives from verb stems”)) + German Stoff (“matter, stuff, substance”) (from Proto-West Germanic *stoppōn (“to close; to fill, stop up”), possibly ultimately from Proto-Indo-European *(s)tew- (“to hit; to push”)).",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɛlpʃtɔf/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gelbstoff.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/LL-Q1860_%28eng%29-Vealhurl-gelbstoff.wav/LL-Q1860_%28eng%29-Vealhurl-gelbstoff.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/LL-Q1860_%28eng%29-Vealhurl-gelbstoff.wav/LL-Q1860_%28eng%29-Vealhurl-gelbstoff.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "geld": {
     "v": {
       "form": [
@@ -40931,6 +41428,14 @@
     },
     "isAnglish": true
   },
+  "geldable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English geldable, from Anglo-Norman gilable, guldable, equivalent to geld + -able, from geld (“money”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gelddom": {
     "n": {
       "senses": [
@@ -40954,6 +41459,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "gelder": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English geldere, equivalent to geld + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gelding": {
     "n": {
@@ -41254,7 +41767,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gem clip": {
     "n": {
@@ -41267,7 +41780,7 @@
       "origin": "Trade name (Gem clip) of the late 19th century.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gem cutter": {
     "n": {
@@ -41279,7 +41792,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gemanshiplar": {
     "n": {
@@ -41647,7 +42160,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gen": {
     "n": {
@@ -43289,7 +43802,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "generally accepted accounting principles": {
     "n": {
@@ -43628,7 +44141,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "generative grammar": {
     "n": {
@@ -46021,6 +46534,14 @@
     },
     "isAnglish": false
   },
+  "gentilly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English gentilly, equivalent to gentle + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gentle": {
     "a": {
       "pronunciation": [
@@ -46315,7 +46836,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gentleman's gentleman": {
     "n": {
@@ -46405,7 +46926,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gentlemen's agreement": {
     "n": {
@@ -46452,7 +46973,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gentlewoman": {
     "n": {
@@ -46474,7 +46995,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gently": {
     "r": {
@@ -46522,7 +47043,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gentrification": {
     "n": {
@@ -87157,6 +87678,24 @@
     },
     "isAnglish": false
   },
+  "geo": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Norn [Term?], from Old Norse gjá.",
+      "sounds": [
+        {
+          "ipa": "/ɡjəʊ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-əʊ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "geocentric": {
     "a": {
       "pronunciation": [
@@ -90234,6 +90773,81 @@
     },
     "isAnglish": true
   },
+  "gersum": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gersom, gersum, from Old English gærsum, gersum, gærsuma, from Old Norse gersemi, gørsemi (“treasure”), from gerr, gǫrr (“ready”) + -semi (“-ness”), with the ending assimilated to native -sum. Compare garrison.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɜːsəm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈɡɝsəm/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "gert": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English girt, gert, a metathetic variant of gret (“great”). More at great.",
+      "sounds": [
+        {
+          "ipa": "/ɡɝːt/",
+          "note": "Bristolian"
+        },
+        {
+          "rhymes": "-ɜː(ɹ)t"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gert.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q1860_%28eng%29-Vealhurl-gert.wav/LL-Q1860_%28eng%29-Vealhurl-gert.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q1860_%28eng%29-Vealhurl-gert.wav/LL-Q1860_%28eng%29-Vealhurl-gert.wav.mp3"
+        }
+      ]
+    },
+    "r": {
+      "senses": [
+        {
+          "synset": "00032295-r"
+        },
+        {
+          "synset": "00513282-r"
+        }
+      ],
+      "origin": "From Middle English girt, gert, a metathetic variant of gret (“great”). More at great.",
+      "sounds": [
+        {
+          "ipa": "/ɡɝːt/",
+          "note": "Bristolian"
+        },
+        {
+          "rhymes": "-ɜː(ɹ)t"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gert.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q1860_%28eng%29-Vealhurl-gert.wav/LL-Q1860_%28eng%29-Vealhurl-gert.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q1860_%28eng%29-Vealhurl-gert.wav/LL-Q1860_%28eng%29-Vealhurl-gert.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "gerund": {
     "n": {
       "pronunciation": [
@@ -90321,7 +90935,7 @@
       "origin": "Learned borrowing from Old English ġesīþ (“companion, fellow, comrade; companion or follower of an athel or king”); equivalent to ge- + siþ.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gesithship": {
     "n": {
@@ -90487,7 +91101,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gestate": {
     "v": {
@@ -91320,7 +91934,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get a line": {
     "v": {
@@ -91409,7 +92023,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get across": {
     "v": {
@@ -91459,7 +92073,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get along": {
     "v": {
@@ -91504,7 +92118,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get along with": {
     "v": {
@@ -91566,7 +92180,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get around to": {
     "v": {
@@ -91621,7 +92235,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get away": {
     "v": {
@@ -91658,7 +92272,7 @@
       "origin": "get + away",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get back": {
     "v": {
@@ -91696,7 +92310,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get behind": {
     "v": {
@@ -91724,7 +92338,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get by": {
     "v": {
@@ -91768,7 +92382,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get cracking": {
     "v": {
@@ -91856,7 +92470,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get dressed": {
     "v": {
@@ -91904,7 +92518,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get even for": {
     "v": {
@@ -91951,7 +92565,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get hitched with": {
     "v": {
@@ -92017,7 +92631,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get in": {
     "v": {
@@ -92068,7 +92682,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get in touch": {
     "v": {
@@ -92132,7 +92746,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get it": {
     "v": {
@@ -92165,7 +92779,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get it on": {
     "v": {
@@ -92190,7 +92804,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get laid": {
     "v": {
@@ -92363,7 +92977,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get off the ground": {
     "v": {
@@ -92389,7 +93003,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get on": {
     "v": {
@@ -92459,7 +93073,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get on with": {
     "v": {
@@ -92474,7 +93088,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get one's lumps": {
     "v": {
@@ -92590,7 +93204,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get over": {
     "v": {
@@ -92643,7 +93257,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get rid of": {
     "v": {
@@ -92689,7 +93303,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get rolling": {
     "v": {
@@ -92794,7 +93408,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get the goods": {
     "v": {
@@ -92902,7 +93516,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get to": {
     "v": {
@@ -92935,7 +93549,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get to grips": {
     "v": {
@@ -92966,7 +93580,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get together": {
     "n": {
@@ -93033,7 +93647,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get under one's skin": {
     "v": {
@@ -93141,7 +93755,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get used to": {
     "v": {
@@ -93199,7 +93813,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get wind": {
     "v": {
@@ -93215,7 +93829,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get wise": {
     "v": {
@@ -93241,7 +93855,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get wont": {
     "v": {
@@ -93321,7 +93935,7 @@
       "origin": "get + go",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get-together": {
     "n": {
@@ -93335,7 +93949,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get-up": {
     "n": {
@@ -93349,7 +93963,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get-up-and-go": {
     "n": {
@@ -93361,7 +93975,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "get-well card": {
     "n": {
@@ -93430,7 +94044,7 @@
       "origin": "Deverbal from get away.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "getherwended": {
     "a": {
@@ -93553,7 +94167,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "getting": {
     "n": {
@@ -93659,7 +94273,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gewonely": {
     "a": {
@@ -93838,7 +94452,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gharry": {
     "n": {
@@ -93877,6 +94491,14 @@
         }
       ],
       "origin": "Variation of gast, from Middle English gasten, from Old English gāstan (“to meditate”) and gǣstan (“to gast, frighten, afflict, torment”). More at gast. Spelling influenced by ghost.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ghastful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gastful, equivalent to ghast + -ful. See ghastly.",
       "sounds": []
     },
     "isAnglish": true
@@ -93958,6 +94580,21 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/En-us-ghastly.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/En-us-ghastly.ogg/En-us-ghastly.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "ghastness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gastnes, gastnesse, from gast, past participle of gasten (“to terrify”), equivalent to ghast + -ness.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡæs(t)nəs/"
+        },
+        {
+          "ipa": "/ˈɡɑːs(t)nəs/"
         }
       ]
     },
@@ -94505,7 +95142,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ghost staff": {
     "n": {
@@ -94556,7 +95193,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ghost weed": {
     "n": {
@@ -94580,7 +95217,7 @@
       "origin": "Coined by Walter William Skeat in 1886; ghost + word.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ghost-man": {
     "n": {
@@ -94754,7 +95391,7 @@
       "origin": "From ghost + lore (“learning, knowledge”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ghostly": {
     "a": {
@@ -94835,7 +95472,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ghostword": {
     "n": {
@@ -94843,7 +95480,7 @@
       "origin": "From ghost + word.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ghostwrite": {
     "v": {
@@ -96730,7 +97367,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gift shop": {
     "n": {
@@ -96742,7 +97379,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gift tax": {
     "n": {
@@ -96766,7 +97403,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gift wrapping": {
     "n": {
@@ -96798,7 +97435,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "giftboard": {
     "n": {
@@ -96844,6 +97481,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/LL-Q1860_%28eng%29-Persent101-gifted.wav/LL-Q1860_%28eng%29-Persent101-gifted.wav.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "giftless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gifteles, yifteles, yeftles, equivalent to gift + -less.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -96946,7 +97591,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gig-mill": {
     "n": {
@@ -97304,7 +97949,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "giggler": {
     "n": {
@@ -97563,7 +98208,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gild the lily": {
     "v": {
@@ -97613,7 +98258,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gilded": {
     "a": {
@@ -97747,7 +98392,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gildhall": {
     "n": {
@@ -97843,7 +98488,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gill arch": {
     "n": {
@@ -97911,7 +98556,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gill-less": {
     "a": {
@@ -97935,7 +98580,7 @@
       "origin": "From the female name Gillian.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gilled": {
     "a": {
@@ -98185,7 +98830,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gimbal": {
     "n": {
@@ -98362,6 +99007,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "gimmer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gimbyre, from Old Norse gymbr (“one-year-old ewe lamb”), from Proto-Germanic *gimrį̄ (“a yearling ewe-lamb”), from Proto-Indo-European *ǵʰyem- (“winter”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gimmick": {
     "n": {
@@ -98617,7 +99270,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gin and it": {
     "n": {
@@ -98630,7 +99283,7 @@
       "origin": "Short for gin and Italian vermouth.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gin and tonic": {
     "n": {
@@ -98654,7 +99307,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gin rickey": {
     "n": {
@@ -98746,7 +99399,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginge": {
     "a": {
@@ -98777,7 +99430,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginger": {
     "a": {
@@ -98927,7 +99580,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginger ale": {
     "n": {
@@ -98952,7 +99605,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginger beer": {
     "n": {
@@ -98964,7 +99617,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginger family": {
     "n": {
@@ -98987,7 +99640,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginger pop": {
     "n": {
@@ -99027,7 +99680,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ginger-scented": {
     "a": {
@@ -99849,7 +100502,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gird about": {
     "v": {
@@ -100017,7 +100670,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "girdledeer": {
     "n": {
@@ -100027,6 +100680,14 @@
         }
       ],
       "origin": "NE×2, girdle+deer; calque: Gürteltier"
+    },
+    "isAnglish": true
+  },
+  "girdler": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English girdeler; equivalent to girdle + -er.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -100208,7 +100869,7 @@
       "origin": "By extension from man Friday, from the character Friday in Robinson Crusoe (1719) by Daniel Defoe",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "girl wonder": {
     "n": {
@@ -100220,7 +100881,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "girlfriend": {
     "n": {
@@ -100371,6 +101032,14 @@
     },
     "isAnglish": false
   },
+  "girmitya": {
+    "n": {
+      "senses": [],
+      "origin": "From English agreement, referring to the agreement of the British government with the labourers as to the length of their stay in Fiji.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "girn": {
     "n": {
       "senses": [
@@ -100419,7 +101088,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "giro": {
     "n": {
@@ -100496,6 +101165,69 @@
       ]
     },
     "isAnglish": false
+  },
+  "girt": {
+    "v": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/ɡɜːt/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ɡɝt/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)t"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-girt.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/LL-Q1860_%28eng%29-Vealhurl-girt.wav/LL-Q1860_%28eng%29-Vealhurl-girt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/LL-Q1860_%28eng%29-Vealhurl-girt.wav/LL-Q1860_%28eng%29-Vealhurl-girt.wav.mp3"
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English girt, gert, a metathetic variant of gret (“great”). More at great.",
+      "sounds": [
+        {
+          "ipa": "/ɡɜːt/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ɡɝt/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)t"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-girt.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/LL-Q1860_%28eng%29-Vealhurl-girt.wav/LL-Q1860_%28eng%29-Vealhurl-girt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/LL-Q1860_%28eng%29-Vealhurl-girt.wav/LL-Q1860_%28eng%29-Vealhurl-girt.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "girth": {
     "n": {
@@ -100707,7 +101439,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gitana": {
     "n": {
@@ -101192,7 +101924,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give a damn": {
     "v": {
@@ -101224,7 +101956,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give a hoot": {
     "v": {
@@ -101323,7 +102055,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give away betoken": {
     "v": {
@@ -101370,7 +102102,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give birth": {
     "v": {
@@ -101404,7 +102136,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give care": {
     "v": {
@@ -101470,7 +102202,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give forth": {
     "v": {
@@ -101486,7 +102218,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give full measure": {
     "v": {
@@ -101518,7 +102250,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give heart to": {
     "v": {
@@ -101571,7 +102303,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give it a try": {
     "v": {
@@ -101699,7 +102431,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give one's best": {
     "v": {
@@ -101726,7 +102458,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give out": {
     "v": {
@@ -101779,7 +102511,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give over": {
     "v": {
@@ -101793,7 +102525,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give right": {
     "v": {
@@ -101842,7 +102574,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give strength and hope": {
     "v": {
@@ -101870,7 +102602,7 @@
       "origin": "From give + suck (verb) (bare infinitive, though now generally felt as a noun).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give thanks": {
     "v": {
@@ -101910,7 +102642,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give the bounce": {
     "v": {
@@ -101924,7 +102656,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "give the eye": {
     "v": {
@@ -101970,7 +102702,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "give the green light for": {
     "v": {
@@ -102025,7 +102757,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give to": {
     "v": {
@@ -102167,7 +102899,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give up hope": {
     "v": {
@@ -102177,6 +102909,24 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "give up the ghost": {
+    "v": {
+      "senses": [],
+      "origin": "Literally, to release one's spirit or soul from the body at death. From Middle English \"gaf up þe gost\", \"ʒave up þe gost\", from Old English phrases as \"hēo āġeaf hire gāst\" (literally, \"she gave up her ghost [spirit]\"), \"þæt iċ gāst mīnne āġifan mōte\" (literally, \"that I must give up my ghost [spirit]\"). Compare German den Geist aufgeben and Dutch de geest geven.\nPerhaps most notable and survived in modern English for being used in traditional translation during the death of Jesus during His crucifixion:\n The Holy Bible, […] (King James Version), London: […] Robert Barker, […], 1611, →OCLC, Matthew 27:50: “¶ Iesus, when hee had cried againe with a loud voice, yeelded vp the ghost.”",
+      "sounds": [
+        {
+          "audio": "en-au-give up the ghost.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/En-au-give_up_the_ghost.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/En-au-give_up_the_ghost.ogg/En-au-give_up_the_ghost.ogg.mp3"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -102263,7 +103013,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give-and-go": {
     "n": {
@@ -102275,7 +103025,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give-and-take": {
     "n": {
@@ -102295,7 +103045,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "give-up the ghost": {
     "v": {
@@ -102345,7 +103095,7 @@
       "origin": "Deverbal from give back.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "givel": {
     "n": {
@@ -102495,7 +103245,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "given name": {
     "n": {
@@ -102517,14 +103267,14 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "given that": {
     "c": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "giveness": {
     "n": {
@@ -102539,7 +103289,7 @@
       "origin": "From give + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "givenness": {
     "n": {
@@ -102555,7 +103305,7 @@
       "origin": "From given + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "givens": {
     "n": {
@@ -102573,7 +103323,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "giver": {
     "n": {
@@ -102619,7 +103369,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "giveth": {
     "a": {
@@ -103464,7 +104214,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glad-hander": {
     "n": {
@@ -103476,7 +104226,7 @@
       "origin": "glad-hand + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gladden": {
     "v": {
@@ -103531,7 +104281,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gladdened": {
     "a": {
@@ -103539,6 +104289,45 @@
         {
           "id": "gladdened%5:00:00:elated:00",
           "synset": "00708780-s"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "gladder": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gladere, from Old English glædra (adj), glador (adverb), comparative of glæd (“glad, shining, bright”). More at glad.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡlædə(ɹ)/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gladder.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q1860_%28eng%29-Vealhurl-gladder.wav/LL-Q1860_%28eng%29-Vealhurl-gladder.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q1860_%28eng%29-Vealhurl-gladder.wav/LL-Q1860_%28eng%29-Vealhurl-gladder.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From gladder (“one who makes glad”), or perhaps from Middle English *gladderen, from Old English *gladrian (“to make glad”), equivalent to glad + -er (fequentative suffix).",
+      "sounds": [
+        {
+          "ipa": "/ˈɡlædə(ɹ)/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gladder.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q1860_%28eng%29-Vealhurl-gladder.wav/LL-Q1860_%28eng%29-Vealhurl-gladder.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q1860_%28eng%29-Vealhurl-gladder.wav/LL-Q1860_%28eng%29-Vealhurl-gladder.wav.mp3"
         }
       ]
     },
@@ -103554,7 +104343,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gladdon iris": {
     "n": {
@@ -103623,23 +104412,18 @@
     },
     "isAnglish": true
   },
-  "gladen": {
-    "n": {
-      "senses": [
-        {
-          "synset": "12124621-n"
-        },
-        {
-          "synset": "12432427-n"
-        },
-        {
-          "synset": "12434147-n"
-        },
-        {
-          "synset": "12437887-n"
-        }
-      ],
-      "origin": "From Old English glaedene from Latin gladiolus (“little sword; sword lily”).",
+  "gladful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gladful, equivalent to glad + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gladfully": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English gladfulli, equivalent to gladful + -ly.",
       "sounds": []
     },
     "isAnglish": true
@@ -103869,7 +104653,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gladsome": {
     "a": {
@@ -103885,7 +104669,7 @@
       "origin": "From Middle English gladsom, equivalent to glad + -some.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gladsomeness": {
     "n": {
@@ -103901,7 +104685,7 @@
       "origin": "From Middle English gladsomnesse, equivalent to gladsome + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glam up": {
     "v": {
@@ -104486,7 +105270,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gland": {
     "n": {
@@ -105012,7 +105796,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glaringly": {
     "r": {
@@ -105518,7 +106302,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glass eye": {
     "n": {
@@ -105530,7 +106314,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glass fiber": {
     "n": {
@@ -105605,7 +106389,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glass over": {
     "v": {
@@ -105635,7 +106419,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glass sponge": {
     "n": {
@@ -105647,7 +106431,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glass wool": {
     "n": {
@@ -105659,7 +106443,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glass-cutter": {
     "n": {
@@ -105745,7 +106529,7 @@
       "origin": "From glass + -en (verbal suffix).",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "a": {
       "senses": [
         {
@@ -105847,7 +106631,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glasses case": {
     "n": {
@@ -105884,7 +106668,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glasshouse": {
     "n": {
@@ -105932,7 +106716,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glassless": {
     "a": {
@@ -106467,7 +107251,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glazed": {
     "a": {
@@ -106672,7 +107456,34 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "glazing": {
+    "v": {
+      "senses": [],
+      "origin": "Inherited from Middle English glasynge; equivalent to glaze + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡleɪzɪŋ/"
+        },
+        {
+          "rhymes": "-eɪzɪŋ"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English glasynge; equivalent to glaze + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡleɪzɪŋ/"
+        },
+        {
+          "rhymes": "-eɪzɪŋ"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gleam": {
     "n": {
@@ -106872,7 +107683,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gleamlist": {
     "n": {
@@ -106972,7 +107783,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gleba": {
     "n": {
@@ -107130,7 +107941,7 @@
       "origin": "From glee, meaning a short song for multiple parts.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gleeband": {
     "n": {
@@ -107216,7 +108027,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gleedstead": {
     "n": {
@@ -107264,7 +108075,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gleefully": {
     "r": {
@@ -107298,6 +108109,65 @@
     },
     "isAnglish": false
   },
+  "gleek": {
+    "n": {
+      "senses": [],
+      "origin": "Blend of glee + geek",
+      "sounds": [
+        {
+          "ipa": "/ɡliːk/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-iːk"
+        },
+        {
+          "audio": "en-us-gleek.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/En-us-gleek.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/En-us-gleek.ogg/En-us-gleek.ogg.mp3"
+        },
+        {
+          "enpr": "glēk"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "Related to Etymology 1. Of North Germanic origin, from Old Norse *gleikr, leikr (“sport, play, game”), from Proto-Germanic *galaikaz (“jump, play”), from Proto-Indo-European *leyg-. Cognate with Old English ġelācan (“to play a trick on, delude”), Scots glaik (“a glance of the eye, deception, trick”, n.), Scots glaik (“to trick, trifle with”, v.). More at lake.",
+      "sounds": [
+        {
+          "ipa": "/ɡliːk/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-iːk"
+        },
+        {
+          "audio": "en-us-gleek.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/En-us-gleek.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/En-us-gleek.ogg/En-us-gleek.ogg.mp3"
+        },
+        {
+          "enpr": "glēk"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "gleelore": {
     "n": {
       "senses": [
@@ -107315,7 +108185,7 @@
       "origin": "glee + maiden",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gleeman": {
     "n": {
@@ -107454,7 +108324,7 @@
       "origin": "From gleeman and woman.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gleg": {
     "a": {
@@ -107488,7 +108358,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glemb": {
     "n": {
@@ -107663,7 +108533,12 @@
       ],
       "origin": "OE, glēaw"
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English glew, glu, etc.",
+      "sounds": []
+    }
   },
   "glewer": {
     "n": {
@@ -107854,7 +108729,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glib-tongued": {
     "a": {
@@ -107865,7 +108740,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glibly": {
     "r": {
@@ -108078,7 +108953,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glide slope": {
     "n": {
@@ -108090,7 +108965,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glide-bomb": {
     "v": {
@@ -108168,7 +109043,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glidewort": {
     "n": {
@@ -108601,7 +109476,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glimtree": {
     "n": {
@@ -108742,7 +109617,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glinting": {
     "a": {
@@ -109124,7 +109999,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glithe": {
     "n": {
@@ -109334,7 +110209,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glittering": {
     "a": {
@@ -110789,7 +111664,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glomerular": {
     "a": {
@@ -111152,7 +112027,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gloomy Gus": {
     "n": {
@@ -111198,6 +112073,35 @@
       ]
     },
     "isAnglish": false
+  },
+  "glope": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English glopen, probably from Old Norse glápa (“to stare vacantly”), from Proto-Germanic *glupaną (“to shine, gape”), from Proto-Indo-European *gʰlub(ʰ)- (“to yawn, gape”). Cognate with Icelandic glápa (“to watch, stare at”), Dutch gluipen (“to sneak”), Low German glupen (“to look askance, leer”), Scots gloup (“chasm, cleft”). See also gloppen.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English glopen, probably from Old Norse glápa (“to stare vacantly”), from Proto-Germanic *glupaną (“to shine, gape”), from Proto-Indo-European *gʰlub(ʰ)- (“to yawn, gape”). Cognate with Icelandic glápa (“to watch, stare at”), Dutch gluipen (“to sneak”), Low German glupen (“to look askance, leer”), Scots gloup (“chasm, cleft”). See also gloppen.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gloppen": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English glopnen, from Old Norse glúpna (“to frighten, grieve, look downcast”), from Proto-Germanic *glupnōną (“to frighten, cause to stare”), from Proto-Indo-European *gʰlub(ʰ)- (“to yawn, gape”). Cognate with Icelandic glúpna (“to put to shame”). More at glope.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "glore": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gloren. Cognate with German Low German gloren (“to glimmer; flicker”). Related to glare.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "glorification": {
     "n": {
@@ -111866,7 +112770,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gloss over": {
     "v": {
@@ -111908,7 +112812,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glossa": {
     "n": {
@@ -112827,6 +113731,38 @@
     },
     "isAnglish": false
   },
+  "glover": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English glovere; equivalent to glove + -er.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡlʌvə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈɡlʌvɚ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ʌvə(ɹ)"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "gloveress": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gloveres; equivalent to glover + -ess.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "glow": {
     "n": {
       "pronunciation": [
@@ -113140,7 +114076,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glowering": {
     "a": {
@@ -113240,7 +114176,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glowingly": {
     "r": {
@@ -113291,7 +114227,7 @@
       "origin": "From Middle English glouworm; equivalent to glow + worm.\nCompare German Glühwurm.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glowy": {
     "a": {
@@ -113627,6 +114563,14 @@
     },
     "isAnglish": false
   },
+  "gluer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English glewer. By surface analysis, glue + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gluey": {
     "a": {
       "senses": [
@@ -113643,7 +114587,7 @@
       "origin": "From Middle English glewy; equivalent to glue + -y.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "glueyness": {
     "n": {
@@ -113714,6 +114658,18 @@
     },
     "isAnglish": false
   },
+  "gluish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English glewysch; equivalent to glue + -ish.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡluːɪʃ/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "glum": {
     "a": {
       "form": [
@@ -113755,7 +114711,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "glume": {
     "n": {
@@ -113821,7 +114777,7 @@
       "origin": "glum + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gluon": {
     "n": {
@@ -114076,6 +115032,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "glutch": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English glucchen, a variant of gulchen (“to drink greedily”). Doublet of gulch.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English glucchen, a variant of gulchen (“to drink greedily”). Doublet of gulch.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "glute": {
     "n": {
@@ -114462,6 +115431,18 @@
     },
     "isAnglish": false
   },
+  "gluttonish": {
+    "a": {
+      "senses": [
+        {
+          "synset": "00009997-a"
+        }
+      ],
+      "origin": "From Middle English glotenish, equivalent to glutton + -ish.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gluttonize": {
     "v": {
       "senses": [
@@ -114530,7 +115511,7 @@
       "origin": "From Middle English glotenously, gloutonnously; equivalent to gluttonous + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gluttony": {
     "n": {
@@ -115228,6 +116209,14 @@
     },
     "isAnglish": false
   },
+  "gnag": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *gnaggen, *gnagen, from Old Norse gnaga (“to gnaw”), from Proto-Germanic *gnaganą (“to gnaw”). More at English gnaw.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gnar": {
     "v": {
       "senses": [
@@ -115445,7 +116434,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gnast": {
     "n": {
@@ -115489,6 +116478,14 @@
         }
       ]
     }
+  },
+  "gnasting": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gnastyng, gnaisting, equivalent to gnast + -ing. More at gnast.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gnat": {
     "n": {
@@ -115748,6 +116745,75 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "gnawing": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gnawynge; equivalent to gnaw + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɔː.ɪŋ/"
+        },
+        {
+          "ipa": "/ˈnɔːɹ.ɪŋ(ɡ)/",
+          "note": "intrusive r"
+        },
+        {
+          "ipa": "/ˈnɔ.ɪŋ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɔːɪŋ"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gnawynge; equivalent to gnaw + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɔː.ɪŋ/"
+        },
+        {
+          "ipa": "/ˈnɔːɹ.ɪŋ(ɡ)/",
+          "note": "intrusive r"
+        },
+        {
+          "ipa": "/ˈnɔ.ɪŋ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɔːɪŋ"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gnawynge; equivalent to gnaw + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɔː.ɪŋ/"
+        },
+        {
+          "ipa": "/ˈnɔːɹ.ɪŋ(ɡ)/",
+          "note": "intrusive r"
+        },
+        {
+          "ipa": "/ˈnɔ.ɪŋ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɔːɪŋ"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "gnawing mammal": {
@@ -115972,7 +117038,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "gnoff": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gnof (“a miser, churl, lout”), of unknown origin. Cognate with Scots gnaff (“any small or stunted object”). Compare Saterland Frisian knufe (“lump”), Saterland Frisian gnuffig (“thick, rough, coarse, ill-mannered”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gnome": {
     "n": {
@@ -116880,7 +117954,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go Dutch": {
     "v": {
@@ -116906,7 +117980,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go a long way": {
     "v": {
@@ -116931,7 +118005,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go about": {
     "v": {
@@ -116946,7 +118020,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go after": {
     "v": {
@@ -116974,7 +118048,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go against": {
     "v": {
@@ -117004,7 +118078,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go ahead": {
     "v": {
@@ -117062,7 +118136,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go all out": {
     "v": {
@@ -117088,7 +118162,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go along": {
     "v": {
@@ -117119,7 +118193,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go around": {
     "v": {
@@ -117167,7 +118241,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go as": {
     "v": {
@@ -117238,7 +118312,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go back": {
     "v": {
@@ -117270,7 +118344,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go back on": {
     "v": {
@@ -117285,7 +118359,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go bad": {
     "v": {
@@ -117307,7 +118381,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go ballistic": {
     "v": {
@@ -117406,7 +118480,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go deep": {
     "v": {
@@ -117431,7 +118505,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go down": {
     "v": {
@@ -117525,7 +118599,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go down on": {
     "v": {
@@ -117550,7 +118624,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go far": {
     "v": {
@@ -117583,7 +118657,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go for": {
     "v": {
@@ -117634,7 +118708,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go for broke": {
     "v": {
@@ -117660,7 +118734,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go forth": {
     "v": {
@@ -117730,7 +118804,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go in": {
     "v": {
@@ -117758,7 +118832,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go into": {
     "v": {
@@ -117783,7 +118857,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go missing": {
     "v": {
@@ -117797,7 +118871,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go off": {
     "v": {
@@ -117873,7 +118947,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go off at half-cock": {
     "v": {
@@ -117980,7 +119054,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go out": {
     "v": {
@@ -118052,7 +119126,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go over": {
     "v": {
@@ -118102,7 +119176,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go past": {
     "v": {
@@ -118150,7 +119224,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go strong": {
     "v": {
@@ -118206,7 +119280,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go through the motions": {
     "v": {
@@ -118257,7 +119331,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go to": {
     "v": {
@@ -118482,7 +119556,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go up": {
     "v": {
@@ -118556,7 +119630,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go with": {
     "v": {
@@ -118592,7 +119666,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go wrong": {
     "v": {
@@ -118620,7 +119694,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-ahead": {
     "n": {
@@ -118643,7 +119717,7 @@
       "origin": "As a name for footwear, from the fact that one can't easily step backwards wearing them.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-around": {
     "n": {
@@ -118655,7 +119729,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-as-you-please": {
     "a": {
@@ -118678,7 +119752,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-cart": {
     "n": {
@@ -118699,7 +119773,7 @@
       "origin": "go + cart",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-getter": {
     "n": {
@@ -118721,7 +119795,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-getting": {
     "n": {
@@ -118749,7 +119823,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-kart": {
     "n": {
@@ -118800,7 +119874,7 @@
       "origin": "Deverbal from go slow.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "go-to": {
     "n": {
@@ -119142,7 +120216,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goal-directed": {
     "a": {
@@ -119170,7 +120244,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goalie": {
     "n": {
@@ -119389,7 +120463,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goat": {
     "n": {
@@ -119520,7 +120594,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goat rue": {
     "n": {
@@ -119691,6 +120765,18 @@
       "origin": "goat + -ling",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "goatmilk": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English goot mylk, gote milke; equivalent to goat + milk.",
+      "sounds": [
+        {
+          "rhymes": "-ɪlk"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "goats' milk": {
@@ -119714,7 +120800,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goatsfoot": {
     "n": {
@@ -119750,7 +120836,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goatsrue": {
     "n": {
@@ -119770,7 +120856,7 @@
       "origin": "From goat + sucker, from the ancient folk belief that they sucked milk from goats.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gob": {
     "n": {
@@ -120084,7 +121170,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goblet": {
     "n": {
@@ -120119,7 +121205,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goblet cell": {
     "n": {
@@ -120143,7 +121229,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goblin": {
     "n": {
@@ -120191,7 +121277,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gobs": {
     "n": {
@@ -120416,7 +121502,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "god-fearing": {
     "a": {
@@ -120485,6 +121571,14 @@
     },
     "isAnglish": true
   },
+  "godbrother": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English godbrother, equivalent to god + brother.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "godchild": {
     "n": {
       "form": [
@@ -120540,7 +121634,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goddamn": {
     "a": {
@@ -120706,7 +121800,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goddin": {
     "n": {
@@ -120716,6 +121810,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "goddish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *goddisshe, goddyche, equivalent to god + -ish.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -120775,6 +121877,14 @@
     },
     "isAnglish": true
   },
+  "godfearing": {
+    "a": {
+      "senses": [],
+      "origin": "From god + fearing, likely an alteration of Middle English goddfrihti (“god-fearing”, literally “god-frighty”) and god-friht (“god-fearing”) (whence modern English god-fright), from Old English godfyrht (“god-fearing”). Compare Old High German gotforht (“god-fearing”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "godfoe": {
     "n": {
       "senses": [],
@@ -120811,7 +121921,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godhead": {
     "n": {
@@ -120918,7 +122028,7 @@
       ],
       "origin": "ME&OE, godcund&godcund"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godkind man": {
     "n": {
@@ -120983,7 +122093,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godlessness": {
     "n": {
@@ -120999,7 +122109,7 @@
       "origin": "godless + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godlief": {
     "n": {
@@ -121094,7 +122204,7 @@
       "origin": "From god + lore (“learning, study of”). Compare German Gotteslehre, Danish gudelære.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godly": {
     "a": {
@@ -121160,7 +122270,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godmodry": {
     "n": {
@@ -121201,6 +122311,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-godmother.wav/LL-Q1860_%28eng%29-Vealhurl-godmother.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "godness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English godnesse, equivalent to god + -ness. Cognate with Old High German gotnissa, gotnissi (“divinity; deity”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -121273,7 +122391,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gods to the groundlings": {
     "n": {
@@ -121336,7 +122454,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godsent": {
     "a": {
@@ -121360,7 +122478,7 @@
       "origin": "From God + sent.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godshild": {
     "n": {
@@ -121412,7 +122530,7 @@
       "origin": "Learned borrowing from Middle English godsib; doublet of gossip; see those entries for more.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "godsibred": {
     "n": {
@@ -121422,6 +122540,14 @@
         }
       ],
       "origin": "NE, gossipred"
+    },
+    "isAnglish": true
+  },
+  "godsister": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English godsuster, equivalent to god + sister.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -121666,7 +122792,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goethite": {
     "n": {
@@ -121687,6 +122813,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "goetta": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from German Low German Götte, Görte, byforms of Grütte, from Middle Low German grütte, from Old Saxon gruttia, from Proto-West Germanic *gruti.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɛtə/"
+        },
+        {
+          "homophone": "getter (non-rhotic accents)"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "goey": {
     "n": {
@@ -121712,7 +122853,7 @@
       "origin": "go + -ey",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gofer": {
     "n": {
@@ -121847,7 +122988,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goggle box": {
     "n": {
@@ -122138,14 +123279,14 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goings on": {
     "n": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goings-on": {
     "n": {
@@ -122156,7 +123297,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goit": {
     "n": {
@@ -122193,7 +123334,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goiter": {
     "n": {
@@ -122537,7 +123678,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold braid": {
     "n": {
@@ -122597,7 +123738,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold fern": {
     "n": {
@@ -122620,7 +123761,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold foil": {
     "n": {
@@ -122643,7 +123784,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold medal": {
     "n": {
@@ -122681,7 +123822,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold miner": {
     "n": {
@@ -122693,7 +123834,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold of pleasure": {
     "n": {
@@ -122799,7 +123940,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold standard": {
     "n": {
@@ -122848,7 +123989,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gold-beater": {
     "n": {
@@ -122966,7 +124107,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goldbloom": {
     "n": {
@@ -123189,7 +124330,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden ager": {
     "n": {
@@ -123247,7 +124388,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden buttons": {
     "n": {
@@ -123270,7 +124411,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden calla": {
     "n": {
@@ -123327,7 +124468,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden crown beard": {
     "n": {
@@ -123361,7 +124502,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden eagle": {
     "n": {
@@ -123465,7 +124606,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden gram": {
     "n": {
@@ -123547,7 +124688,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden ironweed": {
     "n": {
@@ -123660,7 +124801,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden mole": {
     "n": {
@@ -123672,7 +124813,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden oak mushroom": {
     "n": {
@@ -123751,7 +124892,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden pheasant": {
     "n": {
@@ -123848,7 +124989,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden retriever": {
     "n": {
@@ -123928,7 +125069,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golden shower tree": {
     "n": {
@@ -123940,7 +125081,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden spleen": {
     "n": {
@@ -123997,7 +125138,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden thread": {
     "n": {
@@ -124009,7 +125150,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden trumpet": {
     "n": {
@@ -124043,7 +125184,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "golden wedding anniversary": {
     "n": {
@@ -124065,7 +125206,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golden wonder millet": {
     "n": {
@@ -124153,7 +125294,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golden-green": {
     "a": {
@@ -124176,7 +125317,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goldenbush": {
     "n": {
@@ -124452,6 +125593,22 @@
     },
     "isAnglish": false
   },
+  "goldish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English goldissh, equivalent to gold + -ish.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "goldless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English goldlees, goldles, equivalent to gold + -less. Compare Dutch goudloos (“goldless”), German goldlos (“goldless”), Swedish guldlös (“goldless”), Icelandic gulllaus (“goldless”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "goldmaslin": {
     "n": {
       "senses": [],
@@ -124528,7 +125685,7 @@
       "origin": "From Middle English goldsmithrie. Equivalent to goldsmith + -ery.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "goldstone": {
     "n": {
@@ -124540,7 +125697,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goldthread": {
     "n": {
@@ -124610,7 +125767,7 @@
       ],
       "origin": "ME&OE, gol&gālian"
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -124843,7 +126000,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf bag": {
     "n": {
@@ -124889,7 +126046,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf cart": {
     "n": {
@@ -124961,7 +126118,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf glove": {
     "n": {
@@ -124972,7 +126129,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf hole": {
     "n": {
@@ -124983,7 +126140,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf lesson": {
     "n": {
@@ -125005,7 +126162,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf player": {
     "n": {
@@ -125016,7 +126173,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf pro": {
     "n": {
@@ -125050,7 +126207,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf stroke": {
     "n": {
@@ -125061,7 +126218,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf tee": {
     "n": {
@@ -125072,7 +126229,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf widow": {
     "n": {
@@ -125105,7 +126262,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golf-club": {
     "n": {
@@ -125128,7 +126285,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "golfcart": {
     "n": {
@@ -125939,7 +127096,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gong buoy": {
     "n": {
@@ -125973,6 +127130,14 @@
         }
       ],
       "origin": "gong + -man",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "gongpit": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gonge-put, equivalent to gong (“latrine, outhouse”) + pit.",
       "sounds": []
     },
     "isAnglish": true
@@ -126723,7 +127888,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "good authority": {
     "n": {
@@ -126816,7 +127981,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good enough": {
     "a": {
@@ -126828,7 +127993,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good evening": {
     "n": {
@@ -126900,7 +128065,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good fortune": {
     "n": {
@@ -126995,7 +128160,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good luck": {
     "n": {
@@ -127036,7 +128201,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good luck charm": {
     "n": {
@@ -127109,6 +128274,33 @@
     },
     "isAnglish": true
   },
+  "good morrow": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English good morow, good morwe.",
+      "sounds": [
+        {
+          "ipa": "/ɡʊd ˈmɒɹəʊ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English good morow, good morwe.",
+      "sounds": [
+        {
+          "ipa": "/ɡʊd ˈmɒɹəʊ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "good nature": {
     "n": {
       "pronunciation": [
@@ -127136,7 +128328,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "good night": {
     "n": {
@@ -127181,7 +128373,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good old days": {
     "n": {
@@ -127204,7 +128396,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good ole boy": {
     "n": {
@@ -127230,7 +128422,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good person": {
     "n": {
@@ -127338,7 +128530,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good time": {
     "n": {
@@ -127350,7 +128542,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good turn": {
     "n": {
@@ -127372,7 +128564,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good weather": {
     "n": {
@@ -127387,7 +128579,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good will": {
     "n": {
@@ -127407,7 +128599,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good word": {
     "n": {
@@ -127423,7 +128615,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-by": {
     "n": {
@@ -127435,7 +128627,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-bye": {
     "n": {
@@ -127457,7 +128649,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-feeling": {
     "n": {
@@ -127495,7 +128687,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-for-nothing": {
     "a": {
@@ -127560,7 +128752,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-hearted": {
     "a": {
@@ -127597,7 +128789,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "good-humored": {
     "a": {
@@ -127701,7 +128893,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-natured": {
     "a": {
@@ -127809,7 +129001,7 @@
       "origin": "good + tempered",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "good-temperedness": {
     "n": {
@@ -127837,7 +129029,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goodby": {
     "n": {
@@ -127904,7 +129096,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gooddoer": {
     "n": {
@@ -127955,6 +129147,32 @@
         }
       ],
       "origin": "ME, gōderhele"
+    },
+    "isAnglish": true
+  },
+  "goodful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gōdful, equivalent to good + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "goodhearted": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gode herted; equivalent to good + hearted.",
+      "sounds": [
+        {
+          "ipa": "/ɡʊd.hɑː.təd/"
+        },
+        {
+          "ipa": "/ɡʊd.hɑɹ.təd/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -128009,6 +129227,14 @@
           "ipa": "/ˈɡʊdləs/"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "goodlihead": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English goodlihede, goodelyhede, equivalent to goodly + -head.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -128145,7 +129371,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goods and service tax": {
     "n": {
@@ -128253,55 +129479,6 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/LL-Q1860_%28eng%29-Vealhurl-goodwill.wav/LL-Q1860_%28eng%29-Vealhurl-goodwill.wav.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/LL-Q1860_%28eng%29-Vealhurl-goodwill.wav/LL-Q1860_%28eng%29-Vealhurl-goodwill.wav.mp3"
-        }
-      ]
-    },
-    "isAnglish": true
-  },
-  "goodwill ambassador": {
-    "n": {
-      "senses": [
-        {
-          "synset": "09794206-n"
-        },
-        {
-          "synset": "10501805-n"
-        },
-        {
-          "synset": "10657783-n"
-        },
-        {
-          "synset": "10541628-n"
-        }
-      ],
-      "origin": "Origin 1927 when Calvin Coolidge, the United States president designated Col. Charles Lindbergh its Goodwill Ambassador during one of his most famous flights. As a compound word representing an honorific title that was merged over time from three lexemes good-will plus ambassador which is still used descriptively by the State of Kentucky to define the Kentucky Colonel as its \"ambassador of good-will\".\nGoodwill from Middle English *goodwille, good wille (“goodwill”), perhaps from Old English *gōdwille (“goodwill”); compare Old English gōdwillende (“well-pleased”); also Scots guidwilly, guidwillie (“displaying goodwill”), equivalent to good + will. Cognate with Scots guidwill (“goodwill”), Middle Low German gūtwille (“goodwill”), Old High German guotwilligi (“goodwill”), Old Danish godvilje (“goodwill”), Icelandic góðvilji, góðvili (“goodwill”), Icelandic góðvild (“goodness”).\nAmbassador from Middle English ambassadore, from Anglo-Norman ambassadeur, from Old Italian ambassadore, from Old Occitan ambaisador (“ambassador”), derivative of ambaissa (“service, mission, errand”), from Medieval Latin ambasiator, from Gothic 𐌰𐌽𐌳𐌱𐌰𐌷𐍄𐌹 (andbahti, “service, function”), from Proto-Germanic *ambahtiją (“service, office”), derivative of Proto-Germanic *ambahtaz (“servant”), from Gaulish ambaxtos, from Proto-Celtic *ambaxtos, from Proto-Indo-European *h₂m̥bʰi-h₂eǵ- (“drive around”), from *h₂m̥bʰi- (“around”) + *h₂eǵ- (“to drive”).\nDisplaced native Old English ǣrendraca.",
-      "sounds": [
-        {
-          "ipa": "/ɡʊdˈwɪl/"
-        },
-        {
-          "ipa": "/æmˈbæs.ə.də(ɹ)/"
-        },
-        {
-          "ipa": "/æmˈbæs.ə.dɚ/",
-          "tags": [
-            "US"
-          ]
-        },
-        {
-          "ipa": "/æmˈbæs.əˌdɔɹ/",
-          "tags": [
-            "US"
-          ]
-        },
-        {
-          "audio": "LL-Q1860 (eng)-Vealhurl-ambassador.wav",
-          "text": "Audio (Southern England)",
-          "tags": [
-            "Southern-England"
-          ],
-          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/LL-Q1860_%28eng%29-Vealhurl-ambassador.wav/LL-Q1860_%28eng%29-Vealhurl-ambassador.wav.ogg",
-          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/LL-Q1860_%28eng%29-Vealhurl-ambassador.wav/LL-Q1860_%28eng%29-Vealhurl-ambassador.wav.mp3"
         }
       ]
     },
@@ -128498,7 +129675,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goof-off": {
     "n": {
@@ -128510,7 +129687,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goof-proof": {
     "v": {
@@ -128781,7 +129958,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goombone": {
     "n": {
@@ -129199,7 +130376,7 @@
       "origin": "From the oval shape of both a goose's egg and the Arabic numeral zero (0).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goose grass": {
     "n": {
@@ -129256,7 +130433,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goose plum": {
     "n": {
@@ -129279,7 +130456,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goose step": {
     "n": {
@@ -129312,7 +130489,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goose-step": {
     "v": {
@@ -129330,7 +130507,7 @@
       "origin": "An intentionally disparaging alternative name for the \"balance step\" (German Stechschritt, \"cut step\") from a fancied resemblance to the waddling of geese.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "goose-tansy": {
     "n": {
@@ -129606,6 +130783,18 @@
     },
     "isAnglish": false
   },
+  "goosish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English goosish; equivalent to goose + -ish.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡuːsɪʃ/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "goosy": {
     "a": {
       "form": [
@@ -129765,7 +130954,7 @@
       "origin": "gore + crow",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gore": {
     "n": {
@@ -129918,6 +131107,14 @@
           "note": "non-rhotic, without the horse–hoarse merger"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "gorebill": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gore, gare (“spear”) + bill. More at gar.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -130265,6 +131462,14 @@
     },
     "isAnglish": false
   },
+  "gori mem": {
+    "n": {
+      "senses": [],
+      "origin": "From Hindi गोरी मेम (gorī mem), from गोरी (gorī, “fair, white skinned”) + मेम (mem), from English ma'am.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gorilla": {
     "n": {
       "pronunciation": [
@@ -130312,6 +131517,30 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/En-us-gorilla.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/En-us-gorilla.ogg/En-us-gorilla.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "gorm": {
+    "v": {
+      "senses": [],
+      "origin": "Supposed by some to be related to gormless and/or gorming, and by others to be related to gorm (“smear”) (itself probably related to gum (“make sticky; impair the functioning of”)).",
+      "sounds": [
+        {
+          "ipa": "/ɡɔː(ɹ)m/"
+        },
+        {
+          "homophone": "gaum (non-rhotic accents)"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gorm.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/LL-Q1860_%28eng%29-Vealhurl-gorm.wav/LL-Q1860_%28eng%29-Vealhurl-gorm.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/LL-Q1860_%28eng%29-Vealhurl-gorm.wav/LL-Q1860_%28eng%29-Vealhurl-gorm.wav.mp3"
         }
       ]
     },
@@ -130400,7 +131629,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gorse": {
     "n": {
@@ -130700,7 +131929,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gospel singing": {
     "n": {
@@ -130723,7 +131952,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gospel-shooter": {
     "n": {
@@ -130750,14 +131979,14 @@
       "origin": "gospel + -er (occupational suffix). Compare Middle English gospeler (“one of the Gospel writers or Evangelists; statue of one of the Evangelists; (of Old Testament persons) bringer of good news; Isaiah; book containing the Gospels; content of one of the Gospels”), from Old English godspellere.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gospeling": {
     "n": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gospelish": {
     "a": {
@@ -130787,7 +132016,7 @@
       "origin": "gospel + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gospelling": {
     "a": {
@@ -130903,7 +132132,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gossip": {
     "n": {
@@ -131179,7 +132408,7 @@
       "origin": "gossip + -y",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gost": {
     "n": {
@@ -132215,7 +133444,7 @@
       "origin": "From Middle English gowty; equivalent to gout + -y.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gouty arthritis": {
     "n": {
@@ -132606,7 +133835,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "government activity": {
     "n": {
@@ -132651,7 +133880,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "government building": {
     "n": {
@@ -132662,7 +133891,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "government department": {
     "n": {
@@ -132684,7 +133913,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "government issue": {
     "n": {
@@ -132718,7 +133947,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "government minister": {
     "n": {
@@ -132741,7 +133970,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "government office": {
     "n": {
@@ -133078,7 +134307,12 @@
         }
       ]
     },
-    "isAnglish": true
+    "v": {
+      "senses": [],
+      "origin": "Compare Norwegian Nynorsk gulka (“to burp, belch”). Compare also Scots cowk (“to strain, retch”), Dutch kolken (“to belch”), German kolken (“to gulp”), dialectal German kölken, kolksen (“to vomit”), Danish kulke (“to gulp”).",
+      "sounds": []
+    },
+    "isAnglish": false
   },
   "gown": {
     "n": {
@@ -133211,6 +134445,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "gowpen": {
+    "n": {
+      "senses": [],
+      "origin": "From Old Norse gaupn (“hollow made by cupped hands”). Doublet of yepsen.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡaʊpən/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "goy": {
     "n": {
@@ -133429,7 +134678,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grab sample": {
     "n": {
@@ -133495,7 +134744,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grace": {
     "n": {
@@ -133784,7 +135033,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gracefully": {
     "r": {
@@ -133889,7 +135138,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gracelessly": {
     "r": {
@@ -133915,7 +135164,7 @@
       "origin": "From Middle English gracelessly; equivalent to graceless + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gracelessness": {
     "n": {
@@ -134145,7 +135394,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "graciousness": {
     "n": {
@@ -134758,6 +136007,31 @@
       ]
     },
     "isAnglish": false
+  },
+  "gradely": {
+    "a": {
+      "senses": [
+        {
+          "synset": "02351216-s"
+        }
+      ],
+      "origin": "From earlier graithly, from Middle English graythely, greiþli, greiðlic, from Old Norse greiðligr, equivalent to graith + -ly.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹeɪdlɪ/"
+        }
+      ]
+    },
+    "r": {
+      "senses": [],
+      "origin": "From earlier graithly, from Middle English graythely, graydly, graitheli, graithlich, grathliche, graythelyche, from Old Norse greiðliga, equivalent to graith + -ly.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹeɪdlɪ/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "grader": {
     "n": {
@@ -135626,7 +136900,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "graffiti": {
     "n": {
@@ -135829,7 +137103,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grafting": {
     "n": {
@@ -136124,7 +137398,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grain alcohol": {
     "n": {
@@ -136146,7 +137420,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grain cleaner": {
     "n": {
@@ -136157,7 +137431,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grain field": {
     "n": {
@@ -136168,7 +137442,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grain merchant": {
     "n": {
@@ -136179,7 +137453,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grain moth": {
     "n": {
@@ -136190,7 +137464,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grain sorghum": {
     "n": {
@@ -136301,7 +137575,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grainy club": {
     "n": {
@@ -136312,7 +137586,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grainy club mushrooms": {
     "n": {
@@ -136412,7 +137686,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gram atom": {
     "n": {
@@ -136720,7 +137994,7 @@
       "origin": "From Middle English gramere scole.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grammarian": {
     "n": {
@@ -136755,6 +138029,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "grammary": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gramery, grammarye.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "grammatic": {
     "a": {
@@ -137442,7 +138724,7 @@
       "origin": "From Middle English graunde jurie, from Anglo-Norman graund juree. Named because it typically has more jurors than the petit jury.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grand larceny": {
     "n": {
@@ -137941,6 +139223,14 @@
     },
     "isAnglish": false
   },
+  "grandfatherless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English grauntfaderles, equivalent to grandfather + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grandiloquence": {
     "n": {
       "senses": [
@@ -138230,7 +139520,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "grandmotherless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English grauntmoderles, equivalent to grandmother + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "grandnephew": {
     "n": {
@@ -138385,6 +139683,14 @@
     },
     "isAnglish": false
   },
+  "grandsire": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English graunsire; compare grand and sire.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grandson": {
     "n": {
       "pronunciation": [
@@ -138511,7 +139817,7 @@
       "origin": "From Middle English graunt oncle, equivalent to grand- + uncle.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grane": {
     "n": {
@@ -138522,7 +139828,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grange": {
     "n": {
@@ -139172,7 +140478,7 @@
       "origin": "From Middle English graunter, grauntar, from Anglo-French grantour.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "granting immunity": {
     "n": {
@@ -139779,6 +141085,14 @@
     },
     "isAnglish": false
   },
+  "grape kernel": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grape kirnell, equivalent to grape + kernel.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grape louse": {
     "n": {
       "senses": [
@@ -139984,7 +141298,7 @@
       "origin": "From Middle English grapy, equivalent to grape + -y.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "graph": {
     "n": {
@@ -141006,7 +142320,7 @@
       "origin": "From Middle English grapy, equivalent to grape + -y.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grasp": {
     "n": {
@@ -141654,7 +142968,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass over": {
     "v": {
@@ -141688,7 +143002,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass pink": {
     "n": {
@@ -141704,7 +143018,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass poly": {
     "n": {
@@ -141753,7 +143067,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass snake": {
     "n": {
@@ -141773,7 +143087,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass tree": {
     "n": {
@@ -141793,7 +143107,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass tree family": {
     "n": {
@@ -141861,7 +143175,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass widower": {
     "n": {
@@ -141929,7 +143243,7 @@
       "origin": "Calque of Japanese 草食系男子 (sōshokukei danshi, “herbivorous/grass-eating male”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grass-eating": {
     "a": {
@@ -142105,7 +143419,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grassland": {
     "n": {
@@ -142128,7 +143442,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grassless": {
     "a": {
@@ -142144,7 +143458,7 @@
       "origin": "From Middle English greceles; equivalent to grass + -less.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grasslike": {
     "a": {
@@ -142299,7 +143613,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grate": {
     "n": {
@@ -142488,7 +143802,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gratefully": {
     "r": {
@@ -143364,7 +144678,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grave accent": {
     "n": {
@@ -143553,6 +144867,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "graveler": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gravelere, equivalent to gravel + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gravelly": {
     "a": {
@@ -143849,7 +145171,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "graveyard shift": {
     "n": {
@@ -143866,7 +145188,7 @@
       "origin": "By association of the spooky, cold and silent properties of both the night and graveyards.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "graveyard watch": {
     "n": {
@@ -143878,7 +145200,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gravid": {
     "a": {
@@ -144703,7 +146025,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gravy boat": {
     "n": {
@@ -144726,7 +146048,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gravy train": {
     "n": {
@@ -144750,6 +146072,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "grax": {
+    "n": {
+      "senses": [],
+      "origin": "Early 20th century. From Norwegian Nynorsk grakse (“residue from the production of fish or whale oil”), from Norwegian Nynorsk dragse (“residue”), from Old Norse dregg.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gray": {
     "a": {
@@ -144973,7 +146303,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gray alder": {
     "n": {
@@ -145052,7 +146382,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gray goldenrod": {
     "n": {
@@ -145108,7 +146438,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gray market": {
     "n": {
@@ -145120,7 +146450,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gray matter": {
     "n": {
@@ -145214,7 +146544,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gray snapper": {
     "n": {
@@ -145266,7 +146596,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gray willow": {
     "n": {
@@ -145277,7 +146607,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gray wolf": {
     "n": {
@@ -145289,7 +146619,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gray-black": {
     "a": {
@@ -145313,7 +146643,7 @@
       "origin": "gray + blue",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gray-brown": {
     "a": {
@@ -146373,7 +147703,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greasy spoon": {
     "n": {
@@ -146643,7 +147973,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great auk": {
     "n": {
@@ -146813,7 +148143,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great crested grebe": {
     "n": {
@@ -146847,7 +148177,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great dog fish": {
     "n": {
@@ -146982,7 +148312,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great gross": {
     "n": {
@@ -146994,7 +148324,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great hall": {
     "n": {
@@ -147006,7 +148336,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great horned owl": {
     "n": {
@@ -147018,7 +148348,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great hundred": {
     "n": {
@@ -147030,7 +148360,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great king athex": {
     "n": {
@@ -147208,7 +148538,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great show": {
     "n": {
@@ -147309,7 +148639,7 @@
       "origin": "Coined in the early 20th century, first appearing in 1911; during a period when African-American heavyweight champion boxer Jack Johnson seemed unbeatable by a Caucasian boxer. When a promising Caucasian hopeful arrived as a challenger in a championship match, the white race's hopes were attached to said boxer, and they were labelled the \"Great White Hope\". The term was repopularized in the late-mid 1900s with the appearance of the play and film \"The Great White Hope\"; and its definition extended beyond boxing and Caucasians.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great white shark": {
     "n": {
@@ -147321,7 +148651,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "great year": {
     "n": {
@@ -147449,7 +148779,7 @@
       "origin": "From Middle English gret-uncle, grete uncle, grete ouncle, equivalent to great- + uncle.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greatbookstave": {
     "n": {
@@ -148083,7 +149413,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greatsman": {
     "n": {
@@ -148129,7 +149459,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greaves": {
     "n": {
@@ -148227,7 +149557,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greedily": {
     "r": {
@@ -148659,7 +149989,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green algae": {
     "n": {
@@ -148705,7 +150035,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green bean": {
     "n": {
@@ -148729,7 +150059,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green bristlegrass": {
     "n": {
@@ -148816,7 +150146,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green fingers": {
     "n": {
@@ -148862,7 +150192,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "green fringed orchis": {
     "n": {
@@ -148885,7 +150215,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green gentian": {
     "n": {
@@ -148933,7 +150263,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green goods": {
     "n": {
@@ -148945,7 +150275,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green gram": {
     "n": {
@@ -148962,7 +150292,7 @@
       "origin": "Borrowed from Hindi [Term?]",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green groceries": {
     "n": {
@@ -149035,7 +150365,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green lizard": {
     "n": {
@@ -149180,7 +150510,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green pea soup": {
     "n": {
@@ -149191,7 +150521,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green peach aphid": {
     "n": {
@@ -149226,7 +150556,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green plover": {
     "n": {
@@ -149282,7 +150612,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green smut": {
     "n": {
@@ -149320,7 +150650,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green soap": {
     "n": {
@@ -149404,7 +150734,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green turtle": {
     "n": {
@@ -149416,7 +150746,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green turtle soup": {
     "n": {
@@ -149426,6 +150756,14 @@
           "synset": "07602777-n"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "green wax": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grene wax.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -149476,7 +150814,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green-blindness": {
     "n": {
@@ -149502,7 +150840,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green-eyed monster": {
     "n": {
@@ -149546,7 +150884,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "green-tailed towhee": {
     "n": {
@@ -149579,7 +150917,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenback": {
     "n": {
@@ -149592,7 +150930,7 @@
       "origin": "green + back",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greenbelt": {
     "n": {
@@ -149754,7 +151092,7 @@
       "origin": "green + fly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greengage": {
     "n": {
@@ -149856,7 +151194,7 @@
       "origin": "green + heart",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greenhood": {
     "n": {
@@ -150072,7 +151410,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenish blue": {
     "n": {
@@ -150083,7 +151421,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenish yellow": {
     "n": {
@@ -150094,7 +151432,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenish-brown": {
     "a": {
@@ -150105,7 +151443,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenish-gray": {
     "a": {
@@ -150116,7 +151454,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenish-grey": {
     "a": {
@@ -150127,7 +151465,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenish-white": {
     "a": {
@@ -150138,7 +151476,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greenishness": {
     "n": {
@@ -150174,7 +151512,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greenling": {
     "n": {
@@ -150187,7 +151525,7 @@
       "origin": "From green + -ling.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greenly": {
     "r": {
@@ -150550,7 +151888,7 @@
       "origin": "green + stone",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greensward": {
     "n": {
@@ -150607,7 +151945,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greentheater": {
     "n": {
@@ -150639,7 +151977,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greenway": {
     "n": {
@@ -150838,7 +152176,7 @@
       "origin": "From greet (“to weep”) + -er.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greeting": {
     "n": {
@@ -150875,7 +152213,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greeting card": {
     "n": {
@@ -150900,6 +152238,14 @@
         }
       ],
       "origin": "<OE"
+    },
+    "isAnglish": true
+  },
+  "greeve": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English greve, grayve, see greave.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -151047,6 +152393,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "greking": {
+    "n": {
+      "senses": [],
+      "origin": "Apparently derived from Old Norse grýja (“dawn”); but compare Dutch krieken.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "greme": {
     "n": {
@@ -151473,7 +152827,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey area": {
     "n": {
@@ -151552,7 +152906,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey goldenrod": {
     "n": {
@@ -151575,7 +152929,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey jackal": {
     "n": {
@@ -151620,7 +152974,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grey market": {
     "n": {
@@ -151633,7 +152987,7 @@
       "origin": "By analogy with black market.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey matter": {
     "n": {
@@ -151738,7 +153092,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grey snapper": {
     "n": {
@@ -151783,7 +153137,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey willow": {
     "n": {
@@ -151794,7 +153148,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grey wolf": {
     "n": {
@@ -151806,7 +153160,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey-black": {
     "a": {
@@ -151830,7 +153184,7 @@
       "origin": "grey + blue",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grey-brown": {
     "a": {
@@ -151944,7 +153298,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "greybeard": {
     "n": {
@@ -152220,7 +153574,7 @@
       "origin": "From Middle English graynes, greynes; equivalent to grey + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "greywader": {
     "n": {
@@ -152239,7 +153593,7 @@
       "origin": "grey + water",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gri-gri": {
     "n": {
@@ -152247,6 +153601,32 @@
         {
           "id": "gri-gri%1:20:00::",
           "synset": "12604603-n"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "gribble": {
+    "n": {
+      "senses": [],
+      "origin": "Uncertain. Compare grub, from Proto-Germanic *grub- (“to dig”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "grice": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/ɡɹʌɪs/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ʌɪs"
         }
       ]
     },
@@ -152397,6 +153777,51 @@
     },
     "isAnglish": false
   },
+  "gride": {
+    "v": {
+      "senses": [],
+      "origin": "From a metathetic variation of gird (“to strike, smite, upbraid, scold, jibe”), from Middle English girden, gerden (“to strike, thrust, smite”, literally “smite with a rod”), from gerd, yerd (“a rod, yard”). More at yard.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹaɪd/"
+        },
+        {
+          "rhymes": "-aɪd"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gride.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/LL-Q1860_%28eng%29-Vealhurl-gride.wav/LL-Q1860_%28eng%29-Vealhurl-gride.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/LL-Q1860_%28eng%29-Vealhurl-gride.wav/LL-Q1860_%28eng%29-Vealhurl-gride.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From a metathetic variation of gird (“to strike, smite, upbraid, scold, jibe”), from Middle English girden, gerden (“to strike, thrust, smite”, literally “smite with a rod”), from gerd, yerd (“a rod, yard”). More at yard.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹaɪd/"
+        },
+        {
+          "rhymes": "-aɪd"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gride.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/LL-Q1860_%28eng%29-Vealhurl-gride.wav/LL-Q1860_%28eng%29-Vealhurl-gride.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/LL-Q1860_%28eng%29-Vealhurl-gride.wav/LL-Q1860_%28eng%29-Vealhurl-gride.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "gridiron": {
     "n": {
       "senses": [
@@ -152537,7 +153962,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grief-stricken": {
     "a": {
@@ -152549,7 +153974,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grievance": {
     "n": {
@@ -152759,7 +154184,7 @@
       "origin": "From Middle English grevously; equivalent to grievous + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "griffin": {
     "n": {
@@ -153153,6 +154578,21 @@
     },
     "isAnglish": false
   },
+  "grilse": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grills, grilles, of unknown origin. Cognate with Scots grils, grissill, girls (“young salmon”). Compare English grawl, Scots grawl, graulse (“young salmon, grilse”).",
+      "sounds": [
+        {
+          "ipa": "/ɡɹɪls/"
+        },
+        {
+          "rhymes": "-ɪls"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "grim": {
     "a": {
       "form": [
@@ -153487,6 +154927,14 @@
     },
     "isAnglish": false
   },
+  "grimliness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grimlinesse, grymlynesse, equivalent to grimly + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grimly": {
     "r": {
       "senses": [
@@ -153609,6 +155057,18 @@
     },
     "isAnglish": false
   },
+  "grimsir": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grym-syre; equivalent to grim + sir.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹɪmsɜː(ɹ)/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "grimy": {
     "a": {
       "pronunciation": [
@@ -153642,7 +155102,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grin": {
     "n": {
@@ -153897,7 +155357,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grind away": {
     "v": {
@@ -153940,7 +155400,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grind organ": {
     "n": {
@@ -153967,7 +155427,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grind to a halt": {
     "v": {
@@ -154114,7 +155574,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grindle": {
     "n": {
@@ -154124,6 +155584,22 @@
           "synset": "02641717-n"
         }
       ],
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "grindle-stone": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gryndelston, alteration of Middle English grindston (“grindstone”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "grindster": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grindestere (“a miller, tool-sharpener”), equivalent to grind + -ster.",
       "sounds": []
     },
     "isAnglish": true
@@ -154167,7 +155643,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grindtooth": {
     "n": {
@@ -154239,7 +155715,7 @@
       "origin": "From Middle English grennare; equivalent to grin + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grinning": {
     "n": {
@@ -154505,7 +155981,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gripes": {
     "n": {
@@ -154574,7 +156050,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gripping": {
     "a": {
@@ -154598,7 +156074,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gripple": {
     "a": {
@@ -154641,7 +156117,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -154798,6 +156274,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "grisi siknis": {
+    "n": {
+      "senses": [],
+      "origin": "Reborrowed from Miskito [Term?], from English crazy sickness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "grisly": {
     "a": {
@@ -155301,6 +156785,14 @@
     },
     "isAnglish": false
   },
+  "gritten": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *grytten, grutten (“made of bran, coarse”), equivalent to grit + -en (“made of”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grittiness": {
     "n": {
       "senses": [
@@ -155311,7 +156803,7 @@
       "origin": "gritty + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gritty": {
     "a": {
@@ -155897,7 +157389,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groats": {
     "n": {
@@ -155915,6 +157407,14 @@
     "a": {
       "senses": [],
       "origin": "See grotty.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "grob": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English grobben, variant of grubben. More at grub.",
       "sounds": []
     },
     "isAnglish": true
@@ -155975,6 +157475,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "groceria": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from U.S. Spanish grocería, from English grocery.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "grocery": {
     "n": {
@@ -156332,7 +157840,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groined vault": {
     "n": {
@@ -156737,7 +158245,7 @@
       "origin": "Alteration of group. More at group.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groor": {
     "n": {
@@ -156968,7 +158476,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groovy": {
     "a": {
@@ -157005,7 +158513,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grope": {
     "n": {
@@ -157541,7 +159049,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gross anatomy": {
     "n": {
@@ -157623,7 +159131,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gross profit": {
     "n": {
@@ -157692,7 +159200,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grossbeak": {
     "n": {
@@ -157857,7 +159365,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grot-like": {
     "a": {
@@ -158259,7 +159767,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grouchily": {
     "r": {
@@ -158589,7 +160097,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground almond": {
     "n": {
@@ -158611,7 +160119,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ground bait": {
     "n": {
@@ -158634,7 +160142,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground bass": {
     "n": {
@@ -158646,7 +160154,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground beef": {
     "n": {
@@ -158670,7 +160178,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground cable": {
     "n": {
@@ -158708,7 +160216,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground cloth": {
     "n": {
@@ -158771,7 +160279,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground fir": {
     "n": {
@@ -158809,7 +160317,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground forces": {
     "n": {
@@ -158837,7 +160345,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground ice": {
     "n": {
@@ -158849,7 +160357,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground ivy": {
     "n": {
@@ -158861,7 +160369,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground level": {
     "n": {
@@ -158889,7 +160397,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground meat": {
     "n": {
@@ -158900,7 +160408,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground noise": {
     "n": {
@@ -158927,7 +160435,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground pine": {
     "n": {
@@ -158943,7 +160451,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground pink": {
     "n": {
@@ -158989,7 +160497,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground roller": {
     "n": {
@@ -159046,7 +160554,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground snake": {
     "n": {
@@ -159073,7 +160581,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground state": {
     "n": {
@@ -159131,7 +160639,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground tackle": {
     "n": {
@@ -159155,7 +160663,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground wave": {
     "n": {
@@ -159289,7 +160797,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ground-hugging": {
     "a": {
@@ -159323,6 +160831,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "groundable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English groundable, equivalent to ground + -able.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "groundball": {
     "n": {
@@ -159362,7 +160878,7 @@
       "origin": "From ground + breaker.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundbreaking": {
     "a": {
@@ -159421,7 +160937,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundbreaking ceremony": {
     "n": {
@@ -159447,7 +160963,7 @@
       "origin": "ground + cloth",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundcover": {
     "n": {
@@ -159482,6 +160998,24 @@
     },
     "isAnglish": true
   },
+  "grounded": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English grounded, i-grounded, equivalent to ground + -ed.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹaʊn.dɪd/"
+        },
+        {
+          "ipa": "/-dəd/"
+        },
+        {
+          "rhymes": "-aʊndɪd"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "groundedly": {
     "r": {
       "senses": [
@@ -159499,7 +161033,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grounder": {
     "n": {
@@ -159615,7 +161149,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundkeeper": {
     "n": {
@@ -159677,7 +161211,7 @@
       "origin": "From ground + laying (participle). Compare German grundlegend, Danish grundlæggende.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundless": {
     "a": {
@@ -159737,7 +161271,7 @@
       "origin": "ground + line",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundling": {
     "n": {
@@ -159876,7 +161410,7 @@
       "origin": "From ground + nut. Compare Icelandic jarðhneta, German Erdnuss and Hungarian földimogyoró.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundnut oil": {
     "n": {
@@ -159890,7 +161424,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "groundnut vine": {
     "n": {
@@ -159960,7 +161494,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundsel": {
     "n": {
@@ -159978,7 +161512,7 @@
       "origin": "Variant of groundsill, equivalent to ground + sill.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundsel bush": {
     "n": {
@@ -159990,7 +161524,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundsel tree": {
     "n": {
@@ -160002,7 +161536,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundsheet": {
     "n": {
@@ -160016,6 +161550,18 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "groundsill": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English groundselle, ground sille, equivalent to ground + sill.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹaʊndsəl/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "groundskeeper": {
     "n": {
@@ -160038,7 +161584,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundsman": {
     "n": {
@@ -160051,7 +161597,7 @@
       "origin": "grounds + -man",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundspeed": {
     "n": {
@@ -160085,7 +161631,7 @@
       "origin": "ground + swell",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groundwall": {
     "n": {
@@ -160174,7 +161720,15 @@
       "origin": "ground + work",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
+  },
+  "groundy": {
+    "a": {
+      "senses": [],
+      "origin": "From ground + -y.",
+      "sounds": []
+    },
+    "isAnglish": false
   },
   "group": {
     "n": {
@@ -161045,7 +162599,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "groveler": {
     "n": {
@@ -161569,7 +163123,7 @@
       "origin": "growing + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "growl": {
     "n": {
@@ -161709,7 +163263,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "growler": {
     "n": {
@@ -161856,7 +163410,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grownhood": {
     "n": {
@@ -162007,7 +163561,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "growth factor": {
     "n": {
@@ -162064,7 +163618,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "growth regulator": {
     "n": {
@@ -162087,7 +163641,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "growth stock": {
     "n": {
@@ -162099,7 +163653,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "growth-onset diabetes": {
     "n": {
@@ -162139,7 +163693,7 @@
       "origin": "growth + -some",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "groyne": {
     "n": {
@@ -162288,7 +163842,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grub up": {
     "v": {
@@ -162303,7 +163857,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grubbily": {
     "r": {
@@ -162627,6 +164181,63 @@
     },
     "isAnglish": false
   },
+  "grue": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gruen, probably from Middle Low German gruwen or Middle Dutch gruwen (compare Dutch gruwen), both from Proto-Germanic *grūwijaną, perhaps ultimately an imitative derivative of Proto-Indo-European *ǵʰers- (“to bristle”), or instead from *gʰer- (“to rub, stroke, grind”).",
+      "sounds": [
+        {
+          "ipa": "/ɡɹuː/"
+        },
+        {
+          "rhymes": "-uː"
+        },
+        {
+          "homophone": "grew"
+        },
+        {
+          "audio": "en-us-grue.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/En-us-grue.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/En-us-grue.ogg/En-us-grue.ogg.mp3"
+        },
+        {
+          "enpr": "gro͞o"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/ɡɹuː/"
+        },
+        {
+          "rhymes": "-uː"
+        },
+        {
+          "homophone": "grew"
+        },
+        {
+          "audio": "en-us-grue.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/En-us-grue.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/En-us-grue.ogg/En-us-grue.ogg.mp3"
+        },
+        {
+          "enpr": "gro͞o"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "gruel": {
     "n": {
       "pronunciation": [
@@ -162659,7 +164270,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grueling": {
     "a": {
@@ -162776,7 +164387,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gruesomely": {
     "r": {
@@ -162852,7 +164463,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gruffly": {
     "r": {
@@ -163097,7 +164708,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "grumbler": {
     "n": {
@@ -163420,6 +165031,14 @@
     },
     "isAnglish": false
   },
+  "grunsel": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English grundeswülie. More at groundsel.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grunt": {
     "n": {
       "pronunciation": [
@@ -163524,7 +165143,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grunter": {
     "n": {
@@ -163570,6 +165189,63 @@
     },
     "isAnglish": false
   },
+  "grunting": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gruntynge (“grunting”); equivalent to grunt + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹʌntɪŋ/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Wodencafe-grunting.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/LL-Q1860_%28eng%29-Wodencafe-grunting.wav/LL-Q1860_%28eng%29-Wodencafe-grunting.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/LL-Q1860_%28eng%29-Wodencafe-grunting.wav/LL-Q1860_%28eng%29-Wodencafe-grunting.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gruntynge (“grunting”); equivalent to grunt + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹʌntɪŋ/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Wodencafe-grunting.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/LL-Q1860_%28eng%29-Wodencafe-grunting.wav/LL-Q1860_%28eng%29-Wodencafe-grunting.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/LL-Q1860_%28eng%29-Wodencafe-grunting.wav/LL-Q1860_%28eng%29-Wodencafe-grunting.wav.mp3"
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gruntynge (“grunting”); equivalent to grunt + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹʌntɪŋ/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Wodencafe-grunting.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/LL-Q1860_%28eng%29-Wodencafe-grunting.wav/LL-Q1860_%28eng%29-Wodencafe-grunting.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/LL-Q1860_%28eng%29-Wodencafe-grunting.wav/LL-Q1860_%28eng%29-Wodencafe-grunting.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "gruntle": {
     "v": {
       "senses": [
@@ -163611,7 +165287,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gruring": {
     "a": {
@@ -163623,6 +165299,27 @@
       "origin": "<OE heteliċ"
     },
     "isAnglish": true
+  },
+  "gry": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gryen (“to shudder, shake, or convulse”). Compare grue.",
+      "sounds": [
+        {
+          "ipa": "/ɡɹaɪ̯/"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Abbreviation",
+      "sounds": [
+        {
+          "ipa": "/ɡɹaɪ̯/"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "gryphon": {
     "n": {
@@ -164536,7 +166233,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guard boat": {
     "n": {
@@ -164559,7 +166256,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guard duty": {
     "n": {
@@ -164583,7 +166280,7 @@
       "origin": "In reference to its function in protecting the animal from water, sunlight, etc.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guard of honor": {
     "n": {
@@ -164607,7 +166304,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guard's van": {
     "n": {
@@ -165156,6 +166853,14 @@
     },
     "isAnglish": false
   },
+  "gue": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "guelder rose": {
     "n": {
       "senses": [
@@ -165576,7 +167281,7 @@
       "origin": "From Middle English gessere, gessare, equivalent to guess + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "guessing": {
     "n": {
@@ -165608,7 +167313,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guesstimate": {
     "n": {
@@ -165723,7 +167428,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guest": {
     "n": {
@@ -165783,7 +167488,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guest of honor": {
     "n": {
@@ -165807,6 +167512,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "guestchamber": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English geste-chaumbre, gestchaumbyr, equivalent to guest + chamber.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "guestfriendliness": {
@@ -165819,7 +167532,7 @@
       "origin": "From a compound of guest + friendliness, or a derivative of guestfriendly.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guestfriendly": {
     "a": {
@@ -165836,7 +167549,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guestfriendship": {
     "n": {
@@ -165847,7 +167560,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guestgiver": {
     "n": {
@@ -165919,7 +167632,7 @@
       "origin": "From guest + -ly.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guestmeal": {
     "n": {
@@ -165934,7 +167647,7 @@
       "origin": "From guest + meal. Compare German Gastmahl (“guestmeal”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guestroom": {
     "n": {
@@ -166626,6 +168339,14 @@
     },
     "isAnglish": false
   },
+  "guider": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gider, gyder, equivalent to guide + -er. Compare Old French guidëor.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "guideword": {
     "n": {
       "senses": [
@@ -166665,6 +168386,27 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "guige": {
+    "n": {
+      "senses": [],
+      "origin": "In early uses, inherited from Middle English gige, and in more recent times re-borrowed from (or respelled according to) that word's source, Old French guige.",
+      "sounds": [
+        {
+          "ipa": "/ɡiːʒ/"
+        },
+        {
+          "ipa": "/ɡiːd͡ʒ/"
+        },
+        {
+          "rhymes": "-iːʒ"
+        },
+        {
+          "rhymes": "-iːdʒ"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "guild": {
     "n": {
@@ -166776,7 +168518,7 @@
       "origin": "guild + hall",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guildsman": {
     "n": {
@@ -166798,7 +168540,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guile": {
     "n": {
@@ -166837,7 +168579,30 @@
       "origin": "From Middle English gileful, gilful, equivalent to guile + -ful.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "guilefully": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English gilefuli, gylfully, gilfulliche, gylefulliche, equivalent to guileful + -ly.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡʌɪlfəli/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "guilefulness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English gilefulnesse, gylefulnes, equivalent to guileful + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "guileless": {
     "a": {
@@ -166863,6 +168628,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "guilesome": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gilesum, equivalent to guile + -some.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "guillemot": {
     "n": {
@@ -167136,7 +168909,7 @@
       "origin": "guilt + trip. First use appears c. 1972 in the novel Any Minute I Can Split by Judith Rossner.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guilt-doer": {
     "n": {
@@ -167161,6 +168934,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "guilten": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gilten, gylten. From Old English gyltan, from gylt. By surface analysis, guilt + -en.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "guiltend": {
     "n": {
@@ -167223,7 +169004,7 @@
       "origin": "From Middle English giltines; equivalent to guilty + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "guiltless": {
     "a": {
@@ -167264,7 +169045,7 @@
       "origin": "guiltless + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "guilty": {
     "a": {
@@ -167862,7 +169643,7 @@
       "origin": "From Middle English, from Middle Dutch gulden (florijn) (“golden (florin)”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gulf": {
     "n": {
@@ -168021,7 +169802,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gullet": {
     "n": {
@@ -168156,7 +169937,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gully": {
     "n": {
@@ -168344,7 +170125,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gulyas": {
     "n": {
@@ -168490,7 +170271,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum acacia": {
     "n": {
@@ -168537,7 +170318,7 @@
       "origin": "From Middle English gomme armoniacum, gomme armonyak, gum armoniac.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gum anime": {
     "n": {
@@ -168606,7 +170387,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum butea": {
     "n": {
@@ -168696,7 +170477,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum olibanum": {
     "n": {
@@ -168718,7 +170499,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum resin": {
     "n": {
@@ -168775,7 +170556,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum up": {
     "v": {
@@ -168801,7 +170582,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum-digger": {
     "n": {
@@ -168812,7 +170593,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gum-lac": {
     "n": {
@@ -169204,7 +170985,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gumsbone": {
     "n": {
@@ -169276,7 +171057,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gumweed": {
     "n": {
@@ -169404,7 +171185,7 @@
       "origin": "From gunna, from gonna, from going to.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gun ball": {
     "n": {
@@ -169484,7 +171265,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gun dog": {
     "n": {
@@ -169496,7 +171277,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gun down": {
     "v": {
@@ -169514,7 +171295,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gun emplacement": {
     "n": {
@@ -169569,7 +171350,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gun moll": {
     "n": {
@@ -169670,7 +171451,7 @@
       "origin": "From its worm-like shape.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gun-sight": {
     "n": {
@@ -169962,7 +171743,7 @@
       "origin": "gun + -man",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gunmetal": {
     "n": {
@@ -170067,7 +171848,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gunner": {
     "n": {
@@ -170093,7 +171874,7 @@
       "origin": "Reborrowing from Cebuano gunner, ultimately from English gunner.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gunnery": {
     "n": {
@@ -170405,7 +172186,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gunware": {
     "n": {
@@ -170594,6 +172375,14 @@
     },
     "isAnglish": true
   },
+  "gurl": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gurlen (“to growl, rumble”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gurnard": {
     "n": {
       "form": [
@@ -170668,6 +172457,54 @@
       ]
     },
     "isAnglish": false
+  },
+  "guro": {
+    "n": {
+      "senses": [],
+      "origin": "Reborrowed from Japanese グロ (guro), from English grotesque.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gurt": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English girt, gert, a metathetic variant of gret (“great”). More at great.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɜːt/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˈɡɝːt/",
+          "tags": [
+            "UK",
+            "West-Country"
+          ]
+        },
+        {
+          "ipa": "/ˈɡɜːɹt/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)t"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-gurt.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/LL-Q1860_%28eng%29-Vealhurl-gurt.wav/LL-Q1860_%28eng%29-Vealhurl-gurt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/LL-Q1860_%28eng%29-Vealhurl-gurt.wav/LL-Q1860_%28eng%29-Vealhurl-gurt.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "guru": {
     "n": {
@@ -170878,7 +172715,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gusher": {
     "n": {
@@ -171440,7 +173277,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gut issue": {
     "n": {
@@ -171540,7 +173377,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gutlessness": {
     "n": {
@@ -171592,7 +173429,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gutsiness": {
     "n": {
@@ -171657,7 +173494,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "gutta balata": {
     "n": {
@@ -171729,6 +173566,51 @@
       ]
     },
     "isAnglish": false
+  },
+  "gutted": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English gutted, gotted, equivalent to gut + -ed.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡʌtɪd/"
+        },
+        {
+          "rhymes": "-ʌtɪd"
+        },
+        {
+          "audio": "En-au-gutted.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/En-au-gutted.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/En-au-gutted.ogg/En-au-gutted.ogg.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English gutted, gotted, equivalent to gut + -ed.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡʌtɪd/"
+        },
+        {
+          "rhymes": "-ʌtɪd"
+        },
+        {
+          "audio": "En-au-gutted.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/En-au-gutted.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/En-au-gutted.ogg/En-au-gutted.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gutter": {
     "n": {
@@ -172200,7 +174082,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "guy cable": {
     "n": {
@@ -172236,6 +174118,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "guykerl": {
+    "n": {
+      "senses": [],
+      "origin": "From English gyre-carlin, from Old Norse gýgr (“ogress”) + English carline (“old woman”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "guyot": {
     "n": {
@@ -172344,6 +174234,21 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "gyaru": {
+    "n": {
+      "senses": [],
+      "origin": "Japanese ギャル, from English gal.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡjɑːɹuː/"
+        },
+        {
+          "ipa": "/ˈɡjæɹuː/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gybe": {
     "v": {
@@ -173812,6 +175717,14 @@
     },
     "isAnglish": false
   },
+  "gyre-carlin": {
+    "n": {
+      "senses": [],
+      "origin": "From Old Norse gýgr (“ogress”) + English carline (“old woman”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gyrfalcon": {
     "n": {
       "pronunciation": [
@@ -174054,5 +175967,44 @@
       ]
     },
     "isAnglish": false
+  },
+  "gyve": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *give, *gyve (found only in plural gives, gyves (“shackles; fetters”)). Of uncertain origin, possibly from low dialect taking from Celtic; compare Welsh gefyn (“fetter, shackle”), Irish geibbionn (“fetters”), geimheal (“fetter, chain, shackle”). The modern pronunciation with /dʒ/ is due to the spelling.\nThe verb is from Middle English given, gyven (“to shackle”), from the noun.",
+      "sounds": [
+        {
+          "ipa": "/d͡ʒaɪv/"
+        },
+        {
+          "ipa": "/ɡaɪv/"
+        },
+        {
+          "rhymes": "-aɪv"
+        },
+        {
+          "homophone": "jive"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *give, *gyve (found only in plural gives, gyves (“shackles; fetters”)). Of uncertain origin, possibly from low dialect taking from Celtic; compare Welsh gefyn (“fetter, shackle”), Irish geibbionn (“fetters”), geimheal (“fetter, chain, shackle”). The modern pronunciation with /dʒ/ is due to the spelling.\nThe verb is from Middle English given, gyven (“to shackle”), from the noun.",
+      "sounds": [
+        {
+          "ipa": "/d͡ʒaɪv/"
+        },
+        {
+          "ipa": "/ɡaɪv/"
+        },
+        {
+          "rhymes": "-aɪv"
+        },
+        {
+          "homophone": "jive"
+        }
+      ]
+    },
+    "isAnglish": true
   }
 }

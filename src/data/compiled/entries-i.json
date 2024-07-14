@@ -84,7 +84,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "I Chronicles": {
     "n": {
@@ -161,7 +161,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "I Samuel": {
     "n": {
@@ -207,7 +207,7 @@
       "origin": "Since it resembles a capital letter I with serifs.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "I-know-not": {
     "n": {
@@ -776,6 +776,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "IIIIth": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English IIIIth; IIII (Roman numeral representing four) + -th.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "IIS": {
     "n": {
@@ -1634,7 +1642,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Iceland poppy": {
     "n": {
@@ -1650,7 +1658,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Iceland spar": {
     "n": {
@@ -1662,7 +1670,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Icelander": {
     "n": {
@@ -1815,7 +1823,22 @@
       ],
       "origin": "NE×2, Iceland+ish"
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *Islandish, *Islondisch, equivalent to Iceland + -ish. Compare Dutch IJslands, German Isländisch, Danish islandsk, Icelandic íslenskur.",
+      "sounds": [
+        {
+          "audio": "en-us-ne-icelandish.ogg",
+          "text": "Audio (New England)",
+          "tags": [
+            "New-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/En-us-ne-icelandish.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/En-us-ne-icelandish.ogg/En-us-ne-icelandish.ogg.mp3"
+        }
+      ]
+    }
   },
   "Icelandish Icelander": {
     "a": {
@@ -2661,7 +2684,7 @@
       "origin": "From I + -hood.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Ike": {
     "n": {
@@ -8001,7 +8024,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Irish burgoo": {
     "n": {
@@ -8081,7 +8104,7 @@
       "origin": "(seaweed): From its frequency on the Irish coast.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Irish people": {
     "n": {
@@ -8193,7 +8216,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Irish strawberry": {
     "n": {
@@ -8294,7 +8317,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Irishwoman": {
     "n": {
@@ -9995,7 +10018,7 @@
       "origin": "From Israel + -ish.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Israelite": {
     "n": {
@@ -10812,7 +10835,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Italo Calvino": {
     "n": {
@@ -11498,7 +11521,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "i-sely": {
     "a": {
@@ -12248,7 +12271,7 @@
       "origin": "Perhaps a calque of German Eiszeit.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice ax": {
     "n": {
@@ -12260,7 +12283,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice axe": {
     "n": {
@@ -12272,7 +12295,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice bag": {
     "n": {
@@ -12285,7 +12308,7 @@
       "origin": "ice + bag. The second sense is possibly a calque of a Philippine language.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice bear": {
     "n": {
@@ -12314,7 +12337,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice bond": {
     "v": {
@@ -12354,7 +12377,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice chest": {
     "n": {
@@ -12366,7 +12389,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice coffee": {
     "n": {
@@ -12442,7 +12465,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice cube": {
     "n": {
@@ -12491,7 +12514,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice floe": {
     "n": {
@@ -12652,7 +12675,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice melt": {
     "n": {
@@ -12686,7 +12709,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice needle": {
     "n": {
@@ -12698,7 +12721,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice over": {
     "v": {
@@ -12714,7 +12737,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice pack": {
     "n": {
@@ -12730,7 +12753,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice pick": {
     "n": {
@@ -12742,7 +12765,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice plant": {
     "n": {
@@ -12754,7 +12777,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice rink": {
     "n": {
@@ -12766,7 +12789,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice shelf": {
     "n": {
@@ -12787,7 +12810,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice shoal": {
     "n": {
@@ -12810,7 +12833,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice skate": {
     "n": {
@@ -12875,7 +12898,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice tea": {
     "n": {
@@ -12914,7 +12937,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice wagon": {
     "n": {
@@ -12926,7 +12949,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice water": {
     "n": {
@@ -12938,7 +12961,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice yacht": {
     "n": {
@@ -13089,7 +13112,7 @@
       "origin": "ice + -free",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ice-hockey player": {
     "n": {
@@ -13247,7 +13270,7 @@
       "origin": "ice + bird",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iceboat": {
     "n": {
@@ -13277,7 +13300,7 @@
       "origin": "ice + bound",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "icebox": {
     "n": {
@@ -13460,7 +13483,7 @@
       "origin": "ice + house",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iceman": {
     "n": {
@@ -13488,6 +13511,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "icen": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English isen, ysen, equivalent to ice + -en.",
+      "sounds": [
+        {
+          "rhymes": "-aɪsən"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "icepick": {
     "n": {
@@ -13523,7 +13558,7 @@
       "origin": "ice + way",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iceweasten": {
     "n": {
@@ -13967,7 +14002,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "icily": {
     "r": {
@@ -14072,7 +14107,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "icing sugar": {
     "n": {
@@ -14177,7 +14212,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "icon": {
     "n": {
@@ -14754,7 +14789,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "id": {
     "n": {
@@ -15529,6 +15564,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "ident": {
+    "a": {
+      "senses": [],
+      "origin": "From a later form of ithand, itself an alteration (due to assimilation to suffix -and) of Middle English ithen, from Old Norse iðinn (“assiduous, diligent”), from iðja, iðna (“to do, perform”), from ið (“a restless motion”), equivalent to ithe + -and and/or ithe + -en. Cognate with Icelandic iðinn (“diligent”), Norwegian idig (“busy”), Danish id (“pursuit, calling, business”). More at ithand.",
+      "sounds": [
+        {
+          "ipa": "/ˈaɪdənt/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "identical": {
     "a": {
@@ -16570,7 +16617,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "idesia": {
     "n": {
@@ -17490,7 +17537,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "idle words": {
     "n": {
@@ -17511,6 +17558,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "idlehead": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English idelhed, equivalent to idle + -head.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -17613,6 +17668,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "idleship": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ydelschipe, equivalent to idle + -ship.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -17775,6 +17838,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "idolastre": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English idolatre.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "idolater": {
     "n": {
@@ -18507,7 +18578,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ifight": {
     "n": {
@@ -19894,7 +19965,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ileal artery": {
     "n": {
@@ -20412,7 +20483,7 @@
       "origin": "Compare to malaise, a similar formation from French.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill bred": {
     "a": {
@@ -20466,7 +20537,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill humor": {
     "n": {
@@ -20513,7 +20584,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill nature": {
     "n": {
@@ -20538,7 +20609,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill temper": {
     "n": {
@@ -20549,7 +20620,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill turn": {
     "n": {
@@ -20561,7 +20632,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill will": {
     "n": {
@@ -20621,7 +20692,7 @@
       "origin": "From ill + being. Compare well-being.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-bode": {
     "v": {
@@ -20653,7 +20724,7 @@
       "origin": "ill + boding",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-boding look-alike": {
     "n": {
@@ -20672,7 +20743,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-breeding": {
     "n": {
@@ -20695,7 +20766,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-conceived": {
     "a": {
@@ -20843,7 +20914,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-formed": {
     "a": {
@@ -20869,7 +20940,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-gotten": {
     "a": {
@@ -20881,7 +20952,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-hap": {
     "n": {
@@ -20962,7 +21033,7 @@
       "origin": "Compare Middle English ille-ymanerite.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-name": {
     "n": {
@@ -20987,7 +21058,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-natured": {
     "a": {
@@ -21097,7 +21168,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-tempered": {
     "a": {
@@ -21119,7 +21190,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ill-thewed": {
     "a": {
@@ -21284,6 +21355,22 @@
           "synset": "02505376-s"
         }
       ],
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "ill-willed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English illwillid, ilwilled, il-wyllid, ill willd, equivalent to ill + will + -ed.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ill-willing": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *il-willynge, ill willand, il-willande, equivalent to ill + willing.",
       "sounds": []
     },
     "isAnglish": true
@@ -21869,7 +21956,7 @@
       "origin": "From ill + fare. Compare evilfare, welfare, etc.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "illiberal": {
     "a": {
@@ -22238,7 +22325,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "illogic": {
     "n": {
@@ -23302,7 +23389,7 @@
       "origin": "ill + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ilmenite": {
     "n": {
@@ -23973,7 +24060,7 @@
       "origin": "From Middle English ymaginatyfliche; equivalent to imaginative + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "imaginativeness": {
     "n": {
@@ -24596,7 +24683,7 @@
       "origin": "From im- + bitter.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "imbricate": {
     "a": {
@@ -24853,6 +24940,19 @@
         }
       ],
       "origin": "from ME imeane"
+    },
+    "isAnglish": true
+  },
+  "imell": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English imell, emell, emelle, omelle, from Old Norse á milli, í milli (“in the middle”), from Old Norse milli, miðli (“middle”), from Proto-Germanic *midilą, *medalą (“middle”), from Proto-Indo-European *médʰyos (“between, in the middle, middle”). More at middle.",
+      "sounds": []
+    },
+    "p": {
+      "senses": [],
+      "origin": "From Middle English imell, emell, emelle, omelle, from Old Norse á milli, í milli (“in the middle”), from Old Norse milli, miðli (“middle”), from Proto-Germanic *midilą, *medalą (“middle”), from Proto-Indo-European *médʰyos (“between, in the middle, middle”). More at middle.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -25532,6 +25632,14 @@
     },
     "isAnglish": false
   },
+  "immaterially": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English inmaterialliche, inmaterially; equivalent to immaterial + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "immature": {
     "a": {
       "pronunciation": [
@@ -25740,7 +25848,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "immeasurably": {
     "r": {
@@ -26013,7 +26121,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "immediateness": {
     "n": {
@@ -27148,7 +27256,7 @@
       "origin": "From Middle English immoderatliche, inmoderately; equivalent to immoderate + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "immoderateness": {
     "n": {
@@ -27859,7 +27967,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "immovable bandage": {
     "n": {
@@ -27905,7 +28013,7 @@
       "origin": "From Middle English in-moueabily; equivalent to immovable + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "immoveable": {
     "a": {
@@ -28225,7 +28333,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "immunization": {
     "n": {
@@ -33691,7 +33799,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "impishly": {
     "r": {
@@ -34987,6 +35095,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "impoisoner": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English empoisonere, equivalent to impoison + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "impolite": {
     "a": {
@@ -36294,7 +36410,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "impossible action": {
     "n": {
@@ -36682,7 +36798,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "impounding": {
     "n": {
@@ -38674,7 +38790,7 @@
       "origin": "From Middle English improprelich, impropreliche, impropurly, inproperlye; equivalent to improper + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "improperness": {
     "n": {
@@ -40330,7 +40446,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in a bad way": {
     "a": {
@@ -40443,6 +40559,14 @@
     },
     "isAnglish": true
   },
+  "in a manner of speaking": {
+    "p": {
+      "senses": [],
+      "origin": "From in + an alteration of Middle English a maner of speche (“a manner of literary style”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "in a nutshell": {
     "r": {
       "senses": [
@@ -40464,7 +40588,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in a pig's eye": {
     "r": {
@@ -40629,7 +40753,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "in any case": {
     "r": {
@@ -40749,7 +40873,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "in chains": {
     "a": {
@@ -40931,6 +41055,14 @@
     },
     "isAnglish": true
   },
+  "in despite of": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English in despijt of, in despit of, in despytt of, in dispite of, in dispit of, in dispyt of.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "in detail": {
     "r": {
       "senses": [
@@ -41017,7 +41149,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in effect": {
     "a": {
@@ -41039,7 +41171,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in essence": {
     "r": {
@@ -41199,7 +41331,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "in front": {
     "r": {
@@ -41288,7 +41420,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "in good spirits": {
     "r": {
@@ -41358,7 +41490,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in height": {
     "a": {
@@ -41440,6 +41572,19 @@
     },
     "isAnglish": true
   },
+  "in house": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English in house.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English in house.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "in its own right": {
     "r": {
       "senses": [
@@ -41467,7 +41612,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in kind": {
     "r": {
@@ -41490,7 +41635,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in large quantities": {
     "r": {
@@ -41514,6 +41659,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "in like wise": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English in like wise (“in like manner”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "in line": {
     "a": {
@@ -41558,7 +41711,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in loco parentis": {
     "r": {
@@ -41605,7 +41758,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in low spirits": {
     "r": {
@@ -41665,7 +41818,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in on": {
     "r": {
@@ -41757,7 +41910,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in order to attract attention": {
     "a": {
@@ -41787,7 +41940,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in particular": {
     "r": {
@@ -41847,7 +42000,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in point of fact": {
     "r": {
@@ -41972,7 +42125,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in sight": {
     "a": {
@@ -42401,7 +42554,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "in the midst": {
     "r": {
@@ -42412,7 +42565,33 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "in the midst of": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English in the myddis of.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "in the name of": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English in the name of, in þe name of.",
+      "sounds": [
+        {
+          "audio": "en-us-in the name of.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/En-us-in_the_name_of.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/En-us-in_the_name_of.ogg/En-us-in_the_name_of.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "in the nick of time": {
     "r": {
@@ -42458,7 +42637,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in the red": {
     "a": {
@@ -42608,6 +42787,14 @@
           "synset": "00181906-r"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "in twain": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English in tweyn, in twen, in tweyne (also as on tweyne). Compare Old English on twēġen (“in two”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -42858,7 +43045,7 @@
       "origin": "From in- + between.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in-bounds": {
     "a": {
@@ -42939,7 +43126,7 @@
       "origin": "From -in-law.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in-line skate": {
     "n": {
@@ -42997,7 +43184,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "in-your-face": {
     "a": {
@@ -44625,6 +44812,30 @@
     },
     "isAnglish": false
   },
+  "inasmuch": {
+    "r": {
+      "senses": [],
+      "origin": "From contraction of the phrase in as much (“to such a degree”), from Middle English in als mikel, a Northern form.",
+      "sounds": [
+        {
+          "ipa": "/ˌɪnəzˈmʌt͡ʃ/"
+        },
+        {
+          "rhymes": "-ʌtʃ"
+        },
+        {
+          "audio": "en-us-inasmuch.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/En-us-inasmuch.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/En-us-inasmuch.ogg/En-us-inasmuch.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "inasmuch as": {
     "c": {
       "senses": [],
@@ -45152,6 +45363,24 @@
     },
     "isAnglish": true
   },
+  "inbeat": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English inbeten, equivalent to in- + beat.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English inbeten, equivalent to in- + beat.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English inbeten, equivalent to in- + beat.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "inbed": {
     "v": {
       "senses": [
@@ -45237,6 +45466,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "inbland": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English inblanden, equivalent to in- + blend. Cognate with Danish indblande (“to implicate”), Swedish inblanda (“to involve, intermingle, intersperse”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -45412,7 +45649,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inborn error of metabolism": {
     "n": {
@@ -45653,6 +45890,14 @@
       "origin": "in + breath",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "inbreathe": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English inbrethen, equivalent to in- + breathe.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "inbreathedgroundashandsanddustsickness": {
@@ -45716,7 +45961,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inbreeding": {
     "n": {
@@ -45732,7 +45977,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inbring": {
     "v": {
@@ -45783,7 +46028,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inburn": {
     "v": {
@@ -45835,6 +46080,14 @@
         }
       ],
       "origin": "<OE inburh"
+    },
+    "isAnglish": true
+  },
+  "inbye": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English [Term?], equivalent to in + by.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -47636,7 +47889,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inchoate": {
     "a": {
@@ -50052,7 +50305,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "incoming": {
     "a": {
@@ -50109,7 +50362,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "incommensurable": {
     "a": {
@@ -53302,6 +53555,14 @@
     },
     "isAnglish": false
   },
+  "increasement": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English encresement; equivalent to increase + -ment.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "increasing": {
     "a": {
       "senses": [
@@ -53376,7 +53637,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "incredibility": {
     "n": {
@@ -56331,6 +56592,14 @@
     },
     "isAnglish": true
   },
+  "indelve": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English indelven (“to bury”), equivalent to in- + delve. Cognate with Dutch indelven (“to dig into”). More at in-, delve.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "indemnification": {
     "n": {
       "pronunciation": [
@@ -56686,7 +56955,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "indentation": {
     "n": {
@@ -60139,6 +60408,14 @@
     },
     "isAnglish": false
   },
+  "inditer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English enditour, endyter, inditer; equivalent to indite + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "indium": {
     "n": {
       "pronunciation": [
@@ -61413,7 +61690,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indraw": {
     "v": {
@@ -61469,7 +61746,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indrawing": {
     "a": {
@@ -61493,7 +61770,7 @@
       "origin": "in- + drawn",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indrawnness": {
     "n": {
@@ -61522,7 +61799,7 @@
       "origin": "in- + drench or equivalent.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indri": {
     "n": {
@@ -63473,7 +63750,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indweller": {
     "n": {
@@ -63493,7 +63770,7 @@
       "origin": "From indwell + -er or in- + dweller.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indwellers": {
     "n": {
@@ -63507,7 +63784,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "indwelling": {
     "a": {
@@ -63520,7 +63797,7 @@
       "origin": "in- + dwelling",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ineard": {
     "v": {
@@ -66371,6 +66648,14 @@
     },
     "isAnglish": false
   },
+  "ineye": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *ineyen, eneien, eneyen, equivalent to in- + eye.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "infall": {
     "n": {
       "senses": [
@@ -66424,7 +66709,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "v": {
       "senses": [
         {
@@ -68981,6 +69266,19 @@
     },
     "isAnglish": false
   },
+  "infight": {
+    "v": {
+      "senses": [],
+      "origin": "Apparently a back-formation from infighting, perhaps continuing Middle English infighten (“to attack”), from Old English infiht, infeoht (“an attack made upon a person by another in the same house or between members of a household”), equivalent to in- + fight.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "Apparently a back-formation from infighting, perhaps continuing Middle English infighten (“to attack”), from Old English infiht, infeoht (“an attack made upon a person by another in the same house or between members of a household”), equivalent to in- + fight.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "infighting": {
     "n": {
       "senses": [
@@ -69006,7 +69304,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "infillingness": {
     "n": {
@@ -69945,7 +70243,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inflamed": {
     "a": {
@@ -70726,7 +71024,7 @@
       "origin": "in- + flesh",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inflexibility": {
     "n": {
@@ -73384,7 +73682,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ing from below": {
     "n": {
@@ -73459,6 +73757,14 @@
     },
     "isAnglish": true
   },
+  "ingather": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English ingaderen (“To drive (enemy troops) into a trap”), equivalent to in- + gather.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ingathering": {
     "n": {
       "senses": [
@@ -73469,7 +73775,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ingeminate": {
     "v": {
@@ -73967,7 +74273,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inglenook": {
     "n": {
@@ -74115,7 +74421,7 @@
       "origin": "in + goer.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ingoing": {
     "n": {
@@ -74145,7 +74451,7 @@
       "origin": "in + going",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ingot": {
     "n": {
@@ -74201,7 +74507,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ingraft": {
     "v": {
@@ -74496,7 +74802,7 @@
       "origin": "in- + grave. Compare engrave.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ingraver": {
     "n": {
@@ -75827,7 +76133,7 @@
       "origin": "From Middle English enheriter, enheritour; equivalent to inherit + -or. Displaced native Old English ierfenuma.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inheritress": {
     "n": {
@@ -76078,7 +76384,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -76116,7 +76422,7 @@
       "origin": "From in- + holding.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inhomogeneity": {
     "n": {
@@ -78228,7 +78534,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ink bottle": {
     "n": {
@@ -78240,7 +78546,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ink cartridge": {
     "n": {
@@ -78354,6 +78660,27 @@
     },
     "isAnglish": false
   },
+  "inked": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English inked, ynkid (“written in ink”), equivalent to ink + -ed.",
+      "sounds": [
+        {
+          "rhymes": "-ɪŋkt"
+        },
+        {
+          "audio": "En-au-inked.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/En-au-inked.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/En-au-inked.ogg/En-au-inked.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "inkeep": {
     "v": {
       "senses": [
@@ -78396,14 +78723,14 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inkers": {
     "n": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inkhorn": {
     "n": {
@@ -78440,7 +78767,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inkindling": {
     "n": {
@@ -78491,7 +78818,7 @@
       "origin": "Apparently from earlier *ingle, perhaps from an incorrect division of lingle, lingel.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inkling": {
     "n": {
@@ -78523,6 +78850,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/LL-Q1860_%28eng%29-I_learned_some_phrases-inkling.wav/LL-Q1860_%28eng%29-I_learned_some_phrases-inkling.wav.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "inknit": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English inknitten, equivalent to in- + knit.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -78792,7 +79127,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inlandish": {
     "a": {
@@ -78916,7 +79251,16 @@
         }
       ]
     },
-    "isAnglish": true
+    "n": {
+      "senses": [],
+      "origin": "See in-law.",
+      "sounds": [
+        {
+          "ipa": "/ˈɪnlɔː/"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "inlay": {
     "n": {
@@ -78988,7 +79332,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inlead": {
     "v": {
@@ -79127,7 +79471,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inlief": {
     "n": {
@@ -79237,7 +79581,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [],
       "origin": null
@@ -79287,7 +79631,7 @@
       "origin": "in- + list",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inlook": {
     "v": {
@@ -79313,7 +79657,7 @@
       "origin": "From in- + look.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inly": {
     "r": {
@@ -79471,7 +79815,7 @@
       "origin": "in- + lying",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inmarriage": {
     "n": {
@@ -79537,12 +79881,36 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "inmeat": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English inmete, inmette, equivalent to in- + meat. Compare Swedish inmåte (“intestines”).",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "inmeld": {
     "a": {
       "senses": [],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "inmid": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English inmid, equivalent to in- + mid.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "inmiddes": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English inmiddes, equivalent to in- + middes.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -79661,7 +80029,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "innards": {
     "n": {
@@ -79684,7 +80052,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "innate": {
     "a": {
@@ -79907,7 +80275,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inner city": {
     "n": {
@@ -79931,7 +80299,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inner jib": {
     "n": {
@@ -80044,6 +80412,27 @@
         }
       ],
       "origin": "compound: inner+held"
+    },
+    "isAnglish": true
+  },
+  "innerly": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English inhirly, ynhirly, inderly, equivalent to inner + -ly. Compare Dutch innerlijk, German innerlich, Danish inderlig, Swedish innerlig.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English innerly, inderly, inderlich, inderlike, equivalent to inner + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "innermore": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English innermore, innermor, equivalent to inner + -more.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -80317,6 +80706,14 @@
     },
     "isAnglish": true
   },
+  "innholder": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English inhalder, inholder; equivalent to inn + holder.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "inning": {
     "n": {
       "pronunciation": [
@@ -80407,7 +80804,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "innless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English inles, equivalent to inn + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "innocence": {
     "n": {
@@ -82066,6 +82471,14 @@
     },
     "isAnglish": false
   },
+  "inquirance": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English inquyraunce, probably from Anglo-French.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "inquire": {
     "v": {
       "pronunciation": [
@@ -82667,7 +83080,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inroads": {
     "n": {
@@ -82727,7 +83140,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inroot": {
     "n": {
@@ -82767,7 +83180,7 @@
       "origin": "in + run",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inruning": {
     "n": {
@@ -83869,7 +84282,7 @@
       "origin": "From in- + see, or taken as a back-formation of inseeing, itself a loan-translation / calque of German Einsehen (“recognition, observation”). Compare Old English onsēon (“to look on, observe, regard, take notice of”). More at insight.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inseeing": {
     "n": {
@@ -85013,7 +85426,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inside loop": {
     "n": {
@@ -85025,7 +85438,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inside out": {
     "r": {
@@ -85060,7 +85473,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inside track": {
     "n": {
@@ -85098,7 +85511,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "insider": {
     "n": {
@@ -85187,7 +85600,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "insidious": {
     "a": {
@@ -85361,7 +85774,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "insightfulness": {
     "n": {
@@ -85377,7 +85790,7 @@
       "origin": "insightful + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "insignia": {
     "n": {
@@ -86759,7 +87172,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "insooth": {
     "r": {
@@ -86774,7 +87187,7 @@
       "origin": "in + sooth",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "insouciance": {
     "n": {
@@ -86896,7 +87309,7 @@
       "origin": "in + span",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inspeaking": {
     "n": {
@@ -87520,7 +87933,7 @@
       "origin": "From Middle English inspiriten, equivalent to in- + spirit.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inspiriting": {
     "a": {
@@ -87881,7 +88294,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "installation": {
     "n": {
@@ -88665,6 +89078,14 @@
     },
     "isAnglish": true
   },
+  "instead of": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English in stede of, in stude of (“instead of”, literally “in stead of, in place of”), equivalent to in + stead + of. Cognate with Saterland Frisian insteede, ansteede (“instead of”), West Frisian ynstee (“instead of”), German anstatt (von) (“instead of”), Danish i stedet (“instead of”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "instelling": {
     "n": {
       "senses": [
@@ -88710,7 +89131,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "instigant": {
     "n": {
@@ -89692,6 +90113,14 @@
         }
       ],
       "origin": "From in- + stream.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "instrew": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *instrewen, instrien, equivalent to in- + strew.",
       "sounds": []
     },
     "isAnglish": true
@@ -91871,7 +92300,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "insured": {
     "a": {
@@ -92506,7 +92935,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "intake manifold": {
     "n": {
@@ -92518,7 +92947,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "intake valve": {
     "n": {
@@ -92560,7 +92989,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "intangibility": {
     "n": {
@@ -92760,7 +93189,7 @@
       "senses": [],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "intangling": {
     "n": {
@@ -105638,7 +106067,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inthralled": {
     "a": {
@@ -109934,7 +110363,7 @@
       "origin": "From in- + trust.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "intrusty": {
     "a": {
@@ -110398,6 +110827,19 @@
     },
     "isAnglish": false
   },
+  "inturn": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English inturnen, equivalent to in- + turn.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English inturn, intorn, equivalent to in- + turn.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "intussuscept": {
     "v": {
       "senses": [
@@ -110723,7 +111165,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inured": {
     "a": {
@@ -115478,7 +115920,7 @@
       "origin": "From inwander + -er and/or in- + wanderer.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inward": {
     "a": {
@@ -115650,7 +116092,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inwardness": {
     "n": {
@@ -115733,7 +116175,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inwardsome": {
     "a": {
@@ -115813,7 +116255,7 @@
       "origin": "in- + weave",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inweight": {
     "n": {
@@ -116030,7 +116472,7 @@
       "origin": "From in- + work. Compare Dutch inwerken (“to affect, orient”), German einwirken (“to influence, impinge”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inworker": {
     "n": {
@@ -116058,7 +116500,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "inwreak": {
     "v": {
@@ -116166,7 +116608,7 @@
       "origin": "From past participle of inwork.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "io moth": {
     "n": {
@@ -117658,7 +118100,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ireful": {
     "a": {
@@ -117671,7 +118113,7 @@
       "origin": "From Middle English ireful; equivalent to ire + -ful.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "irenic": {
     "a": {
@@ -117990,6 +118432,14 @@
     },
     "isAnglish": false
   },
+  "irie": {
+    "a": {
+      "senses": [],
+      "origin": "Borrowed from Jamaican Creole irie, which is perhaps from English all right.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "iris": {
     "n": {
       "form": [
@@ -118208,6 +118658,14 @@
     },
     "isAnglish": true
   },
+  "irksomeness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English irkesumnesse, irksomnes, irksumnes, urkesommenesse, yrkesumnesse; equivalent to irksome + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "irl": {
     "n": {
       "senses": [
@@ -118223,7 +118681,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron": {
     "a": {
@@ -118463,7 +118921,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron boot": {
     "n": {
@@ -118599,7 +119057,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron foundry": {
     "n": {
@@ -118644,7 +119102,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron lung": {
     "n": {
@@ -118656,7 +119114,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron maiden": {
     "n": {
@@ -118668,7 +119126,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron man": {
     "n": {
@@ -118680,7 +119138,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron manganese tungsten": {
     "n": {
@@ -118741,7 +119199,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron out": {
     "v": {
@@ -118767,7 +119225,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "iron overload": {
     "n": {
@@ -118989,7 +119447,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ironcrock": {
     "n": {
@@ -119246,7 +119704,7 @@
       "origin": "iron + -like",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ironman": {
     "n": {
@@ -119259,7 +119717,7 @@
       "origin": "From iron + man. First applied to Joe McGinnity, a baseball player who pitched 48 complete games in one season and worked in an iron foundry during the offseason.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ironmonger": {
     "n": {
@@ -119294,7 +119752,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ironmonger's shop": {
     "n": {
@@ -119504,7 +119962,7 @@
       "origin": "From Middle English ironwerk, irynwerk, equivalent to iron + -work.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ironworker": {
     "n": {
@@ -122773,7 +123231,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "island of Jersey": {
     "n": {
@@ -122861,7 +123319,7 @@
       "origin": "From island + -ish.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "islands of Langerhans": {
     "n": {
@@ -123035,7 +123493,7 @@
       "origin": "is + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "isoagglutination": {
     "n": {
@@ -125765,7 +126223,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "isthmian": {
     "a": {
@@ -126569,7 +127027,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "itchiness": {
     "n": {
@@ -126672,7 +127130,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "item": {
     "n": {
@@ -127391,7 +127849,16 @@
       "senses": [],
       "origin": "dialectal, Northern England, Scotland. Ultimately from Old Norse \"iðinn\""
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ithand, an alteration (due to assimilation to suffix -and) of ithen, from Old Norse iðinn (“assiduous, diligent”), from iðja, iðna (“to do, perform”), from ið (“a restless motion”), equivalent to ithe + -and and/or ithe + -en. Cognate with Icelandic iðinn (“diligent”), Norwegian idig (“busy”), Danish idelig (“continual”), and perhaps to English eddy.",
+      "sounds": [
+        {
+          "ipa": "/ˈaɪðənd/"
+        }
+      ]
+    }
   },
   "ithe": {
     "n": {
@@ -127792,6 +128259,34 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/En-us-its.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/En-us-its.ogg/En-us-its.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "itself": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English hit-self, equivalent to it + -self.",
+      "sounds": [
+        {
+          "ipa": "/ɪtˈsɛlf/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɛlf"
+        },
+        {
+          "audio": "en-us-itself.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/En-us-itself.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/En-us-itself.ogg/En-us-itself.ogg.mp3"
         }
       ]
     },

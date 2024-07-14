@@ -6649,7 +6649,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Jeroboam": {
     "n": {
@@ -12506,7 +12506,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Joseph Alois Schumpeter": {
     "n": {
@@ -15910,7 +15910,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack bean": {
     "n": {
@@ -15922,7 +15922,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack crevalle": {
     "n": {
@@ -16020,7 +16020,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack pine": {
     "n": {
@@ -16032,7 +16032,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack plane": {
     "n": {
@@ -16083,7 +16083,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack-a-lantern": {
     "n": {
@@ -16107,7 +16107,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack-in-the-box": {
     "n": {
@@ -16122,7 +16122,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jack-in-the-pulpit": {
     "n": {
@@ -16449,7 +16449,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jacket": {
     "n": {
@@ -17192,7 +17192,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jade green": {
     "n": {
@@ -17203,7 +17203,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jade vine": {
     "n": {
@@ -17227,7 +17227,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jaded": {
     "a": {
@@ -17274,7 +17274,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jadeite": {
     "n": {
@@ -18149,7 +18149,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jalapeno": {
     "n": {
@@ -18517,7 +18517,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jam session": {
     "n": {
@@ -18636,6 +18636,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "jamber": {
+    "n": {
+      "senses": [],
+      "origin": "From jambeau? Or from Middle English jaumber? Compare lamboy(s).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "jamberry": {
     "n": {
@@ -19662,6 +19670,39 @@
     },
     "isAnglish": false
   },
+  "jarl": {
+    "n": {
+      "senses": [],
+      "origin": "From Old Norse jarl, from Proto-Norse ᛖᚱᛁᛚᚨᛉ (erilaʀ). Cognates include Old English eorl. Doublet of earl.",
+      "sounds": [
+        {
+          "ipa": "/jɑɹl̩/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/jɑːl/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɑː(ɹ)l"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-jarl.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6c/LL-Q1860_%28eng%29-Vealhurl-jarl.wav/LL-Q1860_%28eng%29-Vealhurl-jarl.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6c/LL-Q1860_%28eng%29-Vealhurl-jarl.wav/LL-Q1860_%28eng%29-Vealhurl-jarl.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "jarring": {
     "a": {
       "senses": [
@@ -20543,7 +20584,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jawan": {
     "n": {
@@ -21236,6 +21277,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "jealousness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English jelousnesse; equivalent to jealous + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "jealousy": {
     "n": {
@@ -22725,7 +22774,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jerk off": {
     "v": {
@@ -22754,7 +22803,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jerk-off": {
     "n": {
@@ -22769,7 +22818,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jerkback": {
     "n": {
@@ -23365,7 +23414,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jesting": {
     "a": {
@@ -23733,7 +23782,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jetting": {
     "a": {
@@ -24607,7 +24656,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jibboom": {
     "n": {
@@ -25656,7 +25705,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jingle-jangle": {
     "v": {
@@ -26670,7 +26719,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "job action": {
     "n": {
@@ -26752,7 +26801,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "job-control language": {
     "n": {
@@ -26820,6 +26869,14 @@
     },
     "isAnglish": false
   },
+  "jobbernowl": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English [Term?], compare French jobard (“gullible, crazy”) and English noll (“head”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "jobbery": {
     "n": {
       "senses": [
@@ -26869,7 +26926,7 @@
       "origin": "job + -less",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jock": {
     "n": {
@@ -27735,7 +27792,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jog trot": {
     "n": {
@@ -28300,7 +28357,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "joined": {
     "a": {
@@ -29244,6 +29301,14 @@
     },
     "isAnglish": false
   },
+  "jollily": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English jolily; equivalent to jolly + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "jolliness": {
     "n": {
       "senses": [
@@ -29258,7 +29323,7 @@
       "origin": "From Middle English jolinesse, equivalent to jolly + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jollity": {
     "n": {
@@ -29717,7 +29782,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jolted": {
     "a": {
@@ -30465,6 +30530,48 @@
     },
     "isAnglish": false
   },
+  "jotun": {
+    "n": {
+      "senses": [],
+      "origin": "Learned borrowing from Old Norse jǫtunn, from Proto-Germanic *etunaz (“giant”). Doublet of ettin.",
+      "sounds": [
+        {
+          "ipa": "/ˈjəʊtʊn/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈjoʊtʊn/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈjoʊtən/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈjɔːtʊn/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-jotun.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/LL-Q1860_%28eng%29-Vealhurl-jotun.wav/LL-Q1860_%28eng%29-Vealhurl-jotun.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/LL-Q1860_%28eng%29-Vealhurl-jotun.wav/LL-Q1860_%28eng%29-Vealhurl-jotun.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "joule": {
     "n": {
       "pronunciation": [
@@ -31026,7 +31133,7 @@
       "origin": "From Late Middle English journeier; equivalent to journey + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "journeying": {
     "n": {
@@ -31052,7 +31159,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "journeyman": {
     "n": {
@@ -31955,6 +32062,14 @@
     },
     "isAnglish": false
   },
+  "jubbe": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English jubbe, of unknown origin.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "jubilance": {
     "n": {
       "senses": [
@@ -32517,6 +32632,14 @@
     },
     "isAnglish": false
   },
+  "judgeable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English jugeable; equivalent to judge + -able.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "judgement": {
     "n": {
       "senses": [
@@ -32646,6 +32769,24 @@
       ]
     },
     "isAnglish": false
+  },
+  "judger": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English juger; equivalent to judge + -er.",
+      "sounds": [
+        {
+          "ipa": "/d͡ʒʌd͡ʒɚ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ʌdʒə(ɹ)"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "judgeship": {
     "n": {
@@ -33873,7 +34014,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jugglery": {
     "n": {
@@ -33938,7 +34079,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jugular": {
     "a": {
@@ -34886,7 +35027,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jumble sale": {
     "n": {
@@ -34898,7 +35039,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jumbled": {
     "a": {
@@ -35320,7 +35461,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump ball": {
     "n": {
@@ -35332,7 +35473,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump cut": {
     "n": {
@@ -35344,7 +35485,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump for joy": {
     "v": {
@@ -35396,7 +35537,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump on": {
     "v": {
@@ -35424,7 +35565,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump out": {
     "v": {
@@ -35451,7 +35592,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump rope": {
     "n": {
@@ -35476,7 +35617,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump seat": {
     "n": {
@@ -35488,7 +35629,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump shot": {
     "n": {
@@ -35500,7 +35641,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jump suit": {
     "n": {
@@ -35548,7 +35689,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jumped-up": {
     "a": {
@@ -36858,7 +36999,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "junk food": {
     "n": {
@@ -36881,7 +37022,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "junk mail": {
     "n": {
@@ -36904,7 +37045,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "junk shop": {
     "n": {
@@ -38890,7 +39031,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "jute": {
     "n": {

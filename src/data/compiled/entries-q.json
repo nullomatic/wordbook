@@ -2324,7 +2324,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quackery": {
     "n": {
@@ -4418,7 +4418,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quail at": {
     "v": {
@@ -4726,7 +4726,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quale": {
     "n": {
@@ -4786,7 +4786,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "qualehouse": {
     "n": {
@@ -5639,7 +5639,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "qualmness": {
     "v": {
@@ -5833,7 +5833,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quandong": {
     "n": {
@@ -7629,7 +7629,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quartan": {
     "a": {
@@ -8353,7 +8353,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quartermaster general": {
     "n": {
@@ -8377,7 +8377,7 @@
       "origin": "From Middle English quartern, quarteroun, quartroun, from Anglo-Norman quatroun (“quarter of a hundred”), from Old French quarter (“fourth”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quarternward": {
     "n": {
@@ -9452,6 +9452,19 @@
     },
     "isAnglish": false
   },
+  "quave": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English quaven, cwavien (“to tremble”). More at quaver.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English quaven, cwavien (“to tremble”). More at quaver.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "quaver": {
     "n": {
       "pronunciation": [
@@ -9549,7 +9562,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quavering": {
     "a": {
@@ -9753,7 +9766,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quean": {
     "n": {
@@ -10211,7 +10224,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "queen consort": {
     "n": {
@@ -10274,7 +10287,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "queen of the May": {
     "n": {
@@ -10298,7 +10311,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "queen post": {
     "n": {
@@ -10310,7 +10323,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "queen regent": {
     "n": {
@@ -10417,6 +10430,19 @@
     },
     "isAnglish": false
   },
+  "queening": {
+    "v": {
+      "senses": [],
+      "origin": "(apple): From Middle English quenynges pl, from quene (“queen”) but not completely certain.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "(apple): From Middle English quenynges pl, from quene (“queen”) but not completely certain.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "queenlike": {
     "a": {
       "senses": [
@@ -10491,7 +10517,7 @@
       "origin": "From queen + -ship.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "queensland kauri": {
     "n": {
@@ -10696,6 +10722,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "queer parade": {
+    "n": {
+      "senses": [],
+      "origin": "Straightforwardly queer + parade, but in regards to South Korean usage, it is a calque of Korean 퀴어 퍼레이드 (kwieo peoreideu), which is from English queer + parade.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "queerly": {
@@ -10739,7 +10773,7 @@
       "origin": "From queer + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "queeth": {
     "n": {
@@ -11076,7 +11110,7 @@
       "origin": "quench + coal",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quenched": {
     "a": {
@@ -11143,7 +11177,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quenchless": {
     "a": {
@@ -11248,6 +11282,27 @@
         },
         {
           "homophone": "quirk"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "querken": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English querkenen, equivalent to querk + -en.",
+      "sounds": [
+        {
+          "ipa": "/ˈkwɜːkɪn/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈkwɝkɪn/",
+          "tags": [
+            "General-American"
+          ]
         }
       ]
     },
@@ -12238,7 +12293,7 @@
       "origin": "From Middle English questioner; equivalent to question + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "questioning": {
     "a": {
@@ -12359,7 +12414,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "questioningly": {
     "r": {
@@ -12401,6 +12456,19 @@
       ]
     },
     "isAnglish": false
+  },
+  "questionless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English questionles; equivalent to question + -less.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English questionles; equivalent to question + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "questionnaire": {
     "n": {
@@ -12476,7 +12544,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quethe": {
     "v": {
@@ -13010,7 +13078,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quiche Lorraine": {
     "n": {
@@ -13244,7 +13312,7 @@
       "origin": "quick + bread",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick buck": {
     "n": {
@@ -13266,7 +13334,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick ea": {
     "n": {
@@ -13289,7 +13357,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick grass": {
     "n": {
@@ -13334,7 +13402,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick time": {
     "n": {
@@ -13346,7 +13414,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick water": {
     "n": {
@@ -13357,7 +13425,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick-change": {
     "a": {
@@ -13415,7 +13483,7 @@
       "origin": "quick + freeze",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick-frozen": {
     "a": {
@@ -13427,7 +13495,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick-in-hand": {
     "n": {
@@ -13480,7 +13548,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick-witted": {
     "a": {
@@ -13495,7 +13563,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quick-wittedness": {
     "n": {
@@ -13632,7 +13700,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quickener": {
     "n": {
@@ -13672,7 +13740,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quickening": {
     "n": {
@@ -13698,7 +13766,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quicker": {
     "r": {
@@ -13793,7 +13861,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quicklime": {
     "n": {
@@ -14917,7 +14985,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quietness": {
     "n": {
@@ -14941,7 +15009,7 @@
       "origin": "From Middle English quietnes, quietnesse, quietenesse, qwietnesse, qwietenesse, equivalent to quiet + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quietude": {
     "n": {
@@ -15112,7 +15180,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quill pen": {
     "n": {
@@ -15124,7 +15192,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quillpig": {
     "n": {
@@ -15148,7 +15216,7 @@
       "origin": "quill + wort",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quillwort family": {
     "n": {
@@ -15367,6 +15435,14 @@
     },
     "isAnglish": false
   },
+  "quiltmaker": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English quilte maker, quyltemaker, quyltemakere; equivalent to quilt + maker.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "quin": {
     "n": {
       "pronunciation": [
@@ -15524,6 +15600,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "quinch": {
+    "v": {
+      "senses": [],
+      "origin": "First attested 1530 as quynche, possibly from unrecorded Middle English *quinchen, itself of obscure origin. Perhaps a fusion of Middle English quicchen, quecchen (“to shake, tremble; twitch, flinch”) and Middle English winchen (“to flinch, wince; veer or move away”), making it equivalent to a blend of quitch + winch.\nCompare Saterland Frisian kwinkje (“to blink, wink with the eyes”), Middle Dutch quincken, quinken (\"to shake, quiver\"; whence modern Dutch kwinken, kwinkeleren (“to warble”)), German Low German quinken (“to blink, wink”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "quinidine": {
     "n": {
@@ -16608,7 +16692,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quirk bead": {
     "n": {
@@ -16630,7 +16714,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quirk moulding": {
     "n": {
@@ -16671,7 +16755,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "quirky": {
     "a": {
@@ -16786,7 +16870,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quislingism": {
     "n": {
@@ -17005,7 +17089,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quitclaim deed": {
     "n": {
@@ -17951,6 +18035,27 @@
         }
       ],
       "origin": "OE, cwānian"
+    },
+    "isAnglish": true
+  },
+  "quop": {
+    "v": {
+      "senses": [],
+      "origin": "Inherited from Middle English quappen, of onomatopoeic origin.",
+      "sounds": [
+        {
+          "ipa": "/kwɒp/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-quop.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/LL-Q1860_%28eng%29-Vealhurl-quop.wav/LL-Q1860_%28eng%29-Vealhurl-quop.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/LL-Q1860_%28eng%29-Vealhurl-quop.wav/LL-Q1860_%28eng%29-Vealhurl-quop.wav.mp3"
+        }
+      ]
     },
     "isAnglish": true
   },

@@ -65,7 +65,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "E layer": {
     "n": {
@@ -520,7 +520,7 @@
       "origin": "From Japanese ED (エンディング), from English ending.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "EDP": {
     "n": {
@@ -1167,6 +1167,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "Eagle": {
+    "n": {
+      "senses": [],
+      "origin": "The name of the English village is believed to be from Old English āc (“oak”) + lēah: compare with Acle.",
+      "sounds": [
+        {
+          "ipa": "/ˈiɡəl/"
+        },
+        {
+          "rhymes": "-iɡəl"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Eagle Scout": {
     "n": {
@@ -1949,7 +1964,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Easter bunny": {
     "n": {
@@ -2029,7 +2044,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Easter lily": {
     "n": {
@@ -2041,7 +2056,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Easter lily vine": {
     "n": {
@@ -2102,7 +2117,7 @@
       "origin": "Possibly modeled on Dutch oosterling. Compare sterling.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Eastermonth": {
     "n": {
@@ -2134,7 +2149,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Eastern Catholicism": {
     "n": {
@@ -2355,7 +2370,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Easterngreatland": {
     "n": {
@@ -3359,7 +3374,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Edgar Adrian": {
     "n": {
@@ -7835,6 +7850,21 @@
     },
     "isAnglish": false
   },
+  "Elmer": {
+    "n": {
+      "senses": [],
+      "origin": "Medieval variant of the given name Aylmer, from Old English æþel (“noble”) + mǣre (“famous”).",
+      "sounds": [
+        {
+          "ipa": "/ˈɛlmɚ/",
+          "tags": [
+            "US"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Elmer Ambrose Sperry": {
     "n": {
       "senses": [
@@ -8284,27 +8314,6 @@
       ]
     },
     "isAnglish": false
-  },
-  "Ember day": {
-    "n": {
-      "senses": [],
-      "origin": "From Middle English ember-dai, imber-dai, imbre-dai (“Ember day”), from Old English ymbren-dæg. Ymbren is possibly a corrupted form of Old English ymbryne (“period, revolution of time”), from ymb (“around, about”) (ultimately from Proto-Indo-European *h₂m̥bʰi (“around, about”)) + ryne (“path along which motion occurs; course”) (ultimately from Proto-Indo-European *(H)r ̊-nw- (“to flow, move, run”)). Alternatively, Ember could be a corruption of Latin quatuor tempora (“four periods”), from which German Quatember (“Embertide”) is derived.",
-      "sounds": [
-        {
-          "ipa": "/ˈɛmbə ˌdeɪ/",
-          "tags": [
-            "Received-Pronunciation"
-          ]
-        },
-        {
-          "ipa": "/ˈɛmbɚ ˌdeɪ/",
-          "tags": [
-            "General-American"
-          ]
-        }
-      ]
-    },
-    "isAnglish": true
   },
   "Emberiza": {
     "n": {
@@ -9408,6 +9417,21 @@
     },
     "isAnglish": false
   },
+  "Enfield": {
+    "n": {
+      "senses": [],
+      "origin": "From Old English Ēana (given name) or ēan (“lamb”) + feld (“field”).",
+      "sounds": [
+        {
+          "ipa": "/ɛnfiːld/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Engelbert Humperdinck": {
     "n": {
       "senses": [
@@ -9810,7 +9834,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English department": {
     "n": {
@@ -9833,7 +9857,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English foxhound": {
     "n": {
@@ -9872,7 +9896,7 @@
       "origin": "Calque of French cor anglais.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English imperfect": {
     "v": {
@@ -9959,7 +9983,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English people": {
     "n": {
@@ -10048,7 +10072,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English setter": {
     "n": {
@@ -10099,7 +10123,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English springer": {
     "n": {
@@ -10203,7 +10227,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English-Gothic": {
     "n": {
@@ -10237,7 +10261,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "English-weed": {
     "n": {
@@ -10340,7 +10364,7 @@
       "origin": "From Middle English Englishwoman, equivalent to English + -woman. Compare Englishman.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Engraulidae": {
     "n": {
@@ -14021,7 +14045,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Erse language": {
     "n": {
@@ -20611,7 +20635,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "e-mail address": {
     "n": {
@@ -21238,7 +21262,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eagerness": {
     "n": {
@@ -21290,7 +21314,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eaght": {
     "a": {
@@ -21516,7 +21540,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eahaft": {
     "a": {
@@ -21729,7 +21753,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ear": {
     "n": {
@@ -22020,6 +22044,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "earable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ayreable, erable, erybyll; equivalent to ear (“to plough”) + -able, on the model of arable.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "earache": {
@@ -22079,7 +22111,7 @@
       "origin": "ear + bone",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earbud": {
     "n": {
@@ -22097,7 +22129,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earcuff": {
     "n": {
@@ -22391,7 +22423,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eargathering": {
     "n": {
@@ -22415,6 +22447,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "earhole": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ere hol, herehole, equivalent to ear + hole.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -22727,7 +22767,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earliest": {
     "a": {
@@ -22818,7 +22858,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earliness": {
     "n": {
@@ -23057,7 +23097,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "early childhood": {
     "n": {
@@ -23069,7 +23109,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "early coral root": {
     "n": {
@@ -23092,7 +23132,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "early morel": {
     "n": {
@@ -23103,7 +23143,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "early on": {
     "r": {
@@ -23116,7 +23156,7 @@
       "origin": "Of British origin.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "early purple orchid": {
     "n": {
@@ -23150,7 +23190,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "early warning radar": {
     "n": {
@@ -23318,7 +23358,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earming": {
     "n": {
@@ -23393,7 +23433,7 @@
       "origin": "A variant of yearn.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earned": {
     "a": {
@@ -23553,7 +23593,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earnest money": {
     "n": {
@@ -23566,6 +23606,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "earnestful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ernestful. By surface analysis, earnest + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "earnestly": {
     "r": {
@@ -23669,7 +23717,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earning per share": {
     "n": {
@@ -23700,7 +23748,7 @@
       "origin": "earning + -s",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earnings report": {
     "n": {
@@ -23877,7 +23925,7 @@
       "origin": "ear + set; compare headset.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earsh": {
     "n": {
@@ -23960,7 +24008,7 @@
       "origin": "ear + shrift",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earspeaker": {
     "n": {
@@ -23986,6 +24034,14 @@
     },
     "isAnglish": false
   },
+  "earspoon": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English herespon; equivalent to ear + spoon.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "earstirrup": {
     "n": {
       "senses": [
@@ -24003,7 +24059,7 @@
       "origin": "ear + stone",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earstreen": {
     "n": {
@@ -24287,7 +24343,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "earth mother": {
     "n": {
@@ -24299,7 +24355,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earth science": {
     "n": {
@@ -24348,7 +24404,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earth wax": {
     "n": {
@@ -24447,7 +24503,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "earth-home": {
     "n": {
@@ -24469,7 +24525,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earth-tilth": {
     "n": {
@@ -24503,7 +24559,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthapple": {
     "n": {
@@ -24518,7 +24574,7 @@
       "origin": "From earth + apple, modelled after German Erdapfel or Dutch aardappel; compare French pomme de terre.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthball": {
     "n": {
@@ -24549,7 +24605,7 @@
       "origin": "From earth + berry. First attested in the 1800s, mostly in texts about or translated from German or other languages which use similar terms, of which it is likely a calque: German Erdbeere, Danish jordbær, etc. Compare Old English eorþberġe (“strawberry”, literally “earthberry”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthbiving": {
     "n": {
@@ -24584,7 +24640,7 @@
       "origin": "earth + born",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthbound": {
     "a": {
@@ -24601,7 +24657,7 @@
       "origin": "earth + -bound",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthcare": {
     "n": {
@@ -24758,7 +24814,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthenware jar": {
     "n": {
@@ -24777,7 +24833,7 @@
       "origin": "earth + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthern": {
     "n": {
@@ -24825,7 +24881,7 @@
       "origin": "earth + flax",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthfrod": {
     "n": {
@@ -24862,6 +24918,14 @@
       "origin": "From earth + hog.",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "earthhole": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English eorthehole; equivalent to earth + hole. Akin to Scots ert hyle (“earthhole, pit”).",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "earthhorn": {
@@ -24889,6 +24953,18 @@
         }
       ],
       "origin": "earth + house",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "earthiness": {
+    "n": {
+      "senses": [
+        {
+          "synset": "04824511-n"
+        }
+      ],
+      "origin": "From Middle English erthinesse, erthynesse, eorþynesse, equivalent to earthy + -ness.",
       "sounds": []
     },
     "isAnglish": true
@@ -24951,6 +25027,14 @@
     },
     "isAnglish": true
   },
+  "earthless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ertheles, erþeles, equivalent to earth + -less. Cognate with West Frisian ierdleaze, German erdlos.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "earthlike": {
     "a": {
       "senses": [
@@ -24966,7 +25050,7 @@
       "origin": "From earth + -like.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthline": {
     "n": {
@@ -25022,7 +25106,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthlore": {
     "n": {
@@ -25034,7 +25118,7 @@
       "origin": "From earth + lore.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthly": {
     "a": {
@@ -25103,7 +25187,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthnavel": {
     "n": {
@@ -25159,7 +25243,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthpear": {
     "n": {
@@ -25188,7 +25272,7 @@
       "origin": "From earth + pig.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthquake": {
     "n": {
@@ -25240,7 +25324,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "earthscorch": {
     "n": {
@@ -25286,7 +25370,7 @@
       "origin": "earth + shattering",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthstar": {
     "n": {
@@ -25370,6 +25454,19 @@
     },
     "isAnglish": false
   },
+  "earthward": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English erthewarde, erþewarde, equivalent to earth + -ward.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English erthewarde, erþewarde, equivalent to earth + -ward.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "earthwards": {
     "n": {
       "senses": [
@@ -25412,7 +25509,7 @@
       "origin": "earth + wax",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthweal": {
     "n": {
@@ -25442,7 +25539,7 @@
       "origin": "Calque of Afrikaans aardwolf, equivalent to earth + wolf.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "earthwork": {
     "n": {
@@ -25501,7 +25598,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "earthy": {
     "a": {
@@ -25656,7 +25753,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ease": {
     "n": {
@@ -25845,7 +25942,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ease off": {
     "v": {
@@ -25870,7 +25967,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ease up": {
     "v": {
@@ -25906,7 +26003,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eased": {
     "a": {
@@ -25965,7 +26062,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "easement": {
     "n": {
@@ -26036,7 +26133,7 @@
       "origin": "From ease + -en (verbal suffix).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "easily": {
     "r": {
@@ -26094,7 +26191,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "easiness": {
     "n": {
@@ -26347,7 +26444,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "east by south": {
     "n": {
@@ -26359,7 +26456,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "east northeast": {
     "n": {
@@ -26387,7 +26484,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "east southeast": {
     "n": {
@@ -26900,7 +26997,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eastern indigo snake": {
     "n": {
@@ -27023,7 +27120,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eastern woodrat": {
     "n": {
@@ -27804,7 +27901,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eat in": {
     "v": {
@@ -27828,7 +27925,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eat into": {
     "v": {
@@ -27846,7 +27943,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eat on": {
     "v": {
@@ -27906,7 +28003,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eat up": {
     "v": {
@@ -27957,7 +28054,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eatable": {
     "a": {
@@ -28469,7 +28566,7 @@
       "origin": "From eath + -y.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eating": {
     "n": {
@@ -28533,7 +28630,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eating away": {
     "n": {
@@ -28643,7 +28740,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eats": {
     "n": {
@@ -28774,7 +28871,7 @@
       "origin": "From eat + -worthy.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eau": {
     "n": {
@@ -28987,7 +29084,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eavesdrop": {
     "v": {
@@ -29055,7 +29152,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eavesdropper": {
     "n": {
@@ -29099,7 +29196,7 @@
       "origin": "1813 eaves-trough, 1817 eave trough, 1870 eavestrough, from eaves + trough.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eawishberrend": {
     "n": {
@@ -29307,7 +29404,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ebbing": {
     "n": {
@@ -29357,7 +29454,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ebbtide": {
     "n": {
@@ -30065,6 +30162,19 @@
       ]
     },
     "isAnglish": false
+  },
+  "ecchi": {
+    "a": {
+      "senses": [],
+      "origin": "From Japanese エッチ (etchi, “dirty; perverted”), which is derived from English aitch (“name of the letter ⟨H⟩”), which is an initialism of the romaji of Japanese 変態(へんたい) (hentai, “pervert”).\nエッチ (etchi) is not a genre in Japanese; this is a development in English.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Japanese エッチ (etchi, “dirty; perverted”), which is derived from English aitch (“name of the letter ⟨H⟩”), which is an initialism of the romaji of Japanese 変態(へんたい) (hentai, “pervert”).\nエッチ (etchi) is not a genre in Japanese; this is a development in English.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "ecchymosis": {
     "n": {
@@ -31277,7 +31387,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "echtly": {
     "r": {
@@ -34162,7 +34272,7 @@
       "origin": "Variant of adder.",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "v": {
       "senses": [
         {
@@ -34370,7 +34480,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "edeche": {
     "v": {
@@ -34795,7 +34905,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "edge of sight": {
     "n": {
@@ -34838,7 +34948,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "edged": {
     "a": {
@@ -34925,7 +35035,7 @@
       "origin": "edge + stone",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "edgeways": {
     "r": {
@@ -34998,7 +35108,7 @@
       "origin": "edgy + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "edging": {
     "n": {
@@ -35088,7 +35198,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "edheal": {
     "a": {
@@ -37915,6 +38025,14 @@
     },
     "isAnglish": false
   },
+  "eelbuck": {
+    "n": {
+      "senses": [],
+      "origin": "From eel + buck (“trap”), from Middle English bouk (“fishtrap”), from Old English būc (“belly, container”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "eelgrass": {
     "n": {
       "senses": [
@@ -37930,7 +38048,7 @@
       "origin": "From eel + grass.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eelgrass family": {
     "n": {
@@ -38577,7 +38695,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "effected": {
     "a": {
@@ -40877,7 +40995,7 @@
       "origin": "From eft (“again, after”) + soon + -s (“adverb suffix”) – both senses (“soon after”, “again”) derive from senses of eft, which is related to after.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eftspelling": {
     "n": {
@@ -41089,7 +41207,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eges-grime": {
     "n": {
@@ -41270,7 +41388,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "egg cell": {
     "n": {
@@ -41292,7 +41410,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg cracker": {
     "n": {
@@ -41328,7 +41446,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg en cocotte": {
     "n": {
@@ -41404,7 +41522,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg noodle": {
     "n": {
@@ -41416,7 +41534,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg on": {
     "v": {
@@ -41468,7 +41586,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg white": {
     "n": {
@@ -41516,7 +41634,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg-and-dart": {
     "n": {
@@ -41527,7 +41645,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "egg-and-tongue": {
     "n": {
@@ -41585,7 +41703,7 @@
       "origin": "egg + shaped",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egg-shell speak": {
     "n": {
@@ -41658,7 +41776,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eggcup": {
     "n": {
@@ -41750,7 +41868,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "egging": {
     "n": {
@@ -41783,7 +41901,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eggladder": {
     "n": {
@@ -41806,7 +41924,7 @@
       "origin": "From egg + -ling.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eggnog": {
     "n": {
@@ -41860,7 +41978,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eggplant": {
     "n": {
@@ -42017,6 +42135,14 @@
     },
     "isAnglish": true
   },
+  "eggshellful": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English egschelfull, egge schellefull, egge schelle ful, equivalent to eggshell + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "eggstock": {
     "n": {
       "senses": [
@@ -42050,6 +42176,14 @@
           "synset": "14752903-n"
         }
       ],
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "eggyolk": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English egyolk, equivalent to egg + yolk.",
       "sounds": []
     },
     "isAnglish": true
@@ -42727,6 +42861,14 @@
     },
     "isAnglish": false
   },
+  "eid": {
+    "n": {
+      "senses": [],
+      "origin": "From English dialectal eid, from Old Norse eið (“an isthmus, neck of land”), from Proto-Germanic *aidiją (“isthmus, strait”), of uncertain origin, but probably from Proto-Indo-European *h₁ey- (“to go”). Cognate with Icelandic eið, eiði, Faroese eið, eiði (“isthmus”), Norwegian eid (“isthmus”), Swedish ed. Compare Latin eō (“go, proceed”, verb).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "eider": {
     "n": {
       "pronunciation": [
@@ -42773,7 +42915,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eider duck": {
     "n": {
@@ -42802,7 +42944,7 @@
       "origin": "eider + down",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eidetic": {
     "a": {
@@ -42984,7 +43126,7 @@
       "origin": "See ait.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eight ball": {
     "n": {
@@ -42996,7 +43138,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eight-day": {
     "a": {
@@ -43345,7 +43487,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eighties": {
     "n": {
@@ -43428,7 +43570,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eightpence": {
     "n": {
@@ -43504,7 +43646,7 @@
       "origin": "eight + -some",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eighttoken": {
     "n": {
@@ -43576,7 +43718,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eighty-five": {
     "a": {
@@ -43964,7 +44106,7 @@
       "origin": "From either + handed.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ejaculate": {
     "n": {
@@ -44687,7 +44829,7 @@
       "origin": "From obsolete eke (“to add to, augment; to increase”) + out.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ekely": {
     "r": {
@@ -46019,7 +46161,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elbow fat": {
     "n": {
@@ -46100,7 +46242,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elbowbour": {
     "n": {
@@ -46234,7 +46376,7 @@
       "origin": "From eld + -en (“to become”). Compare Middle English elden, ealdien (“to age, grow older”). More at eld.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elder": {
     "a": {
@@ -46454,13 +46596,21 @@
     },
     "isAnglish": true
   },
+  "elderfather": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English eldrefader, aldurfadur, equivalent to elder + father.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "elderhood": {
     "n": {
       "senses": [],
       "origin": "From elder + -hood.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elderless": {
     "a": {
@@ -46500,7 +46650,7 @@
       "origin": "elderly + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elderlore": {
     "n": {
@@ -46601,7 +46751,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eldermark": {
     "n": {
@@ -46810,6 +46960,21 @@
     "n": {
       "senses": [],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "elding": {
+    "n": {
+      "senses": [
+        {
+          "synset": "14881648-n"
+        },
+        {
+          "synset": "06624351-n"
+        }
+      ],
+      "origin": "From Middle English elding, eyldyng, of North Germanic origin, akin to Icelandic elding (“fuel”), Danish ild (“fire”). More at anneal.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -53448,7 +53613,7 @@
       "origin": "eleven + -fold",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eleventh": {
     "a": {
@@ -53582,7 +53747,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eleventy": {
     "x": {
@@ -53657,7 +53822,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elf cup": {
     "n": {
@@ -53668,7 +53833,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elf ears": {
     "n": {
@@ -53754,7 +53919,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elfish": {
     "a": {
@@ -53782,7 +53947,7 @@
       "origin": "From elf + -kin.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elflike": {
     "a": {
@@ -53802,7 +53967,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elfsheen": {
     "a": {
@@ -54734,7 +54899,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elk nut": {
     "n": {
@@ -54836,7 +55001,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ell-wand": {
     "n": {
@@ -55664,6 +55829,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "elmen": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English elmen, elmyn, equivalent to elm + -en (“made or consisting of”).",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "elmwood": {
@@ -56165,7 +56338,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "elopement": {
     "n": {
@@ -56281,7 +56454,7 @@
       "origin": "From Middle English eloquently, eloquentely, equivalent to eloquent + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "elp": {
     "n": {
@@ -56450,6 +56623,14 @@
     },
     "isAnglish": true
   },
+  "elsen": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English elsen, elsyn, alsene (“an awl or some other pointed instrument or tool”), either from Middle Dutch elsene, alsene, from Old Dutch *elisna, *alasna, from Proto-West Germanic *alisnu, *alasnu, from Proto-Germanic *alasnō, or from an unrecorded Old English form.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "elsewhat": {
     "x": {
       "senses": [],
@@ -56535,7 +56716,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elsewhere": {
     "r": {
@@ -56613,7 +56794,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "elsholtzia": {
     "n": {
@@ -56625,6 +56806,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "elsin": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English aslen, elsen (“an awl or some other pointed instrument or tool”), either from Middle Dutch elsene, alsene, from Old High German alansa, from Proto-Germanic *alasnō, or from an unrecorded Old English form.",
+      "sounds": [
+        {
+          "ipa": "/ˈɛlzɪn/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "elster": {
     "n": {
@@ -56640,6 +56833,18 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "elt": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English elten (“to mold, to knead, to work”), a borrowing from Old Norse elta (“to chase, hunt, knead”), from Proto-Germanic *alatjaną (“to drive, force, move”), from Proto-Indo-European *h₁elh₂- (“to drive, move, go”). Cognate with Danish ælte (“to knead”), Swedish älta (“to dwell upon, brood, stir, knead”), Norwegian elte (“to knead”), Norwegian elta (“to pursue, plod”), Icelandic elta (“to chase”).",
+      "sounds": [
+        {
+          "rhymes": "-ɛlt"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -57175,7 +57380,32 @@
         }
       ]
     },
-    "isAnglish": true
+    "a": {
+      "senses": [],
+      "origin": "From the attributive use of Middle English elven (“elf or fairy of either sex”) (see etymology 1), like English elfin, reinterpreted as elf + -en (suffix with the sense ‘pertaining to; having the qualities of; resembling’ forming adjectives). The word first appears in the English author and philologist J. R. R. Tolkien’s works The Hobbit (1937) and The Lord of the Rings (1954–1955): see the quotations.",
+      "sounds": [
+        {
+          "ipa": "/ˈɛlv(ə)n/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɛlvən"
+        },
+        {
+          "audio": "En-us-elven.ogg",
+          "text": "Audio (GA)",
+          "tags": [
+            "General-American"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/En-us-elven.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/En-us-elven.ogg/En-us-elven.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "elver": {
     "n": {
@@ -57210,7 +57440,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "elves": {
     "n": {
@@ -59286,7 +59516,7 @@
       "origin": "ember + -like",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "emberwood": {
     "n": {
@@ -59668,6 +59898,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "emblemish": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English emblemyshen; compare blemish.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "embodied": {
     "a": {
@@ -60567,7 +60805,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "embroiderer": {
     "n": {
@@ -62825,7 +63063,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "emmet": {
     "n": {
@@ -65515,7 +65753,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "emptiness bereft": {
     "n": {
@@ -65820,7 +66058,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "empty talk": {
     "n": {
@@ -66563,7 +66801,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "en bloc": {
     "r": {
@@ -66602,7 +66840,7 @@
       "origin": "Named for its width, which is equal to the width of the letter n or N, or approximately half the width of an em dash.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "en deshabille": {
     "a": {
@@ -66893,7 +67131,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "enabling": {
     "a": {
@@ -67177,7 +67415,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "enamelware": {
     "n": {
@@ -67502,6 +67740,23 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "enaunter": {
+    "c": {
+      "senses": [],
+      "origin": "Middle English enaunter, from in, en (“in”) aunter (“adventure”).",
+      "sounds": [
+        {
+          "ipa": "/ɪnˈɔːntə/",
+          "note": "non-rhotic"
+        },
+        {
+          "ipa": "/ɪnˈɔːntɚ/",
+          "note": "rhotic"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "enbee": {
     "v": {
@@ -68030,6 +68285,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "enchafe": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English enchaufen, a modification of achaufen after the prefix en-.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "enchain": {
     "v": {
@@ -68598,6 +68861,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "encharm": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English encharmen, equivalent to en- + charm.",
+      "sounds": [
+        {
+          "rhymes": "-ɑː(ɹ)m"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "enchilada": {
     "n": {
@@ -69422,7 +69697,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "encompassing": {
     "a": {
@@ -70478,6 +70753,14 @@
     },
     "isAnglish": false
   },
+  "encumberer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English encombrer, equivalent to encumber + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "encumbrance": {
     "n": {
       "senses": [
@@ -70508,6 +70791,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "encurse": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *encursen (suggested by encursing), equivalent to en- + curse.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "encyclical": {
     "a": {
@@ -71172,7 +71463,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end man": {
     "n": {
@@ -71225,7 +71516,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end on": {
     "r": {
@@ -71237,7 +71528,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end organ": {
     "n": {
@@ -71249,7 +71540,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end point": {
     "n": {
@@ -71289,7 +71580,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end tale": {
     "n": {
@@ -71314,7 +71605,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end up": {
     "v": {
@@ -71339,7 +71630,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "end user": {
     "n": {
@@ -71810,7 +72101,7 @@
       "origin": "end + brain",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "endear": {
     "v": {
@@ -72441,6 +72732,30 @@
     },
     "isAnglish": false
   },
+  "ender": {
+    "n": {
+      "senses": [],
+      "origin": "From end (noun) + -er (relational noun suffix).",
+      "sounds": [
+        {
+          "ipa": "/ˈɛndə(ɹ)/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈɛndɚ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɛndə(ɹ)"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "endergonic": {
     "a": {
       "senses": [
@@ -72499,6 +72814,14 @@
     },
     "isAnglish": true
   },
+  "endful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *endful (suggested by the Middle English adverb endfully), equivalent to end + -ful.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "endgame": {
     "n": {
       "senses": [
@@ -72521,7 +72844,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "endily": {
     "r": {
@@ -72864,7 +73187,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "endmost": {
     "a": {
@@ -72890,7 +73213,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "endmost deadly": {
     "a": {
@@ -74573,6 +74896,18 @@
     },
     "isAnglish": false
   },
+  "endowable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English endowable; equivalent to endow + -able.",
+      "sounds": [
+        {
+          "ipa": "/ɪnˈdaʊ̯əbl̩/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "endowed": {
     "a": {
       "pronunciation": [
@@ -74693,7 +75028,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "endowment fund": {
     "n": {
@@ -74843,7 +75178,7 @@
       "origin": "From end + say.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "endspeech": {
     "n": {
@@ -74858,7 +75193,7 @@
       "origin": "From end + speech.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "endstop": {
     "n": {
@@ -76033,6 +76368,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "enfamish": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English (verb forms) enfamecht, enfamyched, enfamyschist, enfamyscht, probably from Anglo-Norman; compare Old French afamer, enfaminer.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "enfant terrible": {
     "n": {
@@ -77612,7 +77955,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "englut": {
     "v": {
@@ -79093,7 +79436,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "enkindled": {
     "a": {
@@ -79114,6 +79457,14 @@
         }
       ],
       "origin": "enkindle + -er",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "enknit": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English inknitten, equivalent to en- + knit.",
       "sounds": []
     },
     "isAnglish": true
@@ -79355,6 +79706,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "enlargen": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English enlargen; more at enlarge.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "enlarger": {
     "n": {
@@ -80609,7 +80968,7 @@
       "origin": "From enough + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "enounce": {
     "v": {
@@ -80670,7 +81029,19 @@
       "origin": "Contraction of even now.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "x": {
+      "senses": [],
+      "origin": "From Middle English ynowe, strong plural and weak form of ynogh (“enough”); see enough for more.",
+      "sounds": [
+        {
+          "ipa": "/ɪˈnaʊ/"
+        },
+        {
+          "ipa": "/əˈnaʊ/"
+        }
+      ]
+    }
   },
   "enplane": {
     "v": {
@@ -81163,7 +81534,7 @@
       "origin": "en- + ring",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "enrobe": {
     "v": {
@@ -81405,42 +81776,6 @@
     },
     "isAnglish": false
   },
-  "enseal": {
-    "v": {
-      "senses": [
-        {
-          "synset": "01356108-v"
-        },
-        {
-          "synset": "01359285-v"
-        },
-        {
-          "synset": "01276378-v"
-        },
-        {
-          "synset": "01534530-v"
-        },
-        {
-          "synset": "02449527-v"
-        },
-        {
-          "synset": "02459338-v"
-        },
-        {
-          "synset": "02562643-v"
-        },
-        {
-          "synset": "00999839-v"
-        },
-        {
-          "synset": "00666194-v"
-        }
-      ],
-      "origin": "From Middle English enselen, inselen, inseilen, from Old English inseġlian (“to place a seal on”), from Proto-West Germanic *insigilōn (compare Old High German insigilōn, insigilen, Old Norse innsigla (“to seal”)), from Latin insigilāre; merged with and reinforced by Old French enseeler, from the same Latin source. Equivalent to en- + seal.",
-      "sounds": []
-    },
-    "isAnglish": true
-  },
   "ensemble": {
     "n": {
       "pronunciation": [
@@ -81529,7 +81864,7 @@
       "origin": "en- + shield",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "enshrine": {
     "v": {
@@ -81907,7 +82242,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ensnarl": {
     "v": {
@@ -82317,7 +82652,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "entailment": {
     "n": {
@@ -82434,7 +82769,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "entangled": {
     "a": {
@@ -84640,7 +84975,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "entireness": {
     "n": {
@@ -87152,6 +87487,19 @@
       ]
     },
     "isAnglish": false
+  },
+  "envenoming": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English envenymynge; equivalent to envenom + -ing.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English envenymynge; equivalent to envenom + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "enviable": {
     "a": {
@@ -92661,7 +93009,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "epistolary": {
     "a": {
@@ -96646,7 +96994,7 @@
       ],
       "origin": "ME, erre"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "era": {
     "n": {
@@ -97200,7 +97548,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "erd-folk": {
     "n": {
@@ -97550,7 +97898,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -97698,7 +98046,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "erect bugle": {
     "n": {
@@ -97971,7 +98319,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eremite": {
     "n": {
@@ -98120,7 +98468,7 @@
       "origin": "ere + now",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "erer": {
     "r": {
@@ -98231,7 +98579,7 @@
       "origin": "From ere + while.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "erewritlore": {
     "n": {
@@ -98290,7 +98638,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "erf": {
     "n": {
@@ -98344,7 +98692,7 @@
       ],
       "origin": "OE&OE, irfa&irfan"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "erfbeech": {
     "n": {
@@ -98380,6 +98728,14 @@
         }
       ],
       "origin": "OE, irfegedāl"
+    },
+    "isAnglish": true
+  },
+  "erfkin": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English erfkin, equivalent to erf + kin.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -99038,6 +99394,22 @@
     },
     "isAnglish": true
   },
+  "erme": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English, from ermen, from Old English yrman. See yearn.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ermelin": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from German Hermelin (“ermine”), from Middle High German hermelin, from Old High German harmilī, harmilīn (“weasel”), diminutive of Old High German harmo (“ermine, stoat, weasel”), from Proto-Germanic *harmô (“weasel”). Cognate with Italian ermellino (“ermine”), from the same Germanic source. More at ermine.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ermen": {
     "a": {
       "senses": [
@@ -99157,7 +99529,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ern-folk": {
     "n": {
@@ -99231,6 +99603,14 @@
         }
       ],
       "origin": "<OE ierning"
+    },
+    "isAnglish": true
+  },
+  "ero-guro": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese エログロ, ultimately from the English words erotic and grotesque.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -99331,6 +99711,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "eroge": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese エロゲー (erogē), short form of エローチックゲーム (erōchikku gēmu), from English erotic game.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "erogenous": {
     "a": {
@@ -99944,7 +100332,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "errand men": {
     "n": {
@@ -100142,6 +100530,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "errantry": {
+    "n": {
+      "senses": [],
+      "origin": "Composed of errant + -ry, from Middle English erraunt. See further etymology at errant.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "erratic": {
     "a": {
@@ -100863,6 +101259,18 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "ert": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English erten, ertin, from Old Norse erta (“to provoke, incite, tease”), from Proto-Germanic *artijaną (“to excite, tease”), from Proto-Indo-European *h₂erdi-, *h₂erd- (“sharp point, stinger”). Cognate with Icelandic erta (“to irritate”), Norwegian erta (“to taunt”), Swedish ärta (“to tease, jibe”), Old Irish aird (“point, ord, end point”), Ancient Greek ἄρδις (árdis, “arrowhead”).",
+      "sounds": [
+        {
+          "rhymes": "-ɜː(ɹ)t"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "eruct": {
@@ -101310,7 +101718,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "erverich": {
     "n": {
@@ -102887,7 +103295,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "escarpment": {
     "n": {
@@ -103169,6 +103577,14 @@
     },
     "isAnglish": false
   },
+  "escheator": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English eschetour, itself borrowed from Anglo-Norman eschetour; equivalent to escheat + -or.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "escherichia": {
     "n": {
       "senses": [
@@ -103270,7 +103686,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "escolar": {
     "n": {
@@ -103666,6 +104082,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "esne": {
+    "n": {
+      "senses": [],
+      "origin": "Learned borrowing from Old English esne, from Proto-West Germanic *asnī, from Proto-Germanic *asnijaz (“day labourer, hireling”), from Proto-Germanic *asniz, *asunz (“reward”), from Proto-Indo-European *os(e)n-, *es(e)n- (“summer, harvest, harvest-time”). Related to Old English earnian (“to labor for, strive after, deserve as the reward of labor, merit, earn, win”). More at earn.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "esophageal": {
     "a": {
@@ -104200,7 +104624,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "espionage": {
     "n": {
@@ -104938,7 +105362,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "essence": {
     "n": {
@@ -105723,7 +106147,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "esteem": {
     "n": {
@@ -106599,7 +107023,7 @@
       "origin": "From Middle English *estoppel (found only as stoppel, stoppell, stopple, etc.), probably from Old French estoupail, estopail, estopaille, a bung made of oakum (étoupe), from Latin stuppa (\"flax, tow\"), from Ancient Greek στύππη (stuppē).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "estradiol": {
     "n": {
@@ -107486,7 +107910,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "etched": {
     "a": {
@@ -107502,7 +107926,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "etcher": {
     "n": {
@@ -107802,7 +108226,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eternise": {
     "v": {
@@ -108174,7 +108598,7 @@
       ],
       "origin": "ME, ēthien[ēþian]"
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -108239,7 +108663,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ethelborn": {
     "a": {
@@ -110490,7 +110914,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ettling": {
     "n": {
@@ -110508,7 +110932,12 @@
       "origin": "Equivalent to ettle (“to earn”) + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "v": {
+      "senses": [],
+      "origin": "From Middle English etlyng, atlyng, equivalent to ettle + -ing.",
+      "sounds": []
+    }
   },
   "ettling howe": {
     "n": {
@@ -114396,7 +114825,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "even so": {
     "r": {
@@ -114408,7 +114837,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "even spacing": {
     "n": {
@@ -114444,7 +114873,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "even-bishop": {
     "n": {
@@ -114485,6 +114914,14 @@
     },
     "isAnglish": false
   },
+  "even-servant": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English, equivalent to even- + servant.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "even-tempered": {
     "a": {
       "senses": [
@@ -114495,7 +114932,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "even-textured": {
     "a": {
@@ -114719,7 +115156,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenfall": {
     "n": {
@@ -114732,7 +115169,7 @@
       "origin": "From even (“evening”) + fall. Compare nightfall.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenfar": {
     "a": {
@@ -114770,7 +115207,7 @@
       "origin": "even + handed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenhandedly": {
     "r": {
@@ -114804,7 +115241,7 @@
       "origin": "evenhanded + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenhearted": {
     "a": {
@@ -115046,7 +115483,7 @@
       "origin": "From evening + star. Cf. Old English ǣfensteorra.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evening trumpet flower": {
     "n": {
@@ -115080,7 +115517,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenings": {
     "n": {
@@ -115096,7 +115533,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eveningwear": {
     "n": {
@@ -115305,7 +115742,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenmindedness": {
     "n": {
@@ -115316,7 +115753,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evenmood": {
     "n": {
@@ -115442,7 +115879,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evensorrow": {
     "n": {
@@ -116064,7 +116501,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ever-abidibg": {
     "n": {
@@ -116265,7 +116702,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evergreen beech": {
     "n": {
@@ -116287,7 +116724,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "evergreen blueberry": {
     "n": {
@@ -116309,7 +116746,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evergreen grass": {
     "n": {
@@ -116365,7 +116802,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evergreen plant": {
     "n": {
@@ -116379,7 +116816,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evergreen thorn": {
     "n": {
@@ -116417,7 +116854,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "everlasting": {
     "a": {
@@ -116547,7 +116984,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "everlastingly": {
     "r": {
@@ -116563,7 +117000,7 @@
       "origin": "everlasting + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "everlastingness": {
     "n": {
@@ -116579,7 +117016,7 @@
       "origin": "From everlasting + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "everless": {
     "a": {
@@ -116619,7 +117056,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evermore": {
     "r": {
@@ -116703,7 +117140,7 @@
       "origin": "ever + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eversion": {
     "n": {
@@ -116890,6 +117327,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "every day": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English every day.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "every inch": {
@@ -116912,7 +117357,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "every last": {
     "a": {
@@ -116935,7 +117380,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "every night": {
     "r": {
@@ -116980,7 +117425,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "every week": {
     "r": {
@@ -117017,7 +117462,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "every year": {
     "r": {
@@ -117104,7 +117549,7 @@
       "origin": "From everyday + -ness. Compare the similarly-formed German Alltäglichkeit (alltäglich + -keit).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "everyear": {
     "n": {
@@ -117133,6 +117578,27 @@
       ],
       "origin": "Perhaps from the Flemish play Elckerlijc (c. 1495) or its English translation Everyman (c. 1520)",
       "sounds": []
+    },
+    "isAnglish": false
+  },
+  "everyone": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English everichon, equivalent to every + one.",
+      "sounds": [
+        {
+          "ipa": "/ˈɛv.ɹi.wʌn/"
+        },
+        {
+          "audio": "en-us-everyone.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/En-us-everyone.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/En-us-everyone.ogg/En-us-everyone.ogg.mp3"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -117167,7 +117633,7 @@
       "origin": "every + whence, on the pattern of everywhere, and similar.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "everywhere": {
     "r": {
@@ -117224,7 +117690,7 @@
       "origin": "everywhere + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evest": {
     "n": {
@@ -117681,7 +118147,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "evil": {
     "a": {
@@ -117889,7 +118355,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "evil-looking": {
     "a": {
@@ -117913,6 +118379,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "evil-speaking": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *ivel-spekynge (suggested by Middle English yvelspeker, yvel speker, ivel spekare (“evil-speaker”)), equivalent to evil (noun) + speaking (noun).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "evilcund": {
     "a": {
@@ -118972,6 +119446,14 @@
     },
     "isAnglish": true
   },
+  "ewe lamb": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ewe lambren pl.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ewer": {
     "n": {
       "pronunciation": [
@@ -119857,7 +120339,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "exacta": {
     "n": {
@@ -124090,7 +124572,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "exclusiveness": {
     "n": {
@@ -130357,7 +130839,7 @@
       "origin": "From Middle English exonerated, equivalent to exonerate + -ed.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "exoneration": {
     "n": {
@@ -137623,7 +138105,7 @@
       "origin": "From Middle English expounder, expounere, expowner, expownere; equivalent to expound + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "expounding": {
     "n": {
@@ -145694,7 +146176,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eye bank": {
     "n": {
@@ -145706,7 +146188,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eye blink": {
     "n": {
@@ -145823,7 +146305,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eye dialect": {
     "n": {
@@ -146033,7 +146515,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eye-apple": {
     "n": {
@@ -146104,7 +146586,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eye-deceiving": {
     "a": {
@@ -146131,7 +146613,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eye-gripping": {
     "a": {
@@ -146195,6 +146677,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "eye-pit": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English eye-put, heyeput, eȝe-put, equivalent to eye + pit.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -146379,7 +146869,7 @@
       "origin": "From eye + blink. Cognate with Afrikaans oomblik, Dutch ogenblik, German Augenblick, German Low German Ogenblick.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyeblinkly": {
     "r": {
@@ -146455,6 +146945,14 @@
     },
     "isAnglish": false
   },
+  "eyecatch": {
+    "n": {
+      "senses": [],
+      "origin": "Calque of Japanese アイキャッチ (aikyatchi), itself from English eye + catch.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "eyecup": {
     "n": {
       "senses": [
@@ -146510,7 +147008,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyedness": {
     "n": {
@@ -146583,7 +147081,7 @@
       "origin": "eye + -ful",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyeglass": {
     "n": {
@@ -146618,7 +147116,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyeglass wearer": {
     "n": {
@@ -146629,7 +147127,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyeglasses": {
     "n": {
@@ -146744,7 +147242,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyelessness": {
     "n": {
@@ -146856,7 +147354,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyelid darkener": {
     "n": {
@@ -146929,7 +147427,7 @@
       "origin": "From the adjective (see above), equivalent to eye + -ly.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyemarker": {
     "n": {
@@ -147003,7 +147501,7 @@
       "origin": "eye + ring",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyes": {
     "n": {
@@ -147142,7 +147640,7 @@
       "origin": "eye + shine",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyeshinely": {
     "a": {
@@ -147180,7 +147678,7 @@
       "origin": "eye + shot, on the pattern of earshot.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyesight": {
     "n": {
@@ -147215,7 +147713,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyesome": {
     "a": {
@@ -147249,7 +147747,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyesore": {
     "n": {
@@ -147303,7 +147801,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyespot": {
     "n": {
@@ -147414,7 +147912,7 @@
       "origin": "From eye + tooth, so called because of their position directly below the eyes.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyewash": {
     "n": {
@@ -147452,7 +147950,7 @@
       "origin": "eye + water",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "eyewitness": {
     "n": {

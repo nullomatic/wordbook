@@ -51,14 +51,13 @@ export class WiktionaryLoader {
     const handler = async (line) => {
       const json = JSON.parse(line);
       const word = json.word;
+      const pos = this.formatPartOfSpeech(word, json.pos);
+      if (!pos || this.anglish[word]?.[pos]) {
+        return;
+      }
       const isAnglish = this.checkIfAnglish(json.etymology_templates);
-      console.log(`"${word}" is Anglish: ${isAnglish}`);
       if (isAnglish) {
         if (!util.WORD_REGEXP.test(word)) {
-          return;
-        }
-        const pos = await this.formatPartOfSpeech(word, json.pos);
-        if (!pos) {
           return;
         }
 
@@ -162,7 +161,7 @@ export class WiktionaryLoader {
     }
   }
 
-  async formatPartOfSpeech(word, _pos) {
+  formatPartOfSpeech(word, _pos) {
     switch (_pos.toLowerCase()) {
       case 'noun':
         return 'n'; // noun

@@ -744,7 +744,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Kaiser Bill": {
     "n": {
@@ -1428,6 +1428,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "Kanak": {
+    "n": {
+      "senses": [],
+      "origin": "First attested in 1910, borrowed from French canaque, from English kanaka (“Pacific islander”), from Hawaiian kanaka (“person”).",
+      "sounds": [
+        {
+          "ipa": "/kəˈnæk/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Kananga": {
     "n": {
@@ -4307,6 +4319,24 @@
     },
     "isAnglish": false
   },
+  "Kensington": {
+    "n": {
+      "senses": [],
+      "origin": "From the Old English personal name Cynesige + -ing- + -ton (“Estate associated with Cynesige”).\nThe town in Prince Edward Island is named after the borough in London.",
+      "sounds": [
+        {
+          "ipa": "/kɛn.zɪŋ.tən/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɛnzɪŋtən"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Kent": {
     "n": {
       "senses": [
@@ -4802,6 +4832,30 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "Kerry": {
+    "n": {
+      "senses": [],
+      "origin": "* As an English surname, from a personal name derived from Old Norse Kári.\n* As an Irish surname, from Ó Ciardha (“descendant of Ciardha”), from ciar (“black”).",
+      "sounds": [
+        {
+          "ipa": "/ˈkɛɹi/"
+        },
+        {
+          "rhymes": "-ɛɹi"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-Kerry.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/LL-Q1860_%28eng%29-Vealhurl-Kerry.wav/LL-Q1860_%28eng%29-Vealhurl-Kerry.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/LL-Q1860_%28eng%29-Vealhurl-Kerry.wav/LL-Q1860_%28eng%29-Vealhurl-Kerry.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Kerry blue terrier": {
     "n": {
@@ -11294,7 +11348,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kaiser roll": {
     "n": {
@@ -11458,7 +11512,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kaleidoscope": {
     "n": {
@@ -12638,6 +12692,14 @@
     },
     "isAnglish": false
   },
+  "karsk": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Norwegian karsk, from Old Norse karskr.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "karyokinesis": {
     "n": {
       "senses": [
@@ -12820,6 +12882,30 @@
       ]
     },
     "isAnglish": false
+  },
+  "kast": {
+    "n": {
+      "senses": [],
+      "origin": "From Dutch kast, from Middle Dutch caste (“chest”), from Old Dutch *casto (“chest, reservoir”), from Proto-West Germanic *kastō.",
+      "sounds": [
+        {
+          "rhymes": "-æst"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "kastom": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Tok Pisin kastom, itself from English custom.",
+      "sounds": [
+        {
+          "ipa": "/ˈkɑːstɒm/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "kat": {
     "n": {
@@ -13015,6 +13101,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "katsu": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese カツ (katsu, “cutlet”), shortening of カツレツ (katsuretsu), itself from English cutlet.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "katsura tree": {
     "n": {
@@ -13233,6 +13327,14 @@
     },
     "isAnglish": false
   },
+  "kawanatanga": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Maori kāwanatanga; the first part of the word is a borrowed form of English governor.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kayak": {
     "n": {
       "pronunciation": [
@@ -13335,6 +13437,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "kayles": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English keyles, plural of Middle English keil (see Dutch kegel, German Kegel, Danish kegle, and Swedish kegla).",
+      "sounds": [
+        {
+          "rhymes": "-eɪlz"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "kayo": {
     "n": {
@@ -13602,6 +13716,78 @@
     },
     "isAnglish": true
   },
+  "keech": {
+    "n": {
+      "senses": [],
+      "origin": "Compare dialectal English keech (“cake”), perhaps ultimately a back-formation from Middle English kechel (“small cake”).",
+      "sounds": [
+        {
+          "ipa": "/kiːt͡ʃ/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-keech.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/LL-Q1860_%28eng%29-Vealhurl-keech.wav/LL-Q1860_%28eng%29-Vealhurl-keech.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/LL-Q1860_%28eng%29-Vealhurl-keech.wav/LL-Q1860_%28eng%29-Vealhurl-keech.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "keek": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English kyken, kiken, keken (“to look, peep”), probably from Middle Dutch kiken, kieken or Middle Low German kîken (“to look, peep”), from Old Saxon *kīkan (“to look”), from Proto-West Germanic *kīkan, from Proto-Germanic *kīkaną (“to look”).\nCognate with Dutch kijken (“to look”), German Low German kieken (“to look”), Estonian kiikama (“to look, to peek”), German kucken, gucken (“to look”), Danish kigge, kikke (“to look, peep”), Swedish kika (“to peep, peek, keek, pry”), Icelandic kíkja (“to look, check”). Perhaps related to kick.\nThe words peek, keek and peep were used more or less synonymously in the 14th and 15th centuries.",
+      "sounds": [
+        {
+          "ipa": "/kiːk/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-iːk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-keek.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/LL-Q1860_%28eng%29-Vealhurl-keek.wav/LL-Q1860_%28eng%29-Vealhurl-keek.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/LL-Q1860_%28eng%29-Vealhurl-keek.wav/LL-Q1860_%28eng%29-Vealhurl-keek.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kyken, kiken, keken (“to look, peep”), probably from Middle Dutch kiken, kieken or Middle Low German kîken (“to look, peep”), from Old Saxon *kīkan (“to look”), from Proto-West Germanic *kīkan, from Proto-Germanic *kīkaną (“to look”).\nCognate with Dutch kijken (“to look”), German Low German kieken (“to look”), Estonian kiikama (“to look, to peek”), German kucken, gucken (“to look”), Danish kigge, kikke (“to look, peep”), Swedish kika (“to peep, peek, keek, pry”), Icelandic kíkja (“to look, check”). Perhaps related to kick.\nThe words peek, keek and peep were used more or less synonymously in the 14th and 15th centuries.",
+      "sounds": [
+        {
+          "ipa": "/kiːk/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-iːk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-keek.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/LL-Q1860_%28eng%29-Vealhurl-keek.wav/LL-Q1860_%28eng%29-Vealhurl-keek.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/LL-Q1860_%28eng%29-Vealhurl-keek.wav/LL-Q1860_%28eng%29-Vealhurl-keek.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "keel": {
     "n": {
       "pronunciation": [
@@ -13647,7 +13833,7 @@
       "origin": "Compare Scots kele, keil, keill (“to put to death, kill”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keel arch": {
     "n": {
@@ -13711,7 +13897,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keel-shaped": {
     "a": {
@@ -13772,6 +13958,27 @@
     },
     "isAnglish": false
   },
+  "keeler": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kelere, kelare (“a vessel for cooling liquids, a tub”, literally “a cooler”), equivalent to keel (“to cool”) + -er.",
+      "sounds": [
+        {
+          "ipa": "/ˈkiːlə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈkilɚ/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "keelhaul": {
     "v": {
       "senses": [],
@@ -13800,7 +14007,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keeling": {
     "n": {
@@ -13815,7 +14022,7 @@
       "origin": "Compare Icelandic keila, Swedish kolja, Danish kulle.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keelson": {
     "n": {
@@ -13828,7 +14035,7 @@
       "origin": "Late Middle English kelswayn, from Low German kielswîn, kielswīn, from kiel (“keel of a ship”) (from Old Norse kjǫlr) + swin (“swine”), used as the name of a timber (however, compare sill).\nCompare with Dutch kolzwijn, kolsem, Low German, kielswîn, German Kielschwein, Danish kølsvin, kölsvin, all with the same meaning.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "keen": {
     "a": {
@@ -14024,7 +14231,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keen-eyed": {
     "a": {
@@ -14035,7 +14242,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "keen-sighted": {
     "a": {
@@ -14121,7 +14328,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep": {
     "n": {
@@ -14500,7 +14707,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep apart": {
     "v": {
@@ -14533,7 +14740,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep back": {
     "v": {
@@ -14572,7 +14779,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep company": {
     "v": {
@@ -14636,7 +14843,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep going": {
     "v": {
@@ -14677,7 +14884,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep guard": {
     "v": {
@@ -14713,7 +14920,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep in line": {
     "v": {
@@ -14752,7 +14959,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep mum": {
     "v": {
@@ -14777,7 +14984,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep note": {
     "v": {
@@ -14819,7 +15026,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep on": {
     "v": {
@@ -14845,7 +15052,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep one's distance": {
     "v": {
@@ -15047,7 +15254,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keep pace": {
     "v": {
@@ -15156,6 +15363,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "keep time": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English time kepen, kepen time, etc.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "keep to oneself": {
     "v": {
@@ -15268,6 +15483,27 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/En-au-keep_up.ogg/En-au-keep_up.ogg.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "keepable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English kepeable, equivalent to keep + -able.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kepeable, equivalent to keep + -able.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "keepen": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English kepen, equivalent to keep + -en.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -15439,7 +15675,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keepsame": {
     "a": {
@@ -15497,77 +15733,6 @@
       ]
     },
     "isAnglish": false
-  },
-  "keeve": {
-    "n": {
-      "senses": [
-        {
-          "synset": "04500676-n"
-        },
-        {
-          "synset": "02811600-n"
-        },
-        {
-          "synset": "13793066-n"
-        },
-        {
-          "synset": "04395830-n"
-        }
-      ],
-      "origin": "From Middle English kive, from Old English cȳf (“vat”), ultimately borrowed from Latin cūpa. Related to French cuve. Doublet of coupe, cup, and hive.",
-      "sounds": [
-        {
-          "ipa": "/kiːv/"
-        },
-        {
-          "rhymes": "-iːv"
-        }
-      ]
-    },
-    "v": {
-      "senses": [
-        {
-          "synset": "00459709-v"
-        },
-        {
-          "synset": "01767155-v"
-        },
-        {
-          "synset": "01765377-v"
-        },
-        {
-          "synset": "02045051-v"
-        },
-        {
-          "synset": "01458495-v"
-        },
-        {
-          "synset": "02092737-v"
-        },
-        {
-          "synset": "00357608-v"
-        },
-        {
-          "synset": "02042202-v"
-        },
-        {
-          "synset": "01888570-v"
-        },
-        {
-          "synset": "01888967-v"
-        }
-      ],
-      "origin": "From Middle English kive, from Old English cȳf (“vat”), ultimately borrowed from Latin cūpa. Related to French cuve. Doublet of coupe, cup, and hive.",
-      "sounds": [
-        {
-          "ipa": "/kiːv/"
-        },
-        {
-          "rhymes": "-iːv"
-        }
-      ]
-    },
-    "isAnglish": true
   },
   "keg": {
     "n": {
@@ -15736,7 +15901,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kelp greenling": {
     "n": {
@@ -15747,7 +15912,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kelpie": {
     "n": {
@@ -15910,6 +16075,22 @@
       "sounds": []
     }
   },
+  "kembster": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kembestere, kempstare, kemster, equivalent to kemb + -ster.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "kemelin": {
+    "n": {
+      "senses": [],
+      "origin": "Compare English dialect kemlin, kimlin, kimmel, \"a salting tub, any tub\", kembing (“a brewing tub”), German Kumme (“bowl, basin”), Welsh cymman (“a tub, brewing tub”). All of these are probably related to Proto-Germanic *kumbaz (“bowl”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kemp": {
     "n": {
       "senses": [
@@ -15994,7 +16175,28 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English kempe, campe (“shaggy, rough”).",
+      "sounds": [
+        {
+          "ipa": "/kɛmp/"
+        },
+        {
+          "rhymes": "-ɛmp"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-kemp.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/LL-Q1860_%28eng%29-Vealhurl-kemp.wav/LL-Q1860_%28eng%29-Vealhurl-kemp.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/LL-Q1860_%28eng%29-Vealhurl-kemp.wav/LL-Q1860_%28eng%29-Vealhurl-kemp.wav.mp3"
+        }
+      ]
+    }
   },
   "kempery-man": {
     "n": {
@@ -16086,7 +16288,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kenaf": {
     "n": {
@@ -16303,7 +16505,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kenningly": {
     "a": {
@@ -16448,7 +16650,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kentan": {
     "n": {
@@ -16508,7 +16710,7 @@
       "origin": "kept + man",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kept up": {
     "a": {
@@ -16533,7 +16735,7 @@
       "origin": "kept + woman",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keratalgia": {
     "n": {
@@ -17136,6 +17338,18 @@
     },
     "isAnglish": false
   },
+  "kercher": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kercher, kerchere, kerchure, kevercher, keverchere, kirchire, from coverchef.",
+      "sounds": [
+        {
+          "ipa": "/ˈkɜː(ɹ)t͡ʃə(ɹ)/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kerchief": {
     "n": {
       "pronunciation": [
@@ -17487,7 +17701,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kernel": {
     "n": {
@@ -17587,6 +17801,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "kernelly": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English kirnelly; equivalent to kernel + -y.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -18436,7 +18658,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kettle hole": {
     "n": {
@@ -18448,7 +18670,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kettle of fish": {
     "n": {
@@ -18471,7 +18693,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kettledrum": {
     "n": {
@@ -18525,6 +18747,32 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "kevel": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "kex": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kex. Origin unknown; but compare Welsh cecys (“hollow stalks”) and Welsh cegid (“hemlock”), apparently from the same source as Latin cicūta (“hemlock”).",
+      "sounds": [
+        {
+          "ipa": "/kɛks/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɛks"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "key": {
     "a": {
@@ -18828,7 +19076,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key fob": {
     "n": {
@@ -18840,7 +19088,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key fruit": {
     "n": {
@@ -18866,7 +19114,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key lime": {
     "n": {
@@ -18894,7 +19142,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key palm": {
     "n": {
@@ -18905,7 +19153,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key pattern": {
     "n": {
@@ -18928,7 +19176,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key signature": {
     "n": {
@@ -18971,7 +19219,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key word": {
     "n": {
@@ -18987,7 +19235,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "key-hole": {
     "v": {
@@ -19081,7 +19329,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keyboard buffer": {
     "n": {
@@ -19329,6 +19577,14 @@
     },
     "isAnglish": false
   },
+  "keymaker": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kay maker, equivalent to key + maker.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "keynote": {
     "n": {
       "pronunciation": [
@@ -19486,7 +19742,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "keystroke": {
     "n": {
@@ -20214,7 +20470,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kibibit": {
     "n": {
@@ -20604,7 +20860,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kick around": {
     "v": {
@@ -20846,7 +21102,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kick pleat": {
     "n": {
@@ -20888,7 +21144,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kick the bucket": {
     "v": {
@@ -21068,6 +21324,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "kickboxing": {
+    "n": {
+      "senses": [],
+      "origin": "Possibly borrowed from Japanese キックボクシング (kikkubokushingu), coined by Osamu Noguchi in 1964 from English kick + boxing.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "kicker": {
@@ -21177,7 +21441,7 @@
       "origin": "Deverbal from kick off.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kickshaw": {
     "n": {
@@ -21307,7 +21571,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kid glove": {
     "n": {
@@ -21320,7 +21584,7 @@
       "origin": "From kid gloves (made from the skin of a young lamb or goat), a particularly fine, soft material.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kid-glove": {
     "a": {
@@ -21333,7 +21597,7 @@
       "origin": "See kid glove.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kiddie": {
     "n": {
@@ -21397,6 +21661,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "kiddle": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kidel, kedel, kydel, from Anglo-Norman quidel, quideau (“a wicker framework used to trap fish”), from Old Breton kidel (“a net at the mouth of a stream”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "kiddy": {
     "n": {
@@ -21508,7 +21780,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kidnaper": {
     "n": {
@@ -21561,7 +21833,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kidnapping": {
     "n": {
@@ -21641,7 +21913,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kidney begonia": {
     "n": {
@@ -21704,7 +21976,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kidney stone": {
     "n": {
@@ -21716,7 +21988,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kidney vetch": {
     "n": {
@@ -21752,7 +22024,7 @@
       "origin": "From kidney + shaped.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kidneyapple": {
     "n": {
@@ -21931,7 +22203,31 @@
       "origin": "Late Middle English, from Middle Dutch kinderkin, a variant of kinerkijn, itself a diminutive of kintal. See quintal.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "kile": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kile, kyle, kylle, from Old Norse kýli (“boil”), from Proto-Germanic *kūlǭ, *kūlijǭ (“boil”), from Proto-Indo-European *gewl- (“vessel, bowl, ball”), from Proto-Indo-European *gew- (“to bend, curve, vault”). Cognate with Icelandic kýli (“wen, boil”), Swedish kula (“boil, bulge; pit”), Danish kule (“boil, bump; pit”), German Keule (“club”), German Kuhle (“hollow”), Dutch kuil (“pit, hole”). See also keel.",
+      "sounds": [
+        {
+          "ipa": "/kaɪl/"
+        },
+        {
+          "rhymes": "-aɪl"
+        },
+        {
+          "homophone": "chyle"
+        },
+        {
+          "homophone": "kyle"
+        },
+        {
+          "homophone": "Kyle"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "kiley": {
     "n": {
@@ -21944,6 +22240,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "kilikiti": {
+    "n": {
+      "senses": [],
+      "origin": "Reborrowing, originally from English cricket.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "kilk": {
     "n": {
@@ -22234,7 +22538,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kill off": {
     "v": {
@@ -22294,7 +22598,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kill oneself": {
     "v": {
@@ -22487,7 +22791,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "killer T cell": {
     "n": {
@@ -22540,7 +22844,7 @@
       "origin": "Calque or mistranslation of Spanish asesina-ballenas (“whale killer”), referring to their tendency to hunt whales.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "killifish": {
     "n": {
@@ -22640,7 +22944,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "killing field": {
     "n": {
@@ -22759,7 +23063,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kiln-dried": {
     "a": {
@@ -23326,7 +23630,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kilter": {
     "n": {
@@ -23374,7 +23678,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kimberlite": {
     "n": {
@@ -23538,7 +23842,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kin group": {
     "n": {
@@ -23805,6 +24109,14 @@
     },
     "isAnglish": true
   },
+  "kinchin": {
+    "n": {
+      "senses": [],
+      "origin": "From German Kindchen, diminutive of Kind, from Middle High German kint, from Old High German kind, from Proto-Germanic *kindą, *kinþą, from Proto-Indo-European *ǵenh₁- (“to give birth”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kind": {
     "a": {
       "senses": [
@@ -23905,7 +24217,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kind wit": {
     "n": {
@@ -23952,7 +24264,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kind-heartedness": {
     "n": {
@@ -24222,7 +24534,7 @@
       "origin": "kindhearted + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindhood": {
     "n": {
@@ -24237,7 +24549,7 @@
       "origin": "kind + -hood",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindjal": {
     "n": {
@@ -24347,7 +24659,7 @@
       "origin": "kindle + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindlewood": {
     "n": {
@@ -24368,7 +24680,7 @@
       "origin": "kindle + wood",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindlimb": {
     "n": {
@@ -24395,7 +24707,7 @@
       "origin": "From kindly + -ness.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindling": {
     "n": {
@@ -24439,7 +24751,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindlore": {
     "n": {
@@ -24636,7 +24948,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kindred": {
     "a": {
@@ -24778,7 +25090,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kine-helm": {
     "n": {
@@ -25230,7 +25542,7 @@
       "origin": "From kin + folk.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "king": {
     "n": {
@@ -25315,7 +25627,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "king begonia": {
     "n": {
@@ -25362,7 +25674,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "king devil": {
     "n": {
@@ -25389,7 +25701,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "king mackerel": {
     "n": {
@@ -25454,7 +25766,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "king of kings": {
     "n": {
@@ -25513,7 +25825,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "king protea": {
     "n": {
@@ -25552,7 +25864,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "king tharlathex": {
     "n": {
@@ -25682,6 +25994,14 @@
         }
       ],
       "origin": "Charles II"
+    },
+    "isAnglish": true
+  },
+  "king-of-arms": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English King of armes, kyng of armes.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -25925,7 +26245,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kingfish": {
     "n": {
@@ -26006,6 +26326,14 @@
     },
     "isAnglish": false
   },
+  "kinghood": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kinghod, equivalent to king + -hood.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kinghove": {
     "n": {
       "senses": [
@@ -26062,6 +26390,18 @@
     },
     "isAnglish": true
   },
+  "kingless": {
+    "a": {
+      "senses": [],
+      "origin": "Inherited from Middle English kingles; by surface analysis, king + less.",
+      "sounds": [
+        {
+          "ipa": "/ˈkɪŋləs/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kinglet": {
     "n": {
       "senses": [
@@ -26098,7 +26438,7 @@
       "origin": "king + -ling",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kingly": {
     "a": {
@@ -26214,6 +26554,18 @@
     },
     "isAnglish": false
   },
+  "kingric": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Northern Middle English kingrike, equivalent to king + -ric. Cognate with Scots kinrick; compare Dutch koninkrijk, German Königreich, Danish kongerige, Swedish konungarike, Icelandic konungsríki. Compare Middle English kineriche, from Old English cynerīċe.",
+      "sounds": [
+        {
+          "ipa": "/ˈkɪŋɹɪk/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kingrich": {
     "n": {
       "senses": [
@@ -26263,7 +26615,7 @@
       "origin": "king + -ship.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kingshome": {
     "n": {
@@ -26303,7 +26655,7 @@
       "origin": "king + slayer",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kingsnake": {
     "n": {
@@ -26353,6 +26705,14 @@
         }
       ],
       "origin": "<OE cyninges wyrt"
+    },
+    "isAnglish": true
+  },
+  "kingward": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English Kyng ward; equivalent to king + -ward.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -26715,7 +27075,7 @@
       "origin": "kin + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kinmark": {
     "n": {
@@ -26874,7 +27234,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kinsettle": {
     "n": {
@@ -26968,7 +27328,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kinship group": {
     "n": {
@@ -27048,7 +27408,7 @@
       "origin": "kin + slayer",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kinsman": {
     "n": {
@@ -27075,7 +27435,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kinsperson": {
     "n": {
@@ -27129,7 +27489,7 @@
       "origin": "From Middle English kinswoman; equivalent to kin + -s- + -woman.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kinth": {
     "n": {
@@ -27419,7 +27779,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kipper": {
     "n": {
@@ -27457,7 +27817,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kippered herring": {
     "n": {
@@ -27513,7 +27873,7 @@
       "origin": "Borrowed from French kir, named after Félix Kir, mayor of Dijon.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kirdom": {
     "n": {
@@ -27584,6 +27944,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/En-us-kirk.ogg/En-us-kirk.ogg.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "kirkgarth": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kyrkgarth; equivalent to kirk + garth. Directly cognate to Danish Kierkegaard.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -27708,7 +28076,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kirvet": {
     "n": {
@@ -27974,7 +28342,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kiss of life": {
     "n": {
@@ -27996,7 +28364,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kiss of peace": {
     "n": {
@@ -28113,7 +28481,7 @@
       "origin": "From kissing + bug: they often feed on the lips of human victims.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kissing cousin": {
     "n": {
@@ -28178,7 +28546,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kist": {
     "n": {
@@ -28196,7 +28564,7 @@
       "origin": "Borrowed from Hindustani قِسْط (qisṭ, “installment”) / क़िस्त (qist), from Arabic قِسْط (qisṭ, literally “quota”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kistiness": {
     "n": {
@@ -28432,7 +28800,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kitambilla": {
     "n": {
@@ -28553,7 +28921,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kitchen appliance": {
     "n": {
@@ -28612,7 +28980,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kitchen match": {
     "n": {
@@ -28634,7 +29002,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kitchen police": {
     "n": {
@@ -28693,7 +29061,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kitchen stove": {
     "n": {
@@ -28715,7 +29083,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kitchen utensil": {
     "n": {
@@ -28739,6 +29107,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "kitchener": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kichenere, kychynnere, equivalent to kitchen + -er.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -28929,7 +29305,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kite balloon": {
     "n": {
@@ -29261,6 +29637,14 @@
     },
     "isAnglish": true
   },
+  "kitling": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kiteling (“kitten, kit”), from Old Norse ketlingr (“kitten”), diminutive of kǫttr (“cat”), equivalent to cat + -ling.\nCognate with Icelandic kettlingur (“kitten”), Faroese kettlingur (“kitten”), Norwegian ketling (“kitten”), Swedish källing (“kitten”), Danish killing (“kitten”). Compare English catling, of similar formation. See also kitten.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kitsch": {
     "n": {
       "pronunciation": [
@@ -29312,7 +29696,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kitschy": {
     "a": {
@@ -29455,7 +29839,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kitten heel": {
     "n": {
@@ -30090,6 +30474,33 @@
     },
     "isAnglish": true
   },
+  "kluge": {
+    "n": {
+      "senses": [],
+      "origin": "From US military slang, possibly from German klug (“clever”), or perhaps from Dutch Low Saxon klütje (“(little) dumpling, clod”), Jutland Danish klyt (“piece of bad workmanship, klud(g)e”); compare standard Danish kludder (“mess, disorder”). (Compare English klutz.)\nAccording to the OED, an \"invented word\" influenced by bodge and fudge.\nCompare kludge.",
+      "sounds": [
+        {
+          "ipa": "/kluːd͡ʒ/"
+        },
+        {
+          "rhymes": "-uːdʒ"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From US military slang, possibly from German klug (“clever”), or perhaps from Dutch Low Saxon klütje (“(little) dumpling, clod”), Jutland Danish klyt (“piece of bad workmanship, klud(g)e”); compare standard Danish kludder (“mess, disorder”). (Compare English klutz.)\nAccording to the OED, an \"invented word\" influenced by bodge and fudge.\nCompare kludge.",
+      "sounds": [
+        {
+          "ipa": "/kluːd͡ʒ/"
+        },
+        {
+          "rhymes": "-uːdʒ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "klutz": {
     "n": {
       "pronunciation": [
@@ -30280,7 +30691,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knackered": {
     "a": {
@@ -30333,6 +30744,27 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "knag": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English knagge. Cognate with German Low German Knagge, Danish knage, Swedish knagg. Related to knarr and knur.",
+      "sounds": [
+        {
+          "rhymes": "-æɡ"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English knaggen, from the noun (see above).",
+      "sounds": [
+        {
+          "rhymes": "-æɡ"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "knap": {
     "v": {
@@ -30452,7 +30884,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knapweed": {
     "n": {
@@ -30542,6 +30974,18 @@
         }
       ],
       "origin": "<OE cneord"
+    },
+    "isAnglish": true
+  },
+  "knarry": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English knarry; equivalent to knar + -y.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɑːɹi/"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -30664,7 +31108,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knavish": {
     "a": {
@@ -30790,6 +31234,47 @@
     },
     "isAnglish": true
   },
+  "kneader": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English kneder, cnedar, equivalent to knead + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "kneading": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English knedynge; equivalent to knead + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈniːdɪŋ/"
+        },
+        {
+          "homophone": "needing"
+        },
+        {
+          "rhymes": "-iːdɪŋ"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English knedynge; equivalent to knead + -ing.",
+      "sounds": [
+        {
+          "ipa": "/ˈniːdɪŋ/"
+        },
+        {
+          "homophone": "needing"
+        },
+        {
+          "rhymes": "-iːdɪŋ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kneading board": {
     "n": {
       "senses": [
@@ -30799,7 +31284,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kneat": {
     "v": {
@@ -30969,7 +31454,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knee joint": {
     "n": {
@@ -30992,7 +31477,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knee pants": {
     "n": {
@@ -31046,7 +31531,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knee-high": {
     "n": {
@@ -31067,7 +31552,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knee-jerk reflex": {
     "n": {
@@ -31110,7 +31595,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kneebend": {
     "v": {
@@ -31252,7 +31737,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kneeholm": {
     "n": {
@@ -31270,7 +31755,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kneel": {
     "n": {
@@ -31390,7 +31875,7 @@
       "origin": "From Middle English knelere, equivalent to kneel + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kneeling": {
     "n": {
@@ -31422,7 +31907,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "kneelingly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English knelingli, equivalent to kneeling + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "kneepan": {
     "n": {
@@ -31592,6 +32085,19 @@
     },
     "isAnglish": true
   },
+  "knep": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English *kneppen (compare Middle English knippette (“pincers for cracking nuts”)), from Old Norse kneppa (“to clamp, clasp, pinch, squeeze”), from Proto-Germanic *knappijaną (“to clamp, squeeze”), from Proto-Indo-European *gnebʰ- (“to press, tighten, constrict”). Cognate with Scots knep (“to clench, bind”), Norwegian Nynorsk kneppa (“to squeeze or join together”), obsolete Danish kneppe (“to snap”), Dutch knippen (“to clip, snip”), knijpen (“to pinch, nip”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *kneppen (compare Middle English knippette (“pincers for cracking nuts”)), from Old Norse kneppa (“to clamp, clasp, pinch, squeeze”), from Proto-Germanic *knappijaną (“to clamp, squeeze”), from Proto-Indo-European *gnebʰ- (“to press, tighten, constrict”). Cognate with Scots knep (“to clench, bind”), Norwegian Nynorsk kneppa (“to squeeze or join together”), obsolete Danish kneppe (“to snap”), Dutch knippen (“to clip, snip”), knijpen (“to pinch, nip”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "knerd": {
     "a": {
       "senses": [
@@ -31603,6 +32109,24 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "knez": {
+    "n": {
+      "senses": [],
+      "origin": "From Belarusian князь (knjazʹ) and Ukrainian князь (knjazʹ) (from Old Ruthenian кнѧзь (knjazʹ)) and Russian князь (knjazʹ); all from Old East Slavic кънѧзь (kŭnęzĭ), кнѧзь (knęzĭ), from Proto-Slavic *kъ̏nędzь (“prince”), from earlier *kъnęgъ, by consensus ultimately from Proto-Germanic *kuningaz (“king”). Doublet of cyning and king.",
+      "sounds": [
+        {
+          "ipa": "/ˈknɛz/"
+        },
+        {
+          "ipa": "/kəˈnɛz/"
+        },
+        {
+          "rhymes": "-ɛz"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -31939,7 +32463,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knife fight": {
     "n": {
@@ -31951,7 +32475,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knife pleat": {
     "n": {
@@ -31986,7 +32510,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knife-handle": {
     "n": {
@@ -32034,7 +32558,7 @@
       "origin": "knife + smith",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knight": {
     "n": {
@@ -32163,7 +32687,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knight of the square flag": {
     "n": {
@@ -32175,6 +32699,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "knight service": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English knyght service.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "knight's service": {
     "n": {
@@ -32233,7 +32765,7 @@
       "origin": "knightly + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knightling": {
     "n": {
@@ -32251,7 +32783,7 @@
       "origin": "knight + -ling",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knightly": {
     "a": {
@@ -32311,6 +32843,14 @@
         }
       ],
       "origin": "knight + ship",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "knip": {
+    "v": {
+      "senses": [],
+      "origin": "Probably from late Middle English *knippen, from Middle Dutch knippen, whence modern Dutch knippen (“to cut, clip, snip”). Doublet of gnip and nip.",
       "sounds": []
     },
     "isAnglish": true
@@ -32626,7 +33166,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knitter": {
     "n": {
@@ -32642,7 +33182,7 @@
       "origin": "From Middle English knytter, knettere, equivalent to knit + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knitting": {
     "n": {
@@ -32686,7 +33226,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knitting machine": {
     "n": {
@@ -32721,7 +33261,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knittle": {
     "n": {
@@ -32729,7 +33269,7 @@
       "origin": "From knit.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knitwear": {
     "n": {
@@ -32914,7 +33454,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knobbly": {
     "a": {
@@ -33292,7 +33832,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock against": {
     "v": {
@@ -33336,7 +33876,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock cold": {
     "v": {
@@ -33407,7 +33947,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock off": {
     "v": {
@@ -33468,7 +34008,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock on": {
     "n": {
@@ -33543,7 +34083,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock over": {
     "v": {
@@ -33572,7 +34112,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock rummy": {
     "n": {
@@ -33617,7 +34157,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock-down": {
     "a": {
@@ -33641,7 +34181,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock-knee": {
     "n": {
@@ -33653,7 +34193,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock-kneed": {
     "a": {
@@ -33678,7 +34218,7 @@
       "origin": "knock-on + effect",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knock-out drops": {
     "n": {
@@ -33999,7 +34539,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knockout drops": {
     "n": {
@@ -34085,7 +34625,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knoller": {
     "n": {
@@ -34135,6 +34675,14 @@
         }
       ],
       "origin": "From Middle English knop, from Old English cnoppa, cnop, from Proto-Germanic *knuppô, *knuppaz, *knappô, which is perhaps related to *knappō (“knob, boy”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "knopped": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English knopped. By surface analysis, knop + -ed.",
       "sounds": []
     },
     "isAnglish": true
@@ -34305,7 +34853,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knotgrass": {
     "n": {
@@ -34342,6 +34890,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "knotless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English knotteles; equivalent to knot + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "knotted": {
     "a": {
@@ -34390,7 +34946,7 @@
       "origin": "From Middle English knottynesse, equivalent to knotty + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "knotting": {
     "n": {
@@ -34402,6 +34958,14 @@
           "synset": "00379793-n"
         }
       ],
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "knottle": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English knottil, cnottel (“little knot”), diminutive of knotte, cnotte (“knot”), equivalent to knot + -le. Cognate with Middle Dutch knuttel, Middle Low German knutel, Middle High German Knüttel (“little stick”). Compare also Old English cnyttels (“string, fiber, sinew”).",
       "sounds": []
     },
     "isAnglish": true
@@ -34536,7 +35100,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "know": {
     "n": {
@@ -34770,7 +35334,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "know apart": {
     "v": {
@@ -34845,7 +35409,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "know what's going on": {
     "v": {
@@ -34886,7 +35450,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "know-how": {
     "n": {
@@ -34940,7 +35504,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "know-it-all": {
     "n": {
@@ -34953,7 +35517,7 @@
       "origin": "know + it + all",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knowable": {
     "a": {
@@ -35019,7 +35583,7 @@
       "origin": "know + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knowhood": {
     "n": {
@@ -35302,7 +35866,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knowledge domain": {
     "n": {
@@ -35463,7 +36027,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knowledgeman": {
     "n": {
@@ -35701,7 +36265,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knuckle duster": {
     "n": {
@@ -35766,7 +36330,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "knuckleball": {
     "n": {
@@ -35904,6 +36468,93 @@
       ]
     },
     "isAnglish": false
+  },
+  "knur": {
+    "n": {
+      "senses": [],
+      "origin": "Late Middle English knorre, variant of knarre; see knar (“knot on a tree trunk”).\nCognate with German Knorren (“knurl”) and Danish knor (“knurl”).",
+      "sounds": [
+        {
+          "ipa": "/nɜː(ɹ)/"
+        },
+        {
+          "rhymes": "-ɜː(ɹ)"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-knur.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/LL-Q1860_%28eng%29-Vealhurl-knur.wav/LL-Q1860_%28eng%29-Vealhurl-knur.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/LL-Q1860_%28eng%29-Vealhurl-knur.wav/LL-Q1860_%28eng%29-Vealhurl-knur.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "knurl": {
+    "n": {
+      "senses": [],
+      "origin": "knur + -le (“diminutive”), from Middle English knarre (“knot in wood”), earlier sense “a stone”, likely influenced by Old Norse knǫrr.\ngnarl is a later variant, from gnarled, via knurled.",
+      "sounds": [
+        {
+          "ipa": "/nɜːl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/nɝl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)l"
+        },
+        {
+          "audio": "en-us-knurl.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/En-us-knurl.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/En-us-knurl.ogg/En-us-knurl.ogg.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "knur + -le (“diminutive”), from Middle English knarre (“knot in wood”), earlier sense “a stone”, likely influenced by Old Norse knǫrr.\ngnarl is a later variant, from gnarled, via knurled.",
+      "sounds": [
+        {
+          "ipa": "/nɜːl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/nɝl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)l"
+        },
+        {
+          "audio": "en-us-knurl.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/En-us-knurl.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/En-us-knurl.ogg/En-us-knurl.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "koala": {
     "n": {
@@ -36080,6 +36731,29 @@
       ],
       "origin": "Borrowed from German Kobold.",
       "sounds": []
+    },
+    "isAnglish": false
+  },
+  "kocay": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English cokei (“stream; drain, gutter”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "kogal": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese コギャル (kogyaru) (see there for more), ultimately from English gal.",
+      "sounds": [
+        {
+          "ipa": "/ˈkoʊɡæl/",
+          "tags": [
+            "US"
+          ]
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -36432,6 +37106,14 @@
     },
     "isAnglish": false
   },
+  "komboni": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Chichewa komboni, from English compound. Compare similar loanwords in other Bantu languages, e.g. Shona komboni.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "komondor": {
     "n": {
       "senses": [
@@ -36442,6 +37124,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "konbini": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese コンビニ (konbini), from English convenience.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "konimeter": {
     "n": {
@@ -36669,7 +37359,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kopeck": {
     "n": {
@@ -37274,6 +37964,14 @@
     },
     "isAnglish": false
   },
+  "krantz": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Afrikaans krans, from Dutch krans, from Middle Dutch crans, from Middle High German kranz, from Old High German kranz, probably altered from krenz, ultimately related to Proto-Germanic *kringaz (“circle, ring”). The English spelling seems to have been influenced by cognate German Kranz.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kraurosis": {
     "n": {
       "senses": [
@@ -37324,6 +38022,14 @@
     },
     "isAnglish": false
   },
+  "kreyk": {
+    "n": {
+      "senses": [],
+      "origin": "Old Norse kráka.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "krigia": {
     "n": {
       "senses": [
@@ -37368,6 +38074,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "kringle": {
+    "n": {
+      "senses": [],
+      "origin": "From Danish kringle, ultimately from Old Norse kringla (“ring, circle”).",
+      "sounds": [
+        {
+          "ipa": "/ˈkɹɪŋɡəl/"
+        },
+        {
+          "rhymes": "-ɪŋɡəl"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "kris": {
     "n": {
@@ -38045,6 +38766,14 @@
     },
     "isAnglish": false
   },
+  "kuudere": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese クーデレ (kūdere), a portmanteau of クール (kūru, “calm”), from English cool, and デレデレ (dere-dere, “in a lovey-dovey, infatuated, or lovestruck manner”, adverb).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "kuvasz": {
     "n": {
       "pronunciation": [
@@ -38318,6 +39047,14 @@
       "origin": "",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "kyabakura": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese キャバクラ, itself from English cabaret club.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "kyanite": {
@@ -38406,7 +39143,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kylie": {
     "n": {
@@ -38544,7 +39281,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "kytle": {
     "n": {

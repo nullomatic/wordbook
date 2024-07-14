@@ -55,7 +55,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "O level": {
     "n": {
@@ -425,6 +425,14 @@
     },
     "isAnglish": false
   },
+  "OL": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese OL (オフィスレディー), from English office + lady.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "OLED": {
     "n": {
       "pronunciation": [
@@ -470,6 +478,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "OP": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese OP (オープニング), from English opening.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "OPCW": {
     "n": {
@@ -7985,7 +8001,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Oscar Fingal O'Flahertie Wills Wilde": {
     "n": {
@@ -8721,7 +8737,7 @@
       "origin": "other + world",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Othman I": {
     "n": {
@@ -8933,7 +8949,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Ottawa river": {
     "n": {
@@ -10392,7 +10408,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "o shend": {
     "n": {
@@ -10596,7 +10612,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oaf": {
     "n": {
@@ -10761,7 +10777,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oak blight": {
     "n": {
@@ -10795,7 +10811,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oak tree": {
     "n": {
@@ -10839,7 +10855,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oak-leaved goosefoot": {
     "n": {
@@ -11126,6 +11142,14 @@
     },
     "isAnglish": false
   },
+  "oarhole": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ore hol, equivalent to oar + hole.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "oaring-hors": {
     "n": {
       "senses": [
@@ -11344,7 +11368,7 @@
       "origin": "oast + house",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oat": {
     "n": {
@@ -11446,7 +11470,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oath": {
     "n": {
@@ -11552,7 +11576,7 @@
       "origin": "oath + breaker",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oathbreaking": {
     "v": {
@@ -11568,7 +11592,7 @@
       "origin": "oath + breaking",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oathneat": {
     "n": {
@@ -11640,7 +11664,7 @@
       "origin": "oath + -worthy",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oatmeal": {
     "n": {
@@ -12262,61 +12286,6 @@
       ]
     },
     "isAnglish": false
-  },
-  "obelus": {
-    "n": {
-      "senses": [
-        {
-          "synset": "06841579-n"
-        },
-        {
-          "synset": "06857953-n"
-        }
-      ],
-      "origin": "From Middle English obelus, obelo, from Old English obelus, from Late Latin obelus (“critical mark”), from Koine Greek ὀβελός (obelós, “critical mark”), Ancient Greek ὀβελός (obelós, “rod, spit; obelisk; critical mark”). The further etymology is uncertain; a derivation from βέλος (bélos, “arrow, dart, missile”) (from Proto-Indo-European *gʷelH- (“to pierce; to reach; to throw; to hit by throwing”)) has been suggested, but the initial vowel remains unexplained.\nDoublet of obelisk.\nThe plural form obeli is derived from Late Latin obeli, from Ancient Greek ὀβελοί (obeloí).",
-      "sounds": [
-        {
-          "ipa": "/ˈɒbɪləs/",
-          "tags": [
-            "Received-Pronunciation"
-          ]
-        },
-        {
-          "ipa": "/ˈɒbləs/",
-          "tags": [
-            "Received-Pronunciation"
-          ]
-        },
-        {
-          "ipa": "/ˈɑbələs/",
-          "tags": [
-            "General-American"
-          ]
-        },
-        {
-          "ipa": "/ˈɒbɪlaɪ/",
-          "tags": [
-            "Received-Pronunciation"
-          ]
-        },
-        {
-          "ipa": "/ˈɑbəˌlaɪ/",
-          "tags": [
-            "General-American"
-          ]
-        },
-        {
-          "audio": "LL-Q1860 (eng)-I learned some phrases-obelus.wav",
-          "text": "Audio (RP)",
-          "tags": [
-            "Received-Pronunciation"
-          ],
-          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/LL-Q1860_%28eng%29-I_learned_some_phrases-obelus.wav/LL-Q1860_%28eng%29-I_learned_some_phrases-obelus.wav.ogg",
-          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/LL-Q1860_%28eng%29-I_learned_some_phrases-obelus.wav/LL-Q1860_%28eng%29-I_learned_some_phrases-obelus.wav.mp3"
-        }
-      ]
-    },
-    "isAnglish": true
   },
   "obese": {
     "a": {
@@ -15628,6 +15597,21 @@
     },
     "isAnglish": false
   },
+  "obnubilous": {
+    "a": {
+      "senses": [],
+      "origin": "Inherited from the Middle English obnubilous (“indistinct, obscure, muddled”).",
+      "sounds": [
+        {
+          "ipa": "/ɒbˈnjuːbɪləs/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "oboe": {
     "n": {
       "pronunciation": [
@@ -16338,7 +16322,7 @@
       "origin": "From Middle English obsequyousnesse, equivalent to obsequious + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "obsequy": {
     "n": {
@@ -22324,6 +22308,57 @@
     },
     "isAnglish": false
   },
+  "ocker": {
+    "n": {
+      "senses": [],
+      "origin": "From Ocker, pet form of the name Oscar; popularised in a series of television sketches where the word was used as a general nickname.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒkə/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɒkə(ɹ)"
+        },
+        {
+          "audio": "en-au-ocker.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/En-au-ocker.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/En-au-ocker.ogg/En-au-ocker.ogg.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English ocker, oker, from Old Norse ókr (“usury”), from Proto-Germanic *wōkraz (“progeny, earnings, profit”), from Proto-Indo-European *h₂weg- (“to add, increase”). More at oker.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒkə/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɒkə(ɹ)"
+        },
+        {
+          "audio": "en-au-ocker.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/En-au-ocker.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/En-au-ocker.ogg/En-au-ocker.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "oconee bells": {
     "n": {
       "senses": [
@@ -23684,7 +23719,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "odd man out": {
     "n": {
@@ -23696,7 +23731,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "odd-even check": {
     "n": {
@@ -23931,7 +23966,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oddment": {
     "n": {
@@ -24045,7 +24080,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "odds and ends": {
     "n": {
@@ -24068,7 +24103,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "odds-maker": {
     "n": {
@@ -24091,7 +24126,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oddsmaker": {
     "n": {
@@ -24099,7 +24134,7 @@
       "origin": "odds + maker",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ode": {
     "n": {
@@ -24870,7 +24905,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oecumenic": {
     "a": {
@@ -25562,7 +25597,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "of age": {
     "a": {
@@ -26071,7 +26106,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off as": {
     "v": {
@@ -26201,7 +26236,7 @@
       "origin": "Unknown.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off the mark": {
     "a": {
@@ -26224,6 +26259,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "off vocal": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese オフボーカル (ofubōkaru), from English off + vocal.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "off year": {
     "n": {
@@ -26274,7 +26317,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-axis reflector": {
     "n": {
@@ -26297,7 +26340,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-center": {
     "a": {
@@ -26406,7 +26449,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-hand": {
     "r": {
@@ -26429,7 +26472,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-lead": {
     "n": {
@@ -26483,7 +26526,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-line equipment": {
     "n": {
@@ -26602,7 +26645,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-the-clock": {
     "r": {
@@ -26636,7 +26679,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-the-peg": {
     "a": {
@@ -26648,7 +26691,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-the-rack": {
     "a": {
@@ -26661,7 +26704,7 @@
       "origin": "off + the + rack",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-the-shelf": {
     "a": {
@@ -26686,7 +26729,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-the-shoulder": {
     "a": {
@@ -26698,7 +26741,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-the-wall": {
     "a": {
@@ -26721,7 +26764,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "off-white": {
     "a": {
@@ -26742,7 +26785,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offal": {
     "n": {
@@ -26888,7 +26931,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offbreak": {
     "n": {
@@ -26915,6 +26958,19 @@
     },
     "isAnglish": true
   },
+  "offcast": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English ofcasten, equivalent to off- + cast. Cognate with Danish afkaste (“to shed”), Swedish avkasta (“to crop, throw off, yield”).\nThe noun is possibly derived from Middle English ofcast (“the refuse of plants”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ofcasten, equivalent to off- + cast. Cognate with Danish afkaste (“to shed”), Swedish avkasta (“to crop, throw off, yield”).\nThe noun is possibly derived from Middle English ofcast (“the refuse of plants”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "offcome": {
     "n": {
       "senses": [
@@ -26931,7 +26987,7 @@
       "origin": "From off- + come.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offcomeling": {
     "n": {
@@ -26961,7 +27017,31 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "v": {
+      "senses": [],
+      "origin": "From Middle English ofcutten, of-kitten, equivalent to off- + cut.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒfkʌt/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ofcutten, of-kitten, equivalent to off- + cut.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒfkʌt/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    }
   },
   "offdale": {
     "n": {
@@ -27812,7 +27892,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offer price": {
     "n": {
@@ -27848,7 +27928,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offerer": {
     "n": {
@@ -27940,7 +28020,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offeror": {
     "n": {
@@ -28229,7 +28309,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offhandedly": {
     "r": {
@@ -28265,7 +28345,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offhandling": {
     "n": {
@@ -28998,6 +29078,14 @@
     },
     "isAnglish": false
   },
+  "officialhood": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English officialhod, officiallhoode, equivalent to official + -hood.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "officialise": {
     "v": {
       "senses": [
@@ -29080,6 +29168,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "officialship": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English officialshipe, officyalshippe, equivalent to official + -ship.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "officiant": {
     "n": {
@@ -29323,7 +29419,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offish": {
     "a": {
@@ -29339,6 +29435,14 @@
           "ipa": "/əˈfɪʃ/"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "offlay": {
+    "v": {
+      "senses": [],
+      "origin": "From off- + lay. Possibly from Middle English oflæien (“to offlay; delay”), from Old English ofleċġan (“to lay down; put away; overlay; cover”), from Proto-Germanic *abalagjaną. Compare also Dutch afleggen, German ablegen.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -29366,7 +29470,7 @@
       ],
       "origin": "cf. NHG Ableitung"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offleading": {
     "n": {
@@ -29459,7 +29563,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offlloud": {
     "n": {
@@ -29604,7 +29708,7 @@
       "origin": "From off- + putting.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offsaddle": {
     "v": {
@@ -29873,7 +29977,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offset lithography": {
     "n": {
@@ -29960,7 +30064,7 @@
       "origin": "From off- + shoot.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offshore": {
     "a": {
@@ -30169,6 +30273,14 @@
     },
     "isAnglish": true
   },
+  "offsmite": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English ofsmiten, equivalent to off- + smite.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "offsplit": {
     "v": {
       "senses": [
@@ -30179,7 +30291,7 @@
       "origin": "From off- + split. Cognate with Dutch afsplitten (“to split off”), German Low German ofsplieten, ofsplitten (“to split off”), German abspalten (“to split off, secede”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "offsplitter": {
     "n": {
@@ -30382,6 +30494,19 @@
       "origin": "From Middle English ofstonden, from Old English ofstandan (“to remain, persist, continue; restore, make restitution”), from Proto-Germanic *afstandaną, *afstāną, equivalent to off- + stand. Cognate with Dutch afstaan (“to cede, yield, relinquish”), German abstehen (“to project, stick out, stand away”), Swedish avstå (“to refrain, desist, give up, relinquish”).",
       "sounds": []
     }
+  },
+  "offtake": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English oftaken, equivalent to off- + take.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oftaken, equivalent to off- + take.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "offtaking": {
     "n": {
@@ -30843,6 +30968,77 @@
       "origin": "often + -ness. Compare Middle English oftnes (“frequency”).",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "oftentide": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English oftentide; equivalent to\noften + tide.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "oftentime": {
+    "r": {
+      "senses": [],
+      "origin": "Inherited from the Middle English oftyntyme; equivalent to often + time. Compare oftentimes.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒfəntaɪm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈɒftəntaɪm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "[ˈɒfn̩taɪm]",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "[ˈɒftn̩taɪm]",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "Inherited from the Middle English oftyntyme; equivalent to often + time. Compare oftentimes.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒfəntaɪm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈɒftəntaɪm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "[ˈɒfn̩taɪm]",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "[ˈɒftn̩taɪm]",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
     "isAnglish": true
   },
   "oftentimes": {
@@ -30921,7 +31117,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oftseen": {
     "a": {
@@ -31348,6 +31544,63 @@
     "isAnglish": false
   },
   "oh": {
+    "x": {
+      "senses": [],
+      "origin": "Inherited from Middle English o.",
+      "sounds": [
+        {
+          "ipa": "/əʊ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/oʊ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "homophone": "o"
+        },
+        {
+          "homophone": "O"
+        },
+        {
+          "homophone": "owe"
+        },
+        {
+          "rhymes": "-əʊ"
+        },
+        {
+          "audio": "En-uk-oh.ogg",
+          "text": "Audio (RP)",
+          "tags": [
+            "Received-Pronunciation"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/En-uk-oh.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/En-uk-oh.ogg/En-uk-oh.ogg.mp3"
+        },
+        {
+          "audio": "en-us-oh-surprise.ogg",
+          "text": "Audio (GA) (surprise)",
+          "tags": [
+            "General-American"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/En-us-oh-surprise.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/En-us-oh-surprise.ogg/En-us-oh-surprise.ogg.mp3"
+        },
+        {
+          "audio": "en-us-oh-realization.ogg",
+          "text": "Audio (GA) (realization)",
+          "tags": [
+            "General-American"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/En-us-oh-realization.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/En-us-oh-realization.ogg/En-us-oh-realization.ogg.mp3"
+        }
+      ]
+    },
     "n": {
       "senses": [],
       "origin": "From o (“zero”).",
@@ -31405,7 +31658,64 @@
         }
       ]
     },
-    "isAnglish": true
+    "v": {
+      "senses": [],
+      "origin": "Inherited from Middle English o.",
+      "sounds": [
+        {
+          "ipa": "/əʊ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/oʊ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "homophone": "o"
+        },
+        {
+          "homophone": "O"
+        },
+        {
+          "homophone": "owe"
+        },
+        {
+          "rhymes": "-əʊ"
+        },
+        {
+          "audio": "En-uk-oh.ogg",
+          "text": "Audio (RP)",
+          "tags": [
+            "Received-Pronunciation"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/En-uk-oh.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/En-uk-oh.ogg/En-uk-oh.ogg.mp3"
+        },
+        {
+          "audio": "en-us-oh-surprise.ogg",
+          "text": "Audio (GA) (surprise)",
+          "tags": [
+            "General-American"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/En-us-oh-surprise.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/En-us-oh-surprise.ogg/En-us-oh-surprise.ogg.mp3"
+        },
+        {
+          "audio": "en-us-oh-realization.ogg",
+          "text": "Audio (GA) (realization)",
+          "tags": [
+            "General-American"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/En-us-oh-realization.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/En-us-oh-realization.ogg/En-us-oh-realization.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "ohm": {
     "n": {
@@ -31465,7 +31775,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ohmage": {
     "n": {
@@ -31549,6 +31859,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "oho": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English o ho; o, ho; equivalent to o + ho.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "oil": {
     "n": {
@@ -31702,7 +32020,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil beetle": {
     "n": {
@@ -31747,7 +32065,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil cake": {
     "n": {
@@ -31946,7 +32264,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil nut": {
     "n": {
@@ -31957,7 +32275,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil of anise": {
     "n": {
@@ -31980,6 +32298,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "oil of olives": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oile of olyvys.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "oil of turpentine": {
     "n": {
@@ -32039,7 +32365,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil painting": {
     "n": {
@@ -32112,7 +32438,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil refinery": {
     "n": {
@@ -32182,7 +32508,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil tanker": {
     "n": {
@@ -32229,7 +32555,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil-fired": {
     "a": {
@@ -32252,7 +32578,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil-industry analyst": {
     "n": {
@@ -32274,7 +32600,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oil-soluble": {
     "a": {
@@ -32420,7 +32746,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oilfield": {
     "n": {
@@ -32471,6 +32797,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "oilish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English oylyssh, equivalent to oil + -ish.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "oilman": {
     "n": {
@@ -32651,7 +32985,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oink": {
     "n": {
@@ -33104,6 +33438,18 @@
     },
     "isAnglish": false
   },
+  "oke": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oke.",
+      "sounds": [
+        {
+          "rhymes": "-əʊk"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "okeh": {
     "n": {
       "senses": [
@@ -33128,7 +33474,12 @@
       "origin": "From Middle English oker, okur, okir, okyr, ocker, from Old Norse ókr (“usury”), from Proto-Germanic *wōkraz (“progeny, earnings, profit”), from Proto-Indo-European *h₂weg- (“to add, increase”). Cognate with Scots ocker (“usury”), Icelandic ókur (“usury”), Swedish ocker (“usury”), German Wucher (“usury”), Dutch woeker (“usury”), Old English wōcor (“increase, growth, fruit, usury”), Gothic 𐍅𐍉𐌺𐍂𐍃 (wōkrs, “interest, usury, tax”), Latin augere (“to increase”). More at eke, wax.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false,
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": []
+    }
   },
   "okey": {
     "n": {
@@ -33472,7 +33823,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old boy": {
     "n": {
@@ -33492,7 +33843,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old boy network": {
     "n": {
@@ -33514,7 +33865,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old codger": {
     "n": {
@@ -33557,7 +33908,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old geezer": {
     "n": {
@@ -33580,7 +33931,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old growth": {
     "n": {
@@ -33603,7 +33954,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old hand": {
     "n": {
@@ -33625,7 +33976,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old lady": {
     "n": {
@@ -33647,7 +33998,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old line": {
     "a": {
@@ -33682,7 +34033,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old maid flower": {
     "n": {
@@ -33775,7 +34126,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old money": {
     "n": {
@@ -33829,7 +34180,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old salt": {
     "n": {
@@ -33851,7 +34202,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old school": {
     "n": {
@@ -33874,7 +34225,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old school tie": {
     "n": {
@@ -33966,6 +34317,14 @@
     },
     "isAnglish": false
   },
+  "old wife": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ald wyf, eld wiif, olde wyffe.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "old witch grass": {
     "n": {
       "senses": [
@@ -34000,7 +34359,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old wives' tale": {
     "n": {
@@ -34039,7 +34398,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old world": {
     "a": {
@@ -34195,7 +34554,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old-line": {
     "a": {
@@ -34212,7 +34571,7 @@
       "origin": "From old + line (“stated positions of a political or religious group”). Attested from the 19th century, originally in the United States.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old-maid's bonnet": {
     "n": {
@@ -34298,7 +34657,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old-timer": {
     "n": {
@@ -34324,7 +34683,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "old-womanish": {
     "a": {
@@ -34349,7 +34708,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oldbaken": {
     "a": {
@@ -34545,7 +34904,7 @@
       "origin": "From old + fangled, modelled after new-fangled.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oldfarrand": {
     "a": {
@@ -34637,6 +34996,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "oldly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English oldely, aldeliȝ, aldelike, equivalent to old + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "oldmaidish": {
     "a": {
@@ -36543,7 +36910,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "omega": {
     "n": {
@@ -38376,7 +38743,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on approval": {
     "r": {
@@ -38398,7 +38765,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on board": {
     "r": {
@@ -38524,7 +38891,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on hand": {
     "a": {
@@ -38740,7 +39107,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on the breadline": {
     "a": {
@@ -38773,7 +39140,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "on the coattails": {
     "r": {
@@ -38866,7 +39233,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on the go": {
     "a": {
@@ -39098,7 +39465,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on the way": {
     "r": {
@@ -39131,7 +39498,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "on time": {
     "a": {
@@ -39155,7 +39522,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on top": {
     "a": {
@@ -39191,7 +39558,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "on your guard": {
     "a": {
@@ -39224,7 +39591,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on-going": {
     "a": {
@@ -39284,7 +39651,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on-line database": {
     "n": {
@@ -39311,7 +39678,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on-site": {
     "a": {
@@ -39341,7 +39708,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on-the-job": {
     "a": {
@@ -39357,7 +39724,7 @@
       "origin": "Attributive form of on the job.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on-the-scene": {
     "a": {
@@ -39392,7 +39759,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "on/off switch": {
     "n": {
@@ -39468,6 +39835,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "onahole": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Japanese オナホール (onahōru), a portmanteau of オナニー (onanī, “masturbation”, from German Onanie) and ホール (hōru, “hole”, from English hole).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "onalike": {
     "n": {
@@ -39689,7 +40064,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "once": {
     "r": {
@@ -39774,7 +40149,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "once and for all": {
     "r": {
@@ -39796,7 +40171,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "once around": {
     "n": {
@@ -39835,7 +40210,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "once more": {
     "r": {
@@ -39847,7 +40222,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "once-over": {
     "n": {
@@ -39860,7 +40235,7 @@
       "origin": "From the idea of going over something once.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onchocerciasis": {
     "n": {
@@ -40077,7 +40452,12 @@
       "origin": "From Middle English oncomen, from Old English oncuman, ancuman (“to arrive, come upon, happen”), from Proto-Germanic *anakwemaną (“to come to, come at, arrive”), equivalent to on- + come. Cognate with Dutch aankomen (“to arrive”), German ankommen (“to arrive”), Swedish ankomma (“to arrive”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oncome (“an attack”), equivalent to on- + come. Compare Old English ancuman (“to arrive, come upon, happen”). More at ancome, income.",
+      "sounds": []
+    }
   },
   "oncoming": {
     "a": {
@@ -40119,6 +40499,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/En-us-oncoming.ogg/En-us-oncoming.ogg.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "oncost": {
+    "n": {
+      "senses": [],
+      "origin": "From on- + cost, or from Middle English uncost (“additional expense”), from Middle Dutch oncost (“expenses, overhead”) (Modern Dutch onkost), equivalent to un- + cost. Cognate with German Unkost (“expenses”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -40210,18 +40598,16 @@
   },
   "onde": {
     "n": {
-      "senses": [
-        {
-          "synset": "07565182-n"
-        },
-        {
-          "synset": "00759688-n"
-        }
-      ],
+      "senses": [],
       "origin": "From Middle English onde, ande, from Old English onda, anda (“zeal, indignation, anger, malice, envy, hatred”), from Proto-West Germanic *anadō, from Proto-Germanic *anadô (“breath, spirit, zeal”), from Proto-Indo-European *h₂enh₁- (“to breathe, blow”).\nCognate with Scots aynd, eind, end (“breath”), German Ahnd, And (“pain, anguish”), Danish ånd, ånde (“breath, spirit”), Swedish anda, ande (“spirit, breath”), Icelandic andi (“spirit”), Latin anima (“breath, spirit”). More at animal.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "v": {
+      "senses": [],
+      "origin": "From Middle English onden (Northern dialect ande), from Old Norse anda (“to breathe”).",
+      "sounds": []
+    }
   },
   "ondeed": {
     "v": {
@@ -40254,6 +40640,14 @@
     },
     "isAnglish": true
   },
+  "onding": {
+    "n": {
+      "senses": [],
+      "origin": "From on- + ding (“to beat, strike”).",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "ondy": {
     "a": {
       "senses": [
@@ -40269,7 +40663,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "v": {
       "senses": [
         {
@@ -40624,7 +41018,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one and only": {
     "a": {
@@ -40647,7 +41041,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one at a time": {
     "r": {
@@ -40669,7 +41063,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one by one": {
     "r": {
@@ -40689,7 +41083,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one dollar bill": {
     "n": {
@@ -41005,7 +41399,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one the way": {
     "a": {
@@ -41069,7 +41463,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one who thoughts don't": {
     "n": {
@@ -41123,7 +41517,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-armed": {
     "a": {
@@ -41310,7 +41704,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-eyed": {
     "a": {
@@ -41335,7 +41729,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-flowered pyrola": {
     "n": {
@@ -41360,6 +41754,14 @@
     },
     "isAnglish": false
   },
+  "one-footed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English on-foted, onfotyd, o-foted, o fotyd, equivalent to one + footed. Compare Old English ānfēte (“one-footed”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "one-fourth": {
     "n": {
       "senses": [
@@ -41381,7 +41783,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-handed": {
     "a": {
@@ -41418,7 +41820,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-humped": {
     "a": {
@@ -41466,7 +41868,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-liner": {
     "n": {
@@ -41479,7 +41881,7 @@
       "origin": "one + line + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-man": {
     "a": {
@@ -41492,7 +41894,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-man rule": {
     "n": {
@@ -41565,7 +41967,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-ninth": {
     "n": {
@@ -41577,7 +41979,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-of-a-kind": {
     "a": {
@@ -41594,7 +41996,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-off": {
     "n": {
@@ -41626,7 +42028,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-on-one": {
     "a": {
@@ -41650,7 +42052,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-party": {
     "a": {
@@ -41757,7 +42159,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-shot-wonder": {
     "n": {
@@ -41820,7 +42222,7 @@
       "senses": [],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-sideness": {
     "n": {
@@ -41857,7 +42259,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-sixtieth": {
     "n": {
@@ -41868,7 +42270,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "one-sixty-fourth": {
     "n": {
@@ -41919,7 +42321,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-ten-thousandth": {
     "n": {
@@ -41942,7 +42344,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-third": {
     "n": {
@@ -41954,7 +42356,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-thirty-second": {
     "n": {
@@ -41999,7 +42401,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-to-one": {
     "a": {
@@ -42095,7 +42497,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-way light time": {
     "n": {
@@ -42123,7 +42525,7 @@
       "origin": "one-way + street",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-winged": {
     "a": {
@@ -42134,7 +42536,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "one-woman": {
     "a": {
@@ -42147,7 +42549,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "one-year": {
     "a": {
@@ -42171,7 +42573,7 @@
       "origin": "From one + year + old.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onebelief": {
     "n": {
@@ -42200,7 +42602,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oneborn": {
     "a": {
@@ -43040,7 +43442,7 @@
       "senses": [],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onesideness": {
     "n": {
@@ -43078,7 +43480,7 @@
       "origin": "one + -some",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onesomehood": {
     "n": {
@@ -43503,7 +43905,7 @@
       "origin": "From on- + go.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ongoing": {
     "a": {
@@ -43526,7 +43928,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ongoing evaluation": {
     "n": {
@@ -44084,7 +44486,7 @@
       "origin": "From Middle English onleien, onleggen (“to lay or place; impose; attack”). Equivalent to on- + lay.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onlet": {
     "n": {
@@ -44205,6 +44607,14 @@
     },
     "isAnglish": false
   },
+  "onliness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English onlinesse, equivalent to only + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "onlook": {
     "n": {
       "senses": [
@@ -44224,7 +44634,7 @@
       "origin": "From on- + look. Compare Old English onlēċ (“onlook, consideration, regard”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onlooker": {
     "n": {
@@ -44250,7 +44660,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onlookers": {
     "n": {
@@ -44264,7 +44674,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "only": {
     "a": {
@@ -44437,7 +44847,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "only-edoffness": {
     "n": {
@@ -44472,6 +44882,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "onlyhood": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *onlihod, (attested only as onlyhede, onlihed, onlihede), equivalent to only + -hood.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -45098,7 +45516,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onsayedness": {
     "n": {
@@ -45238,7 +45656,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onshore": {
     "a": {
@@ -45351,7 +45769,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onsnithe": {
     "v": {
@@ -45554,7 +45972,12 @@
       "origin": "From Middle English ontaken, equivalent to on- + take. Compare Old English onniman (“to receive, take”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ontaken, equivalent to on- + take. Compare Old English onniman (“to receive, take”).",
+      "sounds": []
+    }
   },
   "ontighting": {
     "n": {
@@ -45895,7 +46318,7 @@
       "origin": "on + -wards",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "onwending": {
     "a": {
@@ -46449,7 +46872,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oomph": {
     "n": {
@@ -46549,7 +46972,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oosphere": {
     "n": {
@@ -46786,7 +47209,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ooze out": {
     "v": {
@@ -46885,7 +47308,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "op art": {
     "n": {
@@ -47395,6 +47818,99 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "ope": {
+    "a": {
+      "senses": [],
+      "origin": "table\nFrom Middle English ope (“open”), shortened form of open, from Old English open (“open”). More at open.",
+      "sounds": [
+        {
+          "ipa": "/oʊp/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/əʊp/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-ope.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/LL-Q1860_%28eng%29-Vealhurl-ope.wav/LL-Q1860_%28eng%29-Vealhurl-ope.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/LL-Q1860_%28eng%29-Vealhurl-ope.wav/LL-Q1860_%28eng%29-Vealhurl-ope.wav.mp3"
+        },
+        {
+          "enpr": "ōp"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "table\nFrom Middle English ope (“open”), shortened form of open, from Old English open (“open”). More at open.",
+      "sounds": [
+        {
+          "ipa": "/oʊp/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/əʊp/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-ope.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/LL-Q1860_%28eng%29-Vealhurl-ope.wav/LL-Q1860_%28eng%29-Vealhurl-ope.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/LL-Q1860_%28eng%29-Vealhurl-ope.wav/LL-Q1860_%28eng%29-Vealhurl-ope.wav.mp3"
+        },
+        {
+          "enpr": "ōp"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "table\nFrom Middle English ope (“open”), shortened form of open, from Old English open (“open”). More at open.",
+      "sounds": [
+        {
+          "ipa": "/oʊp/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/əʊp/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-ope.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/LL-Q1860_%28eng%29-Vealhurl-ope.wav/LL-Q1860_%28eng%29-Vealhurl-ope.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/LL-Q1860_%28eng%29-Vealhurl-ope.wav/LL-Q1860_%28eng%29-Vealhurl-ope.wav.mp3"
+        },
+        {
+          "enpr": "ōp"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "open": {
     "a": {
@@ -47947,7 +48463,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open fire": {
     "v": {
@@ -47973,7 +48489,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open fireplace": {
     "n": {
@@ -48019,7 +48535,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open interval": {
     "n": {
@@ -48071,7 +48587,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open primary": {
     "n": {
@@ -48121,7 +48637,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open sesame": {
     "n": {
@@ -48160,7 +48676,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open sight": {
     "n": {
@@ -48272,7 +48788,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open vowel": {
     "n": {
@@ -48341,7 +48857,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open-angle glaucoma": {
     "n": {
@@ -48408,7 +48924,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "open-door policy": {
     "n": {
@@ -48507,7 +49023,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open-face sandwich": {
     "n": {
@@ -48536,7 +49052,7 @@
       "origin": "open + handed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open-heart surgery": {
     "n": {
@@ -48563,7 +49079,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open-hearth furnace": {
     "n": {
@@ -48598,7 +49114,7 @@
       "origin": "open + minded",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open-mindedness": {
     "n": {
@@ -48610,7 +49126,7 @@
       "origin": "open-minded + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "open-plan": {
     "a": {
@@ -48840,7 +49356,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "openhandedness": {
     "n": {
@@ -48898,7 +49414,7 @@
       "origin": "open + hearted",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "openhouse": {
     "n": {
@@ -49153,7 +49669,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "openknowledgeful": {
     "a": {
@@ -49216,7 +49732,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "openmouthed": {
     "a": {
@@ -52497,6 +53013,24 @@
     },
     "isAnglish": false
   },
+  "opposit": {
+    "a": {
+      "senses": [],
+      "origin": "Middle English opposit, from Latin oppositus, perfect passive participle of oppōnō (“I oppose”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "Middle English opposit, from Latin oppositus, perfect passive participle of oppōnō (“I oppose”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "Middle English opposit, from Latin oppositus, perfect passive participle of oppōnō (“I oppose”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "opposite": {
     "a": {
       "pronunciation": [
@@ -55301,7 +55835,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "orach": {
     "n": {
@@ -57872,7 +58406,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "orchard oriole": {
     "n": {
@@ -58695,6 +59229,14 @@
     },
     "isAnglish": false
   },
+  "ordalian": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ordal (“ordeal”) + -ian (compare Medieval Latin ordalium), equivalent to ordeal + -ian.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ordeal": {
     "n": {
       "pronunciation": [
@@ -58746,7 +59288,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ordeal bean": {
     "n": {
@@ -58759,7 +59301,7 @@
       "origin": "It was formerly used by the natives in trials for witchcraft.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ordeal tree": {
     "n": {
@@ -58771,7 +59313,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ordeeming": {
     "n": {
@@ -59193,7 +59735,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "order Acarina": {
     "n": {
@@ -62888,7 +63430,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "order code": {
     "n": {
@@ -62911,7 +63453,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "order mantophasmatodea": {
     "n": {
@@ -62956,7 +63498,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "order of magnitude": {
     "n": {
@@ -62995,7 +63537,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "order paper": {
     "n": {
@@ -64540,7 +65082,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "orfathom": {
     "v": {
@@ -64682,7 +65224,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "organ donor": {
     "n": {
@@ -64716,7 +65258,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "organ of Corti": {
     "n": {
@@ -64764,7 +65306,7 @@
       "origin": "organ + pipe",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "organ stop": {
     "n": {
@@ -64776,7 +65318,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "organ transplant": {
     "n": {
@@ -64800,7 +65342,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "organdie": {
     "n": {
@@ -66614,6 +67156,14 @@
     },
     "isAnglish": true
   },
+  "orgulity": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English orgul (“pride”) + -ity.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "orgy": {
     "n": {
       "pronunciation": [
@@ -67763,7 +68313,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "originate": {
     "v": {
@@ -68095,7 +68645,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "orland": {
     "a": {
@@ -68181,7 +68731,7 @@
       "origin": "From Middle English overlop (“deck of a single-decker”), from Middle Low German overlop (“which leaps overhead”). Compare overloop.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "orlop deck": {
     "n": {
@@ -68784,7 +69334,7 @@
       "origin": "From Middle English ornatly; equivalent to ornate + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ornateness": {
     "n": {
@@ -71775,7 +72325,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "os breve": {
     "n": {
@@ -73253,7 +73803,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "osteal": {
     "a": {
@@ -74737,7 +75287,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "other tongue": {
     "n": {
@@ -74751,7 +75301,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "otherdresser": {
     "n": {
@@ -74806,7 +75356,7 @@
       "origin": "From other + -ling.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "otherlove": {
     "n": {
@@ -74852,6 +75402,46 @@
         }
       ],
       "origin": "From other + -ness.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "othersome": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English oþer-sum, equivalent to other + some.",
+      "sounds": [
+        {
+          "ipa": "/ˈʌðəsəm/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English oþer-sum, equivalent to other + -some.",
+      "sounds": [
+        {
+          "ipa": "/ˈʌðəsəm/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "otherward": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English otherward, other-warde (adverb), equivalent to other + -ward.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English otherward, other-warde (adverb), equivalent to other + -ward.",
       "sounds": []
     },
     "isAnglish": true
@@ -75016,7 +75606,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "otherworldliness": {
     "n": {
@@ -75070,7 +75660,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "othonna": {
     "n": {
@@ -75840,7 +76430,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "otter hound": {
     "n": {
@@ -75863,7 +76453,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "otterhound": {
     "n": {
@@ -75992,7 +76582,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "a": {
       "senses": [
         {
@@ -76424,6 +77014,14 @@
     },
     "isAnglish": true
   },
+  "ourie": {
+    "a": {
+      "senses": [],
+      "origin": "From Old Norse úr (“drizzle, spray”), from Proto-Germanic *ūrą, from Proto-Indo-European *uh₁r-, zero grade form of *weh₁r- (“water”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ourn": {
     "n": {
       "senses": [],
@@ -76444,6 +77042,81 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true,
+    "x": {
+      "senses": [],
+      "origin": "From Middle English oures, attested since the 1300s. Equivalent to our + -s (compare -'s); formed by analogy to his. Displaced ourn (from Middle English ouren) in standard speech.",
+      "sounds": [
+        {
+          "ipa": "/ˈaʊəz/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ɑːz/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈaʊɚz/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ɑɹz/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-aʊə(ɹ)z"
+        },
+        {
+          "rhymes": "-ɑː(ɹ)z"
+        },
+        {
+          "homophone": "hours"
+        },
+        {
+          "audio": "en-us-ours.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/En-us-ours.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/En-us-ours.ogg/En-us-ours.ogg.mp3"
+        }
+      ]
+    }
+  },
+  "ourself": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English oure-selfe; equivalent to our + -self.",
+      "sounds": [
+        {
+          "ipa": "/aʊə(ɹ)ˈsɛlf/"
+        },
+        {
+          "ipa": "/ɑː(ɹ)ˈsɛlf/"
+        },
+        {
+          "rhymes": "-ɛlf"
+        },
+        {
+          "audio": "en-us-ourself.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/En-us-ourself.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/En-us-ourself.ogg/En-us-ourself.ogg.mp3"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -77031,7 +77704,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out front": {
     "r": {
@@ -77087,7 +77760,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out of": {
     "r": {
@@ -77118,7 +77791,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out of bounds": {
     "n": {
@@ -77203,7 +77876,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out of it": {
     "a": {
@@ -77313,7 +77986,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "out of reach": {
     "a": {
@@ -77359,7 +78032,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out of step": {
     "n": {
@@ -77533,7 +78206,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out of true": {
     "a": {
@@ -77592,7 +78265,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out of work": {
     "a": {
@@ -77667,7 +78340,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out-and-outer": {
     "n": {
@@ -77680,7 +78353,7 @@
       "origin": "out and out + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out-basket": {
     "n": {
@@ -77783,7 +78456,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out-of-doors": {
     "n": {
@@ -77876,7 +78549,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out-of-town": {
     "a": {
@@ -77888,7 +78561,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "out-tray": {
     "n": {
@@ -77900,7 +78573,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outage": {
     "n": {
@@ -77989,7 +78662,7 @@
       "origin": "out- + arm",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outask": {
     "v": {
@@ -78001,7 +78674,7 @@
       "origin": "From out- + ask. Cognate with Old Frisian utaskia (“to outask”), Danish udæske (“to challenge”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outback": {
     "a": {
@@ -78051,7 +78724,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outbalance": {
     "v": {
@@ -78149,6 +78822,14 @@
     },
     "isAnglish": true
   },
+  "outblow": {
+    "v": {
+      "senses": [],
+      "origin": "From out- + blow.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "outboard": {
     "a": {
       "senses": [
@@ -78231,7 +78912,7 @@
       "origin": "out- + born",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outborough": {
     "a": {
@@ -78270,7 +78951,7 @@
       "origin": "out (“outward”) + bowed",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outbrave": {
     "v": {
@@ -78342,6 +79023,14 @@
     },
     "isAnglish": true
   },
+  "outbreaking": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English outbrekynge, equivalent to outbreak + -ing and/or out- + breaking.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outbreathe": {
     "v": {
       "senses": [
@@ -78355,7 +79044,7 @@
       "origin": "From out- + breathe.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outbred": {
     "a": {
@@ -78463,7 +79152,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outburst": {
     "n": {
@@ -78538,6 +79227,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "outbye": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English outby, outbi, equivalent to out (adverb) + by (adverb).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -78873,7 +79570,31 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "outcomeling": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English outcomlyng, equivalent to out- + comeling.",
+      "sounds": []
+    },
     "isAnglish": true
+  },
+  "outcoming": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English outcoming, outcominge, from outcomen (“to come out”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "outcreep": {
+    "v": {
+      "senses": [],
+      "origin": "From out- + creep (“to be creepy; make uncomfortable”).",
+      "sounds": []
+    },
+    "isAnglish": false
   },
   "outcrop": {
     "n": {
@@ -79059,7 +79780,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outcry wrangle": {
     "n": {
@@ -79219,7 +79940,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outdoor": {
     "a": {
@@ -79509,6 +80230,22 @@
     },
     "isAnglish": true
   },
+  "outdrink": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outdrinken (“to drink more than”), equivalent to out- + drink.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "outdrive": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outdriven, equivalent to out- + drive.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outdweller": {
     "n": {
       "senses": [
@@ -79525,7 +80262,7 @@
       "origin": "out- + dweller",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outen": {
     "p": {
@@ -79656,7 +80393,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outer boundary": {
     "n": {
@@ -79690,7 +80427,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outer garment": {
     "n": {
@@ -79827,6 +80564,14 @@
     },
     "isAnglish": false
   },
+  "outermore": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English uttermore, outermere, ottermore, uttermor, equivalent to outer + -more. Doublet of uttermore.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outermost": {
     "a": {
       "pronunciation": [
@@ -79942,6 +80687,21 @@
       ],
       "origin": "From out- + fall. Compare Dutch uitval (“outburst, sally, eruption”), German Ausfall (“falling out, sally”), Swedish utfall (“sally, issue”).",
       "sounds": []
+    },
+    "isAnglish": false
+  },
+  "outfangthief": {
+    "n": {
+      "senses": [],
+      "origin": "From out- + fang + thief, formed—probably in Middle English [Term?]—after the model of infangthief, with the only Old English [Term?] attestation a spurious charter forged in the 1st half of the 12th century.",
+      "sounds": [
+        {
+          "ipa": "/ˈaʊtfaŋθiːf/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -80156,7 +80916,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outfitted": {
     "a": {
@@ -80191,7 +80951,7 @@
       "origin": "outfit + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outfitting": {
     "n": {
@@ -80252,6 +81012,14 @@
     },
     "isAnglish": true
   },
+  "outflight": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English outflight, out fliȝt, equivalent to out- + flight. Cognate with Dutch uitvlucht (“evasion, excuse”), German Ausflucht (“escape”), Swedish utflykt (“excursion”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outflow": {
     "n": {
       "senses": [
@@ -80287,7 +81055,7 @@
       "origin": "out- + flowing",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outfold": {
     "n": {
@@ -80482,7 +81250,7 @@
       "origin": "out- + give. Cognate with German ausgeben (“to output, spend, pay for”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outgiving": {
     "n": {
@@ -80496,7 +81264,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outgo": {
     "n": {
@@ -80662,7 +81430,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outgrow": {
     "v": {
@@ -80759,7 +81527,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outguess": {
     "v": {
@@ -80777,6 +81545,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "outhaul": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outhalen, equivalent to out- + haul.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "outhold": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outholden, equivalent to out- + hold. Cognate with Scots outhald (“to outhold”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "outhouse": {
     "n": {
@@ -80895,7 +81679,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outkerneling": {
     "n": {
@@ -80964,7 +81748,7 @@
       "origin": "From outland + -er. In certain uses, influenced by or a calque of the Dutch uitlander or Afrikaans uitlander. Also cognate with German Ausländer, Swedish utlänning and Danish udlænding.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outlandish": {
     "a": {
@@ -81245,7 +82029,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outlawry": {
     "n": {
@@ -81325,7 +82109,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outlayer": {
     "n": {
@@ -81380,7 +82164,7 @@
       "origin": "From Middle English outleden (“to lead out”), from Old English ūtlǣdan (“to lead or bring out”), from ūt- (“out”) + lǣdan (“to lead”). Equivalent to out- + lead.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outleap": {
     "n": {
@@ -81437,7 +82221,7 @@
       "origin": "From out- + leap.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outleaping": {
     "n": {
@@ -81461,7 +82245,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outlet": {
     "n": {
@@ -81578,7 +82362,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outline": {
     "n": {
@@ -81692,7 +82476,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outlined": {
     "a": {
@@ -81773,7 +82557,7 @@
       "origin": "table\nFrom out + look. Perhaps influenced by Chinese 外表 (literally “outside + surface”) and English look (“appearance”). Same etymology as Cantonese outlook.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outlung": {
     "n": {
@@ -81815,7 +82599,7 @@
       "origin": "From outlie (Etymology 2) + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outmaneuver": {
     "v": {
@@ -82384,7 +83168,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "output contract": {
     "n": {
@@ -82477,7 +83261,7 @@
       "origin": "output + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outrage": {
     "n": {
@@ -82826,7 +83610,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outreaching": {
     "a": {
@@ -82922,7 +83706,7 @@
       "origin": "From Middle English outridere.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outrigged": {
     "a": {
@@ -83188,7 +83972,7 @@
       "origin": "out- + root",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outrooting": {
     "n": {
@@ -83217,7 +84001,7 @@
       "origin": "out- + row",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outrun": {
     "v": {
@@ -83357,6 +84141,14 @@
     },
     "isAnglish": false
   },
+  "outscrape": {
+    "v": {
+      "senses": [],
+      "origin": "From out- + scrape, or possibly continuing Middle English outscrapen (“to remove, erase”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outseed": {
     "v": {
       "senses": [
@@ -83368,6 +84160,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "outseek": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outseken, equivalent to out- + seek. Cognate with Saterland Frisian uutsäike, West Frisian útsykje (“to seek out”), Dutch uitzoeken (“to pick, sort out, investigate”), German Low German utsöken, German aussuchen (“to choose, select, pick out”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -83434,7 +84234,12 @@
       "origin": "From Middle English outsenden, equivalent to out- + send. Cognate with Dutch uitzenden (“to broadcast, emit, transmit”), German aussenden (“to emit, send out”), Swedish utsända (“to broadcast”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English outsenden, equivalent to out- + send. Cognate with Dutch uitzenden (“to broadcast, emit, transmit”), German aussenden (“to emit, send out”), Swedish utsända (“to broadcast”).",
+      "sounds": []
+    }
   },
   "outsene": {
     "n": {
@@ -83483,7 +84288,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outshine": {
     "v": {
@@ -83534,7 +84339,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outshout": {
     "v": {
@@ -83573,6 +84378,51 @@
     },
     "isAnglish": true
   },
+  "outshow": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outschewen, equivalent to out- + show. Compare German ausschauen (“to look, appear; to look out”).",
+      "sounds": [
+        {
+          "ipa": "/aʊtˈʃəʊ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/aʊtˈʃoʊ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-əʊ"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English outschewen, equivalent to out- + show. Compare German ausschauen (“to look, appear; to look out”).",
+      "sounds": [
+        {
+          "ipa": "/aʊtˈʃəʊ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/aʊtˈʃoʊ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-əʊ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "outshut": {
     "v": {
       "senses": [
@@ -83592,7 +84442,7 @@
       "origin": "out- + shut",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outside": {
     "a": {
@@ -83869,7 +84719,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outside caliper": {
     "n": {
@@ -83914,7 +84764,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outside marriage": {
     "r": {
@@ -83971,7 +84821,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outsider art": {
     "n": {
@@ -83984,7 +84834,7 @@
       "origin": "Coined by art critic Roger Cardinal in 1972.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outsight": {
     "n": {
@@ -83999,7 +84849,7 @@
       "origin": "From out- + sight. Cognate with Dutch uitzicht (“view, prospect, outlook”), German Aussicht (“view, prospect, chance, outlook, perspective”), Swedish utsikt (“view, outlook, prospect”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outsize": {
     "a": {
@@ -84076,7 +84926,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outskirts": {
     "n": {
@@ -84111,7 +84961,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outsmart": {
     "v": {
@@ -84157,7 +85007,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outsole": {
     "n": {
@@ -84171,6 +85021,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "outsound": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outsounen, outsownen, equivalent to out- + sound.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "outsource": {
     "v": {
@@ -84231,7 +85089,7 @@
       "origin": "out + span. Compare Afrikaans uitspan.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outspeak": {
     "v": {
@@ -84250,6 +85108,14 @@
         }
       ],
       "origin": "From out- + speak. Cognate with Scots outspeak (“to declare, utter, speak out”), Dutch uitspreken (“to pronounce, outspeak”), German aussprechen (“to express, pronounce”).",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "outspeed": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outspeden (“to hurry out; hasten away; succeed”), equivalent to out- + speed.",
       "sounds": []
     },
     "isAnglish": true
@@ -84285,7 +85151,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outspokenly": {
     "r": {
@@ -84331,7 +85197,7 @@
       "origin": "From Middle English outspreden, equivalent to out- + spread. Cognate with Dutch uitspreiden (“to outspread, stretch, unfold”), Danish udsprede (“to outspread”), Swedish utspridda (“to outspread”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outspring": {
     "n": {
@@ -84370,6 +85236,23 @@
       "origin": "Verb: from Middle English outspringen, equal to out- + spring.",
       "sounds": []
     },
+    "isAnglish": true,
+    "v": {
+      "senses": [],
+      "origin": "Verb: from Middle English outspringen, equal to out- + spring.",
+      "sounds": []
+    }
+  },
+  "outstand": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outstanden, utstanden, equivalent to out- + stand. Cognate with Saterland Frisian uutstounde (“to bear, tolerate”), Dutch uitstaan (“to abide, suffer, dree”), German ausstehen (“to stand, endure, abide”), Swedish utstå (“to suffer, endure, pass through”).",
+      "sounds": [
+        {
+          "rhymes": "-ænd"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "outstander": {
@@ -84388,7 +85271,7 @@
       "origin": "From outstand + -er.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outstanding": {
     "a": {
@@ -84423,7 +85306,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outstandingly": {
     "r": {
@@ -84515,7 +85398,7 @@
       "origin": "out- + steam",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outstelling": {
     "n": {
@@ -84541,7 +85424,7 @@
       "origin": "From out- + step.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outstreal": {
     "v": {
@@ -84554,6 +85437,21 @@
         }
       ],
       "origin": "cf. NHG ausstrahlen"
+    },
+    "isAnglish": true
+  },
+  "outstretch": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outstrecchen, equivalent to out- + stretch. Cognate with West Frisian útstreekje (“to outstretch”), Dutch uitstrekken (“to outstretch”), German Low German utstrecken (“to outstretch”), German ausstrecken (“to outstretch”), Danish udstrække (“to outstretch”), Swedish utsträcka (“to outstretch”).",
+      "sounds": [
+        {
+          "ipa": "/aʊtˈstɹɛt͡ʃ/"
+        },
+        {
+          "rhymes": "-ɛtʃ"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -84676,6 +85574,14 @@
     },
     "isAnglish": false
   },
+  "outsweat": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outsweten, equivalent to out- + sweat.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outswettling": {
     "n": {
       "senses": [
@@ -84703,7 +85609,7 @@
       "origin": "out- + swim",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outtake": {
     "n": {
@@ -84750,7 +85656,7 @@
       "origin": "out- + thrust.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outthrutch": {
     "v": {
@@ -84805,7 +85711,7 @@
       "origin": "out- + trade",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outturn": {
     "n": {
@@ -85264,7 +86170,7 @@
       "origin": "out + way",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outwear": {
     "v": {
@@ -85292,7 +86198,7 @@
       "origin": "out- + wear",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "outweigh": {
     "v": {
@@ -85428,6 +86334,14 @@
     },
     "isAnglish": true
   },
+  "outwin": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outwinnen, equivalent to out- + win.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outwindow": {
     "v": {
       "senses": [
@@ -85483,6 +86397,57 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/LL-Q1860_%28eng%29-Vealhurl-outwit.wav/LL-Q1860_%28eng%29-Vealhurl-outwit.wav.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/LL-Q1860_%28eng%29-Vealhurl-outwit.wav/LL-Q1860_%28eng%29-Vealhurl-outwit.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "outwith": {
+    "p": {
+      "senses": [],
+      "origin": "From Middle English outwith, outewith, a transposed variant of Middle English withoute (“without”); equivalent to out + with. Cognate to Scots ootwi.",
+      "sounds": [
+        {
+          "ipa": "/aʊtˈwɪð/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/aʊtˈwɪθ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɪð"
+        },
+        {
+          "rhymes": "-ɪθ"
+        }
+      ]
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English outwith, outewith, a transposed variant of Middle English withoute (“without”); equivalent to out + with. Cognate to Scots ootwi.",
+      "sounds": [
+        {
+          "ipa": "/aʊtˈwɪð/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/aʊtˈwɪθ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɪð"
+        },
+        {
+          "rhymes": "-ɪθ"
         }
       ]
     },
@@ -85602,7 +86567,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [],
       "origin": null
@@ -85623,6 +86588,18 @@
       ],
       "origin": "From out- + wrest.",
       "sounds": []
+    },
+    "isAnglish": false
+  },
+  "outwrite": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English outwriten (“to transcribe; write out”); equivalent to out- + write.",
+      "sounds": [
+        {
+          "homophone": "outright"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -86282,7 +87259,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oven-shaped": {
     "a": {
@@ -86513,14 +87490,14 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over against": {
     "p": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over and above": {
     "r": {
@@ -86531,7 +87508,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over and done": {
     "n": {
@@ -86554,7 +87531,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over and over again": {
     "r": {
@@ -86576,7 +87553,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over here": {
     "r": {
@@ -86588,7 +87565,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over the counter security": {
     "n": {
@@ -86637,7 +87614,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "over-burned lime": {
     "n": {
@@ -86677,6 +87654,14 @@
           "synset": "13967799-n"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "over-cruel": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overcruel, equivalent to over- + cruel.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -86834,6 +87819,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "overabound": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overabounden, equivalent to over- + abound.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "overabundance": {
@@ -86854,7 +87847,7 @@
       "origin": "From Middle English overaboundaunce, equivalent to over- + abundance.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overabundant": {
     "a": {
@@ -86870,7 +87863,7 @@
       "origin": "From Middle English overaboundaunt, equivalent to over- + abundant.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overachieve": {
     "v": {
@@ -87090,7 +88083,7 @@
       "origin": "From Middle English overaged, equivalent to over- + aged.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overall": {
     "a": {
@@ -87294,7 +88287,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overambitious": {
     "a": {
@@ -87576,7 +88569,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overbeard": {
     "n": {
@@ -87586,6 +88579,14 @@
         }
       ],
       "origin": "cf. NL snor, NHG Schnurrbart"
+    },
+    "isAnglish": true
+  },
+  "overbearer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overberere, equivalent to overbear + -er.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -87610,7 +88611,7 @@
       "origin": "From overbear (“to bear down (on)”) + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overbearingly": {
     "r": {
@@ -87877,6 +88878,22 @@
     },
     "isAnglish": false
   },
+  "overbiting": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overbiting, equivalent to overbite + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overbitterly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English overbitterli, equivalent to overbitter + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overblow": {
     "v": {
       "senses": [
@@ -87927,7 +88944,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overboard": {
     "r": {
@@ -88064,7 +89081,12 @@
       "origin": "From Middle English *overbreken, from Old English oferbrecan (“to transgress, violate”), equivalent to over- + break.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English *overbreken, from Old English oferbrecan (“to transgress, violate”), equivalent to over- + break.",
+      "sounds": []
+    }
   },
   "overbrim": {
     "v": {
@@ -88079,7 +89101,7 @@
       "origin": "over- + brim",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overbrimming": {
     "a": {
@@ -88107,7 +89129,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overbring": {
     "v": {
@@ -88187,7 +89209,7 @@
       "origin": "From over- + burden.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overburdened": {
     "a": {
@@ -88212,6 +89234,14 @@
     },
     "isAnglish": false
   },
+  "overbusily": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English overbisili, equivalent to overbusy + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overbusy": {
     "a": {
       "senses": [
@@ -88223,7 +89253,7 @@
       "origin": "From Middle English overbisi, equivalent to over- + busy.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overcall": {
     "n": {
@@ -88456,6 +89486,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overcark": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overcarken, equivalent to over- + cark (“to worry”). More at over-, cark.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overcarry": {
+    "v": {
+      "senses": [],
+      "origin": "Middle English overcarien, equivalent to over- + carry.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overcast": {
     "a": {
@@ -88758,7 +89804,15 @@
       "origin": "From Middle English overchargen, equivalent to over- + charge.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "overcharging": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overcharging, equivalent to overcharge + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overcheapstow": {
     "n": {
@@ -88805,6 +89859,19 @@
     },
     "isAnglish": false
   },
+  "overclose": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overclose, equivalent to over- + close (adjective).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overclosen, equivalent to over- + close (verb).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overclothe": {
     "v": {
       "senses": [
@@ -88819,7 +89886,7 @@
       "origin": "From Middle English overclothen, equivalent to over- + clothe.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overclothes": {
     "n": {
@@ -88833,6 +89900,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overclothing": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overclothing, equivalent to overclothe + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overcloud": {
     "v": {
@@ -88920,6 +89995,14 @@
     },
     "isAnglish": false
   },
+  "overcold": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overcold, equivalent to over- + cold.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overcome": {
     "v": {
       "form": [
@@ -89004,6 +90087,14 @@
     },
     "isAnglish": true
   },
+  "overcomeable": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overcomabylle, equivalent to overcome + -able.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overcomer": {
     "n": {
       "senses": [
@@ -89018,7 +90109,7 @@
       "origin": "From Middle English overcomere, equivalent to overcome + -er.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overcompensate": {
     "v": {
@@ -89166,6 +90257,14 @@
     },
     "isAnglish": false
   },
+  "overcover": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overcoveren, equivalent to over- + cover.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overcredulity": {
     "n": {
       "senses": [
@@ -89246,6 +90345,24 @@
     },
     "isAnglish": false
   },
+  "overcross": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overcrossen, equivalent to over- + cross.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overcrossen, equivalent to over- + cross.",
+      "sounds": []
+    },
+    "p": {
+      "senses": [],
+      "origin": "From Middle English overcrossen, equivalent to over- + cross.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overcrossing": {
     "n": {
       "senses": [
@@ -89297,6 +90414,14 @@
       ],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "overcruel": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overcruel, equivalent to over- + cruel.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "overcultivate": {
@@ -89339,6 +90464,27 @@
     },
     "isAnglish": false
   },
+  "overdear": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English *overdere (suggested by Middle English overdere (“too expensively, at too great a cost”, adverb)), equivalent to over- + dear.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overdede": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overdede, equivalent to over- + deed.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overdede, equivalent to over- + deed.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overdeedy": {
     "a": {
       "senses": [
@@ -89364,7 +90510,15 @@
       "origin": "From Middle English overdelicat, equivalent to over- + delicate.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "overdelicately": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English overdelicatli, equivalent to overdelicate + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overdo": {
     "v": {
@@ -89439,7 +90593,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overdone": {
     "a": {
@@ -89532,7 +90686,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overdose": {
     "v": {
@@ -89867,7 +91021,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overdriving": {
     "n": {
@@ -89968,6 +91122,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "overeagerly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English overegreli, ouer egirly, equivalent to overeager + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overeat": {
     "v": {
@@ -90120,6 +91282,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overengrossed": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overengrossed, equivalent to over- + engrossed.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overenthusiastic": {
     "a": {
@@ -90705,7 +91875,7 @@
       "origin": "over- + fat",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overfathom": {
     "v": {
@@ -90745,7 +91915,7 @@
       "origin": "over- + fearful",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overfearfulness": {
     "n": {
@@ -90756,7 +91926,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overfed": {
     "a": {
@@ -90770,6 +91940,27 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overfeeble": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overfeble; equivalent to over- + feeble.",
+      "sounds": [
+        {
+          "ipa": "/oʊvɚˈfiːbəl/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/əʊvəˈfiːbəl/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "overfeed": {
     "v": {
@@ -91236,7 +92427,7 @@
       "origin": "Inherited from Middle English overgarment; equivalent to over- + garment.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overgeneralise": {
     "v": {
@@ -91291,6 +92482,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overget": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overgeten; equivalent to over- + get. Cognate with Scots overget (“to overtake”). Compare Old English oferġietan (“to forget, disregard, neglect”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overgild": {
     "v": {
@@ -91356,7 +92555,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overgo": {
     "v": {
@@ -91413,6 +92612,14 @@
     },
     "isAnglish": true
   },
+  "overgoer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overgoer, from overgon, equivalent to overgo + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overgome": {
     "v": {
       "senses": [
@@ -91446,6 +92653,14 @@
     },
     "isAnglish": false
   },
+  "overgreat": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overgrete; equivalent to over- + great.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overgreedy": {
     "a": {
       "senses": [
@@ -91455,6 +92670,14 @@
         }
       ],
       "origin": "From Middle English *overgredy, from Old English ofergrǣdiġ (“overgreedy, too covetous”), equivalent to over- + greedy.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overgrievous": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ovyr-grevous; equivalent to over- + grievous.",
       "sounds": []
     },
     "isAnglish": true
@@ -91582,6 +92805,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "overhale": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overhalen, equivalent to over- + hale. Cognate with Dutch overhalen, Danish overhale, Swedish överhala.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -92061,7 +93292,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overhauling": {
     "n": {
@@ -92072,7 +93303,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overhave": {
     "v": {
@@ -92396,7 +93627,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overhead press": {
     "n": {
@@ -92438,6 +93669,14 @@
       "senses": [],
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "overheal": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overhelen, equivalent to over- + heal (“to cover”).",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "overhealing": {
@@ -92454,6 +93693,14 @@
         }
       ],
       "origin": "over- + healing",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "overheap": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overhepen (“to give overabundantly; exaggerate”), equivalent to over- + heap.",
       "sounds": []
     },
     "isAnglish": true
@@ -92573,7 +93820,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overheated": {
     "a": {
@@ -92641,6 +93888,14 @@
         }
       ],
       "origin": "From Old English [Term?].",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overhip": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overhippen, equivalent to over- + hip (“to hop”).",
       "sounds": []
     },
     "isAnglish": true
@@ -92715,6 +93970,19 @@
         }
       ],
       "origin": "From Middle English overholden, from Old English oferhealdan (“to overcome, overtake, hold over, delay to do, neglect”), from Proto-Germanic *uber (“over”) + *haldaną (“to hold”), equivalent to over- + hold. Cognate with Dutch overhouden (“to hang on, hold over, save”), German überhalten (“to hold on to, keep”), Danish overholde (“to observe”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overhope": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overhope, oferhope, equivalent to over- + hope.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overhope, oferhope, equivalent to over- + hope.",
       "sounds": []
     },
     "isAnglish": true
@@ -92830,7 +94098,7 @@
       "origin": "From Middle English overgelous, equivalent to over- + jealous.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overjoy": {
     "v": {
@@ -92970,6 +94238,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/LL-Q1860_%28eng%29-Rho9998-overking.wav/LL-Q1860_%28eng%29-Rho9998-overking.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "overlade": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overladen, equivalent to over- + lade. Cognate with Dutch overladen (“to overlade, overload”), German überladen (“to overload, overburden”), Swedish överladda (“to overload, overcharge”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -93250,7 +94526,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overlarge": {
     "a": {
@@ -93426,7 +94702,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overlayer": {
     "n": {
@@ -93462,7 +94738,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overlead": {
     "v": {
@@ -93660,7 +94936,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overlight": {
     "v": {
@@ -93684,6 +94960,32 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/LL-Q1860_%28eng%29-Vealhurl-overlight-a-v.wav/LL-Q1860_%28eng%29-Vealhurl-overlight-a-v.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From Middle English over-lyght, equivalent to over- + light.",
+      "sounds": [
+        {
+          "ipa": "/ˌəʊvə(ɹ)ˈlaɪt/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-overlight-a-v.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/LL-Q1860_%28eng%29-Vealhurl-overlight-a-v.wav/LL-Q1860_%28eng%29-Vealhurl-overlight-a-v.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/LL-Q1860_%28eng%29-Vealhurl-overlight-a-v.wav/LL-Q1860_%28eng%29-Vealhurl-overlight-a-v.wav.mp3"
+        }
+      ]
+    }
+  },
+  "overlightly": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English overlyghtly, over-lightly, equivalent to over- + lightly.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -93752,7 +95054,7 @@
       "origin": "From Middle English overlippe, equivalent to over- + lip.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overlive": {
     "v": {
@@ -93924,7 +95226,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overloaded": {
     "a": {
@@ -94155,7 +95457,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overlord": {
     "n": {
@@ -94202,7 +95504,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overlordship": {
     "n": {
@@ -94218,7 +95520,7 @@
       "origin": "overlord + -ship",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overlove": {
     "v": {
@@ -94230,7 +95532,7 @@
       "origin": "From over- + love. Compare Old English oferlufu (“excessive love”, noun).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overloving": {
     "n": {
@@ -94274,7 +95576,7 @@
       "origin": "over + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overly over": {
     "a": {
@@ -94323,7 +95625,7 @@
       "origin": "Calque of German Übermensch",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "a": {
       "senses": [
         {
@@ -94345,6 +95647,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overmany": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English over-many, overmany, ovyrmany; equivalent to over- + many. Compare overmuch.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overmaster": {
     "v": {
@@ -94369,6 +95679,45 @@
       ]
     },
     "isAnglish": false
+  },
+  "overmatch": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overmacchen, equivalent to over- + match.",
+      "sounds": [
+        {
+          "ipa": "/ˌəʊvə(ɹ)ˈmætʃ/",
+          "tags": [
+            "verb"
+          ]
+        },
+        {
+          "ipa": "/ˈəʊvə(ɹ)ˌmætʃ/",
+          "tags": [
+            "noun"
+          ]
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overmacchen, equivalent to over- + match.",
+      "sounds": [
+        {
+          "ipa": "/ˌəʊvə(ɹ)ˈmætʃ/",
+          "tags": [
+            "verb"
+          ]
+        },
+        {
+          "ipa": "/ˈəʊvə(ɹ)ˌmætʃ/",
+          "tags": [
+            "noun"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "overmean": {
     "a": {
@@ -94397,7 +95746,7 @@
       "origin": "over- + mind",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overmindle": {
     "a": {
@@ -94429,7 +95778,7 @@
       "origin": "over- + mist",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overmisted": {
     "a": {
@@ -94525,6 +95874,14 @@
       "origin": "From over- + moody.",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "overmore": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English overmore; equivalent to over + more. Compare overmuch.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "overmorrow": {
@@ -94600,7 +95957,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overmother": {
     "n": {
@@ -94663,7 +96020,7 @@
       "origin": "overmuch + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overname": {
     "v": {
@@ -94678,7 +96035,7 @@
       "origin": "over- + name",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overnaught": {
     "a": {
@@ -94827,7 +96184,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overnight case": {
     "n": {
@@ -95068,7 +96425,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overplus": {
     "n": {
@@ -95299,7 +96656,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "overpraising": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overpreisung, ouerpreisunge, equivalent to overpraise + -ing.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overpressure": {
     "n": {
@@ -95612,6 +96977,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "overput": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overputten, equivalent to over- + put.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overquell": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overquellen, equivalent to over- + quell.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "overrate": {
     "v": {
@@ -96187,7 +97568,7 @@
       "origin": "over- + ripe",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overrule": {
     "v": {
@@ -96365,7 +97746,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overrunner": {
     "n": {
@@ -96377,7 +97758,7 @@
       "origin": "overrun + -er",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overrush": {
     "v": {
@@ -96429,7 +97810,7 @@
       "origin": "over- + say",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oversea": {
     "a": {
@@ -96734,7 +98115,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overself": {
     "n": {
@@ -97084,7 +98465,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overshoot": {
     "n": {
@@ -97301,7 +98682,7 @@
       "origin": "From over- + show.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overside": {
     "r": {
@@ -97318,7 +98699,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oversight": {
     "n": {
@@ -97382,7 +98763,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oversimplification": {
     "n": {
@@ -97634,7 +99015,7 @@
       "origin": "over- + soon",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oversoothe": {
     "v": {
@@ -97659,6 +99040,19 @@
         }
       ],
       "origin": "cf. NHG überprüfen"
+    },
+    "isAnglish": true
+  },
+  "oversour": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English oversour, equivalent to over- + sour.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English oversour, equivalent to over- + sour.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -97893,6 +99287,14 @@
     },
     "isAnglish": true
   },
+  "overspring": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English overspringen, equivalent to over- + spring. Compare Dutch overspringen, German überspringen.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overspringed": {
     "a": {
       "senses": [],
@@ -97959,7 +99361,7 @@
       "origin": "Blend of over + understand, coined in Rastafarianism before 1965.",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [],
       "origin": "From Middle English overstonden, from Old English oferstandan (“to stand over”), equivalent to over- + stand. Cognate with Dutch overstaan (“to stand over”), German überstehen (“to stand through, survive”).",
@@ -98298,7 +99700,7 @@
       "origin": "From over- + strain.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overstress": {
     "v": {
@@ -98335,7 +99737,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overstrung": {
     "a": {
@@ -98487,7 +99889,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oversupply": {
     "n": {
@@ -98775,7 +100177,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overtaking": {
     "n": {
@@ -98892,6 +100294,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/En-us-overthink.ogg/En-us-overthink.ogg.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "overthoughtful": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overthoughtful, over thouʒtful, equivalent to over- + thoughtful.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -99048,7 +100458,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overthrowing": {
     "n": {
@@ -99167,6 +100577,41 @@
         }
       ]
     },
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overthwart, overthwert, overtwert, overquert, overwhart, equivalent to over- + thwart. Compare Dutch overdwaars (“across”), Danish overtvært (“across”).",
+      "sounds": [
+        {
+          "ipa": "/əʊvəˈθwɔːt/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    }
+  },
+  "overthwartly": {
+    "r": {
+      "senses": [
+        {
+          "synset": "00249338-r"
+        },
+        {
+          "synset": "00249448-r"
+        }
+      ],
+      "origin": "From Middle English overthwertly; equivalent to overthwart + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "overthwartness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English overþwartnes, overthwartnes; equivalent to overthwart + -ness.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "overtime": {
@@ -99253,7 +100698,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overtime period": {
     "n": {
@@ -99306,7 +100751,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overtly": {
     "r": {
@@ -99429,7 +100874,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overtread": {
     "v": {
@@ -99725,7 +101170,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overturned": {
     "a": {
@@ -100062,7 +101507,7 @@
       "origin": "over- + watch",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overwatcher": {
     "n": {
@@ -100076,7 +101521,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overway": {
     "n": {
@@ -100392,7 +101837,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overwend": {
     "v": {
@@ -100550,7 +101995,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overwhelmingly": {
     "r": {
@@ -100699,6 +102144,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "overwise": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English overe-wyse, over wise, equivalent to over- + wise.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "overwon": {
@@ -100741,7 +102194,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overwork": {
     "n": {
@@ -100961,7 +102414,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overwrought": {
     "a": {
@@ -100990,7 +102443,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "overzeal": {
     "n": {
@@ -101876,7 +103329,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ower": {
     "n": {
@@ -101894,7 +103347,22 @@
       "origin": "From Middle English owere, oȝere, awer, equivalent to owe + -er.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "p": {
+      "senses": [],
+      "origin": "From Middle English ower, a variant of Middle English over. Compare Scots ower (“over”), English o'er (“over”). More at over.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English ower, a variant of Middle English over. Compare Scots ower (“over”), English o'er (“over”). More at over.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English ower, a variant of Middle English over. Compare Scots ower (“over”), English o'er (“over”). More at over.",
+      "sounds": []
+    }
   },
   "owhere": {
     "r": {
@@ -101960,14 +103428,14 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "owing to": {
     "p": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "owings": {
     "n": {
@@ -101984,7 +103452,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "owl": {
     "n": {
@@ -102063,7 +103531,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "owlet": {
     "n": {
@@ -102242,7 +103710,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "own flesh": {
     "n": {
@@ -102272,7 +103740,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "own up": {
     "v": {
@@ -102297,7 +103765,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ownborn": {
     "a": {
@@ -102339,7 +103807,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "owned": {
     "a": {
@@ -102417,7 +103885,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "owner's equity": {
     "n": {
@@ -102540,7 +104008,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ownhood": {
     "n": {
@@ -102580,7 +104048,7 @@
       "origin": "owning + -s",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ownname": {
     "n": {
@@ -102637,7 +104105,7 @@
       ],
       "origin": "<ME evene, even ?<ON efni"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ownspeak": {
     "n": {
@@ -102832,7 +104300,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ox-eyed": {
     "a": {
@@ -102855,7 +104323,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oxacillin": {
     "n": {
@@ -103099,7 +104567,7 @@
       "origin": "ox + blood",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oxblood red": {
     "n": {
@@ -103144,7 +104612,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oxbow lake": {
     "n": {
@@ -103156,7 +104624,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "oxcart": {
     "n": {
@@ -103222,6 +104690,14 @@
     },
     "isAnglish": true
   },
+  "oxes": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oxes, alternative plural of oxe; equivalent to ox + -s.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "oxeye": {
     "n": {
       "senses": [
@@ -103258,6 +104734,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "oxflesh": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oxeflesch, equivalent to ox + flesh.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "oxford": {
     "n": {
@@ -104849,6 +106333,18 @@
     },
     "isAnglish": false
   },
+  "oy vey": {
+    "x": {
+      "senses": [],
+      "origin": "From Yiddish אוי וויי (oy vey, literally “oh woe”), from Middle High German ōwē, from ō + wē, the latter being from Old High German wē, from Proto-Germanic *wai, from Proto-Indo-European *wai. Cognate with German o weh, Dutch oh wee, Latin vae, and Esperanto ho ve.",
+      "sounds": [
+        {
+          "ipa": "/ɔɪ̯ veɪ̯/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "oyabun": {
     "n": {
       "senses": [
@@ -104861,6 +106357,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "oyer and terminer": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English oier and terminer, oyer and termyner, from Anglo-Norman oyer (“hear”) and terminer (“determine”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "oyster": {
     "n": {

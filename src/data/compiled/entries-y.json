@@ -162,7 +162,7 @@
       "origin": "In radio sense: short for young lady.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "YMCF": {
     "n": {
@@ -1735,7 +1735,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Yorkshire fog": {
     "n": {
@@ -2511,7 +2511,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Yulemonth": {
     "n": {
@@ -3116,7 +3116,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yack away": {
     "v": {
@@ -3151,7 +3151,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yagi": {
     "n": {
@@ -3406,7 +3406,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yam bean": {
     "n": {
@@ -3531,7 +3531,7 @@
       ],
       "origin": "from Northumbrian yan and doing a recount while using old ways to say numbers or dialectal ways to make up for those numbers"
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "x": {
       "senses": [],
       "origin": "From Brythonic numerals, with influence from Old English ān or modern Northern English yan or yen.",
@@ -3670,6 +3670,45 @@
       ]
     },
     "isAnglish": false
+  },
+  "yanqui": {
+    "n": {
+      "senses": [],
+      "origin": "From Spanish, in turn from English Yankee, from Dutch (see more at said entry). Dated to 1914.",
+      "sounds": [
+        {
+          "ipa": "/ˈjaŋkɪ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˈjæŋki/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/ˈjɑŋki/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-æŋki"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Persent101-yanqui.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/LL-Q1860_%28eng%29-Persent101-yanqui.wav/LL-Q1860_%28eng%29-Persent101-yanqui.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/LL-Q1860_%28eng%29-Persent101-yanqui.wav/LL-Q1860_%28eng%29-Persent101-yanqui.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "yap": {
     "n": {
@@ -3940,7 +3979,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yard bird": {
     "n": {
@@ -3956,7 +3995,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yard donkey": {
     "n": {
@@ -3967,7 +4006,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yard goods": {
     "n": {
@@ -3979,7 +4018,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yard grass": {
     "n": {
@@ -4049,7 +4088,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yard-long bean": {
     "n": {
@@ -4294,7 +4333,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yardstick taproom": {
     "n": {
@@ -4395,7 +4434,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "r": {
       "senses": [],
       "origin": "From Middle English yare, ȝare, from Old English ġearu (“prepared, ready, prompt, equipped, complete, finished, yare”), from Proto-West Germanic *garu, from Proto-Germanic *garwaz (“ready”).\nCognate with Dutch gaar (“done, well-cooked”), German gar (“done, well-cooked; wholly, at all”), Icelandic görr, gerr (“perfect”).",
@@ -4606,7 +4645,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yarm": {
     "v": {
@@ -4643,6 +4682,27 @@
         }
       ],
       "origin": "From Middle English ȝarmen, ȝermen, from Old English ġyrman, ġierman (“to cry, mourn, cry out, roar, lament”), of uncertain origin. Perhaps from Proto-West Germanic *jarmijan, from Proto-Germanic *jarmijaną, *jarmōną (“to bellow, bleat”). Cognate with Scots yirm (“to whine, wail”), dialectal Danish jærme (“to lament, shriek”), dialectal Norwegian jerme (“to bleat”), dialectal Swedish jarma (“to lament, shriek”), Icelandic jarma (“to whine, complain, bleat”). Compare Albanian jerm (“to rave, be delirious”). Compare English yammer.",
+      "sounds": [
+        {
+          "ipa": "/jɑː(ɹ)m/"
+        },
+        {
+          "rhymes": "-ɑː(ɹ)m"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-yarm.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/LL-Q1860_%28eng%29-Vealhurl-yarm.wav/LL-Q1860_%28eng%29-Vealhurl-yarm.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/LL-Q1860_%28eng%29-Vealhurl-yarm.wav/LL-Q1860_%28eng%29-Vealhurl-yarm.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ȝarm, from ȝarmen.",
       "sounds": [
         {
           "ipa": "/jɑː(ɹ)m/"
@@ -4932,7 +4992,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yarse": {
     "n": {
@@ -5019,7 +5079,7 @@
       "origin": "Unknown",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yateward": {
     "n": {
@@ -5054,6 +5114,14 @@
         }
       ],
       "origin": "OE, geatwe/geatu"
+    },
+    "isAnglish": true
+  },
+  "yaud": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English [Term?]. Originally used to mean \"mare\", then \"old mare\". From Old Norse jalda (“mare”), from a Uralic language, such as Moksha эльде (eľďe) or Erzya эльде (eľďe).\nThis term influenced and was influenced by jade, but is considered etymologically distinct by some references, while others consider the two terms to be variants of one another.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -5622,7 +5690,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yaws": {
     "n": {
@@ -5695,7 +5763,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yclept": {
     "a": {
@@ -5858,12 +5926,37 @@
       "origin": "From Russian е (je).",
       "sounds": []
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "x": {
       "senses": [],
       "origin": "Shortened from yes or yeah.",
       "sounds": []
     }
+  },
+  "ye olde": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English ye olde, a spelling variant of þe olde (literally “the old”).",
+      "sounds": [
+        {
+          "ipa": "/ðiː əʊld/",
+          "note": "properly"
+        },
+        {
+          "ipa": "/ði oʊld/",
+          "note": "properly"
+        },
+        {
+          "ipa": "/jiː əʊld(i)/",
+          "note": "commonly"
+        },
+        {
+          "ipa": "/ji oʊld/",
+          "note": "commonly"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "yea": {
     "n": {
@@ -6009,7 +6102,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeadear": {
     "a": {
@@ -6261,7 +6354,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "year dot": {
     "n": {
@@ -6283,7 +6376,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "year of grace": {
     "n": {
@@ -6295,6 +6388,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "year of our Lord": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yere of our lord.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "year's mind": {
     "n": {
@@ -6321,7 +6422,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "year-bookings": {
     "n": {
@@ -6355,7 +6456,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "year-fivescore": {
     "n": {
@@ -6368,6 +6469,27 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "year-old": {
+    "a": {
+      "senses": [],
+      "origin": "The combining form -year-old dates from Middle English (ȝeer old(e), yeer old(e), yere old(e)).",
+      "sounds": [
+        {
+          "enpr": "yîrʹōld"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "The combining form -year-old dates from Middle English (ȝeer old(e), yeer old(e), yere old(e)).",
+      "sounds": [
+        {
+          "enpr": "yîrʹōld"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -6384,7 +6506,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yearbook": {
     "n": {
@@ -6411,7 +6533,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yearday": {
     "n": {
@@ -6440,6 +6562,14 @@
     "n": {
       "senses": [],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "yearend": {
+    "n": {
+      "senses": [],
+      "origin": "Likely altered from year's end, from Middle English yeres ende, equivalent to year + end.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -6496,7 +6626,7 @@
       "origin": "From year + hundred. Compare Scots yeirhunder (“century”), Saterland Frisian Jierhunnert (“century”), German Jahrhundert (“century”), Danish århundrede (“century”), Swedish århundrade (“century”), Norwegian århundre (“century”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yearling": {
     "n": {
@@ -6517,7 +6647,7 @@
       "origin": "From Middle English yerling, yerlyng, equivalent to year + -ling. Cognate with Dutch jaarling (“yearling”), German Jährling (“yearling”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yearlong": {
     "a": {
@@ -6983,7 +7113,7 @@
       "origin": "From yearn + -some.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "years": {
     "n": {
@@ -7119,14 +7249,14 @@
       "origin": "From year + thousand. Compare Dutch jaarduizend (“millennium”), German Jahrtausend (“millennium”), Norwegian årtusen (“millennium”), Icelandic árþúsund (“millennium”), Swedish årtusende (“millennium”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yearthousands": {
     "n": {
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yearthree": {
     "n": {
@@ -7154,7 +7284,7 @@
       "origin": "From year + tide (“time, occasion”). Compare West Frisian jiertiid (“season”), Dutch jaartijd, jaargetijde (“season”), German Jahreszeit (“season”), Swedish årstid (“season”), Icelandic árstíð (“season”), Yiddish יאָרצײַט (yortsayt). Doublet of yahrzeit.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeartime": {
     "n": {
@@ -7172,7 +7302,7 @@
       "origin": "From year + time. Compare Dutch jaartijd, jaargetijde (“season”), German Jahreszeit (“season, time of year”), Swedish årstid (“season”), English yeartide.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeasay": {
     "v": {
@@ -7187,7 +7317,7 @@
       "origin": "yea + say",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeasayer": {
     "n": {
@@ -7221,7 +7351,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeasaying": {
     "n": {
@@ -7308,7 +7438,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yeast dough": {
     "n": {
@@ -7576,7 +7706,7 @@
       "origin": "From Middle English eorþien (“to bury, dig”), from eorþe (“earth”). Influenced or conflated with Middle English eardien (“to dwell, inhabit”), from Old English eardian (“to live, dwell, be inhabitant, occupy”). More at earth.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yedding": {
     "n": {
@@ -7631,7 +7761,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeek": {
     "n": {
@@ -7809,6 +7939,14 @@
     },
     "isAnglish": true
   },
+  "yeepsen": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yespon, ȝespon, ȝespen, ȝispon (“a measure of volume equivalent to that contained in a person’s hands cupped together”). See yepsen for more.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "yeet": {
     "v": {
       "senses": [
@@ -7944,7 +8082,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yell": {
     "n": {
@@ -8109,7 +8247,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellow": {
     "a": {
@@ -8609,7 +8747,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow berry": {
     "n": {
@@ -8632,7 +8770,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow birch": {
     "n": {
@@ -8644,7 +8782,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow bone marrow": {
     "n": {
@@ -8678,7 +8816,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow bristlegrass": {
     "n": {
@@ -8832,7 +8970,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow dwarf of potato": {
     "n": {
@@ -8865,7 +9003,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow flag": {
     "n": {
@@ -8877,7 +9015,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow foxglove": {
     "n": {
@@ -8899,7 +9037,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellow giant hyssop": {
     "n": {
@@ -8991,7 +9129,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellow honeysuckle": {
     "n": {
@@ -9006,7 +9144,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellow horned poppy": {
     "n": {
@@ -9017,7 +9155,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow hornet": {
     "n": {
@@ -9081,7 +9219,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow jacket": {
     "n": {
@@ -9190,7 +9328,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow locust": {
     "n": {
@@ -9236,7 +9374,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow mariposa tulip": {
     "n": {
@@ -9429,7 +9567,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow perch": {
     "n": {
@@ -9481,7 +9619,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow pitcher plant": {
     "n": {
@@ -9492,7 +9630,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow pond lily": {
     "n": {
@@ -9504,7 +9642,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow poplar": {
     "n": {
@@ -9603,7 +9741,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow spot fungus": {
     "n": {
@@ -9696,7 +9834,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow twining snapdragon": {
     "n": {
@@ -9752,7 +9890,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow watercress": {
     "n": {
@@ -9763,7 +9901,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellow woman": {
     "n": {
@@ -10005,7 +10143,7 @@
       "origin": "yellow + green",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow-green algae": {
     "n": {
@@ -10039,7 +10177,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellow-marked": {
     "a": {
@@ -10376,7 +10514,7 @@
       "origin": "Alteration (influenced by hammer) of earlier yelambre, yelamber, from Middle English *yelwambre, from yelwe (“yellow”) + *ambre (“yellowhammer”), from Old English amore, related to Old High German amaro (“yellowhammer”) (see modern German Ammer).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellowish": {
     "a": {
@@ -10537,7 +10675,7 @@
       "origin": "From Middle English ȝalownes; equivalent to yellow + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yellowpink": {
     "n": {
@@ -10576,7 +10714,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yellowred more": {
     "n": {
@@ -10802,6 +10940,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/LL-Q1860_%28eng%29-Vealhurl-yelp.wav/LL-Q1860_%28eng%29-Vealhurl-yelp.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "yelper": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yelpere; equivalent to yelp + -er.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -11163,7 +11309,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeoman": {
     "n": {
@@ -11233,7 +11379,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yeomanry": {
     "n": {
@@ -11263,7 +11409,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yepe": {
     "a": {
@@ -11354,7 +11500,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yerba buena": {
     "n": {
@@ -11391,6 +11537,19 @@
         }
       ],
       "origin": "From Spanish yerba (“herb”) + santa (“sacred”).",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "yerd": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yerd (“yard”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "Pronunciation dialect",
       "sounds": []
     },
     "isAnglish": false
@@ -11610,7 +11769,7 @@
       "origin": "From yes + man.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yes-no question": {
     "n": {
@@ -11711,6 +11870,18 @@
       "origin": "From Middle English yester, yister, from Old English geostran (“yesterday”). Cognate with Dutch gisteren (“yesterday”), German gestern (“yesterday”). More at yesterday.",
       "sounds": []
     }
+  },
+  "yester-morrow": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yester morow; equivalent to yester- + morrow. Compare Dutch gistermorgen, German gestern Morgen.",
+      "sounds": [
+        {
+          "ipa": "/ˈjɛstə(ɹ)ˌmɒɹəʊ/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "yesterday": {
     "n": {
@@ -12029,7 +12200,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yesteryearn": {
     "n": {
@@ -12251,6 +12422,19 @@
       "origin": "<OE gitsung"
     },
     "isAnglish": true
+  },
+  "yeuk": {
+    "n": {
+      "senses": [],
+      "origin": "From Cantonese 約／约 (joek3).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From (northern) Middle English *ȝuken, *ȝokken (suggested by Middle English ȝukynge, ȝokkyn (“itching”) and yuke (“an itching disease”)), from Middle Dutch jucken, jocken (“to itch”), from Old Dutch *jukken, from Proto-West Germanic *jukkjan (“to itch”). Doublet of itch.",
+      "sounds": []
+    },
+    "isAnglish": false
   },
   "yever": {
     "a": {
@@ -12768,7 +12952,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yieldback": {
     "n": {
@@ -12979,7 +13163,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yip": {
     "n": {
@@ -13047,7 +13231,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yips": {
     "n": {
@@ -13233,7 +13417,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yo-yo": {
     "n": {
@@ -13284,7 +13468,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yob": {
     "n": {
@@ -13666,6 +13850,114 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "yogh": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English ȝogh, ȝ, of unknown origin. Several etymologies have been advanced, such as derivation from Middle English ȝok (“yoke”) or Old English ēoh (“rune ᛇ”), but all pose serious phonological problems.",
+      "sounds": [
+        {
+          "ipa": "/jɒɡ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/jɒx/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/jəʊɡ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/jəʊx/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/jɔɡ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/jɑɡ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/jɔx/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/jɑx/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/joʊɡ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/joʊx/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɒɡ"
+        },
+        {
+          "rhymes": "-ɒx"
+        },
+        {
+          "rhymes": "-əʊɡ"
+        },
+        {
+          "rhymes": "-əʊx"
+        },
+        {
+          "rhymes": "-ɔɡ"
+        },
+        {
+          "rhymes": "-ɑɡ"
+        },
+        {
+          "rhymes": "-ɔx"
+        },
+        {
+          "rhymes": "-ɑx"
+        },
+        {
+          "rhymes": "-oʊɡ"
+        },
+        {
+          "rhymes": "-oʊx"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-yogh.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/LL-Q1860_%28eng%29-Vealhurl-yogh.wav/LL-Q1860_%28eng%29-Vealhurl-yogh.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/LL-Q1860_%28eng%29-Vealhurl-yogh.wav/LL-Q1860_%28eng%29-Vealhurl-yogh.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "yoghourt": {
     "n": {
@@ -14081,7 +14373,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yokel": {
     "n": {
@@ -14975,7 +15267,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yore": {
     "n": {
@@ -15719,7 +16011,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "young buck": {
     "n": {
@@ -15731,7 +16023,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "young carnivore": {
     "n": {
@@ -15787,7 +16079,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "young mammal": {
     "n": {
@@ -15819,6 +16111,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/En-uk-young_man.ogg/En-uk-young_man.ogg.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "young moon": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yong mone.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -15913,7 +16213,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "youngerdom": {
     "n": {
@@ -15931,6 +16231,24 @@
       "origin": "OE, geongordōm"
     },
     "isAnglish": true
+  },
+  "younghead": {
+    "n": {
+      "senses": [],
+      "origin": "From young + -head.",
+      "sounds": [
+        {
+          "audio": "En-au-younghead.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/En-au-younghead.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/En-au-younghead.ogg/En-au-younghead.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "youngish": {
     "a": {
@@ -16090,6 +16408,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/LL-Q1860_%28eng%29-Vealhurl-youngster.wav/LL-Q1860_%28eng%29-Vealhurl-youngster.wav.mp3"
         }
       ]
+    },
+    "isAnglish": false
+  },
+  "youngth": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English yongth, equivalent to young + -th.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -16270,6 +16596,157 @@
       ],
       "origin": null
     },
+    "isAnglish": true,
+    "x": {
+      "senses": [],
+      "origin": "From Middle English youres, ȝoures, attested since the 1300s. Equivalent to your + -s (compare -'s); formed by analogy to his. Displaced yourn in standard speech.",
+      "sounds": [
+        {
+          "ipa": "/jɔː(ɹ)z/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/jʊəz/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/jəz/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɔː(ɹ)z"
+        },
+        {
+          "ipa": "/jɔɹz/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/jʊɚz/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/jɝz/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/jɚz/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɔː(ɹ)z"
+        },
+        {
+          "homophone": "yaws (in some non-rhotic accents)"
+        },
+        {
+          "audio": "en-us-yours.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/En-us-yours.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/En-us-yours.ogg/En-us-yours.ogg.mp3"
+        },
+        {
+          "audio": "En-us-yours (alternate pronunciation).oga",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/En-us-yours_%28alternate_pronunciation%29.oga",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/En-us-yours_%28alternate_pronunciation%29.oga/En-us-yours_%28alternate_pronunciation%29.oga.mp3"
+        },
+        {
+          "enpr": "yôrz"
+        }
+      ]
+    }
+  },
+  "yourself": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English yourself, equivalent to your + -self.",
+      "sounds": [
+        {
+          "ipa": "/jɔːˈsɛlf/",
+          "tags": [
+            "Received-Pronunciation",
+            "strong"
+          ]
+        },
+        {
+          "ipa": "/jʊəˈsɛlf/",
+          "tags": [
+            "Received-Pronunciation",
+            "strong"
+          ]
+        },
+        {
+          "ipa": "/jəˈsɛlf/",
+          "tags": [
+            "Received-Pronunciation",
+            "weak"
+          ]
+        },
+        {
+          "ipa": "/jɔɹˈsɛlf/",
+          "tags": [
+            "General-American",
+            "strong"
+          ]
+        },
+        {
+          "ipa": "/jʊɹˈsɛlf/",
+          "tags": [
+            "General-American",
+            "strong"
+          ]
+        },
+        {
+          "ipa": "/jɚˈsɛlf/",
+          "tags": [
+            "General-American",
+            "weak"
+          ]
+        },
+        {
+          "rhymes": "-ɛlf"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Back ache-yourself.wav",
+          "text": "Audio (London, UK)",
+          "tags": [
+            "London",
+            "UK"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/LL-Q1860_%28eng%29-Back_ache-yourself.wav/LL-Q1860_%28eng%29-Back_ache-yourself.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/LL-Q1860_%28eng%29-Back_ache-yourself.wav/LL-Q1860_%28eng%29-Back_ache-yourself.wav.mp3"
+        },
+        {
+          "audio": "en-us-yourself.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/En-us-yourself.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/En-us-yourself.ogg/En-us-yourself.ogg.mp3"
+        }
+      ]
+    },
     "isAnglish": true
   },
   "yout": {
@@ -16431,7 +16908,7 @@
       "origin": "From the way young plantlets sprout from the middle of older leaves.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "youthen": {
     "v": {
@@ -16462,7 +16939,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "youthful": {
     "a": {
@@ -16499,7 +16976,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "youthfully": {
     "r": {
@@ -16606,7 +17083,7 @@
       "origin": "From youth + quake, by analogy with earthquake. Coined in 1965 by Vogue (magazine) editor Diana Vreeland.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "yowe": {
     "n": {
@@ -16676,7 +17153,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yr": {
     "n": {
@@ -16696,7 +17173,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ythe": {
     "n": {
@@ -17105,6 +17582,18 @@
     },
     "isAnglish": false
   },
+  "yure": {
+    "n": {
+      "senses": [
+        {
+          "synset": "02373012-n"
+        }
+      ],
+      "origin": "From Middle English ȝowre, from Old Norse júr, júgr (“udder”), from Proto-Germanic *eudarą, *ūdarą. More at udder.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "yurt": {
     "n": {
       "pronunciation": [
@@ -17252,6 +17741,14 @@
           ]
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "yé-yé": {
+    "n": {
+      "senses": [],
+      "origin": "From French yéyé, from English yeah-yeah.",
+      "sounds": []
     },
     "isAnglish": true
   }

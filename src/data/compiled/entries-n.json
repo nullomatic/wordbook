@@ -57,7 +57,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "N'Djamena": {
     "n": {
@@ -2271,7 +2271,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Napoleon Bonaparte": {
     "n": {
@@ -2293,7 +2293,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Napoleon III": {
     "n": {
@@ -6690,7 +6690,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Netherlandish": {
     "n": {
@@ -6706,7 +6706,7 @@
       "origin": "From Netherland(s) + -ish.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Netherlands": {
     "n": {
@@ -7311,7 +7311,7 @@
       "senses": [],
       "origin": "NE"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "New English Bible": {
     "n": {
@@ -8667,7 +8667,7 @@
       "origin": "Nickname for a new arrival in a place, from Middle English neowecomen (“just arrived; newcomer”). The intrusive -b is the result of placenames ending in -combe, which is from combe (“wooded valley”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Newfoundland": {
     "n": {
@@ -8774,7 +8774,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Newfoundland and Labrador": {
     "n": {
@@ -8796,7 +8796,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Newfoundland dwarf birch": {
     "n": {
@@ -8807,7 +8807,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Newgate": {
     "n": {
@@ -9403,7 +9403,7 @@
       "origin": "From German Nibelung, singular form corresponding to plural Nibelungen; from Old High German nibel (“mist”) + patronymic ending -ung, ultimately from Proto-Germanic *nebulaz + *-ungō.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Nibelungenlied": {
     "n": {
@@ -9738,6 +9738,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "Nicol": {
+    "n": {
+      "senses": [],
+      "origin": "One of the variant spellings of Nichol, a Middle English vernacular form of the given name Nicholas.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "Nicol prism": {
     "n": {
@@ -11734,6 +11742,24 @@
     },
     "isAnglish": false
   },
+  "Noah's ark": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English Noþess arrke.",
+      "sounds": [
+        {
+          "audio": "en-au-Noah's ark.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/En-au-Noah%27s_ark.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/En-au-Noah%27s_ark.ogg/En-au-Noah%27s_ark.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Noah's flood": {
     "n": {
       "senses": [
@@ -12326,7 +12352,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Norfolk Island": {
     "n": {
@@ -12371,7 +12397,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Norge": {
     "n": {
@@ -12394,6 +12420,24 @@
       ]
     },
     "isAnglish": false
+  },
+  "Norland": {
+    "n": {
+      "senses": [],
+      "origin": "From Old English norþ (“north”) + land (“land”).",
+      "sounds": [
+        {
+          "audio": "En-us-Norland.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/En-us-Norland.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/En-us-Norland.ogg/En-us-Norland.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Norlestrin": {
     "n": {
@@ -12551,7 +12595,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Norman Conquest": {
     "n": {
@@ -13503,7 +13547,7 @@
       "origin": "From Middle English north sterre, norþ sterre, equivalent to north + star.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "North Star State": {
     "n": {
@@ -14060,6 +14104,14 @@
     },
     "isAnglish": false
   },
+  "Norton": {
+    "n": {
+      "senses": [],
+      "origin": "From Old English norþ (“north”) + tūn (“enclosure; settlement, town”).\nThe parish in New Brunswick is named after Norton, Massachusetts.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Noruz": {
     "n": {
       "senses": [
@@ -14166,7 +14218,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Norway maple": {
     "n": {
@@ -14178,7 +14230,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Norway rat": {
     "n": {
@@ -14191,7 +14243,7 @@
       "origin": "The common name was popularised (and perhaps coined) by English naturalist John Berkenhout, in his Outlines of the Natural History of Great Britain (1769). Berkenhout believed the species migrated to England from Norwegian ships in 1728; he is also responsible for the scientific name.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "Norway spruce": {
     "n": {
@@ -16081,7 +16133,7 @@
       "origin": "Abbreviations.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "n-th": {
     "a": {
@@ -16130,7 +16182,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naam": {
     "n": {
@@ -16870,7 +16922,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nagami": {
     "n": {
@@ -17219,7 +17271,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nail enamel": {
     "n": {
@@ -17265,7 +17317,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nail removal": {
     "n": {
@@ -17300,7 +17352,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nail-tailed kangaroo": {
     "n": {
@@ -17390,7 +17442,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nailfile": {
     "n": {
@@ -17524,6 +17576,24 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "nait": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English naiten, nayten, from Old Norse neyta (“to use, employ”), from Proto-Germanic *nautijaną (“to use”). Cognate with Icelandic neyta (“to make use of, employ”). Related to Old English nēotan (“to use; to enjoy”). More at note.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English naite, from Old Norse neyte, neyti (“use”), from Proto-Germanic *nautiz (“use”).",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English nait, nayt, from Old Norse neytr (“in good order, fit, fit for use”), from Proto-Germanic *nautiz (“useful, helpful”). Compare Old English nyttol (“useful”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "naive": {
     "a": {
@@ -17824,6 +17894,14 @@
     },
     "isAnglish": true
   },
+  "naked apron": {
+    "n": {
+      "senses": [],
+      "origin": "A calque of Japanese 裸エプロン (はだかエプロン, hadaka epuron), from 裸 (はだか, hadaka, “naked, nude, bare”) + エプロン (epuron, “apron”), in turn borrowed from English apron.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "naked as a jaybird": {
     "a": {
       "senses": [
@@ -17856,7 +17934,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naked as the day you were born": {
     "a": {
@@ -17879,7 +17957,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naked lady": {
     "n": {
@@ -17895,7 +17973,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naked mole rat": {
     "n": {
@@ -17908,7 +17986,7 @@
       "origin": "naked + mole rat",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naked option": {
     "n": {
@@ -17941,7 +18019,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "nakedhood": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nakedhed; equivalent to naked + -hood.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nakedly": {
     "r": {
@@ -17964,7 +18050,7 @@
       "origin": "From Middle English nakidly; equivalent to naked + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nakedness": {
     "n": {
@@ -18012,6 +18098,18 @@
     },
     "isAnglish": false
   },
+  "naken": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English nakenen, nacnen, equivalent to nake + -en.",
+      "sounds": [
+        {
+          "rhymes": "-eɪkən"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "nale": {
     "n": {
       "senses": [
@@ -18032,7 +18130,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nalidixic acid": {
     "n": {
@@ -18367,7 +18465,7 @@
       "origin": "From Middle English namen, from Old English namian (“to name, mention”) and ġenamian (“to name, call, appoint”), from Proto-West Germanic *namōn (“to name”). Compare also Old English nemnan, nemnian (“to name, give a name to a person or thing”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "name and address": {
     "n": {
@@ -18401,7 +18499,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "name dropper": {
     "n": {
@@ -18424,7 +18522,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "name tag": {
     "n": {
@@ -18436,7 +18534,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "name-dropping": {
     "n": {
@@ -18525,7 +18623,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "namedrop": {
     "v": {
@@ -18638,7 +18736,7 @@
       "origin": "nameless + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "namely": {
     "r": {
@@ -18803,7 +18901,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nameshunning": {
     "n": {
@@ -18825,7 +18923,7 @@
       "origin": "From name + word. Compare Dutch naamwoord (“nameword, noun (sensu lato)”) and German Namenwort.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "namewrit": {
     "n": {
@@ -18897,7 +18995,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nammad": {
     "n": {
@@ -19004,7 +19102,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nance": {
     "n": {
@@ -19765,7 +19863,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "napkin ring": {
     "n": {
@@ -19944,7 +20042,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naprapath": {
     "n": {
@@ -20312,6 +20410,18 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "narcodolar": {
+    "n": {
+      "senses": [
+        {
+          "synset": "92437560-n"
+        }
+      ],
+      "origin": "From Spanish narcodólar, from English narcodollar.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "narcodollar": {
     "n": {
@@ -20917,7 +21027,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "narrate": {
     "v": {
@@ -21556,7 +21666,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "narrow down": {
     "v": {
@@ -21595,7 +21705,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "narrow escape": {
     "n": {
@@ -21673,7 +21783,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "narrow margin": {
     "n": {
@@ -21739,7 +21849,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "narrow-leaf penstemon": {
     "n": {
@@ -21827,7 +21937,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "narrow-leaved water plantain": {
     "n": {
@@ -22177,7 +22287,7 @@
       "origin": "From Middle English narwenesse; equivalent to narrow + -ness.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "narrows": {
     "n": {
@@ -22212,7 +22322,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "narthex": {
     "n": {
@@ -22378,7 +22488,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "narwhale": {
     "n": {
@@ -22451,7 +22561,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nas": {
     "r": {
@@ -23032,6 +23142,14 @@
     },
     "isAnglish": false
   },
+  "nasky": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English naxty, of uncertain origin, but probably of North Germanic origin. Compare Swedish naskug, naskig, nasket (“dirty, nasty”), Danish nasket (“nasty”). More at nasty.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nasofrontal vein": {
     "n": {
       "senses": [
@@ -23262,7 +23380,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nasturtium family": {
     "n": {
@@ -23354,7 +23472,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "natal": {
     "a": {
@@ -25277,7 +25395,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "natural": {
     "a": {
@@ -26398,7 +26516,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "naturally occurring": {
     "a": {
@@ -26450,7 +26568,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nature": {
     "n": {
@@ -26843,7 +26961,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naughtily": {
     "r": {
@@ -28576,7 +28694,55 @@
       ],
       "origin": "cf. newt < ewt"
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "x": {
+      "senses": [],
+      "origin": "In Scottish use, from Scots naw, naa, na, from Middle English na, from Old English nā (“no, never”). More generally, a colloquial, unarticulated form of no; compare nah. More at no.",
+      "sounds": [
+        {
+          "ipa": "/nɔː/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/nɔ/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "ipa": "/nɑ/",
+          "tags": [
+            "cot-caught-merger"
+          ]
+        },
+        {
+          "rhymes": "-ɔː"
+        },
+        {
+          "rhymes": "-ɑː"
+        },
+        {
+          "homophone": "nor"
+        },
+        {
+          "homophone": "gnaw"
+        },
+        {
+          "enpr": "nô",
+          "tags": [
+            "cot-caught-merger"
+          ]
+        },
+        {
+          "enpr": "nä",
+          "tags": [
+            "cot-caught-merger"
+          ]
+        }
+      ]
+    }
   },
   "nawab": {
     "n": {
@@ -28764,7 +28930,7 @@
       "origin": "From nay + say.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naysayer": {
     "n": {
@@ -28821,7 +28987,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naysome": {
     "a": {
@@ -28870,7 +29036,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "naze": {
     "n": {
@@ -29015,7 +29181,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "n": {
       "senses": [
         {
@@ -29148,6 +29314,27 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "ne'ertheless": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English nerthelesse, nere-the-les, nerþeles, equivalent to ne'er + the + less.",
+      "sounds": [
+        {
+          "ipa": "/ˌnɛəðəˈlɛs/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "enpr": "nâr'dhəlĕsʹ",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
     "isAnglish": true
   },
   "neandertal": {
@@ -29213,7 +29400,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neap tide": {
     "n": {
@@ -29245,7 +29432,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "near": {
     "a": {
@@ -29536,7 +29723,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "near friendship": {
     "n": {
@@ -29565,7 +29752,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "near miss": {
     "n": {
@@ -29577,7 +29764,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "near thing": {
     "n": {
@@ -29589,7 +29776,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "near vision": {
     "n": {
@@ -29725,6 +29912,45 @@
     },
     "isAnglish": false
   },
+  "nearhand": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English nerehonde.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɪəhand/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "r": {
+      "senses": [],
+      "origin": "From Middle English nerehonde.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɪəhand/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "p": {
+      "senses": [],
+      "origin": "From Middle English nerehonde.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɪəhand/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "nearing": {
     "a": {
       "senses": [
@@ -29806,7 +30032,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nearness": {
     "n": {
@@ -29825,7 +30051,7 @@
       "origin": "near + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nearside": {
     "n": {
@@ -29856,7 +30082,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nearsightedness": {
     "n": {
@@ -29872,7 +30098,7 @@
       "origin": "nearsighted + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nease": {
     "v": {
@@ -29993,7 +30219,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neat's-foot oil": {
     "n": {
@@ -30112,7 +30338,23 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "neathouse": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nethouse; equivalent to neat + house.",
+      "sounds": []
+    },
     "isAnglish": true
+  },
+  "neatish": {
+    "a": {
+      "senses": [],
+      "origin": "From neat + -ish.",
+      "sounds": []
+    },
+    "isAnglish": false
   },
   "neatland": {
     "n": {
@@ -30153,7 +30395,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neatness": {
     "n": {
@@ -31020,7 +31262,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neck and neck": {
     "a": {
@@ -31110,7 +31352,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neck opening": {
     "n": {
@@ -31155,7 +31397,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neckband": {
     "n": {
@@ -31176,6 +31418,27 @@
       "origin": "neck + band",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "neckbone": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English nekke bon, equivalent to neck + bone.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɛkˌbəʊn/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈnɛkˌboʊn/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
     "isAnglish": true
   },
   "neckcloth": {
@@ -31189,7 +31452,7 @@
       "origin": "neck + cloth",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "necked": {
     "a": {
@@ -31244,6 +31507,14 @@
     },
     "isAnglish": false
   },
+  "neckercher": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nekcher, neke-kycher; equivalent to neck + kercher.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "neckerchief": {
     "n": {
       "senses": [
@@ -31271,7 +31542,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "necking": {
     "n": {
@@ -31529,7 +31800,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neckwear": {
     "n": {
@@ -32348,7 +32619,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "need": {
     "n": {
@@ -32559,7 +32830,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needer": {
     "n": {
@@ -32850,7 +33121,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needle bearing": {
     "n": {
@@ -32862,7 +33133,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needle biopsy": {
     "n": {
@@ -32896,7 +33167,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needle cast": {
     "n": {
@@ -32919,7 +33190,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needle palm": {
     "n": {
@@ -32930,7 +33201,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needle rush": {
     "n": {
@@ -32952,7 +33223,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "needle wood": {
     "n": {
@@ -32998,7 +33269,7 @@
       "origin": "needle + shaped",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needle-up": {
     "n": {
@@ -33057,7 +33328,7 @@
       "origin": "needle + -craft",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needled": {
     "a": {
@@ -33089,7 +33360,7 @@
       "origin": "needle + fish",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needlefright": {
     "n": {
@@ -33178,6 +33449,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "needler": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nedlere, equivalent to needle + -er.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -33272,7 +33551,7 @@
       "origin": "From needle + -work.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needleworker": {
     "n": {
@@ -33302,7 +33581,7 @@
       "origin": "From needle + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needly": {
     "r": {
@@ -33475,6 +33754,14 @@
     },
     "isAnglish": true
   },
+  "needs-cost": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English needis cost, nedes cost, from needes (genitive of need (“need”)) + cost (“means”); synchronically analyzable as a univerbation of needs + cost.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "needsakely": {
     "a": {
       "senses": [
@@ -33548,7 +33835,7 @@
       "origin": "From need + -wise.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needworthy": {
     "a": {
@@ -33563,7 +33850,7 @@
       "origin": "From need + -worthy.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "needy": {
     "a": {
@@ -33728,7 +34015,7 @@
       "origin": "From Middle English neep, from Old English nǣp (“turnip, rape”), borrowed from Latin nāpus. Compare Icelandic næpa (“turnip”).\nCognate with English turnip.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neepseed": {
     "n": {
@@ -33802,7 +34089,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neet": {
     "v": {
@@ -35878,7 +36165,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neighborhood": {
     "n": {
@@ -35988,7 +36275,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neighborliness": {
     "n": {
@@ -36026,6 +36313,14 @@
     },
     "isAnglish": false
   },
+  "neighborred": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English neȝeburrede, neheborreden, equivalent to neighbour + -red.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "neighborship": {
     "n": {
       "senses": [
@@ -36039,7 +36334,7 @@
       "origin": "From neighbor + -ship. Cognate with Dutch nabuurschap (“neighborship”), Low German Naberschaft (“neighborhood; neighborship”), German Nachbarschaft (“neighborship”), Swedish naboskap (“neighborship”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neighbou": {
     "n": {
@@ -36215,6 +36510,26 @@
     },
     "isAnglish": true
   },
+  "neighboured": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English neȝeburrede, equivalent to neighbour + -red.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "neighbouress": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English neiȝboresse; equivalent to neighbour + -ess.",
+      "sounds": [
+        {
+          "ipa": "/ˌneɪbəˈɹɛs/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "neighbourhood": {
     "n": {
       "senses": [
@@ -36256,7 +36571,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neighbouring": {
     "s": {
@@ -36305,7 +36620,7 @@
       "origin": "neighbour + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neighledge": {
     "v": {
@@ -38002,7 +38317,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nep-holder": {
     "n": {
@@ -40137,7 +40452,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neshly": {
     "r": {
@@ -40149,7 +40464,7 @@
       "origin": "nesh + -ly",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neshness": {
     "n": {
@@ -40170,7 +40485,7 @@
       "origin": "nesh + -ness",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ness": {
     "n": {
@@ -40393,7 +40708,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nester": {
     "n": {
@@ -40560,7 +40875,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "net": {
     "a": {
@@ -40733,7 +41048,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "net ball": {
     "n": {
@@ -40745,7 +41060,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "net curtain": {
     "n": {
@@ -40798,7 +41113,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "net melon": {
     "n": {
@@ -40860,7 +41175,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "netball": {
     "n": {
@@ -41050,7 +41365,7 @@
       "origin": "From nether- + hair.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "netherhose": {
     "n": {
@@ -41066,7 +41381,7 @@
       "senses": [],
       "origin": "NE"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "netherlay": {
     "n": {
@@ -41091,7 +41406,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "netherly": {
     "a": {
@@ -41130,6 +41445,14 @@
       "origin": "From nether- + mind.",
       "sounds": []
     },
+    "isAnglish": false
+  },
+  "nethermore": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English neþermore; equivalent to nether + -more.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "nethermost": {
@@ -41143,7 +41466,7 @@
       "origin": "From Middle English neþermeste; equivalent to nether + -most.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "netherness": {
     "n": {
@@ -41214,7 +41537,7 @@
       "origin": "From nether- + stock.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "netherthrow": {
     "n": {
@@ -41284,7 +41607,7 @@
       "origin": "From nether- + -wear.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "netherwind": {
     "v": {
@@ -41314,7 +41637,7 @@
       "origin": "From nether- (“beneath, lower”) + world.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nethide": {
     "n": {
@@ -41403,6 +41726,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "netmaker": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English netmaker, nette maker, nattemakere, nat-makere, nett makere, equivalent to net + maker. Cognate with Dutch netmaker (“netmaker”), German Netzmacher (“netmaker”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "netminder": {
     "n": {
@@ -41493,6 +41824,39 @@
       ]
     },
     "isAnglish": false
+  },
+  "netter": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English netter, nettare, equivalent to net + -er.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɛtə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈnɛtə(ɹ)/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/-ɾə(ɹ)/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɛtə"
+        },
+        {
+          "rhymes": "-ɛtə(ɹ)"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "netting": {
     "n": {
@@ -41658,7 +42022,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nettle-leaved bellflower": {
     "n": {
@@ -41732,6 +42096,19 @@
         }
       ],
       "origin": "nettle + -some",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "netwise": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English nettwyse, nette wise, nette wyse, equivalent to net + -wise.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From Middle English nettwyse, nette wise, nette wyse, equivalent to net + -wise.",
       "sounds": []
     },
     "isAnglish": true
@@ -41855,7 +42232,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "network architecture": {
     "n": {
@@ -44816,7 +45193,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neveling": {
     "r": {
@@ -44962,7 +45339,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "never-ending": {
     "a": {
@@ -44974,7 +45351,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "never-never": {
     "n": {
@@ -44987,7 +45364,7 @@
       "origin": "Suggesting that the would-be purchaser may never manage to complete the payments and take ownership.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "never-never land": {
     "n": {
@@ -45010,7 +45387,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "neverending": {
     "n": {
@@ -45036,7 +45413,7 @@
       "origin": "From Never + land. The term was most famously used in J.M. Barrie's Book, Peter Pan, as the name of the fictional island that the Darling children visit with the title character. Compare Utopia, which is semantically Ancient Greek οὐ (ou, “not, no”) + τόπος (tópos, “place, region”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nevermore": {
     "r": {
@@ -45062,7 +45439,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "neverseen": {
     "n": {
@@ -45127,7 +45504,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "neverthemore": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English never the more, never þe mare (also Middle English never the mo, never þe mo), equivalent to never + the + more.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nevirapine": {
     "n": {
@@ -45575,7 +45960,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "new phase of the moon": {
     "n": {
@@ -45598,7 +45983,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "new wave": {
     "n": {
@@ -45610,7 +45995,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "new wine": {
     "n": {
@@ -45653,7 +46038,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "new-mown": {
     "a": {
@@ -45731,7 +46116,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newborn": {
     "a": {
@@ -45758,7 +46143,7 @@
       "origin": "new + born",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newclay": {
     "n": {
@@ -45929,7 +46314,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newel post": {
     "n": {
@@ -45941,7 +46326,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newelness": {
     "n": {
@@ -46011,6 +46396,19 @@
     },
     "isAnglish": true
   },
+  "newfangle": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English newefangil, neufangel, newefongel, equivalent to new + fangle.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From Middle English newefangil, neufangel, newefongel, equivalent to new + fangle.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "newfangled": {
     "a": {
       "pronunciation": [
@@ -46054,7 +46452,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newfangleness": {
     "n": {
@@ -46120,7 +46518,7 @@
       "origin": "Calque of Japanese ニューハーフ (nyūhāfu, “new half”). ニューハーフ is wasei eigo, from English.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newing": {
     "n": {
@@ -46138,7 +46536,7 @@
       "origin": "From new (transitive verb), + -ing.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newling": {
     "n": {
@@ -46153,7 +46551,7 @@
       "origin": "From new + -ling. Cognate with Dutch nieuweling (“a novice, beginner”), German Neuling (“a novice”).",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newlings": {
     "r": {
@@ -46269,6 +46667,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "newmown": {
+    "a": {
+      "senses": [],
+      "origin": "From late Middle English [Term?].",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "newness": {
     "n": {
@@ -46855,7 +47261,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newsmonger": {
     "n": {
@@ -47213,7 +47619,7 @@
       "origin": "news + reel",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newsroom": {
     "n": {
@@ -47337,7 +47743,7 @@
       "origin": "news + -worthy",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newswriter": {
     "n": {
@@ -47470,7 +47876,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "newtidings": {
     "n": {
@@ -47612,7 +48018,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "next friend": {
     "n": {
@@ -47624,7 +48030,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "next in the row": {
     "n": {
@@ -47657,7 +48063,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "next-to-last": {
     "a": {
@@ -47673,7 +48079,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nexus": {
     "n": {
@@ -47762,7 +48168,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ngultrum": {
     "n": {
@@ -47872,7 +48278,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nibbed": {
     "a": {
@@ -48119,7 +48525,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nicely": {
     "r": {
@@ -48485,7 +48891,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nickel": {
     "n": {
@@ -48829,7 +49235,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nicker nut": {
     "n": {
@@ -48841,7 +49247,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nicker seed": {
     "n": {
@@ -48884,7 +49290,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nicknack": {
     "n": {
@@ -49249,7 +49655,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nidation": {
     "n": {
@@ -49388,6 +49794,30 @@
     },
     "isAnglish": false
   },
+  "nief": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English neve (“the clenched hand, fist”), from Old Norse nefi, hnefi (also knefi) (\"hand, fist, handful\"), from Proto-Germanic *hnefô, from Proto-Indo-European *knep- (“to scrape, scratch, grind”), from Proto-Indo-European *ken- (“to scratch, scrape”). Cognate with Scots neif (“fist”), Norwegian neve, Danish næve, Swedish näve, Middle High German nevemez (“handful”).",
+      "sounds": [
+        {
+          "ipa": "/niːf/"
+        },
+        {
+          "rhymes": "-iːf"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-nief.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/LL-Q1860_%28eng%29-Vealhurl-nief.wav/LL-Q1860_%28eng%29-Vealhurl-nief.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/LL-Q1860_%28eng%29-Vealhurl-nief.wav/LL-Q1860_%28eng%29-Vealhurl-nief.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "nierembergia": {
     "n": {
       "senses": [
@@ -49481,6 +49911,14 @@
     },
     "isAnglish": false
   },
+  "nifle": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nifle, possibly from Anglo-Norman. Compare Scots niffle (“to trifle”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nift": {
     "n": {
       "senses": [
@@ -49559,7 +49997,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nigella": {
     "n": {
@@ -49655,7 +50093,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "niggardliness": {
     "n": {
@@ -49734,6 +50172,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "niggardship": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nigardshipe, nygartship, negardship, nygardschip, nygardschippe, equivalent to niggard + -ship.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "niggardy": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nygardie; equivalent to niggard + -y.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nigger": {
     "n": {
@@ -49959,6 +50413,14 @@
     },
     "isAnglish": true
   },
+  "nighen": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English neiȝnen, equivalent to nigh + -en. Cognate with German nähnen.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nigher": {
     "r": {
       "senses": [
@@ -50029,7 +50491,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nighseen": {
     "n": {
@@ -50149,7 +50611,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night blindness": {
     "n": {
@@ -50161,7 +50623,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night club": {
     "n": {
@@ -50173,7 +50635,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night court": {
     "n": {
@@ -50330,7 +50792,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night porter": {
     "n": {
@@ -50368,7 +50830,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night school": {
     "n": {
@@ -50383,7 +50845,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night shift": {
     "n": {
@@ -50399,7 +50861,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night snake": {
     "n": {
@@ -50411,7 +50873,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night soil": {
     "n": {
@@ -50423,7 +50885,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night terror": {
     "n": {
@@ -50435,7 +50897,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night vision": {
     "n": {
@@ -50482,7 +50944,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "night-blooming cereus": {
     "n": {
@@ -50700,7 +51162,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nightcrawler": {
     "n": {
@@ -50741,6 +51203,14 @@
     },
     "isAnglish": false
   },
+  "nightertale": {
+    "n": {
+      "senses": [],
+      "origin": "Inherited from Middle English nyghtertale, alteration of Old Norse náttarþel.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nightfall": {
     "n": {
       "pronunciation": [
@@ -50777,7 +51247,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nightgang": {
     "n": {
@@ -50821,7 +51291,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nighth": {
     "n": {
@@ -50923,7 +51393,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nightish": {
     "a": {
@@ -51239,7 +51709,7 @@
         }
       ]
     },
-    "isAnglish": true,
+    "isAnglish": false,
     "r": {
       "senses": [],
       "origin": "From Middle English nightes, from Old English nihtes (“at night, by night”), equivalent to night + -s (adverbial genitive suffix). Cognate with Old Frisian nachtes, Old Saxon nahtes, German nachts (all “nights, at night”).",
@@ -51333,7 +51803,7 @@
       "origin": "night + spot",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nightstick": {
     "n": {
@@ -51346,7 +51816,7 @@
       "origin": "night + stick",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nightstound": {
     "n": {
@@ -51378,7 +51848,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nightwalker": {
     "n": {
@@ -51849,7 +52319,7 @@
       "origin": "",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nim tree": {
     "n": {
@@ -52098,7 +52568,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nimiety": {
     "n": {
@@ -52157,6 +52627,14 @@
         }
       ],
       "origin": "From Middle English nimere, equivalent to nim (“to filch, steal”) + -er. Cognate with Dutch nemer (“taker”), German Nehmer (“taker”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "nimps": {
+    "a": {
+      "senses": [],
+      "origin": "Origin uncertain. Probably from the plural of nimp (“a small piece, fragment, bit”), perhaps in a phrase those are nimps \"those are small bits\", hence \"that's easy\". If so then cognate with Scots nimp (“a very small piece”); both from or akin to Middle English nimpen (“to chew, gnaw, take a bite, nibble”), likely a blend of nim + nip. Compare also related English nimble (“agile, quick”).",
       "sounds": []
     },
     "isAnglish": true
@@ -52513,7 +52991,7 @@
       "origin": "nine + -some",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nineteen": {
     "a": {
@@ -52682,7 +53160,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ninety": {
     "a": {
@@ -52724,7 +53202,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "ninety-five": {
     "a": {
@@ -53207,7 +53685,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nip and tuck": {
     "a": {
@@ -53273,7 +53751,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nip off": {
     "v": {
@@ -53388,7 +53866,7 @@
       "senses": [],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nipping": {
     "a": {
@@ -53719,7 +54197,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nite": {
     "v": {
@@ -53889,7 +54367,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nitheslime": {
     "n": {
@@ -54133,7 +54611,7 @@
       ],
       "origin": null
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nitramine": {
     "n": {
@@ -55424,6 +55902,18 @@
         }
       ]
     },
+    "isAnglish": true
+  },
+  "nixie": {
+    "n": {
+      "senses": [],
+      "origin": "From nix + -ie.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɪksi/"
+        }
+      ]
+    },
     "isAnglish": false
   },
   "nm": {
@@ -55578,7 +56068,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no ball": {
     "n": {
@@ -55600,7 +56090,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no doubt": {
     "r": {
@@ -55613,7 +56103,7 @@
       "origin": "Inherited from Middle English ne doute, a calque of Old French saunz doute, itself borrowed unadapted into Middle English.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "no end": {
     "r": {
@@ -55625,7 +56115,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no fault automobile insurance": {
     "n": {
@@ -55649,6 +56139,14 @@
     },
     "isAnglish": false
   },
+  "no less": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English no lesse, na leasse. Compare none the less and Old English nōhte þon lǣssa (“none the less”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "no longer": {
     "r": {
       "senses": [
@@ -55662,7 +56160,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no man's land": {
     "n": {
@@ -55744,7 +56242,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no smack": {
     "a": {
@@ -55852,7 +56350,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no-go area": {
     "n": {
@@ -55890,7 +56388,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no-hit": {
     "a": {
@@ -55935,7 +56433,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no-nonsense": {
     "a": {
@@ -55992,7 +56490,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no-show": {
     "n": {
@@ -56033,7 +56531,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no-trump": {
     "n": {
@@ -56058,7 +56556,7 @@
       "origin": "From no + win.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "no-win situation": {
     "n": {
@@ -56208,7 +56706,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nobbut": {
     "r": {
@@ -56231,7 +56729,7 @@
       "senses": [],
       "origin": "NE, nobbut[nōbut]; [CED][MW]"
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nobelium": {
     "n": {
@@ -56800,7 +57298,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nocent": {
     "a": {
@@ -56894,7 +57392,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "noctambulation": {
     "n": {
@@ -56987,7 +57485,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "noctilucent": {
     "a": {
@@ -57420,7 +57918,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nodal rhythm": {
     "n": {
@@ -58805,6 +59303,14 @@
     },
     "isAnglish": false
   },
+  "noman": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English noman, interpreted as no + man.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nombril": {
     "n": {
       "pronunciation": [
@@ -60026,6 +60532,14 @@
     },
     "isAnglish": false
   },
+  "non-coming": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English non comyng, noun comyng, equivalent to none (“no”, adjective) + coming.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "non-commercialism": {
     "n": {
       "senses": [
@@ -60272,6 +60786,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "non-obeisance": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English non-obeisaunce, nonnobeisaunce, equivalent to none (“no”, adjective) + obeisance.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "non-paying": {
     "a": {
@@ -60918,7 +61440,7 @@
       "origin": "From Middle English noon apparans, noon apparaunce, noun apperaunce; equivalent to non- + appearance.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonappointive": {
     "a": {
@@ -61096,7 +61618,7 @@
       "origin": "From Middle English nounbeyng, noon being, noon beyng, equivalent to non- + being.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonbeliever": {
     "n": {
@@ -61269,7 +61791,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nonce word": {
     "n": {
@@ -61282,7 +61804,7 @@
       "origin": "From for the nonce and word. Coined by James Murray, the influential first editor of the Oxford English Dictionary.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "noncellular": {
     "a": {
@@ -61299,6 +61821,22 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "noncertain": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English noncerteyn, non certyn; equivalent to non- + certain.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "noncertainty": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English noun certeynte, nown certeyntee; equivalent to non- + certainty.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nonchalance": {
     "n": {
@@ -62610,6 +63148,14 @@
         }
       ]
     },
+    "isAnglish": false
+  },
+  "none other than": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English non other than.",
+      "sounds": []
+    },
     "isAnglish": true
   },
   "nonechoic": {
@@ -63513,6 +64059,14 @@
     },
     "isAnglish": false
   },
+  "nonhouseholder": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English non housholder, equivalent to none (“no”, adjective) + householder.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nonhuman": {
     "a": {
       "senses": [
@@ -63912,6 +64466,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "nonkindness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nonkendenes (attested as the collective noun for ravens; cf. unkindness); equivalent to non- + kindness.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nonkosher": {
     "a": {
@@ -64571,7 +65133,7 @@
       "origin": "From Middle English non-observaunce, nonn observance, equivalent to none (“no”, adjective) + observance.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonobservant": {
     "a": {
@@ -65076,7 +65638,7 @@
       "origin": "From Middle English nonpayement, nonpaiement, nounpaiement, non paiement, equivalent to none (“no”, adjective) + payment.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonperformance": {
     "n": {
@@ -65148,6 +65710,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "nonpertinent": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English non-pertinent, equivalent to none (“not, not at all”, adverb) + pertinent.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nonphotosynthetic": {
     "a": {
@@ -65946,7 +66516,7 @@
       "origin": "From Middle English non-resident, nounresident, equivalent to non- + resident.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonresidential": {
     "a": {
@@ -67762,7 +68332,7 @@
       "origin": "From Middle English non-voluntari, equivalent to non- + voluntary.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonwashable": {
     "a": {
@@ -67889,7 +68459,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nook": {
     "n": {
@@ -68113,7 +68683,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "noona": {
     "n": {
@@ -68338,6 +68908,48 @@
       ]
     },
     "isAnglish": false
+  },
+  "nor": {
+    "c": {
+      "senses": [],
+      "origin": "From Middle English nauther, from nother. Cognate with neither.",
+      "sounds": [
+        {
+          "ipa": "/nɔː/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/nɔɹ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɔː(ɹ)"
+        },
+        {
+          "homophone": "gnaw (in non-rhotic accents)"
+        },
+        {
+          "audio": "en-us-nor.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/En-us-nor.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/En-us-nor.ogg/En-us-nor.ogg.mp3"
+        },
+        {
+          "enpr": "nô"
+        },
+        {
+          "enpr": "nôr"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "nor'-east": {
     "n": {
@@ -69746,7 +70358,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "north by west": {
     "n": {
@@ -69758,7 +70370,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "north island edelweiss": {
     "n": {
@@ -69809,7 +70421,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "north wind": {
     "n": {
@@ -69849,7 +70461,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "north-northeast": {
     "r": {
@@ -69899,7 +70511,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "north-south direction": {
     "n": {
@@ -69922,7 +70534,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northbound": {
     "a": {
@@ -70496,7 +71108,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "northern casque-headed frog": {
     "n": {
@@ -70552,7 +71164,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northern holly fern": {
     "n": {
@@ -70575,7 +71187,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northern mammoth": {
     "n": {
@@ -70666,7 +71278,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northern pin oak": {
     "n": {
@@ -70722,7 +71334,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northern scup": {
     "n": {
@@ -70744,7 +71356,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "northern shrike": {
     "n": {
@@ -70756,7 +71368,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northern snakehead": {
     "n": {
@@ -70768,7 +71380,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northern storm petrel": {
     "n": {
@@ -70827,6 +71439,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "northerner": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English northerner, equivalent to northern + -er.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "northernmost": {
     "a": {
@@ -71075,7 +71695,7 @@
       "origin": "From north + -wards.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "northwest": {
     "a": {
@@ -71727,7 +72347,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nose drops": {
     "n": {
@@ -71762,7 +72382,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nose out": {
     "v": {
@@ -71781,7 +72401,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nose ring": {
     "n": {
@@ -71793,7 +72413,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nosebag": {
     "n": {
@@ -71841,7 +72461,7 @@
       "origin": "From nose + beard.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nosebleed": {
     "n": {
@@ -72031,7 +72651,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nosegristle": {
     "n": {
@@ -72072,7 +72692,7 @@
       "origin": "From Middle English noseles, equivalent to nose + -less. Compare Dutch neusloos (“noseless”), German nasenlos (“noseless”), Danish næseløs (“noseless”), Swedish näslös (“noseless”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nosely": {
     "a": {
@@ -72096,7 +72716,7 @@
       "origin": "From nose + -ly.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nosely bone": {
     "n": {
@@ -72129,6 +72749,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "nosethirl": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nosethirl. By surface analysis, nose + thirl. Compare nostril.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nosewheel": {
     "n": {
@@ -72294,7 +72922,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nosh-up": {
     "n": {
@@ -72767,7 +73395,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nosy-parker": {
     "n": {
@@ -72861,7 +73489,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "not bad": {
     "a": {
@@ -72906,7 +73534,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "not guilty": {
     "a": {
@@ -73212,7 +73840,7 @@
       "origin": "From Middle English notably, notabili, notablelyche, equivalent to notable + -ly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "notarise": {
     "v": {
@@ -73789,7 +74417,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "note payable": {
     "n": {
@@ -74027,7 +74655,7 @@
       "origin": "From note + -less.",
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "notely": {
     "a": {
@@ -74128,7 +74756,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "noth": {
     "n": {
@@ -74184,7 +74812,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nothing": {
     "n": {
@@ -74281,7 +74909,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nothingness": {
     "n": {
@@ -75494,7 +76122,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "noughts and crosses": {
     "n": {
@@ -75895,6 +76523,14 @@
         }
       ],
       "origin": "ME, nouthe"
+    },
+    "isAnglish": true
+  },
+  "nouthe": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English nouthe, from Old English nū þā (“now then”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -76412,6 +77048,14 @@
     },
     "isAnglish": false
   },
+  "novelness": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English novelnes; equivalent to novel + -ness.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "novelty": {
     "n": {
       "pronunciation": [
@@ -76759,7 +77403,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "now and then": {
     "r": {
@@ -76799,7 +77443,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "now now": {
     "r": {
@@ -76844,7 +77488,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nowadays": {
     "n": {
@@ -76887,7 +77531,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nowalike": {
     "a": {
@@ -76903,6 +77547,18 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "noway": {
+    "r": {
+      "senses": [],
+      "origin": "From Middle English no way, no wey, no weye, na wai, equivalent to no + way; compare nowise, -wards.",
+      "sounds": [
+        {
+          "ipa": "/ˈnəʊweɪ/"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -77306,6 +77962,87 @@
     },
     "isAnglish": false
   },
+  "noy": {
+    "v": {
+      "senses": [],
+      "origin": "From Middle English noyen, partly an aphetic form of anoyen and partly from Anglo-Norman noier, nuier.",
+      "sounds": [
+        {
+          "ipa": "/nɔɪ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɔɪ"
+        },
+        {
+          "audio": "En-us-noy.oga",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/En-us-noy.oga",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/En-us-noy.oga/En-us-noy.oga.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Middle English noy, partly an aphetic form of anoy and partly from Anglo-Norman nui.",
+      "sounds": [
+        {
+          "ipa": "/nɔɪ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "rhymes": "-ɔɪ"
+        },
+        {
+          "audio": "En-us-noy.oga",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/En-us-noy.oga",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/En-us-noy.oga/En-us-noy.oga.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "noyance": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English noyaunce, partly an aphetic form of anoyaunce, partly directly from Anglo-Norman noyaunce.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɔɪəns/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "noyous": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English noyous; equivalent to noy + -ous.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɔɪəs/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "nozzle": {
     "n": {
       "pronunciation": [
@@ -77342,7 +78079,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ntertainmen": {
     "n": {
@@ -77534,7 +78271,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nubbin": {
     "n": {
@@ -79166,6 +79903,14 @@
     },
     "isAnglish": true
   },
+  "nug": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "nugatory": {
     "a": {
       "pronunciation": [
@@ -79230,6 +79975,32 @@
       ]
     },
     "isAnglish": false
+  },
+  "nuh": {
+    "x": {
+      "senses": [],
+      "origin": "From Middle English na, from Old English nā.",
+      "sounds": [
+        {
+          "ipa": "/ˈnɐː/",
+          "tags": [
+            "UK",
+            "West-Country"
+          ]
+        },
+        {
+          "ipa": "/ˈnə/",
+          "tags": [
+            "UK",
+            "West-Country"
+          ]
+        },
+        {
+          "rhymes": "-ə"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "nuisance": {
     "n": {
@@ -79836,7 +80607,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "numbat": {
     "n": {
@@ -80157,7 +80928,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "number 1": {
     "n": {
@@ -80237,7 +81008,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "number one wood": {
     "n": {
@@ -80310,7 +81081,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "numberless": {
     "a": {
@@ -81527,7 +82298,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nun buoy": {
     "n": {
@@ -81562,6 +82333,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "nuncheon": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nonshench, noneschench, nonechenche (“slight refreshment, usually taken in the afternoon”), from none (“noon”) + shench, schenche (“draught, cup”), equivalent to noon + shink (“to pour out, serve”). More at shink, skink.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nuncio": {
     "n": {
@@ -81638,7 +82417,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nunring": {
     "n": {
@@ -82001,6 +82780,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "nurseless": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English norcheles; equivalent to nurse + -less.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nurseling": {
     "n": {
@@ -82632,7 +83419,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nut and bolt": {
     "n": {
@@ -82655,7 +83442,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nut bread": {
     "n": {
@@ -82667,7 +83454,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nut butter": {
     "n": {
@@ -82679,7 +83466,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nut case": {
     "n": {
@@ -82714,7 +83501,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nut key": {
     "n": {
@@ -82737,7 +83524,7 @@
       ],
       "sounds": []
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nut sedge": {
     "n": {
@@ -82780,6 +83567,14 @@
           "synset": "01872193-s"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "nut-brown": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle English nute-brun, equivalent to nut + brown.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -82932,6 +83727,14 @@
     },
     "isAnglish": true
   },
+  "nuthack": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English nuthake, nuttehake, nothak, equivalent to nut + hack. Compare nuthatch and nutcracker.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "nuthatch": {
     "n": {
       "senses": [
@@ -82943,7 +83746,7 @@
       "origin": "From Middle English nutthache, notehache, nuthake, nuttehake, nothak, equivalent to nut + hatch. Compare English nutcracker.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nuthouse": {
     "n": {
@@ -82967,6 +83770,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "nutil": {
+    "a": {
+      "senses": [],
+      "origin": "From or related to Middle English nytelen (“to struggle”). Cognate with North Frisian næteln, nöteln (“to hesitate, procrastinate, dawdle, work slowly”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nutlet": {
     "n": {
@@ -83931,7 +84742,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nyala": {
     "n": {
@@ -84190,7 +85001,7 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": false
   },
   "nymphalid": {
     "n": {
