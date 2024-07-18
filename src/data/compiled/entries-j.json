@@ -7713,7 +7713,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Jewish New Year": {
     "n": {
@@ -7768,7 +7768,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Jewish religion": {
     "n": {
@@ -7790,7 +7790,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Jewish rye bread": {
     "n": {
@@ -16312,6 +16312,14 @@
     },
     "isAnglish": false
   },
+  "jackarse": {
+    "n": {
+      "senses": [],
+      "origin": "Blend of American English jackass with British English arse.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "jackass": {
     "n": {
       "senses": [
@@ -19703,6 +19711,14 @@
     },
     "isAnglish": true
   },
+  "jarnut": {
+    "n": {
+      "senses": [],
+      "origin": "Of Scandinavian origin: compare Danish jordnöd.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "jarring": {
     "a": {
       "senses": [
@@ -20175,7 +20191,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jauntily": {
     "r": {
@@ -34523,7 +34539,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "jujitsu": {
     "n": {

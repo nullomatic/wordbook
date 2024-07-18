@@ -5,15 +5,24 @@ import format from 'pg-format';
 import * as util from './util.mjs';
 import { logger } from './util.mjs';
 
-const client = new pg.Client({
-  user: 'postgres',
-  password: 'password',
-  host: '127.0.0.1',
-  port: 5432,
-});
-await client.connect();
+export async function getClient() {
+  const client = new pg.Client({
+    user: 'postgres',
+    password: 'password',
+    host: '127.0.0.1',
+    port: 5432,
+  });
+  await client.connect();
+  return client;
+}
 
+let client = null;
+
+/**
+ * Resets database and seeds it from the compiled entries and synsets files.
+ */
 export async function populateDatabase(_options) {
+  client = await getClient();
   await resetDatabase();
   await loadSynsets();
   await loadFrames();
@@ -66,9 +75,10 @@ async function loadSynsets() {
 
   // Second pass: insert relations.
   values = [];
+  const synsetRelations = ['hypernym', 'similar', 'attribute'];
   for (const synsetId in synsets) {
     const synset = synsets[synsetId];
-    for (const relation of ['hypernym', 'similar', 'attribute']) {
+    for (const relation of synsetRelations) {
       if (synset[relation]?.length) {
         const relations = synset[relation];
         values.push(

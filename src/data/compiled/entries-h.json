@@ -13248,6 +13248,14 @@
     },
     "isAnglish": false
   },
+  "Hinduland": {
+    "n": {
+      "senses": [],
+      "origin": "Hindu + -land. Compare Dutch Hindoeland, German Hinduland.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Hindustan": {
     "n": {
       "senses": [
@@ -22149,6 +22157,14 @@
     },
     "isAnglish": true
   },
+  "hab or nab": {
+    "r": {
+      "senses": [],
+      "origin": "Probably representing a present subjunctive and a negative form of have. Compare Old English hæbbe, næbbe, and the negative particle ne.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "habanera": {
     "n": {
       "senses": [
@@ -25362,6 +25378,14 @@
     },
     "isAnglish": true
   },
+  "haffle": {
+    "v": {
+      "senses": [],
+      "origin": "Compare German haften (“to cling, stick to; (dialect) to stop, stammer”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "hafnium": {
     "n": {
       "pronunciation": [
@@ -26361,6 +26385,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "haimish": {
+    "a": {
+      "senses": [],
+      "origin": "From Yiddish היימיש (heymish) (compare German heimisch).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "hain": {
     "v": {
@@ -27373,7 +27405,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hairpiece": {
     "n": {
@@ -28792,7 +28824,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "half hatchet": {
     "n": {
@@ -33399,6 +33431,34 @@
     },
     "isAnglish": true
   },
+  "hamiform": {
+    "a": {
+      "senses": [],
+      "origin": "First attested in glossaries in 1842 and first used in 1870; either directly from the Latin hāmiformis (1651, 1806) or formed from the suffixation of its etymon, hāmus (“hook”), with the English -form.",
+      "sounds": [
+        {
+          "ipa": "/ˈheɪmɪfɔːm/",
+          "tags": [
+            "Received-Pronunciation",
+            "UK"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-hamiform.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/LL-Q1860_%28eng%29-Vealhurl-hamiform.wav/LL-Q1860_%28eng%29-Vealhurl-hamiform.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/LL-Q1860_%28eng%29-Vealhurl-hamiform.wav/LL-Q1860_%28eng%29-Vealhurl-hamiform.wav.mp3"
+        },
+        {
+          "enpr": "hāʹmĭfôrm"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "hamlet": {
     "n": {
       "pronunciation": [
@@ -35184,7 +35244,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hand to mouth": {
     "r": {
@@ -35542,7 +35602,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hand-to-mouth": {
     "a": {
@@ -36691,7 +36751,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "handiness": {
     "n": {
@@ -37547,6 +37607,22 @@
     },
     "isAnglish": false
   },
+  "handmill": {
+    "n": {
+      "senses": [],
+      "origin": "From hand + mill. Compare Dutch handmolen (“handmill”), German Handmühle (“handmill”), Danish håndmølle (“handmill”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "handnail": {
+    "n": {
+      "senses": [],
+      "origin": "From hand + nail. Compare Old English handnæġl.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "handoff": {
     "n": {
       "senses": [
@@ -38160,6 +38236,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "handshoe": {
+    "n": {
+      "senses": [],
+      "origin": "From hand + shoe, likely as a calque of Dutch handschoen (“glove, mitten”) or German Handschuh (“glove”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "handsill": {
     "n": {
@@ -44357,7 +44441,7 @@
       "origin": "From hardy + -hood. Compare Dutch hardigheid (“hardness, callousness”), German Hartigkeit (“hardness”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hardiness": {
     "n": {
@@ -45836,6 +45920,51 @@
       "origin": "NE×2, hark+worthy"
     },
     "isAnglish": true
+  },
+  "harl": {
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/hɑːl/"
+        },
+        {
+          "rhymes": "-ɑː(ɹ)l"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-harl.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/LL-Q1860_%28eng%29-Vealhurl-harl.wav/LL-Q1860_%28eng%29-Vealhurl-harl.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/LL-Q1860_%28eng%29-Vealhurl-harl.wav/LL-Q1860_%28eng%29-Vealhurl-harl.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/hɑːl/"
+        },
+        {
+          "rhymes": "-ɑː(ɹ)l"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-harl.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/LL-Q1860_%28eng%29-Vealhurl-harl.wav/LL-Q1860_%28eng%29-Vealhurl-harl.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/LL-Q1860_%28eng%29-Vealhurl-harl.wav/LL-Q1860_%28eng%29-Vealhurl-harl.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "harlequin": {
     "n": {
@@ -48342,6 +48471,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "harr": {
+    "n": {
+      "senses": [],
+      "origin": "See English har.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "harreaf": {
     "n": {
@@ -51630,6 +51767,14 @@
     },
     "isAnglish": false
   },
+  "hate speech": {
+    "n": {
+      "senses": [],
+      "origin": "From hate + speech. Compare Old English hetesprǣċ (“hateful speech”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "hated": {
     "a": {
       "pronunciation": [
@@ -52021,6 +52166,14 @@
     "n": {
       "senses": [],
       "origin": "s"
+    },
+    "isAnglish": true
+  },
+  "hatredly": {
+    "r": {
+      "senses": [],
+      "origin": "From hatred + -ly. Compare Middle English hately, heteliche (“with hate, cruelly”), from Old English hetelīċe (“violently, furiously, fiercely”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -53134,6 +53287,14 @@
     },
     "isAnglish": false
   },
+  "hautest": {
+    "a": {
+      "senses": [],
+      "origin": "French haut + English -est.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "hauteur": {
     "n": {
       "pronunciation": [
@@ -54032,7 +54193,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "have words": {
     "v": {
@@ -55485,7 +55646,7 @@
       "origin": "From hay + rick. Compare Middle English heyrek (from related Old English hrēac).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hayriff": {
     "n": {
@@ -59545,7 +59706,7 @@
       "origin": "From head + stead. Compare Old English hēafodstede (“chief place; high place, sacred place”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "headstock": {
     "n": {
@@ -59896,7 +60057,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "headwound": {
     "n": {
@@ -60807,7 +60968,16 @@
       ],
       "origin": "OE, hǣman"
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "Dialectal form of hame (“membrane”). Compare Old English ċildhama (“womb”), Low German hamen (“afterbirth”), Middle Dutch hame (“covering, sheath”). More at hame.",
+      "sounds": [
+        {
+          "ipa": "/ˈhiːm/"
+        }
+      ]
+    }
   },
   "heamed": {
     "n": {
@@ -62106,6 +62276,14 @@
         }
       ],
       "origin": "From Middle English hersumnesse, from Old English hīersumnes (“obedience”), equivalent to hearsome + -ness. Cognate with West Frisian hearsumens (“obedience”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "hearst": {
+    "n": {
+      "senses": [],
+      "origin": "Uncertain. Perhaps related to Middle English hert (“male or female deer”), whence English hart.",
       "sounds": []
     },
     "isAnglish": true
@@ -63894,6 +64072,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "heartsore": {
+    "a": {
+      "senses": [],
+      "origin": "From heart + sore. Compare Saterland Frisian Haatseer (“heartache”), West Frisian hertsear (“heartache”), Dutch hartzeer (“heartache”), German Low German Hartsehr (“heartache”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From heart + sore. Compare Saterland Frisian Haatseer (“heartache”), West Frisian hertsear (“heartache”), Dutch hartzeer (“heartache”), German Low German Hartsehr (“heartache”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "heartstop": {
     "n": {
@@ -70023,7 +70214,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hegari": {
     "n": {
@@ -77713,6 +77904,14 @@
     },
     "isAnglish": false
   },
+  "heppen": {
+    "a": {
+      "senses": [],
+      "origin": "Compare Old English ġehæp fit, Icelandic heppinn lucky, English happy.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "heptad": {
     "n": {
       "pronunciation": [
@@ -79531,6 +79730,14 @@
     },
     "isAnglish": false
   },
+  "here lies": {
+    "x": {
+      "senses": [],
+      "origin": "Calque of Latin hīc jacet (whence also English hic jacet, a direct borrowing).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "hereabout": {
     "r": {
       "senses": [
@@ -80233,6 +80440,14 @@
           "rhymes": "-ʌv"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "hereout": {
+    "r": {
+      "senses": [],
+      "origin": "here + out. Cognate with German heraus (“out of”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -82581,6 +82796,18 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-herself.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/En-us-herself.ogg/En-us-herself.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "hership": {
+    "n": {
+      "senses": [],
+      "origin": "From here (“army”), or the stem of Old English herġan (“harry”), + -ship.",
+      "sounds": [
+        {
+          "ipa": "/ˈhɜːʃɪp/"
         }
       ]
     },
@@ -86318,7 +86545,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hiccup nut": {
     "n": {
@@ -86329,7 +86556,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hick": {
     "a": {
@@ -92818,7 +93045,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "highway system": {
     "n": {
@@ -95464,7 +95691,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hinx": {
     "n": {
@@ -95666,7 +95893,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hip-hop": {
     "n": {
@@ -105949,6 +106176,14 @@
     },
     "isAnglish": true
   },
+  "holeyness": {
+    "n": {
+      "senses": [],
+      "origin": "From holey + -ness. Compare Middle English holynesse (“condition of having pores”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "holibone": {
     "n": {
       "senses": [
@@ -110270,7 +110505,7 @@
       "origin": "homeo- + -path, related to German Homöopath.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "homeopathic": {
     "a": {
@@ -110848,7 +111083,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "homestead law": {
     "n": {
@@ -110859,7 +111094,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "homesteader": {
     "n": {
@@ -112757,6 +112992,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "homonymophobia": {
+    "n": {
+      "senses": [],
+      "origin": "From homonym + -o- + -phobia. Compare German Homonymophobie and Dutch hononymievrees.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "homonymous": {
     "a": {
@@ -114943,7 +115186,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "honeymoon resort": {
     "n": {
@@ -117395,6 +117638,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "hooie": {
+    "x": {
+      "senses": [],
+      "origin": "Compare German hui. See hooey for more.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "Compare German hui. See hooey for more.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "hook": {
     "n": {
@@ -120192,6 +120448,75 @@
     },
     "isAnglish": false
   },
+  "hoping": {
+    "v": {
+      "senses": [],
+      "origin": "hope + -ing. Cognate with German Hoffnung (“hope”).",
+      "sounds": [
+        {
+          "ipa": "/ˈhoʊpɪŋ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ˈhəʊpɪŋ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "(General American) -oʊpɪŋ"
+        },
+        {
+          "rhymes": "(Received Pronunciation) -əʊpɪŋ"
+        },
+        {
+          "audio": "en-us-hoping.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/En-us-hoping.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/En-us-hoping.ogg/En-us-hoping.ogg.mp3"
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "hope + -ing. Cognate with German Hoffnung (“hope”).",
+      "sounds": [
+        {
+          "ipa": "/ˈhoʊpɪŋ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ˈhəʊpɪŋ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "(General American) -oʊpɪŋ"
+        },
+        {
+          "rhymes": "(Received Pronunciation) -əʊpɪŋ"
+        },
+        {
+          "audio": "en-us-hoping.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/En-us-hoping.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/En-us-hoping.ogg/En-us-hoping.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "hopped up": {
     "a": {
       "senses": [
@@ -121401,6 +121726,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "horn-bearing": {
+    "a": {
+      "senses": [],
+      "origin": "From horn + bearing. Compare Old English hornbǣre (“horn-bearing”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "horn-rimmed": {
     "a": {
@@ -125795,6 +126128,14 @@
     },
     "isAnglish": false
   },
+  "hortensial": {
+    "a": {
+      "senses": [],
+      "origin": "From Latin hortensius, hortensis, from hortus (“garden”). Akin to English yard (“an enclosure”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "horticultural": {
     "a": {
       "senses": [
@@ -128476,6 +128817,14 @@
     },
     "isAnglish": false
   },
+  "hot-brain": {
+    "n": {
+      "senses": [],
+      "origin": "From hot + brain. Compare Old English hātheort (“furious, angry, irascible, passionate, ardent”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "hot-button issue": {
     "n": {
       "senses": [
@@ -129220,7 +129569,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "hotheaded": {
     "a": {
@@ -130906,7 +131255,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "house-train": {
     "v": {
@@ -131226,7 +131575,7 @@
       "origin": "From house + father. Cognate with Dutch huisvader, German Hausvater, Swedish husfader, Icelandic húsfaðir.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "housefly": {
     "n": {
@@ -131239,7 +131588,7 @@
       "origin": "From house + fly. Cognate with Dutch huisvlieg (“housefly”), Danish husflue (“housefly”), Swedish husfluga (“housefly”), Faroese húsfluga (“housefly”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "houseful": {
     "n": {
@@ -133102,6 +133451,19 @@
     },
     "isAnglish": false
   },
+  "howel": {
+    "n": {
+      "senses": [],
+      "origin": "From the same source as German Hobel. Related to Danish høvl and Swedish hyvel.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From the same source as German Hobel. Related to Danish høvl and Swedish hyvel.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "however": {
     "r": {
       "pronunciation": [
@@ -134150,7 +134512,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "huckleberry oak": {
     "n": {
@@ -134161,7 +134523,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "huckster": {
     "n": {
@@ -134799,7 +135161,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "huffily": {
     "r": {
@@ -137376,7 +137738,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "humanness": {
     "n": {

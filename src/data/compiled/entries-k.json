@@ -13677,6 +13677,30 @@
     },
     "isAnglish": false
   },
+  "keck": {
+    "v": {
+      "senses": [],
+      "origin": "Imitative. Compare German köken (“to vomit”).",
+      "sounds": [
+        {
+          "ipa": "/kɛk/"
+        },
+        {
+          "rhymes": "-ɛk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-keck.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q1860_%28eng%29-Vealhurl-keck.wav/LL-Q1860_%28eng%29-Vealhurl-keck.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q1860_%28eng%29-Vealhurl-keck.wav/LL-Q1860_%28eng%29-Vealhurl-keck.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kedgeree": {
     "n": {
       "pronunciation": [
@@ -14022,7 +14046,7 @@
       "origin": "Compare Icelandic keila, Swedish kolja, Danish kulle.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "keelson": {
     "n": {
@@ -16197,6 +16221,14 @@
         }
       ]
     }
+  },
+  "kemper": {
+    "n": {
+      "senses": [],
+      "origin": "From kemp (“to contend, struggle, compete”) + -er. Compare Middle Low German kemper, Dutch kamper, German Kämpfer, Danish kæmper. Compare also English kemp (“knight, warrior”), from Middle English kempe (“kemper, warrior”), from Old English cempa (“warrior, soldier”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "kempery-man": {
     "n": {
@@ -24447,7 +24479,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kindergrove": {
     "n": {
@@ -28095,6 +28127,30 @@
     },
     "isAnglish": true
   },
+  "kish": {
+    "n": {
+      "senses": [],
+      "origin": "Compare German Kies (“gravel, pyrites”).",
+      "sounds": [
+        {
+          "ipa": "/kɪʃ/"
+        },
+        {
+          "rhymes": "-ɪʃ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-kish.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/LL-Q1860_%28eng%29-Vealhurl-kish.wav/LL-Q1860_%28eng%29-Vealhurl-kish.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/LL-Q1860_%28eng%29-Vealhurl-kish.wav/LL-Q1860_%28eng%29-Vealhurl-kish.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kishke": {
     "n": {
       "pronunciation": [
@@ -29730,7 +29786,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kittee": {
     "n": {
@@ -30536,7 +30592,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "klystron": {
     "n": {
@@ -30761,6 +30817,30 @@
       "sounds": [
         {
           "rhymes": "-æɡ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "knaidel": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Yiddish קניידל (kneydl), cognate to German Knödel (“dumpling”). Doublet of quenelle.",
+      "sounds": [
+        {
+          "ipa": "/ˈkneɪdl̩/"
+        },
+        {
+          "ipa": "/kəˈneɪdl̩/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-knaidel.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/LL-Q1860_%28eng%29-Vealhurl-knaidel.wav/LL-Q1860_%28eng%29-Vealhurl-knaidel.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/LL-Q1860_%28eng%29-Vealhurl-knaidel.wav/LL-Q1860_%28eng%29-Vealhurl-knaidel.wav.mp3"
         }
       ]
     },
@@ -34687,6 +34767,29 @@
     },
     "isAnglish": true
   },
+  "knoppern": {
+    "n": {
+      "senses": [],
+      "origin": "Compare German Knopper. See knop.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "knosp": {
+    "n": {
+      "senses": [],
+      "origin": "Compare German knospe (“bud”), English knop, knar.",
+      "sounds": [
+        {
+          "ipa": "/nɒsp/"
+        },
+        {
+          "rhymes": "-ɒsp"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "knot": {
     "n": {
       "senses": [
@@ -36469,6 +36572,24 @@
     },
     "isAnglish": false
   },
+  "knuff": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Old English cnof (“a churl”).",
+      "sounds": [
+        {
+          "ipa": "/nʌf/"
+        },
+        {
+          "rhymes": "-ʌf"
+        },
+        {
+          "homophone": "'nuff"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "knur": {
     "n": {
       "senses": [],
@@ -37516,7 +37637,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kos": {
     "n": {
@@ -38204,6 +38325,14 @@
     },
     "isAnglish": false
   },
+  "krumkake": {
+    "n": {
+      "senses": [],
+      "origin": "Unadapted borrowing from Norwegian krumkake (“curved cake”). Compare Middle English crumcake, cramkake (“loaf of unleavened bread; a twisted or crumpled cake”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "krummhorn": {
     "n": {
       "pronunciation": [
@@ -38826,6 +38955,25 @@
     },
     "isAnglish": false
   },
+  "kvell": {
+    "v": {
+      "senses": [],
+      "origin": "From Yiddish קוועלן (kveln), from an old Germanic word akin to German quellen (“well up”).",
+      "sounds": [
+        {
+          "ipa": "/kvɛl/",
+          "tags": [
+            "UK",
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-ɛl"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "kvetch": {
     "n": {
       "pronunciation": [
@@ -38901,7 +39049,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "kwacha": {
     "n": {
@@ -39040,6 +39188,99 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "kweng": {
+    "a": {
+      "senses": [],
+      "origin": "A continuation of the rhymes of peng (“physically attractive”) as well as from an interjection more commonly known in German peng (“bang”). For the onset, consider that way as in from way back is often kway in MLE.",
+      "sounds": [
+        {
+          "ipa": "/kwɛŋ/",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "ipa": "[kwɛŋ]",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "rhymes": "-ɛŋ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-kweng.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/LL-Q1860_%28eng%29-Vealhurl-kweng.wav/LL-Q1860_%28eng%29-Vealhurl-kweng.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/LL-Q1860_%28eng%29-Vealhurl-kweng.wav/LL-Q1860_%28eng%29-Vealhurl-kweng.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "A continuation of the rhymes of peng (“physically attractive”) as well as from an interjection more commonly known in German peng (“bang”). For the onset, consider that way as in from way back is often kway in MLE.",
+      "sounds": [
+        {
+          "ipa": "/kwɛŋ/",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "ipa": "[kwɛŋ]",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "rhymes": "-ɛŋ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-kweng.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/LL-Q1860_%28eng%29-Vealhurl-kweng.wav/LL-Q1860_%28eng%29-Vealhurl-kweng.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/LL-Q1860_%28eng%29-Vealhurl-kweng.wav/LL-Q1860_%28eng%29-Vealhurl-kweng.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "A continuation of the rhymes of peng (“physically attractive”) as well as from an interjection more commonly known in German peng (“bang”). For the onset, consider that way as in from way back is often kway in MLE.",
+      "sounds": [
+        {
+          "ipa": "/kwɛŋ/",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "ipa": "[kwɛŋ]",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "rhymes": "-ɛŋ"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-kweng.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/LL-Q1860_%28eng%29-Vealhurl-kweng.wav/LL-Q1860_%28eng%29-Vealhurl-kweng.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/LL-Q1860_%28eng%29-Vealhurl-kweng.wav/LL-Q1860_%28eng%29-Vealhurl-kweng.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "ky": {
     "n": {

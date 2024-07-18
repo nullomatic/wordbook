@@ -5008,6 +5008,14 @@
     },
     "isAnglish": true
   },
+  "yarwhelp": {
+    "n": {
+      "senses": [],
+      "origin": "Perhaps related to Old English hwilpa, Scots whaup and Dutch wulp (“curlew”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "yashmac": {
     "n": {
       "senses": [
@@ -5933,6 +5941,24 @@
       "sounds": []
     }
   },
+  "ye gods": {
+    "x": {
+      "senses": [],
+      "origin": "Seventeenth-century British variant of oh my God, probably intended to avoid blasphemy. Compare Danish I guder.",
+      "sounds": [
+        {
+          "audio": "En-au-ye gods.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/En-au-ye_gods.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/En-au-ye_gods.ogg/En-au-ye_gods.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "ye olde": {
     "x": {
       "senses": [],
@@ -6533,7 +6559,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yearday": {
     "n": {
@@ -6626,7 +6652,7 @@
       "origin": "From year + hundred. Compare Scots yeirhunder (“century”), Saterland Frisian Jierhunnert (“century”), German Jahrhundert (“century”), Danish århundrede (“century”), Swedish århundrade (“century”), Norwegian århundre (“century”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yearling": {
     "n": {
@@ -7249,7 +7275,7 @@
       "origin": "From year + thousand. Compare Dutch jaarduizend (“millennium”), German Jahrtausend (“millennium”), Norwegian årtusen (“millennium”), Icelandic árþúsund (“millennium”), Swedish årtusende (“millennium”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yearthousands": {
     "n": {
@@ -7284,7 +7310,7 @@
       "origin": "From year + tide (“time, occasion”). Compare West Frisian jiertiid (“season”), Dutch jaartijd, jaargetijde (“season”), German Jahreszeit (“season”), Swedish årstid (“season”), Icelandic árstíð (“season”), Yiddish יאָרצײַט (yortsayt). Doublet of yahrzeit.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yeartime": {
     "n": {
@@ -7302,7 +7328,12 @@
       "origin": "From year + time. Compare Dutch jaartijd, jaargetijde (“season”), German Jahreszeit (“season, time of year”), Swedish årstid (“season”), English yeartide.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From year + time. Compare Dutch jaartijd, jaargetijde (“season”), German Jahreszeit (“season, time of year”), Swedish årstid (“season”), English yeartide.",
+      "sounds": []
+    }
   },
   "yeasay": {
     "v": {
@@ -11411,6 +11442,81 @@
     },
     "isAnglish": true
   },
+  "yep": {
+    "r": {
+      "senses": [],
+      "origin": "Representing yeah pronounced with the mouth snapped closed at the end. Compare yup, nope, welp, and ope. Compare also German jap (“yep”).",
+      "sounds": [
+        {
+          "ipa": "/jɛp/"
+        },
+        {
+          "ipa": "[jɛp̚]"
+        },
+        {
+          "ipa": "[jɛʔ]"
+        },
+        {
+          "rhymes": "-ɛp"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-yep.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/LL-Q1860_%28eng%29-Vealhurl-yep.wav/LL-Q1860_%28eng%29-Vealhurl-yep.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/LL-Q1860_%28eng%29-Vealhurl-yep.wav/LL-Q1860_%28eng%29-Vealhurl-yep.wav.mp3"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Wodencafe-yep.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/LL-Q1860_%28eng%29-Wodencafe-yep.wav/LL-Q1860_%28eng%29-Wodencafe-yep.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/LL-Q1860_%28eng%29-Wodencafe-yep.wav/LL-Q1860_%28eng%29-Wodencafe-yep.wav.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Representing yeah pronounced with the mouth snapped closed at the end. Compare yup, nope, welp, and ope. Compare also German jap (“yep”).",
+      "sounds": [
+        {
+          "ipa": "/jɛp/"
+        },
+        {
+          "ipa": "[jɛp̚]"
+        },
+        {
+          "ipa": "[jɛʔ]"
+        },
+        {
+          "rhymes": "-ɛp"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-yep.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/LL-Q1860_%28eng%29-Vealhurl-yep.wav/LL-Q1860_%28eng%29-Vealhurl-yep.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/LL-Q1860_%28eng%29-Vealhurl-yep.wav/LL-Q1860_%28eng%29-Vealhurl-yep.wav.mp3"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Wodencafe-yep.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/LL-Q1860_%28eng%29-Wodencafe-yep.wav/LL-Q1860_%28eng%29-Wodencafe-yep.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/LL-Q1860_%28eng%29-Wodencafe-yep.wav/LL-Q1860_%28eng%29-Wodencafe-yep.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "yepe": {
     "a": {
       "senses": [
@@ -12114,6 +12220,24 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "yestern": {
+    "a": {
+      "senses": [],
+      "origin": "Perhaps from yester + -en. Compare also Old English ġiestran (“yesterday”).",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "Perhaps from yester + -en. Compare also Old English ġiestran (“yesterday”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "Perhaps from yester + -en. Compare also Old English ġiestran (“yesterday”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -17444,6 +17568,81 @@
     },
     "isAnglish": false
   },
+  "yuck": {
+    "x": {
+      "senses": [],
+      "origin": "Perhaps imitative. Akin to Dutch jak (“disgusting”). First appeared in the 1960s. Compare also Scots yeuk (“anything that disgusts”), Middle English yuke (“an itchy skin disease”).",
+      "sounds": [
+        {
+          "ipa": "/jʌk/"
+        },
+        {
+          "homophone": "yuk"
+        },
+        {
+          "rhymes": "-ʌk"
+        },
+        {
+          "audio": "En-us-yuck.oga",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/En-us-yuck.oga",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/En-us-yuck.oga/En-us-yuck.oga.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/jʌk/"
+        },
+        {
+          "homophone": "yuk"
+        },
+        {
+          "rhymes": "-ʌk"
+        },
+        {
+          "audio": "En-us-yuck.oga",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/En-us-yuck.oga",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/En-us-yuck.oga/En-us-yuck.oga.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "",
+      "sounds": [
+        {
+          "ipa": "/jʌk/"
+        },
+        {
+          "homophone": "yuk"
+        },
+        {
+          "rhymes": "-ʌk"
+        },
+        {
+          "audio": "En-us-yuck.oga",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/En-us-yuck.oga",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/En-us-yuck.oga/En-us-yuck.oga.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
   "yucky": {
     "a": {
       "pronunciation": [
@@ -17487,7 +17686,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "yuga": {
     "n": {

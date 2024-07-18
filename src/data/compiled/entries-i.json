@@ -1687,7 +1687,7 @@
       "origin": "From Iceland + -er. Displaced older Middle English Iselandman (“Icelander”, literally “Iceland man, Iceland person”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Icelandic": {
     "a": {
@@ -12337,7 +12337,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ice bond": {
     "v": {
@@ -13912,6 +13912,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "ichthyphagous": {
+    "a": {
+      "senses": [],
+      "origin": "Ancient Greek ἰχθυφάγος (ikhthuphágos) (ikhthuphagos: alternative spelling of ἰχθυοφάγος (ikhthuophágos), ikhthuophagos; whence ichthyophage) + English -ous",
+      "sounds": [
+        {
+          "ipa": "/ɪkˈθɪfəɡəs/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "ichurl": {
     "v": {
@@ -17288,6 +17300,14 @@
     },
     "isAnglish": false
   },
+  "idiotish": {
+    "a": {
+      "senses": [],
+      "origin": "From idiot + -ish. Compare Dutch idioots (“idiotic”), German idiotisch (“idiotic”), Danish idiotisk (“idiotic”), Swedish idiotisk (“idiotic, stupid, insane”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "idish": {
     "n": {
       "senses": [
@@ -18545,6 +18565,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "if only the tsar knew": {
+    "x": {
+      "senses": [],
+      "origin": "A phrase attributed to Russian peasants who suffered mistreatment in the tsarist era. Compare German wenn das der Führer wüsste.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "iffy": {
     "a": {
@@ -21033,7 +21061,7 @@
       "origin": "Compare Middle English ille-ymanerite.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ill-name": {
     "n": {
@@ -42616,6 +42644,24 @@
     },
     "isAnglish": false
   },
+  "in the pudding club": {
+    "p": {
+      "senses": [],
+      "origin": "* Possibly derived from the round shape of a pregnant abdomen, resembling that of a traditional boiled pudding.\n* An alternative suggestion is an association with dialectal English pod (“belly”), German puddig (“swollen”), Westphalian Low German Puddek (“lump, pudding”).",
+      "sounds": [
+        {
+          "audio": "EN-AU ck1 in the pudding club.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/EN-AU_ck1_in_the_pudding_club.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/EN-AU_ck1_in_the_pudding_club.ogg/EN-AU_ck1_in_the_pudding_club.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "in the raw": {
     "a": {
       "senses": [
@@ -45412,6 +45458,14 @@
     },
     "isAnglish": true
   },
+  "inbeing": {
+    "n": {
+      "senses": [],
+      "origin": "From in- + being. Compare Old English onwist (“habitation”), Dutch aanwezigheid (“presence, existence”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "inbetweenish": {
     "a": {
       "senses": [
@@ -45438,6 +45492,14 @@
     },
     "isAnglish": true
   },
+  "inbind": {
+    "v": {
+      "senses": [],
+      "origin": "From in- + bind. Cognate with Dutch inbinden (“to bind”), German einbinden (“to integrate”), Swedish inbinda (“to bind”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "inbirl": {
     "v": {
       "senses": [
@@ -45449,6 +45511,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "inbirth": {
+    "n": {
+      "senses": [],
+      "origin": "From in- + birth. Compare Old English inberþ, inbyrd (“born within one's estate; native-born”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -45497,6 +45567,14 @@
         }
       ],
       "origin": "neologism: in + blend"
+    },
+    "isAnglish": true
+  },
+  "inblind": {
+    "v": {
+      "senses": [],
+      "origin": "From in- + blind. Compare Old English ofblindian (“to blind”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -66971,6 +67049,14 @@
     },
     "isAnglish": false
   },
+  "infang": {
+    "v": {
+      "senses": [],
+      "origin": "From in- + fang. Compare Old English onfōn (past participle onfangen; \"to take, receive, perceive, comprehend, accept, take to one’s self, sponsor, harbor, favor unrighteously, take hold of, undertake, undergo, begin, conceive\").",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "infangthief": {
     "n": {
       "senses": [],
@@ -69304,7 +69390,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "infillingness": {
     "n": {
@@ -71275,6 +71361,53 @@
       ]
     },
     "isAnglish": false
+  },
+  "inflood": {
+    "n": {
+      "senses": [],
+      "origin": "PIE word\n *h₁én\nFrom in- (prefix meaning ‘in, into; towards’) + flood (“overflow of water from a lake or other body of water; flowing in of the tide; to overflow; to cover or partly fill as if by a flood”). Compare Saterland Frisian Íenfloud (“influence”), West Frisian ynfloed (“influence”), Dutch invloed (“influence”), Middle Low German invlôt (“influence”), German Einfluss (“influence”), Danish indflydelse (“influence”), Swedish inflytande (“influence”), Norwegian innflytelse (“influence”).",
+      "sounds": [
+        {
+          "ipa": "/ˈinˌflʌd/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-inflood.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-inflood.wav/LL-Q1860_%28eng%29-Vealhurl-inflood.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-inflood.wav/LL-Q1860_%28eng%29-Vealhurl-inflood.wav.mp3"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "PIE word\n *h₁én\nFrom in- (prefix meaning ‘in, into; towards’) + flood (“overflow of water from a lake or other body of water; flowing in of the tide; to overflow; to cover or partly fill as if by a flood”). Compare Saterland Frisian Íenfloud (“influence”), West Frisian ynfloed (“influence”), Dutch invloed (“influence”), Middle Low German invlôt (“influence”), German Einfluss (“influence”), Danish indflydelse (“influence”), Swedish inflytande (“influence”), Norwegian innflytelse (“influence”).",
+      "sounds": [
+        {
+          "ipa": "/ˈinˌflʌd/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-inflood.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-inflood.wav/LL-Q1860_%28eng%29-Vealhurl-inflood.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q1860_%28eng%29-Vealhurl-inflood.wav/LL-Q1860_%28eng%29-Vealhurl-inflood.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "inflood sway": {
     "v": {
@@ -76384,7 +76517,7 @@
         }
       ]
     },
-    "isAnglish": false,
+    "isAnglish": true,
     "n": {
       "senses": [
         {
@@ -79127,7 +79260,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inlandish": {
     "a": {
@@ -80779,6 +80912,27 @@
       ]
     },
     "isAnglish": false
+  },
+  "innixion": {
+    "n": {
+      "senses": [],
+      "origin": "Formed as innix-, the perfect active participial stem of the Latin innītor (“I lean or rest upon”, “I am supported by”) + the English -ion, forming nouns of action.",
+      "sounds": [
+        {
+          "ipa": "/ɪˈnɪkʃən/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "enpr": "ĭnĭkʹshən",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "innkeeper": {
     "n": {
@@ -84282,7 +84436,7 @@
       "origin": "From in- + see, or taken as a back-formation of inseeing, itself a loan-translation / calque of German Einsehen (“recognition, observation”). Compare Old English onsēon (“to look on, observe, regard, take notice of”). More at insight.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inseeing": {
     "n": {
@@ -85160,6 +85314,18 @@
       "origin": "Germanic"
     },
     "isAnglish": true
+  },
+  "inship": {
+    "v": {
+      "senses": [],
+      "origin": "From in- + ship.",
+      "sounds": [
+        {
+          "ipa": "/ˈinˌʃip/"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "inshore": {
     "a": {
@@ -91040,6 +91206,19 @@
     },
     "isAnglish": false
   },
+  "insuck": {
+    "v": {
+      "senses": [],
+      "origin": "From in- + suck. Cognate with Dutch inzuigen (“to suck in”), German einsaugen (“suck in, absorb, soak up”), Swedish insuga (“to inhale, suck in, pick up”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From in- + suck. Cognate with Dutch inzuigen (“to suck in”), German einsaugen (“suck in, absorb, soak up”), Swedish insuga (“to inhale, suck in, pick up”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "insufferable": {
     "a": {
       "pronunciation": [
@@ -93252,7 +93431,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "integral": {
     "a": {
@@ -94257,7 +94436,7 @@
       "origin": "A calque of German Intelligenzquotient. Coined in 1912 by German psychologist William Stern.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "intelligence service": {
     "n": {
@@ -116472,7 +116651,7 @@
       "origin": "From in- + work. Compare Dutch inwerken (“to affect, orient”), German einwirken (“to influence, impinge”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "inworker": {
     "n": {
@@ -126313,7 +126492,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "isweer": {
     "n": {

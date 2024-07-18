@@ -86,12 +86,29 @@ export class WiktionaryLoader {
     let hasLatin = false;
 
     if (Array.isArray(templates)) {
+      let foundInheritedOrDerivative = false;
       for (const etym of templates) {
         if (['inh', 'der'].includes(etym.name)) {
+          foundInheritedOrDerivative = true;
           if (/(English|Germanic|Norse|Saxon|Frankish)/i.test(etym.expansion)) {
             hasGermanic = true;
           } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
             hasLatin = true;
+          }
+        }
+      }
+      if (!foundInheritedOrDerivative) {
+        for (const etym of templates) {
+          if (etym.name === 'cog') {
+            if (
+              /(English|German|Norse|Saxon|Frankish|Danish)/i.test(
+                etym.expansion
+              )
+            ) {
+              hasGermanic = true;
+            } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
+              hasLatin = true;
+            }
           }
         }
       }

@@ -639,7 +639,7 @@
       "origin": "From German EKG. Initialism of German Elektrokardiogramm.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "EL": {
     "n": {
@@ -2044,7 +2044,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Easter lily": {
     "n": {
@@ -2098,6 +2098,14 @@
         }
       ],
       "origin": "Anglo-Saxon, from Ēaster-mōnath"
+    },
+    "isAnglish": true
+  },
+  "Easterfest": {
+    "n": {
+      "senses": [],
+      "origin": "From Easter + -fest. Compare German Osterfest (“Easterfest”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -3984,6 +3992,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "Edsel": {
+    "n": {
+      "senses": [],
+      "origin": "The automobile marque is named after Edsel Ford (1893–1943), son of Henry Ford. Compare German Etzel.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "Edsel Bryant Ford": {
     "n": {
@@ -9491,6 +9507,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "Englander": {
+    "n": {
+      "senses": [],
+      "origin": "From England + -er. Compare Saterland Frisian Änglounder (“an Englishman”), German Engländer (“an Englishman”), Danish englænder (“an Englishman”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "Engledom": {
     "n": {
@@ -17609,6 +17633,21 @@
     },
     "isAnglish": false
   },
+  "Euripidean": {
+    "a": {
+      "senses": [],
+      "origin": "Latin Eurīpidēus (from the Ancient Greek Εὐρῑπῐ́δειος, from Εὐρῑπῐ́δης, whence Euripides) + English -an",
+      "sounds": [
+        {
+          "ipa": "/juːˌɹɪpɪˈdiːən/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Euripides": {
     "n": {
       "senses": [
@@ -21635,6 +21674,14 @@
     },
     "isAnglish": true
   },
+  "ealdorman": {
+    "n": {
+      "senses": [],
+      "origin": "Learned borrowing from Old English ealdormann. See alderman (from Old English aldormann).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ealsand": {
     "n": {
       "senses": [
@@ -24605,7 +24652,7 @@
       "origin": "From earth + berry. First attested in the 1800s, mostly in texts about or translated from German or other languages which use similar terms, of which it is likely a calque: German Erdbeere, Danish jordbær, etc. Compare Old English eorþberġe (“strawberry”, literally “earthberry”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "earthbiving": {
     "n": {
@@ -24849,6 +24896,14 @@
     },
     "isAnglish": true
   },
+  "earthfall": {
+    "n": {
+      "senses": [],
+      "origin": "From earth + fall. Cognate with Old Frisian irthfal, erthfel, erdfal, German Erdfall (“a sinkhole”), Danish jordfald, Swedish jordfall, Icelandic jarðfall. Compare waterfall.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "earthfarrow": {
     "n": {
       "senses": [
@@ -24991,6 +25046,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "earthish": {
+    "a": {
+      "senses": [],
+      "origin": "From earth + -ish. Compare Dutch aards (“earthish”), German irdisch (“earthish”), Danish jordisk (“earthish”), Swedish jordisk (“earthish”), Icelandic jarðeskur, jarðneskur (“earthish”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "earthivy": {
     "n": {
@@ -26895,7 +26958,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eastern dasyure": {
     "n": {
@@ -31840,6 +31903,14 @@
     },
     "isAnglish": false
   },
+  "ecolect": {
+    "n": {
+      "senses": [],
+      "origin": "From Ancient Greek οἶκος (oîkos, “house”) + English -lect (“[language] variety”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ecologic": {
     "a": {
       "senses": [
@@ -35198,7 +35269,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "edheal": {
     "a": {
@@ -38206,7 +38277,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eeriness": {
     "n": {
@@ -41914,6 +41985,14 @@
     },
     "isAnglish": true
   },
+  "eggler": {
+    "n": {
+      "senses": [],
+      "origin": "Presumably from *eggle (“to sell eggs”) + -er. Compare English eggling.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "eggling": {
     "n": {
       "senses": [
@@ -42977,6 +43056,14 @@
     },
     "isAnglish": false
   },
+  "eidgah": {
+    "n": {
+      "senses": [],
+      "origin": "From Persian عیدگاه (“place of Eid prayers”). See also English dargah.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "eidos": {
     "n": {
       "pronunciation": [
@@ -43002,6 +43089,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "eigengrau": {
+    "n": {
+      "senses": [],
+      "origin": "From German Eigengrau (“intrinsic grey”).",
+      "sounds": [
+        {
+          "ipa": "/ˈaɪɡənɡɹaʊ/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "eigenvalue": {
     "n": {
@@ -46376,7 +46475,7 @@
       "origin": "From eld + -en (“to become”). Compare Middle English elden, ealdien (“to age, grow older”). More at eld.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "elder": {
     "a": {
@@ -60063,7 +60162,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "emboldened": {
     "a": {
@@ -62407,6 +62506,18 @@
     "p": {
       "senses": [],
       "origin": "ME, emforth[evenforth]"
+    },
+    "isAnglish": true
+  },
+  "emiction": {
+    "n": {
+      "senses": [
+        {
+          "synset": "13537161-n"
+        }
+      ],
+      "origin": "From Latin e (“out”) + mingere, mictum (“to make water”). Cognate with Middle English miȝen (“to urinate”), from Old English mīġan (“to urinate”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -66587,6 +66698,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "emulge": {
+    "v": {
+      "senses": [],
+      "origin": "Borrowed from Latin emulgeo, emulsum; e (“out”) + mulgeo (“to milk”); akin to English milk. See milk.",
+      "sounds": [
+        {
+          "ipa": "/ɪˈmʌld͡ʒənt/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "emulous": {
     "a": {
@@ -73142,6 +73265,45 @@
     },
     "isAnglish": true
   },
+  "endlong": {
+    "p": {
+      "senses": [],
+      "origin": "Old English andlang ( > along), re-formed by popular etymology in Middle English as end + long; partly from Old Norse cognate endlangr.",
+      "sounds": [
+        {
+          "ipa": "/ˈɛndlɒŋ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˈɛndˌlɔŋ/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "r": {
+      "senses": [],
+      "origin": "Old English andlang ( > along), re-formed by popular etymology in Middle English as end + long; partly from Old Norse cognate endlangr.",
+      "sounds": [
+        {
+          "ipa": "/ˈɛndlɒŋ/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˈɛndˌlɔŋ/",
+          "tags": [
+            "General-American"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "endly": {
     "a": {
       "senses": [
@@ -74555,6 +74717,18 @@
     },
     "isAnglish": false
   },
+  "endosex": {
+    "a": {
+      "senses": [],
+      "origin": "endo- + sex. Coined as a counterpart to intersex by Heike Bödeker in 2000 (in English, following Bödeker's coinage of German endosexuell in 1999).",
+      "sounds": [
+        {
+          "ipa": "/ˌɛn.doʊ.sɛks/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "endoskeleton": {
     "n": {
       "senses": [
@@ -75637,6 +75811,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "endwork": {
+    "n": {
+      "senses": [],
+      "origin": "From end + work. Compare Middle English andwork; Old English andweorc (“cause”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "endwrit": {
     "n": {
@@ -80952,6 +81134,36 @@
     },
     "isAnglish": true
   },
+  "enough is enough": {
+    "x": {
+      "senses": [],
+      "origin": "Compare Dutch genoeg is genoeg, German genug ist genug, Yiddish גענוג איז גענוג (genug iz genug, “enough is enough”).",
+      "sounds": [
+        {
+          "ipa": "/ɪˌnʌf‿ɪz ɪˈnʌf/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/iˌnʌf‿ɪz iˈnʌf/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ə-/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ʌf"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "enoughness": {
     "n": {
       "senses": [
@@ -81865,6 +82077,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "enship": {
+    "v": {
+      "senses": [],
+      "origin": "Alteration of earlier inship, equivalent to in- + ship. Compare West Frisian ynskipje (“to board a ship”), Dutch inschepen (“to ship, embark”), German einschiffen (“to ship, embark”), Danish indskibe (“to ship, embark”), Swedish inskeppa (“to ship, embark”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "enshrine": {
     "v": {
@@ -85945,7 +86165,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "entrance hall": {
     "n": {
@@ -88308,6 +88528,21 @@
     },
     "isAnglish": false
   },
+  "enwiden": {
+    "v": {
+      "senses": [],
+      "origin": "From en- + widen. Compare English enlengthen.",
+      "sounds": [
+        {
+          "ipa": "/ɛnˈwaɪdə̆n/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "enwrap": {
     "v": {
       "form": [
@@ -89258,6 +89493,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "epershand": {
+    "n": {
+      "senses": [
+        {
+          "synset": "06854923-n"
+        }
+      ],
+      "origin": "From Latin et + per se + English and.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "epha": {
     "n": {
@@ -91848,6 +92095,22 @@
       ]
     },
     "isAnglish": false
+  },
+  "epimoric": {
+    "a": {
+      "senses": [],
+      "origin": "From the Ancient Greek ἐπιμόρῐος (epimórios, “containing a whole + a fraction with 1 for its numerator (1+¹⁄ₓ)”, “superparticular”), from ἐπί (epí, “upon”, “over”, “above”) + μόριον (mórion, “a fraction with 1 for its numerator”) + -ιος (-ios, suffix forming adjectives); for the ending, see the English -ic.",
+      "sounds": [
+        {
+          "ipa": "/ɛpɪˈmɒɹɪk/",
+          "tags": [
+            "Received-Pronunciation",
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "epimorphic": {
     "a": {
@@ -97315,7 +97578,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eraser": {
     "n": {
@@ -101334,7 +101597,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "erudite": {
     "a": {
@@ -105976,6 +106239,18 @@
     },
     "isAnglish": false
   },
+  "estacade": {
+    "n": {
+      "senses": [],
+      "origin": "French; compare Italian steccata, Spanish estacada, and English stake.",
+      "sounds": [
+        {
+          "ipa": "/ˈɛstəkeɪd/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "estaminet": {
     "n": {
       "pronunciation": [
@@ -107011,6 +107286,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "estoc": {
+    "n": {
+      "senses": [],
+      "origin": "French estoc, see there for more. Compare Middle English touk (“a sword”) (whence obsolete English tuck (“rapier, sword”)), Middle English stok(e) (“blow with a sword”) (both probably from Old French estoc).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "estoppel": {
     "n": {
@@ -115483,7 +115766,7 @@
       "origin": "From evening + star. Cf. Old English ǣfensteorra.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "evening trumpet flower": {
     "n": {
@@ -115533,7 +115816,16 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": false,
+    "r": {
+      "senses": [],
+      "origin": "From evening + -s (adverbial suffix). Compare with Dutch avonds, Low German avends, German abends.",
+      "sounds": [
+        {
+          "ipa": "/ˈiːvnɪŋz/"
+        }
+      ]
+    }
   },
   "eveningwear": {
     "n": {
@@ -115628,6 +115920,11 @@
     "r": {
       "senses": [],
       "origin": "From Middle English efenlike, also evenliche, from Old English efnlīċe (“evenly, equally”, adverb). More at evenly.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From even + -like. Compare Middle English evenlike, Old English efenlīc (“equal, even”).",
       "sounds": []
     }
   },
@@ -116768,7 +117065,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "evergreen magnolia": {
     "n": {
@@ -133799,7 +134096,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "expensively": {
     "r": {
@@ -136853,6 +137150,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "expone": {
+    "v": {
+      "senses": [],
+      "origin": "Old English exponen. See expound.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "exponent": {
     "n": {
@@ -144269,7 +144574,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "extravasate": {
     "v": {
@@ -146869,7 +147174,7 @@
       "origin": "From eye + blink. Cognate with Afrikaans oomblik, Dutch ogenblik, German Augenblick, German Low German Ogenblick.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyeblinkly": {
     "r": {
@@ -147064,7 +147369,7 @@
       "origin": "eye + drop. Compare West Frisian eachdrip (“tear”, literally “eyedrop”), Dutch oogdrup (“tear”, literally “eyedrop”). Compare also German Augentropfen (“eyedrops”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "eyeful": {
     "n": {
@@ -147992,6 +148297,14 @@
         }
       ],
       "origin": "OE, æglīm"
+    },
+    "isAnglish": true
+  },
+  "eyndill": {
+    "v": {
+      "senses": [],
+      "origin": "Origin obscure. Probably from a frequentative form of eind, aynd (“to breathe”), equivalent to eind + -le, related to onde (“to breathe”). Compare also Old English andian (“to envy, be envious or jealous”). More at onde.",
+      "sounds": []
     },
     "isAnglish": true
   },

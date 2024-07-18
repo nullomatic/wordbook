@@ -1430,6 +1430,27 @@
     },
     "isAnglish": false
   },
+  "Gagauz": {
+    "a": {
+      "senses": [],
+      "origin": "Unknown. Possibly related to Turkish Oğuz (English Oghuz).",
+      "sounds": [
+        {
+          "ipa": "/ˌɡæɡɑːˈuːz/"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Unknown. Possibly related to Turkish Oğuz (English Oghuz).",
+      "sounds": [
+        {
+          "ipa": "/ˌɡæɡɑːˈuːz/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Gaia": {
     "n": {
       "senses": [
@@ -8910,7 +8931,7 @@
       "origin": "From German + -ish. Compare Dutch Germaans (“Germanic”), German germanisch (“Germanic”), Swedish germansk (“Germanic”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Germanism": {
     "n": {
@@ -9157,6 +9178,18 @@
       ]
     },
     "isAnglish": false
+  },
+  "Gesellschaft": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from German Gesellschaft, from Geselle + -schaft. Compare to English gemeinschaft.",
+      "sounds": [
+        {
+          "ipa": "/ɡəˈzɛlʃaft/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Gesner": {
     "n": {
@@ -12579,6 +12612,14 @@
     },
     "isAnglish": true
   },
+  "God help someone": {
+    "x": {
+      "senses": [],
+      "origin": "Compare Old English God helpe sumes mannes.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "God knows how": {
     "r": {
       "senses": [
@@ -13476,6 +13517,81 @@
       ]
     },
     "isAnglish": false
+  },
+  "Gollum": {
+    "n": {
+      "senses": [],
+      "origin": "A fictional character from J. R. R. Tolkien's Middle-earth. In the story, he was originally known as Sméagol and later named Gollum after his habit of making \"a horrible swallowing noise in his throat\".\nThe name, Sméagol, comes from Old English smeagan (“to burrow”).",
+      "sounds": [
+        {
+          "other": "/ˈɡɒl.əm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɒləm"
+        },
+        {
+          "ipa": "/ˈɡɑləm/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-Gollum.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav.mp3"
+        },
+        {
+          "enpr": "gäl'əm",
+          "tags": [
+            "US"
+          ]
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "A fictional character from J. R. R. Tolkien's Middle-earth. In the story, he was originally known as Sméagol and later named Gollum after his habit of making \"a horrible swallowing noise in his throat\".\nThe name, Sméagol, comes from Old English smeagan (“to burrow”).",
+      "sounds": [
+        {
+          "other": "/ˈɡɒl.əm/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɒləm"
+        },
+        {
+          "ipa": "/ˈɡɑləm/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-Gollum.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav/LL-Q1860_%28eng%29-Vealhurl-Gollum.wav.mp3"
+        },
+        {
+          "enpr": "gäl'əm",
+          "tags": [
+            "US"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "Goma": {
     "n": {
@@ -18795,6 +18911,27 @@
     },
     "isAnglish": false
   },
+  "Græcaster": {
+    "n": {
+      "senses": [],
+      "origin": "Latin Graec(us) (“Greek”) + English -aster (“inferior imitator”)",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɹiːkæstə/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "enpr": "grēʹkăstər",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Gt": {
     "n": {
       "senses": [
@@ -21892,7 +22029,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gabbro": {
     "n": {
@@ -23547,7 +23684,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gainfare": {
     "n": {
@@ -24727,6 +24864,14 @@
     },
     "isAnglish": true
   },
+  "galdr": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Old Norse galdr (“witchcraft, sorcery, magic arts”), akin to Old English ġealdor (“incantation, magic”). Related to English gale, yell.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gale": {
     "n": {
       "senses": [
@@ -25279,6 +25424,14 @@
     },
     "isAnglish": false
   },
+  "gallapple": {
+    "n": {
+      "senses": [],
+      "origin": "From gall + apple. Compare Dutch galappel, German Galapfel, Danish galæble, Swedish galläpple.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gallberry": {
     "n": {
       "senses": [
@@ -25382,6 +25535,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "gallerist": {
+    "n": {
+      "senses": [],
+      "origin": "gallery + -ist, possibly by analogy with artist, or influenced by French galeriste; compare German Galerist. Attested since 1962, popular in US since 2000s.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gallery": {
     "n": {
@@ -26219,7 +26380,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "galop": {
     "n": {
@@ -28026,7 +28187,7 @@
       "origin": "From game + -ly; compare Old English gamenlīċ (“belonging to games, sportive, theatrical, ridiculous”) and Middle High German gāmelich, gemelich (“joyful”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gameness": {
     "n": {
@@ -30740,7 +30901,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garbage": {
     "n": {
@@ -31611,7 +31772,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "garden lettuce": {
     "n": {
@@ -33017,6 +33178,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "garmon": {
+    "n": {
+      "senses": [],
+      "origin": "From Russian гармо́нь (garmónʹ), cognate to English harmonica.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "garn": {
     "n": {
@@ -40714,7 +40883,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "geek out": {
     "v": {
@@ -40871,6 +41040,38 @@
     },
     "isAnglish": false
   },
+  "gefullte fish": {
+    "n": {
+      "senses": [],
+      "origin": "Influenced by German gefüllter Fisch.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gefulte fish": {
+    "n": {
+      "senses": [],
+      "origin": "Influenced by German gefüllter Fisch.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gefüllte fish": {
+    "n": {
+      "senses": [],
+      "origin": "Influenced by German gefüllter Fisch.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gefülte fish": {
+    "n": {
+      "senses": [],
+      "origin": "Influenced by German gefüllter Fisch.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "geg": {
     "v": {
       "senses": [
@@ -40946,6 +41147,14 @@
         }
       ],
       "origin": "calque"
+    },
+    "isAnglish": true
+  },
+  "geire": {
+    "n": {
+      "senses": [],
+      "origin": "Probably from a shortening of gerfalcon, or garefowl. Cognate with German Geier (“vulture”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -41820,6 +42029,21 @@
     },
     "isAnglish": true
   },
+  "gemeinschaft": {
+    "n": {
+      "senses": [],
+      "origin": "From German Gemeinschaft (“community”), equivalent to gemein (“common”) + -schaft (“-ship”). More at mean, -ship. Compare to English gesellschaft.",
+      "sounds": [
+        {
+          "ipa": "/ɡəˈmaɪnʃɑːft/"
+        },
+        {
+          "ipa": "/ɡəˈmaɪnʃæft/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "gemfibrozil": {
     "n": {
       "pronunciation": [
@@ -41981,6 +42205,14 @@
     },
     "isAnglish": false
   },
+  "gemish": {
+    "n": {
+      "senses": [],
+      "origin": "From Yiddish געמיש (gemish, “mixture”), cognate to German Gemisch.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gemma": {
     "n": {
       "form": [
@@ -42123,6 +42355,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "gemsmith": {
+    "n": {
+      "senses": [],
+      "origin": "From gem + smith. Compare Old English gimwyrhta (“jeweler”, literally “gem-wright/gem-worker”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gemstone": {
     "n": {
@@ -42700,6 +42940,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "geneat": {
+    "n": {
+      "senses": [],
+      "origin": "Learned borrowing from Old English ġenēat (“companion, follower, follower in battle; dependant, vassal, tenant who works for a lord”). Cognate with German Genosse (“comrade, etc.”)",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "general": {
     "a": {
@@ -90913,6 +91161,14 @@
     },
     "isAnglish": false
   },
+  "geschmozzle": {
+    "n": {
+      "senses": [],
+      "origin": "Maybe a corruption of German geschmissen, past participle of schmeißen (“to fling”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gesith": {
     "n": {
       "senses": [
@@ -91543,6 +91799,29 @@
       ]
     },
     "isAnglish": false
+  },
+  "gesundheit": {
+    "x": {
+      "senses": [],
+      "origin": "From German Gesundheit (literally “health”), from gesund (“healthy”). The adjective is cognate with English sound, from Old English ġesund (“sound, safe, healthy”).",
+      "sounds": [
+        {
+          "ipa": "/ɡəˈzʊnt.haɪt/"
+        },
+        {
+          "ipa": "/ɡəˈzʊn.taɪt/"
+        },
+        {
+          "ipa": "/ɡəˈzʊnt.hʌɪt/",
+          "note": "Canada, many US accents"
+        },
+        {
+          "ipa": "/ɡəˈzʊn.tʌɪt/",
+          "note": "Canada, many US accents"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "get": {
     "n": {
@@ -93206,6 +93485,14 @@
     },
     "isAnglish": false
   },
+  "get out of town": {
+    "x": {
+      "senses": [],
+      "origin": "Compare Danish den må du længere ud på landet med.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "get over": {
     "v": {
       "senses": [
@@ -93770,7 +94057,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "get weaving": {
     "v": {
@@ -95527,6 +95814,23 @@
     },
     "isAnglish": false
   },
+  "ghosty": {
+    "a": {
+      "senses": [
+        {
+          "synset": "01579318-s"
+        }
+      ],
+      "origin": "From ghost + -y. Compare Saterland Frisian gäistich, West Frisian geastich, Dutch geestig, German geistig.",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From ghost + -y. Compare Saterland Frisian gäistich, West Frisian geastich, Dutch geestig, German geistig.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ghoul": {
     "n": {
       "pronunciation": [
@@ -96785,7 +97089,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gibbose": {
     "a": {
@@ -97183,6 +97487,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "gier eagle": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Dutch gier (“vulture”), German gier, and English gyrfalcon.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gifset": {
     "n": {
@@ -98869,6 +99181,24 @@
         {
           "id": "gimbaled%5:00:00:supported:00",
           "synset": "02359785-s"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "gimble": {
+    "v": {
+      "senses": [],
+      "origin": "Variant of gimbal.",
+      "sounds": [
+        {
+          "ipa": "/ˈɡɪmbəl/"
+        },
+        {
+          "rhymes": "-ɪmbəl"
+        },
+        {
+          "homophone": "gimbal"
         }
       ]
     },
@@ -102511,7 +102841,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "give over": {
     "v": {
@@ -102794,7 +103124,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "give up": {
     "v": {
@@ -108479,6 +108809,18 @@
     },
     "isAnglish": false
   },
+  "gletcher": {
+    "n": {
+      "senses": [
+        {
+          "synset": "09312237-n"
+        }
+      ],
+      "origin": "Compare German Gletscher.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "glew": {
     "v": {
       "senses": [
@@ -109110,6 +109452,39 @@
       ]
     },
     "isAnglish": false
+  },
+  "gliff": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Middle English glyffen (“to give a glancing look; to become startled or frightened”).",
+      "sounds": [
+        {
+          "ipa": "/ɡlɪf/"
+        },
+        {
+          "rhymes": "-ɪf"
+        },
+        {
+          "homophone": "glyph"
+        }
+      ]
+    },
+    "v": {
+      "senses": [],
+      "origin": "Compare Middle English glyffen (“to give a glancing look; to become startled or frightened”).",
+      "sounds": [
+        {
+          "ipa": "/ɡlɪf/"
+        },
+        {
+          "rhymes": "-ɪf"
+        },
+        {
+          "homophone": "glyph"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "glim": {
     "n": {
@@ -109815,6 +110190,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "glissy": {
+    "a": {
+      "senses": [],
+      "origin": "Origin obscure. Possibly from dialectal gliss (“to shine”) + -y. Compare English glossy, Middle English glisen, glissen, glisten (“to shine, glisten”) from Old English glisian (“to shine, glisten”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "glisten": {
     "n": {
@@ -115465,6 +115848,19 @@
     },
     "isAnglish": false
   },
+  "gluttonly": {
+    "a": {
+      "senses": [],
+      "origin": "From glutton + -ly. The adverb is attested in Middle English as glotonliche, glotonly, glotounliche (“voraciously, greedily”).",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From glutton + -ly. The adverb is attested in Middle English as glotonliche, glotonly, glotounliche (“voraciously, greedily”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gluttonous": {
     "a": {
       "pronunciation": [
@@ -117045,6 +117441,36 @@
       "senses": [],
       "origin": "From Middle English gnof (“a miser, churl, lout”), of unknown origin. Cognate with Scots gnaff (“any small or stunted object”). Compare Saterland Frisian knufe (“lump”), Saterland Frisian gnuffig (“thick, rough, coarse, ill-mannered”).",
       "sounds": []
+    },
+    "isAnglish": true
+  },
+  "gnoll": {
+    "n": {
+      "senses": [],
+      "origin": "According to A Brief History of Gnolls, by Paul Haynie, they were created by Lord Dunsany in \"How Nuth Would Have Practiced His Art Upon the Gnoles\", and the name was likely derived from a playing field of the Welsh All Blacks known as the Gnoll, probably derived from English knoll.",
+      "sounds": [
+        {
+          "ipa": "/nəʊl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/noʊl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "rhymes": "-əʊl"
+        },
+        {
+          "rhymes": "-oʊl"
+        },
+        {
+          "homophone": "knoll"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -120719,6 +121145,14 @@
     },
     "isAnglish": false
   },
+  "goaten": {
+    "a": {
+      "senses": [],
+      "origin": "From goat + -en. Compare Old English gǣten (“of goats; goaten”), German geißen (“of goats; goaten”), Gothic 𐌲𐌰𐌹𐍄𐌴𐌹𐌽 (gaitein).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "goatfish": {
     "n": {
       "form": [
@@ -122028,7 +122462,7 @@
       ],
       "origin": "ME&OE, godcund&godcund"
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "godkind man": {
     "n": {
@@ -122093,7 +122527,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "godlessness": {
     "n": {
@@ -122204,7 +122638,7 @@
       "origin": "From god + lore (“learning, study of”). Compare German Gotteslehre, Danish gudelære.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "godly": {
     "a": {
@@ -126446,6 +126880,14 @@
     },
     "isAnglish": false
   },
+  "goman": {
+    "n": {
+      "senses": [],
+      "origin": "Probably from good man, but compare also Old English gumman (“a (famous) man”), Old High German gomman (“man, husband, human being”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gomb": {
     "n": {
       "senses": [
@@ -126538,6 +126980,39 @@
       ]
     },
     "isAnglish": false
+  },
+  "gon": {
+    "x": {
+      "senses": [],
+      "origin": "Clipping of gonna. Compare Middle English gon, dialectal gan, Dutch gaan.",
+      "sounds": [
+        {
+          "ipa": "/ɡən/",
+          "tags": [
+            "unstressed"
+          ]
+        },
+        {
+          "ipa": "/ɡoʊn/",
+          "tags": [
+            "stressed"
+          ]
+        },
+        {
+          "ipa": "/ɡɔn/",
+          "tags": [
+            "stressed"
+          ]
+        },
+        {
+          "ipa": "[ɡõ(ʊ)]",
+          "tags": [
+            "stressed"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gonad": {
     "n": {
@@ -127108,6 +127583,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "gongche": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from the Hanyu Pinyin of Mandarin 工尺 (gōngchě), from 工 (gōng, “mi”) + 尺 (chě, “re”); two note names used in gongche notation. Compare English sol-fa.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "gongfarmer": {
     "n": {
@@ -129484,6 +129967,19 @@
     },
     "isAnglish": true
   },
+  "goodwilly": {
+    "n": {
+      "senses": [],
+      "origin": "From goodwill + -y. Compare Saterland Frisian goudwillich, Dutch goedwillig, German gutwillig. More at goodwill.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From goodwill + -y. Compare Saterland Frisian goudwillich, Dutch goedwillig, German gutwillig. More at goodwill.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "goody": {
     "n": {
       "pronunciation": [
@@ -130915,6 +131411,14 @@
     },
     "isAnglish": false
   },
+  "gopher wood": {
+    "n": {
+      "senses": [],
+      "origin": "From גפר, found in Genesis 6:14. Unrelated to the North American animal. Sometimes hypothesized to be ultimately cognate to English cypress, the wood itself being such or related to the tree.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "gopherwood": {
     "n": {
       "senses": [
@@ -131732,7 +132236,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gosan-chiku": {
     "n": {
@@ -131979,7 +132483,7 @@
       "origin": "gospel + -er (occupational suffix). Compare Middle English gospeler (“one of the Gospel writers or Evangelists; statue of one of the Evangelists; (of Old Testament persons) bringer of good news; Isaiah; book containing the Gospels; content of one of the Gospels”), from Old English godspellere.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gospeling": {
     "n": {
@@ -134312,7 +134816,22 @@
       "origin": "Compare Norwegian Nynorsk gulka (“to burp, belch”). Compare also Scots cowk (“to strain, retch”), Dutch kolken (“to belch”), German kolken (“to gulp”), dialectal German kölken, kolksen (“to vomit”), Danish kulke (“to gulp”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "gowl": {
+    "v": {
+      "senses": [],
+      "origin": "Old English gaulen, goulen. Compare yawl (intransitive verb).",
+      "sounds": [
+        {
+          "ipa": "/ɡaʊl/"
+        },
+        {
+          "rhymes": "-aʊl"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "gown": {
     "n": {
@@ -134745,6 +135264,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "grabful": {
+    "n": {
+      "senses": [],
+      "origin": "From grab + -ful. Compare English graspful.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "grace": {
     "n": {
@@ -143175,7 +143702,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grass widower": {
     "n": {
@@ -143442,7 +143969,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "grassless": {
     "a": {
@@ -146073,6 +146600,14 @@
     },
     "isAnglish": false
   },
+  "grawl": {
+    "n": {
+      "senses": [],
+      "origin": "Back-formation from grawls, a variant of graulse, mistaken as a plural. Ultimately, graulse is a variant of English grilse.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "grax": {
     "n": {
       "senses": [],
@@ -148195,7 +148730,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "great fear": {
     "n": {
@@ -148501,6 +149036,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "great room": {
+    "n": {
+      "senses": [],
+      "origin": "From great + room. Compare Middle English grete chaumbre (“greatroom”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "great saphenous vein": {
     "n": {
@@ -151651,6 +152194,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "greenout": {
+    "n": {
+      "senses": [],
+      "origin": "From green + out. Compare English blackout, whiteout.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "greenpod": {
     "n": {
@@ -158095,7 +158646,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "groomed": {
     "a": {
@@ -161211,7 +161762,7 @@
       "origin": "From ground + laying (participle). Compare German grundlegend, Danish grundlæggende.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "groundless": {
     "a": {
@@ -161294,7 +161845,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "groundly": {
     "a": {
@@ -161410,7 +161961,7 @@
       "origin": "From ground + nut. Compare Icelandic jarðhneta, German Erdnuss and Hungarian földimogyoró.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "groundnut oil": {
     "n": {
@@ -163561,7 +164112,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "growth factor": {
     "n": {
@@ -164387,7 +164938,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gruesomely": {
     "r": {
@@ -167514,6 +168065,22 @@
     },
     "isAnglish": false
   },
+  "guest-friendly": {
+    "a": {
+      "senses": [],
+      "origin": "Compound of guest + friendly. Compare German gastfreundlich.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "guest-friendship": {
+    "n": {
+      "senses": [],
+      "origin": "From guest + friendship. Compare Dutch gastvriendschap, German Gastfreundschaft.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "guestchamber": {
     "n": {
       "senses": [],
@@ -167647,7 +168214,7 @@
       "origin": "From guest + meal. Compare German Gastmahl (“guestmeal”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "guestroom": {
     "n": {
@@ -170904,7 +171471,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gumption": {
     "n": {
@@ -170951,7 +171518,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "gumptious": {
     "a": {

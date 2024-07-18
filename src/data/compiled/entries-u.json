@@ -6888,6 +6888,18 @@
     },
     "isAnglish": false
   },
+  "uitlander": {
+    "n": {
+      "senses": [],
+      "origin": "Attested since 1890. From Afrikaans uitlander (“foreigner”), from Dutch uitlander (“foreigner”). Cognate and confluenced with English outlander.",
+      "sounds": [
+        {
+          "ipa": "/ˈaɪtˌlæn dəɹ/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "ukase": {
     "n": {
       "pronunciation": [
@@ -15400,6 +15412,14 @@
     },
     "isAnglish": false
   },
+  "unbeard": {
+    "v": {
+      "senses": [],
+      "origin": "From un- + beard. Compare Middle English unberdyng, unberdynge (“beardlessness”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unbearded": {
     "a": {
       "senses": [],
@@ -15523,7 +15543,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unbecomingly": {
     "r": {
@@ -17797,7 +17817,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "uncapped": {
     "a": {
@@ -27684,7 +27704,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "underlook": {
     "v": {
@@ -29096,6 +29116,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "undersee": {
+    "v": {
+      "senses": [],
+      "origin": "From under- + see. Cognate with Dutch onderzien (“to see below”), German untersehen (“to see below”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "underseech": {
     "v": {
@@ -31005,7 +31033,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "underweight": {
     "a": {
@@ -35258,7 +35286,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unequaled": {
     "a": {
@@ -39314,7 +39342,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unfriendliness": {
     "n": {
@@ -39343,7 +39371,7 @@
       "origin": "From unfriendly + -ness. Compare Dutch onvriendelijkheid, German Unfreundlichkeit.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unfriendly": {
     "a": {
@@ -40068,7 +40096,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ungetatable": {
     "a": {
@@ -40223,6 +40251,33 @@
       "senses": [],
       "origin": "From Middle English ungloven, equivalent to un- + glove.",
       "sounds": []
+    },
+    "isAnglish": true
+  },
+  "ungod": {
+    "v": {
+      "senses": [],
+      "origin": "un- + god. Compare Dutch ontgoden, German entgöttern.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈɡɒd/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "un- + god. Compare Dutch ontgoden, German entgöttern.",
+      "sounds": [
+        {
+          "ipa": "/ʌnˈɡɒd/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -51161,7 +51216,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unmanageable": {
     "a": {
@@ -55326,6 +55381,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unpent": {
+    "a": {
+      "senses": [],
+      "origin": "un- + pent. Compare Old English onpennad (“unpent, open”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unpeopled": {
     "a": {
@@ -61402,6 +61465,14 @@
     },
     "isAnglish": false
   },
+  "unsappy": {
+    "a": {
+      "senses": [],
+      "origin": "From un- + sappy. Compare Old English unsæpiġ (“sapless, dry, withered”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "unsarcastic": {
     "a": {
       "senses": [
@@ -62870,6 +62941,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "unsense": {
+    "v": {
+      "senses": [],
+      "origin": "From un- (“reversal, removal”) + sense. Distant cognate with German entsinnen (“to reflect”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "unsensible": {
     "a": {
@@ -65754,7 +65833,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unsterilised": {
     "a": {
@@ -68485,7 +68564,7 @@
       "origin": "From un- + thought. Compare Old English unþanc (“disfavour, displeasure, anger, ill-will”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unthought-of": {
     "a": {
@@ -71861,7 +71940,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unwashed": {
     "a": {
@@ -71888,6 +71967,14 @@
     "a": {
       "senses": [],
       "origin": "From Middle English unwaschen, from Old English unwæsċen (“not washed”), equivalent to un- + washen.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "unwaste": {
+    "v": {
+      "senses": [],
+      "origin": "From un- + waste. Compare Middle English unwasten (“to not consume; to not waste away”).",
       "sounds": []
     },
     "isAnglish": true
@@ -73708,7 +73795,7 @@
       "origin": "From un- + worksome. Compare German unwirksam (“ineffective, useless”), Swedish overksam (“inactive, passive, ineffective”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "unworldly": {
     "a": {
@@ -74773,7 +74860,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "up to date": {
     "a": {
@@ -74799,7 +74886,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "up to his neck": {
     "a": {
@@ -74810,7 +74897,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "up to my neck": {
     "a": {
@@ -74821,7 +74908,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "up to now": {
     "r": {
@@ -74870,7 +74957,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "up-STAN": {
     "v": {
@@ -76147,7 +76234,7 @@
       "origin": "up- + give. Cognate with German aufgeben (“to abandon, give up, quit”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "upgoing": {
     "n": {
@@ -76165,7 +76252,17 @@
       "origin": "From up- + going. Cf. Old English upgang (“upgoing”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true,
+    "a": {
+      "senses": [],
+      "origin": "From up- + going. Cf. Old English upgang (“upgoing”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From up- + going. Cf. Old English upgang (“upgoing”).",
+      "sounds": []
+    }
   },
   "upgrade": {
     "n": {
@@ -77345,6 +77442,19 @@
           "synset": "92460868-n"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "uplight": {
+    "n": {
+      "senses": [],
+      "origin": "From up- + light. Compare Saterland Frisian apljuchte (“to illuminate”), West Frisian opljochtsje (“to illuminate”), Dutch oplichten (“to illuminate”), German Low German upluchten, uplüchten (“to illuminate”), German aufleuchten (“to illuminate”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From up- + light. Compare Saterland Frisian apljuchte (“to illuminate”), West Frisian opljochtsje (“to illuminate”), Dutch oplichten (“to illuminate”), German Low German upluchten, uplüchten (“to illuminate”), German aufleuchten (“to illuminate”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -79139,6 +79249,14 @@
     },
     "isAnglish": false
   },
+  "uproll": {
+    "v": {
+      "senses": [],
+      "origin": "From up- + roll. Compare Dutch oprollen (“to roll up”), German aufrollen (“to roll up”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "uproot": {
     "v": {
       "pronunciation": [
@@ -79292,6 +79410,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "upseek": {
+    "v": {
+      "senses": [],
+      "origin": "From up- + seek. Cognate with Dutch opzoeken (“to visit, search, seek out”), German aufsuchen (“to visit, go to, see”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "upseer": {
     "n": {
@@ -81662,6 +81788,14 @@
         }
       ],
       "origin": "up- + yeave <OE geafu \"gift\", cf. NL opgave, NHG Aufgabe"
+    },
+    "isAnglish": true
+  },
+  "ur-word": {
+    "n": {
+      "senses": [],
+      "origin": "From ur- (“original, primal”) + word. Compare Dutch oerwoord, German Urwort.",
+      "sounds": []
     },
     "isAnglish": true
   },

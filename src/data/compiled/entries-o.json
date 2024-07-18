@@ -22052,6 +22052,21 @@
     },
     "isAnglish": false
   },
+  "och": {
+    "x": {
+      "senses": [],
+      "origin": "Compare Early Modern English och, Scottish Gaelic och, Irish och. Compare also Scots ach, Scots ouch.",
+      "sounds": [
+        {
+          "ipa": "/ɒx/"
+        },
+        {
+          "rhymes": "-ɒx"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "ocher": {
     "a": {
       "senses": [
@@ -22946,6 +22961,14 @@
     },
     "isAnglish": false
   },
+  "octogamy": {
+    "n": {
+      "senses": [],
+      "origin": "From octo- + -gamy. Compare Middle English octogamie.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "octogenarian": {
     "a": {
       "senses": [
@@ -23547,6 +23570,19 @@
     },
     "isAnglish": false
   },
+  "odal": {
+    "n": {
+      "senses": [],
+      "origin": "From Icelandic óðal. Cognate with Norwegian odel, odal (“allodium, patrimony”), Old English ēþel (“homeland”). Compare athel, Odelsthing.",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From ode + -al.",
+      "sounds": []
+    },
+    "isAnglish": false
+  },
   "odalisque": {
     "n": {
       "pronunciation": [
@@ -23720,6 +23756,21 @@
       ]
     },
     "isAnglish": false
+  },
+  "odd man": {
+    "n": {
+      "senses": [],
+      "origin": "From odd + man, probably after a Scandinavian source. Compare Old Norse odda-maðr.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒd man/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "odd man out": {
     "n": {
@@ -24192,6 +24243,39 @@
       ]
     },
     "isAnglish": false
+  },
+  "odic": {
+    "a": {
+      "senses": [],
+      "origin": "From od + -ic, modelled after German odisch.",
+      "sounds": [
+        {
+          "ipa": "/ˈɒdɪk/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈɑdɪk/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɒdɪk"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-odic (od).wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/LL-Q1860_%28eng%29-Vealhurl-odic_%28od%29.wav/LL-Q1860_%28eng%29-Vealhurl-odic_%28od%29.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/LL-Q1860_%28eng%29-Vealhurl-odic_%28od%29.wav/LL-Q1860_%28eng%29-Vealhurl-odic_%28od%29.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "odious": {
     "a": {
@@ -29977,7 +30061,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "offset lithography": {
     "n": {
@@ -30291,7 +30375,12 @@
       "origin": "From off- + split. Cognate with Dutch afsplitten (“to split off”), German Low German ofsplieten, ofsplitten (“to split off”), German abspalten (“to split off, secede”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true,
+    "n": {
+      "senses": [],
+      "origin": "From off- + split. Cognate with Dutch afsplitten (“to split off”), German Low German ofsplieten, ofsplitten (“to split off”), German abspalten (“to split off, secede”).",
+      "sounds": []
+    }
   },
   "offsplitter": {
     "n": {
@@ -30494,6 +30583,14 @@
       "origin": "From Middle English ofstonden, from Old English ofstandan (“to remain, persist, continue; restore, make restitution”), from Proto-Germanic *afstandaną, *afstāną, equivalent to off- + stand. Cognate with Dutch afstaan (“to cede, yield, relinquish”), German abstehen (“to project, stick out, stand away”), Swedish avstå (“to refrain, desist, give up, relinquish”).",
       "sounds": []
     }
+  },
+  "offstanding": {
+    "a": {
+      "senses": [],
+      "origin": "From off- + standing. Compare Dutch afstand (“distance”), German Abstand (“distance”), Swedish avstånd (“distance”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "offtake": {
     "v": {
@@ -30968,7 +31065,7 @@
       "origin": "often + -ness. Compare Middle English oftnes (“frequency”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "oftentide": {
     "r": {
@@ -33919,7 +34016,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "old gold": {
     "n": {
@@ -33977,6 +34074,39 @@
       ]
     },
     "isAnglish": false
+  },
+  "old hat": {
+    "a": {
+      "senses": [],
+      "origin": "Origin unknown. The Oxford English Dictionary suggests a connection to German alter Hut (noun, literally “old hat”).",
+      "sounds": [
+        {
+          "audio": "En-au-old hat.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/En-au-old_hat.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/En-au-old_hat.ogg/En-au-old_hat.ogg.mp3"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Origin unknown. The Oxford English Dictionary suggests a connection to German alter Hut (noun, literally “old hat”).",
+      "sounds": [
+        {
+          "audio": "En-au-old hat.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/En-au-old_hat.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/En-au-old_hat.ogg/En-au-old_hat.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "old lady": {
     "n": {
@@ -34372,7 +34502,7 @@
       "origin": "In this context, the word “wives” means “women” and not “married women,” retaining the original sense of Old English wīf, which meant “woman” as well as “wife”. The phrase could be a reformation of Old English ealdra cwēna spell or a calque of Latin anīlis fābula, both literally “old women’s story.”",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "old woman": {
     "n": {
@@ -34914,6 +35044,14 @@
         }
       ],
       "origin": "NE"
+    },
+    "isAnglish": true
+  },
+  "oldhood": {
+    "n": {
+      "senses": [],
+      "origin": "From old + -hood. Compare Old English ealdhād (“eld, old age”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -40066,6 +40204,19 @@
     },
     "isAnglish": false
   },
+  "onbringing": {
+    "n": {
+      "senses": [],
+      "origin": "From on- + bringing. Compare bring on. Compare also Dutch aanbrengen (“to apply, fix, put up”), German anbringen (“to install, apply, put on”).",
+      "sounds": []
+    },
+    "a": {
+      "senses": [],
+      "origin": "From on- + bringing. Compare bring on. Compare also Dutch aanbrengen (“to apply, fix, put up”), German anbringen (“to install, apply, put on”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "once": {
     "r": {
       "pronunciation": [
@@ -43152,6 +43303,14 @@
     },
     "isAnglish": true
   },
+  "oneling": {
+    "n": {
+      "senses": [],
+      "origin": "From one + -ling. Cognate with Dutch eenling, German Einling.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "onemood": {
     "a": {
       "senses": [],
@@ -43886,6 +44045,14 @@
     },
     "isAnglish": true
   },
+  "onglide": {
+    "n": {
+      "senses": [],
+      "origin": "on- + glide. Compare Middle English ongliden (“to glide over”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "ongo": {
     "v": {
       "senses": [
@@ -43997,6 +44164,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "onhanger": {
+    "n": {
+      "senses": [],
+      "origin": "From on- + hanger. Compare West Frisian oanhinger, Dutch aanhanger, German Anhänger.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -44488,6 +44663,14 @@
     },
     "isAnglish": false
   },
+  "onlead": {
+    "v": {
+      "senses": [],
+      "origin": "From on- + lead. Cognate with Dutch aanleiden (“to lead on, lead further”), German anleiten (“to guide, instruct, teach, direct”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "onlet": {
     "n": {
       "senses": [
@@ -44634,7 +44817,7 @@
       "origin": "From on- + look. Compare Old English onlēċ (“onlook, consideration, regard”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "onlooker": {
     "n": {
@@ -45516,7 +45699,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "onsayedness": {
     "n": {
@@ -45656,7 +45839,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "onshore": {
     "a": {
@@ -46658,6 +46841,93 @@
       "origin": null
     },
     "isAnglish": true
+  },
+  "oof": {
+    "x": {
+      "senses": [],
+      "origin": "An onomatopoeia. Similar to Dutch oef and German uff.\nThe usage of this term on the Internet was popularized by the game Roblox.",
+      "sounds": [
+        {
+          "ipa": "/uːf/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ʊf/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/uf/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-uːf"
+        },
+        {
+          "rhymes": "-ʊf"
+        },
+        {
+          "audio": "En-au-oof.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/En-au-oof.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/En-au-oof.ogg/En-au-oof.ogg.mp3"
+        },
+        {
+          "enpr": "ūf"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Clipping of ooftish",
+      "sounds": [
+        {
+          "ipa": "/uːf/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ʊf/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/uf/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-uːf"
+        },
+        {
+          "rhymes": "-ʊf"
+        },
+        {
+          "audio": "En-au-oof.ogg",
+          "text": "Audio (AU)",
+          "tags": [
+            "Australia"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/En-au-oof.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/En-au-oof.ogg/En-au-oof.ogg.mp3"
+        },
+        {
+          "enpr": "ūf"
+        }
+      ]
+    },
+    "isAnglish": false
   },
   "oogenesis": {
     "n": {
@@ -64922,6 +65192,18 @@
     },
     "isAnglish": false
   },
+  "oreillette": {
+    "n": {
+      "senses": [],
+      "origin": "French oreillette. Compare Middle English horete. Also compare Spanish orejera (“ear armor”), using a different suffix.",
+      "sounds": [
+        {
+          "ipa": "/ɔɹ.eɪ(l)ˈjɛt/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "orelike": {
     "a": {
       "senses": [
@@ -68646,6 +68928,36 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "orl": {
+    "n": {
+      "senses": [],
+      "origin": "Metathetic variant of olr, itself a variant of alr, itself a contraction of aller, itself a form of alder closer to the original Old English form of alor, aler (the d was a phonetic addition in Middle English); compare the English oryelle, as well as the Old High German erila, the Middle High German erle, and the Modern German Erle.",
+      "sounds": [
+        {
+          "ipa": "/ɔːl/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ɔɹl/",
+          "tags": [
+            "US"
+          ]
+        },
+        {
+          "homophone": "orle"
+        },
+        {
+          "enpr": "ôrl",
+          "tags": [
+            "US"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "orland": {
     "a": {
@@ -78288,7 +78600,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "out wave": {
     "v": {
@@ -78674,7 +78986,7 @@
       "origin": "From out- + ask. Cognate with Old Frisian utaskia (“to outask”), Danish udæske (“to challenge”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outback": {
     "a": {
@@ -80688,7 +81000,7 @@
       "origin": "From out- + fall. Compare Dutch uitval (“outburst, sally, eruption”), German Ausfall (“falling out, sally”), Swedish utfall (“sally, issue”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outfangthief": {
     "n": {
@@ -81250,7 +81562,7 @@
       "origin": "out- + give. Cognate with German ausgeben (“to output, spend, pay for”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outgiving": {
     "n": {
@@ -81872,6 +82184,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "outlaugh": {
+    "v": {
+      "senses": [],
+      "origin": "From out- + laugh. Compare Saterland Frisian uutlachje, West Frisian útlaitsje, Dutch uitlachen (“to ridicule”), German Low German utlachen, German auslachen (“to laugh at”), Danish udle.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "outlaw": {
     "a": {
@@ -84241,6 +84561,19 @@
       "sounds": []
     }
   },
+  "outsending": {
+    "n": {
+      "senses": [],
+      "origin": "From outsend, equivalent to out- + sending or outsend + -ing. Cognate with Dutch uitsending (“broadcast, emission, transmission”), German Aussendung (“a sending out”), Swedish utsändning (“broadcast”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From outsend, equivalent to out- + sending or outsend + -ing. Cognate with Dutch uitsending (“broadcast, emission, transmission”), German Aussendung (“a sending out”), Swedish utsändning (“broadcast”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "outsene": {
     "n": {
       "senses": [
@@ -84849,7 +85182,7 @@
       "origin": "From out- + sight. Cognate with Dutch uitzicht (“view, prospect, outlook”), German Aussicht (“view, prospect, chance, outlook, perspective”), Swedish utsikt (“view, outlook, prospect”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outsize": {
     "a": {
@@ -85110,7 +85443,7 @@
       "origin": "From out- + speak. Cognate with Scots outspeak (“to declare, utter, speak out”), Dutch uitspreken (“to pronounce, outspeak”), German aussprechen (“to express, pronounce”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "outspeed": {
     "v": {
@@ -86131,6 +86464,14 @@
         }
       ],
       "origin": "cf. IC útvarp"
+    },
+    "isAnglish": true
+  },
+  "outwash": {
+    "n": {
+      "senses": [],
+      "origin": "From out- + wash. Compare Middle English outwashen (“to wash out; rinse”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -88978,6 +89319,19 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/LL-Q1860_%28eng%29-Vealhurl-overboard.wav/LL-Q1860_%28eng%29-Vealhurl-overboard.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "overbody": {
+    "n": {
+      "senses": [],
+      "origin": "From over- + body. Compare Middle English overbody (“celestial body”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "From over- + body. Compare Middle English overbody (“celestial body”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -92339,6 +92693,14 @@
     },
     "isAnglish": false
   },
+  "overfret": {
+    "v": {
+      "senses": [],
+      "origin": "From over- + fret. Compare Middle English overfreten, ovirfretyn (past participle).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "overfrim": {
     "n": {
       "senses": [
@@ -92555,7 +92917,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overgo": {
     "v": {
@@ -95532,7 +95894,7 @@
       "origin": "From over- + love. Compare Old English oferlufu (“excessive love”, noun).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overloving": {
     "n": {
@@ -97988,7 +98350,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "overseas cap": {
     "n": {
@@ -98061,6 +98423,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/LL-Q1860_%28eng%29-Vealhurl-oversee.wav/LL-Q1860_%28eng%29-Vealhurl-oversee.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "overseeable": {
+    "a": {
+      "senses": [],
+      "origin": "Compare the German übersichtlich.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -103710,7 +104080,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "own flesh": {
     "n": {

@@ -1722,6 +1722,27 @@
     },
     "isAnglish": false
   },
+  "Quidditch": {
+    "n": {
+      "senses": [],
+      "origin": "Coined by British author J. K. Rowling in her 1997 book Harry Potter and the Philosopher's Stone. In Quidditch Through the Ages, Rowling gives some etymological information, hinting that the word evolved from Queerditch (compound of queer + ditch), with some spelling variation as would be expected in real life Middle English, namely Kwidditch, Kweerditch.",
+      "sounds": [
+        {
+          "ipa": "/ˈkwɪdɪt͡ʃ/"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-Quidditch.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/LL-Q1860_%28eng%29-Vealhurl-Quidditch.wav/LL-Q1860_%28eng%29-Vealhurl-Quidditch.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/LL-Q1860_%28eng%29-Vealhurl-Quidditch.wav/LL-Q1860_%28eng%29-Vealhurl-Quidditch.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Quincke's edema": {
     "n": {
       "senses": [
@@ -10849,6 +10870,14 @@
     },
     "isAnglish": false
   },
+  "quellenforschung": {
+    "n": {
+      "senses": [],
+      "origin": "From German Quellenforschung, from Quelle (“source”) + Forschung (“research”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "queller": {
     "n": {
       "senses": [
@@ -11305,6 +11334,19 @@
           ]
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "querl": {
+    "v": {
+      "senses": [],
+      "origin": "From a dialectal variant of twirl, possibly representing a blend of twirl + curl. Cognate with German querlen (“to twirl”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "From a dialectal variant of twirl, possibly representing a blend of twirl + curl. Cognate with German querlen (“to twirl”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -15048,7 +15090,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "quiff": {
     "n": {
@@ -15439,6 +15481,14 @@
     "n": {
       "senses": [],
       "origin": "From Middle English quilte maker, quyltemaker, quyltemakere; equivalent to quilt + maker.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "quim": {
+    "a": {
+      "senses": [],
+      "origin": "Borrowed from Scots queem. Compare English queem.",
       "sounds": []
     },
     "isAnglish": true
@@ -16792,6 +16842,30 @@
       ]
     },
     "isAnglish": false
+  },
+  "quirl": {
+    "v": {
+      "senses": [],
+      "origin": "Attested since the 18th century. Considered by other dictionaries to be related to curl. Compare German Quirl, said to be related to twirl.",
+      "sounds": [
+        {
+          "ipa": "/kwɝl/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/kwɜːl/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "rhymes": "-ɜː(ɹ)l"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "quirt": {
     "n": {

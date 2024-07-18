@@ -3792,7 +3792,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "Welsh poppy": {
     "n": {
@@ -11954,6 +11954,22 @@
     },
     "isAnglish": false
   },
+  "wabble": {
+    "v": {
+      "senses": [],
+      "origin": "Compare German wabbeln (“to wabble”), and English whap. Compare quaver.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "wacke": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle High German wacke (“boulder”), from Old High German waggo or wacko, yielding German Wacke, probably cognate with Old High German wegan (“to move”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "wacken": {
     "a": {
       "senses": [
@@ -13988,7 +14004,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "waifu": {
     "n": {
@@ -15849,7 +15865,7 @@
       "origin": "From wake + -some. Compare West Frisian waaks (“watchful”), Dutch waaks, waakzaam (“watchful”), German wachsam (“watchful”), Swedish vaksam (“watchful”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "waking": {
     "a": {
@@ -16960,7 +16976,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "walk-up": {
     "a": {
@@ -19186,7 +19202,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "walrus moustache": {
     "n": {
@@ -19593,6 +19609,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "wampish": {
+    "v": {
+      "senses": [],
+      "origin": "Cognate to English wamble.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "wampum": {
     "n": {
@@ -20855,7 +20879,7 @@
       "origin": "From waning + moon. Compare Middle English waynynge of the mone, wanynge of þe mone (literally “waning of the moon”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wanion": {
     "n": {
@@ -21172,6 +21196,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "wannigan": {
+    "n": {
+      "senses": [],
+      "origin": "From Abenaki waniigan (“pit trap, container for sundries”); compare klahigan (“wooden trap”). Compare Ojibwe waanikaan (“pit, excavated hole”) and English wammikin (also from Algonquian).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "wannish": {
     "a": {
@@ -22324,6 +22356,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "wapper": {
+    "v": {
+      "senses": [],
+      "origin": "Frequentative of wap; compare German dialect wappern, wippern (“to move up and down, to rock”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "waps": {
     "n": {
@@ -24191,6 +24231,30 @@
     },
     "isAnglish": false
   },
+  "warg": {
+    "n": {
+      "senses": [],
+      "origin": "Learned borrowing from Old Norse vargr (“wolf”), reintroduced by J. R. R. Tolkien; compare also Old English wearg.",
+      "sounds": [
+        {
+          "ipa": "/ˈwɑːɡ/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈwoɹɡ/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɑːɡ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "wargedly": {
     "a": {
       "senses": [
@@ -24818,7 +24882,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "warm up": {
     "n": {
@@ -28716,6 +28780,30 @@
       ]
     },
     "isAnglish": false
+  },
+  "wass": {
+    "n": {
+      "senses": [],
+      "origin": "From Somali was (“to have sexual intercourse with, to fuck”, verb); compare English fuckry. The multiple meanings of jazz also mirror this word well.",
+      "sounds": [
+        {
+          "ipa": "[ˈwæs]",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "ipa": "[ˈwas]",
+          "tags": [
+            "Multicultural-London-English"
+          ]
+        },
+        {
+          "rhymes": "-æs"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "wassail": {
     "n": {
@@ -33085,7 +33173,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "water right": {
     "n": {
@@ -34584,6 +34672,14 @@
     },
     "isAnglish": true
   },
+  "waterdock": {
+    "n": {
+      "senses": [],
+      "origin": "From water + dock. Compare Old English ēa-docce (“Rumex aquaticus”, literally “water-dock”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "waterdog": {
     "n": {
       "senses": [
@@ -34742,6 +34838,24 @@
     },
     "isAnglish": true
   },
+  "waterfast": {
+    "a": {
+      "senses": [
+        {
+          "synset": "01402239-s"
+        },
+        {
+          "synset": "00594206-s"
+        },
+        {
+          "synset": "01401945-s"
+        }
+      ],
+      "origin": "From water + fast. Cognate with Scots wattirfast (“watertight”), West Frisian wetterfêst (“waterproof”), Dutch watervast (“waterproof”), German wasserfest (“waterproof”), Danish vandfast (“waterproof”), Swedish vattenfast (“waterproof”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "waterfear": {
     "n": {
       "senses": [
@@ -34888,6 +35002,22 @@
     },
     "isAnglish": false
   },
+  "waterfright": {
+    "n": {
+      "senses": [],
+      "origin": "From water + fright. Compare Old English wæterfyrhtness (“fear of water, hydrophobia”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "waterfrog": {
+    "n": {
+      "senses": [],
+      "origin": "From water + frog. Compare German Wasserfrosch, Danish vandfrø.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "waterfront": {
     "n": {
       "senses": [
@@ -35015,7 +35145,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "waterhog": {
     "n": {
@@ -35185,6 +35315,14 @@
     "a": {
       "senses": [],
       "origin": "From Middle English watryssh, equivalent to water + -ish.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "waterland": {
+    "n": {
+      "senses": [],
+      "origin": "From water + land. Cognate with Old Frisian waterland, weterlond, Middle Low German waterlant, wāterlant, Dutch waterland, German Wasserland.",
       "sounds": []
     },
     "isAnglish": true
@@ -35792,7 +35930,7 @@
       "origin": "From water + -scape. Compare Middle English watershipe (“a gathering of waters”), Old English wætersċipe (“a body of water”), Old Saxon watriscapum (“watercourse, watersource”), Middle Dutch waterschap (“watercourse, waterway”) (whence Dutch waterschap).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "waterscooter": {
     "n": {
@@ -36065,7 +36203,7 @@
       "origin": "From water + stuff. Calque of Dutch waterstof (“hydrogen”) or German Wasserstoff (“hydrogen”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "watertight": {
     "a": {
@@ -36116,7 +36254,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "watertightness": {
     "n": {
@@ -38552,7 +38690,7 @@
       "origin": "From waxing + moon. Compare Middle English wexinge of the mone, þe waxyng of moone, waxinge of þe mone, wexinge of þe mone (literally “(the) waxing of the moon”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "waxleaf": {
     "n": {
@@ -39404,7 +39542,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wayleat": {
     "n": {
@@ -39745,7 +39883,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "waywort": {
     "n": {
@@ -44650,7 +44788,7 @@
       "origin": "From wed + breach. Compare English spousebreach (“adultery”), Old English ǣwbryċe (“adultery”).",
       "sounds": []
     },
-    "isAnglish": false,
+    "isAnglish": true,
     "a": {
       "senses": [],
       "origin": null
@@ -46444,7 +46582,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "weekend warrior": {
     "n": {
@@ -48743,6 +48881,19 @@
     },
     "isAnglish": false
   },
+  "weirdlike": {
+    "a": {
+      "senses": [],
+      "origin": "From weird + -like. Compare English weirdly.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From weird + -like. Compare English weirdly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "weirdly": {
     "r": {
       "senses": [
@@ -50789,7 +50940,7 @@
       "origin": "Compare Middle English wel ymanerede, wel y-manerit.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "well-marked": {
     "a": {
@@ -50964,6 +51115,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "well-rested": {
+    "a": {
+      "senses": [],
+      "origin": "From well + rested. Compare Middle English ful restid (“well-rested”, literally “fully rested”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "well-rounded": {
     "a": {
@@ -52329,6 +52488,14 @@
     },
     "isAnglish": false
   },
+  "wenchlike": {
+    "a": {
+      "senses": [],
+      "origin": "From wench + -like. Compare English wenchly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "wend": {
     "v": {
       "pronunciation": [
@@ -52695,6 +52862,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "wentletrap": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Dutch wenteltrap (“a winding staircase”); compare German Wendeltreppe.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "wepman": {
     "n": {
@@ -55601,7 +55776,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "whacked": {
     "a": {
@@ -55932,6 +56107,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "whalefish": {
+    "n": {
+      "senses": [],
+      "origin": "From whale + fish. Compare West Frisian walfisk, Dutch walvis (“whale”), German Low German Waalfisch, German Walfisch (“whale”), Danish hvalfisk (“whale”), Icelandic hvalfiskur.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "whalelore": {
     "n": {
@@ -57406,6 +57589,36 @@
     },
     "isAnglish": true
   },
+  "what say you": {
+    "x": {
+      "senses": [],
+      "origin": "Early Modern English syntax for what do you say; at the time, do-support was not yet obligatory. Compare Middle English what seien ye.",
+      "sounds": [
+        {
+          "ipa": "/ˌ(h)wɒt seɪ ˈjuː/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˌ(h)wʌt seɪ ˈju/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/ˌwɑt-/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-uː"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "what the Devil": {
     "x": {
       "senses": [],
@@ -57796,6 +58009,21 @@
       "senses": [],
       "origin": "From Middle English whatsomever; equivalent to what + somever.",
       "sounds": []
+    },
+    "isAnglish": true
+  },
+  "whatten": {
+    "x": {
+      "senses": [],
+      "origin": "Originally a contraction of what kind (of) (the DSL traces the Scots cognate back to Middle English whatkin, whatkyn, but the MED's only example is of the two-word collocation what kyn), later used in place of bare what.",
+      "sounds": [
+        {
+          "ipa": "/wɒtən/"
+        },
+        {
+          "ipa": "/wɑtən/"
+        }
+      ]
     },
     "isAnglish": true
   },
@@ -62480,7 +62708,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "whimsey": {
     "n": {
@@ -68438,7 +68666,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "white spruce": {
     "n": {
@@ -76213,7 +76441,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wield": {
     "v": {
@@ -76479,6 +76707,18 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "wiery": {
+    "a": {
+      "senses": [],
+      "origin": "Compare wearish. Alternatively, related to Old English wær (“sea, pool”).",
+      "sounds": [
+        {
+          "ipa": "/ˈwaɪəɹi/"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "wiesenboden": {
     "n": {
@@ -76856,6 +77096,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "wigg": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Dutch wegge (“a sort of bread”), German Weck, originally a wedge-shaped loaf or cake. See wedge.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "wigged": {
     "a": {
@@ -79040,7 +79288,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wild spinach": {
     "n": {
@@ -81697,6 +81945,14 @@
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/LL-Q1860_%28eng%29-Vealhurl-wimple.wav/LL-Q1860_%28eng%29-Vealhurl-wimple.wav.mp3"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "wimpleless": {
+    "a": {
+      "senses": [],
+      "origin": "From wimple + -less. Compare Middle English wimpelles, winpelleas.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -87439,6 +87695,14 @@
     },
     "isAnglish": true
   },
+  "winstub": {
+    "n": {
+      "senses": [],
+      "origin": "From Alsatian Alemannic German Winstub f (possibly via French winstub), cognate to German Weinstube.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "winter": {
     "n": {
       "pronunciation": [
@@ -88425,7 +88689,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "winy": {
     "a": {
@@ -90476,7 +90740,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wise up": {
     "v": {
@@ -91561,7 +91825,12 @@
       ],
       "origin": "ME, wis/wiss/wisse"
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "v": {
+      "senses": [],
+      "origin": "Perhaps an alteration of wis, taken from the incorrect division of iwis (“surely, certainly”) as \"I wis\", and mistaken for a verb; see wis. Perhaps from (certainly akin to) Old English witan (“to know”); see wit.",
+      "sounds": []
+    }
   },
   "wisse": {
     "v": {
@@ -94873,7 +95142,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "withersake": {
     "n": {
@@ -95226,7 +95495,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "witherwin": {
     "n": {
@@ -97425,6 +97694,14 @@
       ]
     }
   },
+  "witterly": {
+    "r": {
+      "senses": [],
+      "origin": "From a Scandinavian source. Compare Middle Swedish vitterliga, early Danish viderlige.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "witticism": {
     "n": {
       "pronunciation": [
@@ -97557,7 +97834,7 @@
       "origin": "From witting + -ly. Cognate with German wissentlich.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wittle": {
     "n": {
@@ -98340,7 +98617,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "woadenstone": {
     "a": {
@@ -98643,7 +98920,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wobbler": {
     "n": {
@@ -98861,6 +99138,27 @@
         },
         {
           "enpr": "wō"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
+  "woe is me": {
+    "x": {
+      "senses": [],
+      "origin": "An otherwise obsolete use of me in a dative context without a preposition (such as at or on).\nCompare the identical German Weh ist mir and Yiddish וויי איז מיר (vey iz mir).",
+      "sounds": [
+        {
+          "ipa": "/ˌwəʊ ɪz ˈmiː/",
+          "tags": [
+            "UK"
+          ]
+        },
+        {
+          "ipa": "/ˌwoʊ ɪz ˈmi/",
+          "tags": [
+            "US"
+          ]
         }
       ]
     },
@@ -99849,6 +100147,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "wolfly": {
+    "a": {
+      "senses": [],
+      "origin": "From wolf + -ly. Cognate with Middle High German wolflich (“wolflike”). Compare wolflike.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "wolfman": {
     "n": {
@@ -101811,7 +102117,7 @@
       "origin": "From wonder + -some. Compare German wundersam (“miraculous, wondrous”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wondertale": {
     "n": {
@@ -101878,6 +102184,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "wonderworld": {
+    "n": {
+      "senses": [],
+      "origin": "wonder + world; compare the coincidentally equivalently formed Old English wundorworuld (“wonderful world”)",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "wondrous": {
     "a": {
@@ -102542,7 +102856,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wonted": {
     "a": {
@@ -104384,7 +104698,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "woodpile": {
     "n": {
@@ -104835,6 +105149,14 @@
           "ipa": "/ˈwʊdwəʊz/"
         }
       ]
+    },
+    "isAnglish": true
+  },
+  "woodwright": {
+    "n": {
+      "senses": [],
+      "origin": "From wood + wright. Compare Middle English timber-wrighte, tymbre wryth (“carpenter”, literally “timber-wright”), Old English trēowwyrhta (“carpenter”), see treewright, timberwright.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -105747,7 +106069,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "woolly thistle": {
     "n": {
@@ -106987,7 +107309,7 @@
       "origin": "A modern calque of Old English wordhord (“treasury of words”), equivalent to word + hoard. Compare Dutch woordenschat, German Wortschatz.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "word-middle": {
     "n": {
@@ -107166,7 +107488,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wordbook-maker": {
     "n": {
@@ -107190,6 +107512,14 @@
         }
       ],
       "origin": "word + book+'worthy"
+    },
+    "isAnglish": true
+  },
+  "wordbuilding": {
+    "n": {
+      "senses": [],
+      "origin": "From word + building. Compare German Wortbildung (“word formation, morphology”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -107587,7 +107917,7 @@
       "origin": "From word + -ly. Compare Dutch woordelijk, German wörtlich.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wordly bookstavely": {
     "r": {
@@ -107774,6 +108104,14 @@
         }
       ],
       "origin": "etym. 2"
+    },
+    "isAnglish": true
+  },
+  "wordshaping": {
+    "n": {
+      "senses": [],
+      "origin": "From word + shaping. Compare Dutch woordschepping, German Wortschöpfung (“word creation”), Swedish ordskapande.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -110866,6 +111204,14 @@
     },
     "isAnglish": true
   },
+  "worksome": {
+    "a": {
+      "senses": [],
+      "origin": "From work + -some. Cognate with German wirksam (“effective, operative, effectual”), Swedish verksam (“active, operative”), Old English weorcsum (“laborious, painful”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "workspace": {
     "n": {
       "senses": [
@@ -110922,7 +111268,7 @@
       "origin": "From work + stead. Cognate with German Werkstatt (“workshop”), Swedish verkstad (“workshop”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "workstead filmingstead": {
     "n": {
@@ -111390,6 +111736,21 @@
     },
     "isAnglish": false
   },
+  "world-historical": {
+    "a": {
+      "senses": [],
+      "origin": "world + historical, perhaps after earlier German weltgeschichtlich [from 19th c.]",
+      "sounds": [
+        {
+          "ipa": "/ˌwəːldhɪˈstɒɹɪkl̩/",
+          "tags": [
+            "UK"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "world-sea": {
     "n": {
       "senses": [
@@ -111849,7 +112210,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "worldly-wise": {
     "a": {
@@ -113997,6 +114358,14 @@
     "r": {
       "senses": [],
       "origin": "From Middle English worshipfully; equivalent to worshipful + -ly.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "worshipfulness": {
+    "n": {
+      "senses": [],
+      "origin": "From worshipful + -ness. Compare Middle English worschupefulnesse (“religious devotion, piety”).",
       "sounds": []
     },
     "isAnglish": true
@@ -116582,6 +116951,19 @@
     },
     "isAnglish": false
   },
+  "wramp": {
+    "n": {
+      "senses": [],
+      "origin": "Exact origin uncertain, but apparently related to Danish vrampet (“warped, twisted”), Middle Low German wrempich, wrampachtich (“warped, twisted”).",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "Exact origin uncertain, but apparently related to Danish vrampet (“warped, twisted”), Middle Low German wrempich, wrampachtich (“warped, twisted”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "wrangle": {
     "n": {
       "pronunciation": [
@@ -118367,7 +118749,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wrest": {
     "v": {
@@ -119079,7 +119461,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "wriggler": {
     "n": {
@@ -122498,6 +122880,14 @@
         }
       ],
       "origin": "From Middle English wrongous, for earlier wrongwis, wrangwis, from Old English wrongwīs, wrangwīs (“wrongous, rough, uneven”), equivalent to wrong + -ous (see also wrongwise). Cognate with Swedish vrångvis (“wrong, iniquitous”). See wrong, and compare righteous.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "wrongwise": {
+    "r": {
+      "senses": [],
+      "origin": "From wrong + -wise. Compare English wrongous.",
       "sounds": []
     },
     "isAnglish": true

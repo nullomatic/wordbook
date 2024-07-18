@@ -6650,6 +6650,14 @@
     },
     "isAnglish": true
   },
+  "Nether-Saxon": {
+    "a": {
+      "senses": [],
+      "origin": "From nether- + Saxon, influenced by or a calque of German niedersächsisch (as a noun Niedersächsisch) and similar terms in Dutch (Nedersaksisch) and Low German.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Netherfrankish": {
     "n": {
       "senses": [],
@@ -16738,6 +16746,18 @@
     },
     "isAnglish": false
   },
+  "naegleriasis": {
+    "n": {
+      "senses": [],
+      "origin": "translingual Naegleria + English -iasis",
+      "sounds": [
+        {
+          "ipa": "/ˌnɛɡləˈɹaɪəsɪs/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "nafcillin": {
     "n": {
       "pronunciation": [
@@ -17387,6 +17407,14 @@
         }
       ],
       "origin": "<SC nale"
+    },
+    "isAnglish": true
+  },
+  "nailbourne": {
+    "n": {
+      "senses": [],
+      "origin": "From nail + bourne (“seasonal stream or brook”). The etymology of the first part is uncertain. It may derive from ail via a rebracketing of an ailbourne as a nailbourne; compare similar cases such as English newt and nickname.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -18923,7 +18951,7 @@
       "origin": "From name + word. Compare Dutch naamwoord (“nameword, noun (sensu lato)”) and German Namenwort.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "namewrit": {
     "n": {
@@ -25294,7 +25322,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "natterjack": {
     "n": {
@@ -29432,7 +29460,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "near": {
     "a": {
@@ -32784,6 +32812,14 @@
     },
     "isAnglish": true
   },
+  "need-fire": {
+    "n": {
+      "senses": [],
+      "origin": "Cognate to German Notfeuer.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "needed": {
     "a": {
       "pronunciation": [
@@ -33995,6 +34031,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "neenish tart": {
+    "n": {
+      "senses": [],
+      "origin": "Unknown. The oldest known reference is a September 1895 advertisement in the Sydney Sunday Times for Nenish cakes.\nDerivation from a German or Viennese German word has been suggested, and the early spellings nienich (1935) and nenische (1959) appear consistent with a German origin, but the \"very English\" spelling neenish has been common since even earlier, being in a January 1903 recipe in the Launceston Daily Telegraph, a May 1924 Melbourne Argus article, and a 1929 cookbook by Lucy Drake, suggesting the Germanic spellings may have developed later to give the dish a Continental feel.\nA popular claim that the tarts were first made by a Ruby Neenish in Grong Grong, New South Wales circa 1913, when she ran low on cocoa preparing for an unexpected shower tea and made do with half-chocolate/half-white icing, was a hoax.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "neep": {
     "n": {
@@ -36334,7 +36378,7 @@
       "origin": "From neighbor + -ship. Cognate with Dutch nabuurschap (“neighborship”), Low German Naberschaft (“neighborhood; neighborship”), German Nachbarschaft (“neighborship”), Swedish naboskap (“neighborship”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "neighbou": {
     "n": {
@@ -36621,6 +36665,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "neighbourship": {
+    "n": {
+      "senses": [],
+      "origin": "From neighbour + -ship. Cognate with Saterland Frisian Noaberskup (“neighbourship”), Dutch nabuurschap (“neighbourship”), Low German Naberschaft (“neighbourship”), German Nachbarschaft (“neighbourship”), Swedish naboskap (“neighbourship”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "neighledge": {
     "v": {
@@ -37927,6 +37979,27 @@
       ]
     },
     "isAnglish": false
+  },
+  "neonism": {
+    "n": {
+      "senses": [],
+      "origin": "Formed irregularly from the Ancient Greek νέον (néon) (neon: neuter singular form of νέος (néos), neos, “new”) + the English -ism; compare the closely related neo- and neon, as well as the earlier synonym neologism.",
+      "sounds": [
+        {
+          "ipa": "/ˈniːənɪzəm/"
+        },
+        {
+          "audio": "En-us-neonism.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/En-us-neonism.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/En-us-neonism.ogg/En-us-neonism.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "neopallium": {
     "n": {
@@ -41404,6 +41477,14 @@
           "synset": "02857998-n"
         }
       ],
+      "sounds": []
+    },
+    "isAnglish": false
+  },
+  "netherlip": {
+    "n": {
+      "senses": [],
+      "origin": "From netherlips.",
       "sounds": []
     },
     "isAnglish": false
@@ -46551,7 +46632,7 @@
       "origin": "From new + -ling. Cognate with Dutch nieuweling (“a novice, beginner”), German Neuling (“a novice”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "newlings": {
     "r": {
@@ -49674,6 +49755,49 @@
     },
     "isAnglish": false
   },
+  "niddering": {
+    "n": {
+      "senses": [],
+      "origin": "A variant of nithing, resulting from the letter eth (ð) in Early Middle English niðing in the writings of the English historian William of Malmesbury (c. 1095 – c.  1143) being mistaken for a d followed by a mark of suspension representing a letter that had been omitted as an abbreviation. This led to niðing being wrongly spelled as nidering in early printed versions of his works. The word was later popularized by the Scottish novelist and poet Sir Walter Scott (1771–1832).",
+      "sounds": [
+        {
+          "ipa": "/ˈnɪdəɹɪŋ/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈnɪdɹɪŋ/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "a": {
+      "senses": [],
+      "origin": "A variant of nithing, resulting from the letter eth (ð) in Early Middle English niðing in the writings of the English historian William of Malmesbury (c. 1095 – c.  1143) being mistaken for a d followed by a mark of suspension representing a letter that had been omitted as an abbreviation. This led to niðing being wrongly spelled as nidering in early printed versions of his works. The word was later popularized by the Scottish novelist and poet Sir Walter Scott (1771–1832).",
+      "sounds": [
+        {
+          "ipa": "/ˈnɪdəɹɪŋ/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/ˈnɪdɹɪŋ/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "nidicolous": {
     "a": {
       "senses": [
@@ -51908,7 +52032,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nigra": {
     "n": {
@@ -53919,7 +54043,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nipple shield": {
     "n": {
@@ -56243,6 +56367,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "no question": {
+    "x": {
+      "senses": [],
+      "origin": "Compare Middle English it is noo questyon (“there is no doubt”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "no smack": {
     "a": {
@@ -59129,6 +59261,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "nolt": {
+    "n": {
+      "senses": [],
+      "origin": "Variant of English nowt (“ox”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "nom de guerre": {
     "n": {
@@ -66917,7 +67057,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nonsense verse": {
     "n": {
@@ -68710,6 +68850,27 @@
     "isAnglish": false
   },
   "noone": {
+    "x": {
+      "senses": [],
+      "origin": "From no + one. Compare Middle English noone, noon, noan (“noone”). More at none.",
+      "sounds": [
+        {
+          "ipa": "/ˈnəʊwʌn/"
+        },
+        {
+          "rhymes": "-əʊwʌn"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-noone.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/LL-Q1860_%28eng%29-Vealhurl-noone.wav/LL-Q1860_%28eng%29-Vealhurl-noone.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/LL-Q1860_%28eng%29-Vealhurl-noone.wav/LL-Q1860_%28eng%29-Vealhurl-noone.wav.mp3"
+        }
+      ]
+    },
     "n": {
       "senses": [],
       "origin": "From Middle English none, noune, from Old English nōn (“noon; the ninth hour”). Cognate with Dutch noen, Icelandic nón. More at noon.",
@@ -68750,6 +68911,14 @@
         }
       ],
       "origin": "From Middle English non-tyde, from Old English nōntīd (“noontide”), equivalent to noon + tide.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "noontime": {
+    "n": {
+      "senses": [],
+      "origin": "From noon + time, perhaps an innovation of earlier English noontide (“noontime”), from Middle English noon tijd, from Old English nōntīd (“noontime”). Eclipsed non-native Middle English merian, merion (“noontime”) from Old French meriiene, merīane (“noontime”).",
       "sounds": []
     },
     "isAnglish": true
@@ -69928,6 +70097,19 @@
       ]
     },
     "isAnglish": false
+  },
+  "normalwise": {
+    "a": {
+      "senses": [],
+      "origin": "From normal + -wise. Compare German normalerweise.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "From normal + -wise. Compare German normalerweise.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "normative": {
     "a": {
@@ -71130,7 +71312,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "northern dune tansy": {
     "n": {
@@ -77887,7 +78069,103 @@
         }
       ]
     },
-    "isAnglish": true
+    "isAnglish": true,
+    "x": {
+      "senses": [],
+      "origin": "Dialectal pronunciation of naught. Akin to West Frisian neat (“nothing”), German nichts (“nothing”).",
+      "sounds": [
+        {
+          "ipa": "/naʊt/",
+          "tags": [
+            "Northern-England"
+          ]
+        },
+        {
+          "ipa": "[naʊʔ]",
+          "tags": [
+            "Northern-England"
+          ]
+        },
+        {
+          "rhymes": "-aʊt"
+        },
+        {
+          "ipa": "/nəʊt/",
+          "tags": [
+            "English-Midlands"
+          ]
+        },
+        {
+          "ipa": "[nəʊʔ]",
+          "tags": [
+            "English-Midlands"
+          ]
+        },
+        {
+          "rhymes": "-əʊt"
+        },
+        {
+          "homophone": "note"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-nowt.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/LL-Q1860_%28eng%29-Vealhurl-nowt.wav/LL-Q1860_%28eng%29-Vealhurl-nowt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/LL-Q1860_%28eng%29-Vealhurl-nowt.wav/LL-Q1860_%28eng%29-Vealhurl-nowt.wav.mp3"
+        }
+      ]
+    },
+    "r": {
+      "senses": [],
+      "origin": "Dialectal pronunciation of naught. Akin to West Frisian neat (“nothing”), German nichts (“nothing”).",
+      "sounds": [
+        {
+          "ipa": "/naʊt/",
+          "tags": [
+            "Northern-England"
+          ]
+        },
+        {
+          "ipa": "[naʊʔ]",
+          "tags": [
+            "Northern-England"
+          ]
+        },
+        {
+          "rhymes": "-aʊt"
+        },
+        {
+          "ipa": "/nəʊt/",
+          "tags": [
+            "English-Midlands"
+          ]
+        },
+        {
+          "ipa": "[nəʊʔ]",
+          "tags": [
+            "English-Midlands"
+          ]
+        },
+        {
+          "rhymes": "-əʊt"
+        },
+        {
+          "homophone": "note"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-nowt.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/LL-Q1860_%28eng%29-Vealhurl-nowt.wav/LL-Q1860_%28eng%29-Vealhurl-nowt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/LL-Q1860_%28eng%29-Vealhurl-nowt.wav/LL-Q1860_%28eng%29-Vealhurl-nowt.wav.mp3"
+        }
+      ]
+    }
   },
   "noxious": {
     "a": {
@@ -78334,7 +78612,7 @@
       "origin": "Compare Low German nubben (“to knock, cuff”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "nubbly": {
     "a": {
@@ -80607,7 +80885,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "numbat": {
     "n": {

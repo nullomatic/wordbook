@@ -7722,6 +7722,45 @@
     },
     "isAnglish": false
   },
+  "Volscian": {
+    "a": {
+      "senses": [],
+      "origin": "Latin Volscī + English -an",
+      "sounds": [
+        {
+          "ipa": "/ˈvɒlʃən/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "enpr": "vŏlʹshən",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "Latin Volscī + English -an",
+      "sounds": [
+        {
+          "ipa": "/ˈvɒlʃən/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "enpr": "vŏlʹshən",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "Volta": {
     "n": {
       "senses": [
@@ -13051,6 +13090,14 @@
     },
     "isAnglish": false
   },
+  "value-form": {
+    "n": {
+      "senses": [],
+      "origin": "Calque of German German Wertform, sometimes also translated as \"form of value\".",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "value-system": {
     "n": {
       "senses": [
@@ -13453,7 +13500,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "vamp": {
     "n": {
@@ -29255,6 +29302,60 @@
     },
     "isAnglish": false
   },
+  "verklempt": {
+    "a": {
+      "senses": [],
+      "origin": "Borrowed from Yiddish פֿאַרקלעמט (farklemt, “depressed, distraught; choked up”), cognate to German verklemmt (“inhibited; hemmed in, squeezed”).",
+      "sounds": [
+        {
+          "ipa": "/fəˈklɛmt/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/və-/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        },
+        {
+          "ipa": "/fɚˈklɛmt/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "ipa": "/vɚ-/",
+          "tags": [
+            "General-American"
+          ]
+        },
+        {
+          "rhymes": "-ɛmt"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-verklempt.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/LL-Q1860_%28eng%29-Vealhurl-verklempt.wav/LL-Q1860_%28eng%29-Vealhurl-verklempt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/LL-Q1860_%28eng%29-Vealhurl-verklempt.wav/LL-Q1860_%28eng%29-Vealhurl-verklempt.wav.mp3"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-JutishMale-verklempt.wav",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/LL-Q1860_%28eng%29-JutishMale-verklempt.wav/LL-Q1860_%28eng%29-JutishMale-verklempt.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/LL-Q1860_%28eng%29-JutishMale-verklempt.wav/LL-Q1860_%28eng%29-JutishMale-verklempt.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "vermicelli": {
     "n": {
       "senses": [
@@ -36140,6 +36241,14 @@
     },
     "isAnglish": false
   },
+  "vicenarious": {
+    "a": {
+      "senses": [],
+      "origin": "From Latin vīcēnārius, from vīcēnus (“twenty each”) + -ārius (“-ary: forming adjectives and related nouns”). Doublet of vicenary. Ultimately cognate with English vigenary.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "vicenary": {
     "a": {
       "senses": [
@@ -40016,6 +40125,14 @@
     },
     "isAnglish": false
   },
+  "vineberry": {
+    "n": {
+      "senses": [],
+      "origin": "From vine + berry. Compare English wineberry.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "vinegar": {
     "n": {
       "pronunciation": [
@@ -43272,7 +43389,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "virtuoso": {
     "a": {
@@ -52041,6 +52158,14 @@
     },
     "isAnglish": false
   },
+  "volk": {
+    "n": {
+      "senses": [],
+      "origin": "From Middle English volk, southern form of folk; compare vixen.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "volley": {
     "n": {
       "pronunciation": [
@@ -57256,5 +57381,13 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "völkisch": {
+    "a": {
+      "senses": [],
+      "origin": "German völkisch. (Morphologically, compare English folkish.)",
+      "sounds": []
+    },
+    "isAnglish": true
   }
 }

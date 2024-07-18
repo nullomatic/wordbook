@@ -8035,6 +8035,14 @@
     },
     "isAnglish": false
   },
+  "Leidener": {
+    "n": {
+      "senses": [],
+      "origin": "From Leiden + -er. Compare German Leidener",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "Leigh": {
     "n": {
       "pronunciation": [
@@ -23251,6 +23259,19 @@
     },
     "isAnglish": false
   },
+  "la-la": {
+    "a": {
+      "senses": [],
+      "origin": "Sounds used to form meaningless song refrains. Of imitative origin. Compare Old English lā, a common exclamation, Greek λαλαγε (lalage, “babble”), German lallen (“to babble”). Compare also blah blah.",
+      "sounds": []
+    },
+    "v": {
+      "senses": [],
+      "origin": "Sounds used to form meaningless song refrains. Of imitative origin. Compare Old English lā, a common exclamation, Greek λαλαγε (lalage, “babble”), German lallen (“to babble”). Compare also blah blah.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "laager": {
     "n": {
       "pronunciation": [
@@ -29086,7 +29107,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ladybird beetle": {
     "n": {
@@ -29136,7 +29157,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "ladyfinger": {
     "n": {
@@ -33442,6 +33463,14 @@
     },
     "isAnglish": false
   },
+  "lampron": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Old English lampreon.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lampshade": {
     "n": {
       "pronunciation": [
@@ -34538,6 +34567,14 @@
     },
     "isAnglish": false
   },
+  "land-salamander": {
+    "n": {
+      "senses": [],
+      "origin": "From land + salamander. Compare Dutch landsalamander, German Landsalamander.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "landau": {
     "n": {
       "pronunciation": [
@@ -34916,7 +34953,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "landfowl": {
     "n": {
@@ -35504,6 +35541,14 @@
     },
     "isAnglish": true
   },
+  "landlouper": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Dutch landloper (literally “land-runner”). Merged with native English landleaper; equivalent to land + leaper.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "landlubber": {
     "n": {
       "pronunciation": [
@@ -35575,6 +35620,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "landly": {
+    "a": {
+      "senses": [],
+      "origin": "From land + -ly. Cognate with German ländlich (“rural”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "landly landly": {
     "a": {
@@ -38785,6 +38838,27 @@
     },
     "isAnglish": false
   },
+  "lapsarian": {
+    "a": {
+      "senses": [],
+      "origin": "From Latin lapsus (“fall”) + -arian (“believer, advocate”); compare English lapse.",
+      "sounds": [
+        {
+          "ipa": "/læpˈsɛəɹɪən/"
+        }
+      ]
+    },
+    "n": {
+      "senses": [],
+      "origin": "From Latin lapsus (“fall”) + -arian (“believer, advocate”); compare English lapse.",
+      "sounds": [
+        {
+          "ipa": "/læpˈsɛəɹɪən/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lapse": {
     "n": {
       "pronunciation": [
@@ -39440,6 +39514,14 @@
     },
     "isAnglish": true
   },
+  "lardery": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Old English larderie.",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lardiner": {
     "n": {
       "senses": [],
@@ -39802,7 +39884,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "large intestine": {
     "n": {
@@ -42875,6 +42957,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "last will": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Dutch laatste wilsbeschikking, Finnish viimeinen tahto, German Letzter Wille, Hungarian végrendelet.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "last word": {
     "n": {
@@ -46217,6 +46307,18 @@
     },
     "isAnglish": false
   },
+  "laudation": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from Latin laudatio; compare Old English taudation. See laud.",
+      "sounds": [
+        {
+          "ipa": "/lɔːˈdeɪ.ʃən/"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "laudator": {
     "n": {
       "senses": [
@@ -48199,6 +48301,21 @@
     },
     "isAnglish": false
   },
+  "laurophyllous": {
+    "a": {
+      "senses": [],
+      "origin": "An etymological hybrid of the Latin laurus (“bay laurel”) and the English -phyllous (from the Ancient Greek φύλλον, phúllon, “leaf”).",
+      "sounds": [
+        {
+          "ipa": "/lɔːˈɹɒfɪləs/",
+          "tags": [
+            "Received-Pronunciation"
+          ]
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lauryl alcohol": {
     "n": {
       "senses": [
@@ -49811,6 +49928,19 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "lawe": {
+    "v": {
+      "senses": [],
+      "origin": "Perhaps from law because the practice was ordained by law. Few dictionaries comment directly on the etymology of the sense, but several (which also spell the infinitive law) group it with the other verb and noun senses derived from Old English lagu (“law”).",
+      "sounds": []
+    },
+    "n": {
+      "senses": [],
+      "origin": "Perhaps from law because the practice was ordained by law. Few dictionaries comment directly on the etymology of the sense, but several (which also spell the infinitive law) group it with the other verb and noun senses derived from Old English lagu (“law”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lawer": {
     "n": {
@@ -51660,7 +51790,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lay witness": {
     "n": {
@@ -54655,6 +54785,14 @@
     },
     "isAnglish": true
   },
+  "leaf frog": {
+    "n": {
+      "senses": [],
+      "origin": "From leaf + frog. Compare German Laubfrosch (“treefrog”), Faroese leyvfroskur (“treefrog”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "leaf insect": {
     "n": {
       "senses": [
@@ -55249,6 +55387,14 @@
     "a": {
       "senses": [],
       "origin": "From Middle English leful, lefful, leafful, from Old English lēaffull, ġelēafful (“full of belief, full of faith, believing, faithful”), equivalent to leave + -ful. Cognate with Scots leful, levefull (“right, permissible, legal, just”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
+  "leafwork": {
+    "n": {
+      "senses": [],
+      "origin": "From leaf + work. Compare Dutch loofwerk, German Laubwerk.",
       "sounds": []
     },
     "isAnglish": true
@@ -57794,6 +57940,14 @@
         }
       ],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "learnling": {
+    "n": {
+      "senses": [],
+      "origin": "From learn + -ling. Compare West Frisian learling (“pupil”), German Lehrling (“apprentice”), Norwegian lærling (“trainee; apprentice”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -62970,6 +63124,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "left hooker": {
+    "n": {
+      "senses": [],
+      "origin": "From English left and hook + -er in the sense of the game of golf.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "left over": {
     "a": {
@@ -70383,6 +70545,21 @@
     },
     "isAnglish": false
   },
+  "lesk": {
+    "n": {
+      "senses": [],
+      "origin": "Apparently of Scandinavian origin: compare Swedish ljumske, Danish lyske.",
+      "sounds": [
+        {
+          "ipa": "/lɛsk/"
+        },
+        {
+          "rhymes": "-ɛsk"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lespedeza": {
     "n": {
       "senses": [
@@ -70821,7 +70998,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lesser galangal": {
     "n": {
@@ -71885,6 +72062,30 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "let's": {
+    "v": {
+      "senses": [],
+      "origin": "Contraction of let us. Compare non-contracted Dutch laat ons, German lass uns (speaker with one other person) / lasst uns (speaker with more other persons) and Swedish låt oss.",
+      "sounds": [
+        {
+          "ipa": "/lɛts/"
+        },
+        {
+          "rhymes": "-ɛts"
+        },
+        {
+          "audio": "en-us-let's.ogg",
+          "text": "Audio (US)",
+          "tags": [
+            "US"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/En-us-let%27s.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/En-us-let%27s.ogg/En-us-let%27s.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
   },
   "let-on": {
     "n": {
@@ -80618,7 +80819,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lieder singer": {
     "n": {
@@ -80722,6 +80923,14 @@
     "a": {
       "senses": [],
       "origin": null
+    },
+    "isAnglish": true
+  },
+  "liefling": {
+    "n": {
+      "senses": [],
+      "origin": "Equivalent to lief + -ling (compare darling = dear + -ling), perhaps from or modelled after Afrikaans liefling (“darling”), German Liebling (“darling”). Compare also loveling.",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -82215,7 +82424,7 @@
       "origin": "From life + blood. Compare English heart-blood (“lifeblood”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lifeboat": {
     "n": {
@@ -82349,7 +82558,7 @@
       "origin": "From life + guard, calque of Dutch lijfgarde, where life has the sense of Dutch lijf (“body”) (hence literally “bodyguard”). Compare German Leibgarde (“bodyguard”), Danish livgarde (“bodyguard”), Swedish livgarde (“bodyguard”). Compare also Old English līfweard (“guardian of life”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lifehack": {
     "v": {
@@ -82695,6 +82904,11 @@
         }
       ],
       "origin": "From Middle English lifly, lyfly, lyflich, from Old English līflīċ (“living; vital”), equivalent to life + -ly. Doublet of lively.",
+      "sounds": []
+    },
+    "r": {
+      "senses": [],
+      "origin": "Compare English lively.",
       "sounds": []
     },
     "isAnglish": true
@@ -83121,7 +83335,7 @@
       "origin": "From life + work. Compare Saterland Frisian Lieuwendswierk, West Frisian libbenswurk, Dutch levenswerk, German Low German Levenswark, German Lebenswerk, Danish livsværk, Swedish livsverk.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lifeworld": {
     "n": {
@@ -85747,7 +85961,7 @@
       "origin": "From light + bearing. Compare Old English lēohtbǣre (“luminous, bright, splendid”, literally “light-bearing”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "light-blue": {
     "a": {
@@ -87475,7 +87689,7 @@
       "origin": "From light (noun) + ship (noun). Cognate with Middle Low German lüchteschip (“lightship”), Dutch lichtschip (“lightship”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lightshooting": {
     "n": {
@@ -87533,7 +87747,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lightsomely": {
     "r": {
@@ -87977,6 +88191,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "ligsam": {
+    "n": {
+      "senses": [],
+      "origin": "Compare Dutch liggen (“to lie”), English lie (“to be prostrate”), and flotsam, jetsam, or ligan.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "ligule": {
     "n": {
@@ -89027,7 +89249,7 @@
       "origin": "From like + -worthy. Compare Old English līcwyrþe (“fit to please; well-pleasing; acceptable; agreeable”, literally “like-worthy”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "liking": {
     "n": {
@@ -92476,7 +92698,15 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
+  },
+  "lindwyrm": {
+    "n": {
+      "senses": [],
+      "origin": "Cognate with Old Norse linnormr (“constrictor snake”), Norwegian lindorm (“serpent”), German Lindwurm (“dragon”).\nThe word wyrm is a contemporary or recent borrowing from the Old English word wyrm.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lindy": {
     "n": {
@@ -105541,7 +105771,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "live wire": {
     "n": {
@@ -108763,7 +108993,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loasa": {
     "n": {
@@ -109104,6 +109334,14 @@
     "n": {
       "senses": [],
       "origin": "OE, lāþspell"
+    },
+    "isAnglish": true
+  },
+  "loathy": {
+    "a": {
+      "senses": [],
+      "origin": "From loath + -y. Cognate with German leidig (“tiresome, unpleasant”).",
+      "sounds": []
     },
     "isAnglish": true
   },
@@ -109873,7 +110111,7 @@
       "origin": "Possibly from Yorkshire dialect lob (“boil”, literally “bubbling up”) + scouse, a word of unknown origin.\nCompare lapskaus, Dutch lapskous, Norwegian Bokmål lapskaus, German Lapskaus, Danish skipperlabskovs/labskovs; also English loblolly.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lobscuse": {
     "n": {
@@ -120525,7 +120763,7 @@
       "origin": "From long + minded. Compare Old English langmōd (“patient, long-suffering”, literally “long-mood”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "longmindedness": {
     "n": {
@@ -123767,7 +124005,7 @@
       "origin": "Compare Old Norse leysa upp (“loosen up”).",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "loosened": {
     "a": {
@@ -126311,7 +126549,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lory": {
     "n": {
@@ -130832,7 +131070,7 @@
       "origin": "From love + -ling. Compare West Frisian leaveling (“darling”), Dutch lieveling (“darling, sweetheart”), Afrikaans liefling (“darling”), German Liebling (“darling”); perhaps calqued, inspired, or reinforced by the term.",
       "sounds": []
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lovelorn": {
     "a": {
@@ -130935,6 +131173,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "loveness": {
+    "n": {
+      "senses": [],
+      "origin": "From love + -ness. Compare Middle English lovnesse, lufeniss, luvenesse (“lovingness, love”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lovenly": {
     "a": {
@@ -134022,6 +134268,18 @@
     },
     "isAnglish": true
   },
+  "lowth": {
+    "n": {
+      "senses": [],
+      "origin": "From low + -th. Cognate with Old Norse lægð.",
+      "sounds": [
+        {
+          "rhymes": "-əʊθ"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lox": {
     "n": {
       "senses": [
@@ -134489,6 +134747,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "lubish": {
+    "a": {
+      "senses": [],
+      "origin": "From Middle Low German lübsch or Middle Dutch lubesch, both (\"of Lübeck\"). Compare German lübisch (“of Lübeck”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lubricant": {
     "n": {
@@ -135714,6 +135980,14 @@
     },
     "isAnglish": false
   },
+  "ludophilia": {
+    "n": {
+      "senses": [],
+      "origin": "Latin lūdus (“play”) + English -philia (from the Ancient Greek φιλία (philía, “love”, “fondness”))",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "lues": {
     "n": {
       "pronunciation": [
@@ -135872,6 +136146,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "luftmensch": {
+    "n": {
+      "senses": [],
+      "origin": "From Yiddish לופֿטמענטש (luftmentsh), from לופֿט (luft, “air”) + מענטש (mentsh, “man”). Compare German von Luft und Liebe leben (“to disregard the practical matters of life”, literally “to live on air and love”), German Luftikus (“impractical, quixotic, or careless person”).\nThe word first appeared in Yiddish literature in 1860s (Nicolas Vallois, \"The Luftmentsh as an economic metaphor for Jewish poverty: a rhetorical analysis\").",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lug": {
     "n": {
@@ -136697,6 +136979,33 @@
     },
     "isAnglish": true
   },
+  "lullay": {
+    "x": {
+      "senses": [],
+      "origin": "Imitative or onomatopoeic sounds to lull a child to sleep. See also lull and lullaby. Compare Icelandic lúlla, German lullen.",
+      "sounds": [
+        {
+          "ipa": "/lu.ˈleɪ/"
+        },
+        {
+          "ipa": "/ˈlu.leɪ/"
+        },
+        {
+          "ipa": "/lu.ˈlaɪ/"
+        },
+        {
+          "enpr": "lo͞oʹlā"
+        },
+        {
+          "enpr": "ʹlo͞olā"
+        },
+        {
+          "enpr": "lo͞oʹlī"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "lulu": {
     "n": {
       "senses": [
@@ -136747,6 +137056,35 @@
           ],
           "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/En-au-lulz.ogg",
           "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/En-au-lulz.ogg/En-au-lulz.ogg.mp3"
+        }
+      ]
+    },
+    "isAnglish": false
+  },
+  "lum": {
+    "n": {
+      "senses": [],
+      "origin": "Unknown.",
+      "sounds": [
+        {
+          "ipa": "/lʌm/",
+          "tags": [
+            "General-American",
+            "Received-Pronunciation",
+            "Scotland"
+          ]
+        },
+        {
+          "rhymes": "-ʌm"
+        },
+        {
+          "audio": "En-uk-lum.wav",
+          "text": "Audio (RP)",
+          "tags": [
+            "Received-Pronunciation"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/En-uk-lum.wav/En-uk-lum.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/En-uk-lum.wav/En-uk-lum.wav.mp3"
         }
       ]
     },
@@ -140302,6 +140640,14 @@
     },
     "isAnglish": true
   },
+  "lurt": {
+    "n": {
+      "senses": [],
+      "origin": "Of North Germanic origin, related to Danish lort (“excrement”) and Norwegian lort (“filth, dirt, excrement”).",
+      "sounds": []
+    },
+    "isAnglish": true
+  },
   "luscious": {
     "a": {
       "pronunciation": [
@@ -140338,7 +140684,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "lusciously": {
     "r": {
@@ -141420,6 +141766,14 @@
       "sounds": []
     },
     "isAnglish": false
+  },
+  "lutefish": {
+    "n": {
+      "senses": [],
+      "origin": "Partial calque of Norwegian lutefisk; see English lutefisk for more.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "lutefisk": {
     "n": {

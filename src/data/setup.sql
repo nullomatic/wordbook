@@ -62,21 +62,3 @@ CREATE TABLE synset_synset (
     relation VARCHAR(20),
     PRIMARY KEY (synset_id_1, synset_id_2, relation)
 );
-
--- DO $$
--- DECLARE new_word_id INTEGER;
--- BEGIN
---     INSERT INTO word (word, pos, forms, is_anglish)
---     VALUES ('photograph', 'n', ARRAY['fotograph'], false)
---     RETURNING id INTO new_word_id;
-
---     INSERT INTO synset (id, pos, def, hypernym)
---     VALUES ('03931348-n', 'n', 'a representation of a person or scene in the form of a print or transparent slide or in digital format', NULL);
-
---     INSERT INTO sense (word_id, synset_id, sentence)
---     VALUES (new_word_id, '03931348-n', NULL);
-
---     /* Link sense-sense on second pass, after all senses are created */
-
---     RAISE NOTICE 'Inserted word with ID: %', new_word_id;
--- END $$

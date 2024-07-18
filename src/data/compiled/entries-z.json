@@ -3160,7 +3160,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "zag": {
     "n": {
@@ -3211,6 +3211,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "zaitech": {
+    "n": {
+      "senses": [],
+      "origin": "From Japanese 財テク (zaiteku, “money management”), from blend of 財務 (zaimu, “financial dealings”) and テクノロジー (tekunorojii, “technology”), the latter, from English technology. The -tech in zaitech reflects the original borrowing of English technology.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "zakat": {
     "n": {
@@ -5699,7 +5707,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "zigzag goldenrod": {
     "n": {
@@ -5949,6 +5957,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "zinc bloom": {
+    "n": {
+      "senses": [],
+      "origin": "Compare German Zinkblumen (“flowers of zinc, zinc oxide”).",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "zinc cadmium sulfide": {
     "n": {
@@ -6748,7 +6764,7 @@
         }
       ]
     },
-    "isAnglish": false
+    "isAnglish": true
   },
   "zitch": {
     "a": {
@@ -6867,6 +6883,14 @@
       ]
     },
     "isAnglish": false
+  },
+  "zizel": {
+    "n": {
+      "senses": [],
+      "origin": "Compare German Ziesel.",
+      "sounds": []
+    },
+    "isAnglish": true
   },
   "zizz": {
     "n": {

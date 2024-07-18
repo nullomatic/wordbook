@@ -4711,6 +4711,36 @@
     },
     "isAnglish": true
   },
+  "éclat": {
+    "n": {
+      "senses": [],
+      "origin": "Borrowed from French éclat, from éclater (“to burst out”). Akin to Old English slītan (“to split”). More at slice, slit. Doublet of slate and slat.",
+      "sounds": [
+        {
+          "ipa": "/eɪˈklɑː/"
+        },
+        {
+          "ipa": "/eɪˈklɔː/",
+          "tags": [
+            "obsolete"
+          ]
+        },
+        {
+          "rhymes": "-ɑː"
+        },
+        {
+          "audio": "LL-Q1860 (eng)-Vealhurl-éclat.wav",
+          "text": "Audio (Southern England)",
+          "tags": [
+            "Southern-England"
+          ],
+          "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/LL-Q1860_%28eng%29-Vealhurl-%C3%A9clat.wav/LL-Q1860_%28eng%29-Vealhurl-%C3%A9clat.wav.ogg",
+          "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/LL-Q1860_%28eng%29-Vealhurl-%C3%A9clat.wav/LL-Q1860_%28eng%29-Vealhurl-%C3%A9clat.wav.mp3"
+        }
+      ]
+    },
+    "isAnglish": true
+  },
   "þarf": {
     "v": {
       "senses": [
