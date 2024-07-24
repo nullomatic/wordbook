@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import Suggest from './Suggest';
+import Search from './Search';
 
 export default function HeaderTabs() {
   return (
@@ -18,7 +18,7 @@ export default function HeaderTabs() {
         </Link>
       </div>
       <div className='flex flex-col w-full dark:bg-stone-700 px-3 py-4'>
-        <Suggest />
+        <Search />
       </div>
     </div>
   );

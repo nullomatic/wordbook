@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { appendFile } from 'fs/promises';
 import cliProgress from 'cli-progress';
 import OpenAI from 'openai';
-import { getPath, logger } from './util.mjs';
+import { getPath, logger } from './util.js';
 
 export const openai = new OpenAI();
 

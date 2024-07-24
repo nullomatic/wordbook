@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Source_Sans_3 } from 'next/font/google';
 import './globals.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import HeaderTabs from './components/HeaderTabs';
 config.autoAddCss = false;
 
 const font = Source_Sans_3({ subsets: ['latin'] });
@@ -20,9 +21,31 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`bg-stone-100 text-black dark:bg-stone-900 dark:text-white ${font.className}`}
+        className={`flex min-h-screen flex-col items-center bg-stone-100 text-black dark:bg-stone-900 dark:text-white ${font.className}`}
       >
-        {children}
+        <HeaderTabs />
+        <main className='px-3 my-12 w-full'>{children}</main>
+        <footer className='w-full max-w-xl text-center dark:text-stone-600 py-8 px-3 text-xs'>
+          <div>&copy; {new Date().getFullYear()}</div>
+          <div>
+            Like the site? Contribute on{' '}
+            <a
+              className='underline dark:text-stone-400'
+              href='https://github.com/nullomatic/wordbook'
+              target='_blank'
+            >
+              GitHub
+            </a>
+            &nbsp;or support my{' '}
+            <a
+              className='underline dark:text-stone-400'
+              href='https://patreon.com/nullomatic'
+              target='_blank'
+            >
+              Patreon
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );

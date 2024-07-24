@@ -7,7 +7,7 @@ import {
   WordNetLoader,
   HurlebatteLoader,
 } from './loaders.mjs';
-import { logger, getPath, sortObj } from './util.mjs';
+import { logger, getPath, sortObj } from './util.js';
 
 // When linking string senses to synset IDs, the algorithm will look up each sense
 // in WordNet and add all replacement candidates to an array. If the final length of

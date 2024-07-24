@@ -109,3 +109,7 @@ export function sortObj(obj) {
       return acc;
     }, {});
 }
+
+export function isSynsetFile(filename: string) {
+  return /(adj|adv|noun|verb)\.\w+\.(json|yaml)$/i.test(filename);
+}

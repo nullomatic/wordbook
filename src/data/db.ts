@@ -1,28 +1,24 @@
 import * as fs from 'fs';
 import _ from 'lodash';
-import pg from 'pg';
+import * as pg from 'pg';
 import format from 'pg-format';
-import * as util from './util.mjs';
-import { logger } from './util.mjs';
+import { RedisClientType } from 'redis';
+import * as util from './util.js';
+import { logger } from './util.js';
+import { DatabaseClient } from '@/lib/client.js';
+import { Synset } from '@/lib/types.js';
+import { getFiles } from '@/lib/util.js';
 
-export async function getClient() {
-  const client = new pg.Client({
-    user: 'postgres',
-    password: 'password',
-    host: '127.0.0.1',
-    port: 5432,
-  });
-  await client.connect();
-  return client;
-}
+const REDIS_SEARCH_INDEX_KEY = 'search_index';
 
-let client = null;
+let postgres: pg.Client;
+let redis: RedisClientType;
 
 /**
  * Resets database and seeds it from the compiled entries and synsets files.
  */
-export async function populateDatabase(_options) {
-  client = await getClient();
+export async function populateDatabase() {
+  postgres = await DatabaseClient.getClient();
   await resetDatabase();
   await loadSynsets();
   await loadFrames();
@@ -30,13 +26,14 @@ export async function populateDatabase(_options) {
 }
 
 /**
- * Completely resets Postgres.
+ * Completely resets Postgres and Redis.
  */
 async function resetDatabase() {
   logger.info(`Resetting database`);
-  const fullPath = util.getPath('/setup.sql');
+  const fullPath = util.getPath('/../sql/setup.sql');
   const sql = fs.readFileSync(fullPath, 'utf-8');
-  await client.query(sql);
+  await postgres.query(sql);
+  await redis.flushAll();
 }
 
 /**
@@ -44,17 +41,18 @@ async function resetDatabase() {
  * The first pass adds all synsets; the second adds hypernym, similar, and attribute relations.
  */
 async function loadSynsets() {
-  const synsets = {};
-  const dir = util.getPath('/assets/wordnet/json');
-  const filenames = util.getFilenames(dir);
+  const synsets: { [id: string]: Synset } = {};
+  const dir = '/data/assets/wordnet/json/';
+  const pattern = `${dir}{adj,adv,noun,verb}.*.json`;
+  const filenames = getFiles(pattern);
 
   logger.info(`Loading files in ${dir}`);
 
   // First pass: insert synsets.
   let values = [];
-  for (const [filename, fullPath] of filenames) {
-    if (/(adj|adv|noun|verb)\.\w+\.json$/i.test(filename)) {
-      const file = fs.readFileSync(fullPath, 'utf-8');
+  for (const { filename, path } of filenames) {
+    if (util.isSynsetFile(filename)) {
+      const file = fs.readFileSync(path, 'utf-8');
       const json = JSON.parse(file);
       for (const synsetId in json) {
         const synset = json[synsetId];
@@ -65,7 +63,7 @@ async function loadSynsets() {
   }
 
   logger.info(`Inserting ${values.length} synsets`);
-  await client.query(
+  await postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO synset (id, pos, def) ` +
@@ -75,12 +73,16 @@ async function loadSynsets() {
 
   // Second pass: insert relations.
   values = [];
-  const synsetRelations = ['hypernym', 'similar', 'attribute'];
+  const synsetRelations: (keyof Synset)[] = [
+    'hypernym',
+    'similar',
+    'attribute',
+  ];
   for (const synsetId in synsets) {
     const synset = synsets[synsetId];
     for (const relation of synsetRelations) {
       if (synset[relation]?.length) {
-        const relations = synset[relation];
+        const relations = synset[relation] as string[];
         values.push(
           ...relations.map((relationId) => [synsetId, relationId, relation])
         );
@@ -89,7 +91,7 @@ async function loadSynsets() {
   }
 
   logger.info(`Inserting ${values.length} synset relations`);
-  await client.query(
+  await postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO synset_synset (synset_id_1, synset_id_2, relation) ` +
@@ -132,7 +134,7 @@ async function loadFrames() {
   }
 
   logger.info(`Inserting ${values.length} frames`);
-  return client.query(
+  return postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO frame (id, template) ` +
@@ -142,20 +144,31 @@ async function loadFrames() {
 }
 
 /**
- * Inserts word entries into database.
+ * Inserts word entries into database and search cache.
  */
-function insertEntries(entries) {
+async function insertEntries(entries) {
   const dir = util.getPath('/compiled');
   const filenames = util.getFilenames(dir);
   const values = [];
+  const promises = [];
   for (const [, fullPath] of filenames) {
+    // Handle file.
     const file = fs.readFileSync(fullPath, 'utf-8');
     const json = JSON.parse(file);
     for (const word in json) {
+      const posArr = [];
+      // Handle word.
+      if (/:/.test(word)) {
+        logger.info(`Skipping word with colon "${word}"`); // TODO: Should probably move this to compilation logic.
+        continue;
+      }
       const entry = json[word];
+      const langArr = entry.isAnglish ? ['en', 'an'] : ['en'];
       entries[word] = entry;
       for (const pos in entry) {
+        // Handle part of speech.
         if (pos === 'isAnglish') continue;
+        posArr.push(pos);
         const rhymes = getRhymes(entry[pos].sounds);
         values.push([
           word,
@@ -166,11 +179,16 @@ function insertEntries(entries) {
           entry.isAnglish,
         ]);
       }
+      // Add word index to Redis.
+      const index = buildWordIndex(word, posArr, langArr);
+      promises.push(
+        redis.zAdd(REDIS_SEARCH_INDEX_KEY, { score: 0, value: index })
+      );
     }
   }
 
   logger.info(`Inserting ${values.length} entries`);
-  return client.query(
+  const res = await postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO word (word, pos, forms, origin, rhymes, is_anglish) ` +
@@ -178,6 +196,21 @@ function insertEntries(entries) {
       `RETURNING id, word, pos`,
     values)
   );
+
+  await Promise.all(promises);
+
+  return res;
+}
+
+/**
+ * Constructs the Redis search index; starts with lowercase identifier, followed
+ * by the original case-sensitive word, parts of speech, and language categories.
+ */
+function buildWordIndex(word, posArr, langArr) {
+  const lower = word.toLowerCase();
+  const parts = posArr.join(',');
+  const langs = langArr.join(',');
+  return `${lower}:${word}:${parts}:${langs}`;
 }
 
 /**
@@ -199,7 +232,7 @@ function insertSenses(entries, entryRows, senseIndices, senses) {
   }
 
   logger.info(`Inserting ${values.length} senses`);
-  return client.query(
+  return postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO sense (word_id, synset_id, sentence) ` +
@@ -257,7 +290,7 @@ async function insertSenseRelations(senses) {
   }
 
   logger.info(`Inserting ${relationValues.length} sense-sense relations`);
-  await client.query(
+  await postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO sense_sense (sense_id_1, sense_id_2, relation) ` +
@@ -266,7 +299,7 @@ async function insertSenseRelations(senses) {
   );
 
   logger.info(`Inserting ${frameValues.length} sense-frame relations`);
-  await client.query(
+  await postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO sense_frame (sense_id, frame_id) ` +

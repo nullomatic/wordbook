@@ -5,8 +5,8 @@ import * as cheerio from 'cheerio';
 import csv from 'csvtojson';
 import _ from 'lodash';
 import YAML from 'yaml';
-import * as util from './util.mjs';
-import { logger } from './util.mjs';
+import * as util from './util.js';
+import { logger } from './util.js';
 
 const Sources = Object.freeze({
   WIKTIONARY: 1,
