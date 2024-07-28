@@ -1,7 +1,7 @@
 {
   "X": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x%1:23:00::",
           "synset": "13768652-n"
@@ -15,23 +15,21 @@
           "synset": "02681592-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X chromosome": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x_chromosome%1:08:00::",
           "synset": "05450170-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X ray": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x_ray%1:19:00::",
           "synset": "11547628-n"
@@ -41,34 +39,31 @@
           "synset": "04107714-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-OR circuit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-or_circuit%1:06:00::",
           "synset": "04616711-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-SCID": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-scid%1:26:00::",
           "synset": "14152833-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-linked": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "x-linked%3:01:00::",
           "pertainym": [
@@ -77,56 +72,51 @@
           "synset": "03156978-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-linked SCID": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-linked_scid%1:26:00::",
           "synset": "14152833-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-linked dominant inheritance": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-linked_dominant_inheritance%1:07:00::",
           "synset": "04930476-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-linked gene": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-linked_gene%1:08:00::",
           "synset": "05449505-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-linked recessive inheritance": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-linked_recessive_inheritance%1:07:00::",
           "synset": "04930673-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-radiation": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-radiation%1:19:00::",
           "synset": "11547628-n"
@@ -136,8 +126,7 @@
           "synset": "00903014-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray": {
     "n": {
@@ -151,7 +140,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "x-ray%1:19:00::",
           "synset": "11547628-n"
@@ -161,100 +150,91 @@
           "synset": "04107714-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray diffraction": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_diffraction%1:19:00::",
           "synset": "11547837-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray film": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_film%1:06:00::",
           "synset": "04616888-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray machine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_machine%1:06:00::",
           "synset": "04617008-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray photograph": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_photograph%1:06:00::",
           "synset": "04107714-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray photography": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_photography%1:04:00::",
           "synset": "00906321-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray picture": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_picture%1:06:00::",
           "synset": "04107714-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray therapy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_therapy%1:04:00::",
           "synset": "00707386-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-ray tube": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-ray_tube%1:06:00::",
           "synset": "04617168-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-raying": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "x-ray%2:39:00::",
@@ -264,30 +244,27 @@
           "synset": "00903014-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "X-tail": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-tail%1:06:01::",
           "synset": "92459287-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XC": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xc%1:23:00::",
           "synset": "13772437-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XI": {
     "n": {
@@ -296,161 +273,147 @@
           "value": "ksaɪ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xi%1:23:00::",
           "synset": "13768812-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xii%1:23:00::",
           "synset": "13768925-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XIII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiii%1:23:00::",
           "synset": "13769339-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XIV": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiv%1:23:00::",
           "synset": "13769488-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XIX": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xix%1:23:00::",
           "synset": "13770129-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XL": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xl%1:23:00::",
           "synset": "13771667-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XOR circuit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xor_circuit%1:06:00::",
           "synset": "04616711-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XOR gate": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xor_gate%1:06:00::",
           "synset": "04616711-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XT": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xt%1:11:00::",
           "synset": "07445847-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XTC": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xtc%1:06:00::",
           "synset": "02681592-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XV": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xv%1:23:00::",
           "synset": "13769609-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XVI": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xvi%1:23:00::",
           "synset": "13769746-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XVII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xvii%1:23:00::",
           "synset": "13769865-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XVIII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xviii%1:23:00::",
           "synset": "13770005-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XX": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xx%1:23:00::",
           "synset": "13770268-n"
@@ -460,111 +423,101 @@
           "synset": "05450365-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXI": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxi%1:23:00::",
           "synset": "13770386-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxii%1:23:00::",
           "synset": "13770507-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXIII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxiii%1:23:00::",
           "synset": "13770633-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXIV": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxiv%1:23:00::",
           "synset": "13770762-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXIX": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxix%1:23:00::",
           "synset": "13771418-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXV": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxv%1:23:00::",
           "synset": "13770903-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXVI": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxvi%1:23:00::",
           "synset": "13771030-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXVII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxvii%1:23:00::",
           "synset": "13771157-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXVIII": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxviii%1:23:00::",
           "synset": "13771286-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXX": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxx%1:23:00::",
           "synset": "13771547-n"
@@ -574,56 +527,51 @@
           "synset": "05450492-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXY": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxy%1:08:00::",
           "synset": "05450626-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XXY-syndrome": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xxy-syndrome%1:26:00::",
           "synset": "14329902-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XY": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xy%1:08:00::",
           "synset": "05450787-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "XYY": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyy%1:08:00::",
           "synset": "05450909-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanax": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "trade_name%1:10:00::"
@@ -632,118 +580,107 @@
           "synset": "02702202-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthium": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthium%1:20:00::",
           "synset": "12053408-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthomonas": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthomonas%1:05:00::",
           "synset": "01364106-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthophyceae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthophyceae%1:05:00::",
           "synset": "01403413-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthorrhoeaceae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthorrhoeaceae%1:20:00::",
           "synset": "12486301-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthorroea": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthorroea%1:20:00::",
           "synset": "12486539-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthosoma": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthosoma%1:20:00::",
           "synset": "11813721-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthosoma atrovirens": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthosoma_atrovirens%1:20:00::",
           "synset": "11813872-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xanthosoma sagittifolium": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthosoma_sagittifolium%1:20:00::",
           "synset": "11813872-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xantusiidae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xantusiidae%1:05:00::",
           "synset": "01686069-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xavier": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xavier%1:18:00::",
           "synset": "11421005-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xe": {
     "n": {
@@ -752,201 +689,183 @@
           "value": "zi"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xe%1:27:00::",
           "synset": "14685453-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenarthra": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenarthra%1:05:00::",
           "synset": "02456521-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenicidae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenicidae%1:05:00::",
           "synset": "01590813-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenicus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenicus%1:05:00::",
           "synset": "01591230-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenicus gilviventris": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenicus_gilviventris%1:05:00::",
           "synset": "01591366-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenophanes": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenophanes%1:18:00::",
           "synset": "11421190-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenophon": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenophon%1:18:00::",
           "synset": "11421278-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenopodidae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenopodidae%1:05:00::",
           "synset": "01656886-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenopus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenopus%1:05:00::",
           "synset": "01657070-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenopus laevis": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenopus_laevis%1:05:00::",
           "synset": "01657278-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenorhyncus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenorhyncus%1:05:00::",
           "synset": "02006997-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenorhyncus asiaticus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenorhyncus_asiaticus%1:05:00::",
           "synset": "02007146-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenosauridae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenosauridae%1:05:00::",
           "synset": "01693344-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xenosaurus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenosaurus%1:05:00::",
           "synset": "01693498-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xeranthemum annuum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xeranthemum_annuum%1:20:00::",
           "synset": "12054178-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerobates": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerobates%1:05:00::",
           "synset": "01673953-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerophyllum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophyllum%1:20:00::",
           "synset": "12485826-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerophyllum tenax": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophyllum_tenax%1:20:00::",
           "synset": "12486062-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerox": {
     "n": {
@@ -960,7 +879,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerox%2:36:00::"
@@ -969,52 +888,47 @@
           "synset": "04616281-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerox machine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerox_machine%1:06:00::",
           "synset": "04616281-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerxes I": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerxes_i%1:18:00::",
           "synset": "11421414-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xerxes the Great": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerxes_the_great%1:18:00::",
           "synset": "11421414-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xestobium rufovillosum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xestobium_rufovillosum%1:05:00::",
           "synset": "02180427-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xhosa": {
     "n": {
@@ -1028,7 +942,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xhosa%1:18:00::",
           "synset": "09770827-n"
@@ -1042,74 +956,67 @@
           "synset": "07007360-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xhosa language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xhosa_language%1:10:01::",
           "synset": "07007360-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xi'an": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xi'an%1:15:01::",
           "synset": "08747285-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xian": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xian%1:15:00::",
           "synset": "08747285-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Ximenesia encelioides": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ximenesia_encelioides%1:20:00::",
           "synset": "12051608-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xinjiang": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xinjiang%1:15:00::",
           "synset": "08747459-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xinjiang Uighur Autonomous Region": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xinjiang_uighur_autonomous_region%1:15:00::",
           "synset": "08747459-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xiphias": {
     "n": {
@@ -1119,80 +1026,73 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xiphias%1:05:00::",
           "synset": "02632211-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xiphias gladius": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiphias_gladius%1:05:00::",
           "synset": "02632346-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xiphiidae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiphiidae%1:05:00::",
           "synset": "02632065-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xiphosura": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiphosura%1:05:00::",
           "synset": "01790042-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xiphosurus polyphemus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiphosurus_polyphemus%1:05:00::",
           "synset": "01790476-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xishuangbanna Dai": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xishuangbanna_dai%1:10:00::",
           "synset": "06948091-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xizang": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xizang%1:15:00::",
           "synset": "08926725-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xmas": {
     "n": {
@@ -1201,205 +1101,187 @@
           "value": "ˈkɹɪs.məs"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xmas%1:28:00::",
           "synset": "15221021-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylaria": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylaria%1:20:00::",
           "synset": "12987341-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylaria mali": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylaria_mali%1:20:00::",
           "synset": "12987564-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylaria polymorpha": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylaria_polymorpha%1:20:00::",
           "synset": "12987705-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylariaceae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylariaceae%1:20:00::",
           "synset": "12987146-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylocaine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylocaine%1:06:00::",
           "synset": "03667342-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylocopa": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylocopa%1:05:00::",
           "synset": "02211882-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylomelum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylomelum%1:20:00::",
           "synset": "12244467-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylomelum pyriforme": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylomelum_pyriforme%1:20:00::",
           "synset": "12244657-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylopia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylopia%1:20:00::",
           "synset": "11717245-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylopia aethiopica": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylopia_aethiopica%1:20:00::",
           "synset": "11717404-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xylosma congestum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylosma_congestum%1:20:00::",
           "synset": "12401612-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xyphophorus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyphophorus%1:05:00::",
           "synset": "01450806-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xyphophorus helleri": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyphophorus_helleri%1:05:00::",
           "synset": "01450932-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xyridaceae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyridaceae%1:20:00::",
           "synset": "12626076-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xyridales": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyridales%1:20:00::",
           "synset": "12625780-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xyris": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyris%1:20:00::",
           "synset": "12626280-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Xyris operculata": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xyris_operculata%1:20:00::",
           "synset": "12626633-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "x": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "x%5:00:00:cardinal:00",
           "synset": "02194935-s"
@@ -1407,25 +1289,23 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x%1:10:01::",
           "synset": "06846713-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "x-axis": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x-axis%1:09:00::",
           "synset": "06018582-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "x-ray": {
     "v": {
@@ -1439,7 +1319,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "x-raying%1:04:00::"
@@ -1466,30 +1346,27 @@
           "synset": "01005930-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "x64": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x64%1:07:01::",
           "synset": "90007891-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "x86": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "x86%1:07:01::",
           "synset": "90007211-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthate": {
     "n": {
@@ -1499,14 +1376,13 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xanthate%1:27:00::",
           "synset": "15137395-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthelasma": {
     "n": {
@@ -1515,146 +1391,133 @@
           "value": "zænθɪˈlæzmə"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xanthelasma%1:26:00::",
           "synset": "14256637-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthemia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthemia%1:26:00::",
           "synset": "14590187-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthic acid": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthic_acid%1:27:00::",
           "synset": "15137499-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthine%1:27:00::",
           "synset": "15137617-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthoma": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthoma%1:26:00::",
           "synset": "14256749-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthoma disseminatum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthoma_disseminatum%1:26:00::",
           "synset": "14257027-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthoma multiplex": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthoma_multiplex%1:26:00::",
           "synset": "14257199-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthomatosis": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthomatosis%1:26:00::",
           "synset": "14257199-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthomonad": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthomonad%1:05:00::",
           "synset": "01364324-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthophyl": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthophyl%1:27:00::",
           "synset": "14745796-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthophyll": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthophyll%1:27:00::",
           "synset": "14745796-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthopsia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthopsia%1:26:00::",
           "synset": "14597737-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthosis": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xanthosis%1:26:00::",
           "synset": "14257456-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xanthous": {
     "a": {
@@ -1663,128 +1526,117 @@
           "value": "ˈzæn.θəs"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xanthous%5:00:00:chromatic:00",
           "synset": "00386818-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xc": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xc%5:00:00:cardinal:00",
           "synset": "02202784-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xci": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xci%5:00:00:cardinal:00",
           "synset": "02202873-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xcii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xcii%5:00:00:cardinal:00",
           "synset": "02202967-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xciii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xciii%5:00:00:cardinal:00",
           "synset": "02203062-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xciv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xciv%5:00:00:cardinal:00",
           "synset": "02203162-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xcl": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xcl%5:00:00:cardinal:00",
           "synset": "02205856-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xcv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xcv%5:00:00:cardinal:00",
           "synset": "02203259-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xcvi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xcvi%5:00:00:cardinal:00",
           "synset": "02203355-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xcvii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xcvii%5:00:00:cardinal:00",
           "synset": "02203450-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xcviii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xcviii%5:00:00:cardinal:00",
           "synset": "02203550-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenogeneic": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "allogeneic%3:00:00::"
@@ -1793,8 +1645,7 @@
           "synset": "02606374-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenogenesis": {
     "n": {
@@ -1804,14 +1655,13 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xenogenesis%1:19:00::",
           "synset": "11444308-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenograft": {
     "n": {
@@ -1820,25 +1670,23 @@
           "value": "ˈzɛnəʊɡɹæft"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xenograft%1:08:00::",
           "synset": "05591274-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenolith": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenolith%1:17:00::",
           "synset": "09504250-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenon": {
     "n": {
@@ -1856,14 +1704,13 @@
           "variety": "AU"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xenon%1:27:00::",
           "synset": "14685453-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenophobia": {
     "n": {
@@ -1877,7 +1724,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xenophobic%5:00:00:afraid:00"
@@ -1886,12 +1733,11 @@
           "synset": "14409427-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenophobic": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xenophobia%1:26:00::"
@@ -1900,52 +1746,47 @@
           "synset": "00081983-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenotime": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenotime%1:27:00::",
           "synset": "15130522-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenotransplant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenotransplant%1:04:00::",
           "synset": "01270764-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xenotransplantation": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xenotransplantation%1:04:00::",
           "synset": "01270764-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xeranthemum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xeranthemum%1:20:00::",
           "synset": "12053973-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xeric": {
     "a": {
@@ -1959,7 +1800,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "hydric%3:00:00::",
@@ -1969,45 +1810,41 @@
           "synset": "02599077-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xeroderma": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xeroderma%1:26:00::",
           "synset": "14561165-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xeroderma pigmentosum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xeroderma_pigmentosum%1:26:00::",
           "synset": "14561337-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerodermia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerodermia%1:26:00::",
           "synset": "14561165-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerographic": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerography%1:04:00::"
@@ -2019,34 +1856,31 @@
           "synset": "03142526-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerographic copier": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerographic_copier%1:06:00::",
           "synset": "04616281-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerographic printer": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerographic_printer%1:06:00::",
           "synset": "04616167-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerography": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerographic%3:01:00::"
@@ -2055,63 +1889,57 @@
           "synset": "00906602-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xeroma": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xeroma%1:26:00::",
           "synset": "14561715-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophile": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophile%1:20:00::",
           "synset": "13141863-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophilous plant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophilous_plant%1:20:00::",
           "synset": "13141863-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophthalmia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophthalmia%1:26:00::",
           "synset": "14561715-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophthalmus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophthalmus%1:26:00::",
           "synset": "14561715-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophyte": {
     "n": {
@@ -2120,7 +1948,7 @@
           "value": "ˈzɪəɹəʊfaɪt"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerophytic%5:00:00:xeric:00"
@@ -2129,12 +1957,11 @@
           "synset": "13141863-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophytic": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerophyte%1:20:00::"
@@ -2143,52 +1970,47 @@
           "synset": "02599230-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerophytic plant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerophytic_plant%1:20:00::",
           "synset": "13141863-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xeroradiography": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xeroradiography%1:04:00::",
           "synset": "00906890-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerostomia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerostomia%1:26:00::",
           "synset": "14561931-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerotes": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerotes%1:26:00::",
           "synset": "14560040-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerox": {
     "n": {
@@ -2202,7 +2024,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerox%2:36:00::"
@@ -2223,7 +2045,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xerox%1:06:01::",
@@ -2240,23 +2062,21 @@
           "synset": "01740180-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xerox copy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xerox_copy%1:06:00::",
           "synset": "04616593-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xi%5:00:00:cardinal:00",
           "synset": "02195018-s"
@@ -2269,47 +2089,43 @@
           "value": "ksaɪ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xi%1:10:00::",
           "synset": "06848575-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xii%5:00:00:cardinal:00",
           "synset": "02195104-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xiii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xiii%5:00:00:cardinal:00",
           "synset": "02195245-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xiphium iris": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xiphium_iris%1:20:00::",
           "synset": "12436100-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xiphoid process": {
     "n": {
@@ -2319,388 +2135,353 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xiphoid_process%1:08:00::",
           "synset": "05289190-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xiv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xiv%5:00:00:cardinal:00",
           "synset": "02195338-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xix": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xix%5:00:00:cardinal:00",
           "synset": "02195844-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xl": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xl%5:00:00:cardinal:00",
           "synset": "02197917-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xli": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xli%5:00:00:cardinal:00",
           "synset": "02198016-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xlii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xlii%5:00:00:cardinal:00",
           "synset": "02198108-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xliii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xliii%5:00:00:cardinal:00",
           "synset": "02198201-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xliv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xliv%5:00:00:cardinal:00",
           "synset": "02198299-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xlv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xlv%5:00:00:cardinal:00",
           "synset": "02198394-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xlvi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xlvi%5:00:00:cardinal:00",
           "synset": "02198488-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xlvii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xlvii%5:00:00:cardinal:00",
           "synset": "02198581-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xlviii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xlviii%5:00:00:cardinal:00",
           "synset": "02198679-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xv%5:00:00:cardinal:00",
           "synset": "02195432-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xvi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xvi%5:00:00:cardinal:00",
           "synset": "02195542-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xvii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xvii%5:00:00:cardinal:00",
           "synset": "02195634-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xviii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xviii%5:00:00:cardinal:00",
           "synset": "02195747-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xx": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xx%5:00:00:cardinal:00",
           "synset": "02195956-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxi%5:00:00:cardinal:00",
           "synset": "02196070-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxii%5:00:00:cardinal:00",
           "synset": "02196164-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxiii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxiii%5:00:00:cardinal:00",
           "synset": "02196259-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxiv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxiv%5:00:00:cardinal:00",
           "synset": "02196359-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxix": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxix%5:00:00:cardinal:00",
           "synset": "02196848-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxv%5:00:00:cardinal:00",
           "synset": "02196456-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxvi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxvi%5:00:00:cardinal:00",
           "synset": "02196552-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxvii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxvii%5:00:00:cardinal:00",
           "synset": "02196647-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxviii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxviii%5:00:00:cardinal:00",
           "synset": "02196747-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxx": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxx%5:00:00:cardinal:00",
           "synset": "02196945-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxi%5:00:00:cardinal:00",
           "synset": "02197035-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxii%5:00:00:cardinal:00",
           "synset": "02197130-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxiii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxiii%5:00:00:cardinal:00",
           "synset": "02197226-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxiv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxiv%5:00:00:cardinal:00",
           "synset": "02197327-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxv": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxv%5:00:00:cardinal:00",
           "synset": "02197425-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxvi": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxvi%5:00:00:cardinal:00",
           "synset": "02197522-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxvii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxvii%5:00:00:cardinal:00",
           "synset": "02197618-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xxxviii": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "xxxviii%5:00:00:cardinal:00",
           "synset": "02197719-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylem": {
     "n": {
@@ -2709,14 +2490,13 @@
           "value": "ˈzaɪ.ləm"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xylem%1:20:00::",
           "synset": "13119407-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylene": {
     "n": {
@@ -2725,36 +2505,33 @@
           "value": "ˈzaɪliːn"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "xylene%1:27:00::",
           "synset": "15130710-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylol": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylol%1:27:00::",
           "synset": "15130710-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylometer": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylometer%1:06:01::",
           "synset": "92459134-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylophone": {
     "n": {
@@ -2763,7 +2540,7 @@
           "value": "ˈzaɪ.lə.ˌfəʊn"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xylophonist%1:18:00::"
@@ -2772,12 +2549,11 @@
           "synset": "03726875-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylophonist": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "xylophone%1:06:00::"
@@ -2786,29 +2562,26 @@
           "synset": "10821301-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylose": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylose%1:27:00::",
           "synset": "15128347-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "xylosma": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "xylosma%1:20:00::",
           "synset": "12401612-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   }
 }

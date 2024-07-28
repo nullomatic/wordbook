@@ -3,11 +3,17 @@ import _ from 'lodash';
 import * as pg from 'pg';
 import format from 'pg-format';
 import { RedisClientType } from 'redis';
-import * as util from './util.js';
-import { logger } from './util.js';
-import { DatabaseClient } from '@/lib/client.js';
-import { Synset } from '@/lib/types.js';
-import { getFiles } from '@/lib/util.js';
+import * as util from '../lib/util';
+import { logger } from '../lib/util';
+import { DatabaseClient } from '../lib/client';
+import {
+  WordnetSense,
+  WordnetSynset,
+  Lang,
+  POS,
+  CompiledEntry,
+} from '../lib/types';
+import { getFiles } from '../lib/util';
 
 const REDIS_SEARCH_INDEX_KEY = 'search_index';
 
@@ -41,7 +47,7 @@ async function resetDatabase() {
  * The first pass adds all synsets; the second adds hypernym, similar, and attribute relations.
  */
 async function loadSynsets() {
-  const synsets: { [id: string]: Synset } = {};
+  const synsets: { [id: string]: WordnetSynset } = {};
   const dir = '/data/assets/wordnet/json/';
   const pattern = `${dir}{adj,adv,noun,verb}.*.json`;
   const filenames = getFiles(pattern);
@@ -51,7 +57,7 @@ async function loadSynsets() {
   // First pass: insert synsets.
   let values = [];
   for (const { filename, path } of filenames) {
-    if (util.isSynsetFile(filename)) {
+    if (isSynsetFile(filename)) {
       const file = fs.readFileSync(path, 'utf-8');
       const json = JSON.parse(file);
       for (const synsetId in json) {
@@ -73,7 +79,7 @@ async function loadSynsets() {
 
   // Second pass: insert relations.
   values = [];
-  const synsetRelations: (keyof Synset)[] = [
+  const synsetRelations: (keyof WordnetSynset)[] = [
     'hypernym',
     'similar',
     'attribute',
@@ -104,9 +110,9 @@ async function loadSynsets() {
  * Coordinates entry of words, senses, and sense relations into database.
  */
 async function loadEntries() {
-  const entries = {};
-  const senses = {};
-  const senseIndices = {};
+  const entries: Record<string, CompiledEntry> = {};
+  const senses: Record<string, { newSenseId: string } & WordnetSense> = {};
+  const senseIndices: { [_k in number]: string } = {};
 
   const { rows: entryRows } = await insertEntries(entries);
   const { rows: senseRows } = await insertSenses(
@@ -146,14 +152,19 @@ async function loadFrames() {
 /**
  * Inserts word entries into database and search cache.
  */
-async function insertEntries(entries) {
-  const dir = util.getPath('/compiled');
-  const filenames = util.getFilenames(dir);
+async function insertEntries(
+  entries: Record<string, CompiledEntry>
+): Promise<pg.QueryResult> {
+  const dir = '/data/compiled/';
+  const pattern = `${dir}*.json`;
+  const filenames = getFiles(pattern);
+
   const values = [];
   const promises = [];
-  for (const [, fullPath] of filenames) {
+
+  for (const { path } of filenames) {
     // Handle file.
-    const file = fs.readFileSync(fullPath, 'utf-8');
+    const file = fs.readFileSync(path, 'utf-8');
     const json = JSON.parse(file);
     for (const word in json) {
       const posArr = [];
@@ -162,25 +173,26 @@ async function insertEntries(entries) {
         logger.info(`Skipping word with colon "${word}"`); // TODO: Should probably move this to compilation logic.
         continue;
       }
-      const entry = json[word];
-      const langArr = entry.isAnglish ? ['en', 'an'] : ['en'];
+      const entry: CompiledEntry = json[word];
+      const langArr = entry.isAnglish
+        ? [Lang.English, Lang.Anglish]
+        : [Lang.English];
       entries[word] = entry;
-      for (const pos in entry) {
+      let pos: POS;
+      for (pos in entry.pos) {
         // Handle part of speech.
-        if (pos === 'isAnglish') continue;
         posArr.push(pos);
-        const rhymes = getRhymes(entry[pos].sounds);
         values.push([
           word,
           pos,
-          entry[pos].form ? format('{%L}', entry[pos].form) : null,
-          entry[pos].origin || null,
-          rhymes,
+          entry.pos[pos].forms ? format('{%L}', entry.pos[pos].forms) : null,
+          entry.pos[pos].origins || null,
+          entry.pos[pos].rhyme,
           entry.isAnglish,
         ]);
       }
       // Add word index to Redis.
-      const index = buildWordIndex(word, posArr, langArr);
+      const index = buildWordIndex(word, posArr as POS[], langArr);
       promises.push(
         redis.zAdd(REDIS_SEARCH_INDEX_KEY, { score: 0, value: index })
       );
@@ -206,7 +218,7 @@ async function insertEntries(entries) {
  * Constructs the Redis search index; starts with lowercase identifier, followed
  * by the original case-sensitive word, parts of speech, and language categories.
  */
-function buildWordIndex(word, posArr, langArr) {
+function buildWordIndex(word: string, posArr: POS[], langArr: Lang[]) {
   const lower = word.toLowerCase();
   const parts = posArr.join(',');
   const langs = langArr.join(',');
@@ -216,11 +228,16 @@ function buildWordIndex(word, posArr, langArr) {
 /**
  * Inserts senses into database.
  */
-function insertSenses(entries, entryRows, senseIndices, senses) {
+async function insertSenses(
+  entries: Record<string, CompiledEntry>,
+  entryRows: pg.QueryResultRow[],
+  senseIndices: { [_k in number]: string } = {},
+  senses: Record<string, WordnetSense>
+): Promise<pg.QueryResult> {
   const values = [];
   for (const row of entryRows) {
     const { word, pos, id: newWordId } = row;
-    for (const sense of entries[word][pos].senses) {
+    for (const sense of entries[word].pos[pos as POS].senses) {
       const synsetId = sense.synset;
       const sentence = sense.sent?.[0] || null;
       values.push([newWordId, synsetId, sentence]);
@@ -232,7 +249,7 @@ function insertSenses(entries, entryRows, senseIndices, senses) {
   }
 
   logger.info(`Inserting ${values.length} senses`);
-  return postgres.query(
+  const res = await postgres.query(
     // prettier-ignore
     format(
       `INSERT INTO sense (word_id, synset_id, sentence) ` +
@@ -240,12 +257,15 @@ function insertSenses(entries, entryRows, senseIndices, senses) {
       `RETURNING id`,
     values)
   );
+  return res;
 }
 
 /**
  * Inserts sense relations into database.
  */
-async function insertSenseRelations(senses) {
+async function insertSenseRelations(
+  senses: Record<string, { newSenseId: string } & WordnetSense>
+) {
   const senseRelations = [
     'exemplifies',
     'pertainym',
@@ -274,16 +294,19 @@ async function insertSenseRelations(senses) {
   for (const sense of Object.values(senses)) {
     const dbSenseId = sense.newSenseId;
     for (const key in sense) {
-      if (senseRelations.includes(key)) {
-        // Add sense-sense relation.
-        for (const relationId of sense[key]) {
-          const dbRelationId = senses[relationId].newSenseId;
-          relationValues.push([dbSenseId, dbRelationId, key]);
-        }
-      } else if (key === 'subcat') {
-        // Add sense-frame relation.
-        for (const frameId of sense[key]) {
-          frameValues.push([dbSenseId, frameId]);
+      const ids = sense[key as keyof WordnetSense];
+      if (ids?.length) {
+        if (senseRelations.includes(key)) {
+          // Add sense-sense relation.
+          for (const relationId of ids) {
+            const dbRelationId = senses[relationId].newSenseId;
+            relationValues.push([dbSenseId, dbRelationId, key]);
+          }
+        } else if (key === 'subcat') {
+          // Add sense-frame relation.
+          for (const frameId of ids) {
+            frameValues.push([dbSenseId, frameId]);
+          }
         }
       }
     }
@@ -308,16 +331,6 @@ async function insertSenseRelations(senses) {
   );
 }
 
-/**
- * Extracts IPA rhyme from `sounds` key.
- */
-function getRhymes(sounds) {
-  if (sounds) {
-    for (const sound of sounds) {
-      if (sound.rhymes) {
-        return sound.rhymes;
-      }
-    }
-  }
-  return null;
+function isSynsetFile(filename: string) {
+  return /(adj|adv|noun|verb)\.\w+\.(json|yaml)$/i.test(filename);
 }

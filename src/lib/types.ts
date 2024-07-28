@@ -1,4 +1,4 @@
-export const Shorthand: { [_key in POS]: { short: string; long: string } } = {
+export const Longhand: { [pos in POS]: { short: string; long: string } } = {
   n: { short: 'noun', long: 'noun' },
   v: { short: 'verb', long: 'verb' },
   a: { short: 'adj', long: 'adjective' },
@@ -10,12 +10,63 @@ export const Shorthand: { [_key in POS]: { short: string; long: string } } = {
   u: { short: 'unk', long: 'unknown' },
 };
 
-export type Synset = {
-  definition: string[];
-  ili: string;
-  members: string[];
-  partOfSpeech: string;
-  example?: string[];
+export enum Lang {
+  English = 'en',
+  Anglish = 'an',
+}
+
+export enum POS {
+  Noun = 'n',
+  Verb = 'v',
+  Adjective = 'a',
+  Adverb = 'r',
+  Satellite = 's',
+  Conjunction = 'c',
+  Adposition = 'p',
+  Other = 'x',
+  Unknown = 'u',
+}
+
+export type CompiledEntry = {
+  pos: {
+    [pos in POS]: {
+      senses: WordnetSense[];
+      pronunciation?: { value: string; variety?: string }[];
+      rhyme?: string;
+      forms?: string[];
+      sounds?: Sound[];
+      origins?: string[]; // TODO: Move `origin` to root level.
+    };
+  };
+  isAnglish: boolean;
+};
+
+export type WordnetEntry = {
+  [pos in POS]: {
+    sense: WordnetSense[];
+    pronunciation?: { value: string; variety?: string }[];
+    rhymes?: string;
+    form?: string[];
+    sounds?: Sound[];
+  };
+};
+
+export type Sound = {
+  ipa?: string;
+  rhymes?: string;
+  audio?: string;
+  text?: string;
+  tags?: string[];
+  ogg_url?: string;
+  mp3_url?: string;
+  enpr?: string;
+};
+
+export type WordnetSense = {
+  synset: string;
+  id?: string;
+  subcat?: string[];
+  sent?: string[];
   exemplifies?: string[];
   pertainym?: string[];
   derivation?: string[];
@@ -35,11 +86,43 @@ export type Synset = {
   material?: string[];
   vehicle?: string[];
   participle?: string[];
-  similar?: string[];
   destination?: string[];
+};
+
+export type WordnetSynset = {
+  definition: string[];
+  ili: string;
+  members: string[];
+  partOfSpeech: string;
+  example?: string[];
+  exemplifies?: string[];
+  similar?: string[];
   hypernym?: string[];
   attribute?: string[];
 };
 
-export type POS = 'n' | 'v' | 'a' | 'r' | 's' | 'c' | 'p' | 'x' | 'u';
-export type Lang = 'en' | 'an';
+export enum AnglishSource {
+  Wiktionary,
+  Hurlebatte,
+  MootEnglish,
+  MootAnglish,
+}
+
+export type AnglishEntry = {
+  pos: {
+    [pos in POS]?: {
+      senses: {
+        english: string;
+        source: AnglishSource;
+      }[];
+      origins?: string[];
+    };
+  };
+  isAnglish: boolean;
+};
+
+export type AnglishEntries = {
+  [id: string]: AnglishEntry;
+};
+
+export type MatchedSenses = Record<string, { pos: { [pos in POS]: string[] } }>;

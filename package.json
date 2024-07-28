@@ -2,12 +2,14 @@
   "name": "wordbook",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "populate": "ts-node ./src/data/index.ts --populate"
+    "compile": "ts-node ./src/data/index.ts --compile",
+    "populate": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/data/index.ts -- --populate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
@@ -30,6 +32,7 @@
     "@types/node": "^20",
     "@types/pg": "^8.11.6",
     "@types/pg-format": "^1.0.5",
+    "@types/prompt": "^1.1.8",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/redis": "^4.0.11",

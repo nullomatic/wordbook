@@ -1,7 +1,7 @@
 {
   "Y": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "y%1:27:00::",
           "synset": "14685919-n"
@@ -11,67 +11,61 @@
           "synset": "06846826-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Y chromosome": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "y_chromosome%1:08:00::",
           "synset": "05451060-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Y-linked gene": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "y-linked_gene%1:08:00::",
           "synset": "05449598-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Y-shaped": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "y-shaped%5:00:00:formed:00",
           "synset": "02159031-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Y2K": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "y2k%1:28:00::",
           "synset": "15274358-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Y2K compliant": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "y2k_compliant%5:00:00:obedient:00",
           "synset": "01617863-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "YB": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yb%1:23:01::",
           "synset": "13653781-n"
@@ -81,67 +75,61 @@
           "synset": "13653625-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "YFLOPS": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yflops%1:23:01::",
           "synset": "92467431-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "YHVH": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yhvh%1:18:00::",
           "synset": "09561429-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "YHWH": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yhwh%1:18:00::",
           "synset": "09561429-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yafo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yafo%1:15:00::",
           "synset": "08816047-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yagi aerial": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yagi_aerial%1:06:00::",
           "synset": "04617631-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahi": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahi%1:18:00::",
           "synset": "09692160-n"
@@ -151,19 +139,17 @@
           "synset": "06936481-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahi language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahi_language%1:10:01::",
           "synset": "06936481-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahoo": {
     "n": {
@@ -172,7 +158,7 @@
           "value": "ˈjɑːhuː"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yahoo%1:18:00::",
           "synset": "10821497-n"
@@ -182,85 +168,77 @@
           "synset": "06591303-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahoo!": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahoo!%1:10:01::",
           "synset": "06591303-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahve": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahve%1:18:00::",
           "synset": "09561429-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahveh": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahveh%1:18:00::",
           "synset": "09561429-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahwe": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahwe%1:18:00::",
           "synset": "09561429-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yahweh": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yahweh%1:18:00::",
           "synset": "09561429-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yajur-Veda": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yajur-veda%1:10:00::",
           "synset": "06477021-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yajurveda": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yajurveda%1:10:01::",
           "synset": "06477021-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yakima": {
     "n": {
@@ -269,14 +247,13 @@
           "value": "ˈjæ.kɪ.mɑ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yakima%1:15:00::",
           "synset": "09177963-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yakut": {
     "n": {
@@ -285,7 +262,7 @@
           "value": "jəˈkuːt"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yakut%1:18:00::",
           "synset": "09756546-n"
@@ -295,23 +272,21 @@
           "synset": "06940422-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yakut language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yakut_language%1:10:01::",
           "synset": "06940422-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yale": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yale%1:06:00::",
           "synset": "04617725-n"
@@ -321,67 +296,61 @@
           "synset": "11421613-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yale University": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yale_university%1:06:00::",
           "synset": "04617725-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yalta": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yalta%1:15:00::",
           "synset": "09039671-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yalta Conference": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yalta_conference%1:14:00::",
           "synset": "08345254-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yaltopya": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yaltopya%1:15:00::",
           "synset": "08795913-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yalu": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yalu%1:17:00::",
           "synset": "09504415-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yalu River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yalu_river%1:17:00::",
           "synset": "09504415-n"
@@ -391,85 +360,77 @@
           "synset": "01302485-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yama": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yama%1:18:00::",
           "synset": "09553263-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yamaltu": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yamaltu%1:10:00::",
           "synset": "06996455-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yamaltu language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yamaltu_language%1:10:01::",
           "synset": "06996455-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yamamoto": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yamamoto%1:18:00::",
           "synset": "11421793-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yamani": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yamani%1:18:00::",
           "synset": "11421943-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yamoussoukro": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yamoussoukro%1:15:01::",
           "synset": "08754789-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yamoussukro": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yamoussukro%1:15:00::",
           "synset": "08754789-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yana": {
     "n": {
@@ -478,7 +439,7 @@
           "value": "ˈjɑː.nə"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yana%1:18:00::",
           "synset": "09692295-n"
@@ -488,85 +449,77 @@
           "synset": "06936569-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yana language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yana_language%1:10:01::",
           "synset": "06936569-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yanan": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yanan%1:10:00::",
           "synset": "06936357-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yang Chen Ning": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yang_chen_ning%1:18:00::",
           "synset": "11422116-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yangon": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yangon%1:15:00::",
           "synset": "08733610-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yangtze": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yangtze%1:17:00::",
           "synset": "09504653-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yangtze Kiang": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yangtze_kiang%1:17:00::",
           "synset": "09504653-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yangtze River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yangtze_river%1:17:00::",
           "synset": "09504653-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yank": {
     "n": {
@@ -575,7 +528,7 @@
           "value": "jæŋk"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yank%1:18:02::",
           "synset": "10821887-n"
@@ -585,8 +538,7 @@
           "synset": "09766150-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yankee": {
     "a": {
@@ -595,7 +547,7 @@
           "value": "ˈjæŋ.ki"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yankee%1:18:02::"
@@ -611,7 +563,7 @@
           "value": "ˈjæŋ.ki"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yankee%5:00:00:northern:02"
@@ -628,78 +580,71 @@
           "synset": "09766150-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yankee corn": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yankee_corn%1:20:00::",
           "synset": "12165665-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yankee-Doodle": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yankee-doodle%1:18:00::",
           "synset": "09766150-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yaounde": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yaounde%1:15:00::",
           "synset": "08735343-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yardbird Parker": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardbird_parker%1:18:00::",
           "synset": "11242904-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yasser Arafat": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yasser_arafat%1:18:00::",
           "synset": "10840822-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yastrzemski": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yastrzemski%1:18:00::",
           "synset": "11422337-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yavapai": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yavapai%1:18:00::",
           "synset": "09692430-n"
@@ -709,56 +654,51 @@
           "synset": "06936175-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yavapai language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yavapai_language%1:10:01::",
           "synset": "06936175-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yay": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yay%1:10:00::",
           "synset": "06949238-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yazoo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yazoo%1:17:00::",
           "synset": "09504884-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yazoo River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yazoo_river%1:17:00::",
           "synset": "09504884-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yb": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yb%1:27:00::",
           "synset": "14685661-n"
@@ -768,23 +708,21 @@
           "synset": "13653922-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Ybit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ybit%1:23:00::",
           "synset": "13653922-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yeats": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yeatsian%3:01:00::"
@@ -793,12 +731,11 @@
           "synset": "11422459-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yeatsian": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yeats%1:18:00::"
@@ -810,155 +747,141 @@
           "synset": "03050408-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yeddo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeddo%1:15:00::",
           "synset": "08943121-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yedo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yedo%1:15:00::",
           "synset": "08943121-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yehudi Menuhin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yehudi_menuhin%1:18:00::",
           "synset": "11195030-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yekaterinoslav": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yekaterinoslav%1:15:00::",
           "synset": "09039068-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellow Delicious": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_delicious%1:13:00::",
           "synset": "07756318-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellow River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_river%1:17:00::",
           "synset": "09329163-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellow Sea": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_sea%1:17:00::",
           "synset": "09505088-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellow race": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_race%1:18:00::",
           "synset": "86191087-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellowknife": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowknife%1:15:00::",
           "synset": "08845142-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellowstone": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowstone%1:17:00::",
           "synset": "09505261-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellowstone National Park": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowstone_national_park%1:15:00::",
           "synset": "08627862-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yellowstone River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowstone_river%1:17:00::",
           "synset": "09505261-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yemen": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yemen%1:15:00::",
           "synset": "09187354-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yemeni": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yemeni%1:18:00::"
@@ -972,7 +895,7 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yemeni%3:01:00::"
@@ -981,45 +904,41 @@
           "synset": "09770101-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yemeni fils": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yemeni_fils%1:23:00::",
           "synset": "13719726-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yemeni monetary unit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yemeni_monetary_unit%1:23:00::",
           "synset": "13719485-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yemeni rial": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yemeni_rial%1:23:00::",
           "synset": "13719610-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisei": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisei%1:17:00::",
           "synset": "09505460-n"
@@ -1029,56 +948,51 @@
           "synset": "06972672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisei River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisei_river%1:17:00::",
           "synset": "09505460-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisei language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisei_language%1:10:01::",
           "synset": "06972672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisei-Samoyed": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisei-samoyed%1:10:00::",
           "synset": "06972672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisei-Samoyed language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisei-samoyed_language%1:10:01::",
           "synset": "06972672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yeniseian": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeniseian%1:18:00::",
           "synset": "09727643-n"
@@ -1088,283 +1002,257 @@
           "synset": "06972672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yeniseian language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeniseian_language%1:10:01::",
           "synset": "06972672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisey": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisey%1:17:00::",
           "synset": "09505460-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yenisey River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenisey_river%1:17:00::",
           "synset": "09505460-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yerevan": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerevan%1:15:00::",
           "synset": "09040400-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yerkes": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerkes%1:18:00::",
           "synset": "11422622-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yersin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yersin%1:18:00::",
           "synset": "11422797-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yersinia pestis": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yersinia_pestis%1:05:00::",
           "synset": "01353342-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yerupaja": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerupaja%1:17:00::",
           "synset": "09505696-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yerwa-Maiduguri": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerwa-maiduguri%1:15:00::",
           "synset": "08997188-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yevgeni Aleksandrovich Yevtushenko": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yevgeni_aleksandrovich_yevtushenko%1:18:00::",
           "synset": "11423011-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yevgeni Yevtushenko": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yevgeni_yevtushenko%1:18:00::",
           "synset": "11423011-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yevgeny Yevtushenko": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yevgeny_yevtushenko%1:18:01::",
           "synset": "11423011-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yevtushenko": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yevtushenko%1:18:00::",
           "synset": "11423011-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yezo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yezo%1:15:00::",
           "synset": "08940495-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Ygdrasil": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ygdrasil%1:18:00::",
           "synset": "09607900-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yggdrasil": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yggdrasil%1:18:00::",
           "synset": "09607900-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yi": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yi%1:10:00::",
           "synset": "06945725-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yi language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yi_language%1:10:01::",
           "synset": "06945725-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "YiB": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yib%1:23:00::",
           "synset": "13653625-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yibit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yibit%1:23:00::",
           "synset": "13654067-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yiddish": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yiddish%1:10:00::",
           "synset": "06963829-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yiddishism": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yiddishism%1:10:01::",
           "synset": "92462525-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yisrael": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yisrael%1:15:00::",
           "synset": "08810400-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Ymir": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ymir%1:18:00::",
           "synset": "09608108-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yogacara": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yogacara%1:09:00::",
           "synset": "06252910-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yogi": {
     "n": {
@@ -1373,51 +1261,47 @@
           "value": "ˈjəʊɡi"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yogi%1:18:01::",
           "synset": "10868542-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yogi Berra": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yogi_berra%1:18:00::",
           "synset": "10868542-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yoko Ono": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yoko_ono%1:18:00::",
           "synset": "11235195-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yokohama": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yokohama%1:15:00::",
           "synset": "08944011-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yokuts": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yokuts%1:10:00::",
           "synset": "06937436-n"
@@ -1427,52 +1311,47 @@
           "synset": "09692545-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yokuts language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yokuts_language%1:10:01::",
           "synset": "06937436-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yom Kippur": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yom_kippur%1:28:00::",
           "synset": "15210306-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yom Kippur War": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yom_kippur_war%1:04:00::",
           "synset": "01305174-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "York": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "york%1:14:00::",
           "synset": "08176823-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yorkshire": {
     "n": {
@@ -1481,51 +1360,47 @@
           "value": "ˈjɔː(ɹ)kʃɪə(ɹ)"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yorkshire%1:15:00::",
           "synset": "08905438-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yorkshire fog": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yorkshire_fog%1:20:00::",
           "synset": "12143242-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yorkshire pudding": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yorkshire_pudding%1:13:00::",
           "synset": "07706330-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yorkshire terrier": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yorkshire_terrier%1:05:00::",
           "synset": "02097085-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yorktown": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yorktown%1:15:00::",
           "synset": "09175325-n"
@@ -1535,8 +1410,7 @@
           "synset": "01302733-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yoruba": {
     "n": {
@@ -1550,7 +1424,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yoruba%1:18:00::",
           "synset": "09757624-n"
@@ -1560,63 +1434,57 @@
           "synset": "07010028-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yoruba language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yoruba_language%1:10:01::",
           "synset": "07010028-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yosemite": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yosemite%1:17:00::",
           "synset": "09505845-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yosemite Falls": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yosemite_falls%1:17:00::",
           "synset": "09505845-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yosemite National Park": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yosemite_national_park%1:15:00::",
           "synset": "08628203-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yosemite toad": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yosemite_toad%1:05:00::",
           "synset": "01649821-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Young": {
     "n": {
@@ -1625,7 +1493,7 @@
           "value": "jʌŋ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "young%1:18:06::",
           "synset": "11424276-n"
@@ -1655,45 +1523,41 @@
           "synset": "11423216-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Young Turk": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_turk%1:18:01::",
           "synset": "10824336-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Young's modulus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young's_modulus%1:23:00::",
           "synset": "13609700-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Youngstown": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youngstown%1:15:00::",
           "synset": "09154233-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Ypres": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ypres%1:04:03::",
           "synset": "01303571-n"
@@ -1707,19 +1571,17 @@
           "synset": "01302999-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yquem": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yquem%1:13:00::",
           "synset": "07915874-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuan": {
     "n": {
@@ -1733,29 +1595,27 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yuan%1:14:00::",
           "synset": "08177045-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuan dynasty": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuan_dynasty%1:14:00::",
           "synset": "08177045-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucatan": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucatan%1:15:01::",
           "synset": "08758063-n"
@@ -1765,23 +1625,21 @@
           "synset": "08757855-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucatan Peninsula": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucatan_peninsula%1:15:00::",
           "synset": "08757855-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucatec": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucatec%1:18:00::",
           "synset": "09692668-n"
@@ -1791,23 +1649,21 @@
           "synset": "06938694-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucatec language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucatec_language%1:10:01::",
           "synset": "06938694-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucateco": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucateco%1:18:00::",
           "synset": "09692668-n"
@@ -1817,129 +1673,117 @@
           "synset": "06938694-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucateco language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucateco_language%1:10:01::",
           "synset": "06938694-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca aloifolia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_aloifolia%1:20:00::",
           "synset": "12502942-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca baccata": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_baccata%1:20:00::",
           "synset": "12503173-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca brevifolia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_brevifolia%1:20:00::",
           "synset": "12503398-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca carnerosana": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_carnerosana%1:20:00::",
           "synset": "12503596-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca elata": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_elata%1:20:00::",
           "synset": "12503787-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca filamentosa": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_filamentosa%1:20:00::",
           "synset": "12503932-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca glauca": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_glauca%1:20:00::",
           "synset": "12504130-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca gloriosa": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_gloriosa%1:20:00::",
           "synset": "12504346-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca smalliana": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_smalliana%1:20:00::",
           "synset": "12504534-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yucca whipplei": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yucca_whipplei%1:20:00::",
           "synset": "12504749-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yue": {
     "n": {
@@ -1948,29 +1792,27 @@
           "value": "ˈjuːeɪ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yue%1:10:00::",
           "synset": "06943204-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yue dialect": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yue_dialect%1:10:00::",
           "synset": "06943204-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yugoslav": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yugoslav%1:18:00::"
@@ -1984,7 +1826,7 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yugoslav%3:01:00::"
@@ -1993,12 +1835,11 @@
           "synset": "09770222-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yugoslavia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yugoslavian%3:01:00::"
@@ -2011,12 +1852,11 @@
           "synset": "08833365-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yugoslavian": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yugoslavian%1:18:00::",
@@ -2031,7 +1871,7 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yugoslavian%3:01:00::"
@@ -2040,45 +1880,41 @@
           "synset": "09770222-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yugoslavian dinar": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yugoslavian_dinar%1:23:00::",
           "synset": "13693287-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yugoslavian monetary unit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yugoslavian_monetary_unit%1:23:00::",
           "synset": "13693152-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yukawa": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yukawa%1:18:00::",
           "synset": "11424398-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yukon": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yukon%1:17:00::",
           "synset": "09506046-n"
@@ -2088,52 +1924,47 @@
           "synset": "08849448-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yukon River": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yukon_river%1:17:00::",
           "synset": "09506046-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yukon Territory": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yukon_territory%1:15:00::",
           "synset": "08849448-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yukon Time": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yukon_time%1:28:00::",
           "synset": "15157817-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yukon white birch": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yukon_white_birch%1:20:00::",
           "synset": "12303912-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yule": {
     "n": {
@@ -2142,25 +1973,23 @@
           "value": "juːl"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yule%1:28:00::",
           "synset": "15221372-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yule log": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yule_log%1:27:00::",
           "synset": "15125626-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuletide": {
     "n": {
@@ -2174,18 +2003,17 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yuletide%1:28:00::",
           "synset": "15221372-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuma": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuma%1:18:00::",
           "synset": "09692796-n"
@@ -2199,23 +2027,21 @@
           "synset": "06936269-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuma language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuma_language%1:10:01::",
           "synset": "06936269-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuman": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yuman%3:01:00::",
           "pertainym": [
@@ -2226,135 +2052,123 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuman%1:10:00::",
           "synset": "06934822-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yunnan": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yunnan%1:15:00::",
           "synset": "08744296-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yunnan province": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yunnan_province%1:15:00::",
           "synset": "08744296-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yurak-Samoyed": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yurak-samoyed%1:10:00::",
           "synset": "06972528-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yurak-Samoyed language": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yurak-samoyed_language%1:10:01::",
           "synset": "06972528-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuri Alekseyevich Gagarin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuri_alekseyevich_gagarin%1:18:00::",
           "synset": "11006862-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yuri Gagarin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuri_gagarin%1:18:00::",
           "synset": "11006862-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "Yves Tanguy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yves_tanguy%1:18:00::",
           "synset": "11351058-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "y": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "y%1:10:01::",
           "synset": "06846826-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "y-axis": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "y-axis%1:09:00::",
           "synset": "06018683-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yacca": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yacca%1:20:00::",
           "synset": "11672668-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yacca podocarp": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yacca_podocarp%1:20:00::",
           "synset": "11672668-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yacht": {
     "n": {
@@ -2368,7 +2182,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yacht%2:38:00::"
@@ -2389,7 +2203,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yacht%1:06:00::",
@@ -2405,45 +2219,41 @@
           ]
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yacht chair": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yacht_chair%1:06:00::",
           "synset": "04617533-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yacht club": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yacht_club%1:14:00::",
           "synset": "08247706-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yacht race": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yacht_race%1:11:00::",
           "synset": "07474949-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yachting": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yacht%2:38:00::"
@@ -2452,52 +2262,47 @@
           "synset": "00316216-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yachting cap": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yachting_cap%1:06:00::",
           "synset": "03615895-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yachtsman": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yachtsman%1:18:01::",
           "synset": "87657220-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yachtsperson": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yachtsperson%1:18:01::",
           "synset": "10821647-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yachtswoman": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yachtswoman%1:18:01::",
           "synset": "83067869-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yack": {
     "n": {
@@ -2506,7 +2311,7 @@
           "value": "jæk"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yack%2:32:00::"
@@ -2522,7 +2327,7 @@
           "value": "jæk"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yack%1:10:00::"
@@ -2541,12 +2346,11 @@
           "synset": "01039370-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yack away": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yack_away%2:32:00::",
           "sent": [
@@ -2558,19 +2362,17 @@
           "synset": "01039370-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yagi": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yagi%1:06:00::",
           "synset": "04617631-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yahoo": {
     "n": {
@@ -2579,18 +2381,17 @@
           "value": "ˈjɑːhuː"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yahoo%1:18:01::",
           "synset": "10823706-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yak": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yak%1:10:00::",
           "synset": "07151648-n"
@@ -2606,7 +2407,7 @@
         "yakked",
         "yakking"
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yak%2:32:00::",
           "subcat": [
@@ -2615,45 +2416,41 @@
           "synset": "00743542-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yak butter": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yak_butter%1:13:00::",
           "synset": "07872162-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yak's milk": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yak's_milk%1:13:00::",
           "synset": "07861397-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yakety-yak": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yakety-yak%1:10:00::",
           "synset": "07151648-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yakuza": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yakuza%1:18:00::",
           "synset": "10821406-n"
@@ -2663,12 +2460,11 @@
           "synset": "08247827-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yam": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yam%1:20:02::",
           "synset": "12108740-n"
@@ -2686,12 +2482,11 @@
           "synset": "07727652-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yam bean": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yam_bean%1:20:02::",
           "synset": "12576058-n"
@@ -2701,30 +2496,27 @@
           "synset": "12575760-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yam family": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yam_family%1:20:00::",
           "synset": "12108167-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yam plant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yam_plant%1:20:00::",
           "synset": "12108478-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yammer": {
     "v": {
@@ -2738,7 +2530,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yammer%2:32:01::",
           "sent": [
@@ -2760,8 +2552,7 @@
           "synset": "00909883-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yang": {
     "n": {
@@ -2770,7 +2561,7 @@
           "value": "jæŋ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "yin%1:09:00::"
@@ -2779,8 +2570,7 @@
           "synset": "05923950-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yank": {
     "v": {
@@ -2789,7 +2579,7 @@
           "value": "jæŋk"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "agent": [
             "yanker%1:18:00::"
@@ -2805,8 +2595,7 @@
           "synset": "01594993-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yanker": {
     "n": {
@@ -2815,7 +2604,7 @@
           "value": "ˈjæŋkɚ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yank%2:35:00::"
@@ -2824,19 +2613,17 @@
           "synset": "10821751-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yanquapin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yanquapin%1:20:00::",
           "synset": "11738046-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yap": {
     "n": {
@@ -2845,7 +2632,7 @@
           "value": "jæp"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yap%1:08:00::",
           "synset": "05309806-n"
@@ -2862,7 +2649,7 @@
           "value": "jæp"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yap%2:32:00::",
           "subcat": [
@@ -2871,12 +2658,11 @@
           "synset": "01050043-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yap away": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yap_away%2:32:00::",
           "subcat": [
@@ -2885,12 +2671,11 @@
           "synset": "01039370-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard%1:23:00::",
           "synset": "13672065-n"
@@ -2928,12 +2713,11 @@
           "synset": "04617860-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard bird": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_bird%1:18:00::",
           "synset": "10822111-n"
@@ -2943,118 +2727,107 @@
           "synset": "09982445-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard donkey": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_donkey%1:06:00::",
           "synset": "04618827-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard goods": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_goods%1:06:00::",
           "synset": "04619011-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard grass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_grass%1:20:00::",
           "synset": "12138931-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard line": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_line%1:15:00::",
           "synset": "08671702-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard marker": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_marker%1:06:00::",
           "synset": "04619152-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard measure": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_measure%1:06:00::",
           "synset": "04619273-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard sale": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard_sale%1:04:00::",
           "synset": "01121571-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yard-long bean": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yard-long_bean%1:20:00::",
           "synset": "12599786-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardage": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardage%1:07:00::",
           "synset": "05138140-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardarm": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardarm%1:06:00::",
           "synset": "04618708-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardbird": {
     "n": {
@@ -3068,7 +2841,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yardbird%1:18:00::",
           "synset": "10822111-n"
@@ -3078,12 +2851,11 @@
           "synset": "09982445-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarder": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yarder%1:23:00::",
           "synset": "13672353-n"
@@ -3093,30 +2865,27 @@
           "synset": "04618827-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardgrass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardgrass%1:20:00::",
           "synset": "12138931-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardie": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardie%1:18:00::",
           "synset": "10822225-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardman": {
     "n": {
@@ -3125,7 +2894,7 @@
           "value": "ˈjɑɹdmən"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yardman%1:18:01::",
           "synset": "10822557-n"
@@ -3135,23 +2904,21 @@
           "synset": "10822446-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardmaster": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardmaster%1:18:00::",
           "synset": "10822635-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yardstick": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yardstick%1:10:00::",
           "synset": "07276623-n"
@@ -3161,30 +2928,27 @@
           "synset": "04619273-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarmelke": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yarmelke%1:06:00::",
           "synset": "04619383-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarmulka": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yarmulka%1:06:00::",
           "synset": "04619383-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarmulke": {
     "n": {
@@ -3198,14 +2962,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yarmulke%1:06:00::",
           "synset": "04619383-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarn": {
     "n": {
@@ -3219,7 +2982,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yarn%2:32:00::"
@@ -3244,7 +3007,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yarn%1:10:00::"
@@ -3259,12 +3022,11 @@
           "synset": "00956070-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarn-dye": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yarn-dye%2:30:00::",
           "subcat": [
@@ -3273,52 +3035,47 @@
           "synset": "00284565-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarn-spinning": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yarn-spinning%5:00:00:communicative:00",
           "synset": "00502479-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yarrow": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yarrow%1:20:00::",
           "synset": "11937165-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yashmac": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yashmac%1:06:00::",
           "synset": "04619516-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yashmak": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yashmak%1:06:00::",
           "synset": "04619516-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yataghan": {
     "n": {
@@ -3327,29 +3084,27 @@
           "value": "ˈjætəɡæn"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yataghan%1:06:00::",
           "synset": "04619614-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yatobyo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yatobyo%1:26:00::",
           "synset": "14299862-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yaup": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yaup%2:32:00::",
           "subcat": [
@@ -3359,34 +3114,31 @@
           "synset": "01048804-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yaupon holly": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yaupon_holly%1:20:00::",
           "synset": "12778859-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yautia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yautia%1:20:00::",
           "synset": "11813872-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yaw": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yaw%2:38:00::"
@@ -3397,7 +3149,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yaw%2:42:00::",
           "subcat": [
@@ -3428,8 +3180,7 @@
           "synset": "02037849-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yawl": {
     "n": {
@@ -3438,7 +3189,7 @@
           "value": "jɔːl"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yawl%1:06:01::",
           "synset": "04619861-n"
@@ -3450,7 +3201,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yawl%2:32:00::",
           "subcat": [
@@ -3460,8 +3211,7 @@
           "synset": "01048804-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yawn": {
     "n": {
@@ -3478,7 +3228,7 @@
           "value": "jɑn"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yawn%2:29:00::"
@@ -3502,7 +3252,7 @@
           "value": "jɑn"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "agent": [
             "yawner%1:18:00::"
@@ -3529,12 +3279,11 @@
           "synset": "02724625-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yawner": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yawn%2:29:00::"
@@ -3543,12 +3292,11 @@
           "synset": "10822797-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yawning": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yawning%5:00:00:open:02",
           "synset": "01657821-s"
@@ -3565,7 +3313,7 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yawn%2:29:00::"
@@ -3574,12 +3322,11 @@
           "synset": "00838954-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yawp": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yawp%2:32:01::",
           "subcat": [
@@ -3596,19 +3343,17 @@
           "synset": "00909883-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yaws": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yaws%1:26:00::",
           "synset": "14168243-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yea": {
     "n": {
@@ -3617,7 +3362,7 @@
           "value": "jeɪ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "nay%1:10:00::"
@@ -3633,25 +3378,23 @@
           "value": "jeɪ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yea%4:02:00::",
           "synset": "00499758-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeah": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "yeah%4:02:00::",
           "synset": "00499758-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "year": {
     "n": {
@@ -3665,7 +3408,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yearly%5:00:00:periodic:00"
@@ -3686,45 +3429,41 @@
           "synset": "08255581-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "year dot": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "year_dot%1:28:00::",
           "synset": "15269162-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "year of grace": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "year_of_grace%1:28:00::",
           "synset": "15274269-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "year-around": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "year-around%3:00:00::",
           "synset": "01497577-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "year-end": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "year-end%5:00:00:closing:00",
           "synset": "01014344-s"
@@ -3732,18 +3471,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "year-end%1:28:00::",
           "synset": "15226829-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "year-round": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "seasonal%3:00:00::"
@@ -3752,12 +3490,11 @@
           "synset": "01497577-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearbook": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yearbook%1:10:01::",
           "synset": "07297202-n"
@@ -3767,12 +3504,11 @@
           "synset": "06438138-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearling": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yearling%1:18:00::",
           "synset": "10734114-n"
@@ -3786,19 +3522,17 @@
           "synset": "01890822-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearlong": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yearlong%5:00:00:long:02",
           "synset": "01444970-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearly": {
     "a": {
@@ -3812,7 +3546,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "year%1:28:01::"
@@ -3833,7 +3567,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yearly%1:10:00::",
           "synset": "06438138-n"
@@ -3851,18 +3585,17 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yearly%4:02:00::",
           "synset": "00082087-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearn": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "agent": [
             "yearner%1:18:00::"
@@ -3902,23 +3635,21 @@
           "synset": "01781522-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearned-for": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yearned-for%5:00:00:wanted:00",
           "synset": "02537648-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearner": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yearn%2:37:01::",
@@ -3928,12 +3659,11 @@
           "synset": "10290575-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearning": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yearn%2:37:01::",
@@ -3943,8 +3673,7 @@
           "synset": "07501768-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yearningly": {
     "r": {
@@ -3958,14 +3687,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yearningly%4:02:00::",
           "synset": "00391325-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "years": {
     "n": {
@@ -3975,7 +3703,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "years%1:28:00::",
           "synset": "15178747-n"
@@ -3989,8 +3717,7 @@
           "synset": "15166019-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeast": {
     "n": {
@@ -3999,7 +3726,7 @@
           "value": "jiːst"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yeasty%3:01:00::"
@@ -4015,34 +3742,31 @@
           "synset": "13046407-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeast cake": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeast_cake%1:13:00::",
           "synset": "07656169-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeast dough": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeast_dough%1:13:01::",
           "synset": "92425375-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeastlike": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yeastlike%3:01:00::",
           "pertainym": [
@@ -4051,8 +3775,7 @@
           "synset": "03157135-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeasty": {
     "a": {
@@ -4065,7 +3788,7 @@
           "value": "ˈjiːsti"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yeast%1:27:00::",
@@ -4086,12 +3809,11 @@
           "synset": "00647321-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yell": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yell%2:32:01::",
@@ -4110,7 +3832,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yell%1:10:01::",
@@ -4149,23 +3871,21 @@
           "synset": "00914786-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yelled": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yelled%5:00:00:loud:00",
           "synset": "01457023-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeller": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yell%2:32:00::"
@@ -4174,12 +3894,11 @@
           "synset": "10553540-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yelling": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yell%2:32:01::"
@@ -4188,8 +3907,7 @@
           "synset": "07138260-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow": {
     "a": {
@@ -4203,7 +3921,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yellow%1:07:00::",
@@ -4246,7 +3964,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yellow%5:00:00:chromatic:00",
@@ -4268,7 +3986,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yellow%1:07:00::"
@@ -4283,45 +4001,41 @@
           "synset": "00290602-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow adder's tongue": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_adder's_tongue%1:20:00::",
           "synset": "12471345-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow ageratum": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_ageratum%1:20:00::",
           "synset": "12013275-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow asphodel": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_asphodel%1:20:00::",
           "synset": "12463202-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow avens": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_avens%1:20:02::",
           "synset": "12652693-n"
@@ -4331,353 +4045,321 @@
           "synset": "12652398-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bachelor's button": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bachelor's_button%1:20:00::",
           "synset": "12726218-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bass%1:05:00::",
           "synset": "02569296-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bean": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bean%1:13:00::",
           "synset": "07744684-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bedstraw": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bedstraw%1:20:00::",
           "synset": "12686618-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bells": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bells%1:20:00::",
           "synset": "12856091-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow berry": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_berry%1:20:00::",
           "synset": "13162192-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bile": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bile%1:08:00::",
           "synset": "05414301-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow birch": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_birch%1:20:00::",
           "synset": "12302305-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bone marrow": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bone_marrow%1:08:00::",
           "synset": "05293507-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bristle grass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bristle_grass%1:20:00::",
           "synset": "12155353-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bristlegrass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bristlegrass%1:20:00::",
           "synset": "12155353-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bugle": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bugle%1:20:00::",
           "synset": "12862232-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow bunting": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_bunting%1:05:00::",
           "synset": "01540841-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow cattley guava": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_cattley_guava%1:20:00::",
           "synset": "12354288-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow cedar": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_cedar%1:20:00::",
           "synset": "11656281-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow chamomile": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_chamomile%1:20:00::",
           "synset": "11943866-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow chestnut oak": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_chestnut_oak%1:20:00::",
           "synset": "12296192-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow cleavers": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_cleavers%1:20:00::",
           "synset": "12686618-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow clintonia": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_clintonia%1:20:00::",
           "synset": "12493064-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow colicroot": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_colicroot%1:20:00::",
           "synset": "12451180-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow cypress": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_cypress%1:20:00::",
           "synset": "11656281-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow dock": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_dock%1:20:00::",
           "synset": "12625400-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow dwarf": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_dwarf%1:26:00::",
           "synset": "14308190-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow dwarf of potato": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_dwarf_of_potato%1:26:00::",
           "synset": "14308378-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow fever": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_fever%1:26:00::",
           "synset": "14168442-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow flag": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_flag%1:20:00::",
           "synset": "12435107-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow foxglove": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_foxglove%1:20:01::",
           "synset": "12904025-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow foxtail": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_foxtail%1:20:00::",
           "synset": "12155353-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow giant hyssop": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_giant_hyssop%1:20:00::",
           "synset": "12860928-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow globe lily": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_globe_lily%1:20:00::",
           "synset": "12467626-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow goatfish": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_goatfish%1:05:00::",
           "synset": "02603428-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow granadilla": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_granadilla%1:20:00::",
           "synset": "12404892-n"
@@ -4687,56 +4369,51 @@
           "synset": "07770255-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow green": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_green%1:07:00::",
           "synset": "04975434-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow gurnard": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_gurnard%1:05:00::",
           "synset": "02653043-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow hawkweed": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_hawkweed%1:20:00::",
           "synset": "12002811-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow henbane": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_henbane%1:20:00::",
           "synset": "12932674-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow honeysuckle": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_honeysuckle%1:20:02::",
           "synset": "12696060-n"
@@ -4746,67 +4423,61 @@
           "synset": "12695861-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow horned poppy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_horned_poppy%1:20:00::",
           "synset": "11926218-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow hornet": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_hornet%1:05:00::",
           "synset": "02216440-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow iris": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_iris%1:20:00::",
           "synset": "12435107-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow ironweed": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_ironweed%1:20:00::",
           "synset": "12051377-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow jacaranda": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_jacaranda%1:20:00::",
           "synset": "12594416-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow jack": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_jack%1:26:00::",
           "synset": "14168442-n"
@@ -4820,12 +4491,11 @@
           "synset": "02579672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow jacket": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_jacket%1:06:00::",
           "synset": "03919248-n"
@@ -4835,166 +4505,151 @@
           "synset": "02216440-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow jasmine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_jasmine%1:20:00::",
           "synset": "12506486-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow jessamine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_jessamine%1:20:00::",
           "synset": "12506486-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow journalism": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_journalism%1:10:00::",
           "synset": "06278644-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow lady's slipper": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_lady's_slipper%1:20:00::",
           "synset": "12077712-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow lady-slipper": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_lady-slipper%1:20:00::",
           "synset": "12077712-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow light": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_light%1:10:00::",
           "synset": "06887887-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow locust": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_locust%1:20:00::",
           "synset": "12588691-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow loosestrife": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_loosestrife%1:20:00::",
           "synset": "12116298-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow lupine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_lupine%1:20:00::",
           "synset": "12567337-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow man": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_man%1:18:00::",
           "synset": "86740061-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow mariposa tulip": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_mariposa_tulip%1:20:00::",
           "synset": "12468641-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow marrow": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_marrow%1:08:00::",
           "synset": "05293507-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow metal": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_metal%1:27:00::",
           "synset": "14744399-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow milkwort": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_milkwort%1:20:00::",
           "synset": "12726218-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow mombin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_mombin%1:20:00::",
           "synset": "12786606-n"
@@ -5004,56 +4659,51 @@
           "synset": "07781588-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow mombin tree": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_mombin_tree%1:20:00::",
           "synset": "12786606-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow mountain saxifrage": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_mountain_saxifrage%1:20:00::",
           "synset": "12814044-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow nutgrass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_nutgrass%1:20:00::",
           "synset": "12171486-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow oak": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_oak%1:20:00::",
           "synset": "12299975-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow ocher": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -5062,12 +4712,11 @@
           "synset": "14868451-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow ochre": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -5078,100 +4727,91 @@
           "synset": "14868451-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow oleander": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_oleander%1:20:00::",
           "synset": "11797549-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow pages": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_pages%1:10:00::",
           "synset": "07266041-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow paper daisy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_paper_daisy%1:20:00::",
           "synset": "12000787-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow parilla": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_parilla%1:20:00::",
           "synset": "11733839-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow pea": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_pea%1:20:00::",
           "synset": "12593979-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow perch": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_perch%1:05:00::",
           "synset": "02559813-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow peril": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_peril%1:26:00::",
           "synset": "14567013-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow pimpernel": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_pimpernel%1:20:00::",
           "synset": "12115929-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow pine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_pine%1:20:00::",
           "synset": "11634701-n"
@@ -5181,34 +4821,31 @@
           "synset": "11629813-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow pitcher plant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_pitcher_plant%1:20:00::",
           "synset": "12801323-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow pond lily": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_pond_lily%1:20:00::",
           "synset": "11736891-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow poplar": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_poplar%1:20:02::",
           "synset": "11733090-n"
@@ -5218,78 +4855,71 @@
           "synset": "11732751-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow prussiate of potash": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_prussiate_of_potash%1:27:00::",
           "synset": "15019628-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow rocket": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_rocket%1:20:00::",
           "synset": "11894550-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow root": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_root%1:20:00::",
           "synset": "11756039-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow salsify": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_salsify%1:20:00::",
           "synset": "12047450-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow sand verbena": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_sand_verbena%1:20:00::",
           "synset": "11857820-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow spiny daisy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_spiny_daisy%1:20:00::",
           "synset": "11996980-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow spot": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_spot%1:26:00::",
           "synset": "14308615-n"
@@ -5299,34 +4929,31 @@
           "synset": "05463266-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow spot fungus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_spot_fungus%1:20:00::",
           "synset": "13101626-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow spruce": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_spruce%1:20:00::",
           "synset": "11647277-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow squash": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_squash%1:20:00::",
           "synset": "12179905-n"
@@ -5336,485 +4963,441 @@
           "synset": "07731779-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow star-thistle": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_star-thistle%1:20:00::",
           "synset": "11969484-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow sweet clover": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_sweet_clover%1:20:00::",
           "synset": "11771816-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow trefoil": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_trefoil%1:20:00::",
           "synset": "12569697-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow trumpet": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_trumpet%1:20:00::",
           "synset": "12801323-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow turnip": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_turnip%1:13:00::",
           "synset": "07752063-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow twining snapdragon": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_twining_snapdragon%1:20:00::",
           "synset": "12898397-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow vetchling": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_vetchling%1:20:00::",
           "synset": "12561662-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow warbler": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_warbler%1:05:00::",
           "synset": "01571533-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow water flag": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_water_flag%1:20:00::",
           "synset": "12435107-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow water lily": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_water_lily%1:20:00::",
           "synset": "11737346-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow watercress": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_watercress%1:20:00::",
           "synset": "11915941-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow woman": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow_woman%1:18:00::",
           "synset": "80570446-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-banded": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-banded%5:00:00:patterned:00",
           "synset": "01796100-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-beige": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-beige%5:00:00:chromatic:00",
           "synset": "00387052-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-bellied": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-bellied%5:00:00:cowardly:00",
           "synset": "00266180-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-bellied sapsucker": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-bellied_sapsucker%1:05:00::",
           "synset": "01843929-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-bellied terrapin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-bellied_terrapin%1:05:00::",
           "synset": "01671306-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-blindness": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-blindness%1:26:00::",
           "synset": "14178314-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-blue color blindness": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-blue_color_blindness%1:26:00::",
           "synset": "14178151-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-blue dichromacy": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-blue_dichromacy%1:26:00::",
           "synset": "14178151-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-breasted bunting": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-breasted_bunting%1:05:00::",
           "synset": "01541003-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-breasted chat": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-breasted_chat%1:05:00::",
           "synset": "01572612-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-brown": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-brown%5:00:00:chromatic:00",
           "synset": "00370566-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-crowned night heron": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-crowned_night_heron%1:05:00::",
           "synset": "02013670-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-dog contract": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-dog_contract%1:10:00::",
           "synset": "06539161-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-eyed grass": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-eyed_grass%1:20:00::",
           "synset": "12626444-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-eyed grass family": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-eyed_grass_family%1:20:00::",
           "synset": "12626076-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-fever mosquito": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-fever_mosquito%1:05:00::",
           "synset": "02203502-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-gray": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-gray%5:00:00:achromatic:00",
           "synset": "00393635-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-green": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-green%5:00:00:chromatic:00",
           "synset": "00387156-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-green algae": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-green_algae%1:05:00::",
           "synset": "01403032-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-grey": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-grey%5:00:00:achromatic:00",
           "synset": "00393635-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-leaf sickle pine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-leaf_sickle_pine%1:20:00::",
           "synset": "11675603-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-marked": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-marked%5:00:00:patterned:00",
           "synset": "01796179-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-orange": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-orange%5:00:00:chromatic:00",
           "synset": "00387257-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-shafted flicker": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-shafted_flicker%1:05:00::",
           "synset": "01842391-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-spotted": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-spotted%5:00:00:patterned:00",
           "synset": "01796258-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-striped": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-striped%5:00:00:patterned:00",
           "synset": "01796338-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-throated marten": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-throated_marten%1:05:00::",
           "synset": "02453756-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-tinged": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-tinged%5:00:00:chromatic:00",
           "synset": "00387364-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-tipped": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-tipped%5:00:00:tipped:00",
           "synset": "02440341-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellow-white": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellow-white%5:00:00:achromatic:00",
           "synset": "00393767-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowbelly marmot": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowbelly_marmot%1:05:00::",
           "synset": "02364502-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowbird": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowbird%1:05:02::",
           "synset": "01571533-n"
@@ -5824,78 +5407,71 @@
           "synset": "01534966-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowcake": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowcake%1:27:00::",
           "synset": "15131096-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowed": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowed%5:00:00:old:01",
           "synset": "01644956-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowfin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowfin%1:05:00::",
           "synset": "02630162-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowfin croaker": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowfin_croaker%1:05:00::",
           "synset": "02599634-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowfin mojarra": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowfin_mojarra%1:05:00::",
           "synset": "02639809-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowfin tuna": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowfin_tuna%1:05:00::",
           "synset": "02630162-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowhammer": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowhammer%1:05:02::",
           "synset": "01842391-n"
@@ -5905,8 +5481,7 @@
           "synset": "01540841-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish": {
     "a": {
@@ -5920,117 +5495,107 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yellowish%5:00:00:chromatic:00",
           "synset": "00386818-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish brown": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish_brown%1:07:00::",
           "synset": "04981224-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish green": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish_green%1:07:00::",
           "synset": "04975434-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish pink": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish_pink%1:07:00::",
           "synset": "04978942-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish-beige": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish-beige%5:00:00:chromatic:00",
           "synset": "00387052-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish-gray": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish-gray%5:00:00:achromatic:00",
           "synset": "00393635-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish-grey": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish-grey%5:00:00:achromatic:00",
           "synset": "00393635-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish-orange": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish-orange%5:00:00:chromatic:00",
           "synset": "00387257-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowish-white": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowish-white%5:00:00:achromatic:00",
           "synset": "00393767-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowlegs": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowlegs%1:05:00::",
           "synset": "02030829-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowness": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yellow%5:00:00:chromatic:00"
@@ -6039,12 +5604,11 @@
           "synset": "04972838-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowtail": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowtail%1:05:02::",
           "synset": "02590507-n"
@@ -6054,12 +5618,11 @@
           "synset": "02581559-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowtail flounder": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowtail_flounder%1:13:00::",
           "synset": "07806776-n"
@@ -6069,34 +5632,31 @@
           "synset": "02661806-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowtail snapper": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowtail_snapper%1:05:00::",
           "synset": "02590507-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowthroat": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowthroat%1:05:00::",
           "synset": "01573317-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowwood": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowwood%1:20:02::",
           "synset": "11671584-n"
@@ -6106,23 +5666,21 @@
           "synset": "11671009-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yellowwood tree": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yellowwood_tree%1:20:00::",
           "synset": "11671009-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yelp": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yelp%2:32:00::"
@@ -6133,7 +5691,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yelp%1:11:00::",
@@ -6149,8 +5707,7 @@
           "synset": "01050043-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yelping": {
     "n": {
@@ -6159,7 +5716,7 @@
           "value": "ˈjɛlpɪŋ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yelp%2:32:00::"
@@ -6168,12 +5725,11 @@
           "synset": "07415152-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yen": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yen%2:37:00::"
@@ -6192,7 +5748,7 @@
         "yenned",
         "yenning"
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yen%1:12:00::"
@@ -6207,12 +5763,11 @@
           "synset": "01809651-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yenta": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yenta%1:18:01::",
           "synset": "10823067-n"
@@ -6222,8 +5777,7 @@
           "synset": "10822886-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeoman": {
     "n": {
@@ -6237,7 +5791,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yeoman%1:18:01::",
           "synset": "10823295-n"
@@ -6247,19 +5801,17 @@
           "synset": "10823190-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeoman of the guard": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeoman_of_the_guard%1:18:00::",
           "synset": "10823295-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeomanry": {
     "n": {
@@ -6269,7 +5821,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yeomanry%1:14:00::",
           "synset": "08263423-n"
@@ -6279,8 +5831,7 @@
           "synset": "08232910-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yer": {
     "n": {
@@ -6294,47 +5845,43 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yer%1:10:01::",
           "synset": "92462513-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yerba buena": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerba_buena%1:20:00::",
           "synset": "12877964-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yerba mansa": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerba_mansa%1:20:00::",
           "synset": "13173116-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yerba santa": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yerba_santa%1:20:00::",
           "synset": "12856526-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yes": {
     "n": {
@@ -6343,7 +5890,7 @@
           "value": "jɛs"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "no%1:10:00::"
@@ -6352,30 +5899,27 @@
           "synset": "07218560-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yes-man": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yes-man%1:18:00::",
           "synset": "10117861-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yes-no question": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yes-no_question%1:10:00::",
           "synset": "07210629-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeshiva": {
     "n": {
@@ -6389,25 +5933,23 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yeshiva%1:14:00::",
           "synset": "08294953-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeshivah": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yeshivah%1:14:00::",
           "synset": "08294953-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yesterday": {
     "n": {
@@ -6421,7 +5963,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yesterday%1:28:01::",
           "synset": "15181147-n"
@@ -6443,7 +5985,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yesterday%4:02:00::",
           "synset": "00510249-r"
@@ -6453,8 +5995,7 @@
           "synset": "00510352-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yesteryear": {
     "n": {
@@ -6468,18 +6009,17 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yesteryear%1:28:00::",
           "synset": "15145765-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yet": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "yet%4:02:02::",
           "synset": "00028191-r"
@@ -6505,8 +6045,7 @@
           "synset": "00027761-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yeti": {
     "n": {
@@ -6515,14 +6054,13 @@
           "value": "ˈjɛ.ti"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yeti%1:18:00::",
           "synset": "09510382-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yew": {
     "n": {
@@ -6531,7 +6069,7 @@
           "value": "juː"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yew%1:20:02::",
           "synset": "11682158-n"
@@ -6541,19 +6079,17 @@
           "synset": "11681823-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yew family": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yew_family%1:20:00::",
           "synset": "11681430-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yid": {
     "n": {
@@ -6562,18 +6098,17 @@
           "value": "jɪd"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yid%1:18:00::",
           "synset": "09701518-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yield": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yield%2:40:00::",
@@ -6608,7 +6143,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yield%2:40:02::",
           "subcat": [
@@ -6762,12 +6297,11 @@
           "synset": "00806138-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yield up": {
     "v": {
-      "senses": [
+      "sense": [
         {
           "id": "yield_up%2:40:00::",
           "subcat": [
@@ -6777,12 +6311,11 @@
           "synset": "02240331-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yielder": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yield%2:33:00::"
@@ -6791,12 +6324,11 @@
           "synset": "10699445-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yielding": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yielding%5:00:00:docile:00",
           "synset": "02337212-s"
@@ -6812,7 +6344,7 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yield%2:32:00::"
@@ -6828,12 +6360,11 @@
           "synset": "07190894-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yieldingly": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "yieldingly%4:02:00::",
           "pertainym": [
@@ -6842,12 +6373,11 @@
           "synset": "00318413-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yin": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "yang%1:09:00::"
@@ -6856,8 +6386,7 @@
           "synset": "05924178-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yip": {
     "n": {
@@ -6866,7 +6395,7 @@
           "value": "jɪp"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yip%1:11:00::",
           "synset": "07415152-n"
@@ -6879,7 +6408,7 @@
           "value": "jɪp"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yip%2:32:00::",
           "subcat": [
@@ -6888,30 +6417,27 @@
           "synset": "01050043-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yips": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yips%1:26:00::",
           "synset": "14399902-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "ylang-ylang": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ylang-ylang%1:20:00::",
           "synset": "11716443-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "ylem": {
     "n": {
@@ -6920,14 +6446,13 @@
           "value": "ˈiːlɛm"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "ylem%1:27:00::",
           "synset": "14606205-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yo-yo": {
     "n": {
@@ -6941,14 +6466,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yo-yo%1:06:00::",
           "synset": "04620912-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yob": {
     "n": {
@@ -6958,14 +6482,13 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yob%1:18:00::",
           "synset": "09898763-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yobbo": {
     "n": {
@@ -6974,47 +6497,43 @@
           "value": "ˈjɒbəʊ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yobbo%1:18:00::",
           "synset": "09898763-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yobibit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yobibit%1:23:00::",
           "synset": "13654067-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yobibyte": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yobibyte%1:23:00::",
           "synset": "13653625-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yobo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yobo%1:18:00::",
           "synset": "09898763-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yodel": {
     "n": {
@@ -7028,7 +6547,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yodel%2:32:00::"
@@ -7053,7 +6572,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "agent": [
             "yodeller%1:18:00::"
@@ -7076,12 +6595,11 @@
           "synset": "01052523-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yodeling": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yodel%2:32:00::"
@@ -7090,12 +6608,11 @@
           "synset": "01258711-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yodeller": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yodel%2:32:00::"
@@ -7104,8 +6621,7 @@
           "synset": "10823442-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yodh": {
     "n": {
@@ -7114,14 +6630,13 @@
           "value": "jɒd"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yodh%1:10:00::",
           "synset": "06850729-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yoga": {
     "n": {
@@ -7131,7 +6646,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yogistic%3:01:00::",
@@ -7149,19 +6664,17 @@
           "synset": "00632200-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yoghourt": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yoghourt%1:13:00::",
           "synset": "07865312-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yoghurt": {
     "n": {
@@ -7171,7 +6684,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -7181,8 +6694,7 @@
           "synset": "07865312-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yogi": {
     "n": {
@@ -7194,18 +6706,17 @@
           "value": "ˈjəʊɡi"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yogi%1:18:00::",
           "synset": "10823582-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yogic": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yoga%1:09:00::",
@@ -7218,12 +6729,11 @@
           "synset": "02997336-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yogistic": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yoga%1:09:00::",
@@ -7236,8 +6746,7 @@
           "synset": "02997336-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yogurt": {
     "n": {
@@ -7255,7 +6764,7 @@
           "variety": "AU"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -7264,23 +6773,21 @@
           "synset": "07865312-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yokai": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yokai%1:18:01::",
           "synset": "90019741-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yoke": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yoke%1:06:01::",
           "synset": "04620372-n"
@@ -7324,7 +6831,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "by_means_of": [
             "yoke%1:06:02::"
@@ -7378,8 +6885,7 @@
           ]
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yokel": {
     "n": {
@@ -7393,25 +6899,23 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yokel%1:18:00::",
           "synset": "10823706-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yokel-like": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "yokel-like%5:00:00:stupid:00",
           "synset": "00443647-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yokelish": {
     "a": {
@@ -7421,14 +6925,13 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yokelish%5:00:00:unrefined:01",
           "synset": "01957679-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yolk": {
     "n": {
@@ -7442,7 +6945,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yolk%1:13:00::",
           "synset": "07857321-n"
@@ -7452,12 +6955,11 @@
           "synset": "01467485-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yolk sac": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yolk_sac%1:05:02::",
           "synset": "01467884-n"
@@ -7467,8 +6969,7 @@
           "synset": "01467687-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yon": {
     "a": {
@@ -7482,7 +6983,7 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yon%5:00:00:distant:01",
           "synset": "00448792-s"
@@ -7500,14 +7001,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yon%4:02:00::",
           "synset": "00082658-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yonder": {
     "a": {
@@ -7517,7 +7017,7 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yonder%5:00:00:distant:01",
           "synset": "00448792-s"
@@ -7531,14 +7031,13 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yonder%4:02:00::",
           "synset": "00082658-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yore": {
     "n": {
@@ -7555,29 +7054,27 @@
           "value": "jo(ː)ɹ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yore%1:28:00::",
           "synset": "15146030-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yottabit": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yottabit%1:23:00::",
           "synset": "13653922-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yottabyte": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yottabyte%1:23:01::",
           "synset": "13653781-n"
@@ -7587,52 +7084,47 @@
           "synset": "13653625-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yottaflop": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yottaflop%1:23:01::",
           "synset": "92467431-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "you bet": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "you_bet%4:02:00::",
           "synset": "00153403-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "you said it": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "you_said_it%4:02:00::",
           "synset": "00153403-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "you-drive": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "you-drive%1:21:00::",
           "synset": "13269497-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young": {
     "a": {
@@ -7645,7 +7137,7 @@
           "value": "jʌŋ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "old%3:00:02::"
@@ -7684,7 +7176,7 @@
           "value": "jʌŋ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "young%1:05:00::",
           "synset": "01324070-n"
@@ -7700,164 +7192,149 @@
           "synset": "07960326-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young Turk": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_turk%1:18:00::",
           "synset": "10824240-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young bird": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_bird%1:05:00::",
           "synset": "01616256-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young blood": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_blood%1:14:01::",
           "synset": "92429829-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young buck": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_buck%1:18:00::",
           "synset": "10823891-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young carnivore": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_carnivore%1:05:00::",
           "synset": "01325176-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young fish": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_fish%1:05:00::",
           "synset": "02516191-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young girl": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_girl%1:18:00::",
           "synset": "10267055-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young lady": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_lady%1:18:00::",
           "synset": "10149362-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young mammal": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_mammal%1:05:00::",
           "synset": "01324345-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young man": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_man%1:18:00::",
           "synset": "10823891-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young person": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_person%1:18:00::",
           "synset": "10824010-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young woman": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "young_woman%1:18:00::",
           "synset": "10149362-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young-bearing": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "adjposition": "a",
           "id": "young-bearing%5:00:00:female:00",
           "synset": "01481660-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "young-begetting": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "adjposition": "a",
           "id": "young-begetting%5:00:00:male:00",
           "synset": "01481018-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "younger": {
     "a": {
@@ -7871,29 +7348,27 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "younger%5:00:00:junior:00",
           "synset": "02108662-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youngish": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "youngish%5:00:00:young:00",
           "synset": "01654093-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youngness": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "antonym": [
             "oldness%1:07:01::"
@@ -7906,8 +7381,7 @@
           "synset": "04935593-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youngster": {
     "n": {
@@ -7921,25 +7395,23 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "youngster%1:18:00::",
           "synset": "09937051-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "younker": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "younker%1:18:00::",
           "synset": "10824010-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth": {
     "n": {
@@ -7948,7 +7420,7 @@
           "value": "juːθ"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "youth%1:18:00::",
           "synset": "10824010-n"
@@ -7974,85 +7446,77 @@
           "synset": "04935762-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth crusade": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth_crusade%1:04:00::",
           "synset": "00802938-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth culture": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth_culture%1:14:00::",
           "synset": "08306010-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth gang": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth_gang%1:14:00::",
           "synset": "08261668-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth hostel": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth_hostel%1:06:00::",
           "synset": "03546717-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth movement": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth_movement%1:04:00::",
           "synset": "00802938-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth subculture": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth_subculture%1:14:00::",
           "synset": "08306370-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youth-on-age": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "youth-on-age%1:20:00::",
           "synset": "12825112-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youthful": {
     "a": {
@@ -8061,7 +7525,7 @@
           "value": "ˈjuːθfəl"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "youthfulness%1:07:00::"
@@ -8070,12 +7534,11 @@
           "synset": "01654162-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youthfully": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "youthfully%4:02:00::",
           "pertainym": [
@@ -8084,12 +7547,11 @@
           "synset": "00499860-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "youthfulness": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "youthful%5:00:00:young:00"
@@ -8098,12 +7560,11 @@
           "synset": "04935762-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yowl": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yowl%2:32:01::",
@@ -8115,7 +7576,7 @@
       ]
     },
     "v": {
-      "senses": [
+      "sense": [
         {
           "derivation": [
             "yowl%1:10:00::"
@@ -8148,30 +7609,27 @@
           "synset": "00916587-v"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yr": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yr%1:28:00::",
           "synset": "15228587-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "ytterbite": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "ytterbite%1:27:00::",
           "synset": "14699730-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "ytterbium": {
     "n": {
@@ -8185,14 +7643,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "ytterbium%1:27:00::",
           "synset": "14685661-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yttrium": {
     "n": {
@@ -8201,14 +7658,13 @@
           "value": "ˈɪ.tɹi.əm"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yttrium%1:27:00::",
           "synset": "14685919-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yuan": {
     "n": {
@@ -8222,14 +7678,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yuan%1:23:00::",
           "synset": "13732097-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yucca": {
     "n": {
@@ -8243,14 +7698,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yucca%1:20:00::",
           "synset": "12502536-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yucky": {
     "a": {
@@ -8264,25 +7718,23 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yucky%5:00:00:offensive:01",
           "synset": "01630074-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yuga": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yuga%1:28:01::",
           "synset": "92440469-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yummy": {
     "a": {
@@ -8295,14 +7747,13 @@
           "value": "ˈjʌm.i"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yummy%5:00:00:tasty:00",
           "synset": "02405305-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yuppie": {
     "n": {
@@ -8316,14 +7767,13 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yuppie%1:18:00::",
           "synset": "10824527-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yurt": {
     "n": {
@@ -8337,24 +7787,22 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "yurt%1:06:00::",
           "synset": "04621053-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "yus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "yus%1:10:01::",
           "synset": "92465077-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   }
 }

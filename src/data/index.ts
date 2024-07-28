@@ -1,23 +1,17 @@
-import { Command } from 'commander';
-import compileSources from './compile.mjs';
+import { Command, OptionValues } from 'commander';
+import compileSources from './compile';
 import { populateDatabase } from './db';
-import { logger } from './util.js';
+import { logger } from '../lib/util.js';
 
-const program = new Command();
-
-program.option('-v, --verbose', 'Verbose logging level');
-program.option('-i, --interactive', 'Prompt for user-corrected word input');
-program.option('--compile', 'Compile all word sources');
-program.option('--populate', 'Populate database');
-program.option('--save <sources>', 'Save <sources> to disk');
-program.option('--condense-senses', 'Condense word senses with ChatGPT');
-program.option('--match-senses', 'Match word senses with ChatGPT');
-program.option('--fix-senses', 'Fix words in ChatGPT error log');
-program.option('--from-disk', 'Load sources from disk');
-program.parse(process.argv);
-const options = program.opts();
+main()
+  .then(() => process.exit())
+  .catch((error: Error) => {
+    logger.error(error.message);
+    console.error(error.stack);
+  });
 
 async function main() {
+  const options = parseOptions();
   if (options.verbose) {
     logger.transports[0].level = 'verbose';
   }
@@ -28,10 +22,21 @@ async function main() {
     await compileSources(options);
   }
   if (options.populate) {
-    await populateDatabase(options);
+    await populateDatabase();
   }
 }
 
-main()
-  .then(() => process.exit())
-  .catch(logger.error);
+function parseOptions(): OptionValues {
+  const program = new Command();
+  program.option('-v, --verbose', 'Verbose logging level');
+  program.option('-i, --interactive', 'Prompt for user-corrected word input');
+  program.option('--compile', 'Compile all word sources');
+  program.option('--populate', 'Populate database');
+  program.option('--save <sources>', 'Save <sources> to disk');
+  program.option('--condense-senses', 'Condense word senses with ChatGPT');
+  program.option('--match-senses', 'Match word senses with ChatGPT');
+  program.option('--fix-senses', 'Fix words in ChatGPT error log');
+  program.option('--from-disk', 'Load sources from disk');
+  program.parse(process.argv);
+  return program.opts();
+}

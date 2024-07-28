@@ -1,7 +1,7 @@
 {
   "0": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "0%5:00:00:cardinal:00",
           "synset": "02193771-s"
@@ -19,18 +19,17 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "0%1:23:00::",
           "synset": "13764498-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "1%5:00:00:cardinal:00",
           "synset": "02193977-s"
@@ -43,18 +42,17 @@
           "value": "wan"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "1%1:23:00::",
           "synset": "13764713-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "2%5:00:00:cardinal:00",
           "synset": "02194109-s"
@@ -62,18 +60,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2%1:23:00::",
           "synset": "13765409-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "3%5:00:00:cardinal:00",
           "synset": "02194219-s"
@@ -81,18 +78,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3%1:23:00::",
           "synset": "13766184-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "4%5:00:00:cardinal:00",
           "synset": "02194304-s"
@@ -100,18 +96,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "4%1:23:00::",
           "synset": "13766444-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "5": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "5%5:00:00:cardinal:00",
           "synset": "02194389-s"
@@ -119,18 +114,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "5%1:23:00::",
           "synset": "13766661-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "6": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "6%5:00:00:cardinal:00",
           "synset": "02194472-s"
@@ -138,18 +132,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "6%1:23:00::",
           "synset": "13766862-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "7": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "7%5:00:00:cardinal:00",
           "synset": "02194609-s"
@@ -157,18 +150,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "7%1:23:00::",
           "synset": "13767056-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "8": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "8%5:00:00:cardinal:00",
           "synset": "02194712-s"
@@ -176,18 +168,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "8%1:23:00::",
           "synset": "13767226-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "9": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "9%5:00:00:cardinal:00",
           "synset": "02194800-s"
@@ -195,18 +186,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "9%1:23:00::",
           "synset": "13767410-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "10": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "10%5:00:00:cardinal:00",
           "synset": "02194935-s"
@@ -214,18 +204,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "10%1:23:00::",
           "synset": "13768652-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "11": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "11%5:00:00:cardinal:00",
           "synset": "02195018-s"
@@ -233,18 +222,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "11%1:23:00::",
           "synset": "13768812-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "12": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "12%5:00:00:cardinal:00",
           "synset": "02195104-s"
@@ -252,18 +240,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "12%1:23:00::",
           "synset": "13768925-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "13": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "13%5:00:00:cardinal:00",
           "synset": "02195245-s"
@@ -271,18 +258,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "13%1:23:00::",
           "synset": "13769339-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "14": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "14%5:00:00:cardinal:00",
           "synset": "02195338-s"
@@ -290,18 +276,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "14%1:23:00::",
           "synset": "13769488-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "15": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "15%5:00:00:cardinal:00",
           "synset": "02195432-s"
@@ -309,18 +294,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "15%1:23:00::",
           "synset": "13769609-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "16": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "16%5:00:00:cardinal:00",
           "synset": "02195542-s"
@@ -328,18 +312,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "16%1:23:00::",
           "synset": "13769746-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "17": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "17%5:00:00:cardinal:00",
           "synset": "02195634-s"
@@ -347,18 +330,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "17%1:23:00::",
           "synset": "13769865-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "18": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "18%5:00:00:cardinal:00",
           "synset": "02195747-s"
@@ -366,18 +348,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "18%1:23:00::",
           "synset": "13770005-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "19": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "19%5:00:00:cardinal:00",
           "synset": "02195844-s"
@@ -385,18 +366,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "19%1:23:00::",
           "synset": "13770129-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "20": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "20%5:00:00:cardinal:00",
           "synset": "02195956-s"
@@ -404,18 +384,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "20%1:23:00::",
           "synset": "13770268-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "21": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "21%5:00:00:cardinal:00",
           "synset": "02196070-s"
@@ -423,18 +402,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "21%1:23:00::",
           "synset": "13770386-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "22": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "22%5:00:00:cardinal:00",
           "synset": "02196164-s"
@@ -442,18 +420,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "22%1:23:00::",
           "synset": "13770507-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "23": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "23%5:00:00:cardinal:00",
           "synset": "02196259-s"
@@ -461,18 +438,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "23%1:23:00::",
           "synset": "13770633-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "24": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "24%5:00:00:cardinal:00",
           "synset": "02196359-s"
@@ -480,18 +456,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "24%1:23:00::",
           "synset": "13770762-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "25": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "25%5:00:00:cardinal:00",
           "synset": "02196456-s"
@@ -499,18 +474,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "25%1:23:00::",
           "synset": "13770903-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "26": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "26%5:00:00:cardinal:00",
           "synset": "02196552-s"
@@ -518,18 +492,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "26%1:23:00::",
           "synset": "13771030-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "27": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "27%5:00:00:cardinal:00",
           "synset": "02196647-s"
@@ -537,18 +510,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "27%1:23:00::",
           "synset": "13771157-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "28": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "28%5:00:00:cardinal:00",
           "synset": "02196747-s"
@@ -556,18 +528,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "28%1:23:00::",
           "synset": "13771286-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "29": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "29%5:00:00:cardinal:00",
           "synset": "02196848-s"
@@ -575,18 +546,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "29%1:23:00::",
           "synset": "13771418-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "30": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "30%5:00:00:cardinal:00",
           "synset": "02196945-s"
@@ -594,117 +564,107 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "30%1:23:00::",
           "synset": "13771547-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "31": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "31%5:00:00:cardinal:00",
           "synset": "02197035-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "32": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "32%5:00:00:cardinal:00",
           "synset": "02197130-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "33": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "33%5:00:00:cardinal:00",
           "synset": "02197226-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "34": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "34%5:00:00:cardinal:00",
           "synset": "02197327-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "35": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "35%5:00:00:cardinal:00",
           "synset": "02197425-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "36": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "36%5:00:00:cardinal:00",
           "synset": "02197522-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "37": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "37%5:00:00:cardinal:00",
           "synset": "02197618-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "38": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "38%5:00:00:cardinal:00",
           "synset": "02197719-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "39": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "39%5:00:00:cardinal:00",
           "synset": "02197821-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "40": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "40%5:00:00:cardinal:00",
           "synset": "02197917-s"
@@ -712,117 +672,107 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "40%1:23:00::",
           "synset": "13771667-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "41": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "41%5:00:00:cardinal:00",
           "synset": "02198016-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "42": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "42%5:00:00:cardinal:00",
           "synset": "02198108-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "43": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "43%5:00:00:cardinal:00",
           "synset": "02198201-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "44": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "44%5:00:00:cardinal:00",
           "synset": "02198299-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "45": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "45%5:00:00:cardinal:00",
           "synset": "02198394-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "46": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "46%5:00:00:cardinal:00",
           "synset": "02198488-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "47": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "47%5:00:00:cardinal:00",
           "synset": "02198581-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "48": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "48%5:00:00:cardinal:00",
           "synset": "02198679-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "49": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "49%5:00:00:cardinal:00",
           "synset": "02198778-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "50": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "50%5:00:00:cardinal:00",
           "synset": "02198871-s"
@@ -830,117 +780,107 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "50%1:23:00::",
           "synset": "13771784-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "51": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "51%5:00:00:cardinal:00",
           "synset": "02198975-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "52": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "52%5:00:00:cardinal:00",
           "synset": "02199066-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "53": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "53%5:00:00:cardinal:00",
           "synset": "02199158-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "54": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "54%5:00:00:cardinal:00",
           "synset": "02199255-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "55": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "55%5:00:00:cardinal:00",
           "synset": "02199349-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "56": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "56%5:00:00:cardinal:00",
           "synset": "02199442-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "57": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "57%5:00:00:cardinal:00",
           "synset": "02199534-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "58": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "58%5:00:00:cardinal:00",
           "synset": "02199631-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "59": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "59%5:00:00:cardinal:00",
           "synset": "02199729-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "60": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "60%5:00:00:cardinal:00",
           "synset": "02199823-s"
@@ -948,117 +888,107 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "60%1:23:00::",
           "synset": "13771918-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "61": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "61%5:00:00:cardinal:00",
           "synset": "02199923-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "62": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "62%5:00:00:cardinal:00",
           "synset": "02200015-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "63": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "63%5:00:00:cardinal:00",
           "synset": "02200108-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "64": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "64%5:00:00:cardinal:00",
           "synset": "02200206-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "65": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "65%5:00:00:cardinal:00",
           "synset": "02200301-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "66": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "66%5:00:00:cardinal:00",
           "synset": "02200395-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "67": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "67%5:00:00:cardinal:00",
           "synset": "02200488-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "68": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "68%5:00:00:cardinal:00",
           "synset": "02200586-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "69": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "69%5:00:00:cardinal:00",
           "synset": "02200685-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "70": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "70%5:00:00:cardinal:00",
           "synset": "02200780-s"
@@ -1066,95 +996,87 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "70%1:23:00::",
           "synset": "13772034-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "71": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "71%5:00:00:cardinal:00",
           "synset": "02200888-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "72": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "72%5:00:00:cardinal:00",
           "synset": "02200985-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "73": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "73%5:00:00:cardinal:00",
           "synset": "02201083-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "74": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "74%5:00:00:cardinal:00",
           "synset": "02201186-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "75": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "75%5:00:00:cardinal:00",
           "synset": "02201286-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "76": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "76%5:00:00:cardinal:00",
           "synset": "02201385-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "77": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "77%5:00:00:cardinal:00",
           "synset": "02201483-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "78": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "78%5:00:00:cardinal:00",
           "synset": "02201586-s"
@@ -1162,7 +1084,7 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "78%1:23:00::",
           "synset": "13772173-n"
@@ -1172,23 +1094,21 @@
           "synset": "04185251-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "79": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "79%5:00:00:cardinal:00",
           "synset": "02201690-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "80": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "80%5:00:00:cardinal:00",
           "synset": "02201790-s"
@@ -1196,117 +1116,107 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "80%1:23:00::",
           "synset": "13772304-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "81": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "81%5:00:00:cardinal:00",
           "synset": "02201894-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "82": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "82%5:00:00:cardinal:00",
           "synset": "02201990-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "83": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "83%5:00:00:cardinal:00",
           "synset": "02202087-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "84": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "84%5:00:00:cardinal:00",
           "synset": "02202189-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "85": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "85%5:00:00:cardinal:00",
           "synset": "02202288-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "86": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "86%5:00:00:cardinal:00",
           "synset": "02202386-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "87": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "87%5:00:00:cardinal:00",
           "synset": "02202483-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "88": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "88%5:00:00:cardinal:00",
           "synset": "02202585-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "89": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "89%5:00:00:cardinal:00",
           "synset": "02202688-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "90": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "90%5:00:00:cardinal:00",
           "synset": "02202784-s"
@@ -1314,117 +1224,107 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "90%1:23:00::",
           "synset": "13772437-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "91": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "91%5:00:00:cardinal:00",
           "synset": "02202873-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "92": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "92%5:00:00:cardinal:00",
           "synset": "02202967-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "93": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "93%5:00:00:cardinal:00",
           "synset": "02203062-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "94": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "94%5:00:00:cardinal:00",
           "synset": "02203162-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "95": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "95%5:00:00:cardinal:00",
           "synset": "02203259-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "96": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "96%5:00:00:cardinal:00",
           "synset": "02203355-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "97": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "97%5:00:00:cardinal:00",
           "synset": "02203450-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "98": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "98%5:00:00:cardinal:00",
           "synset": "02203550-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "99": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "99%5:00:00:cardinal:00",
           "synset": "02203651-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "100": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "100%5:00:00:cardinal:00",
           "synset": "02203776-s"
@@ -1432,62 +1332,57 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "100%1:23:00::",
           "synset": "13772555-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "101": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "101%5:00:00:cardinal:00",
           "synset": "02203880-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "105": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "105%5:00:00:cardinal:00",
           "synset": "02204002-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "110": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "110%5:00:00:cardinal:00",
           "synset": "02204108-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "115": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "115%5:00:00:cardinal:00",
           "synset": "02204212-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "120": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "120%5:00:00:cardinal:00",
           "synset": "02204326-s"
@@ -1495,205 +1390,187 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "120%1:23:00::",
           "synset": "13772714-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "125": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "125%5:00:00:cardinal:00",
           "synset": "02204438-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "130": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "130%5:00:00:cardinal:00",
           "synset": "02204560-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "135": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "135%5:00:00:cardinal:00",
           "synset": "02204676-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "140": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "140%5:00:00:cardinal:00",
           "synset": "02204799-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "144": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "144%1:23:00::",
           "synset": "13772644-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "145": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "145%5:00:00:cardinal:00",
           "synset": "02204913-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "150": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "150%5:00:00:cardinal:00",
           "synset": "02205033-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "155": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "155%5:00:00:cardinal:00",
           "synset": "02205145-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "160": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "160%5:00:00:cardinal:00",
           "synset": "02205264-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "165": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "165%5:00:00:cardinal:00",
           "synset": "02205377-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "170": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "170%5:00:00:cardinal:00",
           "synset": "02205497-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "175": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "175%5:00:00:cardinal:00",
           "synset": "02205613-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "180": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "180%5:00:00:cardinal:00",
           "synset": "02205738-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "190": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "190%5:00:00:cardinal:00",
           "synset": "02205856-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "200": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "200%5:00:00:cardinal:00",
           "synset": "02205971-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "300": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "300%5:00:00:cardinal:00",
           "synset": "02206078-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "400": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "400%5:00:00:cardinal:00",
           "synset": "02206189-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "500": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "500%5:00:00:cardinal:00",
           "synset": "02206300-s"
@@ -1701,18 +1578,17 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "500%1:23:00::",
           "synset": "13772852-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1000": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "1000%5:00:00:cardinal:00",
           "synset": "02206421-s"
@@ -1720,128 +1596,117 @@
       ]
     },
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1000%1:23:00::",
           "synset": "13772984-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1728": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1728%1:23:00::",
           "synset": "13773298-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "10000": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "10000%1:23:00::",
           "synset": "13773405-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "100000": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "100000%1:23:00::",
           "synset": "13773544-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1000000": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1000000%1:23:00::",
           "synset": "13773673-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1000000000": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1000000000%1:23:00::",
           "synset": "13773969-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "'hood": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "'hood%1:14:01::",
           "synset": "08242255-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "'s Gravenhage": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "'s_gravenhage%1:15:00::",
           "synset": "08970180-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "'tween": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "'tween%4:02:00::",
           "synset": "00252367-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "'tween decks": {
     "r": {
-      "senses": [
+      "sense": [
         {
           "id": "'tween_decks%4:02:00::",
           "synset": "00500491-r"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".22": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": ".22%1:06:00::",
           "synset": "04510146-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".22 caliber": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -1853,12 +1718,11 @@
           "synset": "03157978-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".22 calibre": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -1872,12 +1736,11 @@
           "synset": "03157978-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".22-caliber": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -1889,12 +1752,11 @@
           "synset": "03157978-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".22-calibre": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -1908,12 +1770,11 @@
           "synset": "03157978-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".38 caliber": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -1925,12 +1786,11 @@
           "synset": "03158270-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".38 calibre": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -1944,12 +1804,11 @@
           "synset": "03158270-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".38-caliber": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -1961,12 +1820,11 @@
           "synset": "03158270-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".38-calibre": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -1980,12 +1838,11 @@
           "synset": "03158270-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".45 caliber": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -1997,12 +1854,11 @@
           "synset": "03158563-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".45 calibre": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -2016,12 +1872,11 @@
           "synset": "03158563-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".45-caliber": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "american_spelling%1:10:01::"
@@ -2033,12 +1888,11 @@
           "synset": "03158563-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   ".45-calibre": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "exemplifies": [
             "british_spelling%1:10:01::",
@@ -2052,111 +1906,101 @@
           "synset": "03158563-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1 Chronicles": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1_chronicles%1:10:00::",
           "synset": "06447321-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1 Esdras": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1_esdras%1:10:00::",
           "synset": "06471648-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1 Kings": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1_kings%1:10:00::",
           "synset": "06446674-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1 Maccabees": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1_maccabees%1:10:00::",
           "synset": "06472446-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1 Samuel": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1_samuel%1:10:00::",
           "synset": "06446320-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1-dodecanol": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1-dodecanol%1:27:00::",
           "synset": "14954808-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1-hitter": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1-hitter%1:04:00::",
           "synset": "00476153-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "10-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "10-membered%5:00:00:membered:00",
           "synset": "01507439-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "100 mL": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "100_ml%1:23:01::",
           "synset": "92410379-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1000000000000": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1000000000000%1:23:01::",
           "synset": "13774583-n"
@@ -2166,602 +2010,547 @@
           "synset": "13774312-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1000th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "1000th%5:00:00:ordinal:00",
           "synset": "02220142-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "100th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "100th%5:00:00:ordinal:00",
           "synset": "02217092-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "101st": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "101st%5:00:00:ordinal:00",
           "synset": "02217220-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "105th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "105th%5:00:00:ordinal:00",
           "synset": "02217347-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "10th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "10th%5:00:00:ordinal:00",
           "synset": "02211042-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "11 November": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "11_november%1:28:00::",
           "synset": "15210672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "11-plus": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "11-plus%1:04:00::",
           "synset": "00638388-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "110th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "110th%5:00:00:ordinal:00",
           "synset": "02217475-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "115th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "115th%5:00:00:ordinal:00",
           "synset": "02217602-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "11th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "11th%5:00:00:ordinal:00",
           "synset": "02211169-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "12-tone music": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "12-tone_music%1:10:00::",
           "synset": "07071579-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "12-tone system": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "12-tone_system%1:10:00::",
           "synset": "07071579-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "120th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "120th%5:00:00:ordinal:00",
           "synset": "02217737-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "125th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "125th%5:00:00:ordinal:00",
           "synset": "02217871-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "12th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "12th%5:00:00:ordinal:00",
           "synset": "02211298-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "130th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "130th%5:00:00:ordinal:00",
           "synset": "02218013-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "135th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "135th%5:00:00:ordinal:00",
           "synset": "02218147-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "13th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "13th%5:00:00:ordinal:00",
           "synset": "02211432-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "14 July": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "14_july%1:28:00::",
           "synset": "15225328-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "140th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "140th%5:00:00:ordinal:00",
           "synset": "02218289-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "145th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "145th%5:00:00:ordinal:00",
           "synset": "02218421-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "14th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "14th%5:00:00:ordinal:00",
           "synset": "02211537-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "15 August 1945": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "15_august_1945%1:28:00::",
           "synset": "15187929-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "15 May Organization": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "15_may_organization%1:14:00::",
           "synset": "08056064-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "15 minutes": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "15_minutes%1:28:00::",
           "synset": "15253063-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "150th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "150th%5:00:00:ordinal:00",
           "synset": "02218561-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1530s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1530s%1:28:00::",
           "synset": "15173747-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "155th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "155th%5:00:00:ordinal:00",
           "synset": "02218693-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "15th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "15th%5:00:00:ordinal:00",
           "synset": "02211645-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "16 PF": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "16_pf%1:10:00::",
           "synset": "06487604-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "160th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "160th%5:00:00:ordinal:00",
           "synset": "02218833-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "165th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "165th%5:00:00:ordinal:00",
           "synset": "02218965-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "16th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "16th%5:00:00:ordinal:00",
           "synset": "02211800-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "17 November": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "17_november%1:14:00::",
           "synset": "08059288-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "170th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "170th%5:00:00:ordinal:00",
           "synset": "02219105-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1750s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1750s%1:28:00::",
           "synset": "15174893-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "175th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "175th%5:00:00:ordinal:00",
           "synset": "02219241-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1760s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1760s%1:28:00::",
           "synset": "15175264-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1770s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1770s%1:28:00::",
           "synset": "15175750-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1780s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1780s%1:28:00::",
           "synset": "15176135-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1790s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1790s%1:28:00::",
           "synset": "15176521-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "17th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "17th%5:00:00:ordinal:00",
           "synset": "02211906-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "18-karat gold": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "18-karat_gold%1:27:00::",
           "synset": "14663447-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "180th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "180th%5:00:00:ordinal:00",
           "synset": "02219385-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1820s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1820s%1:28:00::",
           "synset": "15173918-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1830s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1830s%1:28:00::",
           "synset": "15174231-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1840s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1840s%1:28:00::",
           "synset": "15174522-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1850s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1850s%1:28:00::",
           "synset": "15174813-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1860s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1860s%1:28:00::",
           "synset": "15175184-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1862 Apollo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1862_apollo%1:17:01::",
           "synset": "09224067-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1870s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1870s%1:28:00::",
           "synset": "15175670-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1880s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1880s%1:28:00::",
           "synset": "15176044-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1890s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1890s%1:28:00::",
           "synset": "15176430-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "18th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "18th%5:00:00:ordinal:00",
           "synset": "02212032-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1900s": {
     "n": {
@@ -2770,102 +2559,93 @@
           "value": "naɪn.tiːn.ˈhʌn.dɹədz"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "1900s%1:28:00::",
           "synset": "15173667-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "190th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "190th%5:00:00:ordinal:00",
           "synset": "02219519-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1920s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1920s%1:28:00::",
           "synset": "15173827-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1930s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1930s%1:28:00::",
           "synset": "15174140-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1940s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1940s%1:28:00::",
           "synset": "15174432-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1950s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1950s%1:28:00::",
           "synset": "15174723-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1960s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1960s%1:28:00::",
           "synset": "15175094-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1970s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1970s%1:28:00::",
           "synset": "15175578-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1980s": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1980s%1:28:00::",
           "synset": "15175953-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1990s": {
     "n": {
@@ -2879,25 +2659,23 @@
           "variety": "US"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "1990s%1:28:00::",
           "synset": "15176339-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "19th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "19th%5:00:00:ordinal:00",
           "synset": "02212141-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st": {
     "a": {
@@ -2911,458 +2689,417 @@
           "variety": "GB"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "1st%3:00:00::",
           "synset": "01014459-a"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st Baron Beaverbrook": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_baron_beaverbrook%1:18:00::",
           "synset": "10859387-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st Baron Verulam": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_baron_verulam%1:18:00::",
           "synset": "10850052-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st Earl Attlee": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_earl_attlee%1:18:00::",
           "synset": "10847477-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st Earl Baldwin of Bewdley": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_earl_baldwin_of_bewdley%1:18:00::",
           "synset": "10851681-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st Earl of Balfour": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_earl_of_balfour%1:18:00::",
           "synset": "10852164-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st Viscount Montgomery of Alamein": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_viscount_montgomery_of_alamein%1:18:00::",
           "synset": "11208306-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st class": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_class%1:10:00::",
           "synset": "06275925-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st lieutenant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st_lieutenant%1:18:00::",
           "synset": "10112747-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "1st-class mail": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "1st-class_mail%1:10:00::",
           "synset": "06275925-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2 Chronicles": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2_chronicles%1:10:00::",
           "synset": "06447586-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2 Esdras": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2_esdras%1:10:00::",
           "synset": "06471837-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2 Kings": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2_kings%1:10:00::",
           "synset": "06446868-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2 Maccabees": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2_maccabees%1:10:00::",
           "synset": "06472596-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2 Pallas": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2_pallas%1:17:01::",
           "synset": "09406891-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2 Samuel": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2_samuel%1:10:00::",
           "synset": "06446496-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2-dimensional": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "2-dimensional%5:00:00:multidimensional:00",
           "synset": "00663738-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2-hitter": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2-hitter%1:04:00::",
           "synset": "00476284-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2-hydroxybenzoic acid": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2-hydroxybenzoic_acid%1:27:00::",
           "synset": "15034605-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2-methylpropenoic acid": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2-methylpropenoic_acid%1:27:00::",
           "synset": "14640000-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "20/20": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "20/20%1:09:00::",
           "synset": "05663655-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "200th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "200th%5:00:00:ordinal:00",
           "synset": "02219658-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2019-nCoV acute respiratory disease": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2019-ncov_acute_respiratory_disease%1:26:01::",
           "synset": "82230893-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "20th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "20th%5:00:00:ordinal:00",
           "synset": "02212385-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "21st": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "21st%5:00:00:ordinal:00",
           "synset": "02212492-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "22-karat gold": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "22-karat_gold%1:27:00::",
           "synset": "14663546-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "22nd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "22nd%5:00:00:ordinal:00",
           "synset": "02212601-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "23rd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "23rd%5:00:00:ordinal:00",
           "synset": "02212714-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "24-hour interval": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "24-hour_interval%1:28:00::",
           "synset": "15180180-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "24-karat gold": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "24-karat_gold%1:27:00::",
           "synset": "14663645-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "24/7": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "24/7%1:28:00::",
           "synset": "15142953-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "24th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "24th%5:00:00:ordinal:00",
           "synset": "02212827-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "25 de Abril Bridge": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "25_de_abril_bridge%1:06:01::",
           "synset": "03987562-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "25th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "25th%5:00:00:ordinal:00",
           "synset": "02212940-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "26th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "26th%5:00:00:ordinal:00",
           "synset": "02213053-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "27th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "27th%5:00:00:ordinal:00",
           "synset": "02213165-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "28th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "28th%5:00:00:ordinal:00",
           "synset": "02213279-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "29th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "29th%5:00:00:ordinal:00",
           "synset": "02213394-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2d": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "2d%5:00:00:ordinal:00",
           "synset": "02209815-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2nd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "2nd%5:00:00:ordinal:00",
           "synset": "02209815-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "2nd lieutenant": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "2nd_lieutenant%1:18:00::",
           "synset": "10588455-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3-D": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3-d%1:10:00::",
           "synset": "06631444-n"
@@ -3372,199 +3109,181 @@
           "synset": "05948666-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3-dimensional": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "3-dimensional%5:00:00:multidimensional:00",
           "synset": "00663996-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3-hitter": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3-hitter%1:04:00::",
           "synset": "00476414-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "3-membered%5:00:00:membered:00",
           "synset": "01506475-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "30 minutes": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "30_minutes%1:28:00::",
           "synset": "15252958-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "300th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "300th%5:00:00:ordinal:00",
           "synset": "02219777-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "30th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "30th%5:00:00:ordinal:00",
           "synset": "02213507-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "31st": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "31st%5:00:00:ordinal:00",
           "synset": "02213616-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "32nd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "32nd%5:00:00:ordinal:00",
           "synset": "02213725-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "33rd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "33rd%5:00:00:ordinal:00",
           "synset": "02213842-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "34th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "34th%5:00:00:ordinal:00",
           "synset": "02213960-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "35th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "35th%5:00:00:ordinal:00",
           "synset": "02214078-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "365 days": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "365_days%1:28:00::",
           "synset": "15226966-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "366 days": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "366_days%1:28:00::",
           "synset": "15227065-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "36th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "36th%5:00:00:ordinal:00",
           "synset": "02214195-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "37th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "37th%5:00:00:ordinal:00",
           "synset": "02214311-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "38th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "38th%5:00:00:ordinal:00",
           "synset": "02214431-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "39th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "39th%5:00:00:ordinal:00",
           "synset": "02214550-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3D": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3d%1:10:00::",
           "synset": "06631444-n"
@@ -3574,265 +3293,241 @@
           "synset": "05948666-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3TC": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3tc%1:06:00::",
           "synset": "03641353-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3d radar": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3d_radar%1:06:00::",
           "synset": "04434694-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3rd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "3rd%5:00:00:ordinal:00",
           "synset": "02209976-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "3rd October Organization": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "3rd_october_organization%1:14:00::",
           "synset": "08033138-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4 Vesta": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "4_vesta%1:17:01::",
           "synset": "09494354-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4-dimensional": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "4-dimensional%5:00:00:multidimensional:00",
           "synset": "00664333-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4-hitter": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "4-hitter%1:04:00::",
           "synset": "00476546-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "4-membered%5:00:00:membered:00",
           "synset": "01506604-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4.5-Inch Beach Barrage Rocket": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "4.5-inch_beach_barrage_rocket%1:17:01::",
           "synset": "09401090-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "400th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "400th%5:00:00:ordinal:00",
           "synset": "02219900-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "401-k": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "401-k%1:09:00::",
           "synset": "05920154-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "401-k plan": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "401-k_plan%1:09:00::",
           "synset": "05920154-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "40th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "40th%5:00:00:ordinal:00",
           "synset": "02214667-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "41st": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "41st%5:00:00:ordinal:00",
           "synset": "02214774-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "42nd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "42nd%5:00:00:ordinal:00",
           "synset": "02214888-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "43rd": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "43rd%5:00:00:ordinal:00",
           "synset": "02215003-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "440 yards": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "440_yards%1:23:00::",
           "synset": "13673549-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "44th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "44th%5:00:00:ordinal:00",
           "synset": "02215119-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "45th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "45th%5:00:00:ordinal:00",
           "synset": "02215235-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "46th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "46th%5:00:00:ordinal:00",
           "synset": "02215350-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "47th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "47th%5:00:00:ordinal:00",
           "synset": "02215464-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "48th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "48th%5:00:00:ordinal:00",
           "synset": "02215582-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "49th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "49th%5:00:00:ordinal:00",
           "synset": "02215699-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4WD": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "4wd%1:06:01::",
           "synset": "03394607-n"
@@ -3842,349 +3537,317 @@
           "synset": "03394457-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "4th%5:00:00:ordinal:00",
           "synset": "02210112-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "4to": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "4to%1:07:00::",
           "synset": "05104082-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "5-hitter": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "5-hitter%1:04:00::",
           "synset": "00476672-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "5-hydroxy-3-methylglutaryl-coenzyme A reductase": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "5-hydroxy-3-methylglutaryl-coenzyme_a_reductase%1:27:00::",
           "synset": "14636622-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "5-hydroxytryptamine": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "5-hydroxytryptamine%1:27:00::",
           "synset": "14832443-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "5-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "5-membered%5:00:00:membered:00",
           "synset": "01506731-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "50000 Quaoar": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "50000_quaoar%1:17:01::",
           "synset": "09424625-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "500th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "500th%5:00:00:ordinal:00",
           "synset": "02220021-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "50th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "50th%5:00:00:ordinal:00",
           "synset": "02215814-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "55th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "55th%5:00:00:ordinal:00",
           "synset": "02215939-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "5th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "5th%5:00:00:ordinal:00",
           "synset": "02210381-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "6 June 1944": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "6_june_1944%1:28:00::",
           "synset": "15187570-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "6-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "6-membered%5:00:00:membered:00",
           "synset": "01506858-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "60 minutes": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "60_minutes%1:28:00::",
           "synset": "15252642-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "60th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "60th%5:00:00:ordinal:00",
           "synset": "02216054-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "64th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "64th%5:00:00:ordinal:00",
           "synset": "02216161-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "65th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "65th%5:00:00:ordinal:00",
           "synset": "02216277-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "6th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "6th%5:00:00:ordinal:00",
           "synset": "02210523-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "7-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "7-membered%5:00:00:membered:00",
           "synset": "01507054-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "70th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "70th%5:00:00:ordinal:00",
           "synset": "02216392-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "75th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "75th%5:00:00:ordinal:00",
           "synset": "02216521-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "7th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "7th%5:00:00:ordinal:00",
           "synset": "02210648-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "8 May 1945": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "8_may_1945%1:28:00::",
           "synset": "15187811-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "8-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "8-membered%5:00:00:membered:00",
           "synset": "01507183-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "80th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "80th%5:00:00:ordinal:00",
           "synset": "02216640-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "85th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "85th%5:00:00:ordinal:00",
           "synset": "02216749-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "880 yards": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "880_yards%1:23:00::",
           "synset": "13673422-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "8th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "8th%5:00:00:ordinal:00",
           "synset": "02210792-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "8vo": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "8vo%1:07:00::",
           "synset": "05103670-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "9-11": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "9-11%1:28:00::",
           "synset": "15325294-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "9-membered": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "9-membered%5:00:00:membered:00",
           "synset": "01507312-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "9/11": {
     "n": {
@@ -4193,57 +3856,52 @@
           "value": "naɪn.əˈlɛvən"
         }
       ],
-      "senses": [
+      "sense": [
         {
           "id": "9/11%1:28:00::",
           "synset": "15325294-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "90377 Sedna": {
     "n": {
-      "senses": [
+      "sense": [
         {
           "id": "90377_sedna%1:17:01::",
           "synset": "09452098-n"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "90th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "90th%5:00:00:ordinal:00",
           "synset": "02216866-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "95th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "95th%5:00:00:ordinal:00",
           "synset": "02216975-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   },
   "9th": {
     "a": {
-      "senses": [
+      "sense": [
         {
           "id": "9th%5:00:00:ordinal:00",
           "synset": "02210918-s"
         }
       ]
-    },
-    "isAnglish": false
+    }
   }
 }
