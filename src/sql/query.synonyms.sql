@@ -14,7 +14,7 @@ Synsets AS (
     FROM synset
     WHERE id IN (SELECT synset_id FROM SensesIn)
 ),
-RelatedSynsets AS (
+SimilarSynsets AS (
     SELECT synset_id_2 AS id
     FROM synset_synset
     WHERE synset_id_1 IN (SELECT id FROM Synsets) AND relation = 'similar'
@@ -22,14 +22,14 @@ RelatedSynsets AS (
 CombinedSynsets AS (
     SELECT id FROM Synsets
     UNION
-    SELECT id FROM RelatedSynsets
+    SELECT id FROM SimilarSynsets
 ),
 SensesOut AS (
     SELECT word_id
     FROM sense
     WHERE synset_id IN (SELECT id FROM CombinedSynsets)
 )
-SELECT *
+SELECT word
 FROM word
 WHERE word != %word
   AND id IN (SELECT word_id FROM SensesOut)

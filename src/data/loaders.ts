@@ -11,6 +11,7 @@ import {
   AnglishEntry,
   WordnetEntry,
   WordnetSynset,
+  CompiledEntry,
 } from '../lib/types';
 import * as util from '../lib/util';
 import { logger } from '../lib/util';
@@ -39,7 +40,7 @@ export class WiktionaryLoader {
     if (options?.save) {
       logger.info(`Loading ${this.dataPath}`);
       await this.loadWithStream(this.lineHandler.bind(this));
-      logger.info(`Saving ${this.jsonPath}`);
+      logger.info(`Writing ${this.jsonPath}`);
       util.writeJSON(this.anglish, this.jsonPath);
     } else {
       try {
@@ -61,38 +62,50 @@ export class WiktionaryLoader {
       return;
     }
     const isWord = WORD_REGEXP.test(word);
-    const isAnglish = this.isAnglish(json.etymology_templates);
+    const isAnglish = this.isAnglish(json.etymology_templates, json);
     if (isWord && isAnglish) {
       this.createOrUpdateEntry(word, pos, json);
     }
   }
 
-  public static isAnglish(templates: any[]) {
+  public static isAnglish(templates: any[], word: string) {
+    if (this.anglish[word]) {
+      // If word has already been set to Anglish, return true.
+      return true;
+    }
+
     let hasGermanic = false;
     let hasLatin = false;
 
     if (Array.isArray(templates)) {
-      let foundInheritedOrDerivative = false;
-      for (const etym of templates) {
-        if (['inh', 'der'].includes(etym.name)) {
-          foundInheritedOrDerivative = true;
-          if (/(English|Germanic|Norse|Saxon|Frankish)/i.test(etym.expansion)) {
+      let foundSource = false;
+      for (const template of templates) {
+        if (
+          template.name === 'inh' ||
+          template.name === 'der' ||
+          template.name === 'bor'
+        ) {
+          foundSource = true;
+          if (
+            /(English|Germanic|Norse|Saxon|Frankish)/i.test(template.expansion)
+          ) {
             hasGermanic = true;
-          } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
+          } else if (/(French|Latin|Greek)/i.test(template.expansion)) {
             hasLatin = true;
           }
         }
       }
-      if (!foundInheritedOrDerivative) {
-        for (const etym of templates) {
-          if (etym.name === 'cog') {
+
+      if (!foundSource) {
+        for (const template of templates) {
+          if (template.name === 'cog') {
             if (
               /(English|German|Norse|Saxon|Frankish|Danish)/i.test(
-                etym.expansion
+                template.expansion
               )
             ) {
               hasGermanic = true;
-            } else if (/(French|Latin|Greek)/i.test(etym.expansion)) {
+            } else if (/(French|Latin|Greek)/i.test(template.expansion)) {
               hasLatin = true;
             }
           }
@@ -101,6 +114,26 @@ export class WiktionaryLoader {
     }
 
     return hasGermanic && !hasLatin;
+  }
+
+  public static isAnglishCompound(
+    templates: any[],
+    word: string,
+    compoundSource: Record<string, CompiledEntry>
+  ) {
+    for (const template of templates) {
+      if (compoundSource && template.name === 'compound') {
+        for (const key in template.args) {
+          if (key === '1' || isNaN(parseInt(key))) continue;
+          const part = template.args[key];
+          if (!compoundSource[part]?.isAnglish) {
+            return false;
+          }
+        }
+      }
+    }
+    logger.verbose(`Setting compound word "${word}" to Anglish`);
+    return true;
   }
 
   /**
@@ -208,7 +241,7 @@ export class WiktionaryLoader {
     const entry = this.anglish[word];
 
     if (json.etymology_text) {
-      entry.pos[pos]!.origins!.push(json.etymology_text);
+      entry.pos[pos]!.origins.push(json.etymology_text);
     }
 
     for (const sense of json.senses) {
@@ -237,7 +270,7 @@ export class HurlebatteLoader {
   public static async load(options: OptionValues): Promise<void> {
     if (options?.save) {
       await this.loadCSV(options);
-      logger.info(`Saving ${this.jsonPath}`);
+      logger.info(`Writing ${this.jsonPath}`);
       util.writeJSON(this.anglish, this.jsonPath);
     } else {
       try {
@@ -310,7 +343,7 @@ export class HurlebatteLoader {
 
     for (const pos of posArr) {
       if (origin) {
-        entry.pos[pos]!.origins!.push(origin);
+        entry.pos[pos]!.origins.push(origin);
       }
       for (const sense of senses) {
         entry.pos[pos]!.senses.push({
@@ -395,7 +428,7 @@ export class MootLoader {
       await this.scrapeEnglish(options);
       await this.scrapeAnglish(options);
       this.anglish = util.sortObj(this.anglish);
-      logger.info(`Saving ${this.jsonPath}`);
+      logger.info(`Writing ${this.jsonPath}`);
       util.writeJSON(this.anglish, this.jsonPath);
     } else {
       try {
@@ -440,7 +473,7 @@ export class MootLoader {
       const url = this.baseURL + href;
       const data = await this.fetch(url);
       const filename = `${href.split('/').pop()}.html`;
-      logger.info(`Saving ${dir}${filename}`);
+      logger.info(`Writing ${dir}${filename}`);
       util.writeFile(data, dir, filename);
     }
   }
@@ -664,7 +697,7 @@ export class MootLoader {
 
     for (const pos of posArr) {
       if (origin) {
-        entry.pos[pos]!.origins!.push(origin);
+        entry.pos[pos]!.origins.push(origin);
       }
       for (const sense of senses) {
         entry.pos[pos]!.senses.push({
@@ -729,7 +762,7 @@ export class WordnetLoader {
       }
 
       const filenameJSON = filename.replace(/yaml$/, 'json');
-      logger.info(`Saving ${this.dirJSON}${filenameJSON}`);
+      logger.info(`Writing ${this.dirJSON}${filenameJSON}`);
       util.writeJSON(json, this.dirJSON, filenameJSON);
     }
   }

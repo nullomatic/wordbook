@@ -1,11 +1,10 @@
-import * as fs from 'fs';
 import _ from 'lodash';
-import * as pg from 'pg';
+import pg from 'pg';
 import format from 'pg-format';
 import { RedisClientType } from 'redis';
 import * as util from '../lib/util';
 import { logger } from '../lib/util';
-import { DatabaseClient } from '../lib/client';
+import { DatabaseClient, RedisClient } from '../lib/client';
 import {
   WordnetSense,
   WordnetSynset,
@@ -13,7 +12,6 @@ import {
   POS,
   CompiledEntry,
 } from '../lib/types';
-import { getFiles } from '../lib/util';
 
 const REDIS_SEARCH_INDEX_KEY = 'search_index';
 
@@ -25,6 +23,7 @@ let redis: RedisClientType;
  */
 export async function populateDatabase() {
   postgres = await DatabaseClient.getClient();
+  redis = await RedisClient.getClient();
   await resetDatabase();
   await loadSynsets();
   await loadFrames();
@@ -36,8 +35,7 @@ export async function populateDatabase() {
  */
 async function resetDatabase() {
   logger.info(`Resetting database`);
-  const fullPath = util.getPath('/../sql/setup.sql');
-  const sql = fs.readFileSync(fullPath, 'utf-8');
+  const sql = util.readFile('/sql/setup.sql');
   await postgres.query(sql);
   await redis.flushAll();
 }
@@ -50,7 +48,7 @@ async function loadSynsets() {
   const synsets: { [id: string]: WordnetSynset } = {};
   const dir = '/data/assets/wordnet/json/';
   const pattern = `${dir}{adj,adv,noun,verb}.*.json`;
-  const filenames = getFiles(pattern);
+  const filenames = util.getFiles(pattern);
 
   logger.info(`Loading files in ${dir}`);
 
@@ -58,8 +56,7 @@ async function loadSynsets() {
   let values = [];
   for (const { filename, path } of filenames) {
     if (isSynsetFile(filename)) {
-      const file = fs.readFileSync(path, 'utf-8');
-      const json = JSON.parse(file);
+      const json = util.readJSON(path);
       for (const synsetId in json) {
         const synset = json[synsetId];
         synsets[synsetId] = synset;
@@ -130,9 +127,7 @@ async function loadEntries() {
 }
 
 async function loadFrames() {
-  const fullPath = util.getPath('/assets/wordnet/json/frames.json');
-  const file = fs.readFileSync(fullPath, 'utf-8');
-  const json = JSON.parse(file);
+  const json = util.readJSON('/data/assets/wordnet/json/frames.json');
   const values = [];
   for (const frame in json) {
     const template = json[frame];
@@ -157,15 +152,14 @@ async function insertEntries(
 ): Promise<pg.QueryResult> {
   const dir = '/data/compiled/';
   const pattern = `${dir}*.json`;
-  const filenames = getFiles(pattern);
+  const filenames = util.getFiles(pattern);
 
   const values = [];
   const promises = [];
 
   for (const { path } of filenames) {
     // Handle file.
-    const file = fs.readFileSync(path, 'utf-8');
-    const json = JSON.parse(file);
+    const json = util.readJSON(path);
     for (const word in json) {
       const posArr = [];
       // Handle word.
@@ -183,11 +177,11 @@ async function insertEntries(
         // Handle part of speech.
         posArr.push(pos);
         values.push([
-          word,
-          pos,
-          entry.pos[pos].forms ? format('{%L}', entry.pos[pos].forms) : null,
-          entry.pos[pos].origins || null,
-          entry.pos[pos].rhyme,
+          pg.escapeLiteral(word),
+          pg.escapeLiteral(pos),
+          escapeArray(entry.pos[pos].forms),
+          escapeArray(entry.pos[pos].origins),
+          pg.escapeLiteral(entry.pos[pos].rhyme),
           entry.isAnglish,
         ]);
       }
@@ -200,15 +194,15 @@ async function insertEntries(
   }
 
   logger.info(`Inserting ${values.length} entries`);
-  const res = await postgres.query(
-    // prettier-ignore
-    format(
-      `INSERT INTO word (word, pos, forms, origin, rhymes, is_anglish) ` +
-      `VALUES %L ` +
-      `RETURNING id, word, pos`,
-    values)
-  );
 
+  const formatted = values.map((cells) => `(${cells.join(', ')})`).join(', ');
+
+  const queryString = // prettier-ignore
+    `INSERT INTO word (word, pos, forms, origins, rhyme, is_anglish) ` +
+    `VALUES ${formatted} ` +
+    `RETURNING id, word, pos`;
+
+  const res = await postgres.query(queryString);
   await Promise.all(promises);
 
   return res;
@@ -312,25 +306,37 @@ async function insertSenseRelations(
     }
   }
 
-  logger.info(`Inserting ${relationValues.length} sense-sense relations`);
-  await postgres.query(
-    // prettier-ignore
-    format(
+  if (relationValues.length) {
+    logger.info(`Inserting ${relationValues.length} sense-sense relations`);
+    await postgres.query(
+      // prettier-ignore
+      format(
       `INSERT INTO sense_sense (sense_id_1, sense_id_2, relation) ` +
       `VALUES %L`,
     relationValues)
-  );
+    );
+  } else {
+    logger.warn(`No sense-sense relations found to insert`);
+  }
 
-  logger.info(`Inserting ${frameValues.length} sense-frame relations`);
-  await postgres.query(
-    // prettier-ignore
-    format(
+  if (frameValues.length) {
+    logger.info(`Inserting ${frameValues.length} sense-frame relations`);
+    await postgres.query(
+      // prettier-ignore
+      format(
       `INSERT INTO sense_frame (sense_id, frame_id) ` +
       `VALUES %L`,
     frameValues)
-  );
+    );
+  } else {
+    logger.warn(`No sense-frame relations found to insert`);
+  }
 }
 
 function isSynsetFile(filename: string) {
   return /(adj|adv|noun|verb)\.\w+\.(json|yaml)$/i.test(filename);
+}
+
+function escapeArray(arr: string[]) {
+  return `ARRAY[${arr.map((str) => pg.escapeLiteral(str)).join(',')}]::TEXT[]`;
 }

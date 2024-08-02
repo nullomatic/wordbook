@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { debounce } from 'lodash';
 import Link from 'next/link';
 import { useState } from 'react';
-import { Lang, POS, Shorthand } from '@/lib/types';
+import { Lang, POS, Longhand } from '@/lib/types';
 
 export default function Search() {
   const results: any = [];
@@ -59,7 +59,7 @@ export default function Search() {
               <div className='space-x-1 flex justify-end text-sm text-stone-800 dark:text-stone-200'>
                 {entry.parts.map((pos: POS, j: number) => (
                   <div className='' key={`search-result-${i}-pos-${j}`}>
-                    {Shorthand[pos].short}
+                    {Longhand[pos].short}
                   </div>
                 ))}
               </div>

@@ -1,5 +1,6 @@
-import * as pg from 'pg';
+import pg from 'pg';
 import * as redis from 'redis';
+import { logger } from './util';
 
 export class DatabaseClient {
   private static client: pg.Client;
@@ -24,15 +25,7 @@ export class RedisClient {
   public static async getClient(): Promise<redis.RedisClientType> {
     if (!RedisClient.client) {
       RedisClient.client = await redis.createClient();
-      RedisClient.client.on('error', (error) => {
-        if (error.code === 'ECONNREFUSED') {
-          console.error(
-            `Redis client connection error. Start Redis on port ${error.port} before running.`
-          );
-        } else {
-          console.error('Redis client:', error);
-        }
-      });
+      RedisClient.client.on('error', (error) => logger.error(error));
       await RedisClient.client.connect();
     }
     return RedisClient.client;

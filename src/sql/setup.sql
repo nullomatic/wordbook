@@ -14,8 +14,8 @@ CREATE TABLE word (
     word VARCHAR(80) NOT NULL,
     pos VARCHAR(3) NOT NULL,
     forms VARCHAR(80)[],
-    origin TEXT,
-    rhymes VARCHAR(80),
+    origins TEXT[],
+    rhyme VARCHAR(80),
     is_anglish BOOLEAN NOT NULL
 );
 

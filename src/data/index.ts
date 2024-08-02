@@ -1,13 +1,14 @@
 import { Command, OptionValues } from 'commander';
 import compileSources from './compile';
 import { populateDatabase } from './db';
-import { logger } from '../lib/util.js';
+import { doThing, logger } from '../lib/util.js';
 
 main()
   .then(() => process.exit())
   .catch((error: Error) => {
     logger.error(error.message);
     console.error(error.stack);
+    process.exit();
   });
 
 async function main() {
@@ -24,6 +25,9 @@ async function main() {
   if (options.populate) {
     await populateDatabase();
   }
+  if (options.countOrigins) {
+    doThing();
+  }
 }
 
 function parseOptions(): OptionValues {
@@ -37,6 +41,7 @@ function parseOptions(): OptionValues {
   program.option('--match-senses', 'Match word senses with ChatGPT');
   program.option('--fix-senses', 'Fix words in ChatGPT error log');
   program.option('--from-disk', 'Load sources from disk');
+  program.option('--count-origins', 'asdf');
   program.parse(process.argv);
   return program.opts();
 }

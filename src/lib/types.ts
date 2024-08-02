@@ -29,16 +29,18 @@ export enum POS {
 
 export type CompiledEntry = {
   pos: {
-    [pos in POS]: {
-      senses: WordnetSense[];
-      pronunciation?: { value: string; variety?: string }[];
-      rhyme?: string;
-      forms?: string[];
-      sounds?: Sound[];
-      origins?: string[]; // TODO: Move `origin` to root level.
-    };
+    [pos in POS]: CompiledPOS;
   };
   isAnglish: boolean;
+};
+
+export type CompiledPOS = {
+  senses: WordnetSense[];
+  pronunciation: { value: string; variety?: string }[];
+  rhyme: string;
+  forms: string[];
+  sounds: Sound[];
+  origins: string[]; // TODO: Move `origin` to root level?
 };
 
 export type WordnetEntry = {
@@ -115,7 +117,7 @@ export type AnglishEntry = {
         english: string;
         source: AnglishSource;
       }[];
-      origins?: string[];
+      origins: string[];
     };
   };
   isAnglish: boolean;

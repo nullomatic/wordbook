@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import { globSync, Path } from 'glob';
 import * as winston from 'winston';
 import YAML from 'yaml';
+import { CompiledEntry, POS } from './types';
 
 const SOURCE_DIR = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const logFormat = winston.format.printf(function (info) {
@@ -44,7 +45,7 @@ export function stream(path: string) {
 }
 
 export function isAbsolute(_path: string) {
-  // Works better than `path.isAbsolute`, because it doesn't
+  // Works better than `path.isAbsolute` because it doesn't
   // return `true` for '/some/relative/path'.
   return _path === path.resolve(_path);
 }
@@ -89,4 +90,25 @@ export function sortObj<T extends Record<string, any>>(obj: T): T {
       (acc as any)[key] = obj[key];
       return acc;
     }, {} as T);
+}
+
+export function doThing() {
+  const files = getFiles('/data/compiled/*.json');
+  let count = 0;
+  for (const { path } of files) {
+    logger.info(`In file ${path}`);
+    const entries = readJSON(path);
+    for (const word in entries) {
+      const entry: CompiledEntry = entries[word];
+      if (entry.isAnglish) {
+        console.log(word);
+      }
+      // for (const pos in entry.pos) {
+      //   if (entry.pos[pos as POS].origins.length > 1) {
+      //     count++;
+      //   }
+      // }
+    }
+  }
+  console.log(`origins to distill: ${count}`);
 }

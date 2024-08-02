@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`flex min-h-screen flex-col items-center bg-stone-100 text-black dark:bg-stone-900 dark:text-white ${font.className}`}
       >
         <HeaderTabs />
-        <main className='px-3 my-12 w-full'>{children}</main>
+        <main className='px-3 my-8 w-full'>{children}</main>
         <footer className='w-full max-w-xl text-center dark:text-stone-600 py-8 px-3 text-xs'>
           <div>&copy; {new Date().getFullYear()}</div>
           <div>

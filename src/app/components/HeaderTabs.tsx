@@ -17,7 +17,7 @@ export default function HeaderTabs() {
           🧙‍♂️ Translator
         </Link>
       </div>
-      <div className='flex flex-col w-full dark:bg-stone-700 px-3 py-4'>
+      <div className='flex flex-col w-full dark:bg-stone-700 px-3 py-3'>
         <Search />
       </div>
     </div>

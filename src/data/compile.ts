@@ -15,6 +15,7 @@ import {
   AnglishEntry,
   AnglishSource,
   CompiledEntry,
+  CompiledPOS,
   MatchedSenses,
   POS,
   Sound,
@@ -23,7 +24,9 @@ import {
 class Compiler {
   public static entries: Record<string, CompiledEntry> = {};
   private static matchedSenses: MatchedSenses = {};
+
   private constructor() {}
+
   public static async compile(options: OptionValues) {
     await WiktionaryLoader.load({
       ...options,
@@ -59,20 +62,39 @@ class Compiler {
     this.writeMasterWordNet();
   }
 
+  private static getDefaultEntry(isAnglish: boolean) {
+    return {
+      pos: {},
+      isAnglish,
+    } as CompiledEntry;
+  }
+
+  private static getDefaultPOS() {
+    return {
+      senses: [],
+      pronunciation: [],
+      rhyme: '',
+      forms: [],
+      sounds: [],
+      origins: [],
+    };
+  }
+
   private static cloneWordnetEntries() {
     for (const word in WordnetLoader.entries) {
       const entry = WordnetLoader.entries[word];
-      this.entries[word] = { pos: {}, isAnglish: false } as CompiledEntry;
+      this.entries[word] = this.getDefaultEntry(false);
       let pos: POS;
       for (pos in entry) {
-        _.set(this.entries, [word, 'pos', pos], {
-          senses: entry[pos].sense,
-          pronunciation: entry[pos].pronunciation,
-          rhyme: entry[pos].rhymes,
-          forms: entry[pos].form,
-          sounds: entry[pos].sounds,
+        // prettier-ignore
+        this.entries[word].pos[pos] = {
+          senses: entry[pos].sense || [],
+          pronunciation: entry[pos].pronunciation || [],
+          rhyme: entry[pos].rhymes || '',
+          forms: entry[pos].form || [],
+          sounds: entry[pos].sounds || [],
           origins: [],
-        });
+        };
       }
     }
   }
@@ -90,22 +112,13 @@ class Compiler {
   private static async mergeAnglishSource(source: AnglishEntries) {
     for (const word in source) {
       const sourceEntry = source[word];
-      const defaultPOS = Object.keys(sourceEntry.pos).reduce((acc, pos) => {
-        acc[pos as POS] = {
-          senses: [],
-          origins: [],
-        };
-        return acc;
-      }, {} as CompiledEntry['pos']);
-      const defaultEntry = {
-        pos: defaultPOS,
-        isAnglish: true,
-      } as CompiledEntry;
-      this.entries[word] = _.defaultsDeep(this.entries[word], defaultEntry);
+      const foo = _.cloneDeep(this.entries[word]);
+      this.entries[word] = this.entries[word] || this.getDefaultEntry(true);
       const entry = this.entries[word];
 
       let pos: POS;
       for (pos in sourceEntry.pos) {
+        entry.pos[pos] = entry.pos[pos] || this.getDefaultPOS();
         const matchedSenses = this.matchedSenses[word]?.pos[pos]?.map(
           (synsetId) => ({
             synset: synsetId,
@@ -120,7 +133,7 @@ class Compiler {
         }
         const origins = source[word].pos[pos]!.origins;
         if (origins) {
-          entry.pos[pos].origins!.push(...origins);
+          entry.pos[pos].origins.push(...origins);
         }
       }
     }
@@ -141,21 +154,28 @@ class Compiler {
   }
 
   private static async addWiktionaryData() {
-    logger.info(`Adding Wiktionary metadata...`);
     // There is a lot of good information in the Kaikki data, like comprehensive
     // word origins, pronunciation, translations... Extract and link some of it.
-    const handler = async (line: string) => {
+    const parseLine = async (line: string) => {
       const json = JSON.parse(line);
       const word = json.word;
       const pos = await WiktionaryLoader.formatPartOfSpeech(word, json.pos);
+      const entry = this.entries[word];
+      return { word, pos, entry, json };
+    };
+
+    const firstPass = async (line: string) => {
+      const { word, pos, entry, json } = await parseLine(line);
       if (!pos) {
         return;
       }
-      const entry = this.entries[word];
       if (entry) {
-        this.entries[word].isAnglish = WiktionaryLoader.isAnglish(
-          json.etymology_templates
-        );
+        if (!entry.isAnglish) {
+          this.entries[word].isAnglish = WiktionaryLoader.isAnglish(
+            json.etymology_templates,
+            word
+          );
+        }
         if (entry.pos[pos]) {
           if (json.etymology_text) {
             // This avoids adding duplicate origin information.
@@ -174,7 +194,34 @@ class Compiler {
       }
     };
 
-    await WiktionaryLoader.loadWithStream(handler);
+    const secondPass = async (line: string) => {
+      const { word, pos, entry, json } = await parseLine(line);
+      if (!pos) {
+        return;
+      }
+      if (entry) {
+        if (!entry.isAnglish) {
+          if (
+            json.etymology_templates?.some(
+              (template: any) => template.name === 'compound'
+            )
+          ) {
+            // This must run on the second pass, after all single-part
+            // words have had their `isAnglish` field set.
+            this.entries[word].isAnglish = WiktionaryLoader.isAnglishCompound(
+              json.etymology_templates,
+              word,
+              this.entries
+            );
+          }
+        }
+      }
+    };
+
+    logger.info(`Adding Wiktionary metadata (pass 1)...`);
+    await WiktionaryLoader.loadWithStream(firstPass);
+    logger.info(`Adding Wiktionary metadata (pass 2)...`);
+    await WiktionaryLoader.loadWithStream(secondPass);
   }
 
   /**
@@ -239,7 +286,7 @@ class Compiler {
     for (const key in master) {
       const filename = `entries-${key}.json`;
       const path = dir + filename;
-      logger.info(`Saving ${path}`);
+      logger.info(`Writing ${path}`);
       util.writeJSON(util.sortObj(master[key]), path);
     }
   }
