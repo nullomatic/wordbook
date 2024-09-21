@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function WordWidget() {
   return (
-    <div className='relative rounded-lg border-2 dark:border-stone-700 p-6 w-full shadow-lg dark:bg-stone-800'>
+    <div className='relative rounded-lg p-6 w-full shadow-lg dark:bg-stone-800'>
       <Link href='/word/bookcraft' className='text-sm absolute right-6 top-6'>
         <FontAwesomeIcon icon={faUpRightFromSquare} />
       </Link>
@@ -27,7 +27,7 @@ export default function WordWidget() {
         href='/word/bookcraft'
         className='block rounded-lg border-2 border-stone-200 dark:border-stone-600 bg-stone-100 dark:bg-stone-700 uppercase tracking-wider text-sm font-bold text-center p-3'
       >
-        See Synonyms
+        View Entry
       </Link>
     </div>
   );

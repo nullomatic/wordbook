@@ -17,8 +17,8 @@ export default function SynonymCard({
     <div
       className={classNames(
         {
-          'from-emerald-200 to-lime-100': color === 'green',
-          'from-blue-200 to-sky-100': color === 'blue',
+          'from-emerald-300 to-lime-200 text-green-800': color === 'green',
+          'from-blue-300 to-sky-200 text-sky-800': color === 'blue',
         },
         'rounded-lg p-3 text-center space-y-2 bg-gradient-to-tr'
       )}
@@ -38,7 +38,7 @@ export default function SynonymCard({
         {synonyms.map((synonym: string) => (
           <Link
             href={`/word/${synonym}`}
-            className='rounded-lg bg-white px-3 py-2 shadow-inner'
+            className='rounded-lg bg-white px-3 py-2'
           >
             {synonym}
           </Link>
