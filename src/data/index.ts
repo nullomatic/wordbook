@@ -1,6 +1,6 @@
 import { Command, OptionValues } from 'commander';
 import compileSources from './compile';
-import { populateDatabase } from './db';
+import { populateDatabase, rebuildSearchIndex } from './db';
 import { doThing, logger } from '../lib/util.js';
 
 main()
@@ -25,6 +25,9 @@ async function main() {
   if (options.populate) {
     await populateDatabase();
   }
+  if (options.rebuildSearchIndex) {
+    await rebuildSearchIndex();
+  }
   if (options.countOrigins) {
     doThing();
   }
@@ -36,6 +39,7 @@ function parseOptions(): OptionValues {
   program.option('-i, --interactive', 'Prompt for user-corrected word input');
   program.option('--compile', 'Compile all word sources');
   program.option('--populate', 'Populate database');
+  program.option('--rebuild-search-index', 'Rebuild Redis search index');
   program.option('--save <sources>', 'Save <sources> to disk');
   program.option('--condense-senses', 'Condense word senses with ChatGPT');
   program.option('--match-senses', 'Match word senses with ChatGPT');

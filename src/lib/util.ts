@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import { globSync, Path } from 'glob';
 import * as winston from 'winston';
 import YAML from 'yaml';
-import { CompiledEntry, POS } from './types';
+import { CompiledEntry } from './types';
 
 const SOURCE_DIR = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const logFormat = winston.format.printf(function (info) {
@@ -93,6 +93,7 @@ export function sortObj<T extends Record<string, any>>(obj: T): T {
 }
 
 export function doThing() {
+  // TODO
   const files = getFiles('/data/compiled/*.json');
   let count = 0;
   for (const { path } of files) {

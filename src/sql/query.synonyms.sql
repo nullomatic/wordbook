@@ -29,8 +29,7 @@ SensesOut AS (
     FROM sense
     WHERE synset_id IN (SELECT id FROM CombinedSynsets)
 )
-SELECT word
+SELECT word, is_anglish
 FROM word
 WHERE word != %word
   AND id IN (SELECT word_id FROM SensesOut)
-  AND is_anglish = true;

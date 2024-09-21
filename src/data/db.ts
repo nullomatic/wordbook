@@ -5,13 +5,9 @@ import { RedisClientType } from 'redis';
 import * as util from '../lib/util';
 import { logger } from '../lib/util';
 import { DatabaseClient, RedisClient } from '../lib/client';
-import {
-  WordnetSense,
-  WordnetSynset,
-  Lang,
-  POS,
-  CompiledEntry,
-} from '../lib/types';
+import { WordnetSense, WordnetSynset, CompiledEntry } from '../lib/types';
+import { Query } from '../lib/query';
+import { Lang, POS, searchIndexDelimiter } from '../lib/constants';
 
 const REDIS_SEARCH_INDEX_KEY = 'search_index';
 
@@ -28,6 +24,29 @@ export async function populateDatabase() {
   await loadSynsets();
   await loadFrames();
   await loadEntries();
+}
+
+/**
+ * Rebuilds the Redis search index.
+ */
+export async function rebuildSearchIndex() {
+  postgres = await DatabaseClient.getClient();
+  redis = await RedisClient.getClient();
+  logger.info(`Rebuilding search index`);
+  await redis.flushAll();
+
+  const sql = Query.getTemplate('searchIndex');
+
+  const result = await postgres.query(sql);
+  const promises = [];
+  for (const { word, pos, langs } of result.rows) {
+    const index = buildWordIndex(word, pos, langs);
+    promises.push(
+      redis.zAdd(REDIS_SEARCH_INDEX_KEY, { score: 0, value: index })
+    );
+  }
+
+  await Promise.all(promises);
 }
 
 /**
@@ -69,7 +88,7 @@ async function loadSynsets() {
   await postgres.query(
     // prettier-ignore
     format(
-      `INSERT INTO synset (id, pos, def) ` +
+      `INSERT INTO synset (id, pos, gloss) ` +
       `VALUES %L`,
     values)
   );
@@ -150,7 +169,7 @@ async function loadFrames() {
 async function insertEntries(
   entries: Record<string, CompiledEntry>
 ): Promise<pg.QueryResult> {
-  const dir = '/data/compiled/';
+  const dir = '/data/assets/compiled/';
   const pattern = `${dir}*.json`;
   const filenames = util.getFiles(pattern);
 
@@ -211,12 +230,13 @@ async function insertEntries(
 /**
  * Constructs the Redis search index; starts with lowercase identifier, followed
  * by the original case-sensitive word, parts of speech, and language categories.
+ * Examples: 'bat:bat:n,v:en,an', 'gandalf:Gandalf:n:en'
  */
 function buildWordIndex(word: string, posArr: POS[], langArr: Lang[]) {
   const lower = word.toLowerCase();
   const parts = posArr.join(',');
   const langs = langArr.join(',');
-  return `${lower}:${word}:${parts}:${langs}`;
+  return [lower, word, parts, langs].join(searchIndexDelimiter);
 }
 
 /**

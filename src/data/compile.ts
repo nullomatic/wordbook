@@ -1,6 +1,4 @@
-import * as fs from 'fs';
 import _ from 'lodash';
-// import * as gpt from './gpt';
 import {
   MootLoader,
   WiktionaryLoader,
@@ -12,14 +10,11 @@ import * as util from '../lib/util';
 import { OptionValues } from 'commander';
 import {
   AnglishEntries,
-  AnglishEntry,
-  AnglishSource,
   CompiledEntry,
-  CompiledPOS,
   MatchedSenses,
-  POS,
   Sound,
 } from '../lib/types';
+import { AnglishSource, POS } from '@/lib/constants';
 
 class Compiler {
   public static entries: Record<string, CompiledEntry> = {};
@@ -27,6 +22,9 @@ class Compiler {
 
   private constructor() {}
 
+  /**
+   * TODO
+   */
   public static async compile(options: OptionValues) {
     await WiktionaryLoader.load({
       ...options,
@@ -53,10 +51,13 @@ class Compiler {
 
     this.cloneWordnetEntries();
     this.loadMatchedSenses();
+    // This merge order is important. Wiktionary has the most comprehensive data;
+    // merge it first, so that subsequent sources do not overwrite its entries.
+    this.mergeAnglishSource(WiktionaryLoader.anglish);
     this.mergeAnglishSource(HurlebatteLoader.anglish);
     this.mergeAnglishSource(MootLoader.anglish);
-    this.mergeAnglishSource(WiktionaryLoader.anglish);
     await this.addWiktionaryData();
+    this.iteratePartsOfSpeech();
     this.setAnglishByWordParts();
     this.entries = util.sortObj(this.entries);
     this.writeMasterWordNet();
@@ -82,17 +83,16 @@ class Compiler {
 
   private static cloneWordnetEntries() {
     for (const word in WordnetLoader.entries) {
-      const entry = WordnetLoader.entries[word];
-      this.entries[word] = this.getDefaultEntry(false);
+      const wordnetEntry = WordnetLoader.entries[word];
+      const entry = (this.entries[word] = this.getDefaultEntry(false));
       let pos: POS;
-      for (pos in entry) {
-        // prettier-ignore
-        this.entries[word].pos[pos] = {
-          senses: entry[pos].sense || [],
-          pronunciation: entry[pos].pronunciation || [],
-          rhyme: entry[pos].rhymes || '',
-          forms: entry[pos].form || [],
-          sounds: entry[pos].sounds || [],
+      for (pos in wordnetEntry) {
+        entry.pos[pos] = {
+          senses: wordnetEntry[pos].sense || [],
+          pronunciation: wordnetEntry[pos].pronunciation || [],
+          rhyme: wordnetEntry[pos].rhymes || '',
+          forms: wordnetEntry[pos].form || [],
+          sounds: wordnetEntry[pos].sounds || [],
           origins: [],
         };
       }
@@ -111,10 +111,17 @@ class Compiler {
 
   private static async mergeAnglishSource(source: AnglishEntries) {
     for (const word in source) {
-      const sourceEntry = source[word];
-      const foo = _.cloneDeep(this.entries[word]);
-      this.entries[word] = this.entries[word] || this.getDefaultEntry(true);
+      if (WordnetLoader.entries[word]) {
+        this.entries[word].isAnglish = true;
+        continue;
+      }
+
+      if (!this.entries[word]) {
+        this.entries[word] = this.getDefaultEntry(true);
+      }
+
       const entry = this.entries[word];
+      const sourceEntry = source[word];
 
       let pos: POS;
       for (pos in sourceEntry.pos) {
@@ -129,22 +136,34 @@ class Compiler {
         } else {
           const sourceSenses = sourceEntry.pos[pos]!.senses;
           const relatedSenses = this.getRelatedSenses(pos, sourceSenses);
-          entry.pos[pos].senses!.push(...relatedSenses);
+          entry.pos[pos].senses.push(...relatedSenses);
         }
-        const origins = source[word].pos[pos]!.origins;
-        if (origins) {
-          entry.pos[pos].origins.push(...origins);
-        }
+
+        // I've commented this out to allow addWiktionaryData() to add only its
+        // origins. Others can be added later with parsing help from ChatGPT.
+
+        // const origins = source[word].pos[pos]!.origins;
+        // if (origins) {
+        //   entry.pos[pos].origins.push(...origins);
+        // }
       }
     }
   }
 
+  /*
+   * This is not a great way to match senses.
+   * If we have a word, like "dough", and on that word are a bunch of unmatched senses like
+   * [{ english: "change (as in $)" ...}], and we pull from { "change": { n: { senses: [<"altered condition" + other unwanted senses>...] }}},
+   * we are potentially going to match a lot of unrelated senses.
+   * TODO: Use ChatGPT API to match better.
+   */
   private static getRelatedSenses(
     pos: POS,
-    senses: { english: string; source: AnglishSource }[]
+    sourceSenses: { english: string; source: AnglishSource }[]
   ) {
-    const relatedSenses = [];
-    for (const { english: word } of senses) {
+    const relatedSenses: any[] = [];
+    return relatedSenses;
+    for (const { english: word } of sourceSenses) {
       const wordnetSenses = WordnetLoader.entries[word]?.[pos]?.sense;
       if (wordnetSenses) {
         relatedSenses.push(...wordnetSenses);
@@ -159,7 +178,10 @@ class Compiler {
     const parseLine = async (line: string) => {
       const json = JSON.parse(line);
       const word = json.word;
-      const pos = await WiktionaryLoader.formatPartOfSpeech(word, json.pos);
+      const pos: POS | null = await WiktionaryLoader.formatPartOfSpeech(
+        word,
+        json.pos
+      );
       const entry = this.entries[word];
       return { word, pos, entry, json };
     };
@@ -178,10 +200,7 @@ class Compiler {
         }
         if (entry.pos[pos]) {
           if (json.etymology_text) {
-            // This avoids adding duplicate origin information.
-            const uniqueOrigins = new Set(entry.pos[pos].origins);
-            uniqueOrigins.add(json.etymology_text);
-            entry.pos[pos].origins = Array.from(uniqueOrigins);
+            entry.pos[pos].origins.push(json.etymology_text);
           }
           if (json.sounds) {
             entry.pos[pos].sounds = json.sounds;
@@ -281,13 +300,34 @@ class Compiler {
       }
     }
 
-    const dir = '/data/compiled/';
+    const dir = '/data/assets/compiled/';
     util.makeDir(dir);
     for (const key in master) {
       const filename = `entries-${key}.json`;
       const path = dir + filename;
       logger.info(`Writing ${path}`);
       util.writeJSON(util.sortObj(master[key]), path);
+    }
+  }
+
+  private static iteratePartsOfSpeech() {
+    for (const word in this.entries) {
+      const entry = this.entries[word];
+      let pos: POS;
+      for (pos in entry.pos) {
+        const part = entry.pos[pos];
+        if (!part.senses.length) {
+          // logger.verbose(`Removing part "${word}:${pos}" (no senses)`);
+          // delete entry.pos[pos];
+          // continue;
+        }
+        part.senses = _.uniqBy(part.senses, (sense) => sense.synset);
+        part.origins = _.uniq(part.origins);
+      }
+      if (!Object.keys(entry.pos).length) {
+        // logger.verbose(`Removing word "${word}" (no parts of speech)`);
+        // delete this.entries[word];
+      }
     }
   }
 }
@@ -404,6 +444,9 @@ export default Compiler.compile.bind(Compiler);
 //   await gpt.matchSenses(toMatch, reqCount);
 // }
 
+/**
+ * TODO
+ */
 function formatSenseId(word: string, pos: POS) {
   const ss_type =
     ['n', 'v', 'a', 'r', 's', 'c', 'p', 'x', 'u'].indexOf(pos) + 1;

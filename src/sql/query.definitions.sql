@@ -4,18 +4,18 @@ WITH Entries AS (
     WHERE word = %word
 ),
 Senses AS (
-    SELECT word_id, synset_id
+    SELECT word_id, synset_id, sentence
     FROM sense
     WHERE word_id IN (SELECT id FROM Entries)
 ),
 Synsets AS (
-    SELECT id, def
+    SELECT id, gloss
     FROM synset
     WHERE id IN (SELECT synset_id FROM Senses)
 ),
 Definitions AS (
     SELECT * FROM Entries en
-    LEFT JOIN Senses se ON en.id = se.word_id
+    JOIN Senses se ON en.id = se.word_id
     LEFT JOIN Synsets sy ON se.synset_id = sy.id
 )
 SELECT word_id AS id,
@@ -25,6 +25,7 @@ SELECT word_id AS id,
        origins,
        rhyme,
        is_anglish,
+       sentence,
        synset_id,
-       def
+       gloss
 FROM Definitions;

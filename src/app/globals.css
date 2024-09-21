@@ -23,7 +23,24 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    rgb(214 211 209)
 } */
+
+@layer utilities {
+  .dot-pattern {
+    background: white;
+    background-image: radial-gradient(rgb(195, 188, 183) 1px, transparent 0);
+    background-size: 24px 24px;
+    background-position: -11px -11px;
+  }
+}
+
+:root {
+  --dot-bg: white;
+  --dot-color: black;
+  --dot-size: 1px;
+  --dot-space: 22px;
+}
 
 @layer utilities {
   .text-balance {

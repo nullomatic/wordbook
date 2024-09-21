@@ -23,7 +23,7 @@ CREATE TABLE word (
 CREATE TABLE synset (
     id CHAR(10) PRIMARY KEY,
     pos VARCHAR(3) NOT NULL,
-    def TEXT
+    gloss TEXT
 );
 
 /* Sense */

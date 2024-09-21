@@ -5,11 +5,11 @@ import WordWidget from './components/WordWidget';
 
 export default function Home() {
   return (
-    <div className='grow space-y-6'>
+    <div className='w-full space-y-6'>
       {/* Welcome Section */}
       <section className='text-center my-12 px-3'>
         <div className='italic mb-6'>Welcome to</div>
-        <div className='uppercase tracking-widest text-4xl font-bold shadow-stone-400 drop-shadow-[0_0_48px_var(--tw-shadow-color)]'>
+        <div className='uppercase tracking-widest text-[2.5rem] lg:text-[3.2rem] font-bold shadow-stone-400 drop-shadow-[0_0_48px_var(--tw-shadow-color)]'>
           The Wordbook
         </div>
         <div className='mb-6'>🍃📚🍄🌱🔥🌿🔮🌾</div>

@@ -25,7 +25,7 @@ export default function WordWidget() {
       </div>
       <Link
         href='/word/bookcraft'
-        className='block rounded-lg border-2 border-stone-600 bg-stone-700 uppercase tracking-wider text-sm font-bold text-center p-3'
+        className='block rounded-lg border-2 border-stone-200 dark:border-stone-600 bg-stone-100 dark:bg-stone-700 uppercase tracking-wider text-sm font-bold text-center p-3'
       >
         See Synonyms
       </Link>

@@ -1,31 +1,4 @@
-export const Longhand: { [pos in POS]: { short: string; long: string } } = {
-  n: { short: 'noun', long: 'noun' },
-  v: { short: 'verb', long: 'verb' },
-  a: { short: 'adj', long: 'adjective' },
-  r: { short: 'adv', long: 'adverb' },
-  s: { short: 'sat', long: 'adjective satellite' },
-  c: { short: 'conj', long: 'conjunction' },
-  p: { short: 'prep', long: 'preposition' },
-  x: { short: 'other', long: 'other' },
-  u: { short: 'unk', long: 'unknown' },
-};
-
-export enum Lang {
-  English = 'en',
-  Anglish = 'an',
-}
-
-export enum POS {
-  Noun = 'n',
-  Verb = 'v',
-  Adjective = 'a',
-  Adverb = 'r',
-  Satellite = 's',
-  Conjunction = 'c',
-  Adposition = 'p',
-  Other = 'x',
-  Unknown = 'u',
-}
+import { AnglishSource, POS } from './constants';
 
 export type CompiledEntry = {
   pos: {
@@ -40,7 +13,7 @@ export type CompiledPOS = {
   rhyme: string;
   forms: string[];
   sounds: Sound[];
-  origins: string[]; // TODO: Move `origin` to root level?
+  origins: string[]; // TODO: Move `origins` to root level?
 };
 
 export type WordnetEntry = {
@@ -103,13 +76,6 @@ export type WordnetSynset = {
   attribute?: string[];
 };
 
-export enum AnglishSource {
-  Wiktionary,
-  Hurlebatte,
-  MootEnglish,
-  MootAnglish,
-}
-
 export type AnglishEntry = {
   pos: {
     [pos in POS]?: {
@@ -128,3 +94,9 @@ export type AnglishEntries = {
 };
 
 export type MatchedSenses = Record<string, { pos: { [pos in POS]: string[] } }>;
+
+export type SearchResult = {
+  word: string;
+  parts: POS[];
+  isAnglish: boolean;
+};

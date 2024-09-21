@@ -5,9 +5,7 @@ import csv from 'csvtojson';
 import _ from 'lodash';
 import prompt from 'prompt';
 import {
-  AnglishSource,
   AnglishEntries,
-  POS,
   AnglishEntry,
   WordnetEntry,
   WordnetSynset,
@@ -16,6 +14,7 @@ import {
 import * as util from '../lib/util';
 import { logger } from '../lib/util';
 import { OptionValues } from 'commander';
+import { AnglishSource, POS } from '../lib/constants';
 
 const WORD_PATTERN = `\\p{L}+([-\\s']\\p{L}+){0,4}`;
 const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
