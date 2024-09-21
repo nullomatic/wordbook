@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='w-full space-y-6'>
       {/* Welcome Section */}
-      <section className='text-center my-12 px-3 lg:px-0'>
+      <section className='text-center py-12 px-3 lg:px-0 dot-pattern'>
         <div className='italic mb-6'>Welcome to</div>
         <div className='uppercase tracking-widest text-[2.5rem] lg:text-[3.2rem] font-bold shadow-stone-400 drop-shadow-[0_0_48px_var(--tw-shadow-color)]'>
           The Wordbook

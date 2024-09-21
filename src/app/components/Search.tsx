@@ -134,7 +134,7 @@ export default function Search() {
           // Desktop 'Ctrl K' and 'Esc' indicators
           <div
             className={classNames(
-              `uppercase font-bold whitespace-nowrap text-xs text-stone-400 dark:text-stone-200 hover:text-black cursor-pointer border rounded px-1 py-0.5`
+              `uppercase font-bold whitespace-nowrap text-xs text-stone-400 border-stone-400 dark:text-stone-200 hover:text-stone-800 hover:border-stone-800 cursor-pointer border rounded px-1 py-0.5`
             )}
             onClick={() => {
               setInput('');
