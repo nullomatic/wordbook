@@ -1,4 +1,4 @@
-import { AnglishSource, POS } from './constants';
+import { AnglishSource, POS } from "./constants";
 
 export type CompiledEntry = {
   pos: {
@@ -99,4 +99,14 @@ export type SearchResult = {
   word: string;
   parts: POS[];
   isAnglish: boolean;
+};
+
+export type WordEntry = {
+  word: string;
+  origins: (string | never)[];
+  rhyme: string;
+  isAnglish: boolean;
+  pos: Partial<
+    Record<POS, { forms: string[]; gloss: string; sentence: string | null }[]>
+  >;
 };

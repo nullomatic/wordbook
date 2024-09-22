@@ -1,20 +1,23 @@
-'use client';
+"use client";
 
 import {
   faMagnifyingGlass,
   faCircleXmark,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { debounce } from 'lodash';
-import Link from 'next/link';
-import { useCallback, useEffect, useRef, useState } from 'react';
-import { Lang, POS, Longhand } from '@/lib/constants';
-import classNames from 'classnames';
-import { useRouter } from 'next/navigation';
-import { SearchResult } from '@/lib/types';
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { debounce } from "lodash";
+import Link from "next/link";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { Lang, POS, Longhand } from "@/lib/constants";
+import classNames from "classnames";
+import { usePathname, useRouter } from "next/navigation";
+import { SearchResult } from "@/lib/types";
 
 export default function Search() {
-  const [input, setInput] = useState('');
+  const pathname = decodeURIComponent(usePathname());
+  const word =
+    pathname.match(/^\/wordbook\/word\/(?<word>.+)$/)?.groups?.word || "";
+  const [input, setInput] = useState(word);
   const [hasFocus, setHasFocus] = useState(false);
   const [resultList, setResultList]: [SearchResult[], any] = useState([]);
   const [selectedResultIndex, setSelectedResultIndex] = useState(0);
@@ -25,16 +28,16 @@ export default function Search() {
   useEffect(() => {
     const handleKeydown = (event: KeyboardEvent) => {
       // Check if 'Ctrl' or 'Meta' (Command on Mac) + 'K' are pressed
-      if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
+      if ((event.ctrlKey || event.metaKey) && event.key === "k") {
         event.preventDefault();
         inputRef.current?.focus();
         inputRef.current?.select();
       }
     };
 
-    window.addEventListener('keydown', handleKeydown);
+    window.addEventListener("keydown", handleKeydown);
     return () => {
-      window.removeEventListener('keydown', handleKeydown);
+      window.removeEventListener("keydown", handleKeydown);
     };
   }, []);
 
@@ -48,7 +51,7 @@ export default function Search() {
 
   const debouncedSearch = useCallback(
     debounce((nextValue) => search(nextValue), 250),
-    []
+    [],
   );
 
   async function handleInput(event: React.ChangeEvent<HTMLInputElement>) {
@@ -58,25 +61,25 @@ export default function Search() {
   }
 
   function handleKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
-    if (event.key === 'Enter' && resultList.length) {
+    if (event.key === "Enter" && resultList.length) {
       const entry = resultList[selectedResultIndex] as SearchResult;
-      router.push(`/word/${entry.word}`);
+      router.push(`/wordbook/word/${entry.word}`);
       inputRef.current?.blur();
       setInput(entry.word);
       setResultList([]);
       setSelectedResultIndex(0);
     }
-    if (event.key === 'Escape') {
+    if (event.key === "Escape") {
       inputRef.current?.blur();
       setResultList([]);
     }
-    if (event.key === 'ArrowUp') {
+    if (event.key === "ArrowUp") {
       event.preventDefault();
       if (selectedResultIndex > 0) {
         setSelectedResultIndex(selectedResultIndex - 1);
       }
     }
-    if (event.key === 'ArrowDown') {
+    if (event.key === "ArrowDown") {
       event.preventDefault();
       if (selectedResultIndex < resultList.length - 1) {
         setSelectedResultIndex(selectedResultIndex + 1);
@@ -90,8 +93,8 @@ export default function Search() {
       setSelectedResultIndex(0);
       return;
     }
-    const res = await fetch('/api/search', {
-      method: 'post',
+    const res = await fetch("/api/search", {
+      method: "post",
       body: input,
     });
     const entries = await res.json();
@@ -100,13 +103,13 @@ export default function Search() {
   }
 
   return (
-    <div className='w-full relative z-20'>
-      <div className='absolute left-4 top-4 flex items-center h-4 w-4 z-20'>
-        <FontAwesomeIcon icon={faMagnifyingGlass} className='text-sm' />
+    <div className="relative z-20 w-full">
+      <div className="absolute left-4 top-4 z-20 flex h-4 w-4 items-center">
+        <FontAwesomeIcon icon={faMagnifyingGlass} className="text-sm" />
       </div>
       <input
-        className='bg-white dark:bg-stone-800 z-10 dark:placeholder:text-stone-400 relative border border-stone-300 dark:border-stone-800 h-12 rounded-lg px-11 py-4 w-full shadow-inner focus:border-stone-400 ring-pink-300 outline-none'
-        placeholder='Search for a word...'
+        className="relative z-10 h-12 w-full rounded-lg border border-stone-300 bg-white px-11 py-4 shadow-inner outline-none ring-pink-300 focus:border-stone-400 dark:border-stone-800 dark:bg-stone-800 dark:placeholder:text-stone-400"
+        placeholder="Search for a word..."
         ref={inputRef}
         onChange={handleInput}
         onKeyDown={handleKeyDown}
@@ -114,17 +117,17 @@ export default function Search() {
         onBlur={handleBlur}
         value={input}
       />
-      <div className='h-12 w-full rounded-lg bg-stone-200 dark:bg-stone-600 absolute top-1 left-1'></div>
-      <div className='absolute h-4 w-10 right-3 top-4 flex justify-end items-center z-20'>
+      <div className="absolute left-1 top-1 h-12 w-full rounded-lg bg-stone-200 dark:bg-stone-600"></div>
+      <div className="absolute right-3 top-4 z-20 flex h-4 w-10 items-center justify-end">
         {isMobile ? (
           // Mobile 'X' icon to clear search
           <div
             className={classNames(
-              `text-sm text-stone-500 dark:text-stone-200 hover:text-black cursor-pointer`,
-              { hidden: !input }
+              `cursor-pointer text-sm text-stone-500 hover:text-black dark:text-stone-200`,
+              { hidden: !input },
             )}
             onClick={() => {
-              setInput('');
+              setInput("");
               setResultList([]);
             }}
           >
@@ -134,39 +137,39 @@ export default function Search() {
           // Desktop 'Ctrl K' and 'Esc' indicators
           <div
             className={classNames(
-              `uppercase font-bold whitespace-nowrap text-xs text-stone-400 border-stone-400 dark:text-stone-200 hover:text-stone-800 hover:border-stone-800 cursor-pointer border rounded px-1 py-0.5`
+              `cursor-pointer whitespace-nowrap rounded border border-stone-400 px-1 py-0.5 text-xs font-bold uppercase text-stone-400 hover:border-stone-800 hover:text-stone-800 dark:text-stone-200`,
             )}
             onClick={() => {
-              setInput('');
+              setInput("");
               setResultList([]);
             }}
           >
-            {hasFocus ? 'Esc' : 'Ctrl K'}
+            {hasFocus ? "Esc" : "Ctrl K"}
           </div>
         )}
       </div>
       {
         <div
           className={classNames(
-            'mt-3 bg-white rounded-bl-lg rounded-br-lg border border-stone-300 w-full shadow-lg dark:border-stone-300 divide-y divide-stone-200 dark:divide-stone-500 overflow-hidden absolute top-7 w-full',
+            "absolute top-7 mt-3 w-full divide-y divide-stone-200 overflow-hidden rounded-bl-lg rounded-br-lg border border-stone-300 bg-white shadow-lg dark:divide-stone-500 dark:border-stone-300",
             {
               hidden: !resultList.length,
-            }
+            },
           )}
         >
           {resultList.map((entry: SearchResult, i: number) => (
             <Link
               key={`search-result-${i}`}
-              href={`/word/${entry.word}`}
-              className={classNames('flex items-center py-3 px-4 space-x-3', {
-                'pt-5': i === 0,
-                'bg-green-50 dark:bg-stone-800':
+              href={`/wordbook/word/${entry.word}`}
+              className={classNames("flex items-center space-x-3 px-4 py-3", {
+                "pt-5": i === 0,
+                "bg-green-50 dark:bg-stone-800":
                   selectedResultIndex === i && entry.isAnglish,
-                'bg-sky-50 dark:bg-stone-800':
+                "bg-sky-50 dark:bg-stone-800":
                   selectedResultIndex === i && !entry.isAnglish,
-                'hover:bg-green-100': entry.isAnglish,
-                'hover:bg-sky-100': !entry.isAnglish,
-                'bg-white dark:bg-stone-800': selectedResultIndex !== i,
+                "hover:bg-green-100": entry.isAnglish,
+                "hover:bg-sky-100": !entry.isAnglish,
+                "bg-white dark:bg-stone-800": selectedResultIndex !== i,
               })}
               onClick={() => {
                 setInput(entry.word);
@@ -174,22 +177,22 @@ export default function Search() {
                 setSelectedResultIndex(0);
               }}
             >
-              <div className='font-bold'>{entry.word}</div>
-              <div className='grow space-x-0.5 flex font-bold text-xs uppercase text-white dark:text-gray-200'>
-                <div className='bg-sky-700 rounded h-3.5 w-5 flex items-center justify-center'>
+              <div className="font-bold">{entry.word}</div>
+              <div className="flex grow space-x-0.5 text-xs font-bold uppercase text-white dark:text-gray-200">
+                <div className="flex h-3.5 w-5 items-center justify-center rounded bg-sky-700">
                   {Lang.English.toUpperCase()}
                 </div>
                 {entry.isAnglish ? (
-                  <div className='bg-green-700 rounded h-3.5 w-5 flex items-center justify-center'>
+                  <div className="flex h-3.5 w-5 items-center justify-center rounded bg-green-700">
                     {Lang.Anglish.toUpperCase()}
                   </div>
                 ) : null}
               </div>
-              <div className='font-medium space-x-1 flex justify-end text-sm text-stone-800 dark:text-stone-200'>
-                <div className=''>
+              <div className="flex justify-end space-x-1 text-sm font-medium text-stone-800 dark:text-stone-200">
+                <div className="">
                   {entry.parts
                     .map((pos: POS, j: number) => Longhand[pos].short)
-                    .join(', ')}
+                    .join(", ")}
                 </div>
               </div>
             </Link>
@@ -202,7 +205,7 @@ export default function Search() {
 
 function isMobileDevice() {
   return (
-    typeof window !== 'undefined' &&
+    typeof window !== "undefined" &&
     /Mobi|Android|iPhone/i.test(navigator?.userAgent)
   );
 }

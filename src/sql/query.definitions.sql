@@ -1,4 +1,4 @@
-WITH Entries AS (
+WITH WordEntries AS (
     SELECT *
     FROM word
     WHERE word = %word
@@ -6,7 +6,7 @@ WITH Entries AS (
 Senses AS (
     SELECT word_id, synset_id, sentence
     FROM sense
-    WHERE word_id IN (SELECT id FROM Entries)
+    WHERE word_id IN (SELECT id FROM WordEntries)
 ),
 Synsets AS (
     SELECT id, gloss
@@ -14,8 +14,8 @@ Synsets AS (
     WHERE id IN (SELECT synset_id FROM Senses)
 ),
 Definitions AS (
-    SELECT * FROM Entries en
-    JOIN Senses se ON en.id = se.word_id
+    SELECT * FROM WordEntries en
+    LEFT JOIN Senses se ON en.id = se.word_id
     LEFT JOIN Synsets sy ON se.synset_id = sy.id
 )
 SELECT word_id AS id,
