@@ -35,18 +35,7 @@ export default function RootLayout({
       >
         <HeaderTabs />
 
-        <main className="flex w-full justify-center">
-          {/* Left Panel */}
-          <SidebarLeft />
-
-          {/* Main Panel */}
-          <div className="w-full shrink-0 pb-8 lg:mx-6 lg:max-w-4xl">
-            {children}
-          </div>
-
-          {/* Right Panel */}
-          <SidebarRight />
-        </main>
+        <main className="w-full grow">{children}</main>
 
         {/* Footer */}
         <footer className="w-full bg-stone-200 px-3 pb-16 pt-12 text-center text-stone-800 dark:text-stone-600">

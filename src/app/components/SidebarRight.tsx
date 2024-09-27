@@ -1,7 +1,4 @@
-"use client";
-
 import Link from "next/link";
-import classNames from "classnames";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faLink } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";

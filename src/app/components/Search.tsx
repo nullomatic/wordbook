@@ -109,7 +109,7 @@ export default function Search() {
       </div>
       <input
         className="relative z-10 h-12 w-full rounded-lg border border-stone-300 bg-white px-11 py-4 shadow-inner outline-none ring-pink-300 focus:border-stone-400 dark:border-stone-800 dark:bg-stone-800 dark:placeholder:text-stone-400"
-        placeholder="Search for a word..."
+        placeholder="Search the wordbook..."
         ref={inputRef}
         onChange={handleInput}
         onKeyDown={handleKeyDown}

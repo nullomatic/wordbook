@@ -1,7 +1,7 @@
 WITH WordEntries AS (
     SELECT *
     FROM word
-    WHERE word = %word
+    WHERE word = <word>
 ),
 Senses AS (
     SELECT word_id, synset_id, sentence

@@ -1,8 +1,8 @@
 WITH WordId AS (
     SELECT id
     FROM word
-    WHERE word = %word
-    AND pos = %pos
+    WHERE word = <word>
+    AND pos = <pos>
 ),
 SensesIn AS (
     SELECT synset_id
@@ -31,5 +31,5 @@ SensesOut AS (
 )
 SELECT word, is_anglish
 FROM word
-WHERE word != %word
+WHERE word != <word>
   AND id IN (SELECT word_id FROM SensesOut)

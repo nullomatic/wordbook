@@ -3,7 +3,7 @@ import * as pg from "pg";
 import { DatabaseClient } from "./client";
 import { POS } from "./constants";
 import * as util from "./util";
-import { WordEntry } from "./types";
+import { WordEntry, WordSchema } from "./types";
 
 export class Query {
   public static template: Record<string, string> | null = Query.loadTemplates();
@@ -33,7 +33,7 @@ export class Query {
     const client = await DatabaseClient.getClient();
     const wordClean = pg.escapeLiteral(word);
     const template = this.getTemplate("definitions");
-    const sql = template.replaceAll("%word", wordClean);
+    const sql = template.replaceAll("<word>", wordClean);
     const res = await client.query(sql);
     if (!res.rows.length) {
       return null;
@@ -41,6 +41,7 @@ export class Query {
     const first = res.rows[0];
     const data: WordEntry = {
       word: first.word,
+      forms: first.forms,
       origins: first.origins,
       rhyme: first.rhyme,
       isAnglish: first.is_anglish,
@@ -71,8 +72,8 @@ export class Query {
       const posClean = pg.escapeLiteral(pos);
       const sqlTemplate = this.getTemplate("synonyms");
       const sql = sqlTemplate
-        .replaceAll("%word", wordClean)
-        .replaceAll("%pos", posClean);
+        .replaceAll("<word>", wordClean)
+        .replaceAll("<pos>", posClean);
       const res = await client.query(sql);
       if (res.rows?.length) {
         for (const { word, is_anglish } of res.rows) {
@@ -82,4 +83,53 @@ export class Query {
     }
     return synonyms;
   }
+
+  public static async words(
+    word: string,
+    page = 0,
+    pageSize = 30,
+  ): Promise<{
+    results: (WordSchema & { sense_ids: string[] })[];
+    totalCount: number;
+    totalPages: number;
+  }> {
+    const client = await DatabaseClient.getClient();
+
+    const wordClean = pg.escapeLiteral(word);
+
+    const totalCount = parseInt(await this.getCount(wordClean, client));
+
+    const totalPages = Math.ceil(totalCount / pageSize);
+    const offset = page * pageSize;
+
+    const results = await this.getResults(wordClean, offset, client);
+
+    return { results, totalCount, totalPages };
+  }
+
+  private static async getCount(wordClean: string, client: pg.Client) {
+    const template = this.getTemplate("count");
+    const sql = template.replaceAll("<word>", injectStr(wordClean, "%", -1));
+    const res = await client.query(sql);
+    const count = res.rows[0]?.count;
+    return count;
+  }
+
+  private static async getResults(
+    wordClean: string,
+    offset: number,
+    client: pg.Client,
+  ) {
+    // TODO this needs refactored
+    const template = this.getTemplate("words");
+    const sql = template
+      .replaceAll("<word>", injectStr(wordClean, "%", -1))
+      .replaceAll("<offset>", offset.toString());
+    const res = await client.query(sql);
+    return res.rows;
+  }
+}
+
+function injectStr(target: string, str: string, index: number) {
+  return target.slice(0, index) + str + target.slice(index);
 }

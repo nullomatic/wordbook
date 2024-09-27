@@ -103,10 +103,21 @@ export type SearchResult = {
 
 export type WordEntry = {
   word: string;
+  forms: (string | never)[];
   origins: (string | never)[];
   rhyme: string;
   isAnglish: boolean;
   pos: Partial<
     Record<POS, { forms: string[]; gloss: string; sentence: string | null }[]>
   >;
+};
+
+export type WordSchema = {
+  id: number;
+  word: string;
+  pos: POS;
+  forms: (string | never)[];
+  origins: (string | never)[];
+  rhyme: string;
+  is_anglish: boolean;
 };

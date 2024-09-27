@@ -1,7 +1,9 @@
-export default function Page() {
-  return (
-    <div className="w-full space-y-6 py-9">
-      <div className="text-center text-2xl font-bold">History of Anglish</div>
-    </div>
-  );
+import ArticleContent from "@/app/components/ArticleContent";
+import { getPath } from "@/lib/util";
+import fs from "fs";
+
+export default function () {
+  const filePath = getPath("/app/wiki/history-of-anglish/content.english.md"); // TODO: Make relative path
+  const contentEnglish = fs.readFileSync(filePath, "utf-8");
+  return <ArticleContent contentEnglish={contentEnglish} />;
 }
