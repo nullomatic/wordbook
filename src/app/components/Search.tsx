@@ -12,6 +12,7 @@ import { Lang, POS, Longhand } from "@/lib/constants";
 import classNames from "classnames";
 import { usePathname, useRouter } from "next/navigation";
 import { SearchResult } from "@/lib/types";
+import { toast } from "react-toastify";
 
 export default function Search() {
   const pathname = decodeURIComponent(usePathname());
@@ -71,7 +72,6 @@ export default function Search() {
     }
     if (event.key === "Escape") {
       inputRef.current?.blur();
-      setResultList([]);
     }
     if (event.key === "ArrowUp") {
       event.preventDefault();
@@ -93,13 +93,19 @@ export default function Search() {
       setSelectedResultIndex(0);
       return;
     }
-    const res = await fetch("/api/search", {
-      method: "post",
-      body: input,
-    });
-    const entries = await res.json();
-    setResultList(entries);
-    setSelectedResultIndex(0);
+    try {
+      const res = await fetch("/api/search", {
+        method: "post",
+        body: input,
+      });
+      const entries = await res.json();
+      setResultList(entries);
+      setSelectedResultIndex(0);
+    } catch (error) {
+      toast.error("Whoops! Search is disconnected.", { toastId: "search" });
+      setResultList([]);
+      setSelectedResultIndex(0);
+    }
   }
 
   return (
@@ -153,7 +159,7 @@ export default function Search() {
           className={classNames(
             "absolute top-7 mt-3 w-full divide-y divide-stone-200 overflow-hidden rounded-bl-lg rounded-br-lg border border-stone-300 bg-white shadow-lg dark:divide-stone-500 dark:border-stone-300",
             {
-              hidden: !resultList.length,
+              hidden: !resultList.length || !hasFocus,
             },
           )}
         >

@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
 import { debounce } from "lodash";
 import React, { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 const PAGE_SIZE = 30;
 
@@ -27,28 +28,38 @@ export default function EditorPage() {
   const [totalCount, setTotalCount] = useState(0);
   const [totalPages, setTotalPages] = useState(0);
 
+  function reset() {
+    setResults([]);
+    setTotalCount(0);
+    setTotalPages(0);
+    setCurrentPage(0);
+  }
+
   async function query(input: string, page = 0) {
     if (!input) {
-      setResults([]);
-      setTotalCount(0);
-      setTotalPages(0);
-      setCurrentPage(0);
+      reset();
       return;
     }
-    const res = await fetch("/api/editor", {
-      method: "post",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        input,
-        page,
-        pageSize: PAGE_SIZE,
-      }),
-    });
-    const { results, totalCount, totalPages } = await res.json();
-    setResults(results);
-    setTotalCount(totalCount);
-    setTotalPages(totalPages);
-    setCurrentPage(page);
+
+    try {
+      const res = await fetch("/api/editor", {
+        method: "post",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          input,
+          page,
+          pageSize: PAGE_SIZE,
+        }),
+      });
+      const { results, totalCount, totalPages } = await res.json();
+      setResults(results);
+      setTotalCount(totalCount);
+      setTotalPages(totalPages);
+      setCurrentPage(page);
+    } catch (error) {
+      toast.error("Whoops! Editor is disconnected.", { toastId: "editor" });
+      reset();
+    }
   }
 
   const debouncedQuery = useCallback(

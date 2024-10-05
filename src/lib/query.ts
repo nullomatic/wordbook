@@ -1,9 +1,9 @@
 import _ from "lodash";
 import * as pg from "pg";
-import { DatabaseClient } from "./client";
-import { POS } from "./constants";
+import { DatabaseClient, RedisClient } from "./client";
+import { POS, searchIndexDelimiter } from "./constants";
 import * as util from "./util";
-import { WordEntry, WordSchema } from "./types";
+import { SearchResult, WordEntry, WordSchema } from "./types";
 
 export class Query {
   public static template: Record<string, string> | null = Query.loadTemplates();
@@ -29,12 +29,36 @@ export class Query {
     return this.template?.[id] || util.readFile(`sql/query.${id}.sql`);
   }
 
+  public static async search(input: string) {
+    const client = await RedisClient.getClient();
+    const lower = input.toLowerCase();
+    const key = "search_index";
+    const results = await client.zRangeByLex(
+      key,
+      `[${lower}`,
+      `[${lower}${String.fromCharCode(255)}`,
+      {
+        LIMIT: { offset: 0, count: 10 },
+      },
+    );
+
+    const resultsFormatted: SearchResult[] = results.map((str: string) => {
+      const [_lowercase, word, parts, langs] = str.split(searchIndexDelimiter);
+      return {
+        word,
+        parts: parts.split(",") as POS[],
+        isAnglish: langs.includes("an"),
+      };
+    });
+
+    return resultsFormatted;
+  }
+
   public static async definitions(word: string) {
-    const client = await DatabaseClient.getClient();
     const wordClean = pg.escapeLiteral(word);
     const template = this.getTemplate("definitions");
     const sql = template.replaceAll("<word>", wordClean);
-    const res = await client.query(sql);
+    const res = await DatabaseClient.query(sql);
     if (!res.rows.length) {
       return null;
     }
@@ -63,7 +87,6 @@ export class Query {
     type Synonyms = { [pos in POS]: { english: string[]; anglish: string[] } };
 
     const synonyms: Synonyms = {} as Synonyms;
-    const client = await DatabaseClient.getClient();
     const wordClean = pg.escapeLiteral(entry.word);
 
     let pos: POS;
@@ -74,7 +97,7 @@ export class Query {
       const sql = sqlTemplate
         .replaceAll("<word>", wordClean)
         .replaceAll("<pos>", posClean);
-      const res = await client.query(sql);
+      const res = await DatabaseClient.query(sql);
       if (res.rows?.length) {
         for (const { word, is_anglish } of res.rows) {
           synonyms[pos][is_anglish ? "anglish" : "english"].push(word);
@@ -93,39 +116,30 @@ export class Query {
     totalCount: number;
     totalPages: number;
   }> {
-    const client = await DatabaseClient.getClient();
-
     const wordClean = pg.escapeLiteral(word);
-
-    const totalCount = parseInt(await this.getCount(wordClean, client));
-
+    const totalCount = parseInt(await this.getCount(wordClean));
     const totalPages = Math.ceil(totalCount / pageSize);
     const offset = page * pageSize;
-
-    const results = await this.getResults(wordClean, offset, client);
+    const results = await this.getResults(wordClean, offset);
 
     return { results, totalCount, totalPages };
   }
 
-  private static async getCount(wordClean: string, client: pg.Client) {
+  private static async getCount(wordClean: string) {
     const template = this.getTemplate("count");
     const sql = template.replaceAll("<word>", injectStr(wordClean, "%", -1));
-    const res = await client.query(sql);
+    const res = await DatabaseClient.query(sql);
     const count = res.rows[0]?.count;
     return count;
   }
 
-  private static async getResults(
-    wordClean: string,
-    offset: number,
-    client: pg.Client,
-  ) {
+  private static async getResults(wordClean: string, offset: number) {
     // TODO this needs refactored
     const template = this.getTemplate("words");
     const sql = template
       .replaceAll("<word>", injectStr(wordClean, "%", -1))
       .replaceAll("<offset>", offset.toString());
-    const res = await client.query(sql);
+    const res = await DatabaseClient.query(sql);
     return res.rows;
   }
 }

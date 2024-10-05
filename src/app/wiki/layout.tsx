@@ -65,7 +65,7 @@ const sidebarSections = [
   },
 ];
 
-export default function Layout({
+export default function WikiLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

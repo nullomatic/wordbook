@@ -3,17 +3,12 @@ import type { Metadata } from "next";
 import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import "react-toastify/dist/ReactToastify.css";
 import HeaderTabs from "./components/HeaderTabs";
 import Link from "next/link";
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleRight,
-  faLink,
-  faTree,
-} from "@fortawesome/free-solid-svg-icons";
-import SidebarLeft from "./components/SidebarLeft";
-import SidebarRight from "./components/SidebarRight";
+import { faTree } from "@fortawesome/free-solid-svg-icons";
+import { Bounce, ToastContainer } from "react-toastify";
 config.autoAddCss = false;
 
 const font = Source_Sans_3({ subsets: ["latin"] });
@@ -33,6 +28,22 @@ export default function RootLayout({
       <body
         className={`flex min-h-screen flex-col items-center bg-white text-black dark:bg-stone-900 dark:text-white ${font.className}`}
       >
+        <ToastContainer
+          position="bottom-center"
+          autoClose={5000}
+          limit={3}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Bounce}
+          className="text-sm"
+        />
+
         <HeaderTabs />
 
         <main className="w-full grow">{children}</main>
