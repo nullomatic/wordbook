@@ -18,7 +18,7 @@ export default function Search() {
   const pathname = decodeURIComponent(usePathname());
   const word =
     pathname.match(/^\/wordbook\/word\/(?<word>.+)$/)?.groups?.word || "";
-  const [input, setInput] = useState(word);
+  const [input, setInput] = useState<string>(word);
   const [hasFocus, setHasFocus] = useState(false);
   const [resultList, setResultList]: [SearchResult[], any] = useState([]);
   const [selectedResultIndex, setSelectedResultIndex] = useState(0);

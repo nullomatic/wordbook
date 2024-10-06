@@ -1,7 +1,7 @@
-import { Command, OptionValues } from 'commander';
-import compileSources from './compile';
-import { populateDatabase, rebuildSearchIndex } from './db';
-import { doThing, logger } from '../lib/util.js';
+import { Command, OptionValues } from "commander";
+import compileSources from "./compile";
+import { populateDatabase, rebuildSearchIndex } from "./db";
+import { logger } from "../lib/util.js";
 
 main()
   .then(() => process.exit())
@@ -14,10 +14,10 @@ main()
 async function main() {
   const options = parseOptions();
   if (options.verbose) {
-    logger.transports[0].level = 'verbose';
+    logger.transports[0].level = "verbose";
   }
   if (options.save) {
-    options.save = options.save.split(',');
+    options.save = options.save.split(",");
   }
   if (options.compile) {
     await compileSources(options);
@@ -28,24 +28,20 @@ async function main() {
   if (options.rebuildSearchIndex) {
     await rebuildSearchIndex();
   }
-  if (options.countOrigins) {
-    doThing();
-  }
 }
 
 function parseOptions(): OptionValues {
   const program = new Command();
-  program.option('-v, --verbose', 'Verbose logging level');
-  program.option('-i, --interactive', 'Prompt for user-corrected word input');
-  program.option('--compile', 'Compile all word sources');
-  program.option('--populate', 'Populate database');
-  program.option('--rebuild-search-index', 'Rebuild Redis search index');
-  program.option('--save <sources>', 'Save <sources> to disk');
-  program.option('--condense-senses', 'Condense word senses with ChatGPT');
-  program.option('--match-senses', 'Match word senses with ChatGPT');
-  program.option('--fix-senses', 'Fix words in ChatGPT error log');
-  program.option('--from-disk', 'Load sources from disk');
-  program.option('--count-origins', 'asdf');
+  program.option("-v, --verbose", "Verbose logging level");
+  program.option("-i, --interactive", "Prompt for user-corrected word input");
+  program.option("--compile", "Compile all word sources");
+  program.option("--populate", "Populate database");
+  program.option("--rebuild-search-index", "Rebuild Redis search index");
+  program.option("--save <sources>", "Save <sources> to disk");
+  program.option("--condense-senses", "Condense word senses with ChatGPT");
+  program.option("--match-senses", "Match word senses with ChatGPT");
+  program.option("--fix-senses", "Fix words in ChatGPT error log");
+  program.option("--from-disk", "Load sources from disk");
   program.parse(process.argv);
   return program.opts();
 }

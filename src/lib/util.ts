@@ -1,10 +1,11 @@
-import * as path from 'path';
-import * as fs from 'fs';
-import { fileURLToPath } from 'url';
-import { globSync, Path } from 'glob';
-import * as winston from 'winston';
-import YAML from 'yaml';
-import { CompiledEntry } from './types';
+import * as path from "path";
+import * as fs from "fs";
+import { fileURLToPath } from "url";
+import { globSync, Path } from "glob";
+import * as winston from "winston";
+import YAML from "yaml";
+import { CompiledEntry } from "./types";
+import csv from "csvtojson";
 
 const SOURCE_DIR = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const logFormat = winston.format.printf(function (info) {
@@ -17,14 +18,14 @@ export const logger = winston.createLogger({
       format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.colorize(),
-        logFormat
+        logFormat,
       ),
     }),
   ],
 });
 
 export function getFiles(glob: string): { filename: string; path: string }[] {
-  if (glob.startsWith('/')) {
+  if (glob.startsWith("/")) {
     glob = glob.slice(1);
   }
   const paths: Path[] = globSync(glob, {
@@ -62,7 +63,7 @@ export function makeDir(path: string) {
 }
 
 export function readFile(path: string) {
-  return fs.readFileSync(getPath(path), 'utf-8');
+  return fs.readFileSync(getPath(path), "utf-8");
 }
 
 export function writeFile(data: any, ...segments: string[]) {
@@ -70,7 +71,7 @@ export function writeFile(data: any, ...segments: string[]) {
 }
 
 export function readJSON(path: string) {
-  const file = fs.readFileSync(getPath(path), 'utf-8');
+  const file = fs.readFileSync(getPath(path), "utf-8");
   return JSON.parse(file);
 }
 
@@ -79,8 +80,13 @@ export function writeJSON(json: any, ...segments: string[]) {
 }
 
 export function readYAML(path: string) {
-  const file = fs.readFileSync(getPath(path), 'utf-8');
+  const file = fs.readFileSync(getPath(path), "utf-8");
   return YAML.parse(file);
+}
+
+export async function readCSV(path: string) {
+  const rows = await csv().fromFile(getPath(path));
+  return rows;
 }
 
 export function sortObj<T extends Record<string, any>>(obj: T): T {
@@ -90,26 +96,4 @@ export function sortObj<T extends Record<string, any>>(obj: T): T {
       (acc as any)[key] = obj[key];
       return acc;
     }, {} as T);
-}
-
-export function doThing() {
-  // TODO
-  const files = getFiles('/data/compiled/*.json');
-  let count = 0;
-  for (const { path } of files) {
-    logger.info(`In file ${path}`);
-    const entries = readJSON(path);
-    for (const word in entries) {
-      const entry: CompiledEntry = entries[word];
-      if (entry.isAnglish) {
-        console.log(word);
-      }
-      // for (const pos in entry.pos) {
-      //   if (entry.pos[pos as POS].origins.length > 1) {
-      //     count++;
-      //   }
-      // }
-    }
-  }
-  console.log(`origins to distill: ${count}`);
 }

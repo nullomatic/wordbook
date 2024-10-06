@@ -1,23 +1,23 @@
-import { createInterface } from 'node:readline/promises';
-import axios from 'axios';
-import * as cheerio from 'cheerio';
-import csv from 'csvtojson';
-import _ from 'lodash';
-import prompt from 'prompt';
+import { createInterface } from "node:readline/promises";
+import axios from "axios";
+import * as cheerio from "cheerio";
+import csv from "csvtojson";
+import _ from "lodash";
+import prompt from "prompt";
 import {
   AnglishEntries,
   AnglishEntry,
   WordnetEntry,
   WordnetSynset,
   CompiledEntry,
-} from '../lib/types';
-import * as util from '../lib/util';
-import { logger } from '../lib/util';
-import { OptionValues } from 'commander';
-import { AnglishSource, POS } from '../lib/constants';
+} from "../lib/types";
+import * as util from "../lib/util";
+import { logger } from "../lib/util";
+import { OptionValues } from "commander";
+import { AnglishSource, POS } from "../lib/constants";
 
 const WORD_PATTERN = `\\p{L}+([-\\s']\\p{L}+){0,4}`;
-const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
+const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, "iu");
 
 /**
  * Loads Wiktionary data into Redis from the Kaikki (https://kaikki.org) JSON file
@@ -30,8 +30,8 @@ const WORD_REGEXP = new RegExp(`^${WORD_PATTERN}$`, 'iu');
 export class WiktionaryLoader {
   public static anglish: AnglishEntries = {};
   public static size: number;
-  private static dataPath: string = '/data/assets/kaikki/kaikki-en.json';
-  private static jsonPath: string = '/data/assets/kaikki/wikt-anglish.json';
+  private static dataPath: string = "/data/assets/kaikki/kaikki-en.json";
+  private static jsonPath: string = "/data/assets/kaikki/wikt-anglish.json";
 
   private constructor() {}
 
@@ -80,9 +80,9 @@ export class WiktionaryLoader {
       let foundSource = false;
       for (const template of templates) {
         if (
-          template.name === 'inh' ||
-          template.name === 'der' ||
-          template.name === 'bor'
+          template.name === "inh" ||
+          template.name === "der" ||
+          template.name === "bor"
         ) {
           foundSource = true;
           if (
@@ -97,10 +97,10 @@ export class WiktionaryLoader {
 
       if (!foundSource) {
         for (const template of templates) {
-          if (template.name === 'cog') {
+          if (template.name === "cog") {
             if (
               /(English|German|Norse|Saxon|Frankish|Danish)/i.test(
-                template.expansion
+                template.expansion,
               )
             ) {
               hasGermanic = true;
@@ -118,12 +118,12 @@ export class WiktionaryLoader {
   public static isAnglishCompound(
     templates: any[],
     word: string,
-    compoundSource: Record<string, CompiledEntry>
+    compoundSource: Record<string, CompiledEntry>,
   ) {
     for (const template of templates) {
-      if (compoundSource && template.name === 'compound') {
+      if (compoundSource && template.name === "compound") {
         for (const key in template.args) {
-          if (key === '1' || isNaN(parseInt(key))) continue;
+          if (key === "1" || isNaN(parseInt(key))) continue;
           const part = template.args[key];
           if (!compoundSource[part]?.isAnglish) {
             return false;
@@ -166,7 +166,7 @@ export class WiktionaryLoader {
       }
     };
 
-    rl.on('line', async function (line) {
+    rl.on("line", async function (line) {
       iteration++;
       currentBatch.push(handler(line));
       if (currentBatch.length === BATCH_SIZE) {
@@ -178,14 +178,14 @@ export class WiktionaryLoader {
     });
 
     await new Promise<void>((resolve) =>
-      rl.on('close', async () => {
+      rl.on("close", async () => {
         // Process any remaining batches.
         unloadCurrentBatch();
         while (batches.length) {
           await processBatch();
         }
         resolve();
-      })
+      }),
     );
 
     if (iteration !== processed) {
@@ -195,30 +195,30 @@ export class WiktionaryLoader {
 
   public static formatPartOfSpeech(word: string, _pos: string): POS | null {
     switch (_pos.toLowerCase()) {
-      case 'noun':
+      case "noun":
         return POS.Noun;
-      case 'verb':
+      case "verb":
         return POS.Verb;
-      case 'adj':
+      case "adj":
         return POS.Adjective;
-      case 'adv':
+      case "adv":
         return POS.Adverb;
-      case 'conj':
+      case "conj":
         return POS.Conjunction;
-      case 'prep':
-      case 'prep_phrase':
+      case "prep":
+      case "prep_phrase":
         return POS.Adposition;
-      case 'article':
-      case 'det':
-      case 'intj':
-      case 'num':
-      case 'phrase':
-      case 'pron':
-      case 'contraction':
+      case "article":
+      case "det":
+      case "intj":
+      case "num":
+      case "phrase":
+      case "pron":
+      case "contraction":
         return POS.Other;
-      case 'particle':
-      case 'character':
-      case 'symbol':
+      case "particle":
+      case "character":
+      case "symbol":
         return null;
       default:
         return null;
@@ -231,7 +231,7 @@ export class WiktionaryLoader {
         senses: [],
         origins: [],
       },
-    } as AnglishEntry['pos'];
+    } as AnglishEntry["pos"];
     const defaultEntry = {
       pos: defaultPOS,
       isAnglish: true,
@@ -261,8 +261,8 @@ export class WiktionaryLoader {
 export class HurlebatteLoader {
   public static anglish: AnglishEntries = {};
   public static size: number;
-  private static dataPath: string = '/data/assets/hurlebatte/wordbook.csv';
-  private static jsonPath: string = '/data/assets/hurlebatte/hb-anglish.json';
+  private static dataPath: string = "/data/assets/hurlebatte/wordbook.csv";
+  private static jsonPath: string = "/data/assets/hurlebatte/hb-anglish.json";
 
   private constructor() {}
 
@@ -283,35 +283,35 @@ export class HurlebatteLoader {
   }
 
   private static async loadCSV(options: OptionValues) {
-    const rows = await csv().fromFile(util.getPath(this.dataPath));
+    const rows = await util.readCSV(this.dataPath);
     for (const row of rows) {
-      const word = cleanWord(row['WORD']);
+      const word = cleanWord(row["WORD"]);
       if (!word) {
         continue;
       }
 
       const posArr = await this.getPartsOfSpeech(
-        row['KIND'],
+        row["KIND"],
         word,
-        options?.interactive
+        options?.interactive,
       );
 
       if (!posArr.length) {
         continue;
       }
 
-      const senses = row['MEANING']
-        .replace(/\([^)]*\)/g, ',') // Remove square brackets
+      const senses = row["MEANING"]
+        .replace(/\([^)]*\)/g, ",") // Remove square brackets
         .split(/[^\w\s'\-]/g) // Split on non-word characters
-        .map((str: string) => str.trim().replace(/^(a|an|to) /g, '')) // Remove a/an/to at start
+        .map((str: string) => str.trim().replace(/^(a|an|to) /g, "")) // Remove a/an/to at start
         .filter((str: string) => str);
 
-      let origin: string = row['FROM'];
-      if (row['FOREBEAR'] && row['FOREBEAR'] !== '~') {
-        origin += `, ${row['FOREBEAR']}`;
+      let origin: string = row["FROM"];
+      if (row["FOREBEAR"] && row["FOREBEAR"] !== "~") {
+        origin += `, ${row["FOREBEAR"]}`;
       }
-      if (row['NOTES']) {
-        origin += `; ${row['NOTES']}`;
+      if (row["NOTES"]) {
+        origin += `; ${row["NOTES"]}`;
       }
 
       this.createOrUpdateEntry(word, posArr, senses, origin);
@@ -324,15 +324,18 @@ export class HurlebatteLoader {
     word: string,
     posArr: POS[],
     senses: string[],
-    origin: string
+    origin: string,
   ) {
-    const defaultPOS = posArr.reduce((acc, pos) => {
-      acc[pos] = {
-        senses: [],
-        origins: [],
-      };
-      return acc;
-    }, {} as AnglishEntry['pos']);
+    const defaultPOS = posArr.reduce(
+      (acc, pos) => {
+        acc[pos] = {
+          senses: [],
+          origins: [],
+        };
+        return acc;
+      },
+      {} as AnglishEntry["pos"],
+    );
     const defaultEntry = {
       pos: defaultPOS,
       isAnglish: true,
@@ -356,32 +359,32 @@ export class HurlebatteLoader {
   private static async getPartsOfSpeech(
     posString: string,
     word: string,
-    interactive: boolean
+    interactive: boolean,
   ) {
     const posArr: POS[] = [];
     const posArrRaw = posString
-      .replace(/[\s\n]/g, '') // Remove spaces and newlines
+      .replace(/[\s\n]/g, "") // Remove spaces and newlines
       .split(/[^\w]/) // Split on non-word characters
       .filter((str: string) => str);
 
     for (const posRaw of posArrRaw) {
       switch (posRaw.toLowerCase()) {
-        case 'n':
+        case "n":
           posArr.push(POS.Noun);
           break;
-        case 'v':
+        case "v":
           posArr.push(POS.Verb);
           break;
-        case 'aj':
+        case "aj":
           posArr.push(POS.Adjective);
           break;
-        case 'av':
+        case "av":
           posArr.push(POS.Adverb);
           break;
-        case 'c':
+        case "c":
           posArr.push(POS.Conjunction);
           break;
-        case 'p':
+        case "p":
           posArr.push(POS.Adposition);
           break;
         default:
@@ -403,21 +406,21 @@ export class HurlebatteLoader {
 export class MootLoader {
   public static anglish: AnglishEntries = {};
   public static size: number;
-  private static baseURL: string = 'https://anglish.fandom.com';
-  private static htmlDirEnglish: string = '/data/assets/moot/html/english/';
-  private static htmlDirAnglish: string = '/data/assets/moot/html/anglish/';
-  private static jsonPath: string = '/data/assets/moot/moot-anglish.json';
+  private static baseURL: string = "https://anglish.fandom.com";
+  private static htmlDirEnglish: string = "/data/assets/moot/html/english/";
+  private static htmlDirAnglish: string = "/data/assets/moot/html/anglish/";
+  private static jsonPath: string = "/data/assets/moot/moot-anglish.json";
 
   private static originsPattern: string = (() => {
-    const json = util.readJSON('/data/assets/moot/abbreviations.json');
+    const json = util.readJSON("/data/assets/moot/abbreviations.json");
     const pattern = `(${Object.keys(json)
-      .map((s) => s.replace('.', ''))
-      .join('|')})`;
+      .map((s) => s.replace(".", ""))
+      .join("|")})`;
     return pattern;
   })();
   private static englishRegExp = new RegExp(
     `(?<!\\()(?<words>${WORD_PATTERN}(, (${WORD_PATTERN})?)*)(?!\\))(\\s?\\((?<origin>[^\\)]*)\\))?`,
-    'iug'
+    "iug",
   );
 
   private constructor() {}
@@ -441,27 +444,27 @@ export class MootLoader {
   }
 
   private static async fetchEnglishHTML() {
-    logger.info('Local HTML not found. Fetching English HTML...');
+    logger.info("Local HTML not found. Fetching English HTML...");
     let data = await this.fetch(`${this.baseURL}/wiki/English_Wordbook`);
     const $ = cheerio.load(data);
     const hrefs = Array.from(
-      $('big')
+      $("big")
         .first()
-        .find('a')
-        .map((i, el) => $(el).attr('href'))
+        .find("a")
+        .map((i, el) => $(el).attr("href")),
     );
     await this.saveHTML(hrefs, this.htmlDirEnglish);
   }
 
   private static async fetchAnglishHTML() {
-    logger.info('Local HTML not found. Fetching Anglish HTML...');
+    logger.info("Local HTML not found. Fetching Anglish HTML...");
     let data = await this.fetch(`${this.baseURL}/wiki/Anglish_Wordbook`);
     const $ = cheerio.load(data);
     const hrefs = Array.from(
-      $('tbody')
+      $("tbody")
         .first()
-        .find('a')
-        .map((i, el) => $(el).attr('href'))
+        .find("a")
+        .map((i, el) => $(el).attr("href")),
     );
     await this.saveHTML(hrefs, this.htmlDirAnglish);
   }
@@ -471,14 +474,14 @@ export class MootLoader {
     for (const href of hrefs) {
       const url = this.baseURL + href;
       const data = await this.fetch(url);
-      const filename = `${href.split('/').pop()}.html`;
+      const filename = `${href.split("/").pop()}.html`;
       logger.info(`Writing ${dir}${filename}`);
       util.writeFile(data, dir, filename);
     }
   }
 
   private static async scrapeEnglish(options: OptionValues) {
-    logger.info('Scraping English Moot data...');
+    logger.info("Scraping English Moot data...");
 
     let files = util.getFiles(`${this.htmlDirEnglish}*`);
     if (!files.length) {
@@ -492,8 +495,8 @@ export class MootLoader {
       const data = util.readFile(path);
       const $ = cheerio.load(data);
 
-      for (const el of Array.from($('table > tbody > tr'))) {
-        const cells = $(el).children('td');
+      for (const el of Array.from($("table > tbody > tr"))) {
+        const cells = $(el).children("td");
         if (cells.length === 4) {
           let [_word, _pos, _att, _una] = Array.from(cells).map((cell, i) => {
             if (i < 3) {
@@ -511,7 +514,7 @@ export class MootLoader {
           const posArr = await this.getPartsOfSpeech(
             _pos,
             englishWord,
-            options?.interactive
+            options?.interactive,
           );
 
           this.reverseEnglish(_att, englishWord, posArr);
@@ -524,7 +527,7 @@ export class MootLoader {
   }
 
   private static async scrapeAnglish(options: OptionValues) {
-    logger.info('Scraping Anglish Moot data...');
+    logger.info("Scraping Anglish Moot data...");
 
     let files = util.getFiles(`${this.htmlDirAnglish}*`);
     if (!files.length) {
@@ -538,14 +541,14 @@ export class MootLoader {
       const data = util.readFile(path);
       const $ = cheerio.load(data);
 
-      for (const el of Array.from($('table > tbody > tr'))) {
-        if ($(el).children('td').length !== 3) {
+      for (const el of Array.from($("table > tbody > tr"))) {
+        if ($(el).children("td").length !== 3) {
           continue;
         }
 
-        const cells = $(el).find('td');
+        const cells = $(el).find("td");
         let [_word, _pos, _def] = Array.from(cells).map((cell) =>
-          $(cell).text()
+          $(cell).text(),
         );
 
         const anglishWord = cleanWord(_word);
@@ -555,22 +558,22 @@ export class MootLoader {
 
         const [words, origin] = _def.split(/[\[\]]/g);
         const senses = words
-          .replace(/\([^)]*\)/g, ',') // Remove square brackets
+          .replace(/\([^)]*\)/g, ",") // Remove square brackets
           .split(/[^\w\s'\-]/g) // Split on non-word characters
-          .map((s) => s.trim().replace(/^(a|an|to) /g, '')) // Remove a/an/to at start
+          .map((s) => s.trim().replace(/^(a|an|to) /g, "")) // Remove a/an/to at start
           .filter((s) => s);
 
         const posArr = await this.getPartsOfSpeech(
           _pos,
           anglishWord,
-          options?.interactive
+          options?.interactive,
         );
 
         this.createOrUpdateEntry(
           anglishWord,
           posArr,
           senses,
-          AnglishSource.MootAnglish
+          AnglishSource.MootAnglish,
         );
       }
     }
@@ -591,36 +594,36 @@ export class MootLoader {
   private static async getPartsOfSpeech(
     posString: string,
     word: string,
-    interactive: boolean
+    interactive: boolean,
   ) {
     const posArr: POS[] = [];
     const posArrRaw = posString
-      .replace(/[\s\n]/g, '') // Remove spaces and newlines
+      .replace(/[\s\n]/g, "") // Remove spaces and newlines
       .split(/[^\w]/) // Split on non-word characters
       .filter((str) => str);
 
     for (const posRaw of posArrRaw) {
       switch (posRaw.toLowerCase()) {
-        case 'noun':
-        case 'n':
+        case "noun":
+        case "n":
           posArr.push(POS.Noun);
           break;
-        case 'verb':
-        case 'vb':
-        case 'vt':
-        case 'v':
+        case "verb":
+        case "vb":
+        case "vt":
+        case "v":
           posArr.push(POS.Verb);
           break;
-        case 'adj':
+        case "adj":
           posArr.push(POS.Adjective);
           break;
-        case 'adv':
+        case "adv":
           posArr.push(POS.Adverb);
           break;
-        case 'conj':
+        case "conj":
           posArr.push(POS.Conjunction);
           break;
-        case 'prep':
+        case "prep":
           posArr.push(POS.Adposition);
           break;
         default:
@@ -640,10 +643,10 @@ export class MootLoader {
   private static reverseEnglish(
     str: string,
     englishWord: string,
-    posArr: POS[]
+    posArr: POS[],
   ) {
     str = str
-      .replace(/(?:^|\n).*?:/g, '') // Remove text coming before a colon
+      .replace(/(?:^|\n).*?:/g, "") // Remove text coming before a colon
       .trim();
 
     // Sometimes the regular expression wrongly extracts an origin acronym.
@@ -665,7 +668,7 @@ export class MootLoader {
               posArr,
               [englishWord],
               AnglishSource.MootEnglish,
-              origin
+              origin,
             );
           }
         }
@@ -678,15 +681,18 @@ export class MootLoader {
     posArr: POS[],
     senses: string[],
     source: AnglishSource,
-    origin?: string
+    origin?: string,
   ) {
-    const defaultPOS = posArr.reduce((acc, pos) => {
-      acc[pos] = {
-        senses: [],
-        origins: [],
-      };
-      return acc;
-    }, {} as AnglishEntry['pos']);
+    const defaultPOS = posArr.reduce(
+      (acc, pos) => {
+        acc[pos] = {
+          senses: [],
+          origins: [],
+        };
+        return acc;
+      },
+      {} as AnglishEntry["pos"],
+    );
     const defaultEntry = {
       pos: defaultPOS,
       isAnglish: true,
@@ -717,8 +723,8 @@ export class WordnetLoader {
   public static synsets: Record<string, WordnetSynset> = {};
   public static sizeEntries: number;
   public static sizeSynsets: number;
-  private static dirYAML: string = '/data/assets/wordnet/yaml/';
-  private static dirJSON: string = '/data/assets/wordnet/json/';
+  private static dirYAML: string = "/data/assets/wordnet/yaml/";
+  private static dirJSON: string = "/data/assets/wordnet/json/";
 
   private constructor() {}
 
@@ -760,7 +766,7 @@ export class WordnetLoader {
         // TODO: Handle frames file
       }
 
-      const filenameJSON = filename.replace(/yaml$/, 'json');
+      const filenameJSON = filename.replace(/yaml$/, "json");
       logger.info(`Writing ${this.dirJSON}${filenameJSON}`);
       util.writeJSON(json, this.dirJSON, filenameJSON);
     }
@@ -801,16 +807,16 @@ export class WordnetLoader {
 
 function cleanWord(word: string) {
   word = word
-    .replace(/\([^)]*\)/g, '') // Remove (parentheses)
-    .replace(/\[[^\]]*\]/g, '') // Remove [square brackets]
-    .replace(/\n.*$/g, '') // Remove anything that comes after a newline
-    .replace(/\s+/g, ' ') // Remove extra spaces between words
+    .replace(/\([^)]*\)/g, "") // Remove (parentheses)
+    .replace(/\[[^\]]*\]/g, "") // Remove [square brackets]
+    .replace(/\n.*$/g, "") // Remove anything that comes after a newline
+    .replace(/\s+/g, " ") // Remove extra spaces between words
     .trim(); // Trim
 
   // If word does not have form "word" or "word word" or "word-word"...
   if (!WORD_REGEXP.test(word)) {
     // Take the first match before a "/" or ",".
-    const match = word.match(new RegExp(`^${WORD_PATTERN}(?=\s*[\/,])`, 'iu'));
+    const match = word.match(new RegExp(`^${WORD_PATTERN}(?=\s*[\/,])`, "iu"));
     if (!match) {
       // No word could be extracted.
       if (word) {
@@ -831,9 +837,9 @@ async function promptPartOfSpeech(word: string, _pos: string): Promise<POS> {
     properties: {
       pos: {
         description: `Part of speech for '${word}:${_pos}'`,
-        type: 'string',
+        type: "string",
         pattern: /^(n|v|a|r|s|c|p|x|u)$/,
-        message: 'Part of speech must be of selection (n|v|a|r|s|c|p|x|u)',
+        message: "Part of speech must be of selection (n|v|a|r|s|c|p|x|u)",
       },
     },
   };

@@ -39,6 +39,7 @@ export class DatabaseClient {
     } catch (error) {
       this.isConnected = false;
       logger.error("Error connecting to Postgres:", error);
+      throw error;
     }
   }
 
