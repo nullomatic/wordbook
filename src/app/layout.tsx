@@ -46,7 +46,7 @@ export default function RootLayout({
 
         <HeaderTabs />
 
-        <main className="w-full grow">{children}</main>
+        <main className="flex w-full grow flex-col">{children}</main>
 
         {/* Footer */}
         <footer className="w-full bg-stone-200 px-3 pb-16 pt-12 text-center text-stone-800 dark:text-stone-600">

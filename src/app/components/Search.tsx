@@ -23,6 +23,7 @@ export default function Search() {
   const [resultList, setResultList]: [SearchResult[], any] = useState([]);
   const [selectedResultIndex, setSelectedResultIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
+  const resultsRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
   const isMobile = isMobileDevice();
 
@@ -46,7 +47,17 @@ export default function Search() {
     setHasFocus(true);
   };
 
-  const handleBlur = () => {
+  const handleBlur = (event: React.FocusEvent<HTMLInputElement>) => {
+    // Allow result to be clicked by not blurring if click target is results list.
+    // Otherwise, the results list is hidden before the click can go through.
+    const nextFocus = event.relatedTarget as HTMLElement;
+    if (
+      resultsRef.current &&
+      nextFocus &&
+      resultsRef.current.contains(nextFocus)
+    ) {
+      return;
+    }
     setHasFocus(false);
   };
 
@@ -156,6 +167,7 @@ export default function Search() {
       </div>
       {
         <div
+          ref={resultsRef}
           className={classNames(
             "absolute top-7 mt-3 w-full divide-y divide-stone-200 overflow-hidden rounded-bl-lg rounded-br-lg border border-stone-300 bg-white shadow-lg dark:divide-stone-500 dark:border-stone-300",
             {
