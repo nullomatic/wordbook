@@ -61,6 +61,7 @@ export class DatabaseClient {
     }
 
     try {
+      logger.info(`Query:\n${queryText}`);
       return await this.client.query(queryText, params);
     } catch (error) {
       logger.error("Error executing Postgres query:", error);
@@ -70,7 +71,7 @@ export class DatabaseClient {
 }
 
 export class RedisClient {
-  private static client: redis.RedisClientType;
+  public static client: redis.RedisClientType; // TODO: Make this like the Postgres client class
   private static options: redis.RedisClientOptions = {
     // Disabling reconnectStrategy causes client connection attempts to be driven by incoming requests.
     // Otherwise, the client will reattempt to connect forever and cause requests to hang indefinitely.

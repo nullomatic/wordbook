@@ -3,115 +3,130 @@ import { POS } from "@/lib/constants";
 import { DatabaseClient } from "@/lib/client";
 import pg from "pg";
 import { Query } from "@/lib/query";
-import { readCSV } from "@/lib/util";
+import { logger, readCSV } from "@/lib/util";
 import _ from "lodash";
+import View from "compromise/view/one";
 
-const freq = await loadCSV(); // TODO: Add this data to postgres
+type RestoreFunctionType = (word: string) => string;
 
 export async function translateText(input: string) {
-  const doc = nlp(input);
-  const json = doc.json();
-  const dict = {} as any;
-  const results = [];
+  const dict: Record<
+    string,
+    {
+      lemma: string;
+      pos: POS;
+      restoreFn?: RestoreFunctionType;
+    }
+  > = {};
+  const terms: {
+    normal: string;
+    pos: POS;
+    lemma: string;
+    text: string;
+    pre: string;
+    post: string;
+    synonyms: string[];
+    isAnglish: boolean;
+  }[] = [];
 
   let translation = "";
 
-  for (const sentence of json) {
+  for (const sentence of nlp(input).json()) {
     for (const term of sentence.terms) {
-      let word = term.normal;
-      let pos = convertPOS(term.tags);
-      let key = `${word}|${pos}`;
+      const normal = term.normal;
+      const pos = convertPOS(term.tags);
+      const termDoc: View = nlp(normal);
+      const { lemma, restoreFn } = getLemma(termDoc, normal);
 
-      let termDoc: any = nlp(word);
-      let transform: ((synonyms: string[]) => string[]) | null = null;
-
-      const isPlural = termDoc.has("#Noun") && termDoc.has("#Plural");
-      if (isPlural) {
-        termDoc = termDoc.nouns().toSingular() as any;
-        console.log(`Converting "${word}" to "${termDoc.out()}"`);
-        word = termDoc.out();
-      }
-
-      let isVerb = termDoc.has("#Verb");
-      if (isVerb) {
-        const tags = termDoc.out("tags")[0][word];
-        const infinitive = termDoc.verbs().toInfinitive().out();
-
-        if (word === infinitive || infinitive === "be") {
-          isVerb = false;
-        } else {
-          console.log(`Converting "${word}" to "${infinitive}"`);
-          console.log(tags);
-          word = infinitive;
-          transform = (synonyms: string[]) => {
-            if (tags.includes("PresentTense")) {
-              return synonyms.map((synonym) => {
-                return nlp(synonym).verbs().toPresentTense().out();
-              });
-            } else if (tags.includes("PastTense")) {
-              return synonyms.map((synonym) => {
-                return nlp(synonym).verbs().toPastTense().out();
-              });
-            } else if (tags.includes("FutureTense")) {
-              return synonyms.map((synonym) => {
-                return nlp(synonym).verbs().toFutureTense().out();
-              });
-            } else {
-              return synonyms;
-            }
-          };
-        }
-      }
-
-      if (!dict[key]) {
-        dict[key] = {
-          english: [],
-          anglish: [],
+      if (!dict[normal]) {
+        dict[normal] = {
+          lemma,
+          pos,
+          restoreFn,
         };
-        const wordData = await queryWord(word, pos);
-        if (wordData) {
-          term.isAnglish = wordData.is_anglish;
-          const synonyms = await querySynonyms(word, pos);
-          if (isPlural) {
-            synonyms.english = convertToPlural(synonyms.english);
-            synonyms.anglish = convertToPlural(synonyms.anglish);
-          }
-          if (isVerb && transform) {
-            synonyms.english = transform(synonyms.english);
-            synonyms.anglish = transform(synonyms.anglish);
-          }
-          dict[key] = synonyms;
-        }
       }
 
-      term.synonyms = dict[key];
-
-      results.push({
+      terms.push({
+        normal,
+        pos,
+        lemma,
         text: term.text,
         pre: term.pre,
         post: term.post,
-        synonyms: term.synonyms.anglish,
-        isAnglish: term.isAnglish,
+        synonyms: [],
+        isAnglish: false,
       });
-
-      translation += term.pre;
-      if (term.isAnglish) {
-        // Term itself is Anglish.
-        translation += term.text;
-      } else if (term.synonyms.anglish.length) {
-        // Term has Anglish synonyms.
-        translation += `(${term.synonyms.anglish.join("|")})`;
-      } else {
-        // No replacements found.
-        translation += term.text;
-      }
-      translation += term.post;
     }
   }
 
-  //console.log(JSON.stringify(results, null, 2));
+  const wordPairs = Object.values(dict)
+    .map(({ lemma }: any) => pg.escapeLiteral(lemma) as any)
+    .join(",");
+  const sql = Query.getTemplate("synonymsMultiple").replaceAll(
+    "<words>",
+    wordPairs,
+  );
 
-  return results;
+  // TODO: The synonym matcher fails where words have multiple of the same POS, like n-1/n-2
+
+  //console.log("wordPairs:", wordPairs);
+
+  const results = await DatabaseClient.query(sql);
+  const synonymsCache: any = {};
+
+  for (const result of results.rows) {
+    const { source_word } = result;
+    if (!synonymsCache[source_word]) {
+      synonymsCache[source_word] = [];
+    }
+    synonymsCache[source_word].push(result);
+  }
+
+  for (const term of terms) {
+    const cached = dict[term.normal];
+    const synonymsData = synonymsCache[term.lemma];
+    if (synonymsData) {
+      term.isAnglish = synonymsData.find(
+        ({ synonym }: any) => synonym === term.lemma,
+      )?.is_anglish;
+
+      term.synonyms = synonymsData.filter(
+        ({ synonym, is_anglish, pos }: any) =>
+          term.normal !== synonym && pos[0] === term.pos[0] && is_anglish,
+      );
+
+      if (!term.synonyms.length) {
+        // If there were no matches on POS, Compromise may have mislabeled the POS.
+        term.synonyms = synonymsData.filter(
+          ({ synonym, is_anglish }: any) =>
+            term.normal !== synonym && is_anglish,
+        );
+      }
+
+      term.synonyms = term.synonyms
+        .sort((a: any, b: any) => parseInt(b.frequency) - parseInt(a.frequency))
+        .map(({ synonym }: any) => cached.restoreFn?.(synonym) || synonym);
+    }
+
+    if (!term.synonyms.length) {
+      console.log(`No synonyms found for ${term.normal}|${term.pos}`);
+    }
+
+    // translation += term.pre;
+    // if (term.isAnglish) {
+    //   // Term itself is Anglish.
+    //   translation += term.text;
+    // } else if (term.synonyms.anglish.length) {
+    //   // Term has Anglish synonyms.
+    //   translation += `(${term.synonyms.anglish.join("|")})`;
+    // } else {
+    //   // No replacements found.
+    //   translation += term.text;
+    // }
+    // translation += term.post;
+  }
+
+  return terms;
 }
 
 function convertPOS(tags: string[]) {
@@ -125,50 +140,80 @@ function convertPOS(tags: string[]) {
   return POS.Other;
 }
 
-async function queryWord(word: string, pos: POS) {
-  const escaped = pg.escapeLiteral(word);
-  const sql = `SELECT * FROM word WHERE word = ${escaped} AND pos = '${pos}'`;
-  const result = await DatabaseClient.query(sql);
-  const wordData = result.rows?.[0];
-  return wordData;
-}
+type GetLemmaReturnType = {
+  lemma: string;
+  restoreFn?: RestoreFunctionType;
+};
 
-async function querySynonyms(word: string, pos: POS) {
-  const synonyms = { anglish: [], english: [] } as any;
-  const template = Query.getTemplate("synonyms");
-  const sql = template
-    .replaceAll("<word>", pg.escapeLiteral(word))
-    .replaceAll("<pos>", pg.escapeLiteral(pos));
+/*
+ * This function converts a word to its lemma or base form, if it exists.
+ * It also supplies a callback to restore matched words to the original form.
+ */
+function getLemma(termDoc: any, word: string): GetLemmaReturnType {
+  const lemma = word;
 
-  const result = await DatabaseClient.query(sql);
-  if (result.rows?.length) {
-    for (const { word: synonym, is_anglish } of result.rows) {
-      synonyms[is_anglish ? "anglish" : "english"].push(synonym);
-    }
+  // Word is a plural noun.
+  const isPlural = termDoc.has("#Noun") && termDoc.has("#Plural");
+  if (isPlural) {
+    return getLemmaPluralNoun(termDoc, word);
   }
 
-  const sortSynonyms = (words: string[]) =>
-    words.sort((a: string, b: string) => (freq[b] || 0) - (freq[a] || 0));
+  // TODO: possessive noun
 
-  sortSynonyms(synonyms.english);
-  sortSynonyms(synonyms.anglish);
-
-  return synonyms;
-}
-
-function convertToPlural(words: string[]) {
-  return words.map((word) => {
-    return nlp(word).nouns().toPlural().out();
-  });
-}
-
-async function loadCSV() {
-  const dict = {} as any;
-  const rows = await readCSV("/data/assets/freq/unigram_freq.csv");
-  for (const { word, count } of rows) {
-    if (!dict[word]) {
-      dict[word] = count;
-    }
+  // Word is a verb.
+  const isVerb = termDoc.has("#Verb");
+  if (isVerb) {
+    return getLemmaVerb(termDoc, word);
   }
-  return dict;
+
+  // Default: Don't transform.
+  return { lemma, restoreFn: undefined };
+}
+
+function getLemmaPluralNoun(termDoc: any, word: string): GetLemmaReturnType {
+  termDoc = termDoc.nouns().toSingular() as any;
+  logger.info(`Converting "${word}" to "${termDoc.out()}"`); // TODO: change log level
+  const lemma = termDoc.out();
+  return {
+    lemma,
+    restoreFn: (word: string) => nlp(word).nouns().toPlural().out(),
+  };
+}
+
+function getLemmaVerb(termDoc: any, word: string): GetLemmaReturnType {
+  const tags = termDoc.out("tags")[0][word];
+  const infinitive = termDoc.verbs().toInfinitive().out();
+
+  if (word === infinitive) {
+    return { lemma: word, restoreFn: undefined };
+  }
+
+  logger.info(`Converting "${word}" to "${infinitive}"`); // TODO: change log level
+  //logger.info("tags:", tags);
+
+  const lemma = infinitive;
+  let restoreFn;
+
+  // TODO: Implement more sophisticated conjucation logic for Anglish words not known to Compromise NLP
+  if (tags?.includes("PresentTense")) {
+    restoreFn = (lemma: string) =>
+      nlp(lemma).verbs().toPresentTense().out() || lemma;
+  } else if (tags?.includes("PastTense")) {
+    restoreFn = (lemma: string) => {
+      return (
+        nlp(lemma).verbs().toPastTense().out() ||
+        (lemma.endsWith("e") ? `${lemma}d` : `${lemma}ed`)
+      );
+    };
+  } else if (tags?.includes("FutureTense")) {
+    restoreFn = (lemma: string) =>
+      nlp(lemma).verbs().toFutureTense().out() || `will ${lemma}`;
+  } else if (tags?.includes("Gerund")) {
+    restoreFn = (lemma: string) =>
+      nlp(lemma).verbs().toGerund().out() || lemma.endsWith("e")
+        ? `${lemma.slice(0, lemma.length - 1)}ing`
+        : `${lemma}ing`;
+  }
+
+  return { lemma, restoreFn };
 }

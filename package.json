@@ -8,9 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "data": "tsx ./src/data/index.ts",
     "compile": "ts-node ./src/data/index.ts --compile",
     "populate": "ts-node ./src/data/index.ts --populate",
-    "rebuildSearchIndex": "ts-node ./src/data/index.ts --rebuild-search-index",
     "misc": "tsx ./src/data/_translate.ts"
   },
   "dependencies": {

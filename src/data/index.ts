@@ -1,6 +1,10 @@
 import { Command, OptionValues } from "commander";
 import compileSources from "./compile";
-import { populateDatabase, rebuildSearchIndex } from "./db";
+import {
+  insertWordFrequencyData,
+  populateDatabase,
+  rebuildSearchIndex,
+} from "./db";
 import { logger } from "../lib/util.js";
 
 main()
@@ -28,6 +32,9 @@ async function main() {
   if (options.rebuildSearchIndex) {
     await rebuildSearchIndex();
   }
+  if (options.insertFreqData) {
+    await insertWordFrequencyData();
+  }
 }
 
 function parseOptions(): OptionValues {
@@ -37,6 +44,7 @@ function parseOptions(): OptionValues {
   program.option("--compile", "Compile all word sources");
   program.option("--populate", "Populate database");
   program.option("--rebuild-search-index", "Rebuild Redis search index");
+  program.option("--insert-freq-data", "Rebuild Redis search index");
   program.option("--save <sources>", "Save <sources> to disk");
   program.option("--condense-senses", "Condense word senses with ChatGPT");
   program.option("--match-senses", "Match word senses with ChatGPT");

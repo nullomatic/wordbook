@@ -8,13 +8,19 @@ export default function ArticleContent({
   return (
     <div className="flex w-full flex-col items-center space-y-6 py-12">
       <Markdown
-        className="w-full max-w-2xl space-y-3"
+        className="w-full max-w-2xl space-y-6"
         components={{
           h1: ({ node, ...props }) => (
-            <h1 className="py-6 text-center text-5xl font-bold" {...props} />
+            <h1
+              className="py-6 text-center font-sans text-5xl font-bold"
+              {...props}
+            />
           ),
           h2: ({ node, ...props }) => (
-            <h2 className="text-lg font-bold" {...props} />
+            <h2
+              className="pt-3 text-center font-sans text-lg font-bold"
+              {...props}
+            />
           ),
           p: ({ node, ...props }) => <p className="" {...props} />,
           a: ({ node, ...props }) => (

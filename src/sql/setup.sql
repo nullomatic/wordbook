@@ -62,3 +62,5 @@ CREATE TABLE synset_synset (
     relation VARCHAR(20),
     PRIMARY KEY (synset_id_1, synset_id_2, relation)
 );
+
+CREATE INDEX idx_word_word_pos ON word(word, pos);

@@ -1,6 +1,5 @@
 import { config } from "@fortawesome/fontawesome-svg-core";
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,8 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTree } from "@fortawesome/free-solid-svg-icons";
 import { Bounce, ToastContainer } from "react-toastify";
 config.autoAddCss = false;
-
-const font = Source_Sans_3({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Anglish Wiki",
@@ -25,9 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
-      <body
-        className={`flex min-h-screen flex-col items-center bg-white text-black dark:bg-stone-900 dark:text-white ${font.className}`}
-      >
+      <body className="flex min-h-screen flex-col items-center bg-white text-black dark:bg-stone-900 dark:text-white">
         <ToastContainer
           position="bottom-center"
           autoClose={5000}

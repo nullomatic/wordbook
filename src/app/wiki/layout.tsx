@@ -73,7 +73,7 @@ export default function WikiLayout({
   return (
     <div className="flex w-full justify-center">
       <SidebarLeft title="Anglish Wiki" sections={sidebarSections} />
-      <div className="w-full shrink-0 pb-8 lg:mx-6 lg:max-w-4xl">
+      <div className="w-full shrink-0 pb-8 font-serif leading-loose lg:mx-6 lg:max-w-4xl">
         {children}
       </div>
       <SidebarRight />
