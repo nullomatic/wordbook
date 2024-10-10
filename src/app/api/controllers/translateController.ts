@@ -134,7 +134,7 @@ export async function translateText(input: string, options: POS[]) {
     text: string;
     pre: string;
     post: string;
-    synonyms: string[];
+    synonyms: { word: string }[];
     isAnglish: boolean;
     willTranslate: boolean;
   }[] = [];
@@ -218,15 +218,17 @@ export async function translateText(input: string, options: POS[]) {
         }
 
         term.synonyms = term.synonyms
+          .map(({ synonym }: any) => ({
+            word: cached.restoreFn?.(synonym) || synonym,
+          }))
           .sort((a: any, b: any) => {
-            const aMatches = a.synonym === term.normal ? -1 : 1;
-            const bMatches = b.synonym === term.normal ? -1 : 1;
+            const aMatches = a.word === term.normal ? -1 : 1;
+            const bMatches = b.word === term.normal ? -1 : 1;
             if (aMatches !== bMatches) {
               return aMatches - bMatches;
             }
             return parseInt(b.frequency) - parseInt(a.frequency);
-          })
-          .map(({ synonym }: any) => cached.restoreFn?.(synonym) || synonym);
+          });
       }
     }
 

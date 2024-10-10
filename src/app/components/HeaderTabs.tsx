@@ -19,7 +19,7 @@ export default function HeaderTabs() {
       path: "/",
       icon: faTree,
       iconColor: "text-green-600",
-      label: "anglish.wiki",
+      label: "Angish Wiki",
     },
     {
       path: "/wordbook",

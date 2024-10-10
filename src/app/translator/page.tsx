@@ -259,8 +259,8 @@ export default function Page() {
                 >
                   {term.synonyms.length
                     ? isCapitalized(term.text)
-                      ? capitalize(term.synonyms[0])
-                      : term.synonyms[0]
+                      ? capitalize(term.synonyms[0].word)
+                      : term.synonyms[0].word
                     : term.text}
                 </span>
               );
@@ -293,7 +293,7 @@ export default function Page() {
                           {term.text}
                         </li>
                         {term.synonyms.map(
-                          (synonym: string, synonymIndex: number) => (
+                          (synonym: { word: string }, synonymIndex: number) => (
                             <li
                               key={synonymIndex}
                               className="cursor-pointer space-x-1.5 text-nowrap rounded px-2 py-1 hover:bg-stone-100"
@@ -307,7 +307,7 @@ export default function Page() {
                                   className="text-xs text-stone-300"
                                 />
                               )}
-                              <span>{synonym}</span>
+                              <span>{synonym.word}</span>
                             </li>
                           ),
                         )}
