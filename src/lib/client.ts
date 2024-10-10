@@ -61,7 +61,7 @@ export class DatabaseClient {
     }
 
     try {
-      logger.info(`Query:\n${queryText}`);
+      logger.verbose(`Query:\n${queryText}`);
       return await this.client.query(queryText, params);
     } catch (error) {
       logger.error("Error executing Postgres query:", error);

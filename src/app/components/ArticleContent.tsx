@@ -6,7 +6,7 @@ export default function ArticleContent({
   contentEnglish: string;
 }) {
   return (
-    <div className="flex w-full flex-col items-center space-y-6 py-12">
+    <div className="flex w-full flex-col items-center space-y-6 py-24">
       <Markdown
         className="w-full max-w-2xl space-y-6"
         components={{
@@ -18,7 +18,7 @@ export default function ArticleContent({
           ),
           h2: ({ node, ...props }) => (
             <h2
-              className="pt-3 text-center font-sans text-lg font-bold"
+              className="pt-4 text-center font-sans text-lg font-bold"
               {...props}
             />
           ),

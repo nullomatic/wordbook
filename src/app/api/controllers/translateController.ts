@@ -9,7 +9,117 @@ import View from "compromise/view/one";
 
 type RestoreFunctionType = (word: string) => string;
 
-export async function translateText(input: string) {
+const skipWords = [
+  // Pronouns
+  "i",
+  "you",
+  "we",
+  "he",
+  "she",
+  "it",
+  "they",
+  "me",
+  "him",
+  "her",
+  "us",
+  "them",
+
+  // Demonstratives
+  "these",
+  "those",
+  "this",
+  "that",
+
+  // Determiners
+  "a",
+  "an",
+  "the",
+  "my",
+  "your",
+  "his",
+  "her",
+  "its",
+  "our",
+  "their",
+
+  // Conjunctions
+  "and",
+  "or",
+  "but",
+  "if",
+  "so",
+  "because",
+
+  // Prepositions
+  "in",
+  "on",
+  "at",
+  "by",
+  "for",
+  "with",
+  "about",
+  "as",
+  "of",
+  "to",
+  "from",
+  "up",
+  "down",
+  "over",
+  "under",
+
+  // Auxiliary (Helping) Verbs
+  "am",
+  "is",
+  "are",
+  "was",
+  "were",
+  "be",
+  "been",
+  "being",
+  "have",
+  "has",
+  "had",
+  "do",
+  "does",
+  "did",
+  "will",
+  "would",
+  "shall",
+  "should",
+  "can",
+  "could",
+  "may",
+  "might",
+  "must",
+
+  // Basic Adverbs
+  "not",
+  "no",
+  "yes",
+  "now",
+  "then",
+
+  // Interrogative Words
+  "who",
+  "what",
+  "where",
+  "when",
+  "why",
+  "how",
+
+  // Other Basic Words
+  "there",
+  "here",
+  "all",
+  "some",
+  "none",
+  "each",
+  "every",
+  "either",
+  "neither",
+];
+
+export async function translateText(input: string, options: POS[]) {
   const dict: Record<
     string,
     {
@@ -21,12 +131,12 @@ export async function translateText(input: string) {
   const terms: {
     normal: string;
     pos: POS;
-    lemma: string;
     text: string;
     pre: string;
     post: string;
     synonyms: string[];
     isAnglish: boolean;
+    willTranslate: boolean;
   }[] = [];
 
   let translation = "";
@@ -38,23 +148,28 @@ export async function translateText(input: string) {
       const termDoc: View = nlp(normal);
       const { lemma, restoreFn } = getLemma(termDoc, normal);
 
-      if (!dict[normal]) {
-        dict[normal] = {
-          lemma,
-          pos,
-          restoreFn,
-        };
+      const willTranslate = options.includes(pos) && !skipWords.includes(lemma);
+      console.log(normal, lemma);
+
+      if (willTranslate) {
+        if (!dict[normal]) {
+          dict[normal] = {
+            lemma,
+            pos,
+            restoreFn,
+          };
+        }
       }
 
       terms.push({
         normal,
         pos,
-        lemma,
         text: term.text,
         pre: term.pre,
         post: term.post,
         synonyms: [],
         isAnglish: false,
+        willTranslate,
       });
     }
   }
@@ -83,34 +198,41 @@ export async function translateText(input: string) {
   }
 
   for (const term of terms) {
-    const cached = dict[term.normal];
-    const synonymsData = synonymsCache[term.lemma];
-    if (synonymsData) {
-      term.isAnglish = synonymsData.find(
-        ({ synonym }: any) => synonym === term.lemma,
-      )?.is_anglish;
+    if (term.willTranslate) {
+      const cached = dict[term.normal];
+      const synonymsData = synonymsCache[cached.lemma];
+      if (synonymsData) {
+        term.isAnglish = synonymsData.find(
+          ({ synonym }: any) => synonym === cached.lemma,
+        )?.is_anglish;
 
-      term.synonyms = synonymsData.filter(
-        ({ synonym, is_anglish, pos }: any) =>
-          term.normal !== synonym && pos[0] === term.pos[0] && is_anglish,
-      );
-
-      if (!term.synonyms.length) {
-        // If there were no matches on POS, Compromise may have mislabeled the POS.
         term.synonyms = synonymsData.filter(
-          ({ synonym, is_anglish }: any) =>
-            term.normal !== synonym && is_anglish,
+          ({ is_anglish, pos }: any) => pos[0] === term.pos[0] && is_anglish,
         );
+
+        if (!term.synonyms.length) {
+          // If there were no matches on POS, Compromise may have mislabeled the POS.
+          term.synonyms = synonymsData.filter(
+            ({ is_anglish }: any) => is_anglish,
+          );
+        }
+
+        term.synonyms = term.synonyms
+          .sort((a: any, b: any) => {
+            const aMatches = a.synonym === term.normal ? -1 : 1;
+            const bMatches = b.synonym === term.normal ? -1 : 1;
+            if (aMatches !== bMatches) {
+              return aMatches - bMatches;
+            }
+            return parseInt(b.frequency) - parseInt(a.frequency);
+          })
+          .map(({ synonym }: any) => cached.restoreFn?.(synonym) || synonym);
       }
-
-      term.synonyms = term.synonyms
-        .sort((a: any, b: any) => parseInt(b.frequency) - parseInt(a.frequency))
-        .map(({ synonym }: any) => cached.restoreFn?.(synonym) || synonym);
     }
 
-    if (!term.synonyms.length) {
-      console.log(`No synonyms found for ${term.normal}|${term.pos}`);
-    }
+    // if (!term.synonyms.length) {
+    //   console.log(`No synonyms found for ${term.normal}|${term.pos}`);
+    // }
 
     // translation += term.pre;
     // if (term.isAnglish) {
@@ -176,7 +298,16 @@ function getLemmaPluralNoun(termDoc: any, word: string): GetLemmaReturnType {
   const lemma = termDoc.out();
   return {
     lemma,
-    restoreFn: (word: string) => nlp(word).nouns().toPlural().out(),
+    restoreFn: (_lemma: string) => {
+      let restored = nlp(_lemma).nouns().toPlural().out();
+      if (!restored) {
+        logger.verbose(
+          `Unknown lemma '${_lemma}', converting to plural manually`,
+        );
+        restored = _lemma.endsWith("s") ? `${_lemma}es` : `${_lemma}s`;
+      }
+      return restored;
+    },
   };
 }
 
@@ -188,14 +319,21 @@ function getLemmaVerb(termDoc: any, word: string): GetLemmaReturnType {
     return { lemma: word, restoreFn: undefined };
   }
 
-  logger.info(`Converting "${word}" to "${infinitive}"`); // TODO: change log level
-  //logger.info("tags:", tags);
+  logger.verbose(`Converting "${word}" to "${infinitive}"`);
 
   const lemma = infinitive;
   let restoreFn;
 
   // TODO: Implement more sophisticated conjucation logic for Anglish words not known to Compromise NLP
-  if (tags?.includes("PresentTense")) {
+  if (tags?.includes("Gerund")) {
+    // The order is important here; "Gerund" must be checked first,
+    // because "Gerund" and "PresentTense" always occur together.
+    restoreFn = (lemma: string) =>
+      nlp(lemma).verbs().toGerund().out()?.slice(3) || // Slice off "is ".
+      (lemma.endsWith("e")
+        ? `${lemma.slice(0, lemma.length - 1)}ing`
+        : `${lemma}ing`);
+  } else if (tags?.includes("PresentTense")) {
     restoreFn = (lemma: string) =>
       nlp(lemma).verbs().toPresentTense().out() || lemma;
   } else if (tags?.includes("PastTense")) {
@@ -208,11 +346,6 @@ function getLemmaVerb(termDoc: any, word: string): GetLemmaReturnType {
   } else if (tags?.includes("FutureTense")) {
     restoreFn = (lemma: string) =>
       nlp(lemma).verbs().toFutureTense().out() || `will ${lemma}`;
-  } else if (tags?.includes("Gerund")) {
-    restoreFn = (lemma: string) =>
-      nlp(lemma).verbs().toGerund().out() || lemma.endsWith("e")
-        ? `${lemma.slice(0, lemma.length - 1)}ing`
-        : `${lemma}ing`;
   }
 
   return { lemma, restoreFn };
