@@ -1,71 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight, faLink } from "@fortawesome/free-solid-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-
-const sidebarSections = [
-  {
-    title: "Getting Started",
-    items: [
-      {
-        title: "What is Anglish?",
-        link: "/wiki/what-is-anglish",
-      },
-      {
-        title: "History of Anglish",
-        link: "/wiki/history-of-anglish",
-      },
-      {
-        title: "How to Use This Site",
-        link: "/wiki/site-tutorial",
-      },
-      {
-        title: "For Contributors",
-        link: "/wiki/contributors",
-      },
-      {
-        title: "Resources",
-        link: "/wiki/resources",
-      },
-    ],
-  },
-
-  {
-    title: "Wordbook",
-    items: [
-      {
-        title: "Word of the Day",
-        link: "/wordbook/word-of-the-day",
-      },
-      {
-        title: "Style Guide",
-        link: "/wordbook/style-guide",
-      },
-      {
-        title: "Categories",
-        link: "/wordbook/categories",
-      },
-      {
-        title: "Directory A-Z",
-        link: "/wordbook/directory",
-      },
-    ],
-  },
-
-  {
-    title: "Tools",
-    items: [
-      {
-        title: "Translator",
-        link: "/tools/translator",
-      },
-      {
-        title: "Name Generator",
-        link: "/tools/generator",
-      },
-    ],
-  },
-];
 
 export default function SidebarRight() {
   return (

@@ -1,31 +1,16 @@
-import SidebarLeft from "../components/SidebarLeft";
-import SidebarRight from "../components/SidebarRight";
+import SidebarLeft from "@/components/SidebarLeft";
+import SidebarRight from "@/components/SidebarRight";
+import generateArticlePaths from "@/lib/generateArticlePaths";
+
+const articles = generateArticlePaths();
 
 const sidebarSections = [
   {
     title: "Getting Started",
-    items: [
-      {
-        title: "What is Anglish?",
-        link: "/wiki/introduction",
-      },
-      {
-        title: "History of Anglish",
-        link: "/wiki/history-of-anglish",
-      },
-      {
-        title: "How to Use This Site",
-        link: "/wiki/site-tutorial",
-      },
-      {
-        title: "For Contributors",
-        link: "/wiki/contributors",
-      },
-      {
-        title: "Resources",
-        link: "/wiki/resources",
-      },
-    ],
+    items: articles.map(({ title, slug }) => ({
+      title,
+      link: `/wiki/${slug}`,
+    })),
   },
 
   {

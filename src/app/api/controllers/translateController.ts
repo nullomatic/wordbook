@@ -149,7 +149,6 @@ export async function translateText(input: string, options: POS[]) {
       const { lemma, restoreFn } = getLemma(termDoc, normal);
 
       const willTranslate = options.includes(pos) && !skipWords.includes(lemma);
-      console.log(normal, lemma);
 
       if (willTranslate) {
         if (!dict[normal]) {

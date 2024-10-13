@@ -1,3 +1,8 @@
+---
+title: What is Anglish?
+posted: 1970-01-01
+---
+
 # What is Anglish?
 
 Anglish is a form of English that strives to use words rooted in the language's native heritage, avoiding those borrowed from foreign tongues. It represents a movement of linguistic purism applied to English, seeking to return the language to its more traditional form by minimizing the influence of external languages.

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import WordWidget from "../components/WordWidget";
+import WordWidget from "@/components/WordWidget";
 
 export default function WordbookHome() {
   return (

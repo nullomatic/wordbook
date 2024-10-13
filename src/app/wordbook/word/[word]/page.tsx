@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import { Query } from "@/lib/query";
 import { Longhand, POS } from "@/lib/constants";
-import OriginWidget from "@/app/components/OriginWidget";
-import SynonymCard from "@/app/components/SynonymCard";
+import OriginWidget from "@/components/OriginWidget";
+import SynonymCard from "@/components/SynonymCard";
 
 export default async function Page({ params }: { params: { word: string } }) {
   const word = decodeURIComponent(params.word);

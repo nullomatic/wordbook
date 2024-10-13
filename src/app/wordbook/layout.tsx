@@ -1,5 +1,5 @@
-import SidebarLeft from "../components/SidebarLeft";
-import SidebarRight from "../components/SidebarRight";
+import SidebarLeft from "@/components/SidebarLeft";
+import SidebarRight from "@/components/SidebarRight";
 
 const sidebarSections = [
   {

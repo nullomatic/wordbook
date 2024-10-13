@@ -1,0 +1,17 @@
+[Unit]
+Description=Anglish Wordbook Application Service
+After=network.target
+
+[Service]
+User=appuser
+ProtectSystem=full
+ProtectHome=yes
+NoNewPriveleges=true
+WorkingDirectory=/app
+ExecStart=/app/system/start.sh
+Restart=always
+Environment=NODE_ENV=production
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -4,10 +4,10 @@ import { fileURLToPath } from "url";
 import { globSync, Path } from "glob";
 import * as winston from "winston";
 import YAML from "yaml";
-import { CompiledEntry } from "./types";
 import csv from "csvtojson";
 
 const SOURCE_DIR = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+
 const logFormat = winston.format.printf(function (info) {
   return `${info.timestamp}-${info.level}: ${info.message}`;
 });
@@ -55,6 +55,8 @@ export function getPath(...segments: string[]) {
   if (segments.length === 1 && isAbsolute(segments[0])) {
     return segments[0];
   }
+  console.log("SOURCE_DIR:", SOURCE_DIR);
+  console.log("returning path:", join(SOURCE_DIR, ...segments));
   return join(SOURCE_DIR, ...segments);
 }
 

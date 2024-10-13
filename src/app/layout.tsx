@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "react-toastify/dist/ReactToastify.css";
-import HeaderTabs from "./components/HeaderTabs";
+import HeaderTabs from "../components/HeaderTabs";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTree } from "@fortawesome/free-solid-svg-icons";

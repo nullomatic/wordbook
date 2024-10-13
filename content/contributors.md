@@ -1,3 +1,8 @@
+---
+title: For Contributors
+posted: 1970-01-01
+---
+
 # For Contributors
 
 ## Differing Opinions on How "English" the Vocabulary of Anglish Should Be

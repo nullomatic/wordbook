@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
 import { useRef, useState } from "react";
 import { toast } from "react-toastify";
-import { useCopyToClipboard } from "../hooks/useCopyToClipboard";
+import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
 
 // Tried to do this dynamically, but Tailwind's purging thingy
 // needs all class strings to be pre-built and not constructed.
