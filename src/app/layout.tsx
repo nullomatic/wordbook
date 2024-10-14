@@ -3,11 +3,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "react-toastify/dist/ReactToastify.css";
-import HeaderTabs from "../components/HeaderTabs";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTree } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTree } from "@fortawesome/free-solid-svg-icons";
 import { Bounce, ToastContainer } from "react-toastify";
+import Search from "@/components/Search";
+import NavTabs from "@/components/NavTabs";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
@@ -39,15 +40,36 @@ export default function RootLayout({
           className="text-sm"
         />
 
-        <HeaderTabs />
+        <div className="z-40 w-full shadow-lg">
+          <NavTabs />
+          <div className="relative z-50 flex w-full flex-col bg-white">
+            <div className="flex w-full items-center bg-stone-800 lg:hidden">
+              <div className="flex h-14 w-14 items-center justify-center"></div>
+              <div className="grow space-x-1 text-center">
+                <FontAwesomeIcon icon={faTree} className="text-green-600" />
+                <span className="text-lg font-bold text-white">
+                  anglish.wiki
+                </span>
+              </div>
+              <div className="flex h-14 w-14 items-center justify-center text-stone-300">
+                <FontAwesomeIcon icon={faBars} />
+              </div>
+            </div>
+            <div className="mx-auto w-full lg:max-w-4xl">
+              <Search />
+            </div>
+          </div>
+        </div>
 
-        <main className="flex w-full grow flex-col">{children}</main>
+        <main className="flex w-full max-w-screen-2xl grow flex-col">
+          {children}
+        </main>
 
         {/* Footer */}
-        <footer className="w-full bg-stone-200 px-3 pb-16 pt-12 text-center text-stone-800 dark:text-stone-600">
+        <footer className="w-full bg-stone-800 px-3 pb-16 pt-12 text-center text-stone-300 dark:text-stone-600">
           <Link href="/" className="mb-10 space-x-1.5 p-3 text-2xl font-bold">
-            <FontAwesomeIcon icon={faTree} className="text-green-700" />
-            <span className="hidden md:inline">anglish.wiki</span>
+            <FontAwesomeIcon icon={faTree} className="text-green-600" />
+            <span className="hidden text-white md:inline">anglish.wiki</span>
           </Link>
 
           <div className="my-8 space-y-3">

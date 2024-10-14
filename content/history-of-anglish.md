@@ -3,7 +3,7 @@ title: History of Anglish
 posted: 1970-01-01
 ---
 
-# History of Anglish
+# The History of Anglish
 
 The history of Anglish spans over eight centuries, evolving in various forms along the way. Although the term "Anglish" (or New-English) was only coined in 1966, the core idea of purifying English by favoring native words has appeared in the works of writers as far back as the 1100s. The status and condition of English at different points in history have shaped the perspectives of those advocating for its purer form.
 

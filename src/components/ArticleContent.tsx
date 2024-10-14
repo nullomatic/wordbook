@@ -6,13 +6,13 @@ export default function ArticleContent({
   contentEnglish: string;
 }) {
   return (
-    <div className="flex w-full flex-col items-center space-y-6 py-24">
+    <div className="flex w-full flex-col items-center space-y-6">
       <Markdown
         className="w-full max-w-2xl space-y-6"
         components={{
           h1: ({ node, ...props }) => (
             <h1
-              className="py-6 text-center font-sans text-5xl font-bold"
+              className="font-fraktur py-6 text-center text-5xl font-bold lg:text-6xl"
               {...props}
             />
           ),

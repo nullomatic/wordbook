@@ -25,10 +25,10 @@ export default function SidebarLeft({
   const pathname = usePathname();
   const isActive = (path: string) => pathname.startsWith(path);
   return (
-    <div className="sticky top-0 hidden h-screen w-full shrink xl:block">
+    <div className="sticky top-0 hidden h-screen w-1/4 max-w-sm lg:block">
       <div className="h-full space-y-3 border-r-2 p-6 pt-9">
         <Link href="/" className="group flex items-center justify-between">
-          <div className="text-2xl font-bold">{title}</div>
+          <div className="text-xl font-bold">{title}</div>
           <FontAwesomeIcon
             className="text-stone-400 group-hover:text-black"
             icon={faLink}
@@ -55,7 +55,7 @@ export default function SidebarLeft({
                     )}
                     href={item.link}
                   >
-                    <div>{item.title}</div>
+                    <div className="mr-6 text-nowrap">{item.title}</div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
                       className={classNames(
@@ -71,22 +71,6 @@ export default function SidebarLeft({
             </div>
           </section>
         ))}
-
-        <div className="py-6">
-          {new Array(1).fill(0).map((el, i) => (
-            <div key={`some-photo-${i}`}>
-              <Image
-                src={`https://picsum.photos/seed/${Math.round(
-                  Math.random() * (i + 1) * 10000,
-                )}/600/400`}
-                alt=""
-                width={600}
-                height={400}
-                className="w-full rounded-lg"
-              />
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );

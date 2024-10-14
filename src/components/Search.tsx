@@ -120,52 +120,76 @@ export default function Search() {
   }
 
   return (
-    <div className="relative z-20 w-full">
-      <div className="absolute left-4 top-4 z-20 flex h-4 w-4 items-center">
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="text-sm" />
-      </div>
-      <input
-        className="relative z-10 h-12 w-full rounded-lg border border-stone-300 bg-white px-11 py-4 shadow-inner outline-none ring-pink-300 focus:border-stone-400 dark:border-stone-800 dark:bg-stone-800 dark:placeholder:text-stone-400"
-        placeholder="Search the wordbook..."
-        ref={inputRef}
-        onChange={handleInput}
-        onKeyDown={handleKeyDown}
-        onFocus={handleFocus}
-        onBlur={handleBlur}
-        value={input}
-      />
-      <div className="absolute left-1 top-1 h-12 w-full rounded-lg bg-stone-200 dark:bg-stone-600"></div>
-      <div className="absolute right-3 top-4 z-20 flex h-4 w-10 items-center justify-end">
-        {isMobile ? (
-          // Mobile 'X' icon to clear search
-          <div
-            className={classNames(
-              `cursor-pointer text-sm text-stone-500 hover:text-black dark:text-stone-200`,
-              { hidden: !input },
-            )}
-            onClick={() => {
-              setInput("");
-              setResultList([]);
-            }}
-          >
-            <FontAwesomeIcon icon={faCircleXmark} />
-          </div>
-        ) : (
-          // Desktop 'Ctrl K' and 'Esc' indicators
-          <div
-            className={classNames(
-              `cursor-pointer whitespace-nowrap rounded border border-stone-400 px-1 py-0.5 text-xs font-bold uppercase text-stone-400 hover:border-stone-800 hover:text-stone-800 dark:text-stone-200`,
-            )}
-            onClick={() => {
-              setInput("");
-              setResultList([]);
-            }}
-          >
-            {hasFocus ? "Esc" : "Ctrl K"}
-          </div>
-        )}
-      </div>
-      {
+    <div className="p-3 lg:px-0 lg:pr-1">
+      <div className="relative z-20 w-full">
+        {/* Search Icon */}
+        <div
+          className={classNames(
+            hasFocus ? "text-stone-800" : "text-stone-500",
+            "absolute left-4 top-4 z-20 flex h-4 w-4 items-center",
+          )}
+        >
+          <FontAwesomeIcon icon={faMagnifyingGlass} className="text-sm" />
+        </div>
+
+        {/* Input */}
+        <input
+          className={classNames(
+            "relative z-10 h-12 w-full rounded-lg border border-stone-300 bg-white px-11 py-4 shadow-inner outline-none",
+            "ring-pink-300 placeholder:text-stone-400 focus:border-stone-400 dark:border-stone-800 dark:bg-stone-800 dark:placeholder:text-stone-400",
+          )}
+          placeholder="Search the wordbook..."
+          ref={inputRef}
+          onChange={handleInput}
+          onKeyDown={handleKeyDown}
+          onFocus={handleFocus}
+          onBlur={handleBlur}
+          value={input}
+        />
+
+        {/* Shadow */}
+        <div
+          className={classNames(
+            hasFocus
+              ? "bg-stone-300 dark:bg-stone-600"
+              : "bg-stone-200 dark:bg-stone-600",
+            "absolute left-1 top-1 h-12 w-full rounded-lg",
+          )}
+        ></div>
+
+        {/* Right Side */}
+        <div className="absolute right-3 top-4 z-20 flex h-4 w-10 items-center justify-end">
+          {isMobile ? (
+            // Mobile 'X' icon to clear search
+            <div
+              className={classNames(
+                `cursor-pointer text-sm text-stone-500 hover:text-black dark:text-stone-200`,
+                { hidden: !input },
+              )}
+              onClick={() => {
+                setInput("");
+                setResultList([]);
+              }}
+            >
+              <FontAwesomeIcon icon={faCircleXmark} />
+            </div>
+          ) : (
+            // Desktop 'Ctrl K' and 'Esc' indicators
+            <div
+              className={classNames(
+                `cursor-pointer whitespace-nowrap rounded border border-stone-400 px-1 py-0.5 text-xs font-bold uppercase text-stone-400 hover:border-stone-800 hover:text-stone-800 dark:text-stone-200`,
+              )}
+              onClick={() => {
+                setInput("");
+                setResultList([]);
+              }}
+            >
+              {hasFocus ? "Esc" : "Ctrl K"}
+            </div>
+          )}
+        </div>
+
+        {/* Search Results */}
         <div
           ref={resultsRef}
           className={classNames(
@@ -216,7 +240,7 @@ export default function Search() {
             </Link>
           ))}
         </div>
-      }
+      </div>
     </div>
   );
 }

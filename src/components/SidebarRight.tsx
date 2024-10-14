@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function SidebarRight() {
   return (
-    <div className="sticky top-0 hidden h-screen w-full shrink xl:block">
+    <div className="sticky top-0 hidden h-screen w-1/4 max-w-sm xl:block">
       <div className="h-full space-y-3 border-l-2 p-6 pt-9">
         <Link
           href="https://store.anglish.wiki/"
@@ -15,7 +15,7 @@ export default function SidebarRight() {
             className="text-stone-400 group-hover:text-black"
             icon={faLink}
           />
-          <div className="text-2xl font-bold">Ye Olde Shoppe</div>
+          <div className="text-xl font-bold">Ye Olde Shoppe</div>
         </Link>
 
         <div className="grid grid-cols-2 gap-3">

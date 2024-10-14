@@ -13,6 +13,7 @@ const config: Config = {
         body: ["'Source Sans 3'", "Helvetica", "Arial", "sans-serif"],
         sans: ["'Source Sans 3'", "Helvetica", "Arial", "sans-serif"],
         serif: ["'Merriweather'", "Georgia", "serif"],
+        fraktur: ["'UnifrakturCook'", "cursive"],
       },
       backgroundImage: {
         custom: "linear-gradient(to right, #ff7e5f, #feb47b)",

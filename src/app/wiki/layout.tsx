@@ -56,9 +56,9 @@ export default function WikiLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex w-full">
       <SidebarLeft title="Anglish Wiki" sections={sidebarSections} />
-      <div className="w-full shrink-0 pb-8 font-serif leading-loose lg:mx-6 lg:max-w-4xl">
+      <div className="grow px-3 py-24 font-serif leading-loose lg:mx-6 xl:px-16 2xl:px-24">
         {children}
       </div>
       <SidebarRight />
