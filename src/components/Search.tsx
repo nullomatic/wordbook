@@ -120,7 +120,7 @@ export default function Search() {
   }
 
   return (
-    <div className="p-3 lg:px-0 lg:pr-1">
+    <div className="mx-auto w-full p-3 md:max-w-2xl lg:max-w-full lg:px-0">
       <div className="relative z-20 w-full">
         {/* Search Icon */}
         <div

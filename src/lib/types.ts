@@ -121,3 +121,14 @@ export type WordSchema = {
   rhyme: string;
   is_anglish: boolean;
 };
+
+export type TranslationTerm = {
+  normal: string;
+  pos: POS;
+  text: string;
+  pre: string;
+  post: string;
+  synonyms: { word: string }[];
+  isAnglish: boolean;
+  willTranslate: boolean;
+};

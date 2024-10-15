@@ -3,9 +3,10 @@ import { POS } from "@/lib/constants";
 import { DatabaseClient } from "@/lib/client";
 import pg from "pg";
 import { Query } from "@/lib/query";
-import { logger, readCSV } from "@/lib/util";
+import { logger } from "@/lib/util";
 import _ from "lodash";
 import View from "compromise/view/one";
+import { TranslationTerm } from "@/lib/types";
 
 type RestoreFunctionType = (word: string) => string;
 
@@ -128,16 +129,7 @@ export async function translateText(input: string, options: POS[]) {
       restoreFn?: RestoreFunctionType;
     }
   > = {};
-  const terms: {
-    normal: string;
-    pos: POS;
-    text: string;
-    pre: string;
-    post: string;
-    synonyms: { word: string }[];
-    isAnglish: boolean;
-    willTranslate: boolean;
-  }[] = [];
+  const terms: TranslationTerm[] = [];
 
   let translation = "";
 
@@ -173,33 +165,35 @@ export async function translateText(input: string, options: POS[]) {
     }
   }
 
-  const wordPairs = Object.values(dict)
+  const synonymsCache: any = {};
+  const wordPairs: any = Object.values(dict)
     .map(({ lemma }: any) => pg.escapeLiteral(lemma) as any)
     .join(",");
-  const sql = Query.getTemplate("synonymsMultiple").replaceAll(
-    "<words>",
-    wordPairs,
-  );
+  const hasWordsToTranslate = !!wordPairs.length;
+
+  if (hasWordsToTranslate) {
+    const sql = Query.getTemplate("synonymsMultiple").replaceAll(
+      "<words>",
+      wordPairs,
+    );
+
+    const results = await DatabaseClient.query(sql);
+
+    for (const result of results.rows) {
+      const { source_word } = result;
+      if (!synonymsCache[source_word]) {
+        synonymsCache[source_word] = [];
+      }
+      synonymsCache[source_word].push(result);
+    }
+  }
 
   // TODO: The synonym matcher fails where words have multiple of the same POS, like n-1/n-2
-
-  //console.log("wordPairs:", wordPairs);
-
-  const results = await DatabaseClient.query(sql);
-  const synonymsCache: any = {};
-
-  for (const result of results.rows) {
-    const { source_word } = result;
-    if (!synonymsCache[source_word]) {
-      synonymsCache[source_word] = [];
-    }
-    synonymsCache[source_word].push(result);
-  }
 
   for (const term of terms) {
     if (term.willTranslate) {
       const cached = dict[term.normal];
-      const synonymsData = synonymsCache[cached.lemma];
+      const synonymsData = synonymsCache[cached?.lemma];
       if (synonymsData) {
         term.isAnglish = synonymsData.find(
           ({ synonym }: any) => synonym === cached.lemma,
@@ -248,6 +242,8 @@ export async function translateText(input: string, options: POS[]) {
     // }
     // translation += term.post;
   }
+
+  console.log("terms:", terms);
 
   return terms;
 }

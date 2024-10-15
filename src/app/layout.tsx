@@ -24,23 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="light">
       <body className="flex min-h-screen flex-col items-center bg-white text-black dark:bg-stone-900 dark:text-white">
-        <ToastContainer
-          position="bottom-center"
-          autoClose={5000}
-          limit={3}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="light"
-          transition={Bounce}
-          className="text-sm"
-        />
-
-        <div className="z-40 w-full shadow-lg">
+        {/* Header */}
+        <header className="z-40 w-full shadow-lg">
           <NavTabs />
           <div className="relative z-50 flex w-full flex-col bg-white">
             <div className="flex w-full items-center bg-stone-800 lg:hidden">
@@ -59,11 +44,10 @@ export default function RootLayout({
               <Search />
             </div>
           </div>
-        </div>
+        </header>
 
-        <main className="flex w-full max-w-screen-2xl grow flex-col">
-          {children}
-        </main>
+        {/* Main */}
+        <main className="flex w-full max-w-screen-2xl grow">{children}</main>
 
         {/* Footer */}
         <footer className="w-full bg-stone-800 px-3 pb-16 pt-12 text-center text-stone-300 dark:text-stone-600">
@@ -105,6 +89,22 @@ export default function RootLayout({
 
           <div>&copy; {new Date().getFullYear()}</div>
         </footer>
+
+        <ToastContainer
+          position="bottom-center"
+          autoClose={5000}
+          limit={3}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Bounce}
+          className="text-sm"
+        />
       </body>
     </html>
   );

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function SidebarRight() {
   return (
-    <div className="sticky top-0 hidden h-screen w-1/4 max-w-sm xl:block">
+    <div className="sticky top-0 hidden w-1/4 max-w-sm xl:block">
       <div className="h-full space-y-3 border-l-2 p-6 pt-9">
         <Link
           href="https://store.anglish.wiki/"

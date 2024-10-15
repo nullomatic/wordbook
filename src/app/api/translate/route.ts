@@ -1,12 +1,12 @@
-import { POS } from "@/lib/constants";
+import { MAX_TRANSLATION_LENGTH, POS } from "@/lib/constants";
 import { translateText } from "../controllers/translateController";
 import { logger } from "@/lib/util";
 
 export async function POST(request: Request) {
   try {
     const { input, options } = await request.json();
-    validateInput(input);
-    validateOptions(options);
+    validateTranslationInput(input);
+    validateTranslationOptions(options);
     const terms = await translateText(input, options);
     return Response.json(terms);
   } catch (error) {
@@ -15,13 +15,18 @@ export async function POST(request: Request) {
   }
 }
 
-function validateInput(input: unknown) {
+function validateTranslationInput(input: unknown) {
   if (typeof input !== "string") {
     throw new Error("Invalid input");
   }
+  if (input.length > MAX_TRANSLATION_LENGTH) {
+    throw new Error(
+      `Translation input length must be less than ${MAX_TRANSLATION_LENGTH}`,
+    );
+  }
 }
 
-function validateOptions(options: unknown) {
+function validateTranslationOptions(options: unknown) {
   if (!Array.isArray(options)) {
     throw new Error("Invalid options");
   }

@@ -56,12 +56,12 @@ export default function WikiLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex w-full">
+    <>
       <SidebarLeft title="Anglish Wiki" sections={sidebarSections} />
-      <div className="grow px-3 py-24 font-serif leading-loose lg:mx-6 xl:px-16 2xl:px-24">
+      <div className="grow px-5 py-24 font-serif leading-loose lg:mx-6 xl:px-16 2xl:px-24">
         {children}
       </div>
       <SidebarRight />
-    </div>
+    </>
   );
 }
