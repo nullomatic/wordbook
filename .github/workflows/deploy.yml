@@ -17,4 +17,4 @@ jobs:
           username: appuser
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            echo 'yooooo waddup'"
+            echo 'yooooo waddup'
