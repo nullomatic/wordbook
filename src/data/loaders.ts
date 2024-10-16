@@ -1,7 +1,6 @@
 import { createInterface } from "node:readline/promises";
 import axios from "axios";
 import * as cheerio from "cheerio";
-import csv from "csvtojson";
 import _ from "lodash";
 import prompt from "prompt";
 import {

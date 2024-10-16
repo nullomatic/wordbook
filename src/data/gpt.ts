@@ -1,15 +1,14 @@
-import 'dotenv/config';
-import { appendFile } from 'fs/promises';
-import cliProgress from 'cli-progress';
-import OpenAI from 'openai';
-import { getPath, logger } from './util.js';
+import { appendFile } from "fs/promises";
+import cliProgress from "cli-progress";
+import OpenAI from "openai";
+import { getPath, logger } from "./util.js";
 
 export const openai = new OpenAI();
 
-const GPT_CONDENSED_PATH_OUT = getPath('/gpt/gpt-condensed.out');
-const GPT_CONDENSED_PATH_ERR = getPath('/gpt/gpt-condensed.err');
-const GPT_MATCHED_PATH_OUT = getPath('/gpt/gpt-matched.out');
-const GPT_MATCHED_PATH_ERR = getPath('/gpt/gpt-matched.err');
+const GPT_CONDENSED_PATH_OUT = getPath("/gpt/gpt-condensed.out");
+const GPT_CONDENSED_PATH_ERR = getPath("/gpt/gpt-condensed.err");
+const GPT_MATCHED_PATH_OUT = getPath("/gpt/gpt-matched.out");
+const GPT_MATCHED_PATH_ERR = getPath("/gpt/gpt-matched.err");
 
 const MSG_CONDENSE_SENSES = `
   "Anglish" is a linguistically pure, Germanic version of English - how English would be without Latin influence. \
@@ -67,9 +66,9 @@ export async function condenseSenses(toCondense, batchCount) {
   const bar = new cliProgress.SingleBar(
     {
       format:
-        'senses:condensed [{bar}] {percentage}% | ETA: {eta_formatted} | {value}/{total}',
+        "senses:condensed [{bar}] {percentage}% | ETA: {eta_formatted} | {value}/{total}",
     },
-    cliProgress.Presets.legacy
+    cliProgress.Presets.legacy,
   );
 
   let batchesProcessed = 0;
@@ -83,7 +82,7 @@ export async function condenseSenses(toCondense, batchCount) {
         res = JSON.parse(res);
         const data = JSON.stringify({ word, [pos]: res });
         logger.verbose(data);
-        await appendFile(GPT_CONDENSED_PATH_OUT, data + '\n');
+        await appendFile(GPT_CONDENSED_PATH_OUT, data + "\n");
       } catch (error) {
         const data = `${word}:${pos}\n`;
         await appendFile(GPT_CONDENSED_PATH_ERR, data);
@@ -98,9 +97,9 @@ export async function matchSenses(toMatch, matchCount) {
   const bar = new cliProgress.SingleBar(
     {
       format:
-        'senses:matched [{bar}] {percentage}% | ETA: {eta_formatted} | {value}/{total}',
+        "senses:matched [{bar}] {percentage}% | ETA: {eta_formatted} | {value}/{total}",
     },
-    cliProgress.Presets.legacy
+    cliProgress.Presets.legacy,
   );
 
   let matchesProcessed = 0;
@@ -110,7 +109,7 @@ export async function matchSenses(toMatch, matchCount) {
       const _pos = longForm(pos);
       const { senses, candidates } = toMatch[word][pos];
       const message = `${word}:${_pos}\n${JSON.stringify(
-        senses
+        senses,
       )}\n${JSON.stringify(candidates)}`;
       try {
         let res = await createCompletion(MSG_MATCH_SENSES, message);
@@ -122,7 +121,7 @@ export async function matchSenses(toMatch, matchCount) {
           }
         }
         logger.verbose(data);
-        await appendFile(GPT_MATCHED_PATH_OUT, data + '\n');
+        await appendFile(GPT_MATCHED_PATH_OUT, data + "\n");
       } catch (error) {
         const data = `${word}:${pos}\n`;
         await appendFile(GPT_MATCHED_PATH_ERR, data);
@@ -137,15 +136,15 @@ async function createCompletion(systemMessage, userMessage) {
   const completion = await openai.chat.completions.create({
     messages: [
       {
-        role: 'system',
+        role: "system",
         content: systemMessage,
       },
       {
-        role: 'user',
+        role: "user",
         content: userMessage,
       },
     ],
-    model: 'gpt-4o',
+    model: "gpt-4o",
   });
   return completion.choices[0].message.content;
 }
@@ -155,30 +154,30 @@ export function estimateReqTime(reqCount, descriptor) {
   const minutes = Math.round(reqCount / (60 * reqsPerSecond));
   const hours = (minutes / 60).toFixed(1);
   logger.info(
-    `${descriptor}: ${reqCount} total requests to ChatGPT (${hours} hours)`
+    `${descriptor}: ${reqCount} total requests to ChatGPT (${hours} hours)`,
   );
 }
 
 function longForm(pos) {
   switch (pos) {
-    case 'n':
-      return 'noun';
-    case 'v':
-      return 'verb';
-    case 'a':
-      return 'adjective';
-    case 'r':
-      return 'adverb';
-    case 's':
-      return 'satellite';
-    case 'c':
-      return 'conjunction';
-    case 'p':
-      return 'preposition';
-    case 'x':
-      return 'other';
-    case 'u':
-      return 'unknown';
+    case "n":
+      return "noun";
+    case "v":
+      return "verb";
+    case "a":
+      return "adjective";
+    case "r":
+      return "adverb";
+    case "s":
+      return "satellite";
+    case "c":
+      return "conjunction";
+    case "p":
+      return "preposition";
+    case "x":
+      return "other";
+    case "u":
+      return "unknown";
     default:
       throw new Error(`Unrecognized part of speech: ${pos}`);
   }

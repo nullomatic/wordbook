@@ -10,11 +10,8 @@ declare global {
 export class DatabaseClient {
   private static client: pg.Client;
   private static options: pg.ClientConfig = {
-    user: "postgres",
-    password: "password", // TODO: Make environment variables
-    host: "127.0.0.1",
-    port: 5432,
-    query_timeout: 2000,
+    connectionString: process.env.POSTGRES_URL,
+    query_timeout: 10000,
   };
   private static isConnected: boolean;
 
@@ -73,6 +70,7 @@ export class DatabaseClient {
 export class RedisClient {
   public static client: redis.RedisClientType; // TODO: Make this like the Postgres client class
   private static options: redis.RedisClientOptions = {
+    url: process.env.REDIS_URL,
     // Disabling reconnectStrategy causes client connection attempts to be driven by incoming requests.
     // Otherwise, the client will reattempt to connect forever and cause requests to hang indefinitely.
     socket: { reconnectStrategy: false },

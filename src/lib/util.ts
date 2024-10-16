@@ -55,8 +55,6 @@ export function getPath(...segments: string[]) {
   if (segments.length === 1 && isAbsolute(segments[0])) {
     return segments[0];
   }
-  console.log("SOURCE_DIR:", SOURCE_DIR);
-  console.log("returning path:", join(SOURCE_DIR, ...segments));
   return join(SOURCE_DIR, ...segments);
 }
 

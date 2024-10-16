@@ -17,4 +17,5 @@ jobs:
           username: appuser
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            echo 'yooooo waddup'
+            chmod +x system/start.sh &&
+            ./system/start.sh

@@ -1,0 +1,32 @@
+name: anglish-wiki
+services:
+  nextjs:
+    container_name: anglish-wiki-nextjs
+    build: .
+    ports:
+      - "80:3000"
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    container_name: anglish-wiki-postgres
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - anglish-wiki-postgres-data:/var/lib/postgresql/data
+
+  redis:
+    container_name: anglish-wiki-redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - anglish-wiki-redis-data:/data
+
+volumes:
+  anglish-wiki-postgres-data:
+  anglish-wiki-redis-data:

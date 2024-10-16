@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { Command, OptionValues } from "commander";
 import compileSources from "./compile";
 import {
@@ -44,7 +45,10 @@ function parseOptions(): OptionValues {
   program.option("--compile", "Compile all word sources");
   program.option("--populate", "Populate database");
   program.option("--rebuild-search-index", "Rebuild Redis search index");
-  program.option("--insert-freq-data", "Rebuild Redis search index");
+  program.option(
+    "--insert-freq-data",
+    "Insert word frequency data into Postgres",
+  );
   program.option("--save <sources>", "Save <sources> to disk");
   program.option("--condense-senses", "Condense word senses with ChatGPT");
   program.option("--match-senses", "Match word senses with ChatGPT");
