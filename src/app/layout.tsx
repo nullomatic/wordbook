@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
-      <body className="flex min-h-screen flex-col items-center bg-white text-black dark:bg-stone-900 dark:text-white">
+      <body className="flex min-h-screen w-screen flex-col items-center overflow-x-hidden bg-white text-black dark:bg-stone-900 dark:text-white">
         {/* Header */}
         <header className="z-40 w-full shadow-lg">
           <NavTabs />
